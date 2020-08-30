@@ -1,0 +1,922 @@
+User usc430af start time 1580509319 end 1581390189
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430af-intro-0|U |000000000|usc430af|:|
+INPUT|usc430af-intro-1|U |000000000|usc430af|:|
+INPUT|usc430af-intro-2|U |1580509319|usc430af|intro:ls     |temp
+
+INPUT|usc430af-intro-3|A0 A2 A3 A4 A1 |1580509337|usc430af|intro:locate intro|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430af-intro-4|A4 A1 A0 A2 A3 |1580509346|usc430af|intro:locate intro|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430af-intro-5|M4 |1580509353|usc430af|intro:find / intro      |/
+/.hidden
+/.hidden/asdf136Intro-5kqlw.jpeg
+/local
+/local/logs
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/vmlinuz.old
+/users
+/users/alotero
+/users/giotah
+/users/dbosch
+/users/regste07
+/users/aashraya
+/users/sunshine
+/users/selenaws
+/users/mlocasto
+/users/thang89
+/users/barada24
+/users/rweiss
+/users/dagny64
+/users/usc430af
+/users/usc430af/.forward
+/users/usc430af/.ssl
+/users/usc430af/.ssl/emulab.pem
+/users/usc430af/.ssh
+/users/usc430af/.ssh/id_rsa
+/users/usc430af/.ssh/id_rsa.pub
+/users/usc430af/.ssh/known_hosts
+/users/usc430af/.ssh/id_emulab.pub
+/users/usc430af/.ssh/authorized_keys
+/users/usc430af/.ssh/external_keys
+/users/usc430af/.gnupg
+/users/usc430af/.gnupg/private-keys-v1.d
+/users/usc430af/.cache
+/users/usc430af/.cache/motd.legal-displayed
+/users/usc430af/.bash_history
+/users/usc430af/temp
+/users/usc430af/temp/test1.txt
+/user
+INPUT|usc430af-intro-6|A4 A1 A0 A2 A3 |1580509377|usc430af|intro:find / "intro" -o "*jpg"|find: paths must precede expression: `*jpg'
+
+INPUT|usc430af-intro-7|M2 M0 |1580509388|usc430af|intro:find / -name  "intro" -o -name "*jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-resolved.service-l2untO': Permission denied
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-timesyncd.service-lxMGES': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430af-intro-8|A3 A2 A0 A1 A4 |1580509430|usc430af|intro:find . -name  "intro" -o -name "*jpg"|
+INPUT|usc430af-intro-9|A1 A4 A0 A2 A3 |1580509437|usc430af|intro:find \ -name  "intro" -o -name "*jpg"|find: invalid expression; you have used a binary operator '-o' with nothing before it.
+
+INPUT|usc430af-intro-10|A4 A1 A2 A3 A0 |1580509446|usc430af|intro:find / -name  "intro" -a -name "*jpg"|find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-resolved.service-l2untO': Permission denied
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-timesyncd.service-lxMGES': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430af-intro-11|M2 M0 |1580509462|usc430af|intro:find / -name  "intro" -o -name "*jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-resolved.service-l2untO': Permission denied
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-timesyncd.service-lxMGES': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430af-intro-12|M2 M0 |1580510233|usc430af|intro:find / -name  "intro" -o -name "*jpg" | head -n 5|find: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+'/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-resolved.service-l2untO': Permission denied
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-timesyncd.service-lxMGES': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430af-intro-13|M2 M0 |1580510284|usc430af|intro:find / -name  "intro" -o -name "*jpg" | head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-14|A0 A2 A3 A1 A4 |1580510320|usc430af|intro:find / -name  "intro" -a -name "*jpg" | head -n 5|
+INPUT|usc430af-intro-15|M2 M0 |1580510329|usc430af|intro:find / -name  "intro" -o -name "*jpg" | head -n 5|^[[A/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-16|A4 A1 A0 A2 A3 |1580510342|usc430af|intro:find / -name  "intro-" -a -name "*jpg" | head -n 5|
+INPUT|usc430af-intro-17|M2 M0 |1580510368|usc430af|intro:find / -name  "intro-" -o -name "*jpg" | head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-18|A4 A1 A0 A2 A3 |1580510399|usc430af|intro:find / -name  "intro-" | head -n 5|
+INPUT|usc430af-intro-19|A3 A2 A0 A1 A4 |1580510411|usc430af|intro:find / -name  "intro" | head -n 5|
+INPUT|usc430af-intro-20|M2 M0 |1580510425|usc430af|intro:find / -name  "intro-"o6@-o -name "*jpg" | head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-21|M3 M2 M0 |1580510461|usc430af|intro:find / -iname  "intro" -o -iname "*jpg" | head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-22|M3 M2 M0 |1580510496|usc430af|intro:find / -iname  "intro" -o -iname "*jpg" | head -n 5 | sort|/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-23|M3 M2 M0 |1580510511|usc430af|intro:find / -iname  "intro-" -o -iname "*jpg" | head -n 5       |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-24|M3 M2 M0 |1580510525|usc430af|intro:find / -iname  "136intro-" -o -iname "*jpg" | head -n 5 |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-25|M3 M2 M0 |1580510993|usc430af|intro:find / -iname  "intro-2" -o -iname "*jpg" | head -n 5 |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-26|A0 A2 A3 A4 A1 |1580511009|usc430af|intro:find / -iname  "intro-2" | head -n 5 |
+INPUT|usc430af-intro-27|A1 A4 A0 A2 A3 |1580511018|usc430af|intro:find / -iname  "-2" | head -n 5 |
+INPUT|usc430af-intro-28|M3 M2 M0 |1580511029|usc430af|intro:find / -iname  "int 17@-o -iname "*jpg" | head -n 5 |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-29|M3 M2 M0 |1580511049|usc430af|intro:find /  -iname "*jpg" | head -n 5 |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-30|M3 M2 M0 |1580511079|usc430af|intro:find /  -iname "*.jpg" | head -n 5 |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-31|M3 M2 M0 |1580511130|usc430af|intro:find / 15@-iname  "intintro" -o -iname "*.jpg" | head -n 5    |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-32|A3 A2 A0 A4 A1 |1580511161|usc430af|intro:find root -iname  "intro" -o -iname "*.jpg" | head -n 5|find: 'root': No such file or directory
+
+INPUT|usc430af-intro-33|M3 M2 M0 |1580511193|usc430af|intro:find / -iname  "Intro" -o -iname "*.jpg" | head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-34|M3 M2 M0 |1580511219|usc430af|intro:find / -iname "ntro" -o -iname "*.jpg"  -o -iname "INTRO" | head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-35|M3 M2 M0 |1580511332|usc430af|intro:find / -iname "intro-" -o -iname "*.jpg"  -o -iname "INTRO-" | head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-36|M3 M2 M0 |1580511384|usc430af|intro:find / -iname "intro-" -o -iname "*.jpg"  -o -iname "INTRO-" -o -iname "*JPG"| head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-37|M3 M2 M0 |1580511429|usc430af|intro:find / -name "intro-" -o -name "*.jpg"  -o -name "INTRO-" -o -name "*JPG"| head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-38|M3 M2 M0 |1580511453|usc430af|intro:find / -name "*intro-" -o -name "*.jpg"  -o -name "*INTRO" -o -name "*.JPG"| head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-39|A1 A4 A0 A2 A3 |1580511476|usc430af|intro:find root  -name "*intro-" -o -name "*.jpg"  -o -name "*INTRO" -o -name "*.JPG"| head -n 5|find: 'root': No such file or directory
+
+INPUT|usc430af-intro-40|A1 A4 A0 A2 A3 |1580511481|usc430af|intro:find .  -name "*intro-" -o -name "*.jpg"  -o -name "*INTRO" -o -name "*.JPG"| head -n 5|
+INPUT|usc430af-intro-41|M3 M2 M0 |1580511489|usc430af|intro:find / -name "*intro-" -o -name "*.jpg"  -o -name "*INTRO" -o -name "*.JPG"| head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-42|U |1580511519|usc430af|intro:cd ..|
+INPUT|usc430af-intro-43|U |1580511522|usc430af|intro:cd .. |
+INPUT|usc430af-intro-44|U |1580511526|usc430af|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430af-intro-45|U |1580511527|usc430af|intro:cd ..|
+INPUT|usc430af-intro-46|M3 M2 M0 |1580511539|usc430af|intro:find .  -name "*intro-" -o -name "*.jpg"  -o -name "*INTRO" -o -name "*.JPG"| head -n 5|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-47|M2 M0 |1580511569|usc430af|intro:find .  -name "*intro-" -o -name "*.jpg"| head -n 5|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-48|M3 M2 M0 |1580511589|usc430af|intro:find .  -iname "*intro-" -o -iname "*.jpg"| head -n 5|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-49|M3 M2 M0 |1580511599|usc430af|intro:find .  -iname "intro-" -o -iname "*.jpg"| head -n 5|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-50|M3 M2 M0 |1580511611|usc430af|intro:find .  -iname "INTRO" -o -iname "*.jpg"| head -n 5|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-51|M3 M2 M0 |1580511622|usc430af|intro:find .  -iname "INTRO" -o -iname "*.JPG"| head -n 5|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-52|M3 M2 M0 |1580511656|usc430af|intro:find .  -iname "int" -o -iname "*.JPG"| head -n 5|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+
+INPUT|usc430af-intro-53|U |1580511723|usc430af|intro:cd users|
+INPUT|usc430af-intro-54|U |1580511729|usc430af|intro:cd usc430af|
+INPUT|usc430af-intro-55|U |1580511730|usc430af|intro:ls|temp
+
+INPUT|usc430af-intro-56|U |1580511749|usc430af|intro:mkdir top_secret|
+INPUT|usc430af-intro-57|U |1580511751|usc430af|intro:ls|temp  top_secret
+
+INPUT|usc430af-intro-58|U |1580511790|usc430af|intro:cd top_secret/|
+INPUT|usc430af-intro-59|U |1580511791|usc430af|intro:ls|
+INPUT|usc430af-intro-60|A1 A4 A2 A3 A0 |1580511829|usc430af|intro:find / -iname "*int" -o -iname "*.JPG"| head -n 5|/usr/share/bash-completion/completions/pylint
+/usr/share/bash-completion/completions/xmllint
+/usr/share/bash-completion/completions/mountpoint
+/usr/share/bash-completion/completions/jshint
+/usr/share/doc/autopoint
+
+INPUT|usc430af-intro-61|M3 M2 M0 |1580511841|usc430af|intro:find / -iname "*intro" -o -iname "*.JPG"| head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/proj/USC430/milestones/milestones-intro
+/proj/USC430/exp/sunshine-intro
+
+INPUT|usc430af-intro-62|A3 A2 A0 A1 A4 |1580511864|usc430af|intro:find / -iname "*intro" -o -iname "*.jpg"| head -n 5|^C;1580511888
+
+INPUT|usc430af-intro-63|A1 A4 A0 A2 A3 |1580511889|usc430af|intro:find / -iname "*intro" -o -iname "*.jpg"| head -n 5|^C                  ;1580511959
+
+INPUT|usc430af-intro-64|M0 |1580511964|usc430af|intro:find / -iname "*intro" -o -iname "*.jpg"| head -n 5|find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-resolved.service-l2untO'/usr/share/pixmaps/xbzf136INTRO-1.jpg
+: Permission denied
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-timesyncd.service-lxMGES': Permission denied
+^C;1580511971
+
+INPUT|usc430af-intro-65|U |1580511973|usc430af|intro:cd ..|
+INPUT|usc430af-intro-66|A0 A2 A3 A1 A4 |1580511977|usc430af|intro:find / -iname "*intro" -o -iname "*.jpg"| head -n 5|^C;1580512069
+
+INPUT|usc430af-intro-67|A0 A2 A3 A1 A4 |1580512077|usc430af|intro:find / -iname "*intro" -o -iname "*.JPG"| head -n 5|^C                                                ;1580512134
+
+INPUT|usc430af-intro-68|A4 A1 A3 A2 A0 |1580512280|usc430af|intro:find / -iname "intro" -o -iname ".jpg" | head n -5|head: invalid trailing option -- 5
+Try 'head --help' for more information.
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-resolved.service-l2untO': Permission denied
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-timesyncd.service-lxMGES': Permission denied
+^C
+
+INPUT|usc430af-intro-69|A4 A1 A0 A2 A3 |1580512290|usc430af|intro:find / -iname "intro" -o -iname ".jpg" | head -n 5|find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-resolved.service-l2untO': Permission denied
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-timesyncd.service-lxMGES': Permission denied
+^C;1580512299
+
+INPUT|usc430af-intro-70|A1 A4 A0 A2 A3 |1580512303|usc430af|intro:find / -iname "intro" -o -iname ".jpg" | head -n 5|^C;1580512360
+
+INPUT|usc430af-intro-71|A1 A4 A2 A3 A0 |1580512377|usc430af|intro:find / -iname ".jpg"                              |^[[A^[[D^C;1580512478
+
+INPUT|usc430af-intro-72|A4 A1 A3 A2 A0 |1580512484|usc430af|intro:find / -iname ".jpg"|find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-resolved.service-l2untO': Permission denied
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-timesyncd.service-lxMGES': Permission denied
+^C;1580512495
+
+INPUT|usc430af-intro-73|A1 A4 A2 A3 A0 |1580512499|usc430af|intro:find . -iname ".jpg"|
+INPUT|usc430af-intro-74|A4 A1 A3 A2 A0 |1580512503|usc430af|intro:find / -iname ".jpg"|find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-resolved.service-l2untO': Permission denied
+find: '/tmp/systemd-private-64317726d8c44a4db6c3b7f47aa54a51-systemd-timesyncd.service-lxMGES': Permission denied
+^C;1580512506
+
+INPUT|usc430af-intro-75|A4 A1 A0 A2 A3 |1580512511|usc430af|intro:find / -iname ".jpg"|^[[A^[[A^[[A^C;1580512527
+
+INPUT|usc430af-intro-76|A0 A2 A3 A4 A1 |1580512536|usc430af|intro:find / -iname .jpg |^C;1580512556
+
+INPUT|usc430af-intro-77|M0 |1580512564|usc430af|intro:find / -iname "*.jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/share/chef/chef-packages/old/click/examples/imagepipe/example01.jpg
+/share/chef/chef-packages/old/click/examples/imagepipe/example02.jpg
+/share/education/MITMARPPoisoning_USC/html/images/arpspoof-net.jpg
+/share/education/MITMARPPoisoning_USC/html/images/eth-what.jpg
+/share/education/MITMARPPoisoning_USC/html/images/firefox-altered.jpg
+/share/education/MITMARPPoisoning_USC/html/images/firefox-unaltered.jpg
+/share/education/MITMARPPoisoning_USC/html/images/lynx-altered.jpg
+/share/education/MITMARPPoisoning_USC/html/images/lynx-unaltered.jpg
+/share/education/SecureCommunication_USC/html/intel-sponsor.jpg
+/share/education/SecureServer_USC/html/intel-sponsor.jpg
+/share/education/SoftwareExploits_UCLA/fhttpd/server/jpgs/landscape1.JPG
+/share/education/UMD_XSS/html/forum/images/sunglasses_sloth_left.jpg
+/share/education/UMD_XSS/html/forum/images/sunglasses_sloth_right.jpg
+/share/education/UMD_XSS/html/forum_old/images/sunglasses_sloth_left.jpg
+/share/edu
+INPUT|usc430af-intro-78|A4 A1 A3 A2 A0 |1580512590|usc430af|intro:find / -iname "*.jpg" -o "*intro"|find: paths must precede expression: `*intro'
+
+INPUT|usc430af-intro-79|M0 |1580512597|usc430af|intro:find / -iname "*.jpg" -o  -iname "*intro"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/share/chef/chef-packages/old/click/examples/imagepipe/example01.jpg
+/share/chef/chef-packages/old/click/examples/imagepipe/example02.jpg
+/share/education/MITMARPPoisoning_USC/html/images/arpspoof-net.jpg
+/share/education/MITMARPPoisoning_USC/html/images/eth-what.jpg
+/share/education/MITMARPPoisoning_USC/html/images/firefox-altered.jpg
+/share/education/MITMARPPoisoning_USC/html/images/firefox-unaltered.jpg
+/share/education/MITMARPPoisoning_USC/html/images/lynx-altered.jpg
+/share/education/MITMARPPoisoning_USC/html/images/lynx-unaltered.jpg
+/share/education/SecureCommunication_USC/html/intel-sponsor.jpg
+/share/education/SecureServer_USC/html/intel-sponsor.jpg
+/share/education/SoftwareExploits_UCLA/fhttpd/server/jpgs/landscape1.JPG
+/share/education/UMD_XSS/html/forum/images/sunglasses_sloth_left.jpg
+/share/education/UMD_XSS/html/forum/images/sunglasses_sloth_right.jpg
+/share/education/UMD_XSS/html/forum_old/images/sunglasses_sloth_left.jpg
+/share/edu
+INPUT|usc430af-intro-80|A3 A2 A0 A1 A4 |1580512671|usc430af|intro:locate -i ".jpg"|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430af-intro-81|A1 A4 A0 A2 A3 |1580512692|usc430af|intro:locate -i ".jpg"|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430af-intro-82|U |1580512706|usc430af|intro: locate -i ".jpg"|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430af-intro-83|U |1580512707|usc430af|intro: locate -i ".jpg"|Hint - The command appears to be missing parameters or options
+usudo locate -i ".jpg"^C
+
+INPUT|usc430af-intro-84|A3 A2 A0 A4 A1 |1580512716|usc430af|intro:locate -i ".jpg"|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430af-intro-85|A0 A2 A3 A4 A1 |1580512721|usc430af|intro:locate -i ".jpg"|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430af-intro-86|A2 A3 A0 A1 A4 |1580512726|usc430af|intro:locate -i ".jpg"|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430af-intro-87|A2 A3 A0 A4 A1 |1580512730|usc430af|intro:locate ".jpg"|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430af-intro-88|U |1580512739|usc430af|intro:updatedb         |updatedb: can not open a temporary file for `/var/lib/mlocate/mlocate.db'
+
+INPUT|usc430af-intro-89|U |1580512748|usc430af|intro:updatedb|
+INPUT|usc430af-intro-90|M2 M0 |1580512759|usc430af|intro:locate ".jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-91|M3 M2 M0 |1580512764|usc430af|intro:locate -i ".jpg"|/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-92|M4 |1580512769|usc430af|intro:locate -i ".jpeg"|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430af-intro-93|M4 M3 M2 M0 |1580512786|usc430af|intro:locate -i "INTRO"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430af.
+INPUT|usc430af-intro-94|M4 M3 M2 M0 |1580512793|usc430af|intro:locate -i "ro-"|/.hidden/asdf136Intro-5kqlw.jpeg
+/bin/btrfs-zero-log
+/etc/wuer136intro-4.JPG
+/lib/modules/4.15.0-20-generic/kernel/drivers/iio/gyro/hid-sensor-gyro-3d.ko
+/lib/modules/4.15.0-20-generic/kernel/drivers/usb/serial/metro-usb.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/iio/gyro/hid-sensor-gyro-3d.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/usb/serial/metro-usb.ko
+/usr/lib/ruby/2.5.0/rdoc/generator/template/darkfish/fonts/SourceCodePro-Bold.ttf
+/usr/lib/ruby/2.5.0/rdoc/generator/template/darkfish/fonts/SourceCodePro-Regular.ttf
+/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2
+/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11510.0
+/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0
+/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.4000.14
+/usr/share/distro-info
+/usr/share/aclocal-1.15/internal/ac-config-macro-dirs.m4
+/usr/share/distro-info/debian.csv
+/usr/share/distro-info/ubuntu.csv
+/usr/share/doc/distro-info-data
+/usr/share/doc/libcairo-gobject2
+/usr/share/doc/libpangocairo-1.0-0
+/usr
+INPUT|usc430af-intro-95|M4 M3 M2 M0 |1580512797|usc430af|intro:locate -i "intro"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430af.
+INPUT|usc430af-intro-96|M4 M3 M2 M0 |1580512801|usc430af|intro:locate -i "intro-"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-97|A4 A1 A0 A2 A3 |1580512809|usc430af|intro:locate -i "intro-2"|
+INPUT|usc430af-intro-98|A0 A2 A3 A1 A4 |1580512812|usc430af|intro:locate -i "o-2"|/lib/modules/4.15.0-20-generic/kernel/drivers/media/rc/keymaps/rc-real-audio-220-32-keys.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/media/rc/keymaps/rc-real-audio-220-32-keys.ko
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-CN-EXT.so
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-CN.so
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-JP-3.so
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-JP.so
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-KR.so
+/usr/lib/python2.7/dist-packages/paramiko-2.0.0.egg-info
+/usr/lib/python2.7/dist-packages/pycrypto-2.6.1.egg-info
+/usr/lib/python2.7/dist-packages/paramiko-2.0.0.egg-info/PKG-INFO
+/usr/lib/python2.7/dist-packages/paramiko-2.0.0.egg-info/dependency_links.txt
+/usr/lib/python2.7/dist-packages/paramiko-2.0.0.egg-info/requires.txt
+/usr/lib/python2.7/dist-packages/paramiko-2.0.0.egg-info/top_level.txt
+/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.5600.3
+/usr/lib/x86_64
+INPUT|usc430af-intro-99|A0 A2 A3 A4 A1 |1580512843|usc430af|intro:locate -i "-2"|locate: invalid option -- '2'
+
+INPUT|usc430af-intro-100|A2 A3 A0 A4 A1 |1580512852|usc430af|intro:locate -i "jepd"|
+INPUT|usc430af-intro-101|M3 M2 M0 |1580512885|usc430af|intro:locate -i ".jpg"|/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-102|M4 |1580512890|usc430af|intro:locate -i ".jpeg"|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430af-intro-103|M4 M3 M2 M0 |1580512900|usc430af|intro:locate -i ".jpeg" -i ".jpg"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-104|M4 |1580512927|usc430af|intro:locate -i ".JPEG"|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430af-intro-105|A3 A2 A0 A1 A4 |1580512947|usc430af|intro:find -iname ".jpg" -o -iname ".jpeg"|
+INPUT|usc430af-intro-106|A0 A2 A3 A1 A4 |1580512956|usc430af|intro:find / -iname ".jpg" -o -iname ".jpeg"|^C;1580513114
+
+INPUT|usc430af-intro-107|A1 A4 A0 A2 A3 |1580513162|usc430af|intro:locate -i "intro-2"   |
+INPUT|usc430af-intro-108|M4 M3 M2 M0 |1580513166|usc430af|intro:locate -i "intro"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430af.
+INPUT|usc430af-intro-109|A1 A4 A0 A2 A3 |1580513208|usc430af|intro:locate -i "intro-2"|
+INPUT|usc430af-intro-110|M4 M3 M2 M0 |1580513211|usc430af|intro:locate -i "intro-"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-111|M4 M3 M2 M0 |1580513221|usc430af|intro:locate -i "Intro-"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-112|A4 A1 A0 A2 A3 |1580513229|usc430af|intro:locate -i "ro-2"|/usr/share/icons/ubuntu-mono-dark/status/22/indicator-keyboard-Ro-2.svg
+/usr/share/icons/ubuntu-mono-light/status/22/indicator-keyboard-Ro-2.svg
+
+INPUT|usc430af-intro-113|A4 A1 A0 A2 A3 |1580513233|usc430af|intro:locate -i "tro-2"|
+INPUT|usc430af-intro-114|M4 M3 M2 M0 |1580513239|usc430af|intro:locate -i "tro"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/etc/dkms/template-dkms-mkbmdeb/debian/control
+/etc/dkms/template-dkms-mkdeb/debian/control
+/etc/pollinate/entropy.ubuntu.com.pem
+/etc/ssl/certs/T?RKTRUST_Elektronik_Sertifika_Hizmet_Sa?layıcısı_H5.pem
+/lib/firmware/matrox
+/lib/firmware/netronome
+/lib/firmware/ess/maestro3_assp_kernel.fw
+/lib/firmware/ess/maestro3_assp_minisrc.fw
+/lib/firmware/matrox/g200_warp.fw
+/lib/firmware/matrox/g400_warp.fw
+/lib/firmware/netronome/flower
+/lib/firmware/netronome/nic
+/lib/firmware/netronome/nic_AMDA0081-0001_1x40.nffw
+/lib/firmware/netronome/nic_AMDA0081-0001_4x10.nffw
+/lib/firmware/netronome/nic_AMDA0096-0001_2x10.nffw
+/lib/firmware/netronome/nic_AMDA0097-0001_2x40.nffw
+/lib/firmware/netronome/nic_AMDA0097-0001_4x10_1x40.nffw
+/lib/firmware/netronome/nic_AMDA0097-0001_8x10.nffw
+/lib/firmware/netronome/nic_AMDA0099-0001_1x10_1x25.nffw
+/lib/firmware/netronome/nic_AMDA0099-0001_2x10.nffw
+/l
+INPUT|usc430af-intro-115|M4 M3 M2 M0 |1580513247|usc430af|intro:locate -i "intro"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430af.
+INPUT|usc430af-intro-116|A1 A4 A0 A2 A3 |1580513258|usc430af|intro:locate -i "intro.jpg"|
+INPUT|usc430af-intro-117|M0 |1580513261|usc430af|intro:locate -i "intro-1.jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+INPUT|usc430af-intro-118|A4 A1 A0 A2 A3 |1580513265|usc430af|intro:locate -i "intro-2.jpg"|
+INPUT|usc430af-intro-119|A0 A2 A3 A4 A1 |1580513270|usc430af|intro:locate -i "intro-2"|
+INPUT|usc430af-intro-120|M4 M3 M2 M0 |1580513273|usc430af|intro:locate -i "intro"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430af.
+INPUT|usc430af-intro-121|M4 M3 M2 M0 |1580513276|usc430af|intro:locate -i "intro-"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-122|U |1580513285|usc430af|intro:updatedb|
+INPUT|usc430af-intro-123|M4 M3 M2 M0 |1580513287|usc430af|intro:locate -i "intro-"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430af-intro-124|A1 A4 A0 A2 A3 |1580513566|usc430af|intro:locate -i "o-2"|/lib/modules/4.15.0-20-generic/kernel/drivers/media/rc/keymaps/rc-real-audio-220-32-keys.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/media/rc/keymaps/rc-real-audio-220-32-keys.ko
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-CN-EXT.so
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-CN.so
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-JP-3.so
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-JP.so
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/ISO-2022-KR.so
+/usr/lib/python2.7/dist-packages/paramiko-2.0.0.egg-info
+/usr/lib/python2.7/dist-packages/pycrypto-2.6.1.egg-info
+/usr/lib/python2.7/dist-packages/paramiko-2.0.0.egg-info/PKG-INFO
+/usr/lib/python2.7/dist-packages/paramiko-2.0.0.egg-info/dependency_links.txt
+/usr/lib/python2.7/dist-packages/paramiko-2.0.0.egg-info/requires.txt
+/usr/lib/python2.7/dist-packages/paramiko-2.0.0.egg-info/top_level.txt
+/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
+/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.5600.3
+/usr/lib/x86_64
+INPUT|usc430af-intro-125|A4 A1 A3 A2 A0 |1580513580|usc430af|intro:locate -i "ro-2"|/usr/share/icons/ubuntu-mono-dark/status/22/indicator-keyboard-Ro-2.svg
+/usr/share/icons/ubuntu-mono-light/status/22/indicator-keyboard-Ro-2.svg
+
+INPUT|usc430af-intro-126|A4 A1 A0 A2 A3 |1580513590|usc430af|intro:locate -i "ro-2"|/usr/share/icons/ubuntu-mono-dark/status/22/indicator-keyboard-Ro-2.svg
+/usr/share/icons/ubuntu-mono-light/status/22/indicator-keyboard-Ro-2.svg
+
+INPUT|usc430af-intro-127|M4 |1580513630|usc430af|intro:locate -i "jpeg"|/.hidden/asdf136Intro-5kqlw.jpeg
+/boot/grub/i386-pc/jpeg.mod
+/usr/include/boost/gil/extension/io/jpeg_dynamic_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io_private.hpp
+/usr/lib/grub/i386-pc/jpeg.mod
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.la
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.so
+/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.so
+/usr/share/bash-completion/completions/jpegoptim
+/usr/share/doc/libjpeg-turbo8
+/usr/share/doc/libjpeg8
+/usr/share/doc/libjpeg-turbo8/changelog.Debian.gz
+/usr/share/doc/libjpeg-turbo8/copyright
+/usr/share/doc/libjpeg8/changelog.Debian.gz
+/usr/share/doc/libjpeg8/copyright
+/usr/share/ghostscript/9.26/lib/viewjpeg.ps
+/usr/share/icons/Humanity/mimes/16/gnome-mime-image-jpeg.svg
+/usr/share/icons/Humanity/mimes/16/image-jpeg.svg
+/usr/share/icons/H
+INPUT|usc430af-intro-128|A0 A2 A3 A4 A1 |1580513642|usc430af|intro:locate -i "jpeg" -o "jpeg"|locate: invalid option -- 'o'
+
+INPUT|usc430af-intro-129|M4 M3 M2 M0 |1580513649|usc430af|intro:locate -i "jpeg" -i "jpg"|/.hidden/asdf136Intro-5kqlw.jpeg
+/boot/grub/i386-pc/jpeg.mod
+/etc/wuer136intro-4.JPG
+/usr/include/boost/gil/extension/io/jpeg_dynamic_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io_private.hpp
+/usr/lib/grub/i386-pc/jpeg.mod
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.la
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.so
+/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.so
+/usr/share/bash-completion/completions/jpegoptim
+/usr/share/doc/libjpeg-turbo8
+/usr/share/doc/libjpeg8
+/usr/share/doc/libjpeg-turbo8/changelog.Debian.gz
+/usr/share/doc/libjpeg-turbo8/copyright
+/usr/share/doc/libjpeg8/changelog.Debian.gz
+/usr/share/doc/libjpeg8/copyright
+/usr/share/ghostscript/9.26/lib/viewjpeg.ps
+/usr/share/icons/Humanity/mimes/16/gnome-mime-image-jpeg.svg
+/usr/share/icons/Humanity/mimes/16/image-jpe
+INPUT|usc430af-intro-130|M4 M3 M2 M0 |1580513673|usc430af|intro:locate -i "jpeg" -i "jpg" -i "intro"|/.hidden/asdf136Intro-5kqlw.jpeg
+/boot/grub/i386-pc/jpeg.mod
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/include/boost/gil/extension/io/jpeg_dynamic_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io_private.hpp
+/usr/lib/grub/i386-pc/jpeg.mod
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.la
+/usr/lib/x86_64-linux-gnu/I
+INPUT|usc430af-intro-131|U |1580513714|usc430af|intro:ls                                       |temp  top_secret
+
+INPUT|usc430af-intro-132|U |1580513715|usc430af|intro:cd ..|
+INPUT|usc430af-intro-133|U |1580513718|usc430af|intro:cd ..|
+INPUT|usc430af-intro-134|U |1580513721|usc430af|intro:cd pro|bash: cd: pro: No such file or directory
+
+INPUT|usc430af-intro-135|U |1580513723|usc430af|intro:cd proj|
+INPUT|usc430af-intro-136|U |1580513724|usc430af|intro:ls|Modeling  USC430
+
+INPUT|usc430af-intro-137|U |1580513729|usc430af|intro:cd USC430 |
+INPUT|usc430af-intro-138|U |1580513730|usc430af|intro:ls| 11		 images				    rpms	  team2.hash
+ 292		 intro.ns			    score	  team2-pass
+ 65		 intro.ns~			    scoreCTF2	  team2-pass~
+ bd.cron	 intro.sh			    scorer.conf   team3.hash
+ cctf2.ns	 john-1.8.0.9-jumbo-macosx_v3.zip   server	  team3-pass
+ cctf.ns	'login?user=realuser'		    startips	  team3.stats
+ CTF2		'login?user=username'		    startnc	  team4-pass
+ CTF_Bank	 logs				    start.pl	  team5-pass
+ deltas		 milestones			    start.sh	  team6-pass
+ exp		 newdir				    tarfiles	  templates
+ fixresolve.sh	 nmap.ns			    team1.hash	  tiplogs
+ gethashes.pl	 pulllogs.pl			    team1-pass	  webserver.c
+ groups		 RED2				    team1-pass~
+ host.conf	 REDTEAM.info			    team1.stats
+
+INPUT|usc430af-intro-139|U |1580513739|usc430af|intro:cd intro.sh|bash: cd: intro.sh: Not a directory
+
+INPUT|usc430af-intro-140|U |1580513741|usc430af|intro:ls| 11		 images				    rpms	  team2.hash
+ 292		 intro.ns			    score	  team2-pass
+ 65		 intro.ns~			    scoreCTF2	  team2-pass~
+ bd.cron	 intro.sh			    scorer.conf   team3.hash
+ cctf2.ns	 john-1.8.0.9-jumbo-macosx_v3.zip   server	  team3-pass
+ cctf.ns	'login?user=realuser'		    startips	  team3.stats
+ CTF2		'login?user=username'		    startnc	  team4-pass
+ CTF_Bank	 logs				    start.pl	  team5-pass
+ deltas		 milestones			    start.sh	  team6-pass
+ exp		 newdir				    tarfiles	  templates
+ fixresolve.sh	 nmap.ns			    team1.hash	  tiplogs
+ gethashes.pl	 pulllogs.pl			    team1-pass	  webserver.c
+ groups		 RED2				    team1-pass~
+ host.conf	 REDTEAM.info			    team1.stats
+
+INPUT|usc430af-intro-141|U |1580513765|usc430af|intro:vim intro.sh|"intro.sh" [readonly] 5L 180C6n  >c#!/bin/bash
+
+sudo mkdir /var/log/milestones/
+sudo cp /proj/USC430/milestones/milestones-intro /var/log/milestones/milestone_ffile
+sudo /share/education/LinuxDETERIntro_UCLA/install
+#!/bin/bash
+
+sudo mkdir /var/log/milestones/
+sudo cp /proj/USC430/milestones/milestones-intro /var/log/milestones/milestone_file
+sudo /share/education/LinuxDETERIntro_UCLA/install
+
+INPUT|usc430af-intro-142|U |1580693055|usc430af|intro:ls|intro.sh  temp	top_secret
+
+INPUT|usc430af-intro-143|U |1580693059|usc430af|intro:top|(Btop - 17:24:19 up 2 min  1 user  load average: 1.05 0.74 0.29(B(B
+Tasks:(B 145 (Btotal(B   1 (Brunning(B  84 (Bsleeping(B   0 (Bstopped(B   0 (Bzombie(B(B
+%%Cpu(s):(B  3.5 (Bus(B  2.8 (Bsy(B  1.0 (Bni(B 76.9 (Bid(B 15.7 (Bwa(B  0.0 (Bhi(B  0.1 (Bsi(B  0.0 (Bst(B(B
+KiB Mem :(B  4039496 (Btotal(B  3312208 (Bfree(B   168200 (Bused(B   559088 (Bbuff/cache(B(B
+KiB Swap:(B  4478972 (Btotal(B  4478972 (Bfree(B        0 (Bused.(B  3642728 (Bavail Mem (B(B
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %%CPU %%MEM     TIME+ COMMAND     (B
+(B 2563 usc430af  20   0   43088   3844   3232 R   6.2  0.1   0:00.01 top         (B
+(B    1 root      20   0  225884   9720   6808 S   0.0  0.2   0:03.92 systemd     (B
+(B    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B
+(B    3 root      20   0       0      0      0 I   0.0  0.0   0:00.00 kworker/0:0 (B
+(B    4 root       0 -20       0      0      0 I   0.0  0
+INPUT|usc430af-intro-144|U |1580693151|usc430af|intro:ls   |intro.sh  temp	top_secret
+
+INPUT|usc430af-intro-145|U |1580693153|usc430af|intro:cd top_secret/|
+INPUT|usc430af-intro-146|U |1580693155|usc430af|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430af-intro-147|U |1580693176|usc430af|intro:top > diskfree.txt|
+INPUT|usc430af-intro-148|U |1580693370|usc430af|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430af-intro-149|U |1580693437|usc430af|intro:top -bn1 > diskfree.txt|
+INPUT|usc430af-intro-150|U |1580693438|usc430af|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430af-intro-151|U |1580693442|usc430af|intro:vim diskfree.txt |"diskfree.txt" 144L 11132C6n  >ctop - 17:30:37 up 8 min  1 user  load average: 0.00 0.20 0.18
+Tasks: 137 total   1 running  84 sleeping   0 stopped   0 zombie
+%%Cpu(s):  1.0 us  0.7 sy  0.2 ni 94.1 id  3.9 wa  0.0 hi  0.0 si  0.0 st
+KiB Mem :  4039496 total  3308152 free   169936 used   561408 buff/cache
+KiB Swap:  4478972 total  4478972 free
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %%CPU %%MEM     TIME+ COMMAND
+ 2626 usc430af  20   0   43092   3960   3416 R   6.2  0.1   0:00.02 top
+    1 root      20   0  225884   9720   6808 S   0.0  0.2   0:03.93 systemd
+    2 root      20   0
+    4 root
+    6 root
+    7 root      20   0
+    8 root      20   0
+    9 root      20   0
+   10 root      rt   0
+   11 root      rt   0
+   12 root      20   0
+   13 root      20   0
+   14 root      rt   0
+   15 root      rt   0
+   16 root      20   0
+   18 root
+   19 root      20   0
+   20 root      rt   0
+   21 root      rt   0
+   22 root      20   0
+   24 root
+   25 root      20   0
+   26 root      
+INPUT|usc430af-intro-152|M5 |1580693532|usc430af|intro:cat /proc/cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microcode	: 0xba
+cpu MHz		: 1617.378
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4266.93
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microco
+INPUT|usc430af-intro-153|U |1580693959|usc430af|intro:ls  |136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430af-intro-154|U |1580693977|usc430af|intro:pwd|/users/usc430af/top_secret
+
+INPUT|usc430af-intro-155|U |1580693979|usc430af|intro:exit|exit
+
+INPUT|usc430af-intro-156|U |1581386174|usc430af|server:top|(Btop - 17:56:14 up  5:08  1 user  load average: 0.07 0.02 0.00(B(B
+Tasks:(B 130 (Btotal(B   1 (Brunning(B  77 (Bsleeping(B   0 (Bstopped(B   0 (Bzombie(B(B
+%%Cpu(s):(B  0.2 (Bus(B  0.0 (Bsy(B  0.0 (Bni(B 99.6 (Bid(B  0.1 (Bwa(B  0.0 (Bhi(B  0.0 (Bsi(B  0.0 (Bst(B(B
+KiB Mem :(B  4039512 (Btotal(B  3292908 (Bfree(B   151896 (Bused(B   594708 (Bbuff/cache(B(B
+KiB Swap:(B  4478972 (Btotal(B  4478972 (Bfree(B        0 (Bused.(B  3658576 (Bavail Mem (B(B
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %%CPU %%MEM     TIME+ COMMAND     (B
+(B    1 root      20   0  225388   9368   6852 S   0.0  0.2   0:03.90 systemd     (B
+(B    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B
+(B    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B
+(B    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B
+(B    7 root      20   0       0      0      0 S   0.0  0
+INPUT|usc430af-intro-157|U |1581386455|usc430af|server:ls|intro.sh  temp	top_secret
+
+INPUT|usc430af-intro-158|U |1581386456|usc430af|server:cd ..|
+INPUT|usc430af-intro-159|U |1581386458|usc430af|server:ls|aashraya  bks	    faber     jdbarnes	kls2	  patrickv  rweiss    sunshine
+albpat03  chandler  garmar09  jelena	krisgado  paullepe  schwab    tescdavy
+alefiya   cristina  gbartlet  jgli	kryptos   penged    scuric    tescjack
+alotero   dagny64   giotah    jhickey	massacci  quin2     selenaws  thang89
+ambkrish  dbosch    glawler   jjh	melkins   regste07  sklower   usc430af
+barada24  ekline    jacque    jmache	mlocasto  rgoodfel  slohith
+
+INPUT|usc430af-intro-160|U |1581386461|usc430af|server:cd .|
+INPUT|usc430af-intro-161|U |1581386465|usc430af|server:cd ..|
+INPUT|usc430af-intro-162|U |1581386466|usc430af|server:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430af-intro-163|U |1581386471|usc430af|server:cd tmp|
+INPUT|usc430af-intro-164|U |1581386472|usc430af|server:ls|systemd-private-afd8204cc43e40c899ace7c8c452d97e-systemd-resolved.service-Drmb1M
+systemd-private-afd8204cc43e40c899ace7c8c452d97e-systemd-timesyncd.service-bOWo4K
+
+INPUT|usc430af-intro-165|U |1581386480|usc430af|server:ls|systemd-private-afd8204cc43e40c899ace7c8c452d97e-systemd-resolved.service-Drmb1M
+systemd-private-afd8204cc43e40c899ace7c8c452d97e-systemd-timesyncd.service-bOWo4K
+
+INPUT|usc430af-intro-166|U |1581386487|usc430af|server:cd systemd-private-afd8204cc43e40c899ace7c8c452d97e-systemd-resolved.service-Drmb1M/|bash: cd: systemd-private-afd8204cc43e40c899ace7c8c452d97e-systemd-resolved.service-Drmb1M/: Permission denied
+
+INPUT|usc430af-intro-167|U |1581388115|usc430af|server:ls|systemd-private-afd8204cc43e40c899ace7c8c452d97e-systemd-resolved.service-Drmb1M
+systemd-private-afd8204cc43e40c899ace7c8c452d97e-systemd-timesyncd.service-bOWo4K
+
+INPUT|usc430af-intro-168|U |1581390173|usc430af|server:cd..|cd..: command not found
+
+INPUT|usc430af-intro-169|U |1581390174|usc430af|server:cd ..|
+INPUT|usc430af-intro-170|U |1581390176|usc430af|server:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430af-intro-171|U |1581390180|usc430af|server:cd users|
+INPUT|usc430af-intro-172|U |1581390187|usc430af|server:cd usc430af/|
+INPUT|usc430af-intro-173|U |1581390189|usc430af|server:ls|intro.sh  temp	top_secret
+

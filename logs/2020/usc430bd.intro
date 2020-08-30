@@ -1,0 +1,1157 @@
+User usc430bd start time 1580186276 end 1581293632
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430bd-intro-0|U |000000000|usc430bd|:|
+INPUT|usc430bd-intro-1|U |000000000|usc430bd|:|
+INPUT|usc430bd-intro-2|U |1580186276|usc430bd|intro:exit|exit
+
+INPUT|usc430bd-intro-3|M3 M2 M1 |1580186416|usc430bd|intro:find / -name "*intro*"|;1580186276
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: '/tmp/systemd-private-1ec1d2dd5aa54d69992d044605e1daeb-systemd-timesyncd.service-gJnth2': Permission denied
+find: '/tmp/systemd-private-1ec1d2dd5aa54d69992d044605e1daeb-systemd-resolved.service-AroD5r': Permi
+INPUT|usc430bd-intro-4|M2 |1580186479|usc430bd|intro:find / -name "*intro*.jpg" -o -name "*intro*.jpeg"|find: '/tmp/systemd-private-1ec1d2dd5aa54d69992d044605e1daeb-systemd-timesyncd.service-gJnth2': Permission denied
+find: '/tmp/systemd-private-1ec1d2dd5aa54d69992d044605e1daeb-systemd-resolved.service-AroD5r': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430bd-intro-5|M2 |1580186495|usc430bd|intro:find / -name "*intro*.jpg" -o -name "*intro*.jpeg"|/var/log/136intro-3.jpg
+
+INPUT|usc430bd-intro-6|M2 |1580186583|usc430bd|intro:find / -name "*intro*.jpg" -o -name "*intro*.jpeg"|/var/log/136intro-3.jpg
+
+INPUT|usc430bd-intro-7|M4 M3 M2 M1 M0 |1580186667|usc430bd|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"|/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bd-intro-8|U |1580186785|usc430bd|intro:mkdir top_secret|
+INPUT|usc430bd-intro-9|U |1580186786|usc430bd|intro:ls|top_secret  turnerc-local-file.txt  usc430bd.txt
+
+INPUT|usc430bd-intro-10|U |1580186807|usc430bd|intro:cd top_secret/|
+INPUT|usc430bd-intro-11|U |1580186810|usc430bd|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg .|mv: cannot remove '/.hidden/asdf136Intro-5kqlw.jpeg': Permission denied
+
+INPUT|usc430bd-intro-12|U |1580186834|usc430bd|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg .|
+INPUT|usc430bd-intro-13|U |1580186840|usc430bd|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg|mv: missing destination file operand after '/usr/share/pixmaps/xbzf136INTRO-1.jpg'
+Try 'mv --help' for more information.
+
+INPUT|usc430bd-intro-14|U |1580186847|usc430bd|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg .|
+INPUT|usc430bd-intro-15|U |1580186854|usc430bd|intro:mv /var/log/136intro-3.jpg .|
+INPUT|usc430bd-intro-16|U |1580186859|usc430bd|intro:mv /dev/136intro-2jjaj.JPEG .|
+INPUT|usc430bd-intro-17|U |1580186907|usc430bd|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430bd-intro-18|U |1580186918|usc430bd|intro:mv /etc/wuer136intro-4.JPG .|
+INPUT|usc430bd-intro-19|U |1580186920|usc430bd|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430bd-intro-20|U |1580186922|usc430bd|intro:more|more: bad usage
+Try 'more --help' for more information.
+
+INPUT|usc430bd-intro-21|U |1580186946|usc430bd|intro:touch answers.txt|
+INPUT|usc430bd-intro-22|U |1580186954|usc430bd|intro:vim answers.txt |"answers.txt" 0L 0C6n  >c~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~              
+INPUT|usc430bd-intro-23|U |1580187068|usc430bd|intro:ps|  PID TTY          TIME CMD
+ 2465 pts/0    00:00:00 bash
+ 2466 pts/0    00:00:00 bash
+ 2516 pts/0    00:00:00 bash
+ 2679 pts/0    00:00:00 ps
+
+INPUT|usc430bd-intro-24|U |1580187069|usc430bd|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430bd-intro-25|U |1580187073|usc430bd|intro:dir|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430bd-intro-26|U |1580187078|usc430bd|intro:pwd|/users/usc430bd/top_secret
+
+INPUT|usc430bd-intro-27|U |1580187184|usc430bd|intro:vim |136intro-2jjaj.JPEG      answers.txt              wuer136intro-4.JPG       
+136intro-3.jpg           asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg       
+
+INPUT|usc430bd-intro-28|U |1580187185|usc430bd|intro:vim answers.txt |"answers.txt" 9L 194C6n  >cOriginal File Locations:
+
+/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+Description of image:
+"answers.txt" 7L 275C written                                                                                          ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                            
+INPUT|usc430bd-intro-29|U |1580187314|usc430bd|intro:vim answers.txt |"answers.txt" 7L 275C6n  >cOriginal File Locations & Descriptions
+
+/.hidden/asdf136Intro-5kqlw.jpeg - 2001: A Space Odyssey
+/usr/share/pixmaps/xbzf136INTRO-1.jpg - Forbidden Planet
+/var/log/136intro-3.jpg - It Came From Outer Space
+/etc/wuer136intro-4.JPG - The Fly
+/dev/136intro-2jjaj.JPEG - Godzilla
+"answers.txt" 9L 324C writtenq14710CAll::wq
+
+
+INPUT|usc430bd-intro-30|U |1580187336|usc430bd|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430bd-intro-31|U |1580187378|usc430bd|intro:vim answers.txt |"answers.txt" 9L 324C6n  >cChristopher Turner - turnerc@usc.edu - usc430bd
+
+Original File Locations & Descriptions
+
+/.hidden/asdf136Intro-5kqlw.jpeg - 2001: A Space Odyssey
+/usr/share/pixmaps/xbzf136INTRO-1.jpg - Forbidden Planet
+/var/log/136intro-3.jpg - It Came From Outer Space
+/etc/wuer136intro-4.JPG - The Fly
+/dev/136intro-2jjaj.JPEG - Godzilla
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                
+INPUT|usc430bd-intro-32|U |1580189454|usc430bd|intro:exit|exit
+
+INPUT|usc430bd-intro-33|U |1580358069|usc430bd|intro:ls|top_secret  turnerc-local-file.txt  usc430bd.txt
+
+INPUT|usc430bd-intro-34|U |1581202581|usc430bd|server:python server.py |Traceback (most recent call last):
+  File \"server.py\" line 8 in <module>
+    server_name = sys.argv[1]
+IndexError: list index out of range
+
+INPUT|usc430bd-intro-35|U |1581202620|usc430bd|server:python server.py server|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 11 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430bd-intro-36|U |1581202629|usc430bd|server:python server.py server|starting up on server port 80
+waiting for a connection
+client connected: ('10.1.1.2' 58780)
+received \"This is the mess\"
+received \"age.  It will be\"
+received \" repeated.\"
+received \"\"
+waiting for a connection
+client connected: ('10.1.1.2' 58782)
+received \"This is the mess\"
+received \"age.  It will be\"
+received \" repeated.\"
+received \"\"
+waiting for a connection
+client connected: ('10.1.1.2' 58784);1581202676
+received \"This is the mess\"
+received \"age.  It will be\"
+received \" repeated.\"
+received \"\"
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 16 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bd-intro-37|U |1581203911|usc430bd|server:ls /tmp |systemd-private-64d07488fbcc4345b33b0dcf2e7fb89e-systemd-resolved.service-Xx8q6Y
+systemd-private-64d07488fbcc4345b33b0dcf2e7fb89e-systemd-timesyncd.service-pgmfhQ
+
+INPUT|usc430bd-intro-38|U |1581203923|usc430bd|server:touch /temp/404.html|touch: cannot touch '/temp/404.html': No such file or directory
+
+INPUT|usc430bd-intro-39|U |1581203928|usc430bd|server:touch /tmp/404.html|
+INPUT|usc430bd-intro-40|U |1581203933|usc430bd|server:vim /tmp/404.html |<<!3D4>212-5<3-<B4-BO5B4<3-<H4-7E5-8AHEAD7-10>2-5 <
+    <3-<B4>61   2-53-9<4-1<H <
+    <
+    <
+    <
+    <H11-17>
+  l<i<1>10-16e</H1>1-17 </H1>2-18N</H1>3-19o</H1>4-20t</H1>5-21 </H1>6-22F</H1>7-23o</H1>8-24u</H1>9-25N</H1>20-26d</H1>1-2</d<n<1>1-272-2<<
+    <
+    <
+    <
+"/tmp/404.html" 9L 173C written</P>2-88^[  <
+
+
+INPUT|usc430bd-intro-41|U |1581204222|usc430bd|server:13Psudo python server.py server|  File \"server.py\" line 30
+    finally:
+          ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bd-intro-42|U |1581204254|usc430bd|server:python server.py server|starting up on server port 80
+waiting for a connection
+client connected: ('10.1.1.2' 58802)
+Traceback (most recent call last):
+  File \"server.py\" line 21 in <module>
+    while data:
+NameError: name 'data' is not defined
+
+INPUT|usc430bd-intro-43|U |1581204290|usc430bd|server:python server.py server|starting up on server port 80
+waiting for a connection
+client connected: ('10.1.1.2' 58804)
+Traceback (most recent call last):
+  File \"server.py\" line 20 in <module>
+    datarequest = ''
+ValueError: need more than 0 values to unpack
+
+INPUT|usc430bd-intro-44|U |1581204334|usc430bd|server:python server.py server|starting up on server port 80
+waiting for a connection
+client connected: ('10.1.1.2' 58806)
+^CTraceback (most recent call last):
+  File \"server.py\" line 20 in <module>
+    data = ''
+KeyboardInterrupt
+
+INPUT|usc430bd-intro-45|U |1581204379|usc430bd|server:python server.py server|starting up on server port 80
+waiting for a connection
+client connected: ('10.1.1.2' 58808)
+received \"This is the mess\"
+[REQUEST] \"This is the mess\"
+received \"age.  It will be\";1581204381
+[REQUEST] \"This is the message.  It will be\"
+received \" repeated.\"
+[REQUEST] \"This is the message.  It will be repeated.\"
+^CTraceback (most recent call last):
+  File \"server.py\" line 23 in <module>
+    data = connection.recv(16)
+KeyboardInterrupt
+
+INPUT|usc430bd-intro-46|U |1581204466|usc430bd|server:python server.py server|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 11 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bd-intro-47|U |1581204477|usc430bd|server:ps|  PID TTY          TIME CMD
+ 2170 pts/0    00:00:00 bash
+ 2171 pts/0    00:00:00 bash
+ 2198 pts/0    00:00:00 bash
+ 2990 pts/0    00:00:00 ps
+
+INPUT|usc430bd-intro-48|U |1581204481|usc430bd|server:ps -A|  PID TTY          TIME CMD
+    1 ?        00:00:04 systemd
+    2 ?        00:00:00 kthreadd
+    4 ?        00:00:00 kworker/0:0H
+    6 ?        00:00:00 mm_percpu_wq
+    7 ?        00:00:00 ksoftirqd/0
+    8 ?        00:00:00 rcu_sched
+    9 ?        00:00:00 rcu_bh
+   10 ?        00:00:00 migration/0
+   11 ?        00:00:00 watchdog/0
+   12 ?        00:00:00 cpuhp/0
+   13 ?        00:00:00 cpuhp/1
+   14 ?        00:00:00 watchdog/1
+   15 ?        00:00:00 migration/1
+   16 ?        00:00:00 ksoftirqd/1
+   18 ?        00:00:00 kworker/1:0H
+   19 ?        00:00:00 cpuhp/2
+   20 ?        00:00:00 watchdog/2
+   21 ?        00:00:00 migration/2
+   22 ?        00:00:00 ksoftirqd/2
+   24 ?        00:00:00 kworker/2:0H
+   25 ?        00:00:00 cpuhp/3
+   26 ?        00:00:00 watchdog/3
+   27 ?        00:00:00 migration/3
+   28 ?        00:00:00 ksoftirqd/3
+   30 ?        00:00:00 kworker/3:0H
+   31 ?        00:00:00 kdevtmpfs
+   32 ?        00:00:00 netns
+   33 ?        00:00:00 rcu_tasks_kth
+INPUT|usc430bd-intro-49|U |1581204493|usc430bd|server:ps -A | grep 'python'| 1890 ?        00:00:00 python3
+
+INPUT|usc430bd-intro-50|U |1581282247|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+client connected: ('10.1.1.2' 46358)
+/tmp/filename.html
+File /tmp/filename.html not found found.
+Connection closed.
+
+INPUT|usc430bd-intro-51|U |1581282388|usc430bd|server:vim /tmp/|.font-unix/
+.ICE-unix/
+systemd-private-bd21c9d033b54eefa7982368c21cc77d-systemd-resolved.service-Rs9orK/
+systemd-private-bd21c9d033b54eefa7982368c21cc77d-systemd-timesyncd.service-EqRzCz/
+.Test-unix/
+.X11-unix/
+.XIM-unix/
+
+INPUT|usc430bd-intro-52|U |1581282904|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+client connected: ('10.1.1.2' 46360)
+/tmp/filename.html
+File /tmp/filename.html not found found.
+Connection closed.
+
+INPUT|usc430bd-intro-53|U |1581283041|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+client connected: ('10.1.1.2' 46362)
+/tmp/file.html
+File /tmp/file.html not found found.
+Connection closed.
+
+INPUT|usc430bd-intro-54|U |1581283363|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+client connected: ('10.1.1.2' 46372)
+/tmp/file.html
+File /tmp/file.html not found found.
+Connection closed.
+Waiting for a connection...
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bd-intro-55|U |1581288094|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+client connected: ('10.1.1.2' 46434)
+/tmp/file.html
+File /tmp/file.html not found found.
+Connection closed.
+Waiting for a connection...
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bd-intro-56|U |1581288151|usc430bd|server:python server.py server|Starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 12 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bd-intro-57|U |1581288171|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+client connected: ('10.1.1.2' 46436)
+/tmp/file.html
+File /tmp/file.html not found found.
+Connection closed.
+Waiting for a connection...
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bd-intro-58|U |1581288312|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+client connected: ('10.1.1.2' 46438)
+/tmp/file.html
+File /tmp/file.html not found found.
+Connection closed.
+Waiting for a connection...
+client connected: ('10.1.1.2' 46440)
+Connection closed.
+Traceback (most recent call last):
+  File \"server.py\" line 22 in <module>
+    if separated_data[0] != \"GET\" or separated_data[2] != \"HTTP/1.1\":
+IndexError: list index out of range
+
+INPUT|usc430bd-intro-59|U |1581288783|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+client connected: ('10.1.1.2' 46450)
+Connection closed.
+Waiting for a connection...
+client connected: ('10.1.1.2' 46452)
+Connection closed.
+Waiting for a connection...
+client connected: ('10.1.1.2' 46454)
+/tmpfile
+File /tmpfile not found found.
+Connection closed.
+Waiting for a connection...
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bd-intro-60|U |1581288892|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+client connected: ('10.1.1.2' 46456)
+/tmpfilename
+File /tmpfilename not found found.
+Connection closed.
+Waiting for a connection...
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bd-intro-61|U |1581288941|usc430bd|server:python server.py server|Starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 12 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bd-intro-62|U |1581288979|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+client connected: ('10.1.1.2' 46458)
+/tmp/filename.html
+File /tmp/filename.html not found found.
+Connection closed.
+Waiting for a connection...
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bd-intro-63|U |1581289370|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bd-intro-64|U |1581289546|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bd-intro-65|U |1581289586|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+^CConnection closed.
+Traceback (most recent call last):
+  File \"server.py\" line 50 in <module>
+    connection.close()
+NameError: name 'connection' is not defined
+
+INPUT|usc430bd-intro-66|U |1581289635|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+^CConnection closed.
+Traceback (most recent call last):
+  File \"server.py\" line 51 in <module>
+    connection.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+INPUT|usc430bd-intro-67|U |1581289715|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+^CConnection closed.
+Traceback (most recent call last):
+  File \"server.py\" line 51 in <module>
+    connection.close()
+AttributeError: 'int' object has no attribute 'close'
+
+INPUT|usc430bd-intro-68|U |1581289870|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+^CTraceback (most recent call last):
+  File \"server.py\" line 50 in <module>
+    sock.shutdown()
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+TypeError: shutdown() takes exactly one argument (0 given)
+
+INPUT|usc430bd-intro-69|U |1581289999|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+^C
+
+INPUT|usc430bd-intro-70|U |1581290058|usc430bd|server:touch /tmp/myFile.html|
+INPUT|usc430bd-intro-71|U |1581290062|usc430bd|server:vim /tmp/myFile.html |"/tmp/myFile.html" 18L 58C written-1        All::wq
+
+
+INPUT|usc430bd-intro-72|U |1581290074|usc430bd|server:python server.py server|Starting up on server port 80
+Waiting for a connection...
+client connected: ('10.1.1.2' 46468)
+/tmp/myFile.html
+PRINT 1
+PRINT 2
+PRINT 3
+PRINT 4
+PRINT 5
+PRINT 6
+Connection closed.
+Waiting for a connection...
+^C
+
+INPUT|usc430bd-intro-73|U |1581290243|usc430bd|server:clear|
+
+INPUT|usc430bd-intro-74|U |1581290245|usc430bd|server:23@sudo python server.py server|Starting up on server port 80
+Waiting for a connection...
+Client connected: ('10.1.1.2' 46470)
+File requested: /tmp/brandon.html
+File /tmp/brandon.html not found found.
+Connection closed.
+Waiting for a connection...
+Client connected: ('10.1.1.2' 46480)
+File requested: /tmp/myFile.html
+Connection closed.
+Waiting for a connection...
+^CKeyboard interrupt received shutting down...
+
+INPUT|usc430bd-intro-75|U |1581290445|usc430bd|server:clear|
+
+INPUT|usc430bd-intro-76|U |1581290456|usc430bd|server:23@sudo python server.py server|Starting up on server port 80
+Waiting for a connection...
+Client connected: ('10.1.1.2' 46482)
+File /tmp/myFile.html found.
+Connection closed.
+Waiting for a connection...
+^C
+Keyboard interrupt received shutting down...
+
+INPUT|usc430bd-intro-77|U |1581290552|usc430bd|server:clear|
+
+INPUT|usc430bd-intro-78|U |1581290556|usc430bd|server:23@sudo python server.py server|  File \"server.py\" line 19
+    print >>sys.stderr 'Client connected:%%s.' %% client_address
+                                                ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bd-intro-79|U |1581290579|usc430bd|server:clear|
+
+INPUT|usc430bd-intro-80|U |1581290581|usc430bd|server:23@sudo python server.py server|  File \"server.py\" line 11
+    print >>sys.stderr 'Starting up on %%s port %%s.' %% server_address
+                                                      ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bd-intro-81|U |1581290623|usc430bd|server:python server.py server|  File \"server.py\" line 19
+    print >>sys.stderr 'Client connected:%%s.' %% client_address
+                                                ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bd-intro-82|U |1581290640|usc430bd|server:clear|
+
+INPUT|usc430bd-intro-83|U |1581290641|usc430bd|server:clear|
+
+INPUT|usc430bd-intro-84|U |1581290643|usc430bd|server:23@sudo python server.py server|Starting up on server port 80.
+Waiting for a connection...
+Traceback (most recent call last):
+  File \"server.py\" line 19 in <module>
+    print >>sys.stderr 'Client connected:%%s.' %% client_address
+TypeError: not all arguments converted during string formatting
+
+INPUT|usc430bd-intro-85|U |1581290683|usc430bd|server:23@sudo python server.py server|Starting up on server port 80.
+Traceback (most recent call last):
+  File \"server.py\" line 12 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use;1581290683
+
+INPUT|usc430bd-intro-86|U |1581290694|usc430bd|server:python server.py server|Starting up on server port 80.
+Traceback (most recent call last):
+  File \"server.py\" line 12 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bd-intro-87|U |1581290746|usc430bd|server:exit|exit
+
+INPUT|usc430bd-intro-88|U |1581291387|usc430bd|server:clear|
+
+INPUT|usc430bd-intro-89|U |1581291559|usc430bd|server:python server.py server|Starting up on server port 80.
+Waiting for a connection...
+Client connected: 10.1.1.2 port 46496.
+File /tmp/myFile.html found.
+Connection closed.
+Waiting for a connection...
+^C
+Keyboard interrupt received shutting down...
+
+INPUT|usc430bd-intro-90|U |1581291819|usc430bd|server:python server.py server|Starting up on server port 80.
+Waiting for a connection...
+Client connected: 10.1.1.2 port 46506.
+File /tmp//myFile.html found.
+Connection closed.
+Waiting for a connection...
+Client connected: 10.1.1.2 port 46508.
+File /tmp/myFile.html found.
+Connection closed.
+Waiting for a connection...
+^C
+Keyboard interrupt received shutting down...
+
+INPUT|usc430bd-intro-91|U |1581291871|usc430bd|server:vim /tmp/myFile.html |"/tmp/myFile.html" 18L 58C½6n  >cfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sad
+
+~                                                                                                                   ~                                                                                                                   ~                                                                                                                   ~                                                                                                                   ~                                                                                                                   ~                                                                                                                   ~                                                                                                                   ~                                                                                                
+INPUT|usc430bd-intro-92|U |1581291905|usc430bd|server:more /tmp/myFile.html |fghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sad
+fghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd;1581291908
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+4
+23
+4
+3453
+53
+w
+sadfghasd
+asd
+asd
+sa
+d
+qw
+e
+asd
+qw
+r32
+
+INPUT|usc430bd-intro-93|U |1581291914|usc430bd|server:python server.py server|Starting up on server port 80.
+Waiting for a connection...
+Client connected: 10.1.1.2 port 46510.
+File /tmp/myFile.html found.
+Connection closed.
+Waiting for a connection...
+^C
+Keyboard interrupt received shutting down...
+
+INPUT|usc430bd-intro-94|U |1581292024|usc430bd|server:exit|exit
+
+INPUT|usc430bd-intro-95|M6 |1581292996|usc430bd|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       5868     198168   3%% /run
+/dev/sda1                                          15681948    3254132   11627868  22%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374722688 1362045568  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430bd 2031313280 1109561216  759246976  60%% /users/usc430bd
+tmpfs                                                204032          0     204032   0%% /run/user/15214
+
+INPUT|usc430bd-intro-96|M6 |1581293004|usc430bd|intro:df -T|Filesystem                                       Type      1K-blocks       Used  Available Use%% Mounted on
+udev                                             devtmpfs     989400         48     989352   1%% /dev
+tmpfs                                            tmpfs        204036       5868     198168   3%% /run
+/dev/sda1                                        ext3       15681948    3254132   11627868  22%% /
+tmpfs                                            tmpfs       1020164          0    1020164   0%% /dev/shm
+tmpfs                                            tmpfs          5120          0       5120   0%% /run/lock
+tmpfs                                            tmpfs       1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 nfs      2974748160 1374722688 1362045568  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430bd nfs      2031313280 1109561216  759246976  60%% /users/usc430bd
+tmpfs                                    
+INPUT|usc430bd-intro-97|M6 |1581293010|usc430bd|intro:df -H|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              1.1G   50k  1.1G   1%% /dev
+tmpfs                                             209M  6.1M  203M   3%% /run
+/dev/sda1                                          17G  3.4G   12G  22%% /
+tmpfs                                             1.1G     0  1.1G   0%% /dev/shm
+tmpfs                                             5.3M     0  5.3M   0%% /run/lock
+tmpfs                                             1.1G     0  1.1G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  3.1T  1.5T  1.4T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430bd  2.1T  1.2T  778G  60%% /users/usc430bd
+tmpfs                                             209M     0  209M   0%% /run/user/15214
+
+INPUT|usc430bd-intro-98|A6 |1581293037|usc430bd|intro:df -H > top_secret/diskfree.txt|
+INPUT|usc430bd-intro-99|U |1581293041|usc430bd|intro:more top_secret/diskfree.txt |Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              1.1G   50k  1.1G   1%% /dev
+tmpfs                                             209M  6.1M  203M   3%% /run
+/dev/sda1                                          17G  3.4G   12G  22%% /
+tmpfs                                             1.1G     0  1.1G   0%% /dev/shm
+tmpfs                                             5.3M     0  5.3M   0%% /run/lock
+tmpfs                                             1.1G     0  1.1G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  3.1T  1.5T  1.4T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430bd  2.1T  1.2T  778G  60%% /users/usc430bd
+tmpfs                                             209M     0  209M   0%% /run/user/15214
+
+INPUT|usc430bd-intro-100|U |1581293062|usc430bd|intro:vim top_secret/answers.txt |"top_secret/answers.txt" 14L 645C6n  >cChristopher Turner - turnerc@usc.edu - usc430bd
+
+1. Original File Locations & Descriptions
+
+/.hidden/asdf136Intro-5kqlw.jpeg - 2001: A Space Odyssey
+/usr/share/pixmaps/xbzf136INTRO-1.jpg - Forbidden Planet
+/var/log/136intro-3.jpg - It Came From Outer Space
+/etc/wuer136intro-4.JPG - The Fly
+/dev/136intro-2jjaj.JPEG - Godzilla
+
+2. Information Hunt
+    1. On Unix systems the /var directory contains system information from routine operations including caching dyynamic libraries log files and more.
+    2. On Unix systems the /dev directory contains files/folders related to system hardware like device special filles and device file systems.
+    3.
+~                                                                                                                   ~                                                                                                                   ~                                                                              
+INPUT|usc430bd-intro-101|U |1581293111|usc430bd|intro:man uname|UNAME(1)                                          User Commands                                          UNAME(1)
+
+NAME
+       uname - print system information
+
+SYNOPSIS
+       uname [OPTION]...
+
+DESCRIPTION
+       Print certain system information.  With no OPTION same as -s.
+
+       -a --all
+              print all information in the following order except omit -p and -i if unknown:
+
+       -s --kernel-name
+              print the kernel name
+
+       -n --nodename
+              print the network node hostname
+
+       -r --kernel-release
+              print the kernel release
+
+       -v --kernel-version
+              print the kernel version
+
+       -m --machine
+              print the machine hardware name
+
+       -p --processor
+              print the processor type (non-portable)
+
+       -i --hardware-platform
+              print the hardware platform (non-portable)
+
+       -o --operating-system
+              print the operating system
+
+       --help display this help and exit
+
+    
+INPUT|usc430bd-intro-102|U |1581293117|usc430bd|intro:uname|Linux
+
+INPUT|usc430bd-intro-103|U |1581293120|usc430bd|intro:uname -he|uname: invalid option -- 'h'
+Try 'uname --help' for more information.
+
+INPUT|usc430bd-intro-104|U |1581293123|usc430bd|intro:uname --help|Usage: uname [OPTION]...
+Print certain system information.  With no OPTION same as -s.
+
+  -a --all                print all information in the following order
+                             except omit -p and -i if unknown:
+  -s --kernel-name        print the kernel name
+  -n --nodename           print the network node hostname
+  -r --kernel-release     print the kernel release
+  -v --kernel-version     print the kernel version
+  -m --machine            print the machine hardware name
+  -p --processor          print the processor type (non-portable)
+  -i --hardware-platform  print the hardware platform (non-portable)
+  -o --operating-system   print the operating system
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/uname>
+or available locally via: info '(coreutils) uname invocation'
+
+INPUT|usc430bd-intro-105|U |1581293137|usc430bd|intro:uname -p|x86_64
+
+INPUT|usc430bd-intro-106|U |1581293144|usc430bd|intro:uname -m|x86_64
+
+INPUT|usc430bd-intro-107|U |1581293151|usc430bd|intro:uname -a|Linux intro.hw1-usc430bd.usc430.isi.deterlab.net 4.15.0-43-generic #46-Ubuntu SMP Thu Dec 6 14:45:28 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+INPUT|usc430bd-intro-108|U |1581293186|usc430bd|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430bd-intro-109|U |1581293193|usc430bd|intro:cd proc|sudo: cd: command not found
+
+INPUT|usc430bd-intro-110|U |1581293201|usc430bd|intro:cd sudo cd /proc|bash: cd: too many arguments
+
+INPUT|usc430bd-intro-111|U |1581293205|usc430bd|intro:cd /proc|sudo: cd: command not found
+
+INPUT|usc430bd-intro-112|U |1581293208|usc430bd|intro:cd /proc|
+INPUT|usc430bd-intro-113|U |1581293209|usc430bd|intro:ls|1     12    1873  2185	2338  350  426	52   890	crypto	     keys	  pagetypeinfo	 uptime
+10    1285  1879  2187	2342  36   429	53   897	devices      key-users	  partitions	 version
+100   13    19	  2188	24    37   43	54   9		diskstats    kmsg	  sched_debug	 version_signature
+101   1320  2	  22	25    38   430	55   900	dma	     kpagecgroup  schedstat	 vmallocinfo
+102   1347  20	  2218	26    39   435	6    938	driver	     kpagecount   scsi		 vmstat
+104   135   202   2222	27    397  438	630  955	execdomains  kpageflags   self		 zoneinfo
+105   1356  203   2224	28    398  439	7    97		fb	     loadavg	  slabinfo
+1054  14    204   2226	289   4    44	719  98		filesystems  locks	  softirqs
+1087  1428  2047  2240	30    40   45	727  99		fs	     mdstat	  stat
+109   1498  205   2241	31    402  46	8    acpi	interrupts   meminfo	  swaps
+1099  15    2057  2242	32    41   47	813  buddyinfo	iomem	     misc	  sys
+11    16    2065  2244	322   414  48	844  bus	ioports      modules	  sysrq-trigger
+1159  18    2
+INPUT|usc430bd-intro-114|U |1581293213|usc430bd|intro:ls -alt|total 4
+-r--r--r--   1 root             root                           0 Feb  9 16:06 buddyinfo
+-r--r--r--   1 root             root                           0 Feb  9 16:06 diskstats
+-r--r--r--   1 root             root                           0 Feb  9 16:06 execdomains
+-r--r--r--   1 root             root                           0 Feb  9 16:06 filesystems
+-r--r--r--   1 root             root                           0 Feb  9 16:06 interrupts
+-r--r--r--   1 root             root                           0 Feb  9 16:06 key-users
+-r--------   1 root             root                           0 Feb  9 16:06 kpagecgroup
+-r--------   1 root             root                           0 Feb  9 16:06 kpagecount
+-r--------   1 root             root                           0 Feb  9 16:06 kpageflags
+-r--r--r--   1 root             root                           0 Feb  9 16:06 pagetypeinfo
+-r--r--r--   1 root             root                           0 Feb  9 16:06 partitions
+-r--r--r-- 
+INPUT|usc430bd-intro-115|M5 |1581293245|usc430bd|intro:more cpuinfo |processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.556
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr 
+sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5985.11
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.556
+cache size	: 2048 KB
+physical id	: 3
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 6
+initial apicid	:
+INPUT|usc430bd-intro-116|U |1581293273|usc430bd|intro:vim ~/top_secret/answers.txt |"~/top_secret/answers.txt" 15L 675C6n  >cChristopher Turner - turnerc@usc.edu - usc430bd
+
+1. Original File Locations & Descriptions
+
+/.hidden/asdf136Intro-5kqlw.jpeg - 2001: A Space Odyssey
+/usr/share/pixmaps/xbzf136INTRO-1.jpg - Forbidden Planet
+/var/log/136intro-3.jpg - It Came From Outer Space
+/etc/wuer136intro-4.JPG - The Fly
+/dev/136intro-2jjaj.JPEG - Godzilla
+
+2. Information Hunt
+    1. On Unix systems the /var directory contains system information from routine operations including caching dyynamic libraries log files and more.
+    2. On Unix systems the /dev directory contains files/folders related to system hardware like device special filles and device file systems.
+    3. Please see diskfree.txt.
+    4.
+~                                                                                                                   ~                                                                                                                   ~                                            
+INPUT|usc430bd-intro-117|U |1581293497|usc430bd|intro:cd ~|
+INPUT|usc430bd-intro-118|U |1581293545|usc430bd|intro:tar cvzf christopher-turner-intro.tar.gz top_secret |top_secret/
+top_secret/asdf136Intro-5kqlw.jpeg
+top_secret/xbzf136INTRO-1.jpg
+top_secret/136intro-3.jpg
+top_secret/136intro-2jjaj.JPEG
+top_secret/wuer136intro-4.JPG
+top_secret/answers.txt
+top_secret/client.py
+top_secret/server.py
+top_secret/diskfree.txt
+
+INPUT|usc430bd-intro-119|U |1581293547|usc430bd|intro:ls|christopher-turner-intro.tar.gz  top_secret  turnerc-local-file.txt  usc430bd.txt
+
+INPUT|usc430bd-intro-120|U |1581293553|usc430bd|intro:more turnerc-local-file.txt |
+INPUT|usc430bd-intro-121|U |1581293632|usc430bd|intro:exit|exit
+

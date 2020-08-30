@@ -1,0 +1,171 @@
+User usc430ab start time 1579989686 end 1580771619
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ab-intro-0|U |000000000|usc430ab|:|
+INPUT|usc430ab-intro-1|U |000000000|usc430ab|:|
+INPUT|usc430ab-intro-2|U |1579989686|usc430ab|intro:ls|File10.txt  File15.txt	File1.txt   File24.txt	File5.txt  hacked.txt
+File11.txt  File16.txt	File20.txt  File25.txt	File6.txt  hello.txt
+File12.txt  File17.txt	File21.txt  File2.txt	File7.txt  mimikatz.txt
+File13.txt  File18.txt	File22.txt  File3.txt	File8.txt  thomas.png
+File14.txt  File19.txt	File23.txt  File4.txt	File9.txt  usc430ab.txt
+
+INPUT|usc430ab-intro-3|U |1579989698|usc430ab|intro:cat hacked.txt|lmao hacked
+
+INPUT|usc430ab-intro-4|U |1579989707|usc430ab|intro:cat usc430ab.txt|
+INPUT|usc430ab-intro-5|U |1579989761|usc430ab|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ab-intro-6|U |1579989783|usc430ab|intro:grep -r intro|local/logs/intro_startcmd.status.10:NAME=intro_startcmd
+local/logs/intro_startcmd.status.10:COMMAND=(sudo /proj/USC430/intro.sh >& /tmp/labinstall.log ; /usr/local/etc/emulab/startcmddone $?)
+users/usc430ab/.ssh/known_hosts:intro.hw1-usc430ab.usc430.isi.deterlab.net ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAs2hwRkSsGpHiteOhs0ybgckgHndr9z26E7RMPaB0k+Lx7fHyRl2qHGBaLWv943b3QQ5hX6fNG1IXPAiFNcxAlUT6wqYpVZHrE960aqoSGgMTW1F4Oiz46XiaCHbeXbs55uD1oWseye2uYv1A767T/h8XgV4fTseDVbdaecgxeH0=
+users/usc430ab/.bash_history:ssh intro.calc.usc430
+users/usc430ab/.bash_history:ssh intro.calc.usc430
+usr/local/src/analyze_continuous.py:    #The sample line for root prompt is '
+
+INPUT|usc430ab-intro-7|U |1580762925|usc430ab|intro:ls|File10.txt  File15.txt	File1.txt   File24.txt	File5.txt  hacked.txt
+File11.txt  File16.txt	File20.txt  File25.txt	File6.txt  hello.txt
+File12.txt  File17.txt	File21.txt  File2.txt	File7.txt  mimikatz.txt
+File13.txt  File18.txt	File22.txt  File3.txt	File8.txt  thomas.png
+File14.txt  File19.txt	File23.txt  File4.txt	File9.txt  usc430ab.txt
+
+INPUT|usc430ab-intro-8|U |1580762930|usc430ab|intro:cd ../..|
+INPUT|usc430ab-intro-9|U |1580762931|usc430ab|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ab-intro-10|U |1580762981|usc430ab|intro:cd users|
+INPUT|usc430ab-intro-11|U |1580763010|usc430ab|intro:ls               |aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430ab
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430ab-intro-12|U |1580763031|usc430ab|intro:ls patrickv/|
+INPUT|usc430ab-intro-13|U |1580763040|usc430ab|intro:ls alotero/ |
+INPUT|usc430ab-intro-14|U |1580763044|usc430ab|intro:cd ..|
+INPUT|usc430ab-intro-15|M4 M3 M2 M1 M0 |1580763152|usc430ab|intro:find . -iname "*intro*"|./.hidden/asdf136Intro-5kqlw.jpeg
+./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/doc/bash/INTRO.gz
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: './tmp/systemd-private-55437bce627043b2aac9b9ac49cdb2d7-systemd-timesyncd.service-K3jhu1': Permiss
+INPUT|usc430ab-intro-16|U |1580763297|usc430ab|intro:cp /.hidden/asdf136Intro-5kqlw.jpeg /users/usc430ab/|
+INPUT|usc430ab-intro-17|U |1580763324|usc430ab|intro:ls|asdf136Intro-5kqlw.jpeg  File16.txt  File22.txt  File5.txt   mimikatz.txt
+File10.txt		 File17.txt  File23.txt  File6.txt   thomas.png
+File11.txt		 File18.txt  File24.txt  File7.txt   usc430ab.txt
+File12.txt		 File19.txt  File25.txt  File8.txt
+File13.txt		 File1.txt   File2.txt	 File9.txt
+File14.txt		 File20.txt  File3.txt	 hacked.txt
+File15.txt		 File21.txt  File4.txt	 hello.txt
+
+INPUT|usc430ab-intro-18|U |1580763337|usc430ab|intro:mkdir top-secret|
+INPUT|usc430ab-intro-19|U |1580763344|usc430ab|intro:mv asdf136Intro-5kqlw.jpeg ./top-secret/|
+INPUT|usc430ab-intro-20|U |1580763345|usc430ab|intro:ls|File10.txt  File16.txt	File21.txt  File3.txt  File9.txt     usc430ab.txt
+File11.txt  File17.txt	File22.txt  File4.txt  hacked.txt
+File12.txt  File18.txt	File23.txt  File5.txt  hello.txt
+File13.txt  File19.txt	File24.txt  File6.txt  mimikatz.txt
+File14.txt  File1.txt	File25.txt  File7.txt  thomas.png
+File15.txt  File20.txt	File2.txt   File8.txt  top-secret
+
+INPUT|usc430ab-intro-21|U |1580763348|usc430ab|intro:cd top-secret/|
+INPUT|usc430ab-intro-22|U |1580763349|usc430ab|intro:ls|asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ab-intro-23|U |1580763494|usc430ab|intro:touch answers.txt|
+INPUT|usc430ab-intro-24|U |1580763498|usc430ab|intro:nano answers.txt |
+
+INPUT|usc430ab-intro-25|U |1580763524|usc430ab|intro:nano a|answers.txt              asdf136Intro-5kqlw.jpeg  
+
+INPUT|usc430ab-intro-26|U |1580763525|usc430ab|intro:nano answers.txt |
+
+INPUT|usc430ab-intro-27|U |1580763676|usc430ab|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg .|
+INPUT|usc430ab-intro-28|U |1580763677|usc430ab|intro:ls|answers.txt  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430ab-intro-29|U |1580763727|usc430ab|intro:nano answers.txt |
+
+INPUT|usc430ab-intro-30|U |1580763757|usc430ab|intro:nano answers.txt |
+
+INPUT|usc430ab-intro-31|U |1580763856|usc430ab|intro:cp /var/log/136intro-3.jpg .|
+INPUT|usc430ab-intro-32|U |1580763922|usc430ab|intro:cp /etc/wuer136intro-4.JPG .|
+INPUT|usc430ab-intro-33|U |1580763953|usc430ab|intro:cp /dev/136intro-2jjaj.JPEG .|
+INPUT|usc430ab-intro-34|U |1580764107|usc430ab|intro:nano answers.txt|
+
+INPUT|usc430ab-intro-35|U |1580764160|usc430ab|intro:nano answers.txt |
+
+INPUT|usc430ab-intro-36|U |1580764215|usc430ab|intro:nano answers.txt |
+
+INPUT|usc430ab-intro-37|U |1580765500|usc430ab|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430ab-intro-38|U |1580765504|usc430ab|intro:nano answers.txt |
+INPUT|usc430ab-intro-39|M6 |1580768801|usc430ab|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       6268     197768   4%% /run
+/dev/sda1                                          15681948    3252584   11629416  22%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ab 2031313280 1110576640  758231552  60%% /users/usc430ab
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1372850176 1363918080  51%% /proj/USC430
+tmpfs                                                204032          0     204032   0%% /run/user/14165
+
+INPUT|usc430ab-intro-40|U |1580768844|usc430ab|intro:cd top-secret/|
+INPUT|usc430ab-intro-41|A6 |1580768851|usc430ab|intro:df > diskfree.txt|
+INPUT|usc430ab-intro-42|M5 |1580771040|usc430ab|intro:less /proc/cpuinfo |processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping        : 3
+microcode       : 0x5
+cpu MHz         : 2992.481
+cache size      : 2048 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips        : 5984.96
+clflush size    : 64
+cache_alignment : 128
+address sizes   : 36 bits physical 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel
+INPUT|usc430ab-intro-43|U |1580771542|usc430ab|intro:cd top-secret/|
+INPUT|usc430ab-intro-44|U |1580771545|usc430ab|intro:nano answers.txt|
+
+INPUT|usc430ab-intro-45|U |1580771617|usc430ab|intro:exi|;1580771618
+Command 'exi' not found but there are 15 similar ones.
+
+
+INPUT|usc430ab-intro-46|U |1580771619|usc430ab|intro:exit|exit
+

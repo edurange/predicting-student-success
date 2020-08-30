@@ -1,0 +1,450 @@
+User usc430as start time 1581034384 end 1581069532
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430as-intro-0|U |000000000|usc430as|:|
+INPUT|usc430as-intro-1|U |000000000|usc430as|:|
+INPUT|usc430as-intro-2|U |1581034384|usc430as|intro:ls|thomas.png  usc430ab.txt  usc430as.txt
+
+INPUT|usc430as-intro-3|U |1581034391|usc430as|intro:cd ..|
+INPUT|usc430as-intro-4|U |1581034393|usc430as|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430as
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430as-intro-5|U |1581034401|usc430as|intro:cd aashraya|
+INPUT|usc430as-intro-6|U |1581034402|usc430as|intro:ls|
+INPUT|usc430as-intro-7|U |1581034404|usc430as|intro:cd ..|
+INPUT|usc430as-intro-8|U |1581034409|usc430as|intro:ls|
+INPUT|usc430as-intro-9|U |1581034417|usc430as|intro:cd ..|
+INPUT|usc430as-intro-10|U |1581034420|usc430as|intro:cd alotero|
+INPUT|usc430as-intro-11|U |1581034421|usc430as|intro:ls|
+INPUT|usc430as-intro-12|U |1581034422|usc430as|intro:cd ..|
+INPUT|usc430as-intro-13|U |1581034423|usc430as|intro:cd ..|
+INPUT|usc430as-intro-14|U |1581034424|usc430as|intro:cd ..|
+INPUT|usc430as-intro-15|U |1581034425|usc430as|intro:cd ..|
+INPUT|usc430as-intro-16|U |1581034426|usc430as|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430as-intro-17|U |1581034586|usc430as|intro:cd ..|
+INPUT|usc430as-intro-18|U |1581034595|usc430as|intro:fnd . -name "intro"|;1581034595
+Command 'fnd' not found did you mean:
+
+  command 'gnd' from snap gnd (master)
+  command 'fid' from deb id-utils
+  command 'nd' from deb nd
+  command 'fd' from deb fdclone
+  command 'and' from deb and
+  command 'bnd' from deb bnd
+  command 'fnid' from deb id-utils
+  command 'find' from deb findutils
+  command 'snd' from deb snd-gtk-jack
+  command 'snd' from deb snd-gtk-pulse
+  command 'snd' from deb snd-nox
+
+See 'snap info <snapname>' for additional versions.
+
+
+INPUT|usc430as-intro-19|A1 A4 A3 A2 A0 |1581034600|usc430as|intro:find . -name "intro"|find: './tmp/systemd-private-2f1692ca939147629c69dd8440923c16-systemd-timesyncd.service-S6A8mI': Permission denied
+find: './tmp/systemd-private-2f1692ca939147629c69dd8440923c16-systemd-resolved.service-YbaP3Q': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430as-intro-20|A1 A4 A2 A3 A0 |1581034652|usc430as|intro:find -name "intro"|
+INPUT|usc430as-intro-21|A4 A1 A3 A2 A0 |1581034677|usc430as|intro:find . -name "intro"|
+INPUT|usc430as-intro-22|A0 A2 A3 A1 A4 |1581034723|usc430as|intro:find . -name inro|^C;1581034724
+
+INPUT|usc430as-intro-23|M3 M2 M1 |1581034784|usc430as|intro:find . -name "*intro*"|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430as.hw1-usc430as.intro.csv
+./var/log/ttylog/usc430as.hw1-usc430as.intro.log
+./etc/wuer136intro-4.JPG
+./etc/apparmor.d/abstractions/apparmor_api/introspect
+./dev
+INPUT|usc430as-intro-24|U |1581034807|usc430as|intro:ls |bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430as-intro-25|U |1581034812|usc430as|intro:cd |
+INPUT|usc430as-intro-26|A1 A4 A3 A2 A0 |1581034815|usc430as|intro:find . -name "*intro*"|
+INPUT|usc430as-intro-27|A1 A4 A2 A3 A0 |1581034819|usc430as|intro:find . -name "*intro*"|
+INPUT|usc430as-intro-28|A2 A3 A0 A1 A4 |1581034821|usc430as|intro:find . -name "*intro*"|
+INPUT|usc430as-intro-29|U |1581034823|usc430as|intro:cd ..|
+INPUT|usc430as-intro-30|A1 A4 A0 A2 A3 |1581034827|usc430as|intro:find . -name "*intro*"|
+INPUT|usc430as-intro-31|U |1581034857|usc430as|intro:cd ..|
+INPUT|usc430as-intro-32|M3 M2 M1 |1581034859|usc430as|intro:find . -name "*intro*"|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430as.hw1-usc430as.intro.csv
+./var/log/ttylog/usc430as.hw1-usc430as.intro.log
+./etc/wuer136intro-4.JPG
+./etc/apparmor.d/abstractions/apparmor_api/introspect
+./dev
+INPUT|usc430as-intro-33|U |1581034905|usc430as|intro:cd ~|
+INPUT|usc430as-intro-34|A3 A2 A0 A1 A4 |1581034907|usc430as|intro:find . -name "*intro*"|
+INPUT|usc430as-intro-35|U |1581034908|usc430as|intro:ls -a|.   .bash_history  .forward  .local  .ssl	 usc430ab.txt
+..  .cache	   .gnupg    .ssh    thomas.png  usc430as.txt
+
+INPUT|usc430as-intro-36|U |1581034917|usc430as|intro:cd .local|
+INPUT|usc430as-intro-37|U |1581034918|usc430as|intro:ls|share
+
+INPUT|usc430as-intro-38|U |1581034922|usc430as|intro:cd share|
+INPUT|usc430as-intro-39|U |1581034924|usc430as|intro:ls|nano
+
+INPUT|usc430as-intro-40|U |1581034927|usc430as|intro:cd ..|
+INPUT|usc430as-intro-41|U |1581034929|usc430as|intro:cd ~|
+INPUT|usc430as-intro-42|U |1581034961|usc430as|intro:grep -R "intro"|.ssh/known_hosts:intro.hw1-usc430as.usc430.isi.deterlab.net ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAs2hwRkSsGpHiteOhs0ybgckgHndr9z26E7RMPaB0k+Lx7fHyRl2qHGBaLWv943b3QQ5hX6fNG1IXPAiFNcxAlUT6wqYpVZHrE960aqoSGgMTW1F4Oiz46XiaCHbeXbs55uD1oWseye2uYv1A767T/h8XgV4fTseDVbdaecgxeH0=
+
+INPUT|usc430as-intro-43|A2 A3 A0 A4 A1 |1581034978|usc430as|intro:find . -name "*intro*" -print|
+INPUT|usc430as-intro-44|A1 A4 A3 A2 A0 |1581034984|usc430as|intro:find . -name "intro" -print|
+INPUT|usc430as-intro-45|A0 A2 A3 A1 A4 |1581035023|usc430as|intro:find . -type -f -name "intro" -print|find: Unknown argument to -type: -
+
+INPUT|usc430as-intro-46|A4 A1 A0 A2 A3 |1581035030|usc430as|intro:find . -type f -name "intro" -print|
+INPUT|usc430as-intro-47|A0 A2 A3 A1 A4 |1581035065|usc430as|intro:find . -type f -iname "intro" -print|
+INPUT|usc430as-intro-48|A2 A3 A0 A4 A1 |1581035072|usc430as|intro:find . -type f -iname "*intro*" -print|
+INPUT|usc430as-intro-49|A0 A2 A3 A4 A1 |1581035096|usc430as|intro:find . -iname "*intro*" -print|
+INPUT|usc430as-intro-50|A4 A1 A0 A2 A3 |1581035099|usc430as|intro:find . -iname "*intro*"       |
+INPUT|usc430as-intro-51|A3 A2 A0 A1 A4 |1581035100|usc430as|intro:find . -iname "*intro*"|
+INPUT|usc430as-intro-52|A4 A1 A3 A2 A0 |1581035101|usc430as|intro:find . -iname "*intro*"|
+INPUT|usc430as-intro-53|A4 A1 A0 A2 A3 |1581035103|usc430as|intro:find . -iname "*intro*"|
+INPUT|usc430as-intro-54|A3 A2 A0 A4 A1 |1581035127|usc430as|intro:find . -iname "*.jpeg"|
+INPUT|usc430as-intro-55|A0 A2 A3 A4 A1 |1581035139|usc430as|intro:find . -r -iname "*.jpeg"|find: unknown predicate `-r'
+
+INPUT|usc430as-intro-56|A1 A4 A0 A2 A3 |1581035144|usc430as|intro:find . -R -iname "*.jpeg"|find: unknown predicate `-R'
+
+INPUT|usc430as-intro-57|A1 A4 A2 A3 A0 |1581035171|usc430as|intro:find . -iname "*.jpeg"|
+INPUT|usc430as-intro-58|U |1581035175|usc430as|intro:cd ..|
+INPUT|usc430as-intro-59|A1 A4 A2 A3 A0 |1581035177|usc430as|intro:find . -iname "*.jpeg"|
+INPUT|usc430as-intro-60|U |1581035180|usc430as|intro:cd ..|
+INPUT|usc430as-intro-61|M4 M1 |1581035186|usc430as|intro:find . -iname "*.jpeg"|./.hidden/asdf136Intro-5kqlw.jpeg
+./dev/136intro-2jjaj.JPEG
+./proj/USC430/exp/hw1-usc430bf/asdf136Intro-5kqlw.jpeg
+./proj/USC430/exp/hw1-usc430bf/top_secret/asdf136Intro-5kqlw.jpeg
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG
+
+INPUT|usc430as-intro-62|U |1581035232|usc430as|intro:cd |
+INPUT|usc430as-intro-63|U |1581035238|usc430as|intro:mkdir top_secret|
+INPUT|usc430as-intro-64|U |1581035251|usc430as|intro:mv ./.hidden/asdf136Intro-5kqlw.jpeg .|mv: cannot stat './.hidden/asdf136Intro-5kqlw.jpeg': No such file or directory
+
+INPUT|usc430as-intro-65|U |1581035331|usc430as|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5kqlw.jpeg|mv: cannot remove '/.hidden/asdf136Intro-5kqlw.jpeg': Permission denied
+egc430as@intro:~$ sudo mv /.hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5kqlw.jpe;1581035341
+A
+
+INPUT|usc430as-intro-66|U |1581035357|usc430as|intro:ls                                                           |asdf136Intro-5kqlw.jpeg  thomas.png  top_secret  usc430ab.txt  usc430as.txt
+
+INPUT|usc430as-intro-67|U |1581035374|usc430as|intro:cd top_secret|gsc430as@intro:~/top_secret$ mv ~/asdf136Intro-5kqlw.jpeg asdf136Intro-5kqlw.jpeg;1581035388
+
+INPUT|usc430as-intro-68|U |1581035389|usc430as|intro:ls |asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430as-intro-69|U |1581035637|usc430as|intro:mv /dev/136intro-2jjaj.JPEG 136intro-2jjaj.JPEG|mv: cannot remove '/dev/136intro-2jjaj.JPEG': Permission denied
+Gsc430as@intro:~/top_secret$ sudo mv /dev/136intro-2jjaj.JPEG 136intro-2jjaj.JPEG;1581035643
+5kqlw.jpeg asdf136Intro-5kqlw.jpegmv /proj/USC430/exp/hw1-usc430bf/asdf136Intro-5;1581035661
+
+INPUT|usc430as-intro-70|U |1581035664|usc430as|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430as-intro-71|U |1581035678|usc430as|intro:cd ..|
+INPUT|usc430as-intro-72|U |1581035679|usc430as|intro:ls|thomas.png  top_secret	usc430ab.txt  usc430as.txt
+
+INPUT|usc430as-intro-73|U |1581035682|usc430as|intro:cd top_secret|
+INPUT|usc430as-intro-74|U |1581035712|usc430as|intro:cd ..|
+INPUT|usc430as-intro-75|U |1581035713|usc430as|intro:cd ..|
+INPUT|usc430as-intro-76|U |1581035715|usc430as|intro:cd ..|
+INPUT|usc430as-intro-77|U |1581035716|usc430as|intro:cd ..|asdf136Intro-5kqlw.jpegAmv /dev/136intro-2jjaj.JPEG 136intro-2jjaj.JPEG
+A
+egAc430as@intro:/$ mv /.hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5kqlw.jpeg
+A
+
+INPUT|usc430as-intro-78|A0 A2 A3 A4 A1 |1581035722|usc430as|intro:find . -iname "*.jpeg"|./users/usc430as/top_secret/asdf136Intro-5kqlw.jpeg
+./users/usc430as/top_secret/136intro-2jjaj.JPEG
+./proj/USC430/exp/hw1-usc430bf/top_secret/asdf136Intro-5kqlw.jpeg
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG
+
+INPUT|usc430as-intro-79|U |1581059494|usc430as|intro:cd /|
+INPUT|usc430as-intro-80|M4 M1 |1581059503|usc430as|intro:find . -iname "*.jpeg"|./.hidden/asdf136Intro-5kqlw.jpeg
+./users/usc430as/top_secret/asdf136Intro-5kqlw.jpeg
+./users/usc430as/top_secret/136intro-2jjaj.JPEG
+find: './tmp/systemd-private-01f7843abee24862be5b3d64d37e125c-systemd-timesyncd.service-dCofvp': Permission denied
+find: './tmp/systemd-private-01f7843abee24862be5b3d64d37e125c-systemd-resolved.service-KyaAgu': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+
+INPUT|usc430as-intro-81|M4 M1 |1581059551|usc430as|intro:find . -iname "*.jpeg"|./.hidden/asdf136Intro-5kqlw.jpeg
+./users/usc430as/top_secret/asdf136Intro-5kqlw.jpeg
+./users/usc430as/top_secret/136intro-2jjaj.JPEG
+./dev/136intro-2jjaj.JPEG
+./proj/USC430/exp/hw1-usc430bf/top_secret/asdf136Intro-5kqlw.jpeg
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG
+
+INPUT|usc430as-intro-82|U |1581062084|usc430as|intro:scp usc430as@users.deterlab.net:/.hidden/asdf136Intro-5kqlw.jpeg ~/documents|^C
+
+INPUT|usc430as-intro-83|U |1581062127|usc430as|intro:scp usc430as@users.deterlab.net:/.hidden/asdf136Intro-5kqlw.jpeg /Documents/|ssh: connect to host users.deterlab.net port 22: Connection timed out
+
+INPUT|usc430as-intro-84|U |1581062305|usc430as|intro:cd /.hidden//.hidden/|bash: cd: /.hidden//.hidden/: No such file or directory
+
+INPUT|usc430as-intro-85|U |1581062306|usc430as|intro:/.hidden/|bash: /.hidden/: Is a directory
+
+INPUT|usc430as-intro-86|U |1581062311|usc430as|intro:cd /.hidden/|
+INPUT|usc430as-intro-87|U |1581062322|usc430as|intro:12@55@scp usc430as@users.deterlab.net:asdf136Intro-5kqlw.jpeg /Documents/|^C
+-5kqlw.jpegtro:/.hidden$ scp usc430as@users.deterlab.net:asdf136Intro-5kqlw.jpeg /Documents/asdf136Intro-;1581062337
+^C
+A
+
+INPUT|usc430as-intro-88|U |1581062363|usc430as|intro:sscp usc430as@users.deterlab.net:asdf136Intro-5kqlw.jpeg /Documents/asdf136Intro-Ac430as@intro:/.hidden$ suscp usc430as@users.deterlab.net:asdf136Intro-5kqlw.jpeg /Documents/asdf136IntroAc430as@intro:/.hidden$ sudscp usc430as@users.deterlab.net:asdf136Intro-5kqlw.jpeg /Documents/asdf136IntrAc430as@intro:/.hidden$ sudoscp usc430as@users.deterlab.net:asdf136Intro-5kqlw.jpeg /Documents/asdf136IntAc430as@intro:/.hidden$ sudo scp usc430as@users.deterlab.net:asdf136Intro-5kqlw.jpeg /Documents/asdf136InAc430as@intro:/.hidden$ sudo |
+^C
+
+INPUT|usc430as-intro-89|U |1581063228|usc430as|intro:scp usc430as@users.deterlab.net:asdf136Intro-5kqlw.jpeg /Documents/asdf136Intro-5kqlw.jpeg|^C
+
+INPUT|usc430as-intro-90|U |1581063234|usc430as|intro:cd ./hidden|bash: cd: ./hidden: No such file or directory
+
+INPUT|usc430as-intro-91|U |1581063238|usc430as|intro:cd /./hidden|bash: cd: /./hidden: No such file or directory
+
+INPUT|usc430as-intro-92|U |1581063243|usc430as|intro:cd /.hidden|
+INPUT|usc430as-intro-93|U |1581063244|usc430as|intro:cd /./hidden|bash: cd: /./hidden: No such file or directory
+w.jpegAas@intro:/.hidden$ cd ./hidden
+A
+
+INPUT|usc430as-intro-94|U |1581063249|usc430as|intro:ls|asdf136Intro-5kqlw.jpeg
+w.jpegas@intro:/.hidden$ sudo scp usc430as@users.deterlab.net:asdf136Intro-5kqlw.jpeg /Documents/asdf136Intro-5kqlw;1581063252
+^C
+A
+
+INPUT|usc430as-intro-95|U |1581063298|usc430as|intro:scp a|cp: cannot create regular file '/Documents/asdf136Intro-5kqlw.jpeg': No such file or directory
+
+INPUT|usc430as-intro-96|U |1581063310|usc430as|intro:scp asdf136Intro-5kqlw.jpeg /Documents/                       |cp: cannot create regular file '/Documents/': Not a directory
+
+INPUT|usc430as-intro-97|U |1581063313|usc430as|intro:scp asdf136Intro-5kqlw.jpeg /Documents |
+INPUT|usc430as-intro-98|U |1581063384|usc430as|intro:scp asdf136Intro-5kqlw.jpeg /Documents|
+INPUT|usc430as-intro-99|U |1581063414|usc430as|intro:scp asdf136Intro-5kqlw.jpeg /Documents/USC|cp: failed to access '/Documents/USC': Not a directory
+
+INPUT|usc430as-intro-100|U |1581063433|usc430as|intro:ls|asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430as-intro-101|U |1581063447|usc430as|intro:cd /Dcouments|bash: cd: /Dcouments: No such file or directory
+
+INPUT|usc430as-intro-102|U |1581063452|usc430as|intro:cd /Documents|bash: cd: /Documents: Not a directory
+
+INPUT|usc430as-intro-103|U |1581063644|usc430as|intro:scp asdf136Intro-5kqlw.jpeg /Documents/USC|cp: failed to access '/Documents/USC': Not a directory
+
+INPUT|usc430as-intro-104|U |1581063647|usc430as|intro:scp asdf136Intro-5kqlw.jpeg /Documents/   |cp: failed to access '/Documents/': Not a directory
+
+INPUT|usc430as-intro-105|U |1581063650|usc430as|intro:scp asdf136Intro-5kqlw.jpeg /Documents |
+INPUT|usc430as-intro-106|U |1581063657|usc430as|intro:cd /Documents|bash: cd: /Documents: Not a directory
+
+INPUT|usc430as-intro-107|U |1581063659|usc430as|intro:cd ..|
+INPUT|usc430as-intro-108|U |1581063664|usc430as|intro:cd ./hidden|bash: cd: ./hidden: No such file or directory
+
+INPUT|usc430as-intro-109|U |1581063670|usc430as|intro:cd /.hidden|
+INPUT|usc430as-intro-110|U |1581063770|usc430as|intro:30@ls|asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430as-intro-111|U |1581063771|usc430as|intro:ls -a|.  ..  asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430as-intro-112|U |1581063785|usc430as|intro:30@sudo scp 28@usc430as@users.deterlab.net:nts|^C
+
+INPUT|usc430as-intro-113|U |1581063878|usc430as|intro:scp usc430as@users.deterlab.net:asdf136Intro-5kqlw.jpeg .         |^C
+
+INPUT|usc430as-intro-114|U |1581063901|usc430as|intro:cd ..|
+INPUT|usc430as-intro-115|M4 M1 |1581063927|usc430as|intro:find . -iname "*.jpeg"|./.hidden/asdf136Intro-5kqlw.jpeg
+./users/usc430as/top_secret/asdf136Intro-5kqlw.jpeg
+./users/usc430as/top_secret/136intro-2jjaj.JPEG
+./dev/136intro-2jjaj.JPEG
+./proj/USC430/exp/hw1-usc430bf/top_secret/asdf136Intro-5kqlw.jpeg
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG
+
+INPUT|usc430as-intro-116|U |1581064513|usc430as|intro:cd /users/usc430as/top_secret|
+INPUT|usc430as-intro-117|U |1581064535|usc430as|intro:/.hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5kqlw(1).jpeg|bash: syntax error near unexpected token `('
+
+INPUT|usc430as-intro-118|U |1581064544|usc430as|intro:/.hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5kqlw_1.jpeg|sudo: /.hidden/asdf136Intro-5kqlw.jpeg: command not found
+
+INPUT|usc430as-intro-119|U |1581064554|usc430as|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5kqlw_1.jpeg|
+INPUT|usc430as-intro-120|U |1581064585|usc430as|intro:mv /dev/136intro-2jjaj.JPEG 136intro-2jjaj_1.JPEG|-5kqlw_2.jpegtro:~/top_secret$ sudo mv /proj/USC430/exp/hw1-usc430bf/top_secret/asdf136Intro-5kqlw.jpeg asdf136Intro-;1581064622
+A
+
+INPUT|usc430as-intro-121|U |1581064653|usc430as|intro:mv /proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG 136intro-2jjaj_.JPAc430as@intro:~/top_secret$ sudo mv /proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG 136intro-2jjaj_2.J|
+INPUT|usc430as-intro-122|A4 A1 A3 A2 A0 |1581064665|usc430as|intro:find . -iname "*.jpeg"|./asdf136Intro-5kqlw.jpeg
+./136intro-2jjaj.JPEG
+./asdf136Intro-5kqlw_1.jpeg
+./136intro-2jjaj_1.JPEG
+./asdf136Intro-5kqlw_2.jpeg
+./136intro-2jjaj_2.JPEG
+
+INPUT|usc430as-intro-123|U |1581064670|usc430as|intro:exit|exit
+
+INPUT|usc430as-intro-124|U |1581065534|usc430as|intro:cd top_secret|;1581064670
+
+INPUT|usc430as-intro-125|U |1581065535|usc430as|intro:ls|136intro-2jjaj_1.JPEG  136intro-2jjaj.JPEG	  asdf136Intro-5kqlw_2.jpeg
+136intro-2jjaj_2.JPEG  asdf136Intro-5kqlw_1.jpeg  asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430as-intro-126|U |1581065727|usc430as|intro:nano answers.txt|
+
+INPUT|usc430as-intro-127|U |1581066958|usc430as|intro:ls|136intro-2jjaj_1.JPEG  136intro-2jjaj.JPEG  asdf136Intro-5kqlw_1.jpeg  asdf136Intro-5kqlw.jpeg
+136intro-2jjaj_2.JPEG  answers.txt	    asdf136Intro-5kqlw_2.jpeg
+
+INPUT|usc430as-intro-128|U |1581066963|usc430as|intro:cat answers.txt|1)
+
+5 File locations
+
+./.hidden/asdf136Intro-5kqlw.jpeg
+./dev/136intro-2jjaj.JPEG
+./proj/USC430/exp/hw1-usc430bf/asdf136Intro-5kqlw.jpeg
+./proj/USC430/exp/hw1-usc430bf/top_secret/asdf136Intro-5kqlw.jpeg
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG
+
+Description of Image:
+The images are two movie posters one of Godzilla and the other of which is 2001 a space odyssey.
+
+2)
+
+	1) The /var directory of a UNIX computer contains files where the system writes to during operation containing cached data variable data and other system information files.
+	2) The /dev directory contains special device filesthat control access to other devices such as floppy and hard drives.
+	4)
+
+INPUT|usc430as-intro-129|M6 |1581067287|usc430as|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1988984          0    1988984   0%% /dev
+tmpfs                                                403952       6372     397580   2%% /run
+/dev/sda1                                          15681948    3251972   11630028  22%% /
+tmpfs                                               2019748          0    2019748   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               2019748          0    2019748   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374076672 1362691712  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430as 2031313280 1133002624  735805568  61%% /users/usc430as
+tmpfs                                                403948          0     403948   0%% /run/user/14182
+
+INPUT|usc430as-intro-130|A6 |1581067315|usc430as|intro:df > diskfree.txt|
+INPUT|usc430as-intro-131|U |1581067318|usc430as|intro:cat diskfree.txt|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1988984          0    1988984   0%% /dev
+tmpfs                                                403952       6372     397580   2%% /run
+/dev/sda1                                          15681948    3251976   11630024  22%% /
+tmpfs                                               2019748          0    2019748   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               2019748          0    2019748   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374076672 1362691712  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430as 2031313280 1133002624  735805568  61%% /users/usc430as
+tmpfs                                                403948          0     403948   0%% /run/user/14182
+
+INPUT|usc430as-intro-132|M5 |1581067364|usc430as|intro:cat /proc/cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microcode	: 0xba
+cpu MHz		: 1903.605
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4266.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microco
+INPUT|usc430as-intro-133|M5 |1581067376|usc430as|intro:less /proc/cpuinfo|processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 15
+model name      : Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping        : 11
+microcode       : 0xba
+cpu MHz         : 1650.064
+cache size      : 4096 KB
+physical id     : 0
+siblings        : 4
+core id         : 0
+cpu cores       : 4
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 10
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips        : 4266.79
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 36 bits physical 48 bits virtual
+power management:
+
+INPUT|usc430as-intro-134|U |1581068490|usc430as|intro:nano answers.txt|
+
+INPUT|usc430as-intro-135|U |1581069532|usc430as|intro:exit|exit
+

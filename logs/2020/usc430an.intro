@@ -1,0 +1,462 @@
+User usc430an start time 1580963304 end 1581321671
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430an-intro-0|U |000000000|usc430an|:|
+INPUT|usc430an-intro-1|U |000000000|usc430an|:|
+INPUT|usc430an-intro-2|U |1580963304|usc430an|intro:ls|checkHash.txt  hashes  stest.txt  thomas.png  usc430an.txt
+
+INPUT|usc430an-intro-3|U |1580963433|usc430an|intro:ls|checkHash.txt  hashes  stest.txt  thomas.png  top_secret  usc430an.txt
+
+INPUT|usc430an-intro-4|A0 A2 A3 A1 A4 |1580963571|usc430an|intro:find / -name "intro" | head -n 10|find: '/tmp/systemd-private-cb222caf199144eabdf57ab635c323ea-systemd-resolved.service-yNN9va': Permission denied
+find: '/tmp/systemd-private-cb222caf199144eabdf57ab635c323ea-systemd-timesyncd.service-oeMkD1': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430an-intro-5|M2 M0 |1580963861|usc430an|intro:find / -name "*.jpg" | head -n 10|find: '/tmp/systemd-private-cb222caf199144eabdf57ab635c323ea-systemd-resolved.service-yNN9va'/usr/share/pixmaps/xbzf136INTRO-1.jpg
+: Permission denied
+find: '/tmp/systemd-private-cb222caf199144eabdf57ab635c323ea-systemd-timesyncd.service-oeMkD1': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430an-intro-6|U |1580964211|usc430an|intro:cd /var/log|
+INPUT|usc430an-intro-7|U |1580964212|usc430an|intro:ls|136intro-3.jpg	  apt		 dist-upgrade  fontconfig.log  landscape   ntpstats  ttylog
+alternatives.log  auth.log	 dpkg.log      installer       lastlog	   syslog    unattended-upgrades
+analyze_cont	  bootstrap.log  emulab.log    journal	       lxd	   tallylog  wtmp
+annotator	  btmp		 faillog       kern.log        milestones  tiplogs
+
+INPUT|usc430an-intro-8|U |1580964228|usc430an|intro:cd ../..|
+INPUT|usc430an-intro-9|U |1581114754|usc430an|intro:ls|checkHash.txt  hashes  stest.txt  thomas.png  top_secret  usc430an.txt
+
+INPUT|usc430an-intro-10|U |1581114764|usc430an|intro:cd top_secret|
+INPUT|usc430an-intro-11|U |1581114765|usc430an|intro:ls|136intro-3.jpg	xbzf136INTRO-1.jpg
+
+INPUT|usc430an-intro-12|U |1581114767|usc430an|intro:cd ..|
+INPUT|usc430an-intro-13|A3 A2 A0 A1 A4 |1581114876|usc430an|intro:find . -iname "intro"|
+INPUT|usc430an-intro-14|A1 A4 A3 A2 A0 |1581114894|usc430an|intro:find / -iname "intro"|
+INPUT|usc430an-intro-15|A1 A4 A0 A2 A3 |1581115046|usc430an|intro:find / -iname '*.intro'|/proj/USC430/exp/sunshine-intro/count.intro
+/proj/USC430/exp/hw1-usc430ab/count.intro
+/proj/USC430/exp/hw1-usc430bi/count.intro
+/proj/USC430/exp/hw1-usc430ar/count.intro
+/proj/USC430/exp/hw1-usc430bd/count.intro
+/proj/USC430/exp/hw1-usc430az/count.intro
+/proj/USC430/exp/hw1-usc430bh/count.intro
+/proj/USC430/exp/hw1-usc430ax/count.intro
+/proj/USC430/exp/hw1-usc430ba/count.intro
+/proj/USC430/exp/hw1-usc430ao/count.intro
+/proj/USC430/exp/hw1-usc430au/count.intro
+/proj/USC430/exp/hw1-usc430bl/count.intro
+/proj/USC430/exp/hw1-usc430ag/count.intro
+/proj/USC430/exp/hw1-usc430bb/count.intro
+/proj/USC430/exp/hw1-usc430be/count.intro
+/proj/USC430/exp/hw1-usc430aq/count.intro
+/proj/USC430/exp/jelenaavb/count.intro
+/proj/USC430/exp/hw1-usc430ad/count.intro
+/proj/USC430/exp/hw1-usc430bg/count.intro
+/proj/USC430/exp/hw1-usc430af/count.intro
+/proj/USC430/exp/hw1-usc430ae/count.intro
+/proj/USC430/exp/hw1-usc430ak/count.intro
+/proj/USC430/exp/hw1-usc430av/count.intro
+/proj/USC430/exp/hw1-usc430ai/count
+INPUT|usc430an-intro-16|M4 M3 M2 M1 M0 |1581115094|usc430an|intro:find / -iname '*intro*'|/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/users/usc430an/top_secret/136intro-3.jpg
+/users/usc430an/top_secret/xbzf136INTRO-1.jpg
+/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylo
+INPUT|usc430an-intro-17|U |1581115272|usc430an|intro:cp /.hidden/asdf136Intro-5kqlw.jpeg ~/top_secret|cp: failed to close '/users/usc430an/top_secret/asdf136Intro-5kqlw.jpeg': No space left on device
+
+INPUT|usc430an-intro-18|U |1581115295|usc430an|intro:ls|checkHash.txt  hashes  stest.txt  thomas.png  top_secret  usc430an.txt
+
+INPUT|usc430an-intro-19|U |1581115302|usc430an|intro:cd top_secret |
+INPUT|usc430an-intro-20|U |1581115303|usc430an|intro:ls|136intro-3.jpg	asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430an-intro-21|U |1581115331|usc430an|intro:cp /etc/quer136intro-4.JPG ~/top_secret|cp: cannot stat '/etc/quer136intro-4.JPG': No such file or directory
+
+INPUT|usc430an-intro-22|U |1581115359|usc430an|intro:cp /etc/wuer136intro-4.JPG ~/top_secret|cp: failed to close '/users/usc430an/top_secret/wuer136intro-4.JPG': No space left on device
+
+INPUT|usc430an-intro-23|U |1581115385|usc430an|intro:cp /dev/136intro-2jjaj.JPEG ~/top_secret|cp: failed to close '/users/usc430an/top_secret/136intro-2jjaj.JPEG': No space left on device
+
+INPUT|usc430an-intro-24|U |1581115387|usc430an|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430an-intro-25|U |1581115392|usc430an|intro:cd ..|
+INPUT|usc430an-intro-26|U |1581115851|usc430an|intro:ls               |checkHash.txt  hashes  stest.txt  thomas.png  top_secret  usc430an.txt
+
+INPUT|usc430an-intro-27|U |1581117427|usc430an|intro:ls top_secret|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430an-intro-28|U |1581117447|usc430an|intro:rm 136intro-2jjaj.JPEG .|rm: cannot remove '136intro-2jjaj.JPEG': No such file or directory
+rm: cannot remove '.': Is a directory
+
+INPUT|usc430an-intro-29|U |1581117489|usc430an|intro:rm top_secret/136iintro-2jjaj.JPEG  |rm: cannot remove 'top_secret/136iintro-2jjaj.JPEG': No such file or directory
+
+INPUT|usc430an-intro-30|U |1581117497|usc430an|intro:cd top_secret|
+INPUT|usc430an-intro-31|U |1581117499|usc430an|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430an-intro-32|U |1581117512|usc430an|intro:rm 136intro-2jjaj.JPEG|
+INPUT|usc430an-intro-33|U |1581117513|usc430an|intro:ls|136intro-3.jpg	asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430an-intro-34|U |1581117530|usc430an|intro:rm asdf136Intro-5kqlw.jpeg|
+INPUT|usc430an-intro-35|U |1581117550|usc430an|intro:rm wuer136intro-4.JPG|
+INPUT|usc430an-intro-36|U |1581117551|usc430an|intro:ls|136intro-3.jpg	xbzf136INTRO-1.jpg
+
+INPUT|usc430an-intro-37|U |1581117562|usc430an|intro:cd ..|
+INPUT|usc430an-intro-38|A1 A4 A2 A3 A0 |1581117589|usc430an|intro:find / -iname "*intro*" -n 5 |find: unknown predicate `-n'
+
+INPUT|usc430an-intro-39|M4 |1581117630|usc430an|intro:find / -iname "*intro*" | head -n 5|/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+
+INPUT|usc430an-intro-40|U |1581236168|usc430an|intro:ls|checkHash.txt  hashes  stest.txt  thomas.png  top_secret  usc430an.txt
+
+INPUT|usc430an-intro-41|M4 M0 |1581236190|usc430an|intro:find / -iname "*intro*"  |/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/users/usc430an/top_secret/136intro-3.jpg
+/users/usc430an/top_secret/xbzf136INTRO-1.jpg
+/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+^X^C;1581236200
+
+INPUT|usc430an-intro-42|M4 |1581236218|usc430an|intro:find / -iname "*intro*" | head -n 10|/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/users/usc430an/top_secret/136intro-3.jpg
+/users/usc430an/top_secret/xbzf136INTRO-1.jpg
+/usr/share/doc/bash/INTRO.gz
+
+INPUT|usc430an-intro-43|M4 M3 M2 M1 M0 |1581236256|usc430an|intro:find / -iname "*intro*"             |/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/users/usc430an/top_secret/136intro-3.jpg
+/users/usc430an/top_secret/xbzf136INTRO-1.jpg
+/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylo
+INPUT|usc430an-intro-44|U |1581236307|usc430an|intro:cp /dev/136intro-2jjaj.JPEG ~/top_secret|
+INPUT|usc430an-intro-45|U |1581236317|usc430an|intro:cd top_secret|
+INPUT|usc430an-intro-46|U |1581236318|usc430an|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  xbzf136INTRO-1.jpg
+
+INPUT|usc430an-intro-47|U |1581236340|usc430an|intro:32@sudo cp /etc/quer136intro-4.JPG ~/top_secret|cp: cannot stat '/etc/quer136intro-4.JPG': No such file or directory
+
+INPUT|usc430an-intro-48|U |1581236349|usc430an|intro:cp /etc/wuer136intro-4.JPG ~/top_secret|
+INPUT|usc430an-intro-49|U |1581236375|usc430an|intro:cp /.hidden/asdf136Intro-5kqlw.jpeg ~/top_secret|
+INPUT|usc430an-intro-50|U |1581236387|usc430an|intro:cd ..|
+INPUT|usc430an-intro-51|M6 |1581237480|usc430an|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1988984         48    1988936   1%% /dev
+tmpfs                                                403952       6388     397564   2%% /run
+/dev/sda1                                          15681948    3252288   11629712  22%% /
+tmpfs                                               2019748          0    2019748   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               2019748          0    2019748   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430an 2031313280 1109849088  758959104  60%% /users/usc430an
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374626944 1362141440  51%% /proj/USC430
+tmpfs                                                403948          0     403948   0%% /run/user/14177
+
+INPUT|usc430an-intro-52|M6 |1581237603|usc430an|intro:df -H|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              2.1G   50k  2.1G   1%% /dev
+tmpfs                                             414M  6.6M  408M   2%% /run
+/dev/sda1                                          17G  3.4G   12G  22%% /
+tmpfs                                             2.1G     0  2.1G   0%% /dev/shm
+tmpfs                                             5.3M     0  5.3M   0%% /run/lock
+tmpfs                                             2.1G     0  2.1G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430an  2.1T  1.2T  778G  60%% /users/usc430an
+users.isi.deterlab.net:/mnt/projects/proj/USC430  3.1T  1.5T  1.4T  51%% /proj/USC430
+tmpfs                                             414M     0  414M   0%% /run/user/14177
+
+INPUT|usc430an-intro-53|U |1581238061|usc430an|intro:"test" > ~/test1.txt          |
+INPUT|usc430an-intro-54|U |1581238063|usc430an|intro:ls|checkHash.txt  hashes  stest.txt  test1.txt  thomas.png  top_secret  usc430an.txt
+
+INPUT|usc430an-intro-55|U |1581238069|usc430an|intro:cat test1.txt|
+INPUT|usc430an-intro-56|U |1581238088|usc430an|intro:cat ~/test1.txt|
+INPUT|usc430an-intro-57|U |1581238180|usc430an|intro:echo "test" >~/test1.txt|
+INPUT|usc430an-intro-58|U |1581238187|usc430an|intro:cat ~/test1.txt|test
+A
+
+INPUT|usc430an-intro-59|U |1581238281|usc430an|intro:eho "Based on the answer to #2 I believe the disks are in the /dev directory and therefore I belAsc430an@intro:~$ sudo echo "Based on the answer to #2 I believe the disks are in the /dev directory and therefore I belAc430an@intro:~$ sudo ec|
+
+INPUT|usc430an-intro-60|U |1581238296|usc430an|intro:cat ~/top_secret/diskfree.txt|Based on the answer to #2 I believe the disks are in the /dev directory and therefore I believe the disk has a size of 17Gb with 12Gb available
+
+INPUT|usc430an-intro-61|U |1581238383|usc430an|intro:ls|checkHash.txt  hashes  stest.txt  test1.txt  thomas.png  top_secret  usc430an.txt
+
+INPUT|usc430an-intro-62|U |1581238386|usc430an|intro:cd /|
+INPUT|usc430an-intro-63|U |1581238387|usc430an|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430an-intro-64|U |1581238393|usc430an|intro:cd proc|
+INPUT|usc430an-intro-65|U |1581238394|usc430an|intro:ls|1     11    14	  2069	2568  2639  339  416  49   98		fb	     kpageflags    self		      vmstat
+10    1117  140   2079	2570  27    34	 418  50   99		filesystems  loadavg	   slabinfo	      zoneinfo
+100   114   15	  21	2571  279   341  419  51   acpi		fs	     locks	   softirqs
+101   1144  16	  2124	26    28    35	 42   52   buddyinfo	interrupts   mdstat	   stat
+102   1160  1669  22	2602  2806  36	 420  54   bus		iomem	     meminfo	   swaps
+1025  1167  18	  2244	2607  2840  37	 421  55   cgroups	ioports      misc	   sys
+1030  12    19	  2251	2609  3     38	 424  6    cmdline	ipmi	     modules	   sysrq-trigger
+104   123   198   2252	2610  30    39	 43   7    consoles	irq	     mounts	   sysvipc
+1040  1278  2	  2267	2625  31    397  435  769  cpuinfo	kallsyms     mtrr	   thread-self
+1046  13    20	  2273	2626  3134  4	 44   8    crypto	kcore	     net	   timer_list
+105   1305  201   24	2627  3187  40	 45   851  devices	keys	     pagetypeinfo  tty
+106   1331  202   2434	2628  32    407  46   852
+INPUT|usc430an-intro-66|A5 |1581238413|usc430an|intro:cd cpuinfo|bash: cd: cpuinfo: Not a directory
+
+INPUT|usc430an-intro-67|M5 |1581238436|usc430an|intro:cat cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microcode	: 0xba
+cpu MHz		: 1609.577
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4266.63
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microco
+INPUT|usc430an-intro-68|U |1581238494|usc430an|intro:cd ..|
+INPUT|usc430an-intro-69|U |1581238496|usc430an|intro:cd ~|
+INPUT|usc430an-intro-70|U |1581238498|usc430an|intro:ls|checkHash.txt  hashes  stest.txt  test1.txt  thomas.png  top_secret  usc430an.txt
+
+INPUT|usc430an-intro-71|U |1581238681|usc430an|intro:scp C:/Users/sjher/Desktop/answers.txt ~|ssh: Could not resolve hostname c: Temporary failure in name resolution
+
+INPUT|usc430an-intro-72|U |1581238775|usc430an|intro:scp                                     |usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430an-intro-73|U |1581238841|usc430an|intro:scp C:/Users/sjher/Desktop/answers.txt usc430an@users.deterlab.net:~/top_secret/answers.txt|ssh: Could not resolve hostname c: Temporary failure in name resolution
+
+INPUT|usc430an-intro-74|U |1581238860|usc430an|intro:scp /Users/sjher/Desktop/answers.txt usc430an@users.deterlab.net:~/top_secret/answers.txt|^C
+
+INPUT|usc430an-intro-75|U |1581238950|usc430an|intro:ls|checkHash.txt  hashes  stest.txt  test1.txt  thomas.png  top_secret  usc430an.txt
+
+INPUT|usc430an-intro-76|U |1581238957|usc430an|intro:cd top_secret|
+INPUT|usc430an-intro-77|U |1581238958|usc430an|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430an-intro-78|U |1581238965|usc430an|intro:cd ..|
+INPUT|usc430an-intro-79|U |1581239041|usc430an|intro:scp /Users/sjher/Desktop/answers.txt usc430an@users.deterlab.net:~/top_secret/           |^C
+
+INPUT|usc430an-intro-80|U |1581239144|usc430an|intro:cd top_secret|
+INPUT|usc430an-intro-81|U |1581239145|usc430an|intro:ls|136intro-2jjaj.JPEG  answers.txt	      diskfree.txt	  xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+
+INPUT|usc430an-intro-82|U |1581239164|usc430an|intro:cat answers.txt|Steven Hernandez
+hernansj@usc.edu
+usc430an
+
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+- Is an image of a flying saucer. Says "Forbidden Planet".
+
+/var/log/136intro-3.jpg
+- Is a movie poster for "IT CAME FROM OUTER SPACE".
+
+/dev/136intro-2jjaj.JPEG
+- Movie poster for Godzilla
+
+/etc/wuer136intro-4.JPG
+- Poster for "The Fly"
+
+/.hidden/asdf136Intro-5kqlw.jpeg
+- Poster for 2001 A Space Odyssey.
+
+1. The /var directory contains files that the system writes data to during its operation.
+2. The /dev directory contains device files that control access to peripheral devices like disks.
+3. In diskfree.txt
+4. The vendor_id is GenuineIntel.
+
+INPUT|usc430an-intro-83|U |1581312265|usc430an|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.978 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.421 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.499 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.379 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=5 ttl=64 time=0.261 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=6 ttl=64 time=0.381 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=7 ttl=64 time=0.265 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=8 ttl=64 time=0.384 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=9 ttl=64 time=0.273 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=10 ttl=64 time=0.339 ms
+^C
+--- client-link0 ping statistics ---
+10 packets transmitted 10 received 0%% packet loss time 9197ms
+rtt min/avg/max/mdev = 0.261/0.418/0.978/0.199 ms
+
+INPUT|usc430an-intro-84|U |1581314492|usc430an|server:cd /tmp|
+INPUT|usc430an-intro-85|U |1581314493|usc430an|server:ls|systemd-private-db2435c12aa745bbb4a3be16ccfe3142-systemd-resolved.service-VQa4B2
+systemd-private-db2435c12aa745bbb4a3be16ccfe3142-systemd-timesyncd.service-NpTlDK
+
+INPUT|usc430an-intro-86|U |1581314501|usc430an|server:help|GNU bash version 4.4.19(1)-release (x86_64-pc-linux-gnu)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                             history [-c] [-d offset] [n] or histo>
+ (( expression ))                         if COMMANDS; then COMMANDS; [ elif CO>
+ . filename [arguments]                   jobs [-lnprs] [jobspec ...] or jobs ->
+ :                                        kill [-s sigspec | -n signum | -sigsp>
+ [ arg... ]                               let arg [arg ...]
+ [[ expression ]]                         local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]           logout [n]
+ bg [job_spec ...]                        mapfile [-d delim] [-n count] [-O ori>
+ bind [-lpsvPSVX
+INPUT|usc430an-intro-87|U |1581314517|usc430an|server:ls|systemd-private-db2435c12aa745bbb4a3be16ccfe3142-systemd-resolved.service-VQa4B2
+systemd-private-db2435c12aa745bbb4a3be16ccfe3142-systemd-timesyncd.service-NpTlDK
+
+INPUT|usc430an-intro-88|U |1581315023|usc430an|server:cat \"404 File not found\" > 404.html|cat: '404 File not found': No such file or directory
+
+INPUT|usc430an-intro-89|U |1581315050|usc430an|server:caecho "4404 File not found\" > 404.html|> ;1581315062
+> .;1581315065
+> bash: unexpected EOF while looking for matching `\"'
+bash: syntax error: unexpected end of file
+
+INPUT|usc430an-intro-90|U |1581315079|usc430an|server:echo \"404 File not foun\"|404 File not foun
+
+INPUT|usc430an-intro-91|U |1581315097|usc430an|server:echo \"404 File not found\" > 404.html |
+INPUT|usc430an-intro-92|U |1581315101|usc430an|server:ls|404.html
+systemd-private-db2435c12aa745bbb4a3be16ccfe3142-systemd-resolved.service-VQa4B2
+systemd-private-db2435c12aa745bbb4a3be16ccfe3142-systemd-timesyncd.service-NpTlDK
+
+INPUT|usc430an-intro-93|U |1581315107|usc430an|server:cat 404.html|404 File not found
+
+INPUT|usc430an-intro-94|U |1581321267|usc430an|server:ls|checkHash.txt  hashes	  stest.txt  thomas.png  usc430an.txt
+client.py      server.py  test1.txt  top_secret
+
+INPUT|usc430an-intro-95|U |1581321288|usc430an|server:python ./server.py client   |  File \"./server.py\" line 17
+    print('starting up on %%s port %%s' %% server_address file=sys.stderr)
+                                                            ^
+SyntaxError: invalid syntax
+
+INPUT|usc430an-intro-96|U |1581321323|usc430an|server:rm server.py|
+INPUT|usc430an-intro-97|U |1581321327|usc430an|server:rm client.py|
+INPUT|usc430an-intro-98|U |1581321377|usc430an|server:ls|checkHash.txt  hashes	  stest.txt  thomas.png  usc430an.txt
+client.py      server.py  test1.txt  top_secret
+
+INPUT|usc430an-intro-99|U |1581321409|usc430an|server:python ./server.py localhost|starting up on localhost port 80
+Traceback (most recent call last):
+  File \"./server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430an-intro-100|U |1581321421|usc430an|server:python ./server.py server   |starting up on server port 80
+Traceback (most recent call last):
+  File \"./server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied;1581321421
+
+INPUT|usc430an-intro-101|U |1581321671|usc430an|server:python ./server.py server|starting up on server port 80
+Traceback (most recent call last):
+  File \"./server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+

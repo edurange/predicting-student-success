@@ -1,0 +1,476 @@
+User usc430am start time 1548987362 end 1549006307
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430am-intro-0|U |000000000|usc430am|:|
+INPUT|usc430am-intro-1|A3 A4 A0 A2 A1 |000000000|usc430am|intro:find . -name \"*.txt\\"|
+INPUT|usc430am-intro-2|U |000000000|usc430am|:|
+INPUT|usc430am-intro-3|A4 A3 A1 A2 A0 |000000000|usc430am|intro:find . -name \"*.tjpeg|
+INPUT|usc430am-intro-4|A1 A2 A0 A4 A3 |000000000|usc430am|intro:find . -name \"*.jpe|
+INPUT|usc430am-intro-5|A2 A0 A1 A3 A4 |000000000|usc430am|intro:find . -name \"\|
+INPUT|usc430am-intro-6|A3 A4 A0 A2 A1 |000000000|usc430am|intro:find /home|
+INPUT|usc430am-intro-7|A3 A4 A0 A2 A1 |1548987362|usc430am|intro:find . index.jpg|.
+./.forward
+./.ssl
+./.ssl/emulab.pem
+./.ssh
+./.ssh/id_rsa
+./.ssh/id_rsa.pub
+./.ssh/known_hosts
+./.ssh/id_emulab.pub
+./.ssh/authorized_keys
+./.ssh/external_keys
+./.cache
+./.cache/motd.legal-displayed
+./.bash_history
+find: 'index.jpg': No such file or directory
+INPUT|usc430am-intro-8|A1 A0 A2 A4 A3 |000000000|usc430am|intro:find . index.jpe|.
+./.forward
+./.ssl
+./.ssl/emulab.pem
+./.ssh
+./.ssh/id_rsa
+./.ssh/id_rsa.pub
+./.ssh/known_hosts
+./.ssh/id_emulab.pub
+./.ssh/authorized_keys
+./.ssh/external_keys
+./.cache
+./.cache/motd.legal-displayed
+./.bash_history
+find: 'index.jpeg': No such file or directory
+INPUT|usc430am-intro-9|A4 A3 A1 A2 A0 |000000000|usc430am|intro:find . -name|
+INPUT|usc430am-intro-10|A3 A4 A0 A2 A1 |000000000|usc430am|intro:find . -name i"|
+INPUT|usc430am-intro-11|U |1548987489|usc430am|intro:mkdir top_secret|
+INPUT|usc430am-intro-12|U |000000000|usc430am|intro:cd top_secret|
+INPUT|usc430am-intro-13|U |000000000|usc430am|intro:cd ..|
+INPUT|usc430am-intro-14|A1 A0 A2 A4 A3 |000000000|usc430am|intro:find . -name "index.jpeg|
+INPUT|usc430am-intro-15|A2 A0 A1 A3 A4 |000000000|usc430am|intro:find|find     findfs   findmnt  
+INPUT|usc430am-intro-16|A0 A2 A1 A3 A4 |000000000|usc430am|intro:find . -name \"index\"|
+INPUT|usc430am-intro-17|A2 A0 A1 A3 A4 |000000000|usc430am|intro:find . -name \"\"*|
+INPUT|usc430am-intro-18|A3 A4 A2 A0 A1 |000000000|usc430am|intro:find . -name \"**index*.jpeg"|
+INPUT|usc430am-intro-19|A4 A3 A1 A0 A2 |000000000|usc430am|intro:find . -nai|
+INPUT|usc430am-intro-20|A3 A4 A0 A2 A1 |000000000|usc430am|intro:find . -i-name|find: paths must precede expression: *index*.jpeg
+Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+INPUT|usc430am-intro-21|A0 A2 A1 A3 A4 |000000000|usc430am|intro:find . /|find: paths must precede expression: *index*.jpeg
+Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+INPUT|usc430am-intro-22|A3 A4 A0 A2 A1 |000000000|usc430am|intro:find / -name -iname \"*index*.jpeg\"|
+INPUT|usc430am-intro-23|A3 A4 A2 A0 A1 |000000000|usc430am|intro:find . -nainame "|
+INPUT|usc430am-intro-24|A0 A2 A1 A3 A4 |000000000|usc430am|intro:find . -iname \"\|
+INPUT|usc430am-intro-25|A2 A0 A1 A3 A4 |000000000|usc430am|intro:find /|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430am-intro-26|U |1548988239|usc430am|intro:ls|top_secret
+INPUT|usc430am-intro-27|U |000000000|usc430am|intro:pwd|/users/usc430am
+INPUT|usc430am-intro-28|U |1548988329|usc430am|intro:ls -a|.  ..  .bash_history  .cache  .forward .ssh  .ssl  top_secret
+INPUT|usc430am-intro-29|A1 A2 A0 A4 A3 |000000000|usc430am|intro:find / -|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430am-intro-30|A3 A4 A2 A0 A1 |000000000|usc430am|intro:find / -iname intro|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430am-intro-31|A3 A4 A2 A0 A1 |000000000|usc430am|intro:sudo|
+INPUT|usc430am-intro-32|M4 M1 |000000000|usc430am|intro:find / -iname *|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430am-intro-33|M4 M1 |000000000|usc430am|intro:find / -iname *"|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430am-intro-34|M4 M1 |000000000|usc430am|intro:find / -iname \"*intro*.jpeg\"|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430am-intro-35|M4 M1 |000000000|usc430am|intro:find / -iname \"*|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430am-intro-36|M4 M1 |000000000|usc430am|intro:find / -iname \"*..jpeg\*|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430am-intro-37|M4 M1 |000000000|usc430am|intro:find / -iname \"*.j*|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430am-intro-38|M3 M2 M0 |000000000|usc430am|intro:find / -iname \"*.**jp|/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/usr/share/doc/libsane/umax/sane-umax-text2.jpg
+/usr/share/doc/libsane/umax/sane-umax-standard.jpg
+/usr/share/doc/libsane/umax/sane-umax-text.jpg
+/usr/share/doc/libsane/umax/sane-umax.jpg
+/usr/share/doc/libsane/umax/sane-umax-advanced.jpg
+/usr/share/doc/libsane/umax/sane-umax-text4.jpg
+/usr/share/doc/libsane/umax/sane-umax-histogram.jpg
+/usr/share/doc/libsane/umax/sane-logo.jpg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430am-intro-39|U |000000000|usc430am|intro:^C|
+INPUT|usc430am-intro-40|U |000000000|usc430am|intro:^C|
+INPUT|usc430am-intro-41|U |000000000|usc430am|intro:^C|
+INPUT|usc430am-intro-42|U |1548990459|usc430am|intro:cp /var/log/136intro-3.jpg /top_secret|cp: cannot create regular file '/top_secret': Permission denied
+INPUT|usc430am-intro-43|A0 A2 A1 A3 A4 |000000000|usc430am|intro:find / -iname "*.*jpg*"|
+INPUT|usc430am-intro-44|U |1548990512|usc430am|intro:cp /var/log/136intro-3.jpg /top_secret/136intro-3.jpg|cp: cannot create regular file '/top_secret/136intro-3.jpg': No such file or directory
+INPUT|usc430am-intro-45|U |000000000|usc430am|intro:mv|mv: cannot move '/var/log/136intro-3.jpg' to '/top_secret/136intro-3.jpg': No such file or directory
+INPUT|usc430am-intro-46|U |000000000|usc430am|intro:cd|
+INPUT|usc430am-intro-47|U |1548990556|usc430am|intro:ls|top_secret
+INPUT|usc430am-intro-48|U |000000000|usc430am|intro:mv /var/log/136intro-3.jpg /top_secret|
+INPUT|usc430am-intro-49|U |1548990618|usc430am|intro:ls /|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430am-intro-50|U |000000000|usc430am|intro:mv /var/log/136intro-3.jpg|mv: cannot remove '/var/log/136intro-3.jpg': Permission denied
+INPUT|usc430am-intro-51|A4 A3 A1 A0 A2 |000000000|usc430am|intro:sudo|
+INPUT|usc430am-intro-52|U |1548990639|usc430am|intro:ls|top_secret
+INPUT|usc430am-intro-53|U |1548990641|usc430am|intro:ls -a|.  ..  .bash_history  .cache  .forward .ssh  .ssl  top_secret
+INPUT|usc430am-intro-54|U |000000000|usc430am|intro:cd top_secret|
+INPUT|usc430am-intro-55|U |1548990648|usc430am|intro:ls -a|.  ..  136intro-3.jpg
+INPUT|usc430am-intro-56|U |000000000|usc430am|intro:mv /var/log/136intro-3.jpg top_secret/136intro-|
+INPUT|usc430am-intro-57|U |000000000|usc430am|intro:mv /var/log/136intro-3.jpg top_secret/136intro|
+INPUT|usc430am-intro-58|U |000000000|usc430am|intro:mv /var/log/136intro-3.jpg top_secret/136intr|
+INPUT|usc430am-intro-59|U |000000000|usc430am|intro:mv /var/log/136intro-3.jpg top_secret/wuer136i|ntro-4.JPG<BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430am-intro-60|U |000000000|usc430am|intro:mv /var/log/136intro-3.jp top_secret/wuer136intsc430am@intro:~/top_secret$ sudo mv /var/log/136intro-3.j top_secret/wuer136intrsc430am@intro:~/top_secret$ sudo mv /var/log/136intro-3. top_secret/wuer136introsc430am@intro:~/top_secret$ sudo mv /var/log/136intro-3 top_secret/wuer136intro-sc430am@intro:~/top_secret$ sudo mv /var/log/136intro- top_secret/wuer136intro-4sc430am@intro:~/top_secret$ sudo mv /var/log/136intro top_secret/wuer136intro-4.sc430am@intro:~/top_secret$ sudo mv /var/log/136intr top_secret/wuer136intro-4.Jsc430am@intro:~/top_secret$ sudo mv /var/log/136int top_secret/wuer136intro-4.JPGc430am@intro:~/top_secret$ sudo mv /var/log/136in top_secret/wuer136intro-4.JPGsc430am@intro:~/top_secret$ sudo mv /var/log/136i top_secret/wuer136intro-4.JPG|
+INPUT|usc430am-intro-61|U |000000000|usc430am|intro:mv /var/log/136|
+INPUT|usc430am-intro-62|U |000000000|usc430am|intro:mv /etc/wuer136i top_secret/wuer136intro-4.JPG sc430am@intro:~/top_secret$ sudo mv /etc/wuer136in top_secret/wuer136intro-4.JPG|G<ESC>[Asc430am@intro:~/top_secret$ sudo mv /etc/wuer136int top_secret/wuer136intro-4.JPG<ESC>[Ac430am@intro:~/top_secret$ sudo mv /etc/wuer136intr top_secret/wuer136intro-4.JPG<ESC>[A430am@intro:~/top_secret$ sudo mv /etc/wuer136intro top_secret/wuer136intro-4.<ESC>[1@J<ESC>[Ac430am@intro:~/top_secret$ sudo mv /etc/wuer136intro- top_secret/wuer136intro-4<ESC>[1@.<ESC>[Ac430am@intro:~/top_secret$ sudo mv /etc/wuer136intro-4 top_secret/wuer136intro-<ESC>[1@4<ESC>[Ac430am@intro:~/top_secret$ sudo mv /etc/wuer136intro-4. top_secret/wuer136intro<ESC>[1@-<ESC>[Ac430am@intro:~/top_secret$ sudo mv /etc/wuer136intro-4.j top_secret/wuer136intr<ESC>[1@o<ESC>[Ac430am@intro:~/top_secret$ sudo mv /etc/wuer136intro-4.jp top_secret/wuer136int<ESC>[1@r<ESC>[Ac430am@intro:~/top_secret$ sudo mv /etc/wuer136intro-4.jpg top_secret/wuer136in<ESC>[1@t<ESC>[Ac430am@intro:~/top_secret$ sudo mv /etc/wuer136intro-4.jpg
+
+
+mv: cannot stat '/etc/wuer136intro-4.jpg': No such file or directory
+INPUT|usc430am-intro-63|U |000000000|usc430am|intro:mv /etc/wuer136intro-4.jpg top_secret/wuer136in|ntro-4.JPG<ESC>[Antro:~/top_secret$ <ESC>[K
+
+INPUT|usc430am-intro-64|U |000000000|usc430am|intro:cd etc|bash: cd: etc: No such file or directory
+INPUT|usc430am-intro-65|U |000000000|usc430am|intro:cd /etc|
+INPUT|usc430am-intro-66|U |1548990753|usc430am|intro:ls|acpi   idmapd.conf   profile
+adduser.conf  ImageMagick-6   profile.d
+alternatives  init    protocols
+ansible   init.d    python
+apache2   initramfs-tools   python2.7
+apm   inputrc    python3
+apparmor  insserv    python3.5
+apparmor.d  insserv.conf   quagga
+apport   insserv.conf.d   rc0.d
+apt   iproute2   rc1.d
+at.deny   iscsi    rc2.d
+at-spi2   issue    rc3.d
+bash.bashrc  issue.net   rc4.d
+bash_completion  java-8-openjdk   rc5.d
+bash_completion.d kbd    rc6.d
+bindresvport.blacklist kernel    rc.local
+binfmt.d  kernel-img.conf   rcS.d
+byobu   ldap    request-key.conf
+ca-certificates  ld.so.cache   request-key.d
+ca-certificates.conf ld.so.conf   resolvc
+INPUT|usc430am-intro-67|U |000000000|usc430am|intro:cd|
+INPUT|usc430am-intro-68|U |1548990772|usc430am|intro:mv /etc/wuer136intro-4.jpg top_secret/wuer136intro-4.JPG|mv: cannot stat '/etc/wuer136intro-4.jpg': No such file or directory
+INPUT|usc430am-intro-69|U |000000000|usc430am|intro:mv /etc/wuer136intro-4.JPG|
+INPUT|usc430am-intro-70|U |000000000|usc430am|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg top_secret/xbzf1|36INTRO-1.jpg
+INPUT|usc430am-intro-71|U |000000000|usc430am|intro:cd top_secret|
+INPUT|usc430am-intro-72|U |1548990820|usc430am|intro:ls|136intro-3.jpg wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430am-intro-73|U |000000000|usc430am|intro:cd|
+INPUT|usc430am-intro-74|U |000000000|usc430am|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg top_secret/asdf136Int|ro-5kqlw.jpeg
+INPUT|usc430am-intro-75|U |000000000|usc430am|intro:mv /dev/136intro-2jjaj.JPEG top_secret/136intro-2jjaj.JPE|G
+INPUT|usc430am-intro-76|U |000000000|usc430am|intro:cd top_secret|
+INPUT|usc430am-intro-77|U |1548990922|usc430am|intro:ls -a|.   136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+..  136intro-3.jpg  wuer136intro-4.JPG
+INPUT|usc430am-intro-78|U |000000000|usc430am|intro:subl .|%No command 'subl' found%% did you mean:
+ Command 'publ' from package 'atfs' (universe)
+ Command 'subs' from package 'libsubtitles-perl' (universe)
+subl: command not found%
+INPUT|usc430am-intro-79|U |000000000|usc430am|intro:scp -r @users.deterlab.net:~/top_secret/|./
+bash: username: No such file or directory
+INPUT|usc430am-intro-80|U |000000000|usc430am|intro:scp -r @users.deterlab.net:~/top_secret/ .|./<BS>
+INPUT|usc430am-intro-81|U |000000000|usc430am|intro:scp -r username@users.deterlab.net:~/top_secret/ ./sc430am@intro:~/top_secret$ scp -r usernam@users.deterlab.net:~/top_secret/ ./|
+INPUT|usc430am-intro-82|U |000000000|usc430am|intro:scp -r userna|
+INPUT|usc430am-intro-83|U |000000000|usc430am|intro:scp -r usc430am@users.deterlab.net:~/top_secret/ ./ sc430am@intro:~/top_secret$ scp -r usc430am|
+
+INPUT|usc430am-intro-84|U |000000000|usc430am|intro:^C|
+INPUT|usc430am-intro-85|U |1548991225|usc430am|intro:touch answers.txt|
+INPUT|usc430am-intro-86|U |1548991227|usc430am|intro:ls|136intro-2jjaj.JPEG  answers.txt       wuer136intro-4.JPG
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+INPUT|usc430am-intro-87|U |1548991872|usc430am|intro:ls|136intro-2jjaj.JPEG  answers.txt       wuer136intro-4.JPG
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+INPUT|usc430am-intro-88|U |1548995067|usc430am|intro:ls|136intro-2jjaj.JPEG  answers.txt       wuer136intro-4.JPG
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+INPUT|usc430am-intro-89|U |1548995173|usc430am|intro:touch hello.txt|
+INPUT|usc430am-intro-90|U |1548995175|usc430am|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      hello.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430am-intro-91|U |1548995183|usc430am|intro:rm hello.txt|
+INPUT|usc430am-intro-92|U |1548995184|usc430am|intro:ls|136intro-2jjaj.JPEG  answers.txt       wuer136intro-4.JPG
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+INPUT|usc430am-intro-93|M6 |1548997156|usc430am|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424          0    1003424   0%% /dev
+tmpfs                                                204720      13672     191048   7%% /run
+/dev/sda1                                          15616412    2905640   11910824  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430am 2031313280 1486765824  382042496  80%% /users/usc430am
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  922095744 1814672512  34%% /proj/USC430
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430am-intro-94|A6 |1548997179|usc430am|intro:df > output.txt|
+INPUT|usc430am-intro-95|U |1548997183|usc430am|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      output.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430am-intro-96|U |1548997187|usc430am|intro:cat output.txt|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424          0    1003424   0%% /dev
+tmpfs                                                204720      13672     191048   7%% /run
+/dev/sda1                                          15616412    2905644   11910820  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430am 2031313280 1486765952  382042240  80%% /users/usc430am
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  922095744 1814672512  34%% /proj/USC430
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430am-intro-97|U |1548998003|usc430am|intro:cat answers.txt|/var/log/136intro-3.jpg
+
+ Poster for 3D movie \"It Came From Outer Space\"
+
+/etc/wuer136intro-4.JPG
+
+ Poster for movie \"The Fly\" (title in block red text)
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+ \"Forbidden Planet\" with a picture of a flying saucer
+
+/.hidden/asdf136Intro-5kqlw.jpeg
+
+ Poster for \"2001: A Space Odyssey\"
+
+/dev/136intro-2jjaj.JPEG
+
+ Poster for \"Godzilla\" (title in block red text)
+
+
+
+1. /var contains files with variable data that the system writes.
+
+INPUT|usc430am-intro-98|U |1548998018|usc430am|intro:cat answers.txt|/var/log/136intro-3.jpg
+
+ Poster for 3D movie \"It Came From Outer Space\"
+
+/etc/wuer136intro-4.JPG
+
+ Poster for movie \"The Fly\" (title in block red text)
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+ \"Forbidden Planet\" with a picture of a flying saucer
+
+/.hidden/asdf136Intro-5kqlw.jpeg
+
+ Poster for \"2001: A Space Odyssey\"
+
+/dev/136intro-2jjaj.JPEG
+
+ Poster for \"Godzilla\" (title in block red text)
+
+
+
+1. /var contains files with variable data that the system writes.
+
+2. /dev is for special or device files.
+
+INPUT|usc430am-intro-99|M5 |1548998293|usc430am|intro:less /proc/cpuinfo|=
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping        : 3
+microcode       : 0x5
+cpu MHz         : 2992.417
+cache size      : 2048 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr
+bugs            :
+/proc/cpuinfo
+:
+:
+:
+:
+bogomips        : 5984.83
+:
+:
+-
+log file: 
+:
+:
+>
+[1]+  Stopped                 less /proc/cpuinfo
+INPUT|usc430am-intro-100|U |1548998366|usc430am|intro:cat answers.txt|/var/log/136intro-3.jpg
+
+ Poster for 3D movie \"It Came From Outer Space\"
+
+/etc/wuer136intro-4.JPG
+
+ Poster for movie \"The Fly\" (title in block red text)
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+ \"Forbidden Planet\" with a picture of a flying saucer
+
+/.hidden/asdf136Intro-5kqlw.jpeg
+
+ Poster for \"2001: A Space Odyssey\"
+
+/dev/136intro-2jjaj.JPEG
+
+ Poster for \"Godzilla\" (title in block red text)
+
+
+
+1. /var contains files with variable data that the system writes.
+
+2. /dev is for special or device files.
+
+4. vendor_id: GenuineIntel
+
+INPUT|usc430am-intro-101|U |1548998976|usc430am|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      output.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430am-intro-102|A6 |1548999018|usc430am|intro:df > diskfree.txt|
+INPUT|usc430am-intro-103|U |1548999021|usc430am|intro:cat diskfree.txt|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424          0    1003424   0%% /dev
+tmpfs                                                204720      13672     191048   7%% /run
+/dev/sda1                                          15616412    2905772   11910692  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430am 2031313280 1486781440  382026752  80%% /users/usc430am
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  922097920 1814670464  34%% /proj/USC430
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430am-intro-104|U |1548999024|usc430am|intro:rm output.txt|
+INPUT|usc430am-intro-105|U |1548999025|usc430am|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430am-intro-106|U |000000000|usc430am|intro:cd|
+INPUT|usc430am-intro-107|U |1549000349|usc430am|intro:ls|top_secret
+INPUT|usc430am-intro-108|U |1549000352|usc430am|intro:ls -a|.  ..  .bash_history  .cache  .forward .ssh  .ssl  top_secret
+INPUT|usc430am-intro-109|U |1549001020|usc430am|intro:ls|top_secret
+INPUT|usc430am-intro-110|U |000000000|usc430am|intro:cd top_secret|
+INPUT|usc430am-intro-111|U |1549001184|usc430am|intro:ls|136intro-2jjaj.JPEG  answers.txt       diskfree.txt   xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+INPUT|usc430am-intro-112|U |1549001193|usc430am|intro:cat answers.txt|Gina Yang
+
+ginayang@usc.edu
+
+usc430am
+
+
+
+/var/log/136intro-3.jpg
+
+ Poster for 3D movie \"It Came From Outer Space\"
+
+/etc/wuer136intro-4.JPG
+
+ Poster for movie \"The Fly\" (title in block red text)
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+ \"Forbidden Planet\" with a picture of a flying saucer
+
+/.hidden/asdf136Intro-5kqlw.jpeg
+
+ Poster for \"2001: A Space Odyssey\"
+
+/dev/136intro-2jjaj.JPEG
+
+ Poster for \"Godzilla\" (title in block red text)
+
+
+
+1. /var contains files with variable data that the system writes.
+
+2. /dev is for special or device files.
+
+INPUT|usc430am-intro-113|U |000000000|usc430am|intro:cd|
+INPUT|usc430am-intro-114|U |1549001223|usc430am|intro:ifconfig|eth4      Link encap:Ethernet  HWaddr 00:14:22:23:8b:d7  
+          inet addr:192.168.1.160  Bcast:192.168.3.255  Mask:255.255.252.0
+          inet6 addr: fe80::214:22ff:fe23:8bd7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:57436 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:58057 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:21201895 (21.2 MB)  TX bytes:27537459 (27.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:61 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:61 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:11258 (11.2 KB)  TX bytes:11258 (11.2 KB)
+
+INPUT|usc430am-intro-115|U |000000000|usc430am|intro:cd top_secret|
+INPUT|usc430am-intro-116|U |1549003602|usc430am|intro:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+INPUT|usc430am-intro-117|U |000000000|usc430am|intro:tar cvzf gina-yang-intro.tar.gz top^C|
+INPUT|usc430am-intro-118|U |000000000|usc430am|intro:cd|
+INPUT|usc430am-intro-119|U |1549003642|usc430am|intro:tar cvzf gina-yang-intro.tar.gz top_secret|top_secret/
+top_secret/136intro-3.jpg
+top_secret/wuer136intro-4.JPG
+top_secret/xbzf136INTRO-1.jpg
+top_secret/asdf136Intro-5kqlw.jpeg
+top_secret/136intro-2jjaj.JPEG
+top_secret/answers.txt
+top_secret/client.py
+top_secret/diskfree.txt
+top_secret/server.py
+INPUT|usc430am-intro-120|U |1549003645|usc430am|intro:ls|client.py  gina-yang-intro.tar.gz  server.py  top_secret
+INPUT|usc430am-intro-121|U |1549005052|usc430am|intro:rm gina-yang-intro.tar.gz|
+INPUT|usc430am-intro-122|U |1549005053|usc430am|intro:ls|client.py  server.py  top_secret
+INPUT|usc430am-intro-123|U |1549006300|usc430am|intro:rm client.py|
+INPUT|usc430am-intro-124|U |1549006302|usc430am|intro:rm server.py|
+INPUT|usc430am-intro-125|U |1549006303|usc430am|intro:ls|top_secret
+INPUT|usc430am-intro-126|U |000000000|usc430am|intro:cd top_secret|
+INPUT|usc430am-intro-127|U |1549006307|usc430am|intro:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG

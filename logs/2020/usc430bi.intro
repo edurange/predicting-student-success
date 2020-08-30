@@ -1,0 +1,189 @@
+User usc430bi start time 1579987037 end 1579989920
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430bi-intro-0|U |000000000|usc430bi|:|
+INPUT|usc430bi-intro-1|U |000000000|usc430bi|:|
+INPUT|usc430bi-intro-2|U |1579987037|usc430bi|intro:ls|
+INPUT|usc430bi-intro-3|M4 M0 |1579987050|usc430bi|intro:find / intro|/
+/.hidden
+/.hidden/asdf136Intro-5kqlw.jpeg
+/local
+/local/logs
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/vmlinuz.old
+/users
+/users/alotero
+/users/giotah
+/users/dbosch
+/users/regste07
+/users/aashraya
+/users/sunshine
+/users/selenaws
+/users/mlocasto
+/users/thang89
+/users/barada24
+/users/rweiss
+/users/dagny64
+/users/quin2
+/users/usc430bi
+/users/usc430bi/.forward
+/users/usc430bi/.ssl
+/users/usc430bi/.ssl/emulab.pem
+/users/usc430bi/.ssh
+/users/usc430bi/.ssh/id_rsa
+/users/usc430bi/.ssh/id_rsa.pub
+/users/usc430bi/.ssh/known_hosts
+/users/usc430bi/.ssh/id_emulab.pub
+/users/usc430bi/.ssh/authorized_keys
+/users/usc430bi/.ssh/external_keys
+/users/usc430bi/.gnupg
+/users/usc430bi/.gnupg/private-keys-v1.d
+/users/usc430bi/.cache
+/users/usc430bi/.cache/motd.legal-displayed
+/users/usc430bi/.bash_history
+/users/patrickv
+/users/albpat03
+/users/massa
+INPUT|usc430bi-intro-4|M4 M0 |1579987066|usc430bi|intro:find / *intro*.jpg|/
+/.hidden
+/.hidden/asdf136Intro-5kqlw.jpeg
+/local
+/local/logs
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/vmlinuz.old
+/users
+/users/alotero
+/users/giotah
+/users/dbosch
+/users/regste07
+/users/aashraya
+/users/sunshine
+/users/selenaws
+/users/mlocasto
+/users/thang89
+/users/barada24
+/users/rweiss
+/users/dagny64
+/users/quin2
+/users/usc430bi
+/users/usc430bi/.forward
+/users/usc430bi/.ssl
+/users/usc430bi/.ssl/emulab.pem
+/users/usc430bi/.ssh
+/users/usc430bi/.ssh/id_rsa
+/users/usc430bi/.ssh/id_rsa.pub
+/users/usc430bi/.ssh/known_hosts
+/users/usc430bi/.ssh/id_emulab.pub
+/users/usc430bi/.ssh/authorized_keys
+/users/usc430bi/.ssh/external_keys
+/users/usc430bi/.gnupg
+/users/usc430bi/.gnupg/private-keys-v1.d
+/users/usc430bi/.cache
+/users/usc430bi/.cache/motd.legal-displayed
+/users/usc430bi/.bash_history
+/users/patrickv
+/users/albpat03
+/users/massa
+INPUT|usc430bi-intro-5|U |1579987079|usc430bi|intro:man find|FIND(1)                                        General Commands Manual                                        FIND(1)
+
+NAME
+       find - search for files in a directory hierarchy
+
+SYNOPSIS
+       find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
+
+DESCRIPTION
+       This manual page documents the GNU version of find.  GNU find searches the directory tree rooted at each given
+       starting-point by evaluating the given expression from left to right according to  the  rules  of  precedence
+       (see  section OPERATORS) until the outcome is known (the left hand side is false for and operations true for
+       or) at which point find moves on to the next file name.  If no starting-point is specified `.' is assumed.
+
+       If you are using find in an environment where security is important (for example if you are using it to search
+       directories  that  are  writable by other users) you should read the `Security Considerations' chapter of the
+       find
+INPUT|usc430bi-intro-6|M3 M2 M0 |1579987267|usc430bi|intro:find / -ipath *intro*.jpg|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: '/tmp/systemd-private-8d5e96ab794745df83026e9ca3a8a18d-systemd-resolved.service-Xnmkcd': Permission denied
+find: '/tmp/systemd-private-8d5e96ab794745df83026e9ca3a8a18d-systemd-timesyncd.service-e7r81Q': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430bi-intro-7|A0 A2 A3 A4 A1 |1579987331|usc430bi|intro:find / -ipath *intro*.jpg 2>dev/null|bash: dev/null: No such file or directory
+
+INPUT|usc430bi-intro-8|M3 M2 M0 |1579987338|usc430bi|intro:find / -ipath *intro*.jpg 2>/dev/null|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430bi-intro-9|M3 M2 M0 |1579987402|usc430bi|intro:find / -ipath *136*.jpg 2>/dev/null|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430bi-intro-10|M4 M1 |1579987426|usc430bi|intro:find / -ipath *136*.jpeg 2>/dev/null|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bi-intro-11|A3 A2 A0 A1 A4 |1579987524|usc430bi|intro:find / \(-ipath "*intro*.jpeg" -o -ipath "*intro*.jpg"\) 2>/dev/null|
+INPUT|usc430bi-intro-12|A0 A2 A3 A1 A4 |1579987644|usc430bi|intro:find / -ipath -regextype posix-egrep -regex ".*intro*\.(jpeg|jpg)$" 2>/dev/null|
+INPUT|usc430bi-intro-13|M4 M3 M2 M1 M0 |1579987685|usc430bi|intro:find / -ipath *intro*.jpeg -o -ipath *intro*.jpg 2>/dev/null|/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bi-intro-14|U |1579987699|usc430bi|intro:cd ~|
+INPUT|usc430bi-intro-15|U |1579987717|usc430bi|intro:mkdir top_secret|
+INPUT|usc430bi-intro-16|A0 A2 A3 A4 A1 |1579987757|usc430bi|intro:find / -ipath *intro*.jpeg -o -ipath *intro*.jpg >top_secret/answers.txt 2>/dev/null|
+INPUT|usc430bi-intro-17|U |1579987769|usc430bi|intro:cat top_secret/answers.txt |/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+c/wuer136intro-4.JPG /dev/136intro-2jjaj.JPEG usc430bi@users.deterlab.net:.bzf136INTRO-1.jpg /var/log/136intro-3.jpg /et ;1579987890
+ssh: connect to host users.deterlab.net port 22: Connection timed out
+lost connection
+c/wuer136intro-4.JPG /dev/136intro-2jjaj.JPEG usc430bi@users.deterlab.net:~bzf136INTRO-1.jpg /var/log/136intro-3.jpg /etc;1579988166
+^C
+
+INPUT|usc430bi-intro-18|U |1579988190|usc430bi|intro:cat top_secret/answers.txt |/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bi-intro-19|U |1579988205|usc430bi|intro:scp /.hidden/asdf136Intro-5kqlw.jpeg usc430bi@users.deterlab.net:.|^C
+
+INPUT|usc430bi-intro-20|U |1579988328|usc430bi|intro:exit|exit
+
+INPUT|usc430bi-intro-21|U |1579988341|usc430bi|intro:ls|;1579988328
+top_secret
+
+INPUT|usc430bi-intro-22|U |1579988344|usc430bi|intro:exit|exit
+
+INPUT|usc430bi-intro-23|U |1579989177|usc430bi|intro:set -m|;1579988344
+
+INPUT|usc430bi-intro-24|U |1579989180|usc430bi|intro:exit|exit
+
+INPUT|usc430bi-intro-25|U |1579989920|usc430bi|intro:ls|;1579989180
+asdf136Intro-5kqlw.jpeg  top_secret
+

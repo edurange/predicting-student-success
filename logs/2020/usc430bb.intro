@@ -1,0 +1,761 @@
+User usc430bb start time 1580267740 end 1580697326
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430bb-intro-0|U |000000000|usc430bb|:|
+INPUT|usc430bb-intro-1|U |000000000|usc430bb|:|
+INPUT|usc430bb-intro-2|U |1580267740|usc430bb|intro:ls|myfile.txt  usc430bb.txt
+
+INPUT|usc430bb-intro-3|U |1580267745|usc430bb|intro:cd ..|
+INPUT|usc430bb-intro-4|U |1580267747|usc430bb|intro:cd ..|
+INPUT|usc430bb-intro-5|M4 M0 |1580267766|usc430bb|intro:find / intro*.jpg|/
+/.hidden
+/.hidden/asdf136Intro-5kqlw.jpeg
+/local
+/local/logs
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/vmlinuz.old
+/users
+/users/alotero
+/users/giotah
+/users/dbosch
+/users/regste07
+/users/aashraya
+/users/sunshine
+/users/selenaws
+/users/mlocasto
+/users/thang89
+/users/barada24
+/users/rweiss
+/users/dagny64
+/users/quin2
+/users/usc430bb
+/users/usc430bb/.forward
+/users/usc430bb/.ssl
+/users/usc430bb/.ssl/emulab.pem
+/users/usc430bb/.ssh
+/users/usc430bb/.ssh/id_rsa
+/users/usc430bb/.ssh/id_rsa.pub
+/users/usc430bb/.ssh/known_hosts
+/users/usc430bb/.ssh/id_emulab.pub
+/users/usc430bb/.ssh/authorized_keys
+/users/usc430bb/.ssh/external_keys
+/users/usc430bb/.gnupg
+/users/usc430bb/.gnupg/private-keys-v1.d
+/users/usc430bb/.cache
+/users/usc430bb/.cache/motd.legal-displayed
+/users/usc430bb/.bash_history
+/users/usc430bb/myfile.txt
+/users/usc430bb/u
+INPUT|usc430bb-intro-6|U |1580267791|usc430bb|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430bb-intro-7|A4 A1 A3 A2 A0 |1580267871|usc430bb|intro:find / -name intro*.jpg|find: '/tmp/systemd-private-9b374cb12bff48bf80f69e42ae26be67-systemd-resolved.service-t4ThoP': Permission denied
+find: '/tmp/systemd-private-9b374cb12bff48bf80f69e42ae26be67-systemd-timesyncd.service-KpIANs': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/3/task/3/fd'
+INPUT|usc430bb-intro-8|U |1580267912|usc430bb|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430bb-intro-9|U |1580267916|usc430bb|intro:cd etc|
+INPUT|usc430bb-intro-10|U |1580267917|usc430bb|intro:ls|acpi			dkms		     kernel		  networks		   securetty
+adduser.conf		dnsmasq.d	     kernel-img.conf	  newt			   security
+alternatives		dnsmasq.d-available  landscape		  nsswitch.conf		   selinux
+ansible			dpkg		     ldap		  ntp.conf		   services
+apache2			emacs		     ld.so.cache	  opt			   shadow
+apm			emacs25		     ld.so.conf		  os-release		   shadow-
+apparmor		emulab		     ld.so.conf.d	  overlayroot.conf	   shells
+apparmor.d		environment	     legal		  pam.conf		   skel
+apport			ethertypes	     libaudit.conf	  pam.d			   sos.conf
+apt			fonts		     libnl-3		  papersize		   ssh
+at.deny			fstab		     libpaper.d		  passwd		   ssl
+bash.bashrc		fuse.conf	     lighttpd		  passwd-		   subgid
+bash_completion		gai.conf	     locale.alias	  perl			   subgid-
+bash_completion.d	gdb		     locale.gen		  pm			   subuid
+bindresvport.blacklist	ghostscript	     localtime		  polkit-1		   subuid-
+binfmt.d		glvnd		     logcheck		  pollinate		   sudoers
+byobu			groff		     login.defs		  popularity-contest.conf  
+INPUT|usc430bb-intro-11|U |1580267940|usc430bb|intro:cd ..|
+INPUT|usc430bb-intro-12|A2 A3 A0 A4 A1 |1580267951|usc430bb|intro:find / -name intro*.jpeg|find: '/tmp/systemd-private-9b374cb12bff48bf80f69e42ae26be67-systemd-resolved.service-t4ThoP': Permission denied
+find: '/tmp/systemd-private-9b374cb12bff48bf80f69e42ae26be67-systemd-timesyncd.service-KpIANs': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied;1580267953
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4
+INPUT|usc430bb-intro-13|A1 A4 A2 A3 A0 |1580268007|usc430bb|intro:find -name "intro*.jpeg"|find: './tmp/systemd-private-9b374cb12bff48bf80f69e42ae26be67-systemd-resolved.service-t4ThoP': Permission denied
+find: './tmp/systemd-private-9b374cb12bff48bf80f69e42ae26be67-systemd-timesyncd.service-KpIANs': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied;1580268009
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission de
+INPUT|usc430bb-intro-14|M4 |1580268026|usc430bb|intro:find -name "*.jpeg"|./.hidden/asdf136Intro-5kqlw.jpeg
+find: './tmp/systemd-private-9b374cb12bff48bf80f69e42ae26be67-systemd-resolved.service-t4ThoP': Permission denied
+find: './tmp/systemd-private-9b374cb12bff48bf80f69e42ae26be67-systemd-timesyncd.service-KpIANs': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './pr
+INPUT|usc430bb-intro-15|M4 |1580268112|usc430bb|intro:find -name "*.jpeg"|./.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430bb-intro-16|M4 |1580268149|usc430bb|intro:find . -name "*.jpeg"|./.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430bb-intro-17|M2 M0 |1580268169|usc430bb|intro:find . -name "*.jpg"|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+
+INPUT|usc430bb-intro-18|M4 M3 M2 M1 M0 |1580268300|usc430bb|intro:find . -type f -iname "*intro*"|./.hidden/asdf136Intro-5kqlw.jpeg
+./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./usr/share/doc/bash/INTRO.gz
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430bb.hw1-usc430bb.intro.csv
+./var/log/ttylog/usc430bb.hw1-usc430bb.intro.log
+./etc/wuer136intro-4.JPG
+./etc/apparmor.d/abstractions/apparmor_api/introspect
+.
+INPUT|usc430bb-intro-19|U |1580268435|usc430bb|intro:cd ~                     |
+INPUT|usc430bb-intro-20|U |1580268445|usc430bb|intro:mkdir top_secret|
+INPUT|usc430bb-intro-21|U |1580268446|usc430bb|intro:ls|myfile.txt  top_secret	usc430bb.txt
+
+INPUT|usc430bb-intro-22|U |1580268454|usc430bb|intro:cd top_secret/|
+INPUT|usc430bb-intro-23|U |1580268465|usc430bb|intro:nano answers.txt|
+
+INPUT|usc430bb-intro-24|U |1580268484|usc430bb|intro:ls|answers.txt
+
+INPUT|usc430bb-intro-25|U |1580268490|usc430bb|intro:nano answers.txt |Use "fg" to return to nano.s ](B(B^O(B Write Out   (B^W(B Where Is    (B^K(B Cut Text    (B^J(B Justify     (B^C(B Cur Pos     (BM-U(B Undo 6b(BM-A(B Mark Text(BX(B Exit  16G(B^R(B Read File   (B^\(B Replace     (B^U(B Uncut Text  (B^T(B To Spell    (B^_(B Go To Line  (BM-E(B Redo 6b(BM-6(B Copy Text
+
+[1]+  Stopped                 sudo nano answers.txt
+
+INPUT|usc430bb-intro-26|U |1580268526|usc430bb|intro:nano answers.txt |
+
+INPUT|usc430bb-intro-27|U |1580268535|usc430bb|intro:nano answers.txt |
+
+INPUT|usc430bb-intro-28|U |1580268591|usc430bb|intro:ls|answers.txt
+
+INPUT|usc430bb-intro-29|U |1580268637|usc430bb|intro:mv./.hidden/asdf136Intro-5kqlw.jpeg .|bash: mv./.hidden/asdf136Intro-5kqlw.jpeg: No such file or directory
+
+INPUT|usc430bb-intro-30|U |1580268645|usc430bb|intro:mv ./.hidden/asdf136Intro-5kqlw.jpeg .|mv: cannot stat './.hidden/asdf136Intro-5kqlw.jpeg': No such file or directory
+
+INPUT|usc430bb-intro-31|U |1580268665|usc430bb|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg .|
+INPUT|usc430bb-intro-32|U |1580268666|usc430bb|intro:ls|answers.txt  asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430bb-intro-33|U |1580268680|usc430bb|intro:mv ./usr/share/pixmaps/xbzf136INTRO-1.jpg .|mv: cannot stat './usr/share/pixmaps/xbzf136INTRO-1.jpg': No such file or directory
+
+INPUT|usc430bb-intro-34|U |1580268687|usc430bb|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg .|
+INPUT|usc430bb-intro-35|U |1580268705|usc430bb|intro:mv /var/log/136intro-3.jpg .|
+INPUT|usc430bb-intro-36|U |1580268720|usc430bb|intro:mv /etc/wuer136intro-4.JPG .|
+INPUT|usc430bb-intro-37|U |1580268744|usc430bb|intro:mv /dev/136intro-2jjaj.JPEG .|
+INPUT|usc430bb-intro-38|U |1580268745|usc430bb|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430bb-intro-39|U |1580268953|usc430bb|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430bb-intro-40|U |1580268956|usc430bb|intro:nano answers.txt |
+
+INPUT|usc430bb-intro-41|U |1580269071|usc430bb|intro:cd ..|
+INPUT|usc430bb-intro-42|U |1580269074|usc430bb|intro:ls|myfile.txt  top_secret	usc430bb.txt
+
+INPUT|usc430bb-intro-43|U |1580269123|usc430bb|intro:cd top_secret/|
+INPUT|usc430bb-intro-44|U |1580269218|usc430bb|intro:nano answers.txt |
+
+INPUT|usc430bb-intro-45|M6 |1580269381|usc430bb|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989776          0     989776   0%% /dev
+tmpfs                                                204108       5976     198132   3%% /run
+/dev/sda1                                          15681948    3268936   11613064  22%% /
+tmpfs                                               1020540          0    1020540   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020540          0    1020540   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1380355200 1356413184  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430bb 2031313280 1234555136  634253056  67%% /users/usc430bb
+tmpfs                                                204108          0     204108   0%% /run/user/14290
+
+INPUT|usc430bb-intro-46|U |1580269408|usc430bb|intro:du|252	.
+
+INPUT|usc430bb-intro-47|U |1580269419|usc430bb|intro:btrfs fi df /device/|ERROR: cannot access '/device/': No such file or directory
+
+INPUT|usc430bb-intro-48|U |1580269424|usc430bb|intro:btrfs fi df         |btrfs filesystem df: too few arguments
+usage: btrfs filesystem df [options] <path>
+
+    Show space usage information for a mount point
+
+    -b|--raw           raw numbers in bytes
+    -h|--human-readable
+                       human friendly numbers base 1024 (default)
+    -H                 human friendly numbers base 1000
+    --iec              use 1024 as a base (KiB MiB GiB TiB)
+    --si               use 1000 as a base (kB MB GB TB)
+    -k|--kbytes        show sizes in KiB or kB with --si
+    -m|--mbytes        show sizes in MiB or MB with --si
+    -g|--gbytes        show sizes in GiB or GB with --si
+    -t|--tbytes        show sizes in TiB or TB with --si
+
+
+INPUT|usc430bb-intro-49|U |1580269447|usc430bb|intro:fdisk|fdisk: bad usage
+Try 'fdisk --help' for more information.
+
+INPUT|usc430bb-intro-50|U |1580269453|usc430bb|intro:fdisk --help|;1580269453
+Usage:
+ fdisk [options] <disk>      change partition table
+ fdisk [options] -l [<disk>] list partition table(s)
+
+Display or manipulate a disk partition table.
+
+Options:
+ -b --sector-size <size>      physical and logical sector size
+ -B --protect-boot            don't erase bootbits when creating a new label
+ -c --compatibility[=<mode>]  mode is 'dos' or 'nondos' (default)
+ -L --color[=<when>]          colorize output (auto always or never)
+                                 colors are enabled by default
+ -l --list                    display partitions and exit
+ -o --output <list>           output columns
+ -t --type <type>             recognize specified partition table type only
+ -u --units[=<unit>]          display units: 'cylinders' or 'sectors' (default)
+ -s --getsz                   display device size in 512-byte sectors [DEPRECATED]
+     --bytes                   print SIZE in bytes rather than in human readable format
+ -w --wipe <mode>             wipe signatures (auto
+INPUT|usc430bb-intro-51|U |1580269485|usc430bb|intro:du|252	.
+
+INPUT|usc430bb-intro-52|M6 |1580269491|usc430bb|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989776          0     989776   0%% /dev
+tmpfs                                                204108       5976     198132   3%% /run
+/dev/sda1                                          15681948    3268960   11613040  22%% /
+tmpfs                                               1020540          0    1020540   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020540          0    1020540   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1380355200 1356413184  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430bb 2031313280 1234555136  634253056  67%% /users/usc430bb
+tmpfs                                                204108          0     204108   0%% /run/user/14290
+
+INPUT|usc430bb-intro-53|A6 |1580269516|usc430bb|intro:df > diskfree.txt|
+INPUT|usc430bb-intro-54|U |1580269517|usc430bb|intro:ls|136intro-2jjaj.JPEG  answers.txt	      diskfree.txt	  xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+
+INPUT|usc430bb-intro-55|A5 |1580269565|usc430bb|intro:cd ./proc/cpuinfo|bash: cd: ./proc/cpuinfo: No such file or directory
+
+INPUT|usc430bb-intro-56|U |1580269567|usc430bb|intro:cd ..|
+INPUT|usc430bb-intro-57|U |1580269569|usc430bb|intro:cd ..|
+INPUT|usc430bb-intro-58|U |1580269570|usc430bb|intro:cd ..|
+INPUT|usc430bb-intro-59|U |1580269576|usc430bb|intro:cd proc|
+INPUT|usc430bb-intro-60|A5 |1580269580|usc430bb|intro:cd cpuinfo|bash: cd: cpuinfo: Not a directory
+
+INPUT|usc430bb-intro-61|A5 |1580269588|usc430bb|intro:nano cpuinfo|
+
+INPUT|usc430bb-intro-62|U |1580269606|usc430bb|intro:cd ..|
+INPUT|usc430bb-intro-63|U |1580269616|usc430bb|intro:cd users|
+INPUT|usc430bb-intro-64|U |1580269622|usc430bb|intro:cd usc430bb|
+INPUT|usc430bb-intro-65|U |1580269623|usc430bb|intro:ls|myfile.txt  top_secret	usc430bb.txt
+
+INPUT|usc430bb-intro-66|U |1580269626|usc430bb|intro:cd top_secret/|
+INPUT|usc430bb-intro-67|U |1580269632|usc430bb|intro:nano answers.txt |
+
+INPUT|usc430bb-intro-68|U |1580269656|usc430bb|intro:quit|;1580269657
+Command 'quit' not found did you mean:
+
+  command 'quiz' from deb bsdgames
+  command 'qgit' from deb qgit
+  command 'quilt' from deb quilt
+  command 'luit' from deb x11-utils
+  command 'quot' from deb quota
+
+Try: apt install <deb name>
+
+
+INPUT|usc430bb-intro-69|U |1580269665|usc430bb|intro:ssh quit|ssh: Could not resolve hostname quit: Temporary failure in name resolution
+
+INPUT|usc430bb-intro-70|U |1580269670|usc430bb|intro:exit    |exit
+There are stopped jobs.
+
+INPUT|usc430bb-intro-71|U |1580269674|usc430bb|intro:exit|exit
+Received SIGHUP or SIGTERM
+
+INPUT|usc430bb-intro-72|U |1580693684|usc430bb|server:pint client|;1580693685
+Command 'pint' not found did you mean:
+
+  command 'pinot' from deb pinot
+  command 'print' from deb mime-support
+  command 'ping' from deb iputils-ping
+  command 'ping' from deb inetutils-ping
+  command 'pinta' from deb pinta
+  command 'pinto' from deb pinto
+  command 'pinq' from deb qmail
+  command 'tint' from deb tint
+
+Try: apt install <deb name>;1580693685
+
+
+INPUT|usc430bb-intro-73|U |1580693689|usc430bb|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.868 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.515 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.437 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.599 ms
+^C
+--- client-link0 ping statistics ---
+4 packets transmitted 4 received 0%% packet loss time 3075ms
+rtt min/avg/max/mdev = 0.437/0.604/0.868/0.165 ms
+
+INPUT|usc430bb-intro-74|U |1580693696|usc430bb|server:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.038 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.020 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.019 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=4 ttl=64 time=0.018 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=5 ttl=64 time=0.019 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=6 ttl=64 time=0.018 ms
+^C
+--- server-link0 ping statistics ---
+6 packets transmitted 6 received 0%% packet loss time 5111ms
+rtt min/avg/max/mdev = 0.018/0.022/0.038/0.007 ms
+
+INPUT|usc430bb-intro-75|U |1580693745|usc430bb|server:quit|;1580693745
+Command 'quit' not found did you mean:
+
+  command 'quiz' from deb bsdgames
+  command 'luit' from deb x11-utils
+  command 'qgit' from deb qgit
+  command 'quot' from deb quota
+  command 'quilt' from deb quilt
+
+Try: apt install <deb name>
+
+
+INPUT|usc430bb-intro-76|U |1580693756|usc430bb|server:ssh quit|ssh: Could not resolve hostname quit: Temporary failure in name resolution
+
+INPUT|usc430bb-intro-77|U |1580693773|usc430bb|server:exit|exit
+
+INPUT|usc430bb-intro-78|U |1580694007|usc430bb|server:ls|myfile.txt  top_secret	usc430bb.txt
+
+INPUT|usc430bb-intro-79|U |1580694017|usc430bb|server:ifconfig|eth1: flags=4163<UPBROADCASTRUNNINGMULTICAST>  mtu 1500
+        inet 192.168.1.38  netmask 255.255.252.0  broadcast 192.168.3.255
+        inet6 fe80::204:23ff:fe9f:da2  prefixlen 64  scopeid 0x20<link>
+        ether 00:04:23:9f:0d:a2  txqueuelen 1000  (Ethernet)
+        RX packets 6237  bytes 7654942 (7.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2527  bytes 2065385 (2.0 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth2: flags=4163<UPBROADCASTRUNNINGMULTICAST>  mtu 1500
+        inet 10.1.1.3  netmask 255.255.255.0  broadcast 10.1.1.255
+        inet6 fe80::215:17ff:fe57:c219  prefixlen 64  scopeid 0x20<link>
+        ether 00:15:17:57:c2:19  txqueuelen 1000  (Ethernet)
+        RX packets 12  bytes 1258 (1.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 21  bytes 2225 (2.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 17  memory 0xfe9a0000-fe9c0000  
+
+
+INPUT|usc430bb-intro-80|U |1580694037|usc430bb|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.654 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.379 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.279 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.428 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=5 ttl=64 time=0.364 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=6 ttl=64 time=0.268 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=7 ttl=64 time=0.426 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=8 ttl=64 time=0.318 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=9 ttl=64 time=0.253 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=10 ttl=64 time=0.405 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=11 ttl=64 time=0.333 ms
+^C
+--- client-link0 ping statistics ---
+11 packets transmitted 11 received 0%% packet loss time 10230ms
+rtt min/avg/max/mdev = 0.253/0.373/0.654/0.107 ms
+
+INPUT|usc430bb-intro-81|U |1580694107|usc430bb|server:cd top_secret/|
+INPUT|usc430bb-intro-82|U |1580694108|usc430bb|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     diskfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430bb-intro-83|U |1580694114|usc430bb|server:nano server.py |
+
+INPUT|usc430bb-intro-84|U |1580694130|usc430bb|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430bb-intro-85|U |1580694138|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35690);1580694175
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 35690)
+waiting for a connection
+connection from ('10.1.1.2' 35692)
+received \"\"
+no more data from ('10.1.1.2' 35692)
+waiting for a connection
+connection from ('10.1.1.2' 35694)
+received \"help\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 35694)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bb-intro-86|U |1580694983|usc430bb|server:nano server.py |
+
+INPUT|usc430bb-intro-87|U |1580695166|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35704)
+requested filename: \"/filename.html\"
+sending data back to the client
+Traceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    print >>sys.stderr 'requested filename: \"%%s\"' %% string[1]
+IndexError: list index out of range
+
+INPUT|usc430bb-intro-88|U |1580695207|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bb-intro-89|U |1580695210|usc430bb|server:nano server.py |Use "fg" to return to nano.p the conne >>sys.stderr iose()
+
+[1]+  Stopped                 nano server.py
+
+INPUT|usc430bb-intro-90|U |1580695845|usc430bb|server:fg|nano server.py
+
+
+INPUT|usc430bb-intro-91|U |1580695878|usc430bb|server:nano server.py |
+
+INPUT|usc430bb-intro-92|U |1580695882|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35714)
+Traceback (most recent call last):
+  File \"server.py\" line 33 in <module>
+    print >>sys.stderr 'requested filename: \"%%s\"' %% string[1]
+IndexError: list index out of range
+
+INPUT|usc430bb-intro-93|U |1580696013|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35718)
+requested filename: \"testfile.html\"
+didnot find the file
+no more data from ('10.1.1.2' 35718)
+
+INPUT|usc430bb-intro-94|U |1580696053|usc430bb|server:ls|systemd-private-3ea3f8babc58491baa23cb5c3afc9085-systemd-resolved.service-bpme8V
+systemd-private-3ea3f8babc58491baa23cb5c3afc9085-systemd-timesyncd.service-DO5oPB
+
+INPUT|usc430bb-intro-95|U |1580696074|usc430bb|server:touch testfile.html|
+INPUT|usc430bb-intro-96|U |1580696076|usc430bb|server:nano testfile.html |
+
+INPUT|usc430bb-intro-97|U |1580696088|usc430bb|server:cd|
+INPUT|usc430bb-intro-98|U |1580696093|usc430bb|server:cd top_secret/|
+INPUT|usc430bb-intro-99|U |1580696094|usc430bb|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     diskfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430bb-intro-100|U |1580696100|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35720)
+requested filename: \"testfile.html\"
+found it!
+sending data back to the client
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bb-intro-101|U |1580696144|usc430bb|server:nano server.py |19;27r
+18;27r
+15d15;27rr'sending file info back to the client
+(Bfinally(B:(B # Clean up the connection(Bconnection.close()16dAAAAA12d13dAA12d13d14d15d17;27r
+17dM1;29r17;27r
+
+
+INPUT|usc430bb-intro-102|U |1580696481|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35722)
+requested filename: \"testfile.html\"
+found the file!
+sending file info back to the client
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    with open (\"/tmp%%s\" %% string[1] \"r\") as myfile:
+IOError: [Errno 2] No such file or directory: u'/tmptestfile.html'
+
+INPUT|usc430bb-intro-103|U |1580696528|usc430bb|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bb-intro-104|U |1580696537|usc430bb|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bb-intro-105|U |1580696568|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35732)
+requested filename: \"/testfile.html\"
+did not find the file
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bb-intro-106|U |1580696606|usc430bb|server:nano server.py |
+
+INPUT|usc430bb-intro-107|U |1580696676|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35734)
+requested filename: \"/testfile.html\"
+found the file!
+sending file info back to the client
+Traceback (most recent call last):
+  File \"server.py\" line 40 in <module>
+    connection.send(data.encode('utf-8'))
+AttributeError: 'list' object has no attribute 'encode'
+
+INPUT|usc430bb-intro-108|U |1580696704|usc430bb|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bb-intro-109|U |1580696706|usc430bb|server:nano server.py |
+
+INPUT|usc430bb-intro-110|U |1580696721|usc430bb|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bb-intro-111|U |1580696724|usc430bb|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bb-intro-112|U |1580696726|usc430bb|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bb-intro-113|U |1580696727|usc430bb|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bb-intro-114|U |1580696739|usc430bb|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bb-intro-115|U |1580696749|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35736)
+requested filename: \"/testfile.html\"
+found the file!
+sending file info back to the client
+Traceback (most recent call last):
+  File \"server.py\" line 40 in <module>
+    connection.send(data)
+TypeError: send() argument 1 must be string or buffer not list
+
+INPUT|usc430bb-intro-116|U |1580696808|usc430bb|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bb-intro-117|U |1580696812|usc430bb|server:nano server.py |
+
+INPUT|usc430bb-intro-118|U |1580696843|usc430bb|server:python server.py|  File \"server.py\" line 41
+    else:
+       ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bb-intro-119|U |1580696847|usc430bb|server:nano server.py |19d(BModified(B19;27r         connection.send(data.encode(se()ted)filename: "%%s"'(B %% string[1](Bif(B find(string[1][1:] (B'/tmp'(B):(B #remove backslashprint(B >>sys.stderr (B'found the file!'
+
+
+INPUT|usc430bb-intro-120|U |1580696873|usc430bb|server:python server.py|  File \"server.py\" line 41
+    else:
+       ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bb-intro-121|U |1580696879|usc430bb|server:nano server.py |15d16d17d18d19d20d21d22d23d24d25dAAAAA21d(BModified(B21;27re()ted filename: "%%s"'(B %% string[1](Bif(B find(string[1][1:] (B'/tmp'(B):(B #remove backslashprint(B >>sys.stderr (B'found the file!'
+
+
+INPUT|usc430bb-intro-122|U |1580696895|usc430bb|server:python server.py|  File \"server.py\" line 41
+    else:
+       ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bb-intro-123|U |1580696919|usc430bb|server:nano server.py |
+
+INPUT|usc430bb-intro-124|U |1580696930|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35740)
+requested filename: \"/testfile.html\"
+found the file!
+sending file info back to the client
+waiting for a connection
+^[[A^[[A^CTraceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bb-intro-125|U |1580696984|usc430bb|server:nano server.py | (Bprint(B ( >>sys.stderr ( 'HTTP/1.1 200 OK (B(B'HTTP/1.1 200 OK '(B'HTTP/1.1 13Gc (B'HTTP/1.1 200 OK'(Bo (B'HTTP/1.1 200 OK'(Bn (B'HTTP/1.1 200 OK'(nn (B'HTTP/1.1 200 OK'(Be (B'HTTP/1.1 200 OK'(Bc (B'HTTP/1.1 200 OK'(Bt (B'HTTP/1.1 200 OK'(Bi (B'HTTP/1.1 200 OK'(Bo (B'HTTP/1.1 200 OK'(Bn (B'HTTP/1.1 200 OK'(B. (B'HTTP/1.1 200 OK'(Bs (B'HTTP/1.1 200 OK'(Be (B'HTTP/1.1 200 OK'(Bn (B'HTTP/1.1 200 OK'(Bd (B'HTTP/1.1 200 OK'(B( (B (Bprint(B >>sys.stderr (B'found the file!'(B15d16 (Bprint(B >>sys.stderr (B'sending file info back to the client'(BAA15dconnection.send(
+'((B]'((Bn'(B'('HTTP/1.1 200 OK
+]\(B'HTTP/1.1 200 OK
+16dM1;29r'HTTP/1.1 200 OK
+16;27r
+1;29r(B'HTTP/1.1 200 OK
+'('HTTP/1.1 200 OK
+\(B'HTTP/1.1 200 OK
+
+
+INPUT|usc430bb-intro-126|U |1580697124|usc430bb|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35742)
+requested filename: \"/testfile.html\"
+found the file!
+sending file info back to the client
+waiting for a connection
+connection from ('10.1.1.2' 35744)
+requested filename: \"/badfile.html\"
+did not find the file
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bb-intro-127|U |1580697323|usc430bb|server:quit|;1580697323
+Command 'quit' not found did you mean:
+
+  command 'quiz' from deb bsdgames
+  command 'quot' from deb quota
+  command 'luit' from deb x11-utils
+  command 'quilt' from deb quilt
+  command 'qgit' from deb qgit
+
+Try: apt install <deb name>
+
+
+INPUT|usc430bb-intro-128|U |1580697326|usc430bb|server:exit|exit
+

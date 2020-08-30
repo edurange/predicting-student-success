@@ -1,0 +1,2748 @@
+User usc430aj start time 1547973875 end 1549060790
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430aj-intro-0|U |000000000|usc430aj|:|
+INPUT|usc430aj-intro-1|U |000000000|usc430aj|server:cd /tmp|
+INPUT|usc430aj-intro-2|U |000000000|usc430aj|:|
+INPUT|usc430aj-intro-3|U |1549060496|usc430aj|server:ls|
+INPUT|usc430aj-intro-4|U |000000000|usc430aj|server:echo this is a test >> test.txt|
+INPUT|usc430aj-intro-5|U |000000000|usc430aj|server:echo not found >> 404.html|
+INPUT|usc430aj-intro-6|U |000000000|usc430aj|server:cd ~/top_secret/|
+INPUT|usc430aj-intro-7|U |1549060537|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 57634))
+received \"GET /text.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 57634))
+finding text.txt
+received \"\"
+('no more data from'%% ('10.1.1.2'%% 57634))
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 23%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430aj-intro-8|U |1549060604|usc430aj|server:clear|
+INPUT|usc430aj-intro-9|U |1549060607|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 49 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                File: server.py                                       (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(Bimport(B os
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B((B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connection
+(B^G(B Get Help   (B^O(B Write Out  (B^W(B Where Is   (B^K(B Cut Text   (B^J(B Justify    (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File  (B^\(B Replace    (B^U(B Uncut Text (B^T(B To Linter  (B^_(B Go To Line
+
+>(B(B  GNU nano 2.5.3                File: server.py                                
+INPUT|usc430aj-intro-10|U |1549060627|usc430aj|server:ls -a /tmp|.  ..  404.html  .font-unix  .ICE-unix test.txt  .Test-unix  .X11-unix  .XIM-unix
+INPUT|usc430aj-intro-11|U |1549060641|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 49 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                                              File: server.py                                                                                                  (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(Bimport(B os
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B((B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B((B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B((B'connection from '(B%% client_address)(B        # Receive the data in small chunks and retransmit itwhile(B True:
+INPUT|usc430aj-intro-12|U |1549060696|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 57636))
+received \"GET /text.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 57636))
+finding text.txt
+received \"\"
+('no more data from'%% ('10.1.1.2'%% 57636))
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 57638))
+received \"GET /text HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 57638))
+finding text
+received \"\"
+('no more data from'%% ('10.1.1.2'%% 57638))
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 57640))
+received \"GET /test.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 57640))
+finding test.txt
+received \"\"
+('no more data from'%% ('10.1.1.2'%% 57640))
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 23%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%
+INPUT|usc430aj-intro-13|U |1549060748|usc430aj|server:clear|
+INPUT|usc430aj-intro-14|U |1549060753|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 57642))
+received \"GET /adfafd HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 57642))
+finding adfafd
+received \"\"
+('no more data from'%% ('10.1.1.2'%% 57642))
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 23%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430aj-intro-15|U |1549060787|usc430aj|server:clear|
+INPUT|usc430aj-intro-16|U |1549060790|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 49 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                File: server.py                                       (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(Bimport(B os
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B((B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connection
+(B^G(B Get Help   (B^O(B Write Out  (B^W(B Where Is   (B^K(B Cut Text   (B^J(B Justify    (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File  (B^\(B Replace    (B^U(B Uncut Text (B^T(B To Linter  (B^_(B Go To Line%
+INPUT|usc430aj-intro-17|U |1549060492|usc430aj|server:ssh client|%Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-83-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+312 packages can be updated.
+204 updates are security updates.
+
+
+usc430aj@client:~$ sudo python client.py server
+python: can't open file 'client.py': [Errno 2] No such file or directory
+usc430aj@client:~$ cd top_secret/
+usc430aj@client:~/top_secret$ sudo python client.py server
+connecting to server port 80
+Request URL: text.txt
+GET /text.txt HTTP/1.1
+HTTP/1.1 404 Not Found
+not found
+
+closing socket
+usc430aj@client:~/top_secret$ sudo python client.py server
+connecting to server port 80
+Request URL: text.txt
+GET /text.txt HTTP/1.1
+HTTP/1.1 404 Not Found
+not found
+
+closing socket
+usc430aj@client:~/top_secret$ sudo python client.py server
+connecting to server port 80
+Request URL: text
+GET
+INPUT|usc430aj-intro-18|U |000000000|usc430aj|server:exit|exit
+INPUT|usc430aj-intro-19|U |1548810238|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7fb5b27091e0>%% 'starting up on server port 80')
+(<open file '<stderr>'%% mode 'w' at 0x7fb5b27091e0>%% 'waiting for a connection')
+(<open file '<stderr>'%% mode 'w' at 0x7fb5b27091e0>%% 'connection from'%% ('10.1.1.2'%% 52842))
+(<open file '<stderr>'%% mode 'w' at 0x7fb5b27091e0>%% 'received \"This is the message. It will be repeated.\"')
+(<open file '<stderr>'%% mode 'w' at 0x7fb5b27091e0>%% 'sending data back to the client')
+(<open file '<stderr>'%% mode 'w' at 0x7fb5b27091e0>%% 'received \"\"')
+(<open file '<stderr>'%% mode 'w' at 0x7fb5b27091e0>%% 'no more data from'%% ('10.1.1.2'%% 52842))
+(<open file '<stderr>'%% mode 'w' at 0x7fb5b27091e0>%% 'waiting for a connection')
+^Z
+[1]+  Stopped                 sudo python server.py%
+INPUT|usc430aj-intro-20|U |1548810275|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7fed7b6cf1e0>%% 'starting up on server port 80')
+Traceback (most recent call last):
+  File \"server.py\"%% line 12%% in <module>
+    sock.bind((hostname%% 80))
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430aj-intro-21|U |1548810492|usc430aj|server:nano server.py|%(B===(B(BFile server.py is being edited (by usc430aj with nano 2.5.3%% PID 2585); continue?                                     Y(B Yes
+(B N(B No(B^C(B Cancel (B[ Reading File ](B
+(B[ Read 38 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+(B# Bind the socket to the port
+(Bhostname = (B'server'
+print(B(sys.stderr%% (B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B(sys.stderr%% (B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B(sys.stderr%% (B'connection from'(B%% client_address)(B # Receive the data in small chunks and retransmit itwh
+INPUT|usc430aj-intro-22|U |1548811102|usc430aj|server:python server.py|%Traceback (most recent call last):
+  File \"server.py\"%% line 10%% in <module>
+    hostname = sock.gethostname()
+AttributeError: '_socketobject' object has no attribute 'gethostname'%
+INPUT|usc430aj-intro-23|U |1548811108|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 38 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+(B# Bind the socket to the port
+(Bhostname = sock.gethostname()
+(Bprint(B(sys.stderr%% (B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B(sys.stderr%% (B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B(sys.stderr%% (B'connection from'(B%% client_address)(B # Receive the data in small chunks and retransmit itwhile(B True:data = connection.recv(1024)(Bprint(B(sys.stderr%% (B'received "%%s"'(B %% data)(Bif(B data:
+(B^G(B Get Help     (B^O(B Write Out  
+INPUT|usc430aj-intro-24|U |1548811132|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7f352faba1e0>%% 'starting up on server.hw1part3.usc430.isi.deterlab.net port 80')
+(<open file '<stderr>'%% mode 'w' at 0x7f352faba1e0>%% 'waiting for a connection')
+^Z
+[2]+  Stopped                 sudo python server.py%
+INPUT|usc430aj-intro-25|U |1548811178|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7f4d97ea11e0>%% 'starting up on server.hw1part3.usc430.isi.deterlab.net port 80')
+Traceback (most recent call last):
+  File \"server.py\"%% line 12%% in <module>
+    sock.bind((hostname%% 80))
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430aj-intro-26|U |1548811210|usc430aj|server:clear|
+INPUT|usc430aj-intro-27|U |000000000|usc430aj|server:ipconfig|%No command 'ipconfig' found%% did you mean:
+ Command 'iwconfig' from package 'wireless-tools' (main)
+ Command 'iconfig' from package 'ipmiutil' (universe)
+ Command 'ifconfig' from package 'net-tools' (main)
+ipconfig: command not found%
+INPUT|usc430aj-intro-28|U |1548811250|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 38 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+(B# Bind the socket to the port
+(Bhostname = socket.gethostname()
+(Bprint(B(sys.stderr%% (B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B(sys.stderr%% (B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B(sys.stderr%% (B'connection from'(B%% client_address)(B # Receive the data in small chunks and retransmit itwhile(B True:data = connection.recv(1024)(Bprint(B(sys.stderr%% (B'received "%%s"'(B %% data)(Bif(B data:
+(B^G(B Get Help     (B^O(B Write Out
+INPUT|usc430aj-intro-29|U |1548811267|usc430aj|server:clear|
+INPUT|usc430aj-intro-30|U |1548811270|usc430aj|server:python server.py|%Traceback (most recent call last):
+  File \"server.py\"%% line 12%% in <module>
+    print(sys.stderr%% 'starting up on %%s port 80' %% hostname)
+NameError: name 'hostname' is not defined%
+INPUT|usc430aj-intro-31|U |1548811278|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 39 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bserver = (B'server'
+print(B(sys.stderr%% (B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B(sys.stderr%% (B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B(sys.stderr%% (B'connection from'(B%% client_address)(B # Receive the data in small chunks and retransmit itwhile(B True:data = connection.recv(1024)(Bprint(B(sys.stderr%% (B'received "%%s"'(B %% data)
+(B^G(B Get Help     (B^O(B
+INPUT|usc430aj-intro-32|U |1548810102|usc430aj|server:ssh client|%Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-83-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+312 packages can be updated.
+204 updates are security updates.
+
+
+usc430aj@client:~$ clear
+usc430aj@client:~$ cd top_secret/
+usc430aj@client:~/top_secret$ ls
+136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+usc430aj@client:~/top_secret$ sudo python client.py 
+(<open file '<stderr>'%% mode 'w' at 0x7fda04d581e0>%% 'connecting to server port 80')
+(<open file '<stderr>'%% mode 'w' at 0x7fda04d581e0>%% 'sending \"This is the message. It will be repeated.\"')
+(<open file '<stderr>'%% mode 'w' at 0x7fda04d581e0>%% 'received \"This is the message. It will be repeated.\"')
+(<open file '<stderr>'%% mode 'w' at 
+INPUT|usc430aj-intro-33|U |1548810961|usc430aj|server:ssh client|%Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-83-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+312 packages can be updated.
+204 updates are security updates.
+
+
+Last login: Tue Jan 29 17:01:43 2019 from 10.1.1.3
+
+usc430aj@client:~$ clear
+usc430aj@client:~$ cd top_secret/
+usc430aj@client:~/top_secret$ nano client.py 
+(B===(B(B[ Reading File ]
+(B(B[ Read 31 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: client.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+(B# Connect the socket to the port where the server is listening
+(Bserver_address = ((B'server'(B%% 80)
+(Bprint(B(sys.stderr%% (B'connecting to %%s port %%s
+INPUT|usc430aj-intro-34|U |000000000|usc430aj|server:cd top_secret/|
+INPUT|usc430aj-intro-35|U |1548811353|usc430aj|server:nano server.py|%(B===(B(BFile server.py is being edited (by usc430aj with nano 2.5.3%% PID 5800); continue?                                     Y(B Yes
+(B N(B No(B^C(B Cancel (B[ Reading File ](B
+(B[ Read 39 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bserver = (B'server'
+print(B(sys.stderr%% (B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B(sys.stderr%% (B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B(sys.stderr%% (B'connection from'(B%% client_address)(B # Receive the data i
+INPUT|usc430aj-intro-36|U |1548811363|usc430aj|server:clear|
+INPUT|usc430aj-intro-37|U |1548811378|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7f50117ac1e0>%% 'starting up on server port 80')
+Traceback (most recent call last):
+  File \"server.py\"%% line 13%% in <module>
+    sock.bind((hostname%% 80))
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430aj-intro-38|U |1548811455|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 39 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B(sys.stderr%% (B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B(sys.stderr%% (B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B(sys.stderr%% (B'connection from'(B%% client_address)(B # Receive the data in small chunks and retransmit itwhile(B True:data = connection.recv(1024)(Bprint(B(sys.stderr%% (B'received "%%s"'(B %% data)
+(B^G(B Get Help     (B^O
+INPUT|usc430aj-intro-39|U |1548811588|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7f5db57a91e0>%% 'starting up on server port 80')
+Traceback (most recent call last):
+  File \"server.py\"%% line 14%% in <module>
+    sock.bind((hostname%% 80))
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430aj-intro-40|U |1548811591|usc430aj|server:clear|
+INPUT|usc430aj-intro-41|U |1548811735|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7f7d4ed5e1e0>%% 'starting up on server port 80')
+Traceback (most recent call last):
+  File \"server.py\"%% line 14%% in <module>
+    sock.bind((hostname%% 80))
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430aj-intro-42|U |1548812133|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7ff55d48c1e0>%% 'starting up on server port 80')
+Traceback (most recent call last):
+  File \"server.py\"%% line 14%% in <module>
+    sock.bind((hostname%% 80))
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430aj-intro-43|U |1548812139|usc430aj|server:ssh client|%Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-83-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+312 packages can be updated.
+204 updates are security updates.
+
+
+Last login: Tue Jan 29 17:16:02 2019 from 10.1.1.3
+
+usc430aj@client:~$ ssh server
+The authenticity of host 'server (10.1.1.3)' can't be established.
+RSA key fingerprint is SHA256:t0vpeOm78PtRRaGx4qRt4PNUu2ZCRGzEBSfGP541+n0.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'server%%10.1.1.3' (RSA) to the list of known hosts.
+%
+INPUT|usc430aj-intro-44|U |000000000|usc430aj|server:clear|
+INPUT|usc430aj-intro-45|U |000000000|usc430aj|server:ls|caesar.txt  test.txt  topo.ns  top_secret
+INPUT|usc430aj-intro-46|U |000000000|usc430aj|server:%sh256 checksum| >> hash%
+INPUT|usc430aj-intro-47|U |000000000|usc430aj|server:sha|The program 'sha256' is currently not installed. To run 'sha256' please ask your administrator to install the package 'hashalot'
+INPUT|usc430aj-intro-48|U |000000000|usc430aj|server:sha256|The program 'sha256' is currently not installed. To run 'sha256' please ask your administrator to install the package 'hashalot'
+INPUT|usc430aj-intro-49|U |000000000|usc430aj|server:clear|
+INPUT|usc430aj-intro-50|U |000000000|usc430aj|server:cd top_secret/|
+INPUT|usc430aj-intro-51|U |000000000|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7f07542f51e0>%% 'starting up on server port 80')
+Traceback (most recent call last):
+  File \"server.py\"%% line 14%% in <module>
+    sock.bind((hostname%% 80))
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430aj-intro-52|U |1548812149|usc430aj|server:ls|caesar.txt  test.txt  topo.ns  top_secret
+INPUT|usc430aj-intro-53|U |000000000|usc430aj|server:%sh256 checksum| >> hash%
+INPUT|usc430aj-intro-54|U |000000000|usc430aj|server:sha|The program 'sha256' is currently not installed. To run 'sha256' please ask your administrator to install the package 'hashalot'
+INPUT|usc430aj-intro-55|U |000000000|usc430aj|server:sha256|The program 'sha256' is currently not installed. To run 'sha256' please ask your administrator to install the package 'hashalot'
+INPUT|usc430aj-intro-56|U |1548812191|usc430aj|server:clear|
+INPUT|usc430aj-intro-57|U |000000000|usc430aj|server:cd top_secret/|
+INPUT|usc430aj-intro-58|U |1548812205|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7f07542f51e0>%% 'starting up on server port 80')
+Traceback (most recent call last):
+  File \"server.py\"%% line 14%% in <module>
+    sock.bind((hostname%% 80))
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430aj-intro-59|U |1548812268|usc430aj|server:clear|
+INPUT|usc430aj-intro-60|U |1548812268|usc430aj|server:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+INPUT|usc430aj-intro-61|U |1548812273|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7eff507c61e0>%% 'starting up on server port 80')
+Traceback (most recent call last):
+  File \"server.py\"%% line 14%% in <module>
+    sock.bind((hostname%% 80))
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430aj-intro-62|U |000000000|usc430aj|server:cd top_secret/|
+INPUT|usc430aj-intro-63|U |1548812957|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7fdc0e2701e0>%% 'starting up on server port 80')
+(<open file '<stderr>'%% mode 'w' at 0x7fdc0e2701e0>%% 'waiting for a connection')
+^Z
+[1]+  Stopped                 sudo python server.py%
+INPUT|usc430aj-intro-64|U |1548812962|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7f59ccb111e0>%% 'starting up on server port 80')
+Traceback (most recent call last):
+  File \"server.py\"%% line 14%% in <module>
+    sock.bind((hostname%% 80))
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430aj-intro-65|U |1548812995|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 40 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B(sys.stderr%% (B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B(sys.stderr%% (B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B(sys.stderr%% (B'connection from'(B%% client_address)(B # Receive the data in small chunks and retransmit itwhile(B True:data = connection.recv(1024)
+(B^G(B Get H
+INPUT|usc430aj-intro-66|U |1548813008|usc430aj|server:python server.py|%(<open file '<stderr>'%% mode 'w' at 0x7fc8b7aa51e0>%% 'starting up on server port 80')
+(<open file '<stderr>'%% mode 'w' at 0x7fc8b7aa51e0>%% 'waiting for a connection')
+^Z
+[2]+  Stopped                 sudo python server.py%
+INPUT|usc430aj-intro-67|U |1548813022|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 40 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B(sys.stderr%% (B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 81))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B(sys.stderr%% (B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B(sys.stderr%% (B'connection from'(B%% client_address)(B # Receive the data in small chunks and retransmit itwhile(B True:data = connection.recv(1024)
+(B^G(B Get H
+INPUT|usc430aj-intro-68|U |1548813031|usc430aj|server:clear|
+INPUT|usc430aj-intro-69|U |1548812947|usc430aj|server:ssh clien|ssh: Could not resolve hostname clien: Name or service not known
+
+INPUT|usc430aj-intro-70|U |1548812948|usc430aj|server:ssh client|Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-83-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+312 packages can be updated.
+204 updates are security updates.
+
+
+usc430aj@client:~$ clear
+INPUT|usc430aj-intro-71|U |1548822378|usc430aj|server:python server.py|%Traceback (most recent call last):
+  File \"server.py\"%% line 5%% in <module>
+    import requests
+ImportError: No module named requests%
+INPUT|usc430aj-intro-72|U |000000000|usc430aj|server:pip install requests|The program 'pip' is currently not installed. To run 'pip' please ask your administrator to install the package 'python-pip'
+INPUT|usc430aj-intro-73|U |000000000|usc430aj|server:elinks https://www.google.com|The program 'elinks' is currently not installed. To run 'elinks' please ask your administrator to install the package 'elinks'
+INPUT|usc430aj-intro-74|U |000000000|usc430aj|server:elinks index.html|The program 'elinks' is currently not installed. To run 'elinks' please ask your administrator to install the package 'elinks'
+INPUT|usc430aj-intro-75|U |1548822540|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 41L%% 1168C#!/usr/bin/env python
+
+import socket
+import sys
+import requests
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print(sys.stderr%% 'starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 88))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print(sys.stderr%% 'waiting for a connection')
+    connection%% client_address = sock.accept()try:print(sys.stderr%% 'connection from'%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print(sys.stderr%% 'received "%%s"' %% data)if data:print(sys.stderr%% 'sending data back to the client')connection.sendall(data)else:print(sys.stderr%% 'no more data fr
+INPUT|usc430aj-intro-76|U |000000000|usc430aj|server:clera|%No command 'clera' found%% did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+clera: command not found%
+INPUT|usc430aj-intro-77|U |1548822563|usc430aj|server:clear|
+INPUT|usc430aj-intro-78|U |1548822565|usc430aj|server:cat server.py|%#!/usr/bin/env python
+
+
+
+import socket
+
+import sys
+
+import requests
+
+
+
+# Create a TCP/IP socket
+
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+
+
+# Bind the socket to the port
+
+#hostname = socket.gethostname()
+
+hostname = 'server'
+
+print(sys.stderr%% 'starting up on %%s port 80' %% hostname)
+
+sock.bind((hostname%% 88))
+
+
+
+# Listen for incoming connections
+
+sock.listen(1)
+
+
+
+while True:
+
+    # Wait for a connection
+
+    print(sys.stderr%% 'waiting for a connection')
+
+    connection%% client_address = sock.accept()
+
+
+
+    try:
+
+        print(sys.stderr%% 'connection from'%% client_address)
+
+
+
+        # Receive the data in small chunks and retransmit it
+
+        while True:
+
+            data = connection.recv(1024)
+
+            print(sys.
+INPUT|usc430aj-intro-79|U |1548822568|usc430aj|server:clear|
+INPUT|usc430aj-intro-80|U |1548822878|usc430aj|server:ssh client|%Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-83-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+312 packages can be updated.
+204 updates are security updates.
+
+
+Last login: Tue Jan 29 17:49:09 2019 from 10.1.1.3
+
+usc430aj@client:~$ python
+Python 2.7.12 (default%% Nov 19 2016%% 06:48:10) 
+[GCC 5.4.0 20160609] on linux2
+Type \"help\"%% \"copyright\"%% \"credits\" or \"license\" for more information.
+>>> 
+>>> import urllib.request
+Traceback (most recent call last):
+  File \"<stdin>\"%% line 1%% in <module>
+ImportError: No module named request
+>>> import ssy
+Traceback (most recent call last):
+  File \"<stdin>\"%% line 1%% in <module>
+ImportError: No module named ssy
+>>> import sys
+>>> import urllib.request
+Traceback (most recent call last):
+  File \"<stdin>\"%% line 1%% in <module>
+ImportErr
+INPUT|usc430aj-intro-81|U |1548823740|usc430aj|server:clear|
+INPUT|usc430aj-intro-82|U |1548823741|usc430aj|server:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+INPUT|usc430aj-intro-83|U |000000000|usc430aj|server:cd /temp|bash: cd: /temp: No such file or directory
+INPUT|usc430aj-intro-84|U |000000000|usc430aj|server:cd /|
+INPUT|usc430aj-intro-85|U |1548824485|usc430aj|server:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430aj-intro-86|U |000000000|usc430aj|server:cd /tmp|
+INPUT|usc430aj-intro-87|U |1548824493|usc430aj|server:ls|
+INPUT|usc430aj-intro-88|U |000000000|usc430aj|server:echo this is a test >> file.txt|
+INPUT|usc430aj-intro-89|U |1548824515|usc430aj|server:ls|file.txt
+INPUT|usc430aj-intro-90|U |1548824518|usc430aj|server:cat file|cat: file: No such file or directory
+INPUT|usc430aj-intro-91|U |1548824523|usc430aj|server:cat file.txt|this is a test
+INPUT|usc430aj-intro-92|U |1548824525|usc430aj|server:clear|
+INPUT|usc430aj-intro-93|U |000000000|usc430aj|server:cd ~/top_secret/|
+INPUT|usc430aj-intro-94|U |1548824530|usc430aj|server:clear|
+INPUT|usc430aj-intro-95|U |1548824530|usc430aj|server:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+INPUT|usc430aj-intro-96|U |1548824539|usc430aj|server:vim diskfree.txt|%=<C2><BD>  ]11;?"diskfree.txt" 10L%% 822CFilesystemSize  Used Avail Use%% Mounted on
+udev980M   48K  980M   1%% /dev
+tmpfs200M   11M  190M   6%% /run
+/dev/sda115G  2.8G   12G  20%% /
+tmpfs1000M     0 1000M   0%% /dev/shm
+tmpfs5.0M     0  5.0M   0%% /run/lock
+tmpfs1000M     0 1000M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430aj  1.9T  1.5T  338G  82%% /users/usc430aj
+tmpfs200M     0  200M   0%% /run/user/14173
+~                                                                                                                    ~                                                                                                                    ~                                                                                                                    ~                                                                                               
+INPUT|usc430aj-intro-97|U |1548824617|usc430aj|server:clear|
+INPUT|usc430aj-intro-98|U |1548824621|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 41L%% 1168C#!/usr/bin/env python
+
+import socket
+import sys
+import requests
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print(sys.stderr%% 'starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 88))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print(sys.stderr%% 'waiting for a connection')
+    connection%% client_address = sock.accept()try:print(sys.stderr%% 'connection from'%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print(sys.stderr%% 'received "%%s"' %% data)if data:print(sys.stderr%% 'sending data back to the client')1%%1Top2%%0-13%%1  456%%0-17%%1  8910%%0-11%%1  2342345()6()7891
+INPUT|usc430aj-intro-99|U |1548827508|usc430aj|server:clear|
+INPUT|usc430aj-intro-100|U |1548827513|usc430aj|server:python server.py|starting up on server port 80
+waiting for a connection
+^Z
+[1]+  Stopped                 sudo python server.py
+INPUT|usc430aj-intro-101|U |1548827598|usc430aj|server:vim server|%=<C2><BD>  ]11;?"server" [New File]~                                                                                                                    ~                                                                                                                    ~                                                                                                                    ~                                                                                                                    ~                                                                                                                    ~                                                                                                                    ~                                                                                                                    ~                                                                                                                    ~                           
+INPUT|usc430aj-intro-102|U |1548827604|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 49L%% 1515C#!/usr/bin/env python
+
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 88))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')%
+INPUT|usc430aj-intro-103|U |000000000|usc430aj|server:cd top_secret/|
+INPUT|usc430aj-intro-104|U |1548828154|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 49L%% 1515C#!/usr/bin/env python
+
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]1%%1Top:q%
+INPUT|usc430aj-intro-105|U |1548828164|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 33642))
+received \"GET /file.txt HTTP/1.1\"
+Traceback (most recent call last):
+  File \"server.py\"%% line 34%% in <module>
+    print('responding to %%s' %% client_address)
+TypeError: not all arguments converted during string formatting%
+INPUT|usc430aj-intro-106|U |1548828226|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 49L%% 1515C#!/usr/bin/env python
+
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]1%%1Top-- INSERT --1%%1Top2345678910%%1123456789201234578930123
+print('responding to %%s' %% client_address)34%%16%%
+for root%% dirs%% files i
+INPUT|usc430aj-intro-107|U |1548828269|usc430aj|server:python server.py|%  File \"server.py\"%% line 34
+    print('responding to '%%  client_address)
+                                           ^
+IndentationError: unindent does not match any outer indentation level%
+INPUT|usc430aj-intro-108|U |1548828274|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 49L%% 1515C#!/usr/bin/env python
+
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]1%%1Top2%%0-13%%1  456%%0-17%%1  8910%%0-11%%1  23456%%0-17%%1  89%%0-120%%1  1234%%0-15%%1  67%%0-18%%1  930123%%1-4
+print('responding to '%%  c
+INPUT|usc430aj-intro-109|U |1548828329|usc430aj|server:python server.py|%  File \"server.py\"%% line 35
+    for root%% dirs%% files in os.walk('/tmp'%% topdown=False):
+                                                           ^
+IndentationError: unindent does not match any outer indentation level%
+INPUT|usc430aj-intro-110|U |1548828334|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 49L%% 1503C#!/usr/bin/env python
+
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]1%%1Top2%%0-13%%1  456%%0-17%%1  8910%%0-11%%1  23456%%0-17%%1  89%%0-120%%1  1234%%0-15%%1  67%%0-18%%1  930123%%1-4
+print('responding to '%%  c
+INPUT|usc430aj-intro-111|U |1548828357|usc430aj|server:python server.py|%  File \"server.py\"%% line 36
+    if filename in files:
+                        ^
+IndentationError: unindent does not match any outer indentation level%
+INPUT|usc430aj-intro-112|U |1548828360|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 49L%% 1505C#!/usr/bin/env python
+
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]1%%1Top2%%0-13%%1  456%%0-17%%1  8910%%0-11%%1  23456%%0-17%%1  89%%0-120%%1  1234%%0-15%%1  67%%0-18%%1  930123%%1-4
+print('responding to '%%  c
+INPUT|usc430aj-intro-113|U |1548828395|usc430aj|server:python server.py|%  File \"server.py\"%% line 40
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level%
+INPUT|usc430aj-intro-114|U |1548828398|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 49L%% 1436C#!/usr/bin/env python
+
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]1%%1Top2%%0-13%%1  456%%0-17%%1  8910%%0-11%%1  23456%%0-17%%1  89%%0-120%%1  1234%%0-15%%1  67%%0-18%%1  930123%%1-4
+print('responding to '%%  c
+INPUT|usc430aj-intro-115|U |1548828433|usc430aj|server:python server.py|%  File \"server.py\"%% line 40
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level%
+INPUT|usc430aj-intro-116|U |1548828436|usc430aj|server:clear|
+INPUT|usc430aj-intro-117|U |1548828439|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 49L%% 1403C#!/usr/bin/env python
+
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]1%%1Top-- INSERT --1%%1Top2378910%%11234567892015678930123
+print('responding to '%%  client_address)34%%16%%
+for root%% dirs%% files in os.wal
+INPUT|usc430aj-intro-118|U |1548828461|usc430aj|server:clear|
+INPUT|usc430aj-intro-119|U |1548828463|usc430aj|server:python server.py|%  File \"server.py\"%% line 32
+    if data:
+    ^
+IndentationError: unexpected indent%
+INPUT|usc430aj-intro-120|U |1548828468|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 49L%% 1394C#!/usr/bin/env python
+
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]1%%1Top2%%0-13%%1  4543-- INSERT --3%%1Top
+print('responding to '%%  client_address)2%%1Top3456712%%13456789201278930123
+for root%% dirs%% fil
+INPUT|usc430aj-intro-121|U |1548828520|usc430aj|server:python server.py|%  File \"server.py\"%% line 42
+    else:
+    ^
+IndentationError: unexpected indent%
+INPUT|usc430aj-intro-122|U |1548828523|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 48L%% 1344C#!/usr/bin/env python
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]print('responding to '%%  client_address)1%%1Top-- INSERT --1%%1Top2345678910%%1123456789245678930123
+for root%% dirs%% files in os.walk('/tmp'%% top
+INPUT|usc430aj-intro-123|U |1548828552|usc430aj|server:python server.py|%  File \"server.py\"%% line 42
+    else:
+    ^
+IndentationError: unexpected indent%
+INPUT|usc430aj-intro-124|U |1548828596|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 48L%% 1344C#!/usr/bin/env python
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]print('responding to '%%  client_address)1%%1Top:ret
+1%%1Top2345%%0-16%%1  789%%0-110%%1 12345%%0-16%%1  78%%0-19%%1  201%%1-4210%%27 -- INSERT --20%
+INPUT|usc430aj-intro-125|U |1548828659|usc430aj|server:python server.py|%  File \"server.py\"%% line 40
+    log = open('/tmp/404.html'%% 'r')
+    ^
+IndentationError: expected an indented block%
+INPUT|usc430aj-intro-126|U |1548828663|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 47L%% 1315C#!/usr/bin/env python
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]print('responding to '%%  client_address)1%%1Top2345%%0-16%%1  789%%0-110%%1 12345%%0-16%%1  78%%0-19%%1  201%%1-423%%0-14%%1-456%%0-17%%1  8%%1-4930123
+INPUT|usc430aj-intro-127|U |1548828692|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 33644))
+received \"GET /file.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 33644))
+Traceback (most recent call last):
+  File \"server.py\"%% line 40%% in <module>
+    log = open('/tmp/404.html'%% 'r')
+IOError: [Errno 2] No such file or directory: '/tmp/404.html'%
+INPUT|usc430aj-intro-128|U |000000000|usc430aj|server:cd /tmp/|
+INPUT|usc430aj-intro-129|U |1548828740|usc430aj|server:ls|
+INPUT|usc430aj-intro-130|U |000000000|usc430aj|server:exho get back to me > file.txt|%No command 'exho' found%% did you mean:
+ Command 'echo' from package 'coreutils' (main)
+exho: command not found%
+INPUT|usc430aj-intro-131|U |000000000|usc430aj|server:ec|
+INPUT|usc430aj-intro-132|U |1548828771|usc430aj|server:clear|
+INPUT|usc430aj-intro-133|U |000000000|usc430aj|server:echo check 1 > text1|
+INPUT|usc430aj-intro-134|U |1548828789|usc430aj|server:ls|file.txt  text1
+INPUT|usc430aj-intro-135|U |000000000|usc430aj|server:echo check 2|
+INPUT|usc430aj-intro-136|U |1548828805|usc430aj|server:ls|file.txt  text1  text2.txt
+INPUT|usc430aj-intro-137|U |000000000|usc430aj|server:cd ~/top_secret/|
+INPUT|usc430aj-intro-138|U |1548828820|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 33654))
+received \"GET /file.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 33654))
+Traceback (most recent call last):
+  File \"server.py\"%% line 40%% in <module>
+    log = open('/tmp/404.html'%% 'r')
+IOError: [Errno 2] No such file or directory: '/tmp/404.html'%
+INPUT|usc430aj-intro-139|U |1548828850|usc430aj|server:clear|
+INPUT|usc430aj-intro-140|U |1548828852|usc430aj|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [dos] 47L%% 1291C#!/usr/bin/env python
+import socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+# Bind the socket to the port
+#hostname = socket.gethostname()
+hostname = 'server'
+print('starting up on %%s port 80' %% hostname)
+sock.bind((hostname%% 80))
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection%% client_address = sock.accept()try:print('connection from '%% client_address)# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(1024)print('received "%%s"' %% data)if data:filename = data.split()[1]print('responding to '%%  client_address)1%%1Top2345%%0-16%%1  789%%0-110%%1 12345%%0-16%%1  78%%0-19%%1  201%%1-423%%0-14%%1-456%%0-17%%1  -- INSERT --
+INPUT|usc430aj-intro-141|U |1548828935|usc430aj|server:clear|
+INPUT|usc430aj-intro-142|U |1548828938|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 33656))
+received \"GET /file.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 33656))
+finding /file.txt
+[]
+/tmp/.ICE-unix
+[]
+/tmp/.XIM-unix
+[]
+/tmp/.font-unix
+[]
+/tmp/.Test-unix
+[]
+/tmp/.X11-unix
+['text1'%% 'text2.txt'%% 'file.txt']
+/tmp
+Traceback (most recent call last):
+  File \"server.py\"%% line 43%% in <module>
+    log = open('/tmp/404.html'%% 'r')
+IOError: [Errno 2] No such file or directory: '/tmp/404.html'%
+INPUT|usc430aj-intro-143|U |1548830054|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47050))
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 29%% in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt%
+INPUT|usc430aj-intro-144|U |1548830270|usc430aj|server:clear|
+INPUT|usc430aj-intro-145|U |1548830271|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47054))
+received \"GET /end HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 47054))
+finding end
+[]
+/tmp/.ICE-unix
+[]
+/tmp/.XIM-unix
+[]
+/tmp/.font-unix
+[]
+/tmp/.Test-unix
+[]
+/tmp/.X11-unix
+[]
+/tmp
+Traceback (most recent call last):
+  File \"server.py\"%% line 43%% in <module>
+    log = open('/tmp/404.html'%% 'r')
+IOError: [Errno 2] No such file or directory: '/tmp/404.html'%
+INPUT|usc430aj-intro-146|U |1548830312|usc430aj|server:clear|
+INPUT|usc430aj-intro-147|U |1548830321|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47056))
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 29%% in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt%
+INPUT|usc430aj-intro-148|U |1548830410|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47058))
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 29%% in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt%
+INPUT|usc430aj-intro-149|U |1548830885|usc430aj|server:clear|
+INPUT|usc430aj-intro-150|U |1548830888|usc430aj|server:cat server.py|%#!/usr/bin/env python
+
+import socket
+
+import sys
+
+import os
+
+
+
+# Create a TCP/IP socket
+
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+
+
+
+# Bind the socket to the port
+
+#hostname = socket.gethostname()
+
+hostname = 'server'
+
+print('starting up on %%s port 80' %% hostname)
+
+sock.bind((hostname%% 80))
+
+
+
+# Listen for incoming connections
+
+sock.listen(1)
+
+
+
+while True:
+
+ # Wait for a connection
+
+ print('waiting for a connection')
+
+
+
+ connection%% client_address = sock.accept()
+
+
+
+ try:
+
+  print('connection from '%% client_address)
+
+
+
+  # Receive the data in small chunks and retransmit it
+
+  while True:
+
+   data = connection.recv(1024)
+
+   print('received \"%%s\"' %% data)
+
+   i
+INPUT|usc430aj-intro-151|U |000000000|usc430aj|server:lear|%No command 'lear' found%% did you mean:
+ Command 'ear' from package 'ecere-dev' (universe)
+ Command 'clear' from package 'ncurses-bin' (main)
+ Command 'lsar' from package 'unar' (universe)
+ Command 'pear' from package 'php-pear' (main)
+ Command 'bear' from package 'bear' (universe)
+lear: command not found%
+INPUT|usc430aj-intro-152|U |1548830897|usc430aj|server:clear|
+INPUT|usc430aj-intro-153|U |1548830900|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47068))
+received \"GET /file.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 47068))
+finding file.txt
+[]
+/tmp/.ICE-unix
+[]
+/tmp/.XIM-unix
+[]
+/tmp/.font-unix
+[]
+/tmp/.Test-unix
+[]
+/tmp/.X11-unix
+[]
+/tmp
+Traceback (most recent call last):
+  File \"server.py\"%% line 44%% in <module>
+    log = open('/tmp/404.html'%% 'r')
+IOError: [Errno 2] No such file or directory: '/tmp/404.html'%
+INPUT|usc430aj-intro-154|U |1548830995|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 52 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(Bimport(B os
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B((B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B((B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B((B'connection from '(B%% client_address)(B        # Receive the data in small chunks and retransmit itwhile(B True:
+(B^G(B Get Help     (B^O(B Write Out    (B^W(B Where I
+INPUT|usc430aj-intro-155|U |1548831069|usc430aj|server:clear|
+INPUT|usc430aj-intro-156|U |1548831071|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 52 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(Bimport(B os
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B((B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B((B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B((B'connection from '(B%% client_address)(B        # Receive the data in small chunks and retransmit itwhile(B True:
+(B^G(B Get Help     (B^O(B Write Out    (B^W(B Where I
+INPUT|usc430aj-intro-157|U |1548831123|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 51 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(Bimport(B os
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B((B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B((B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B((B'connection from '(B%% client_address)(B        # Receive the data in small chunks and retransmit itwhile(B True:
+(B^G(B Get Help     (B^O(B Write Out    (B^W(B Where I
+INPUT|usc430aj-intro-158|U |1548831131|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47070))
+received \"GET /file.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 47070))
+finding file.txt
+[]
+[]
+[]
+[]
+[]
+[]
+Traceback (most recent call last):
+  File \"server.py\"%% line 43%% in <module>
+    log = open('/tmp/404.html'%% 'r')
+IOError: [Errno 2] No such file or directory: '/tmp/404.html'%
+INPUT|usc430aj-intro-159|U |1548831220|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 51 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(Bimport(B os
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B((B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B((B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B((B'connection from '(B%% client_address)(B        # Receive the data in small chunks and retransmit itwhile(B True:
+(B^G(B Get Help     (B^O(B Write Out    (B^W(B Where I
+INPUT|usc430aj-intro-160|U |1548831253|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47080))
+received \"GET /file.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 47080))
+finding file.txt
+/tmp/.ICE-unix
+/tmp/.XIM-unix
+/tmp/.font-unix
+/tmp/.Test-unix
+/tmp/.X11-unix
+/tmp
+Traceback (most recent call last):
+  File \"server.py\"%% line 43%% in <module>
+    log = open('/tmp/404.html'%% 'r')
+IOError: [Errno 2] No such file or directory: '/tmp/404.html'%
+INPUT|usc430aj-intro-161|U |000000000|usc430aj|server:cd /tmp|
+INPUT|usc430aj-intro-162|U |1548831300|usc430aj|server:ls|
+INPUT|usc430aj-intro-163|U |000000000|usc430aj|server:echo yUPOASBOBJASOBASO > test.txt|
+INPUT|usc430aj-intro-164|U |000000000|usc430aj|server:echo yUPOASBOBJASOBASO > test.txt|
+INPUT|usc430aj-intro-165|U |000000000|usc430aj|server:echo yUPOASBOBJASOBASO > test.txt|
+INPUT|usc430aj-intro-166|U |000000000|usc430aj|server:cd ~/top_secret/|
+INPUT|usc430aj-intro-167|U |1548831336|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 51 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(Bimport(B os
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B((B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B((B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B((B'connection from '(B%% client_address)(B        # Receive the data in small chunks and retransmit itwhile(B True:
+(B^G(B Get Help     (B^O(B Write Out    (B^W(B Where I
+INPUT|usc430aj-intro-168|U |000000000|usc430aj|server:echo yUPOASBOBJASOBASO > test.txt|
+INPUT|usc430aj-intro-169|U |1548831360|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47082))
+received \"GET /test.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 47082))
+finding test.txt
+[]
+[]
+[]
+[]
+[]
+['test.txt']
+received \"\"
+('no more data from'%% ('10.1.1.2'%% 47082))
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 23%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430aj-intro-170|U |1548831386|usc430aj|server:clear|
+INPUT|usc430aj-intro-171|U |1548831387|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 23%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430aj-intro-172|U |1548831392|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 50 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(Bimport(B os
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B((B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B((B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B((B'connection from '(B%% client_address)(B        # Receive the data in small chunks and retransmit itwhile(B True:data = connection.recv(1024)
+(B^G(B Get Help     (B^O(B
+INPUT|usc430aj-intro-173|U |1548831539|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47084))
+received \"GET /test.text HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 47084))
+finding test.text
+Traceback (most recent call last):
+  File \"server.py\"%% line 41%% in <module>
+    log = open('/tmp/404.html'%% 'r')
+IOError: [Errno 2] No such file or directory: '/tmp/404.html'%
+INPUT|usc430aj-intro-174|U |1548831595|usc430aj|server:nano server.py|%(B===(B(B[ Reading File ]
+(B(B[ Read 49 lines (Converted from DOS format) ]
+(B(B  GNU nano 2.5.3                          File: server.py                                                            (B#!/usr/bin/env python
+import(B socket
+(Bimport(B sys
+(Bimport(B os
+(B# Create a TCP/IP socket
+(Bsock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET%% socket.SO_REUSEADDR%% 1)
+(B# Bind the socket to the port
+#hostname = socket.gethostname()
+(Bhostname = (B'server'
+print(B((B'starting up on %%s port 80'(B %% hostname)
+sock.bind((hostname%% 80))
+(B# Listen for incoming connections
+(Bsock.listen(1)
+(Bwhile(B True:(B # Wait for a connectionprint(B((B'waiting for a connection'(B)connection%% client_address = sock.accept()(Btry(B:(Bprint(B((B'connection from '(B%% client_address)(B        # Receive the data in small chunks and retransmit itwhile(B True:data = connection.recv(1024)
+(B^G(B Get Help     (B^O(B
+INPUT|usc430aj-intro-175|U |1548831599|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47088))
+received \"GET /test.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 47088))
+finding test.txt
+received \"\"
+('no more data from'%% ('10.1.1.2'%% 47088))
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47090))
+received \"GET /test.txt HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 47090))
+finding test.txt
+received \"\"
+('no more data from'%% ('10.1.1.2'%% 47090))
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 23%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430aj-intro-176|U |1548831622|usc430aj|server:clear|
+INPUT|usc430aj-intro-177|U |000000000|usc430aj|server:cd /tmp|
+INPUT|usc430aj-intro-178|U |1548831628|usc430aj|server:ls|test.txt
+INPUT|usc430aj-intro-179|U |000000000|usc430aj|server:echo it works > file|
+INPUT|usc430aj-intro-180|U |000000000|usc430aj|server:cd ~/top_secret/|
+INPUT|usc430aj-intro-181|U |1548831648|usc430aj|server:python server.py|%starting up on server port 80
+waiting for a connection
+('connection from '%% ('10.1.1.2'%% 47092))
+received \"GET /file HTTP/1.1\"
+('responding to '%% ('10.1.1.2'%% 47092))
+finding file
+received \"\"
+('no more data from'%% ('10.1.1.2'%% 47092))
+waiting for a connection
+^Z
+[1]+  Stopped                 sudo python server.py%
+INPUT|usc430aj-intro-182|U |1548831667|usc430aj|server:clear|
+INPUT|usc430aj-intro-183|U |1548831667|usc430aj|server:ls|136intro-2jjaj.JPEG  answers.txt       client.py       diskfree.txt  test.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  client.py.save  server.py     wuer136intro-4.JPG
+INPUT|usc430aj-intro-184|U |1548831681|usc430aj|server:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B 18 lines ]
+(B(B  GNU nano 2.5.3                          File: answers.txt                                                          (BTreasure Hunt
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+-"Forbidden Planet"%% a barren planet with UFO and a red moon on the sky
+/dev/136intro-2jjaj.JPEG
+-"Godzilla King of the Monsters"%% a comic book of Godzilla
+/var/log/136intro-3.jpg
+-"it came from outer space"%% a poster of a space movie
+/etc/wuer136intro-4.JPG
+-"The Fly%% She had to kill the thing her husband had become"%% a movie poster about a husband turning into a fly
+/.hidden/asdf136Intro-5kqlw.jpeg
+-"2001 a space odyssey"%% a movie poster for the space odyssey
+Information Hunt
+1. /var is a subdirectory of the root directory that contains variable data that the system could write into during $2. /dev is another subdirectory of the root directory that contains special device files that control access to peri$4. Vendor ID = Ge
+INPUT|usc430aj-intro-185|U |1548831738|usc430aj|server:cat answers.txt|%Name: Bram Lim
+email: bramlim@usc.edu
+Deterlab username: usc430aj
+
+Treasure Hunt
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+-\"Forbidden Planet\"%% a barren planet with UFO and a red moon on the sky
+/dev/136intro-2jjaj.JPEG
+-\"Godzilla King of the Monsters\"%% a comic book of Godzilla
+/var/log/136intro-3.jpg
+-\"it came from outer space\"%% a poster of a space movie
+/etc/wuer136intro-4.JPG
+-\"The Fly%% She had to kill the thing her husband had become\"%% a movie poster about a husband turning into a fly
+/.hidden/asdf136Intro-5kqlw.jpeg
+-\"2001 a space odyssey\"%% a movie poster for the space odyssey
+
+Information Hunt
+
+1. /var is a subdirectory of the root directory that contains variable data that the system could write into during operations.
+2. /dev is another subdirectory of the root directory that contains special device files that control access to peripheral devices like system console or floppy disk. 
+4. Vendor ID = Genu
+INPUT|usc430aj-intro-186|U |1548831745|usc430aj|server:cat diskfree.txt|%Filesystem                                        Size  Used Avail Use%% Mounted on                             
+/dev/sda1                                          15G  2.8G   12G  20%% /%
+INPUT|usc430aj-intro-187|U |1548831761|usc430aj|server:rm client.py.save|
+INPUT|usc430aj-intro-188|U |1548831762|usc430aj|server:clear|
+INPUT|usc430aj-intro-189|U |1548831766|usc430aj|server:cat client.py|%#!/usr/bin/env python
+
+
+
+import socket
+
+import sys
+
+
+
+# Create a TCP/IP socket
+
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+
+
+# Connect the socket to the port where the server is listening
+
+server_address = (sys.argv[1]%% 80)
+
+print('connecting to %%s port %%s' %% server_address)
+
+sock.connect(server_address)
+
+
+
+try:
+
+    # Send data
+
+    message = raw_input('Request URL: ')
+
+    send = b'GET /' + bytes(message) + b' HTTP/1.1'
+
+    print(send)
+
+    sock.sendall(send);
+
+
+
+    # Look for the response
+
+    amount_received = 0
+
+    amount_expected = len(message)
+
+
+
+    while amount_received < amount_expected:
+
+        data = sock.recv(1024)
+
+        amount_received += len(data)
+
+        print(data)
+
+
+
+finally:
+
+    print('closing socket')
+
+    sock.close()
+%
+INPUT|usc430aj-intro-190|U |1548831775|usc430aj|server:clear|
+INPUT|usc430aj-intro-191|U |1548831777|usc430aj|server:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  wuer136intro-4.JPG
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  test.py    xbzf136INTRO-1.jpg
+INPUT|usc430aj-intro-192|U |1548831791|usc430aj|server:rm test.py|
+INPUT|usc430aj-intro-193|U |1548831848|usc430aj|server:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+INPUT|usc430aj-intro-194|U |1548831855|usc430aj|server:cat answers.txt|%Name: Bram Lim
+email: bramlim@usc.edu
+Deterlab username: usc430aj
+
+Treasure Hunt
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+-\"Forbidden Planet\"%% a barren planet with UFO and a red moon on the sky
+/dev/136intro-2jjaj.JPEG
+-\"Godzilla King of the Monsters\"%% a comic book of Godzilla
+/var/log/136intro-3.jpg
+-\"it came from outer space\"%% a poster of a space movie
+/etc/wuer136intro-4.JPG
+-\"The Fly%% She had to kill the thing her husband had become\"%% a movie poster about a husband turning into a fly
+/.hidden/asdf136Intro-5kqlw.jpeg
+-\"2001 a space odyssey\"%% a movie poster for the space odyssey
+
+Information Hunt
+
+1. /var is a subdirectory of the root directory that contains variable data that the system could write into during operations.
+2. /dev is another subdirectory of the root directory that contains special device files that control access to peripheral devices like system console or floppy disk. 
+4. Vendor ID = Genu
+INPUT|usc430aj-intro-195|U |1548831864|usc430aj|server:clear|
+INPUT|usc430aj-intro-196|U |000000000|usc430aj|server:cd ..|
+INPUT|usc430aj-intro-197|U |1548831933|usc430aj|server:tar cvzf bram-lim-intro.tar.gz top_secret|top_secret/
+top_secret/xbzf136INTRO-1.jpg
+top_secret/answers.txt
+top_secret/client.py
+top_secret/asdf136Intro-5kqlw.jpeg
+top_secret/136intro-2jjaj.JPEG
+top_secret/136intro-3.jpg
+top_secret/wuer136intro-4.JPG
+top_secret/diskfree.txt
+top_secret/server.py
+INPUT|usc430aj-intro-198|U |1548359100|usc430aj|intro:ls|caesar.txt  cypher.cpp topo.txt  top_secret
+INPUT|usc430aj-intro-199|U |000000000|usc430aj|intro:cd top_secret/|
+INPUT|usc430aj-intro-200|U |1548359109|usc430aj|intro:cat answers.txt|%Treasure Hunt
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+-\"Forbidden Planet\"%% a barren planet with UFO and a red moon on the sky
+/dev/136intro-2jjaj.JPEG
+-\"Godzilla King of the Monsters\"%% a comic book of Godzilla
+/var/log/136intro-3.jpg
+-\"it came from outer space\"%% a poster of a space movie
+/etc/wuer136intro-4.JPG
+-\"The Fly%% She had to kill the thing her husband had become\"%% a movie poster about a husband turning into a fly
+/.hidden/asdf136Intro-5kqlw.jpeg
+-\"2001 a space odyssey\"%% a movie poster for the space odyssey
+
+Information Hunt
+
+1. /var is a subdirectory of the root directory that contains variable data that the system could write into during operations.
+2. /dev is another subdirectory of the root directory that contains special device files that control access to peripheral devices like system console or floppy disk. 
+3. %
+INPUT|usc430aj-intro-201|A6 |1548359122|usc430aj|intro:df -h > diskfree.txt|
+INPUT|usc430aj-intro-202|U |1548359125|usc430aj|intro:cat diskfree.txt|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              980M   48K  980M   1%% /dev
+tmpfs                                             200M   11M  190M   6%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                            1000M     0 1000M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                            1000M     0 1000M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430aj  1.9T  1.5T  338G  82%% /users/usc430aj
+tmpfs                                             200M     0  200M   0%% /run/user/14173%
+INPUT|usc430aj-intro-203|M6 |1548359145|usc430aj|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      11108     193612   6%% /run
+/dev/sda1                                          15616412    2904448   11912016  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921568640 1815199616  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430aj 2031313280 1514877184  353931008  82%% /users/usc430aj
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430aj-intro-204|U |1548359155|usc430aj|intro:clear|
+INPUT|usc430aj-intro-205|M6 |1548359157|usc430aj|intro:df -h|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              980M   48K  980M   1%% /dev
+tmpfs                                             200M   11M  190M   6%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                            1000M     0 1000M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                            1000M     0 1000M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430aj  1.9T  1.5T  338G  82%% /users/usc430aj
+tmpfs                                             200M     0  200M   0%% /run/user/14173%
+INPUT|usc430aj-intro-206|U |000000000|usc430aj|intro:cd /dev|
+INPUT|usc430aj-intro-207|U |1548359190|usc430aj|intro:clear|
+INPUT|usc430aj-intro-208|U |1548359190|usc430aj|intro:ls|136intro-2jjaj.JPEG  log   sg1    tty3   tty6      ttyS30
+autofs       loop0   sg2    tty30  tty60      ttyS31
+block       loop1   shm    tty31  tty61      ttyS4
+bsg       loop2   snapshot  tty32  tty62      ttyS5
+btrfs-control      loop3   snd    tty33  tty63      ttyS6
+bus       loop4   sr0    tty34  tty7      ttyS7
+cdrom       loop5   stderr    tty35  tty8      ttyS8
+char       loop6   stdin    tty36  tty9      ttyS9
+console       loop7   stdout    tty37  ttyprintk  uhid
+core       loop-control  tty    tty38  ttyS0      uinput
+cpu       mapper   tty0    tty39  ttyS1      urandom
+cpu_dma_latency      mcelog   tty1    tty4   ttyS10     userio
+cuse       mem   tty10    tty40  ttyS11     vcs
+disk       memory_bandwidth  tty11    tty41  ttyS12     vcs1
+dri<H
+INPUT|usc430aj-intro-209|U |000000000|usc430aj|intro:cd disk/|
+INPUT|usc430aj-intro-210|U |1548359202|usc430aj|intro:clear|
+INPUT|usc430aj-intro-211|U |1548359203|usc430aj|intro:ls|by-id  by-label  by-path  by-uuid
+INPUT|usc430aj-intro-212|U |000000000|usc430aj|intro:cd by-id|
+INPUT|usc430aj-intro-213|U |1548359209|usc430aj|intro:ls|ata-HL-DT-ST_GCR-8240N scsi-20010b9fd080c2f5b-part1  scsi-20010b9fd080c2f5b-part3
+scsi-20010b9fd080c2f5b scsi-20010b9fd080c2f5b-part2
+INPUT|usc430aj-intro-214|U |1548359219|usc430aj|intro:ls -al|total 0
+drwxr-xr-x 2 root root 140 Jan 24 11:43 .
+drwxr-xr-x 6 root root 120 Jan 24 11:43 ..
+lrwxrwxrwx 1 root root   9 Jan 24 11:43 ata-HL-DT-ST_GCR-8240N -> ../../sr0
+lrwxrwxrwx 1 root root   9 Jan 24 11:43 scsi-20010b9fd080c2f5b -> ../../sda
+lrwxrwxrwx 1 root root  10 Jan 24 11:43 scsi-20010b9fd080c2f5b-part1 -> ../../sda1
+lrwxrwxrwx 1 root root  10 Jan 24 11:43 scsi-20010b9fd080c2f5b-part2 -> ../../sda2
+lrwxrwxrwx 1 root root  10 Jan 24 11:43 scsi-20010b9fd080c2f5b-part3 -> ../../sda3
+INPUT|usc430aj-intro-215|U |000000000|usc430aj|intro:cd ../by-label|
+INPUT|usc430aj-intro-216|U |1548359253|usc430aj|intro:ls|root
+INPUT|usc430aj-intro-217|U |000000000|usc430aj|intro:cd root|bash: cd: root: Not a directory
+INPUT|usc430aj-intro-218|U |1548359260|usc430aj|intro:cat root|cat: root: Permission denied
+INPUT|usc430aj-intro-219|U |1548359264|usc430aj|intro:cd root|sudo: cd: command not found
+INPUT|usc430aj-intro-220|U |1548359270|usc430aj|intro:cat root|%<C3><AB><C3><ORDM>&<C3><BF><C3><ORDM><C3><PARA><C3><82>t<C3><PARA><C3><82>pt<C2><B2><C3><ORDF>y|1<C3><EURO><C3><98><C3><90><C2><BC> <C3><BB><C2><A0>d|<<C3><BF>t<C3><82>R<C3><PARA>t<C2><BE>}<C3><UMLT><C2><BE>|A<C2><ORDF>U<C3><8D>ZRr=<C3><BB>U<C2><ORDF>u7<C3><A1>t21<C3><EURO>D@D<C3><BF>D<C3><87>f
+\|ff
+`|f\
+<C3><87>DpB<C3><8D>rp<C3><AB><C3><8D>s
+Z<C3><92><C3><90><C2><BE>}<C3><COPY>f<C3><86>d<C3><BF>@fD<C3><91><C3><81><C3><CENT><C3><UMLT><C3><ACUTE>@<C3><82><C3><EURO><C3><UMLT>ff`|f <C3><EURO>uNf\|f1<C3><92>f4<C3><91>1<C3><92>ft;}7<C3><BE><C3><81><C3><85>0<C3><EURO><C3><81><C3><81><C3><90>Z<C3><86>p<C3><83>1<C3><9b><C3><8D>r
+<C3><83>`
+<C2><B9><C3><9b>1<C3><PARA><C3><86><C3><BC><C3><B3><US>a<C3><BF>&Z|<C2><BE>}<C3><AB><C2><BE>}<C3><UMLT>4<C2><BE>}<C3><UMLT>.<C3><8D><C3><AB><C3><BE>GRUB GeomHard DiskRead Error
+
+<C3><8D><u<C3><ACUTE><C3><83>U<C2><ORDF><C3><DEG>=3
+<C3><84>0x<C3><CEDIL>
+<C3><90><US>nJ\iJ\@<C3><BF><C3><BF>S<C3><MACR>s;Y
+<
+
+<C3><86>`<C3>
+INPUT|usc430aj-intro-221|U |1548359272|usc430aj|intro:clear|
+INPUT|usc430aj-intro-222|U |1548359273|usc430aj|intro:ls|root
+INPUT|usc430aj-intro-223|U |000000000|usc430aj|intro:cd ..|
+INPUT|usc430aj-intro-224|U |1548359275|usc430aj|intro:ls|by-id  by-label  by-path  by-uuid
+INPUT|usc430aj-intro-225|U |000000000|usc430aj|intro:cd by-id|
+INPUT|usc430aj-intro-226|U |1548359287|usc430aj|intro:ls|ata-HL-DT-ST_GCR-8240N scsi-20010b9fd080c2f5b-part1  scsi-20010b9fd080c2f5b-part3
+scsi-20010b9fd080c2f5b scsi-20010b9fd080c2f5b-part2
+INPUT|usc430aj-intro-227|U |000000000|usc430aj|intro:cd ata-HL-DT-ST_GCR-8240N|bash: cd: ata-HL-DT-ST_GCR-8240N: Not a directory
+INPUT|usc430aj-intro-228|U |1548359292|usc430aj|intro:cat ata-HL-DT-ST_GCR-8240N|cat: ata-HL-DT-ST_GCR-8240N: Permission denied
+INPUT|usc430aj-intro-229|U |1548359296|usc430aj|intro:cat ata-HL-DT-ST_GCR-8240N|cat: ata-HL-DT-ST_GCR-8240N: No medium found
+INPUT|usc430aj-intro-230|U |000000000|usc430aj|intro:cd /var|
+INPUT|usc430aj-intro-231|U |1548359304|usc430aj|intro:ls|backups  crash  lib lock  mail  run   spool
+cache  emulab  local log   opt   snap  tmp
+INPUT|usc430aj-intro-232|U |000000000|usc430aj|intro:cd local|
+INPUT|usc430aj-intro-233|U |1548359315|usc430aj|intro:ls|
+INPUT|usc430aj-intro-234|U |000000000|usc430aj|intro:cd ../tmp|
+INPUT|usc430aj-intro-235|U |1548359320|usc430aj|intro:ls|
+INPUT|usc430aj-intro-236|U |000000000|usc430aj|intro:cd ../lib|
+INPUT|usc430aj-intro-237|U |1548359324|usc430aj|intro:ls|AccountsService  gems    man-db     polkit-1        update-notifier
+apparmor  ghostscript   mdadm      python        update-rc.d
+apt   git    misc      resolvconf        urandom
+colord   ieee-data   mlocate    sgml-base        ureadahead
+dbus   initramfs-tools  nfs      snapd        usbutils
+dhcp   initscripts   nssdb      sudo        vim
+dkms   insserv   ntp      systemd        xml-core
+dpkg   logrotate   os-prober  ubuntu-release-upgrader
+emacsen-common  lxcfs    pam      ucf
+gconf   lxd    plymouth   update-manager
+INPUT|usc430aj-intro-238|U |000000000|usc430aj|intro:cd ~/top_secret/|
+INPUT|usc430aj-intro-239|U |1548359345|usc430aj|intro:cat answers.txt|%Treasure Hunt
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+-\"Forbidden Planet\"%% a barren planet with UFO and a red moon on the sky
+/dev/136intro-2jjaj.JPEG
+-\"Godzilla King of the Monsters\"%% a comic book of Godzilla
+/var/log/136intro-3.jpg
+-\"it came from outer space\"%% a poster of a space movie
+/etc/wuer136intro-4.JPG
+-\"The Fly%% She had to kill the thing her husband had become\"%% a movie poster about a husband turning into a fly
+/.hidden/asdf136Intro-5kqlw.jpeg
+-\"2001 a space odyssey\"%% a movie poster for the space odyssey
+
+Information Hunt
+
+1. /var is a subdirectory of the root directory that contains variable data that the system could write into during operations.
+2. /dev is another subdirectory of the root directory that contains special device files that control access to peripheral devices like system console or floppy disk. 
+3. %
+INPUT|usc430aj-intro-240|U |000000000|usc430aj|intro:cd /dev|
+INPUT|usc430aj-intro-241|U |1548359410|usc430aj|intro:clear|
+INPUT|usc430aj-intro-242|U |1548359410|usc430aj|intro:ls|136intro-2jjaj.JPEG  log   sg1    tty3   tty6      ttyS30
+autofs       loop0   sg2    tty30  tty60      ttyS31
+block       loop1   shm    tty31  tty61      ttyS4
+bsg       loop2   snapshot  tty32  tty62      ttyS5
+btrfs-control      loop3   snd    tty33  tty63      ttyS6
+bus       loop4   sr0    tty34  tty7      ttyS7
+cdrom       loop5   stderr    tty35  tty8      ttyS8
+char       loop6   stdin    tty36  tty9      ttyS9
+console       loop7   stdout    tty37  ttyprintk  uhid
+core       loop-control  tty    tty38  ttyS0      uinput
+cpu       mapper   tty0    tty39  ttyS1      urandom
+cpu_dma_latency      mcelog   tty1    tty4   ttyS10     userio
+cuse       mem   tty10    tty40  ttyS11     vcs
+disk       memory_bandwidth  tty11    tty41  ttyS12     vcs1
+dri<H
+INPUT|usc430aj-intro-243|U |000000000|usc430aj|intro:cd console|bash: cd: console: Not a directory
+INPUT|usc430aj-intro-244|U |1548359423|usc430aj|intro:cat console|cat: console: Permission denied
+INPUT|usc430aj-intro-245|U |1548359426|usc430aj|intro:cat console|^Z
+[2]+  Stopped                 sudo cat console
+INPUT|usc430aj-intro-246|U |1548359437|usc430aj|intro:clear|
+INPUT|usc430aj-intro-247|U |1548359439|usc430aj|intro:ls -al|%total 52
+drwxr-xr-x 19 root root        4000 Jan 24 11:44 .
+drwxr-xr-x 29 root root        4096 Jan 24 11:44 ..
+-rw-r--r--  1 root root       45909 Jan 24 11:44 136intro-2jjaj.JPEG
+crw-------  1 root root     10%% 235 Jan 24 11:43 autofs
+drwxr-xr-x  2 root root         320 Jan 24 11:43 block
+drwxr-xr-x  2 root root         100 Jan 24 11:43 bsg
+crw-rw----  1 root disk     10%% 234 Jan 24 11:43 btrfs-control
+drwxr-xr-x  3 root root          60 Jan 24 11:43 bus
+lrwxrwxrwx  1 root root           3 Jan 24 11:43 cdrom -> sr0
+drwxr-xr-x  2 root root        3440 Jan 24 11:43 char
+crw-------  1 root root      5%%   1 Jan 24 11:43 console
+lrwxrwxrwx  1 root root          11 Jan 24 11:43 core -> /proc/kcore
+drwxr-xr-x  2 root root          60 Jan 24 11:43 cpu
+crw-------  1 root root     10%%  59 Jan 24 11:43 cpu_dma_latency
+crw-------  1 root root     10%% 203 Jan 24 11:43 cuse
+drwxr-xr-x  6 root root         120 Jan 24 11:43 disk
+drwxr-xr-x  2 
+INPUT|usc430aj-intro-248|U |1548359457|usc430aj|intro:clear|
+INPUT|usc430aj-intro-249|U |1548359459|usc430aj|intro:nano console|(B===(B(B[ "console" is not a normal file ]
+(B(B  GNU nano 2.5.3                  New Buffer                                          ^G(B Get Help   (B^O(B Write Out  (B^W(B Where Is   (B^K(B Cut Text   (B^J(B Justify    (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File  (B^\(B Replace    (B^U(B Uncut Text (B^T(B To Spell   (B^_(B Go To Line
+
+INPUT|usc430aj-intro-250|U |1548359469|usc430aj|intro:clear|
+INPUT|usc430aj-intro-251|A5 |1548359534|usc430aj|intro:cat /proc/cpuinfo | grep 'vendor id'|
+INPUT|usc430aj-intro-252|M5 |1548359546|usc430aj|intro:lscpu|%Architecture:          x86_64
+CPU op-mode(s):        32-bit%% 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    2
+Core(s) per socket:    1
+Socket(s):             2
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            15
+Model:                 4
+Model name:            Intel(R) Xeon(TM) CPU 3.00GHz
+Stepping:              3
+CPU MHz:               2992.727
+BogoMIPS:              5985.41
+L1d cache:             16K
+L2 cache:              2048K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr%
+INPUT|usc430aj-intro-253|U |000000000|usc430aj|intro:cd ~/top|bash: cd: /users/usc430aj/top: No such file or directory
+INPUT|usc430aj-intro-254|U |000000000|usc430aj|intro:cd ~/top_secret/|
+INPUT|usc430aj-intro-255|U |1548359589|usc430aj|intro:clear|
+INPUT|usc430aj-intro-256|U |1548359589|usc430aj|intro:ls|136intro-2jjaj.JPEG  answers.txt       diskfree.txt   xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+INPUT|usc430aj-intro-257|M5 |1548359602|usc430aj|intro:lscpu|%Architecture:          x86_64
+CPU op-mode(s):        32-bit%% 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    2
+Core(s) per socket:    1
+Socket(s):             2
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            15
+Model:                 4
+Model name:            Intel(R) Xeon(TM) CPU 3.00GHz
+Stepping:              3
+CPU MHz:               2992.727
+BogoMIPS:              5985.41
+L1d cache:             16K
+L2 cache:              2048K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr%
+INPUT|usc430aj-intro-258|U |1548359609|usc430aj|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B[ Read 18 lines
+(B(B  GNU nano 2.5.3               File: answers.txt                                      (BTreasure Hunt
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+-"Forbidden Planet"%% a barren planet with UFO and a red moon on the sky
+/dev/136intro-2jjaj.JPEG
+-"Godzilla King of the Monsters"%% a comic book of Godzilla
+/var/log/136intro-3.jpg
+-"it came from outer space"%% a poster of a space movie
+/etc/wuer136intro-4.JPG
+-"The Fly%% She had to kill the thing her husband had become"%% a movie poster about a $/.hidden/asdf136Intro-5kqlw.jpeg
+-"2001 a space odyssey"%% a movie poster for the space odyssey
+Information Hunt
+1. /var is a subdirectory of the root directory that contains variable data that the $2. /dev is another subdirectory of the root directory that contains special device fi$3.
+(B^G(B Get Help   (B^O(B Write Out  (B^W(B Where Is   (B^K(B Cut Text   (B^J(B Justify    (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Rea
+INPUT|usc430aj-intro-259|U |1548359651|usc430aj|intro:clear|
+INPUT|usc430aj-intro-260|U |1548359652|usc430aj|intro:cat answer|cat: answer: No such file or directory
+INPUT|usc430aj-intro-261|U |1548359656|usc430aj|intro:cat answers.txt|%Treasure Hunt
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+-\"Forbidden Planet\"%% a barren planet with UFO and a red moon on the sky
+/dev/136intro-2jjaj.JPEG
+-\"Godzilla King of the Monsters\"%% a comic book of Godzilla
+/var/log/136intro-3.jpg
+-\"it came from outer space\"%% a poster of a space movie
+/etc/wuer136intro-4.JPG
+-\"The Fly%% She had to kill the thing her husband had become\"%% a movie poster about a husband turning into a fly
+/.hidden/asdf136Intro-5kqlw.jpeg
+-\"2001 a space odyssey\"%% a movie poster for the space odyssey
+
+Information Hunt
+
+1. /var is a subdirectory of the root directory that contains variable data that the system could write into during operations.
+2. /dev is another subdirectory of the root directory that contains special device files that control access to peripheral devices like system console or floppy disk. 
+4. Vendor ID = GenuineIntel %
+INPUT|usc430aj-intro-262|U |000000000|usc430aj|intro:cd /var/|
+INPUT|usc430aj-intro-263|U |1548359676|usc430aj|intro:clear|
+INPUT|usc430aj-intro-264|U |1548359677|usc430aj|intro:ls|backups  crash  lib lock  mail  run   spool
+cache  emulab  local log   opt   snap  tmp
+INPUT|usc430aj-intro-265|U |000000000|usc430aj|intro:cd log|
+INPUT|usc430aj-intro-266|U |1548359683|usc430aj|intro:ls|136intro-3.jpg   btmp  faillog  lastlog   tiplogs
+alternatives.log  dist-upgrade fontconfig.log lxd   ttylog
+apt    dmesg  fsck  ntpstats  unattended-upgrades
+auth.log   dpkg.log installer quagga   wtmp
+bootstrap.log   emulab.log kern.log syslog
+INPUT|usc430aj-intro-267|U |000000000|usc430aj|intro:cd /dev|
+INPUT|usc430aj-intro-268|U |1548359690|usc430aj|intro:clear|
+INPUT|usc430aj-intro-269|U |1548359691|usc430aj|intro:ls|136intro-2jjaj.JPEG  log   sg1    tty3   tty6      ttyS30
+autofs       loop0   sg2    tty30  tty60      ttyS31
+block       loop1   shm    tty31  tty61      ttyS4
+bsg       loop2   snapshot  tty32  tty62      ttyS5
+btrfs-control      loop3   snd    tty33  tty63      ttyS6
+bus       loop4   sr0    tty34  tty7      ttyS7
+cdrom       loop5   stderr    tty35  tty8      ttyS8
+char       loop6   stdin    tty36  tty9      ttyS9
+console       loop7   stdout    tty37  ttyprintk  uhid
+core       loop-control  tty    tty38  ttyS0      uinput
+cpu       mapper   tty0    tty39  ttyS1      urandom
+cpu_dma_latency      mcelog   tty1    tty4   ttyS10     userio
+cuse       mem   tty10    tty40  ttyS11     vcs
+disk       memory_bandwidth  tty11    tty41  ttyS12     vcs1
+dri<H
+INPUT|usc430aj-intro-270|A5 |000000000|usc430aj|intro:cd cpu|
+INPUT|usc430aj-intro-271|U |1548359700|usc430aj|intro:ls|microcode
+INPUT|usc430aj-intro-272|U |000000000|usc430aj|intro:cd microcode|bash: cd: microcode: Not a directory
+INPUT|usc430aj-intro-273|U |1548359705|usc430aj|intro:cat microcode|cat: microcode: Permission denied
+INPUT|usc430aj-intro-274|U |1548359706|usc430aj|intro:clear|
+INPUT|usc430aj-intro-275|U |1548359713|usc430aj|intro:nano microcode|(B===(B(B[ "microcode" is not a normal file ]
+(B(B  GNU nano 2.5.3                  New Buffer                                          ^G(B Get Help   (B^O(B Write Out  (B^W(B Where Is   (B^K(B Cut Text   (B^J(B Justify    (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File  (B^\(B Replace    (B^U(B Uncut Text (B^T(B To Spell   (B^_(B Go To Line
+
+INPUT|usc430aj-intro-276|U |000000000|usc430aj|intro:microcode|microcode: command not found
+INPUT|usc430aj-intro-277|U |1548359721|usc430aj|intro:ls|microcode
+INPUT|usc430aj-intro-278|U |1548359724|usc430aj|intro:./microcode|bash: ./microcode: Permission denied
+INPUT|usc430aj-intro-279|U |1548359730|usc430aj|intro:cat microcode|cat: microcode: Invalid argument
+INPUT|usc430aj-intro-280|U |000000000|usc430aj|intro:clera|%lNo command 'clera' found%% did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+clera: command not found%
+INPUT|usc430aj-intro-281|U |1548359737|usc430aj|intro:clear|
+INPUT|usc430aj-intro-282|U |1548359737|usc430aj|intro:ls|microcode
+INPUT|usc430aj-intro-283|U |1548359742|usc430aj|intro:ls -al|%total 0
+drwxr-xr-x  2 root root      60 Jan 24 11:43 .
+drwxr-xr-x 19 root root    4000 Jan 24 11:44 ..
+crw-------  1 root root 10%% 184 Jan 24 11:43 microcode%
+INPUT|usc430aj-intro-284|U |000000000|usc430aj|intro:cd ..|
+INPUT|usc430aj-intro-285|U |1548359753|usc430aj|intro:ls|136intro-2jjaj.JPEG  log   sg1    tty3   tty6      ttyS30
+autofs       loop0   sg2    tty30  tty60      ttyS31
+block       loop1   shm    tty31  tty61      ttyS4
+bsg       loop2   snapshot  tty32  tty62      ttyS5
+btrfs-control      loop3   snd    tty33  tty63      ttyS6
+bus       loop4   sr0    tty34  tty7      ttyS7
+cdrom       loop5   stderr    tty35  tty8      ttyS8
+char       loop6   stdin    tty36  tty9      ttyS9
+console       loop7   stdout    tty37  ttyprintk  uhid
+core       loop-control  tty    tty38  ttyS0      uinput
+cpu       mapper   tty0    tty39  ttyS1      urandom
+cpu_dma_latency      mcelog   tty1    tty4   ttyS10     userio
+cuse       mem   tty10    tty40  ttyS11     vcs
+disk       memory_bandwidth  tty11    tty41  ttyS12     vcs1
+dri<H
+INPUT|usc430aj-intro-286|U |000000000|usc430aj|intro:cd disk/|
+INPUT|usc430aj-intro-287|U |1548359759|usc430aj|intro:ls|by-id  by-label  by-path  by-uuid
+INPUT|usc430aj-intro-288|U |1548359764|usc430aj|intro:cat by-id|cat: by-id: Is a directory
+INPUT|usc430aj-intro-289|U |000000000|usc430aj|intro:cd by-id|
+INPUT|usc430aj-intro-290|U |1548359770|usc430aj|intro:ls|ata-HL-DT-ST_GCR-8240N scsi-20010b9fd080c2f5b-part1  scsi-20010b9fd080c2f5b-part3
+scsi-20010b9fd080c2f5b scsi-20010b9fd080c2f5b-part2
+INPUT|usc430aj-intro-291|U |1548359788|usc430aj|intro:clear|
+INPUT|usc430aj-intro-292|A5 |000000000|usc430aj|intro:cd cpu|bash: cd: cpu: No such file or directory
+INPUT|usc430aj-intro-293|U |1548359790|usc430aj|intro:ls|ata-HL-DT-ST_GCR-8240N scsi-20010b9fd080c2f5b-part1  scsi-20010b9fd080c2f5b-part3
+scsi-20010b9fd080c2f5b scsi-20010b9fd080c2f5b-part2
+INPUT|usc430aj-intro-294|U |1548359935|usc430aj|intro:ls|ata-HL-DT-ST_GCR-8240N scsi-20010b9fd080c2f5b-part1  scsi-20010b9fd080c2f5b-part3
+scsi-20010b9fd080c2f5b scsi-20010b9fd080c2f5b-part2
+INPUT|usc430aj-intro-295|U |000000000|usc430aj|intro:cd /|
+INPUT|usc430aj-intro-296|U |1548359941|usc430aj|intro:clear|
+INPUT|usc430aj-intro-297|U |1548359942|usc430aj|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430aj-intro-298|U |000000000|usc430aj|intro:cd dev|
+INPUT|usc430aj-intro-299|U |1548359952|usc430aj|intro:ls|136intro-2jjaj.JPEG  log   sg1    tty3   tty6      ttyS30
+autofs       loop0   sg2    tty30  tty60      ttyS31
+block       loop1   shm    tty31  tty61      ttyS4
+bsg       loop2   snapshot  tty32  tty62      ttyS5
+btrfs-control      loop3   snd    tty33  tty63      ttyS6
+bus       loop4   sr0    tty34  tty7      ttyS7
+cdrom       loop5   stderr    tty35  tty8      ttyS8
+char       loop6   stdin    tty36  tty9      ttyS9
+console       loop7   stdout    tty37  ttyprintk  uhid
+core       loop-control  tty    tty38  ttyS0      uinput
+cpu       mapper   tty0    tty39  ttyS1      urandom
+cpu_dma_latency      mcelog   tty1    tty4   ttyS10     userio
+cuse       mem   tty10    tty40  ttyS11     vcs
+disk       memory_bandwidth  tty11    tty41  ttyS12     vcs1
+dri<H
+INPUT|usc430aj-intro-300|U |000000000|usc430aj|intro:cd console|bash: cd: console: Not a directory
+INPUT|usc430aj-intro-301|U |000000000|usc430aj|intro:console|The program 'console' is currently not installed. To run 'console' please ask your administrator to install the package 'conserver-client'
+INPUT|usc430aj-intro-302|U |1548359975|usc430aj|intro:cat console|cat: console: Permission denied
+INPUT|usc430aj-intro-303|U |1548359977|usc430aj|intro:clear|
+INPUT|usc430aj-intro-304|U |1548359982|usc430aj|intro:nano console|(B===(B(B[ "console" is not a normal file ]
+(B(B  GNU nano 2.5.3                  New Buffer                                          ^G(B Get Help   (B^O(B Write Out  (B^W(B Where Is   (B^K(B Cut Text   (B^J(B Justify    (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File  (B^\(B Replace    (B^U(B Uncut Text (B^T(B To Spell   (B^_(B Go To Line
+
+INPUT|usc430aj-intro-305|U |1548359986|usc430aj|intro:clear|
+INPUT|usc430aj-intro-306|U |1548359987|usc430aj|intro:ls|136intro-2jjaj.JPEG  log   sg1    tty3   tty6      ttyS30
+autofs       loop0   sg2    tty30  tty60      ttyS31
+block       loop1   shm    tty31  tty61      ttyS4
+bsg       loop2   snapshot  tty32  tty62      ttyS5
+btrfs-control      loop3   snd    tty33  tty63      ttyS6
+bus       loop4   sr0    tty34  tty7      ttyS7
+cdrom       loop5   stderr    tty35  tty8      ttyS8
+char       loop6   stdin    tty36  tty9      ttyS9
+console       loop7   stdout    tty37  ttyprintk  uhid
+core       loop-control  tty    tty38  ttyS0      uinput
+cpu       mapper   tty0    tty39  ttyS1      urandom
+cpu_dma_latency      mcelog   tty1    tty4   ttyS10     userio
+cuse       mem   tty10    tty40  ttyS11     vcs
+disk       memory_bandwidth  tty11    tty41  ttyS12     vcs1
+dri<H
+INPUT|usc430aj-intro-307|U |000000000|usc430aj|intro:cd /proc|
+INPUT|usc430aj-intro-308|U |1548360049|usc430aj|intro:clear|
+INPUT|usc430aj-intro-309|U |1548360050|usc430aj|intro:ls|1     149   1818  2530 316  41   70 buddyinfo    key-users    softirqs
+10    15    182   2533 318  410  71 bus      kmsg    stat
+1003  150   1821  2535 319  417  72 cgroups      kpagecgroup   swaps
+1005  16    1835  2537 32   42   73 cmdline      kpagecount    sys
+1012  160   1977  2538 33   422  74 consoles     kpageflags    sysrq-trigger
+11    162   2   2575 34   425  75 cpuinfo      loadavg    sysvipc
+12    163   20   2576 347  43   76 crypto      locks    thread-self
+1237  164   21   26 35   437  77 devices      mdstat    timer_list
+13    1644  22   2606 36   44   79 diskstats    meminfo    timer_stats
+137   1647  23   2607 363  45   8 dma      misc    tty
+138   165   2347  2612 37   46   81 driver      modules    uptime
+139   166   2354  262 370  47   85 execdomains  mounts    version
+140   1660  2355  2681 376  48   9
+INPUT|usc430aj-intro-310|A5 |000000000|usc430aj|intro:cd cpuinfo|bash: cd: cpuinfo: Not a directory
+INPUT|usc430aj-intro-311|M5 |1548360063|usc430aj|intro:cat cpuinfo|%processor : 0
+vendor_id : GenuineIntel
+cpu family : 15
+model  : 4
+model name : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping : 3
+microcode : 0x5
+cpu MHz  : 2992.727
+cache size : 2048 KB
+physical id : 0
+siblings : 2
+core id  : 0
+cpu cores : 1
+apicid  : 0
+initial apicid : 0
+fpu  : yes
+fpu_exception : yes
+cpuid level : 5
+wp  : yes
+flags  : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr
+bugs  :
+bogomips : 5985.45
+clflush size : 64
+cache_alignment : 128
+address sizes : 36 bits physical%% 48 bits virtual
+power management:
+
+processor : 1
+vendor_id : GenuineIntel
+cpu family : 15
+model  : 4
+model name : Intel(R) Xeon(TM) CPU 3.00GHz
+steppin
+INPUT|usc430aj-intro-312|U |1548360078|usc430aj|intro:clear|
+INPUT|usc430aj-intro-313|U |1548360078|usc430aj|intro:ls|1     149   1818  2530 316  41   70 buddyinfo    key-users    softirqs
+10    15    182   2533 318  410  71 bus      kmsg    stat
+1003  150   1821  2535 319  417  72 cgroups      kpagecgroup   swaps
+1005  16    1835  2537 32   42   73 cmdline      kpagecount    sys
+1012  160   1977  2538 33   422  74 consoles     kpageflags    sysrq-trigger
+11    162   2   2575 34   425  75 cpuinfo      loadavg    sysvipc
+12    163   20   2576 347  43   76 crypto      locks    thread-self
+1237  164   21   26 35   437  77 devices      mdstat    timer_list
+13    1644  22   2606 36   44   79 diskstats    meminfo    timer_stats
+137   1647  23   2607 363  45   8 dma      misc    tty
+138   165   2347  2612 37   46   81 driver      modules    uptime
+139   166   2354  262 370  47   85 execdomains  mounts    version
+140   1660  2355  2681 376  48   9
+INPUT|usc430aj-intro-314|U |000000000|usc430aj|intro:cd /|
+INPUT|usc430aj-intro-315|U |1548360081|usc430aj|intro:clear|
+INPUT|usc430aj-intro-316|U |1548360082|usc430aj|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430aj-intro-317|U |000000000|usc430aj|intro:cd /proc|
+INPUT|usc430aj-intro-318|U |1548360251|usc430aj|intro:ls|1     150   1977  2576 36   48   972        iomem      schedstat
+10    16    2   26 37   5   98        ioports      scsi
+1003  160   20   2606 370  570  980        irq      self
+1005  162   21   2607 376  64   986        kallsyms      slabinfo
+1012  163   22   2612 38   65   989        kcore      softirqs
+11    164   23   262 389  66   99        keys      stat
+12    1644  2347  2681 39   67   999        key-users     swaps
+1237  1647  2354  2686 394  68   acpi        kmsg      sys
+13    165   2355  27 399  69   buddyinfo    kpagecgroup   sysrq-trigger
+137   166   2365  2728 40   7   bus        kpagecount    sysvipc
+138   1660  2371  28 406  70   cgroups      kpageflags    thread-self
+139   1661  2446  288 407  71   cmdline      loadavg      timer_list
+140   167   2448  29 408  72   consoles     locks      timer_stats
+141   169   2452  3<H
+INPUT|usc430aj-intro-319|U |000000000|usc430aj|intro:cd cmdline|bash: cd: cmdline: Not a directory
+INPUT|usc430aj-intro-320|U |1548360260|usc430aj|intro:cat cmdline|%BOOT_IMAGE=/boot/vmlinuz-4.4.0-83-generic root=UUID=0c0dc660-c4c9-4dc5-b6f3-2907a6a681b3 ro net.ifnames=0 biosdevname=0 console=tty0 console=ttyS0%%115200n8%
+INPUT|usc430aj-intro-321|U |1548360270|usc430aj|intro:cat devices|Character devices:
+  1 mem
+  4 /dev/vc/0
+  4 tty
+  4 ttyS
+  5 /dev/tty
+  5 /dev/console
+  5 /dev/ptmx
+  5 ttyprintk
+  7 vcs
+ 10 misc
+ 13 input
+ 21 sg
+ 29 fb
+ 89 i2c
+ 99 ppdev
+108 ppp
+128 ptm
+136 pts
+180 usb
+189 usb_device
+226 drm
+247 kfd
+248 aux
+249 bsg
+250 watchdog
+251 rtc
+252 dimmctl
+253 ndctl
+254 tpm
+
+Block devices:
+  2 fd
+259 blkext
+  7 loop
+  8 sd
+  9 md
+ 11 sr
+ 65 sd
+ 66 sd
+ 67 sd
+ 68 sd
+ 69 sd
+ 70 sd
+ 71 sd
+128 sd
+129 sd
+130 sd
+131 sd
+132 sd
+133 sd
+134 sd
+135 sd
+252 device-mapper
+253 virtblk
+254 mdp
+INPUT|usc430aj-intro-322|U |1548360283|usc430aj|intro:clear|
+INPUT|usc430aj-intro-323|U |000000000|usc430aj|intro:exit|exit
+There are stopped jobs.
+INPUT|usc430aj-intro-324|U |000000000|usc430aj|intro:exit|exit
+INPUT|usc430aj-intro-325|A3 A4 A0 A2 A1 |1547973875|usc430aj|intro:find -name *into*.jpeg|
+INPUT|usc430aj-intro-326|A1 A2 A0 A4 A3 |1547973880|usc430aj|intro:find -name *into*.jpg|
+INPUT|usc430aj-intro-327|A1 A0 A2 A4 A3 |000000000|usc430aj|intro:find /|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430aj-intro-328|A1 A0 A2 A4 A3 |1547973885|usc430aj|intro:find / -name *into*.jpg | head -n 5|find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denie
+INPUT|usc430aj-intro-329|U |1547973922|usc430aj|intro:clear|
+INPUT|usc430aj-intro-330|A2 A0 A1 A3 A4 |1547973938|usc430aj|intro:find -anme .jpeg|find: unknown predicate `-anme'
+INPUT|usc430aj-intro-331|A1 A0 A2 A4 A3 |000000000|usc430aj|intro:find -name '*.jpeg'|
+INPUT|usc430aj-intro-332|A1 A2 A0 A4 A3 |1547974025|usc430aj|intro:find . -name \"*.jpeg\" | head -n 5|
+INPUT|usc430aj-intro-333|A4 A3 A1 A2 A0 |000000000|usc430aj|intro:find . /|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430aj-intro-334|M4 |1547974118|usc430aj|intro:find cd /.hidden|find: 'cd': No such file or directory
+/.hidden
+/.hidden/asdf136Intro-5kqlw.jpeg
+INPUT|usc430aj-intro-335|U |000000000|usc430aj|intro:cd /.|
+INPUT|usc430aj-intro-336|U |1547974135|usc430aj|intro:ls|asdf136Intro-5kqlw.jpeg
+INPUT|usc430aj-intro-337|U |000000000|usc430aj|intro:gedit asdf136Intro-5kqlw.jpeg|The program 'gedit' is currently not installed. To run 'gedit' please ask your administrator to install the package 'gedit'
+INPUT|usc430aj-intro-338|U |000000000|usc430aj|intro:feh asdf136Intro-5kqlw.jpeg|The program 'feh' is currently not installed. To run 'feh' please ask your administrator to install the package 'feh'
+INPUT|usc430aj-intro-339|A3 A4 A0 A2 A1 |000000000|usc430aj|intro:find / -name \"*intro*.jpeg|> ^C
+INPUT|usc430aj-intro-340|A1 A2 A0 A4 A3 |000000000|usc430aj|intro:find / -name \"*intro*.jpeg\"|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430aj-intro-341|U |000000000|usc430aj|intro:cd /home|
+INPUT|usc430aj-intro-342|U |1547974422|usc430aj|intro:ls|deter
+INPUT|usc430aj-intro-343|U |1547974427|usc430aj|intro:cat deter|cat: deter: Is a directory
+INPUT|usc430aj-intro-344|U |000000000|usc430aj|intro:cd deter|
+INPUT|usc430aj-intro-345|U |1547974431|usc430aj|intro:ls|
+INPUT|usc430aj-intro-346|U |000000000|usc430aj|intro:cd ..|
+INPUT|usc430aj-intro-347|U |1547974442|usc430aj|intro:mkdir top_secret|mkdir: cannot create directory 'top_secret': Permission denied
+INPUT|usc430aj-intro-348|U |000000000|usc430aj|intro:mv /.hidden/^C|
+INPUT|usc430aj-intro-349|U |1547974478|usc430aj|intro:/.hidden/asdf136Intro-5kqlw.jpeg|bash: /.hidden/asdf136Intro-5kqlw.jpeg: Permission denied
+INPUT|usc430aj-intro-350|U |000000000|usc430aj|intro:/.hidden/asdf136Intro-5kqlw.jpeg|
+INPUT|usc430aj-intro-351|U |000000000|usc430aj|intro:/.hidden/asdf136Intro-5kqlw.jpeg|
+INPUT|usc430aj-intro-352|U |1547974519|usc430aj|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg ./top_secret|mv: cannot move '/.hidden/asdf136Intro-5kqlw.jpeg' to './top_secret': Permission denied
+INPUT|usc430aj-intro-353|U |000000000|usc430aj|intro:cd top_secret|bash: cd: top_secret: No such file or directory
+INPUT|usc430aj-intro-354|U |1547974542|usc430aj|intro:ls|deter
+INPUT|usc430aj-intro-355|A3 A4 A2 A0 A1 |000000000|usc430aj|intro:sudo|
+INPUT|usc430aj-intro-356|U |1547974557|usc430aj|intro:ls|deter  top_secret
+INPUT|usc430aj-intro-357|U |1547974562|usc430aj|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg ./top_secret|mv: cannot move '/.hidden/asdf136Intro-5kqlw.jpeg' to './top_secret/asdf136Intro-5kqlw.jpeg': Permission denied
+INPUT|usc430aj-intro-358|A3 A4 A2 A0 A1 |000000000|usc430aj|intro:sudo|
+INPUT|usc430aj-intro-359|U |1547974573|usc430aj|intro:ls|deter  top_secret
+INPUT|usc430aj-intro-360|U |000000000|usc430aj|intro:cd top_secret/|
+INPUT|usc430aj-intro-361|U |1547974576|usc430aj|intro:ls|asdf136Intro-5kqlw.jpeg
+INPUT|usc430aj-intro-362|U |1547974596|usc430aj|intro:nano answers.txt|%(B===(B(B[ Error writing lock file ./.answers.txt.swp: Permission denied ]
+(B(B  GNU nano 2.5.3                          File: answers.txt                                                          ^G(B Get Help     (B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify(B^C(B Cur Pos(B^Y(B Prev Page
+(B^X(B Exit(B^R(B Read File    (B^\(B Replace(B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line   (B^V(B Next Page
+(BModified[ Warning: Modifying a file which is not locked%% check directory permission? ]
+(B1. /.hidden/asdf136Intro-
+M
+(BSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                          Y(B Yes
+(B N(B No  (BC(B Cancel
+(BFile Name to Write: answers.txt                             
+^G(B Get Help(BM-D(B DOS Format(BM-A(B Append(BM-B(B Backup File
+(B^C(B Cancel       (BM-M(B Mac Format(BM-P(B Prepend(B^T(B To Files   (B[ Error writing answers.txt: Permission denied ](B
+(
+INPUT|usc430aj-intro-363|U |1547974758|usc430aj|intro:ls|asdf136Intro-5kqlw.jpeg
+INPUT|usc430aj-intro-364|U |000000000|usc430aj|intro:echo /.hidden/asdf136Intro-5kqlw.jpeg >> answers.txt|bash: answers.txt: Permission denied
+INPUT|usc430aj-intro-365|A0 A2 A1 A3 A4 |000000000|usc430aj|intro:sudo|bash: answers.txt: Permission denied
+INPUT|usc430aj-intro-366|A4 A3 A1 A0 A2 |000000000|usc430aj|intro:sudo|bash: answers.txt: Permission denied
+INPUT|usc430aj-intro-367|U |000000000|usc430aj|intro:/.hidden/asdf136Intro-5kqlw.jpeg|
+INPUT|usc430aj-intro-368|U |1548035637|usc430aj|intro:ls|caesar.txt  cypher.cpp topo.txt
+INPUT|usc430aj-intro-369|U |000000000|usc430aj|intro:cd /home|
+INPUT|usc430aj-intro-370|U |1548035641|usc430aj|intro:ls|deter
+INPUT|usc430aj-intro-371|U |1548035645|usc430aj|intro:ls|deter
+INPUT|usc430aj-intro-372|A3 A4 A0 A2 A1 |1548035677|usc430aj|intro:find top_secret|find: 'top_secret': No such file or directory
+INPUT|usc430aj-intro-373|A1 A0 A2 A4 A3 |000000000|usc430aj|intro:find -name \"top_secret|> ^C
+INPUT|usc430aj-intro-374|A3 A4 A2 A0 A1 |000000000|usc430aj|intro:find -name \"top_secret\"|
+INPUT|usc430aj-intro-375|U |1548035699|usc430aj|intro:clear|
+INPUT|usc430aj-intro-376|U |1548035699|usc430aj|intro:ls|deter
+INPUT|usc430aj-intro-377|U |000000000|usc430aj|intro:cd ..|
+INPUT|usc430aj-intro-378|U |1548035701|usc430aj|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430aj-intro-379|U |000000000|usc430aj|intro:cd tmp|
+INPUT|usc430aj-intro-380|U |1548035709|usc430aj|intro:ls|
+INPUT|usc430aj-intro-381|U |000000000|usc430aj|intro:cd /home|
+INPUT|usc430aj-intro-382|U |000000000|usc430aj|intro:cd ~|
+INPUT|usc430aj-intro-383|U |1548035772|usc430aj|intro:ls|caesar.txt  cypher.cpp topo.txt
+INPUT|usc430aj-intro-384|U |1548035781|usc430aj|intro:mkdir top_secret|
+INPUT|usc430aj-intro-385|U |1548035783|usc430aj|intro:ls|caesar.txt  cypher.cpp topo.txt  top_secret
+INPUT|usc430aj-intro-386|U |000000000|usc430aj|intro:exit|exit
+INPUT|usc430aj-intro-387|U |000000000|usc430aj|intro:cd top_secret/|
+INPUT|usc430aj-intro-388|U |1548035800|usc430aj|intro:ls|
+INPUT|usc430aj-intro-389|U |1548035813|usc430aj|intro:nano answers.txt|(B===(B(B[ New File ]
+(B(B  GNU nano 2.5.3                          File: answers.txt                                                          ^G(B Get Help     (B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify(B^C(B Cur Pos(B^Y(B Prev Page
+(B^X(B Exit(B^R(B Read File    (B^\(B Replace(B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line   (B^V(B Next Page
+(BModified
+(B/.hidden/ /.hidden/asdf136Intro-5kqlw.jpeg
+(BSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                          Y(B Yes
+(B N(B No  (BC(B Cancel
+(BFile Name to Write: answers.txt                             
+^G(B Get Help(BM-D(B DOS Format(BM-A(B Append(BM-B(B Backup File
+(B^C(B Cancel       (BM-M(B Mac Format(BM-P(B Prepend(B^T(B To Files(B (B[ Wrote 1 line ](B
+(B        (B
+INPUT|usc430aj-intro-390|U |1548035843|usc430aj|intro:ls|answers.txt
+INPUT|usc430aj-intro-391|A2 A0 A1 A3 A4 |000000000|usc430aj|intro:find / -name \"\*[iI][nN][tT][rR][oO]*.jpeg\"|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430aj-intro-392|A3 A4 A2 A0 A1 |000000000|usc430aj|intro:find / -name \"*[iI][nN][tT][rR][oO]*.jpeg\" >> finding.txt|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430aj-intro-393|U |1548036235|usc430aj|intro:clear|
+INPUT|usc430aj-intro-394|U |1548036235|usc430aj|intro:ls|answers.txt  finding.txt
+INPUT|usc430aj-intro-395|A4 A3 A1 A2 A0 |1548036244|usc430aj|intro:nano finding.txt|(B===(B(B[ Reading File ]
+(B (B[ Read 1 lin
+(B(B  GNU nano 2.5.3                          File: finding.txt                                                          (B/.hidden/asdf136Intro-5kqlw.jpeg
+(B^G(B Get Help     (B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify(B^C(B Cur Pos(B^Y(B Prev Page
+(B^X(B Exit(B^R(B Read File    (B^\(B Replace(B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line   (B^V(B Next Page
+
+INPUT|usc430aj-intro-396|U |1548036263|usc430aj|intro:clear|
+INPUT|usc430aj-intro-397|U |1548036263|usc430aj|intro:ls|answers.txt  finding.txt
+INPUT|usc430aj-intro-398|U |1548036266|usc430aj|intro:cat answers.txt|/.hidden/asdf136Intro-5kqlw.jpeg
+INPUT|usc430aj-intro-399|A0 A2 A1 A3 A4 |1548036270|usc430aj|intro:cat finding.txt|/.hidden/asdf136Intro-5kqlw.jpeg
+INPUT|usc430aj-intro-400|A3 A4 A0 A2 A1 |000000000|usc430aj|intro:find . -name \"\*[fF]*\"|./finding.txt
+INPUT|usc430aj-intro-401|U |000000000|usc430aj|intro:mk Finding|mk: command not found
+INPUT|usc430aj-intro-402|U |000000000|usc430aj|intro:make|make: *** No rule to make target 'Finding'.  Stop.
+INPUT|usc430aj-intro-403|U |1548036358|usc430aj|intro:touch Finding|
+INPUT|usc430aj-intro-404|U |1548036359|usc430aj|intro:ls|answers.txt  Finding  finding.txt
+INPUT|usc430aj-intro-405|A0 A2 A1 A3 A4 |000000000|usc430aj|intro:find . -name \"*[fF]*\"|./finding.txt
+./Finding
+INPUT|usc430aj-intro-406|A3 A4 A0 A2 A1 |000000000|usc430aj|intro:ffifind . -name "*[fF][oO]|
+INPUT|usc430aj-intro-407|A1 A0 A2 A4 A3 |000000000|usc430aj|intro:find . -name \"*[fF][oi|./finding.txt
+./Finding
+INPUT|usc430aj-intro-408|A1 A2 A0 A4 A3 |000000000|usc430aj|intro:find . -name \"*[fF][iOI|./finding.txt
+./Finding
+INPUT|usc430aj-intro-409|A0 A2 A1 A3 A4 |000000000|usc430aj|intro:find . -name \"*[fF][i|
+INPUT|usc430aj-intro-410|A1 A2 A0 A4 A3 |000000000|usc430aj|intro:find . -/ -name \"*intro*.jpeg\" -iname -type f|find: paths must precede expression: f
+Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec|time] [path...] [expression]
+INPUT|usc430aj-intro-411|A2 A0 A1 A3 A4 |000000000|usc430aj|intro:fifind / -type f -iname \"*intro*.jpeg\"|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430aj-intro-412|A4 A3 A1 A0 A2 |000000000|usc430aj|intro:echo find / -type f -iname \"*intro*.jpeg\" > finding.txt|
+INPUT|usc430aj-intro-413|U |1548036572|usc430aj|intro:clear|
+INPUT|usc430aj-intro-414|U |1548036574|usc430aj|intro:ls|answers.txt  Finding  finding.txt
+INPUT|usc430aj-intro-415|U |1548036577|usc430aj|intro:rm Finding|
+INPUT|usc430aj-intro-416|A3 A4 A2 A0 A1 |1548036581|usc430aj|intro:cat finding.txt|find / -type f -iname *intro*.jpeg
+INPUT|usc430aj-intro-417|U |000000000|usc430aj|intro:clera|%No command 'clera' found%% did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+clera: command not found%
+INPUT|usc430aj-intro-418|U |1548036631|usc430aj|intro:clear|
+INPUT|usc430aj-intro-419|A4 A3 A1 A2 A0 |1548036633|usc430aj|intro:cat finding.txt|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430aj-intro-420|A4 A3 A1 A2 A0 |1548036651|usc430aj|intro:cp finding.txt answers.txt|
+INPUT|usc430aj-intro-421|U |1548036657|usc430aj|intro:cat answers.txt|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430aj-intro-422|A3 A4 A2 A0 A1 |000000000|usc430aj|intro:find / -type f -iname "*intro*.jpeg|
+INPUT|usc430aj-intro-423|U |1548036705|usc430aj|intro:clear|
+INPUT|usc430aj-intro-424|U |1548036714|usc430aj|intro:touch FINDING.TXT|
+INPUT|usc430aj-intro-425|A3 A4 A0 A2 A1 |000000000|usc430aj|intro:find . -iname \"*finding*.txt\"|./finding.txt
+./FINDING.TXT
+INPUT|usc430aj-intro-426|A3 A4 A2 A0 A1 |000000000|usc430aj|intro:find / -iname \"*intro*.jpeg\" > finding.txt|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430aj-intro-427|U |000000000|usc430aj|intro:clera|%No command 'clera' found%% did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+clera: command not found%
+INPUT|usc430aj-intro-428|U |1548036779|usc430aj|intro:clear|
+INPUT|usc430aj-intro-429|A3 A4 A2 A0 A1 |1548036780|usc430aj|intro:cat finding.txt|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430aj-intro-430|U |1548037001|usc430aj|intro:updatedb|
+INPUT|usc430aj-intro-431|A0 A2 A1 A3 A4 |1548037047|usc430aj|intro:locate *intro*|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+INPUT|usc430aj-intro-432|M4 |1548037096|usc430aj|intro:locate *[iI][nN][tT][rR][oO]*.[jJ][pP][eE][gG]|/.hidden/asdf136Intro-5kqlw.jpeg
+INPUT|usc430aj-intro-433|M4 |1548037113|usc430aj|intro:locate *[iI][nN][tT][rR][oO]*.[jJ][pP][eE][gG]*|/.hidden/asdf136Intro-5kqlw.jpeg
+INPUT|usc430aj-intro-434|M4 |000000000|usc430aj|intro:locate *[iI][nN][tT][rR][oO]*\|/.hidden/asdf136Intro-5kqlw.jpeg
+INPUT|usc430aj-intro-435|A3 A4 A0 A2 A1 |1548037138|usc430aj|intro:locate *[iI][nN][tT][rR][oO]*.[jJ][pP][eE][gG]*|
+INPUT|usc430aj-intro-436|U |1548037305|usc430aj|intro:clear|
+INPUT|usc430aj-intro-437|U |1548037306|usc430aj|intro:ls|answers.txt  finding.txt  FINDING.TXT
+INPUT|usc430aj-intro-438|U |1548037314|usc430aj|intro:cat gin|cat: gin: No such file or directory
+INPUT|usc430aj-intro-439|A1 A2 A0 A4 A3 |1548037316|usc430aj|intro:cat finding.txt|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430aj-intro-440|U |1548037340|usc430aj|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg .|mv: cannot remove '/.hidden/asdf136Intro-5kqlw.jpeg': Permission denied
+INPUT|usc430aj-intro-441|A0 A2 A1 A3 A4 |000000000|usc430aj|intro:sudo|
+INPUT|usc430aj-intro-442|U |1548037349|usc430aj|intro:ls|answers.txt  asdf136Intro-5kqlw.jpeg  finding.txt  FINDING.TXT
+INPUT|usc430aj-intro-443|U |1548037351|usc430aj|intro:head asdf136Intro-5kqlw.jpeg|%<C3><BF><C3><98><C3><BF><C3><A0>JFIFdd<C3><BF><C3><NOT>Ducky
+<C3><BF><C3><REG>Adobed<C3><EURO><C3><BF><C3><9b>
+
+
+
+
+
+
+
+<US><US>
+
+
+#%%'%%#
+//33//@@@@@@@@@@@@@@@&
+&0#
+
+
+
+#0+.'''.+550055@@?@@@@@@@@@@@@<C3><BF>%%"<C3><BF><C3><84>
+!1AQa"q2B#<C3><81><C3><91>Rbr3sT<C2><B2><C3><92>C$4<C3><DEG>SU<C3><PLSMN>c<C3><93>5<C3><A1><C3><82>D!1AQaq"2BR#<C3><81><C3><91><C3><DEG><C3><A1><C3><PLSMN>r<C3><BF><C3><9A>
+?<C3><ACUTE>
+<C3><BD>WG<C3><ORDM>LT_m<C3><8B><C2><B3>uK;'<C3><B3><C3><PLSMN><C3><POUND>Pf\%%<C3><PLSMN><C3><CURR><C3><AB><C3><PARA>p:<C3><8F>H<3`<C3><BD><C3><BE>S<C3><BULL><C2><ORDM>Zf<C3><8B>)<C2><MICRO>lwp<C3><SECT><C3><8E><C2><BC><C3><86>(
+<C3><9F>m<C3><B2>Xj<C3><UMLT><C3><82>Wu<C3><82>n<C3><94>\K<C3><CEDIL>m<C3><9D>X@<C3><ACUTE><C3><98><C3><8F>HK
+)<C3><BC><C3><8A>k<C3><CEDIL><C3><87>I<C3><BD><C3><PARA><C3><9A>/<C3><A1><C2><ORDF><C3><82>\W<C3><82><C3><88>"<C3><88>
+d*-6<C2><A0>H<C3><8D><C3><AB>k<C3><83><C3><COPY>f<C3><82>
+INPUT|usc430aj-intro-444|U |000000000|usc430aj|intro:PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuT|TYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY^C
+INPUT|usc430aj-intro-445|U |1548037367|usc430aj|intro:clear|
+INPUT|usc430aj-intro-446|U |1548037367|usc430aj|intro:ls|answers.txt  asdf136Intro-5kqlw.jpeg  finding.txt  FINDING.TXT
+INPUT|usc430aj-intro-447|A3 A4 A0 A2 A1 |1548037371|usc430aj|intro:cat finding.txt|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430aj-intro-448|U |1548037389|usc430aj|intro:mv /dev/136intro-2jjaj.JPEG .|
+INPUT|usc430aj-intro-449|U |000000000|usc430aj|intro:clera|%No command 'clera' found%% did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+clera: command not found%
+INPUT|usc430aj-intro-450|U |1548037391|usc430aj|intro:clear|
+INPUT|usc430aj-intro-451|U |1548037392|usc430aj|intro:ls|136intro-2jjaj.JPEG  answers.txt  asdf136Intro-5kqlw.jpeg  finding.txt FINDING.TXT
+INPUT|usc430aj-intro-452|U |1548037408|usc430aj|intro:rm FINDING.TXT|
+INPUT|usc430aj-intro-453|U |1548037413|usc430aj|intro:touch fIn|
+INPUT|usc430aj-intro-454|A4 A3 A1 A0 A2 |1548037425|usc430aj|intro:locate [fF][iI]|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+INPUT|usc430aj-intro-455|A4 A3 A1 A0 A2 |000000000|usc430aj|intro:locate .|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+INPUT|usc430aj-intro-456|A3 A4 A0 A2 A1 |000000000|usc430aj|intro:sudo|!TRUNCATED TO 500L! /.hidden
+/initrd.img
+/initrd.img.old
+/vmlinuz.old
+/.hidden/asdf136Intro-5kqlw.jpeg
+/bin/fsck.btrfs
+/bin/mkfs.btrfs
+/bin/nc.openbsd
+/bin/ntfs-3g.probe
+/bin/ntfs-3g.secaudit
+/bin/ntfs-3g.usermap
+/bin/sh.distrib
+/boot/System.map-4.4.0-79-generic
+/boot/System.map-4.4.0-83-generic
+/boot/abi-4.4.0-79-generic
+/boot/abi-4.4.0-83-generic
+/boot/config-4.4.0-79-generic
+/boot/config-4.4.0-83-generic
+/boot/initrd.img-4.4.0-79-generic
+/boot/initrd.img-4.4.0-83-generic
+/boot/vmlinuz-4.4.0-79-generic
+/boot/vmlinuz-4.4.0-83-generic
+/boot/grub/gfxblacklist.txt
+/boot/grub/grub.cfg
+/boot/grub/grub.cfg.preemulab
+/boot/grub/menu.lst
+/boot/grub/menu.lst~
+/boot/grub/unicode.pf2
+/boot/grub/fonts/unicode.pf2
+/boot/grub/i386-pc/915resolution.mod
+/boot/grub/i386-pc/acpi.mod
+/boot/grub/i386-pc/adler32.mod
+/boot/grub/i386-pc/affs.mod
+/boot/grub/i386-pc/afs.mod
+/boot/grub/i386-pc/ahci.mod
+/boo
+INPUT|usc430aj-intro-457|U |1548037452|usc430aj|intro:clear|
+INPUT|usc430aj-intro-458|A3 A4 A0 A2 A1 |1548037478|usc430aj|intro:find . [fF][iI]|.
+./finding.txt
+./answers.txt
+./fIn
+./asdf136Intro-5kqlw.jpeg
+./136intro-2jjaj.JPEG
+find: '[fF][iI]': No such file or directory
+INPUT|usc430aj-intro-459|A3 A4 A2 A0 A1 |000000000|usc430aj|intro:find . -name|
+INPUT|usc430aj-intro-460|A3 A4 A0 A2 A1 |000000000|usc430aj|intro:find . -name "[fF][iI]*]|> <BEL>^C
+INPUT|usc430aj-intro-461|A3 A4 A0 A2 A1 |000000000|usc430aj|intro:find . -name \"[fF][iI]*\"|./finding.txt
+./fIn
+INPUT|usc430aj-intro-462|M2 |000000000|usc430aj|intro:find . / --type f -name \"*[iI][nN][tT][rR][oO]|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+/var/log/ttylog/ttylog.intro.2
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+find: '/var/log/unattended-upgrades': Permission denied
+/var/log/136intro-3.jpg
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find
+INPUT|usc430aj-intro-463|A2 A0 A1 A3 A4 |000000000|usc430aj|intro:find / -type f -name \"*[iI][nN][tT][rR][oO]*\" > finding.txt|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430aj-intro-464|U |1548037556|usc430aj|intro:clear|
+INPUT|usc430aj-intro-465|A2 A0 A1 A3 A4 |1548037561|usc430aj|intro:cat finding.txt|/var/log/ttylog/ttylog.intro.2
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+/var/log/136intro-3.jpg
+/users/usc430aj/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430aj/top_secret/136intro-2jjaj.JPEG
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/proj/share/exp/createimage/logs/cli.intro.csv.1535412403
+/proj/share/exp/createimage/logs/ttylog.intro.0
+/proj/share/exp/createimage/logs/alltty.intro
+/proj/share/exp/createimage/logs/cli.intro.csv
+/proj/share/exp/createimage/count.intro
+/proj/USC430/logs/runlog-mjoseph-Homework1.intro.xUiMEB
+/proj/USC430/logs/edumodel.snoopy.intro.1521748498
+/proj/USC430/logs/edumodel.snoopy.intro.1521760450
+/proj/USC430/logs/edumodel.snoopy.intro.1521761327
+/proj/USC430/logs/edumodel.snoopy.intro.1521762323
+/proj/USC430/logs/tedu.snoopy.intro.1521766507
+/proj/USC430/logs/tedu.snoopy.intro.1521769869
+/proj/USC430/logs/tedu.s
+INPUT|usc430aj-intro-466|U |1548037590|usc430aj|intro:clear|
+INPUT|usc430aj-intro-467|A1 A2 A0 A4 A3 |000000000|usc430aj|intro:find / -type f -name "*[iI][nN][tT][rR][oO]*.[jJ][pP][gG]|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430aj-intro-468|U |1548037631|usc430aj|intro:clear|
+INPUT|usc430aj-intro-469|A4 A3 A1 A0 A2 |1548037633|usc430aj|intro:cat finding.txt|/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430aj-intro-470|A4 A3 A1 A0 A2 |000000000|usc430aj|intro:find / -type f -name "*[iI][nN][tT][rR][oO]*.[jJ][pP][eE]|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430aj-intro-471|U |1548037663|usc430aj|intro:clear|
+INPUT|usc430aj-intro-472|A3 A4 A2 A0 A1 |1548037664|usc430aj|intro:cat finding.txt|/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/users/usc430aj/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430aj/top_secret/136intro-2jjaj.JPEG
+INPUT|usc430aj-intro-473|U |1548037693|usc430aj|intro:cat answers.txt|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430aj-intro-474|U |1548038003|usc430aj|intro:clear|
+INPUT|usc430aj-intro-475|U |1548038018|usc430aj|intro:nano answers.txt|(B===(B(B[ Reading File ]
+(B(B 2 lines
+(B(B  GNU nano 2.5.3                          File: answers.txt                                                          (B/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+(B^G(B Get Help     (B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify(B^C(B Cur Pos(B^Y(B Prev Page
+(B^X(B Exit(B^R(B Read File    (B^\(B Replace(B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line   (B^V(B Next Page
+M(BModified
+(B/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/dev/136intro-2jjaj.JPEG
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/dev/136intro-2jjaj.JPEG
+
+(BSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                          Y(B Yes
+(B N(B No  (BC(B Cancel
+(BFile Name to Write: answers.txt                             
+^G(B Get Help(BM-D(
+INPUT|usc430aj-intro-476|U |1548038066|usc430aj|intro:clear|
+INPUT|usc430aj-intro-477|U |1548038066|usc430aj|intro:ls|136intro-2jjaj.JPEG  answers.txt  asdf136Intro-5kqlw.jpeg  fIn finding.txt
+INPUT|usc430aj-intro-478|U |1548038072|usc430aj|intro:rm fIn|
+INPUT|usc430aj-intro-479|A1 A0 A2 A4 A3 |1548038075|usc430aj|intro:rm finding.txt|
+INPUT|usc430aj-intro-480|U |1548038076|usc430aj|intro:clear|
+INPUT|usc430aj-intro-481|U |1548038076|usc430aj|intro:ls|136intro-2jjaj.JPEG  answers.txt  asdf136Intro-5kqlw.jpeg
+INPUT|usc430aj-intro-482|U |1548038094|usc430aj|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg .|mv: cannot remove '/usr/share/pixmaps/xbzf136INTRO-1.jpg': Permission denied
+INPUT|usc430aj-intro-483|A3 A4 A2 A0 A1 |000000000|usc430aj|intro:sudo|
+INPUT|usc430aj-intro-484|U |1548038146|usc430aj|intro:mv /var/log/136intro-3.jpg .|
+INPUT|usc430aj-intro-485|U |000000000|usc430aj|intro:mv /etc/wuer136intro-4.JPG|
+INPUT|usc430aj-intro-486|U |1548038158|usc430aj|intro:clear|
+INPUT|usc430aj-intro-487|U |1548038159|usc430aj|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430aj-intro-488|U |1548038296|usc430aj|intro:scp ./xbzf136INTRO-1.jpg usc430aj@users.deterlab.net:~/|
+INPUT|usc430aj-intro-489|U |000000000|usc430aj|intro:scp ~/top_secret|
+INPUT|usc430aj-intro-490|U |1548038398|usc430aj|intro:clear|
+INPUT|usc430aj-intro-491|U |1548038399|usc430aj|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430aj-intro-492|U |000000000|usc430aj|intro:exit|exit
+There are stopped jobs.
+INPUT|usc430aj-intro-493|U |000000000|usc430aj|intro:;s|bash: syntax error near unexpected token `;'
+INPUT|usc430aj-intro-494|U |1548038432|usc430aj|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430aj-intro-495|U |000000000|usc430aj|intro:cd ..|
+INPUT|usc430aj-intro-496|U |1548038438|usc430aj|intro:ls|caesar.txt  cypher.cpp topo.txt  top_secret
+INPUT|usc430aj-intro-497|U |000000000|usc430aj|intro:cd ..|
+INPUT|usc430aj-intro-498|U |000000000|usc430aj|intro:exit|exit
+There are stopped jobs.
+INPUT|usc430aj-intro-499|U |1548038452|usc430aj|intro:clear|
+INPUT|usc430aj-intro-500|U |1548038452|usc430aj|intro:ls|aashraya  ekline    jaipuria  jross scuric  shareaf  shareal  sharear  shareax  sharebd  sunshine
+abhi   faber     jboman    kls2 shareaa  shareag  shaream  shareas  shareay  shareta  usc430aj
+alefiya   gbartlet  jelena    melkins shareab  shareah  sharean  shareat  shareaz  sharetb
+alwabel   gerow     jgli      piobair shareac  shareai  shareao  shareau  shareba  sharetc
+bks   gknopf    jhickey   rgoodfel sharead  shareaj  shareap  shareav  sharebb  sharetd
+bloznali  glawler   jjh       schwab shareae  shareak  shareaq  shareaw  sharebc  sklower
+INPUT|usc430aj-intro-501|U |000000000|usc430aj|intro:exit|exit
+There are stopped jobs.
+INPUT|usc430aj-intro-502|U |000000000|usc430aj|intro:close|%No command 'close' found%% did you mean:
+ Command 'gclose' from package 'gnustep-gui-runtime' (universe)
+close: command not found%
+INPUT|usc430aj-intro-503|U |1548038463|usc430aj|intro:clear|
+INPUT|usc430aj-intro-504|U |000000000|usc430aj|intro:cd ~|
+INPUT|usc430aj-intro-505|U |000000000|usc430aj|intro:exit|exit
+There are stopped jobs.
+INPUT|usc430aj-intro-506|U |1548038471|usc430aj|intro:ls|caesar.txt  cypher.cpp topo.txt  top_secret
+INPUT|usc430aj-intro-507|U |1548038487|usc430aj|intro:ssh usc430aj@users.deterlab.net|^Z
+[2]+  Stopped                 ssh usc430aj@users.deterlab.net
+INPUT|usc430aj-intro-508|U |1548038502|usc430aj|intro:clear|

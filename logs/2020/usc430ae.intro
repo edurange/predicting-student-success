@@ -1,0 +1,339 @@
+User usc430ae start time 1580604905 end 1580961029
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ae-intro-0|U |000000000|usc430ae|:|
+INPUT|usc430ae-intro-1|U |000000000|usc430ae|:|
+INPUT|usc430ae-intro-2|U |1580604905|usc430ae|intro:ls|test_file.txt  thomas.png  usc430ae.txt
+
+INPUT|usc430ae-intro-3|A2 A3 A0 A1 A4 |1580605075|usc430ae|intro:find . -name "intro"|
+INPUT|usc430ae-intro-4|A0 A2 A3 A4 A1 |1580605083|usc430ae|intro:find . -name "intro" | head -n 5|
+INPUT|usc430ae-intro-5|A0 A2 A3 A1 A4 |1580605090|usc430ae|intro:find . -name "*.png" | head-n 5|head-n: command not found
+
+INPUT|usc430ae-intro-6|A0 A2 A3 A4 A1 |1580605095|usc430ae|intro:find . -name "*.png" | head -n 5|./thomas.png
+
+INPUT|usc430ae-intro-7|U |1580605320|usc430ae|intro:ls /|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ae-intro-8|U |1580605324|usc430ae|intro:cd root|bash: cd: root: No such file or directory
+
+INPUT|usc430ae-intro-9|U |1580605327|usc430ae|intro:ls /|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ae-intro-10|A2 A3 A0 A4 A1 |1580605340|usc430ae|intro:find root -name "*.jpg"|find: 'root': No such file or directory
+
+INPUT|usc430ae-intro-11|M2 M0 |1580605366|usc430ae|intro:find / -name "*.jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: '/tmp/systemd-private-08c710c8d4d341d083d2afa6e43e1611-systemd-resolved.service-cptgYH': Permission denied
+find: '/tmp/systemd-private-08c710c8d4d341d083d2afa6e43e1611-systemd-timesyncd.service-ib2OTP': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/50': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430ae-intro-12|A4 A1 A2 A3 A0 |1580605426|usc430ae|intro:find / -name "intro*.jpg"|find: '/tmp/systemd-private-08c710c8d4d341d083d2afa6e43e1611-systemd-resolved.service-cptgYH': Permission denied
+find: '/tmp/systemd-private-08c710c8d4d341d083d2afa6e43e1611-systemd-timesyncd.service-ib2OTP': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/50': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430ae-intro-13|M2 M0 |1580605442|usc430ae|intro:find / -name "*.jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ae-intro-14|A2 A3 A0 A4 A1 |1580605490|usc430ae|intro:find / -name "intro"|
+INPUT|usc430ae-intro-15|M0 |1580605503|usc430ae|intro:find / -name "*INTRO*"|/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+INPUT|usc430ae-intro-16|M3 M2 M1 |1580605524|usc430ae|intro:find / -name "*intro*"|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ae.hw1-usc430ae.intro.log
+/var/log/ttylog/usc430ae.hw1-usc430ae.intro.csv
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/dev/136intro-2jjaj.JPEG
+/pro
+INPUT|usc430ae-intro-17|M2 M0 |1580605575|usc430ae|intro:find / -name "*.jpg"  |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ae-intro-18|A4 A1 A3 A2 A0 |1580605597|usc430ae|intro:find / -name "*intro-5*"|
+INPUT|usc430ae-intro-19|A0 A2 A3 A1 A4 |1580605609|usc430ae|intro:find / -name "*INTRO-5*"|
+INPUT|usc430ae-intro-20|M3 |1580605619|usc430ae|intro:find / -name "*.JPG"    |/etc/wuer136intro-4.JPG
+
+INPUT|usc430ae-intro-21|M1 |1580605629|usc430ae|intro:find / -name "*.JPEG"|/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430ae-intro-22|M4 |1580605637|usc430ae|intro:find / -name "*.jpeg"|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ae-intro-23|U |1580629150|usc430ae|intro:ls|test_file.txt  thomas.png  top_secret  usc430ae.txt
+TH;     rm $TMPPATH;  fiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AAAAAAAAAAAAAAAAAAAAAAAA
+TH;     rm $TMPPATH;  fiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AAAAAAAAAAAAAAAAAAAAAAAA
+
+INPUT|usc430ae-intro-24|U |1580629159|usc430ae|intro:ls /|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ae-intro-25|U |1580629168|usc430ae|intro:ls|bin  games  include  lib  local  sbin  share  src  testbed
+
+INPUT|usc430ae-intro-26|U |1580629177|usc430ae|intro:ls|aclocal		      GeoIP		     nano
+aclocal-1.15	      gettext		     nfs-common
+adduser		      gettext-0.19.8	     nmap
+alsa		      ghostscript	     ntp
+appdata		      git-core		     numpy3
+applications	      gitweb		     openssh
+apport		      glib-2.0		     open-vm-tools
+apps		      glvnd		     os-prober
+augeas		      gnupg		     package-data-downloads
+autoconf	      groff		     pam
+automake-1.15	      grub		     pam-configs
+awk		      grub-gfxpayload-lists  pastebin.d
+base-files	      hal		     perl
+base-passwd	      i18n		     perl5
+bash-completion       i40e-dkms		     pixmaps
+binfmts		      icons		     pkgconfig
+bug		      ieee-data		     plymouth
+build-essential       ImageMagick-6	     po-debconf
+byobu		      info		     polkit-1
+ca-certificates       initramfs-tools	     poppler
+calendar	      installation-report    popularity-contest
+cdbs		      intltool-debian	     publicsuffix
+cmake		      iptables		     pyshared
+color		      iso-codes		     python
+command-not-found     java		   
+INPUT|usc430ae-intro-27|U |1580629179|usc430ae|intro:cd pixmaps|
+INPUT|usc430ae-intro-28|U |1580629180|usc430ae|intro:ls|debian-logo.png        pstree16.xpm   python3.xpm  vim-48.xpm
+gvim.svg	       pstree32.xpm   python.xpm   xbzf136INTRO-1.jpg
+htop.png	       python2.7.xpm  vim-16.xpm
+language-selector.png  python3.6.xpm  vim-32.xpm
+
+INPUT|usc430ae-intro-29|U |1580629183|usc430ae|intro:cd|
+INPUT|usc430ae-intro-30|U |1580629187|usc430ae|intro:ls|test_file.txt  thomas.png  top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-31|U |1580629190|usc430ae|intro:cd top_secret/|
+INPUT|usc430ae-intro-32|U |1580629191|usc430ae|intro:ls|answers.txt
+
+INPUT|usc430ae-intro-33|U |1580629194|usc430ae|intro:cd|jpg430ae@intro:~$ mv /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/top_secret/intro-1. ;1580629212
+mv: cannot remove '/usr/share/pixmaps/xbzf136INTRO-1.jpg': Permission denied
+jpgA430ae@intro:~$ 
+A
+jpg430ae@intro:~$ mv /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/top_secret/intro-1.j
+mv: cannot remove '/usr/share/pixmaps/xbzf136INTRO-1.jpg': Permission denied
+ro-1.jpg@intro:~$ sudo mv /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/top_secret/intr
+
+INPUT|usc430ae-intro-34|U |1580629865|usc430ae|intro:ls|test_file.txt  thomas.png  top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-35|U |1580632833|usc430ae|intro:mv intro.hw1-usc430ae.USC430.isi.deterlab.net ~/|mv: cannot stat 'intro.hw1-usc430ae.USC430.isi.deterlab.net': No such file or directory
+
+INPUT|usc430ae-intro-36|U |1580632842|usc430ae|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/|mv: cannot stat '/usr/share/pixmaps/xbzf136INTRO-1.jpg': No such file or directory
+
+INPUT|usc430ae-intro-37|U |1580632848|usc430ae|intro:cd /usr/share/pixmaps|
+INPUT|usc430ae-intro-38|U |1580632849|usc430ae|intro:ls|debian-logo.png  language-selector.png	python2.7.xpm  python.xpm  vim-48.xpm
+gvim.svg	 pstree16.xpm		python3.6.xpm  vim-16.xpm
+htop.png	 pstree32.xpm		python3.xpm    vim-32.xpm
+
+INPUT|usc430ae-intro-39|U |1580632861|usc430ae|intro:cd ../|
+INPUT|usc430ae-intro-40|U |1580632863|usc430ae|intro:cd ../|
+INPUT|usc430ae-intro-41|U |1580632864|usc430ae|intro:ls|bin  games  include  lib  local  sbin  share  src  testbed
+
+INPUT|usc430ae-intro-42|U |1580632866|usc430ae|intro:cd|
+INPUT|usc430ae-intro-43|U |1580632867|usc430ae|intro:ls|test_file.txt  thomas.png  top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-44|U |1580632869|usc430ae|intro:ls|answers.txt  intro-1.jpg
+
+INPUT|usc430ae-intro-45|U |1580632883|usc430ae|intro:cd|
+INPUT|usc430ae-intro-46|U |1580632885|usc430ae|intro:mv /dev/136intro-2jjaj.JPEG ~/|mv: cannot remove '/dev/136intro-2jjaj.JPEG': Permission denied
+
+INPUT|usc430ae-intro-47|U |1580632895|usc430ae|intro:mv /dev/136intro-2jjaj.JPEG ~/|
+INPUT|usc430ae-intro-48|U |1580632897|usc430ae|intro:ls|136intro-2jjaj.JPEG  test_file.txt  thomas.png	top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-49|U |1580632919|usc430ae|intro:mv 136intro-2jjaj.JPEG ~/top_secret/intro-2.JPEG|
+INPUT|usc430ae-intro-50|U |1580632921|usc430ae|intro:ls|test_file.txt  thomas.png  top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-51|U |1580632937|usc430ae|intro:mv /var/log/136intro-3.jpg ~/top_secret/intro-3.jpg|
+INPUT|usc430ae-intro-52|U |1580632954|usc430ae|intro:mv /etc/wuer136intro-4.JPG ~/top_secret/intro-4.jpg|jpg430ae@intro:~$ sudo mv /.hidden/asdf136Intro-5kqlw.jpeg ~/top_secret/intro-5. ;1580632964
+
+INPUT|usc430ae-intro-53|U |1580632965|usc430ae|intro:ls|test_file.txt  thomas.png  top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-54|U |1580632967|usc430ae|intro:cd top_secret/|
+INPUT|usc430ae-intro-55|U |1580632968|usc430ae|intro:ls|answers.txt  intro-1.jpg  intro-2.JPEG	intro-3.jpg  intro-4.jpg  intro-5.jpg
+
+INPUT|usc430ae-intro-56|U |1580632973|usc430ae|intro:cd|
+INPUT|usc430ae-intro-57|U |1580633052|usc430ae|intro:mv intro-2.JPEG ~/intro-2.jpg|mv: cannot stat 'intro-2.JPEG': No such file or directory
+
+INPUT|usc430ae-intro-58|U |1580633069|usc430ae|intro:ls|intro-2.jpg  test_file.txt  thomas.png	top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-59|U |1580633091|usc430ae|intro:ls|intro-2.jpg  test_file.txt  thomas.png	top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-60|U |1580633763|usc430ae|intro:ls|intro-2.jpg  test_file.txt  thomas.png	top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-61|U |1580633870|usc430ae|intro:ls|intro-2.jpg  test_file.txt  thomas.png	top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-62|U |1580633871|usc430ae|intro:cd|
+INPUT|usc430ae-intro-63|U |1580634187|usc430ae|intro:ls|intro-2.jpg  test_file.txt  thomas.png	top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-64|U |1580634193|usc430ae|intro:ls|answers.txt  intro-1.jpg  intro-3.jpg  intro-4.jpg  intro-5.jpg
+
+INPUT|usc430ae-intro-65|U |1580634219|usc430ae|intro:open answers.txt|Couldn't get a file descriptor referring to the console
+
+INPUT|usc430ae-intro-66|U |1580634241|usc430ae|intro:xdg-open answers.txt|;1580634242
+Command 'xdg-open' not found but can be installed with:
+
+apt install xdg-utils
+Please ask your administrator.
+
+
+INPUT|usc430ae-intro-67|U |1580634289|usc430ae|intro:vim answers.txt|:!...!  #  &  *  <  =  >  @  DiffOrig  DoMatchParen  Explore  GLVS  >                ...< xmap  xmapclear  xmenu  xnoremap  xnoremenu  xunmap  xunmenu  yank  z  ~ 
+:! # & * < = > @ DiffOrig DoMatchParen Explore GLVS GetLatestVimScripts GetScri   13210CAll...
+pts Hexplore LP LPE LPF LPR Lexplore LogiPat LogiPatFlags MkVimball NetUserPass
+NetrwClean NetrwSettings Nexplore Next NoMatchParen Nread Nsource Ntree Nwrite P
+explore Print RmVimball Sexplore TOhtml Texplore UseVimball Vexplore VimballList
+Vimuntar X abbreviate abclear aboveleft all amenu anoremenu append argadd argde
+lete argdo argedit argglobal arglocal args argument ascii augroup aunmenu autocm
+dbNext badd ball bdelete behave belowright bfirst blast bmodified bnext botrigh
+tbprevious break breakadd breakdel breaklist brewind browse bufdo buffer buffer
+sbunload bwipeout cNext cNfile cabbrev cabclear caddbuffer caddexpr caddfile ca
+ll catch cbottom cbuffer cc cclose cd cdo center cexpr cfdo cfile cfirst cgetbuf
+fer cgetexpr cget
+INPUT|usc430ae-intro-68|U |1580861587|usc430ae|intro:ls|intro-2.jpg  test_file.txt  thomas.png	top_secret  usc430ae.txt
+
+INPUT|usc430ae-intro-69|U |1580861590|usc430ae|intro:ls|answers.txt  intro-1.jpg  intro-3.jpg  intro-4.jpg  intro-5.jpg
+
+INPUT|usc430ae-intro-70|U |1580861605|usc430ae|intro:scp usc430ae@users.deterlab.net:intro-1.jpg|usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+jpg430ae@intro:~/top_secret$ scp usc430ae@users.deterlab.net:top_secret/intro-1. ;1580861632
+usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+jpgA430ae@intro:~/top_secret$ scp usc430ae@users.deterlab.net:intro-1.jpg
+A
+
+INPUT|usc430ae-intro-71|U |1580861642|usc430ae|intro:scp usc430ae@users.deterlab.net:intro-1.jpg .|^C
+
+INPUT|usc430ae-intro-72|U |1580861792|usc430ae|intro:scp usc430ae@users.deterlab.net:intro-1.jpg|usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430ae-intro-73|U |1580861793|usc430ae|intro:;s|bash: syntax error near unexpected token `;'
+
+INPUT|usc430ae-intro-74|U |1580861795|usc430ae|intro:ls|answers.txt  intro-1.jpg  intro-3.jpg  intro-4.jpg  intro-5.jpg
+
+INPUT|usc430ae-intro-75|U |1580861799|usc430ae|intro:scp usc430ae@users.deterlab.net:intro-1.jpg |usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430ae-intro-76|U |1580861823|usc430ae|intro:scp usc430ae@users.deterlab.net:intro-1.jpg .| ;1580861826
+^C
+
+INPUT|usc430ae-intro-77|M6 |1580960155|usc430ae|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989776         48     989728   1%% /dev
+tmpfs                                                204108       5876     198232   3%% /run
+/dev/sda1                                          15681948    3253600   11628400  22%% /
+tmpfs                                               1020540          0    1020540   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020540          0    1020540   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ae 2031313280 1100218368  768589824  59%% /users/usc430ae
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374066944 1362701312  51%% /proj/USC430
+tmpfs                                                204108          0     204108   0%% /run/user/14168
+
+INPUT|usc430ae-intro-78|U |1580960187|usc430ae|intro:ls|intro-2.jpg  output.txt  test_file.txt	thomas.png  top_secret	usc430ae.txt
+
+INPUT|usc430ae-intro-79|U |1580961029|usc430ae|intro:atom output.txt|;1580961029
+Command 'atom' not found but can be installed with:
+
+snap install atom
+Please ask your administrator.
+
+

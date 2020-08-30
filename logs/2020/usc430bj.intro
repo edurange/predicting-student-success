@@ -1,0 +1,579 @@
+User usc430bj start time 1580801547 end 1580805310
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430bj-intro-0|U |000000000|usc430bj|:|
+INPUT|usc430bj-intro-1|U |000000000|usc430bj|:|
+INPUT|usc430bj-intro-2|U |1580801547|usc430bj|intro:ls|file.txt  hashes  thomas_the_tank_engine.png  usc430bj.txt
+
+INPUT|usc430bj-intro-3|M2 M0 |1580801733|usc430bj|intro:find / -name "*.jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: '/tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-resolved.service-VWdlmM': Permission denied
+find: '/tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-timesyncd.service-TI0Xw0': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430bj-intro-4|M2 M0 |1580801910|usc430bj|intro:find / -name "*.jpg" | head -n 5|find: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+'/tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-resolved.service-VWdlmM': Permission denied
+find: '/tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-timesyncd.service-TI0Xw0': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430bj-intro-5|M2 M0 |1580801964|usc430bj|intro:find / -name "*.jpg" | grep -v "Permission denied"|find: '/tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-resolved.service-VWdlmM'/usr/share/pixmaps/xbzf136INTRO-1.jpg
+: Permission denied
+find: '/tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-timesyncd.service-TI0Xw0': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430bj-intro-6|A4 A1 A2 A3 A0 |1580802043|usc430bj|intro:locate *.jpg|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bj-intro-7|U |1580802085|usc430bj|intro:cd ..|
+INPUT|usc430bj-intro-8|U |1580802087|usc430bj|intro:cd ..|
+INPUT|usc430bj-intro-9|A0 A2 A3 A4 A1 |1580802091|usc430bj|intro:locate *.jpg|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bj-intro-10|A1 A4 A3 A2 A0 |1580802106|usc430bj|intro:locate *~ *.swp|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bj-intro-11|U |1580802135|usc430bj|intro:updatedb|
+INPUT|usc430bj-intro-12|M2 M0 |1580802140|usc430bj|intro:locate *.jpg|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430bj-intro-13|M4 |1580802225|usc430bj|intro:locate *.jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430bj-intro-14|A3 A2 A0 A1 A4 |1580802237|usc430bj|intro:locate *.jpe |
+INPUT|usc430bj-intro-15|A2 A3 A0 A1 A4 |1580802240|usc430bj|intro:locate *.jif|
+INPUT|usc430bj-intro-16|A0 A2 A3 A1 A4 |1580802254|usc430bj|intro:locate *.jfif|
+INPUT|usc430bj-intro-17|A4 A1 A0 A2 A3 |1580802373|usc430bj|intro:locate *intro|
+INPUT|usc430bj-intro-18|U |1580802454|usc430bj|intro:cd ..|
+INPUT|usc430bj-intro-19|U |1580802456|usc430bj|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430bj-intro-20|M4 M3 M2 M0 |1580802526|usc430bj|intro:locate *136* |/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/lib/modules/4.15.0-20-generic/kernel/drivers/iio/adc/max1363.ko
+/lib/modules/4.15.0-20-generic/kernel/drivers/iio/gyro/adis16136.ko
+/lib/modules/4.15.0-20-generic/kernel/drivers/usb/host/isp1362-hcd.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/iio/adc/max1363.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/iio/gyro/adis16136.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/usb/host/isp1362-hcd.ko
+/lib/modules/4.15.0-43-generic/vdso/.build-id/97/f6f8a7c6f5d2e2d01d0a039565136c649154c1.debug
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/IBM1364.so
+/usr/lib/x86_64-linux-gnu/gconv/IBM1364.so
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/src/linux-headers-4.15.0-20/include/linux/usb/isp1362.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/adis16136.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/max1363.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/usb/isp1362
+/usr/src/linux-headers-4.15.0-20-generic/i
+INPUT|usc430bj-intro-21|A4 A1 A0 A2 A3 |1580802601|usc430bj|intro:locate *.JPEG|
+INPUT|usc430bj-intro-22|M3 |1580802617|usc430bj|intro:locate *.JPG |/etc/wuer136intro-4.JPG
+
+INPUT|usc430bj-intro-23|A4 A1 A3 A2 A0 |1580802622|usc430bj|intro:locate *.JIF|
+INPUT|usc430bj-intro-24|A1 A4 A0 A2 A3 |1580802629|usc430bj|intro:locate *.JPE|
+INPUT|usc430bj-intro-25|M0 |1580802662|usc430bj|intro:locate *INTRO*|/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+INPUT|usc430bj-intro-26|M4 |1580802671|usc430bj|intro:locate *Intro*|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430bj-intro-27|M3 M2 |1580802677|usc430bj|intro:locate *intro*|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430bj.hw1-usc430bj.intro.csv
+/var/log/ttylog/usc430bj.hw1-usc430bj.intro.log
+
+INPUT|usc430bj-intro-28|A4 A1 A3 A2 A0 |1580802696|usc430bj|intro:locate *intrO*|
+INPUT|usc430bj-intro-29|M3 M2 |1580802702|usc430bj|intro:locate *intro*|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430bj.hw1-usc430bj.intro.csv
+/var/log/ttylog/usc430bj.hw1-usc430bj.intro.log
+
+INPUT|usc430bj-intro-30|A4 A1 A3 A2 A0 |1580802719|usc430bj|intro:locate *2.*    |/boot/grub/i386-pc/adler32.mod
+/boot/grub/i386-pc/efiemu32.o
+/boot/grub/i386-pc/ext2.mod
+/boot/grub/i386-pc/gcry_sha512.mod
+/boot/grub/i386-pc/minix2.mod
+/boot/grub/i386-pc/multiboot2.mod
+/boot/grub/i386-pc/nilfs2.mod
+/boot/grub/i386-pc/password_pbkdf2.mod
+/boot/grub/i386-pc/pbkdf2.mod
+/boot/grub/i386-pc/ufs2.mod
+/etc/python2.7
+/etc/rc2.d
+/etc/alternatives/emacs-32x32.png
+/etc/console-setup/compose.ISIRI-3342.inc
+/etc/console-setup/compose.ISO-8859-2.inc
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-japan2.conf
+/etc/python2.7/sitecustomize.py
+/etc/rc2.d/S01acpid
+/etc/rc2.d/S01apport
+/etc/rc2.d/S01atd
+/etc/rc2.d/S01console-setup.sh
+/etc/rc2.d/S01cron
+/etc/rc2.d/S01dbus
+/etc/rc2.d/S01grub-common
+/etc/rc2.d/S01irqbalance
+/etc/rc2.d/S01lvm2-lvmetad
+/etc/rc2.d/S01lvm2-lvmpolld
+/etc/rc2.d/S01lxcfs
+/etc/rc2.d/S01lxd
+/etc/rc2.d/S01mdadm
+/etc/rc2.d/S01ntp
+/etc/rc2.d/S01open-vm-tools
+/etc/rc2.d/S01plymouth
+/etc/rc2.d/S01rsync
+/etc/rc2.d/S01rsyslog
+/etc/rc2.d/S01ssh
+/etc/rc2.d/S01unattended-upgrad
+INPUT|usc430bj-intro-31|M4 M3 M2 M1 M0 |1580802837|usc430bj|intro:find . -type f -iname "*intro*"|./.hidden/asdf136Intro-5kqlw.jpeg
+./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./usr/share/doc/bash/INTRO.gz
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: './tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-resolved.service-VWdlmM': Permission denied
+find: './tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-timesyncd.service-T
+INPUT|usc430bj-intro-32|A4 A1 A2 A3 A0 |1580802916|usc430bj|intro:find . -name "*.txt" | head -n 5|./users/usc430bj/file.txt
+./users/usc430bj/usc430bj.txt
+./usr/share/ieee-data/iab.txt
+./usr/share/ieee-data/oui.txt
+./usr/share/ieee-data/mam.txt
+
+INPUT|usc430bj-intro-33|M4 |1580802929|usc430bj|intro:find . -iname "*intro*" | head -n 5|find: './tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-resolved.service-VWdlmM'./.hidden/asdf136Intro-5kqlw.jpeg
+./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+: Permission denied
+find: './tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-timesyncd.service-TI0Xw0': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission den
+INPUT|usc430bj-intro-34|A1 A4 A3 A2 A0 |1580802957|usc430bj|intro:locate -iname *intro*|locate: invalid value `ame' of --limit
+
+INPUT|usc430bj-intro-35|M4 M3 M2 M1 M0 |1580803007|usc430bj|intro:find . -iname "*intro*" | grep -v 'Permission denied' >&2|find: './tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-resolved.service-VWdlmM': Permission denied
+find: './tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-timesyncd.service-TI0Xw0': Permission denied
+./.hidden/asdf136Intro-5kqlw.jpeg
+./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/doc/bash/INTRO.gz
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/pytho
+INPUT|usc430bj-intro-36|M3 M2 |1580803054|usc430bj|intro:locate *intro*|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430bj.hw1-usc430bj.intro.csv
+/var/log/ttylog/usc430bj.hw1-usc430bj.intro.log
+
+INPUT|usc430bj-intro-37|M4 M3 M2 M0 |1580803091|usc430bj|intro:locate -i *intro*|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430bj.
+INPUT|usc430bj-intro-38|A3 A2 A0 A1 A4 |1580803146|usc430bj|intro:locate *.JPEG    |
+INPUT|usc430bj-intro-39|A2 A3 A0 A1 A4 |1580803158|usc430bj|intro:locate *JPEG |
+INPUT|usc430bj-intro-40|A1 A4 A0 A2 A3 |1580803162|usc430bj|intro:locate *.JPEG|
+INPUT|usc430bj-intro-41|A0 A2 A3 A4 A1 |1580803175|usc430bj|intro:locate ./dev/136intro-2jjaj.JPEG|
+INPUT|usc430bj-intro-42|M4 M3 M2 M0 |1580803204|usc430bj|intro:locate *136*                    |/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/lib/modules/4.15.0-20-generic/kernel/drivers/iio/adc/max1363.ko
+/lib/modules/4.15.0-20-generic/kernel/drivers/iio/gyro/adis16136.ko
+/lib/modules/4.15.0-20-generic/kernel/drivers/usb/host/isp1362-hcd.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/iio/adc/max1363.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/iio/gyro/adis16136.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/usb/host/isp1362-hcd.ko
+/lib/modules/4.15.0-43-generic/vdso/.build-id/97/f6f8a7c6f5d2e2d01d0a039565136c649154c1.debug
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/IBM1364.so
+/usr/lib/x86_64-linux-gnu/gconv/IBM1364.so
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/src/linux-headers-4.15.0-20/include/linux/usb/isp1362.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/adis16136.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/max1363.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/usb/isp1362
+/usr/src/linux-headers-4.15.0-20-generic/i
+INPUT|usc430bj-intro-43|U |1580803247|usc430bj|intro:cd .|
+INPUT|usc430bj-intro-44|U |1580803256|usc430bj|intro:cd dev|
+INPUT|usc430bj-intro-45|A4 A1 A3 A2 A0 |1580803275|usc430bj|intro:locate *136*|
+INPUT|usc430bj-intro-46|A4 A1 A0 A2 A3 |1580803283|usc430bj|intro:locate *.JPEG|
+INPUT|usc430bj-intro-47|U |1580803287|usc430bj|intro:ls|136intro-2jjaj.JPEG  loop6		 tty15	tty51	   ttyS29
+autofs		     loop7		 tty16	tty52	   ttyS3
+block		     loop-control	 tty17	tty53	   ttyS30
+bsg		     mapper		 tty18	tty54	   ttyS31
+btrfs-control	     mcelog		 tty19	tty55	   ttyS4
+bus		     mem		 tty2	tty56	   ttyS5
+char		     memory_bandwidth	 tty20	tty57	   ttyS6
+console		     mqueue		 tty21	tty58	   ttyS7
+core		     net		 tty22	tty59	   ttyS8
+cpu		     network_latency	 tty23	tty6	   ttyS9
+cpu_dma_latency      network_throughput  tty24	tty60	   uhid
+cuse		     null		 tty25	tty61	   uinput
+disk		     port		 tty26	tty62	   urandom
+dri		     ppp		 tty27	tty63	   userio
+ecryptfs	     psaux		 tty28	tty7	   vcs
+fb0		     ptmx		 tty29	tty8	   vcs1
+fd		     pts		 tty3	tty9	   vcs2
+full		     random		 tty30	ttyprintk  vcs3
+fuse		     rfkill		 tty31	ttyS0	   vcs4
+hpet		     rtc		 tty32	ttyS1	   vcs5
+hugepages	     rtc0		 tty33	ttyS10	   vcs6
+hwrng		     sda		 tty34	ttyS11	   vcs7
+i2c-0		     sda1		 tty35	ttyS12	   vcsa
+i2c-1		     sda2		 tty36
+INPUT|usc430bj-intro-48|A2 A3 A0 A1 A4 |1580803309|usc430bj|intro:locate *intro*|
+INPUT|usc430bj-intro-49|A3 A2 A0 A4 A1 |1580803355|usc430bj|intro:find . -name "*intro*"|./136intro-2jjaj.JPEG
+
+INPUT|usc430bj-intro-50|A4 A1 A2 A3 A0 |1580803374|usc430bj|intro:find . -name "*136*"|./136intro-2jjaj.JPEG
+
+INPUT|usc430bj-intro-51|U |1580803378|usc430bj|intro:cd ..|
+INPUT|usc430bj-intro-52|M4 M3 M2 M1 M0 |1580803381|usc430bj|intro:find . -name "*136*"|./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/src/linux-headers-4.15.0-20/include/linux/usb/isp1362.h
+./usr/src/linux-headers-4.15.0-20-generic/include/config/adis16136.h
+./usr/src/linux-headers-4.15.0-20-generic/include/config/max1363.h
+./usr/src/linux-headers-4.15.0-20-generic/include/config/usb/isp1362
+./usr/src/linux-headers-4.15.0-43/include/linux/usb/isp1362.h
+./usr/src/linux-headers-4.15.0-43-generic/include/config/adis16136.h
+./usr/src/linux-headers-4.15.0-43-generic/include/config/max1363.h
+./usr/src/linux-headers-4.15.0-43-generic/include/config/usb/isp1362
+./usr/lib/x86_64-linux-gnu/gconv/IBM1364.so
+./usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/IBM1364.so
+find: './tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-resolved.service-VWdlmM': Permission denied
+find: './tmp/systemd-private-f56b2a350a984669a14e41ddab998bb3-systemd-timesyncd.service-TI0Xw0': Permission denied
+./sys/kernel/slab/:0000136
+find: './sys/kernel/debug': Permiss
+INPUT|usc430bj-intro-53|U |1580803457|usc430bj|intro:cd ~|
+INPUT|usc430bj-intro-54|U |1580803467|usc430bj|intro:mkdir top-secret|
+INPUT|usc430bj-intro-55|U |1580803495|usc430bj|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/top-secret/|
+INPUT|usc430bj-intro-56|U |1580803500|usc430bj|intro:cd top-secret/|
+INPUT|usc430bj-intro-57|U |1580803501|usc430bj|intro:ls|xbzf136INTRO-1.jpg
+
+INPUT|usc430bj-intro-58|U |1580803531|usc430bj|intro:cp /dev/136intro-2jjaj.JPEG ~/top-secret/|
+INPUT|usc430bj-intro-59|U |1580803544|usc430bj|intro:cp /var/log/136intro-3.jpg ~/top-secret/|
+INPUT|usc430bj-intro-60|U |1580803559|usc430bj|intro:cp /etc/wuer136intro-4.JPG ~/top-secret/|
+INPUT|usc430bj-intro-61|U |1580803573|usc430bj|intro:cp /.hidden/asdf136Intro-5kqlw.jpeg ~/top-secret/|
+INPUT|usc430bj-intro-62|U |1580803575|usc430bj|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430bj-intro-63|U |1580803777|usc430bj|intro:touch answers.txt|
+INPUT|usc430bj-intro-64|U |1580803783|usc430bj|intro:vim answers.txt|"answers.txt" 0L 0C-- INSERT --0111CAll/usr/share/pixmaps/xbzf136INTRO-1.jpg:13910CAll<20>    f~@k    11^M    ~@k   8~@k   7~@k   6~@k   5~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   ~@k   ~@k   <20>    i -- INSERT --13910CAll40P1o2s3t4e5r67f8o9r501F2O3R4B5I6D7D8E9N601P2L3A4N5E6T7
+ 21 /dev/136intro-2jjaj.JPEG25:67P8O9S3 2  7P8o9s30t1e2r34f5o6r78G9O40D1Z2I3L4L5A67676: 67K8I9N50G12O3F45T6H7E89M60O1N2S3T4E5R6S7
+ 31 /var/log/136intro-3.jpg24:56P7O8S9T30E1R23   2  7o8s9t30e1r23f4o5r67I8T940C1A2M3E45F6R7O8M950O1U2T3E4R56S7P8A9C60E1
+ 41 /etc/wuer136intro-4.JPG24:56P7O 7o8s9t30e1r23f4o5r67T8H9E401F2L3Y4
+:!...!  #  &  *  <  =  >  @  DiffOrig  DoMatchParen  Explore  GLVS  >                ...! 
+"answers.txt" 5L 306C written                                                    56510CAllwq
+
+
+INPUT|usc430bj-intro-65|U |1580804156|usc430bj|intro:vim answers.txt|"answers.txt" 5L 306C6n  >c/usr/share/pixmaps/xbzf136INTRO-1.jpg: Poster for FORBIDDEN PLANET
+/dev/136intro-2jjaj.JPEG: Poster for GODZILLA KING OF THE MONSTERS
+/var/log/136intro-3.jpg: Poster for IT CAME FROM OUTER SPACE
+/etc/wuer136intro-4.JPG: Poster for THE FLY
+/.hidden/asdf136Intro-5kqlw.jpeg: Poster for 2001 A SPACE ODYSSEY
+/usr/share/pixmaps/xbzf136INTRO-1.jpg: Poster for FORBIDDEN PLANET
+/dev/136intro-2jjaj.JPEG: Poster for GODZILLA KING OF THE MONSTERS
+/var/log/136intro-3.jpg: Poster for IT CAME FROM OUTER SPACE
+/etc/wuer136intro-4.JPG: Poster for THE FLY
+/.hidden/asdf136Intro-5kqlw.jpeg: Poster for 2001 A SPACE ODYSSEY
+"answers.txt" 5L 306C written
+
+
+INPUT|usc430bj-intro-66|U |1580804300|usc430bj|intro:cd ..|
+INPUT|usc430bj-intro-67|U |1580804302|usc430bj|intro:cd ..|
+INPUT|usc430bj-intro-68|U |1580804303|usc430bj|intro:cd ..|
+INPUT|usc430bj-intro-69|U |1580804305|usc430bj|intro:cd var|
+INPUT|usc430bj-intro-70|U |1580804307|usc430bj|intro:ls|backups  crash	 lib	lock  mail  run   spool
+cache	 emulab  local	log   opt   snap  tmp
+
+INPUT|usc430bj-intro-71|U |1580804379|usc430bj|intro:cd ~ |
+INPUT|usc430bj-intro-72|U |1580804383|usc430bj|intro:cd top-secret/|
+INPUT|usc430bj-intro-73|U |1580804396|usc430bj|intro:vim top-secret|
+
+INPUT|usc430bj-intro-74|U |1580804430|usc430bj|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430bj-intro-75|U |1580804439|usc430bj|intro:vim answers.txt |"answers.txt" 5L 306C6n  >c/usr/share/pixmaps/xbzf136INTRO-1.jpg: Poster for FORBIDDEN PLANET
+/dev/136intro-2jjaj.JPEG: Poster for GODZILLA KING OF THE MONSTERS
+/var/log/136intro-3.jpg: Poster for IT CAME FROM OUTER SPACE
+/etc/wuer136intro-4.JPG: Poster for THE FLY
+/.hidden/asdf136Intro-5kqlw.jpeg: Poster for 2001 A SPACE ODYSSEY
+/usr/share/pixmaps/xbzf136INTRO-1.jpg: Poster for FORBIDDEN PLANET
+/dev/136intro-2jjaj.JPEG: Poster for GODZILLA KING OF THE MONSTERS
+/var/log/136intro-3.jpg: Poster for IT CAME FROM OUTER SPACE
+/etc/wuer136intro-4.JPG: Poster for THE FLY
+/.hidden/asdf136Intro-5kqlw.jpeg: Poster for 2001 A SPACE ODYSSEY
+"answers.txt" 5L 306Ci -- INSERT --56510CAll6
+ 61 What goes in the /var directory on a UNIX computer?52
+ 71 V2a3r4i5a6b7l8e910a1d2a   0d1a2t3a45t6h7a8t920s1y2s3t4e5m67c8a9n301c2h3a4n5g6e78during the course of its operation.73
+ 81 What is the /dev directory for on a UNIX computer?51
+"answers.txt" 9L 519C written8n910o1f23d4e  3d4e5v6i7u8c9e201 1  7c8e920o1r23s4p
+INPUT|usc430bj-intro-76|M6 |1580804640|usc430bj|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1988984         48    1988936   1%% /dev
+tmpfs                                                403952       6160     397792   2%% /run
+/dev/sda1                                          15681948    3262036   11619964  22%% /
+tmpfs                                               2019748          0    2019748   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               2019748          0    2019748   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430bj 2031313280 1110350464  758457728  60%% /users/usc430bj
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1372860416 1363907968  51%% /proj/USC430
+tmpfs                                                403948          0     403948   0%% /run/user/15220
+
+INPUT|usc430bj-intro-77|M6 |1580804653|usc430bj|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              1.9G   48K  1.9G   1%% /dev
+tmpfs                                             395M  6.1M  389M   2%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             2.0G     0  2.0G   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             2.0G     0  2.0G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430bj  1.9T  1.1T  724G  60%% /users/usc430bj
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             395M     0  395M   0%% /run/user/15220
+
+INPUT|usc430bj-intro-78|U |1580804731|usc430bj|intro:ps aux|USER       PID %%CPU %%MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.1  0.2 159836  9080 ?        Ss   Feb03   0:03 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Feb03   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I    Feb03   0:00 [kworker/0:0]
+root         4  0.0  0.0      0     0 ?        I<   Feb03   0:00 [kworker/0:0H]
+root         5  0.0  0.0      0     0 ?        I    Feb03   0:00 [kworker/u8:0]
+root         6  0.0  0.0      0     0 ?        I<   Feb03   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    Feb03   0:00 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    Feb03   0:00 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    Feb03   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    Feb03   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    Feb03   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    Feb03   0:00 [c
+INPUT|usc430bj-intro-79|U |1580804940|usc430bj|intro:du -sh|252K	.
+
+INPUT|usc430bj-intro-80|U |1580804956|usc430bj|intro:du|252	.
+
+INPUT|usc430bj-intro-81|M6 |1580804968|usc430bj|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              1.9G   48K  1.9G   1%% /dev
+tmpfs                                             395M  6.1M  389M   2%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             2.0G     0  2.0G   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             2.0G     0  2.0G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430bj  1.9T  1.1T  724G  60%% /users/usc430bj
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             395M     0  395M   0%% /run/user/15220
+
+INPUT|usc430bj-intro-82|A6 |1580805106|usc430bj|intro:df -h > top_secret/diskfree.txt|bash: top_secret/diskfree.txt: No such file or directory
+
+INPUT|usc430bj-intro-83|U |1580805115|usc430bj|intro:touch diskfree.txt|
+INPUT|usc430bj-intro-84|U |1580805118|usc430bj|intro:13@df -h > top_secret/diskfree.txt|bash: top_secret/diskfree.txt: No such file or directory
+
+INPUT|usc430bj-intro-85|A6 |1580805131|usc430bj|intro:df -h > diskfree.txt|
+INPUT|usc430bj-intro-86|U |1580805135|usc430bj|intro:vim diskfree.txt |"diskfree.txt" 10L 822C6n  >cFilesystem40CSize  Used Avail Use%% Mounted on
+udev46C1.9G   48K  1.9G   1%% /dev
+tmpfs45C395M  6.1M  389M   2%% /run
+/dev/sda142C15G  3.2G   12G  22%% /
+tmpfs45C2.0G     0  2.0G   0%% /dev/shm
+tmpfs45C5.0M     0  5.0M   0%% /run/lock
+tmpfs45C2.0G     0  2.0G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430bj  1.9T  1.1T  724G  60%% /users/usc430bj
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs45C395M     0  395M   0%% /run/user/15220
+Filesystem40CSize  Used Avail Use%% Mounted on
+udev46C1.9G   48K  1.9G   1%% /dev
+tmpfs45C395M  6.1M  389M   2%% /run
+/dev/sda142C15G  3.2G   12G  22%% /
+tmpfs45C2.0G     0  2.0G   0%% /dev/shm
+tmpfs45C5.0M     0  5.0M   0%% /run/lock
+tmpfs45C2.0G     0  2.0G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430bj  1.9T  1.1T  724G  60%% /users/usc430bj
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs45C395M
+INPUT|usc430bj-intro-87|M5 |1580805282|usc430bj|intro:less /proc/cpuinfo|processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 15
+model name      : Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping        : 11
+microcode       : 0xba
+cpu MHz         : 1600.047
+cache size      : 4096 KB
+physical id     : 0
+siblings        : 4
+core id         : 0
+cpu cores       : 4
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 10
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+
+
+INPUT|usc430bj-intro-88|U |1580805310|usc430bj|intro:vim answers.txt |"answers.txt" 9L 519C6n  >c/usr/share/pixmaps/xbzf136INTRO-1.jpg: Poster for FORBIDDEN PLANET
+/dev/136intro-2jjaj.JPEG: Poster for GODZILLA KING OF THE MONSTERS
+/var/log/136intro-3.jpg: Poster for IT CAME FROM OUTER SPACE
+/etc/wuer136intro-4.JPG: Poster for THE FLY
+/.hidden/asdf136Intro-5kqlw.jpeg: Poster for 2001 A SPACE ODYSSEY
+What goes in the /var directory on a UNIX computer?
+Variable data that system can change during the course of its operation.
+What is the /dev directory for on a UNIX computer?
+Location of device or special files.
+/usr/share/pixmaps/xbzf136INTRO-1.jpg: Poster for FORBIDDEN PLANET
+/dev/136intro-2jjaj.JPEG: Poster for GODZILLA KING OF THE MONSTERS
+/var/log/136intro-3.jpg: Poster for IT CAME FROM OUTER SPACE
+/etc/wuer136intro-4.JPG: Poster for THE FLY
+/.hidden/asdf136Intro-5kqlw.jpeg: Poster for 2001 A SPACE ODYSSEY
+What goes in the /var directory on a UNIX computer?
+Variable data that system can change during the course of its operation.
+What is the /dev director

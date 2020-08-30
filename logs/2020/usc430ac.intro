@@ -1,0 +1,724 @@
+User usc430ac start time 1580881983 end 1581111131
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ac-intro-0|U |000000000|usc430ac|:|
+INPUT|usc430ac-intro-1|U |000000000|usc430ac|:|
+INPUT|usc430ac-intro-2|U |1580881983|usc430ac|intro:ls -a|.  ..  .bash_history  .cache  file.txt	.forward  .gnupg  .ssh	.ssl  thomas.png  usc430ac.txt
+
+INPUT|usc430ac-intro-3|U |1580882458|usc430ac|intro:/|bash: /: Is a directory
+
+INPUT|usc430ac-intro-4|U |1580882485|usc430ac|intro:/ intro|bash: /: Is a directory
+
+INPUT|usc430ac-intro-5|A4 A1 A2 A3 A0 |1580882528|usc430ac|intro:find . -name "*.jpg"|
+INPUT|usc430ac-intro-6|M2 M0 |1580882535|usc430ac|intro:find / -name "*.jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: '/tmp/systemd-private-d5405385209a4fa8bd7118e785681ac6-systemd-resolved.service-akj52k': Permission denied
+find: '/tmp/systemd-private-d5405385209a4fa8bd7118e785681ac6-systemd-timesyncd.service-TYWsr1': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430ac-intro-7|M3 M2 M1 |1580882742|usc430ac|intro:find / -name "*intro*"|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: '/tmp/systemd-private-d5405385209a4fa8bd7118e785681ac6-systemd-resolved.service-akj52k': Permission denied
+find: '/tmp/systemd-private-d5405385209a4fa8bd7118e785681ac6-systemd-timesyncd.service-TYWsr1': Permission denied
+INPUT|usc430ac-intro-8|M2 |1580882854|usc430ac|intro:find / -name "*intro*.jpg"|find: '/tmp/systemd-private-d5405385209a4fa8bd7118e785681ac6-systemd-resolved.service-akj52k': Permission denied
+find: '/tmp/systemd-private-d5405385209a4fa8bd7118e785681ac6-systemd-timesyncd.service-TYWsr1': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430ac-intro-9|U |1580882967|usc430ac|intro:mkdir top_secret|
+INPUT|usc430ac-intro-10|U |1580882969|usc430ac|intro:cd top_secret/|
+INPUT|usc430ac-intro-11|U |1580882987|usc430ac|intro:touch answers.txt|
+INPUT|usc430ac-intro-12|U |1580882996|usc430ac|intro:ls|answers.txt
+
+INPUT|usc430ac-intro-13|U |1580883000|usc430ac|intro:vi answers.txt|
+
+INPUT|usc430ac-intro-14|M2 |1580883207|usc430ac|intro:find / -name "*intro*.jpg"|find: '/tmp/systemd-private-d5405385209a4fa8bd7118e785681ac6-systemd-resolved.service-akj52k': Permission denied
+find: '/tmp/systemd-private-d5405385209a4fa8bd7118e785681ac6-systemd-timesyncd.service-TYWsr1': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430ac-intro-15|M2 |1580883496|usc430ac|intro:find / -name "*intro*.jpg" 2>/dev/null|/var/log/136intro-3.jpg
+
+INPUT|usc430ac-intro-16|M3 M2 M1 |1580883512|usc430ac|intro:find / -name "*intro*" 2>/dev/null|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.log
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.csv
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/dev/136intro-2jjaj.JPEG
+/pro
+INPUT|usc430ac-intro-17|M3 M2 M1 |1580883710|usc430ac|intro:find / -name "*intro*" 2>/dev/null|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.log
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.csv
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/dev/136intro-2jjaj.JPEG
+/pro
+INPUT|usc430ac-intro-18|U |1580883801|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-19|U |1580883804|usc430ac|intro:ls|file.txt  thomas.png  top_secret  usc430ac.txt
+
+INPUT|usc430ac-intro-20|M3 M2 M1 |1580883810|usc430ac|intro:find / -name "*intro*" 2>/dev/null|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.log
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.csv
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/dev/136intro-2jjaj.JPEG
+/pro
+INPUT|usc430ac-intro-21|M3 M2 M1 |1580883820|usc430ac|intro:find / -name "*intro*" 2>/dev/null|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.log
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.csv
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/dev/136intro-2jjaj.JPEG
+/pro
+INPUT|usc430ac-intro-22|A0 A2 A3 A4 A1 |1580883857|usc430ac|intro:find ~ -name "*intro*" 2>/dev/null|
+INPUT|usc430ac-intro-23|M3 M2 M1 |1580883863|usc430ac|intro:find / -name "*intro*" 2>/dev/null|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.log
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.csv
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/dev/136intro-2jjaj.JPEG
+/pro
+INPUT|usc430ac-intro-24|U |1580883870|usc430ac|intro:ls|file.txt  thomas.png  top_secret  usc430ac.txt
+
+INPUT|usc430ac-intro-25|M3 M2 M1 |1580883946|usc430ac|intro:find / -name "*intro*" 2>/dev/null|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.log
+/var/log/ttylog/usc430ac.hw1-usc430ac.intro.csv
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/dev/136intro-2jjaj.JPEG
+/pro
+INPUT|usc430ac-intro-26|U |1580884725|usc430ac|intro:ls|file.txt  thomas.png  top_secret  usc430ac.txt
+
+INPUT|usc430ac-intro-27|U |1580884727|usc430ac|intro:cd top_secret/|
+INPUT|usc430ac-intro-28|U |1580884744|usc430ac|intro:ls|answers.txt
+
+INPUT|usc430ac-intro-29|U |1580884763|usc430ac|intro:vi answers.txt |"answers.txt" 0L 0C6n  >c~                                                                                                                                            ~                                                                                                                                            ~                                                                                                                                            ~                                                                                                                                            ~                                                                                                                                            ~                                                                                                                                            ~                                                                                                                                
+INPUT|usc430ac-intro-30|M6 |1580885307|usc430ac|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989776         48     989728   1%% /dev
+tmpfs                                                204108       6264     197844   4%% /run
+/dev/sda1                                          15681948    3252892   11629108  22%% /
+tmpfs                                               1020540          0    1020540   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020540          0    1020540   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ac 2031313280 1099946112  768862080  59%% /users/usc430ac
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374043520 1362724864  51%% /proj/USC430
+tmpfs                                                204108          0     204108   0%% /run/user/14166
+
+INPUT|usc430ac-intro-31|U |1580885443|usc430ac|intro:cd ..    |
+INPUT|usc430ac-intro-32|A6 |1580885458|usc430ac|intro:df > top_secret/diskfree.txt|
+INPUT|usc430ac-intro-33|U |1580885460|usc430ac|intro:cd top_secret/|
+INPUT|usc430ac-intro-34|U |1580885462|usc430ac|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430ac-intro-35|U |1580885464|usc430ac|intro:cat diskfree.txt |Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989776         48     989728   1%% /dev
+tmpfs                                                204108       6264     197844   4%% /run
+/dev/sda1                                          15681948    3252900   11629100  22%% /
+tmpfs                                               1020540          0    1020540   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020540          0    1020540   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ac 2031313280 1099956352  768851840  59%% /users/usc430ac
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374043520 1362724864  51%% /proj/USC430
+tmpfs                                                204108          0     204108   0%% /run/user/14166
+
+INPUT|usc430ac-intro-36|M5 |1580885609|usc430ac|intro:cat /proc/cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 1
+microcode	: 0x17
+cpu MHz		: 2992.757
+cache size	: 1024 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5985.51
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 1
+microcode	: 0x17
+cpu MHz		: 2992.757
+cache size	: 1024 KB
+physical id	: 3
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 6
+initial apicid	
+INPUT|usc430ac-intro-37|U |1580885652|usc430ac|intro:vi |answers.txt   diskfree.txt  
+
+INPUT|usc430ac-intro-38|U |1580885654|usc430ac|intro:vi answers.txt |"answers.txt" 6L 241C6n  >cTreasure Hunt
+
+Information Hunt
+1. The /var directory contains temporary files and files subject to frequent change.
+2. The /dev directory contains special device files for example /dev/dsp which contains the digital signal processor.
+3.
+"answers.txt" 8L 285C written                                                                                                               ~                                                                                                                                            ~                                                                                                                                            ~                                                                                                                                            ~                                                                                                                                            ~                              
+INPUT|usc430ac-intro-39|M2 |1580931982|usc430ac|intro:find / -name "*intro*" -and -name "*.jpg" 2>/dev/null|/var/log/136intro-3.jpg
+/proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+
+INPUT|usc430ac-intro-40|A4 A1 A0 A2 A3 |1580932051|usc430ac|intro:find / -name "*intro*" -and -name "*.jpeg" 2>/dev/null|
+INPUT|usc430ac-intro-41|M3 |1580932077|usc430ac|intro:find / -name "*intro*" -and -name "*.JPG" 2>/dev/null|/etc/wuer136intro-4.JPG
+/proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+/proj/USC430/exp/hw1-usc430bf/wuer136intro-4.JPG
+
+INPUT|usc430ac-intro-42|M1 |1580932095|usc430ac|intro:find / -name "*intro*" -and -name "*.JPEG" 2>/dev/null|/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430ac-intro-43|M3 M2 M0 |1580934514|usc430ac|intro:find / -iname "*intro*" -and -iname "*.jpg" 2>/dev/null|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+/proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+/proj/USC430/exp/hw1-usc430bf/top_secret/xbzf136INTRO-1.jpg
+/proj/USC430/exp/hw1-usc430bf/wuer136intro-4.JPG
+
+INPUT|usc430ac-intro-44|M4 M3 M2 M1 M0 |1580937625|usc430ac|intro:find / -iname "*intro*" -and -iname "*.jp*" 2>/dev/null|/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+/proj/USC430/exp/hw1-usc430bf/asdf136Intro-5kqlw.jpeg
+/proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+/proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+/proj/USC430/exp/hw1-usc430bf/top_secret/asdf136Intro-5kqlw.jpeg
+/proj/USC430/exp/hw1-usc430bf/top_secret/xbzf136INTRO-1.jpg
+/proj/USC430/exp/hw1-usc430bf/wuer136intro-4.JPG
+
+INPUT|usc430ac-intro-45|M4 M3 M2 M1 M0 |1580962154|usc430ac|intro:find / -iname "*intro*" -and -iname "*.jp*" 2>/dev/null|/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+/proj/USC430/exp/hw1-usc430bf/asdf136Intro-5kqlw.jpeg
+/proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+/proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+/proj/USC430/exp/hw1-usc430bf/top_secret/asdf136Intro-5kqlw.jpeg
+/proj/USC430/exp/hw1-usc430bf/top_secret/xbzf136INTRO-1.jpg
+/proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG
+/proj/USC430/exp/hw1-usc430bf/wuer136intro-4.JPG
+
+INPUT|usc430ac-intro-46|U |1580962211|usc430ac|intro:ls|file.txt  thomas.png  top_secret  usc430ac.txt
+
+INPUT|usc430ac-intro-47|U |1580962213|usc430ac|intro:cd top_secret/|
+INPUT|usc430ac-intro-48|U |1580962214|usc430ac|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430ac-intro-49|U |1580962217|usc430ac|intro:vi answers.txt |"answers.txt" 8L 285C6n  >cTreasure Hunt
+
+Information Hunt
+1. The /var directory contains temporary files and files subject to frequent chhange.
+2. The /dev directory contains special device files for example /dev/dsp which  contains the digital signal processor.
+3. see diskfree.txt
+4. vendor_id: GenuineIntel
+
+~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                               
+INPUT|usc430ac-intro-50|U |1580963005|usc430ac|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/|mv: cannot remove '/usr/share/pixmaps/xbzf136INTRO-1.jpg': Permission denied
+
+INPUT|usc430ac-intro-51|U |1580963030|usc430ac|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/|
+INPUT|usc430ac-intro-52|U |1580963032|usc430ac|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430ac-intro-53|U |1580963037|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-54|U |1580963038|usc430ac|intro:ls|file.txt  thomas.png  top_secret  usc430ac.txt	xbzf136INTRO-1.jpg
+
+INPUT|usc430ac-intro-55|U |1580963148|usc430ac|intro:ls|file.txt  thomas.png  top_secret  usc430ac.txt	xbzf136INTRO-1.jpg
+
+INPUT|usc430ac-intro-56|U |1580963179|usc430ac|intro:mv xbzf136INTRO-1.jpg top_secret/|
+INPUT|usc430ac-intro-57|U |1580963181|usc430ac|intro:cd top_secret/|
+INPUT|usc430ac-intro-58|U |1580963182|usc430ac|intro:ls|answers.txt  diskfree.txt  xbzf136INTRO-1.jpg
+
+INPUT|usc430ac-intro-59|U |1580963186|usc430ac|intro:vi answers.txt |"answers.txt" 14L 461C6n  >cTreasure Hunt
+1. Locations of the five files:
+/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+Information Hunt
+1. The /var directory contains temporary files and files subject to frequent chhange.
+2. The /dev directory contains special device files for example /dev/dsp which  contains the digital signal processor.
+3. see diskfree.txt
+4. vendor_id: GenuineIntel
+
+"answers.txt" 14L 509C written                                                 ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                               
+INPUT|usc430ac-intro-60|U |1580963295|usc430ac|intro:cp 24@/dev/136intro-2jjaj.JPEG ~|
+INPUT|usc430ac-intro-61|U |1580963340|usc430ac|intro:cd .. |
+INPUT|usc430ac-intro-62|U |1580963342|usc430ac|intro:ls|136intro-2jjaj.JPEG  file.txt  thomas.png  top_secret  usc430ac.txt
+
+INPUT|usc430ac-intro-63|U |1580963349|usc430ac|intro:mv 136intro-2jjaj.JPEG top_secret/|
+INPUT|usc430ac-intro-64|U |1580963364|usc430ac|intro:cd top_secret/|
+INPUT|usc430ac-intro-65|U |1580963366|usc430ac|intro:vi |136intro-2jjaj.JPEG  diskfree.txt         
+answers.txt          xbzf136INTRO-1.jpg   
+
+INPUT|usc430ac-intro-66|U |1580963377|usc430ac|intro:vi answers.txt |"answers.txt" 14L 509C6n  >cTreasure Hunt
+1. Locations/descriptions of the five files:
+/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+Information Hunt
+1. The /var directory contains temporary files and files subject to frequent chhange.
+2. The /dev directory contains special device files for example /dev/dsp which  contains the digital signal processor.
+3. see diskfree.txt
+4. vendor_id: GenuineIntel
+
+"answers.txt" 14L 548C written                                                 ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                  
+INPUT|usc430ac-intro-67|U |1580963420|usc430ac|intro:cp /var/log/136intro-3.jpg ~/|
+INPUT|usc430ac-intro-68|U |1580963425|usc430ac|intro:ls|136intro-2jjaj.JPEG  answers.txt  diskfree.txt	xbzf136INTRO-1.jpg
+
+INPUT|usc430ac-intro-69|U |1580963429|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-70|U |1580963431|usc430ac|intro:ls|136intro-3.jpg	file.txt  thomas.png  top_secret  usc430ac.txt
+
+INPUT|usc430ac-intro-71|U |1580963460|usc430ac|intro:ls|136intro-3.jpg	file.txt  thomas.png  top_secret  usc430ac.txt
+
+INPUT|usc430ac-intro-72|U |1580963467|usc430ac|intro:mv 136intro-3.jpg top_secret/|
+INPUT|usc430ac-intro-73|U |1580963469|usc430ac|intro:cd top_secret/|
+INPUT|usc430ac-intro-74|U |1580963470|usc430ac|intro:ls|136intro-2jjaj.JPEG  answers.txt   xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+
+INPUT|usc430ac-intro-75|U |1580963474|usc430ac|intro:vi answers.txt |"answers.txt" 14L 548C6n  >cTreasure Hunt
+1. Locations/descriptions of the five files:
+/.hidden/asdf136Intro-5kqlw.jpeg13Cphoto of godzilla magazine
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+Information Hunt
+1. The /var directory contains temporary files and files subject to frequent chhange.
+2. The /dev directory contains special device files for example /dev/dsp which  contains the digital signal processor.
+3. see diskfree.txt
+4. vendor_id: GenuineIntel
+
+"answers.txt" 14L 603C written                                                 ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                     
+INPUT|usc430ac-intro-76|U |1580963510|usc430ac|intro:cp /etc/wuer136intro-4.JPG ~/|
+INPUT|usc430ac-intro-77|U |1580963556|usc430ac|intro:mv ../wuer136intro-4.JPG .|
+INPUT|usc430ac-intro-78|U |1580963557|usc430ac|intro:ls|136intro-2jjaj.JPEG  answers.txt   wuer136intro-4.JPG
+136intro-3.jpg	     diskfree.txt  xbzf136INTRO-1.jpg
+
+INPUT|usc430ac-intro-79|U |1580963563|usc430ac|intro:vi answers.txt |"answers.txt" 14L 603C6n  >cTreasure Hunt
+1. Locations/descriptions of the five files:
+/.hidden/asdf136Intro-5kqlw.jpeg13Cphoto of godzilla magazine
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg22Cphoto of it came from outer space
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+Information Hunt
+1. The /var directory contains temporary files and files subject to frequent chhange.
+2. The /dev directory contains special device files for example /dev/dsp which  contains the digital signal processor.
+3. see diskfree.txt
+4. vendor_id: GenuineIntel
+
+"answers.txt" 14L 654C written                                                 ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                 
+INPUT|usc430ac-intro-80|U |1580963585|usc430ac|intro:ls|136intro-2jjaj.JPEG  answers.txt   wuer136intro-4.JPG
+136intro-3.jpg	     diskfree.txt  xbzf136INTRO-1.jpg
+
+INPUT|usc430ac-intro-81|U |1580963606|usc430ac|intro:cp /.hidden/asdf136Intro-5kqlw.jpeg ~/|
+INPUT|usc430ac-intro-82|U |1580963635|usc430ac|intro:mv ../asdf136Intro-5kqlw.jpeg .|
+INPUT|usc430ac-intro-83|U |1580963636|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430ac-intro-84|U |1580963641|usc430ac|intro:vi answers.txt |"answers.txt" 14L 654C6n  >cTreasure Hunt
+1. Locations/descriptions of the five files:
+/.hidden/asdf136Intro-5kqlw.jpeg13Cphoto of godzilla magazine
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg22Cphoto of it came from outer space
+/etc/wuer136intro-4.JPG22Cphoto of the fly movie poster
+/dev/136intro-2jjaj.JPEG
+
+Information Hunt
+1. The /var directory contains temporary files and files subject to frequent chhange.
+2. The /dev directory contains special device files for example /dev/dsp which  contains the digital signal processor.
+3. see diskfree.txt
+4. vendor_id: GenuineIntel
+
+"answers.txt" 14L 704C written                                                 ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~ 
+INPUT|usc430ac-intro-85|U |1580965292|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430ac-intro-86|U |1580965870|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430ac-intro-87|U |1580966572|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430ac-intro-88|U |1580966588|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-89|U |1581109118|usc430ac|server:ls|file.txt  server.py  thomas.png  top_secret  usc430ac.txt
+
+INPUT|usc430ac-intro-90|U |1581109141|usc430ac|server:ls|client.py  file.txt  server.py	thomas.png  top_secret	usc430ac.txt
+
+INPUT|usc430ac-intro-91|U |1581109289|usc430ac|server:ls|client.py  file.txt  server.py	thomas.png  top_secret	usc430ac.txt
+
+INPUT|usc430ac-intro-92|U |1581109292|usc430ac|server:python server.py|starting up on localhost port 10000
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 20 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ac-intro-93|U |1581109486|usc430ac|server:vi server.py |"server.py" [dos] 38L 1064C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+
+# Bind the socket to the port
+server_address = ('localhost' 10000)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+"server.py"ion client_address = sock.accept()try:print >>sys.stderr 'connection from' client_address10-1
+"server.py" E667: Fsync failed
+"server.py" or type command to continue2Limport socket1033
+"server.py" E667: Fsync failed
+"server.py" or type command to continue2Limport socket1033
+"server.py" E667: Fsync failed
+:!q: No write since last change (add ! to override)11110CTop::!q
+[No write since last change]
+/bin/bash: q: command not found
+
+shell returned 127
+;1581109567
+import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_
+INPUT|usc430ac-intro-94|U |1581109609|usc430ac|server:ls|client.py  file.txt  server.py	thomas.png  top_secret	usc430ac.txt
+
+INPUT|usc430ac-intro-95|U |1581109613|usc430ac|server:cat server.py |
+import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+
+# Bind the socket to the port
+server_address = ('localhost' 10000)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()
+
+    try:
+        print >>sys.stderr 'connection from' client_address
+
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv(16)
+            print >>sys.stderr 'received \"%%s\"' %% data
+            if data:
+                print >>sys.stderr 'sending data back to the client'
+                connection.sendall(data)
+            else:
+                print >>sys.stderr 'no more data from' client_address
+                break
+
+    finally:
+        # Clean up the connection
+     
+INPUT|usc430ac-intro-96|U |1581109620|usc430ac|server:vim server.py |"server.py" [dos] 38L 1064C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+
+# Bind the socket to the port
+server_address = ('localhost' 10000)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+"server.py"ion client_address = sock.accept()try:print >>sys.stderr 'connection from' client_address10-1
+"server.py" E667: Fsync failed
+"server.py" or type command to continue2Limport socket1033
+"server.py" E667: Fsync failed
+
+
+INPUT|usc430ac-intro-97|U |1581109673|usc430ac|server:cat server.py |
+import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+
+# Bind the socket to the port
+server_address = ('localhost' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()
+
+    try:
+        print >>sys.stderr 'connection from' client_address
+
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv(16)
+            print >>sys.stderr 'received \"%%s\"' %% data
+            if data:
+                print >>sys.stderr 'sending data back to the client'
+                connection.sendall(data)
+            else:
+                print >>sys.stderr 'no more data from' client_address
+                break
+
+    finally:
+        # Clean up the connection
+        
+INPUT|usc430ac-intro-98|U |1581109936|usc430ac|server:python server.py|starting up on localhost port 80
+Traceback (most recent call last):
+  File \"server.py\" line 12 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ac-intro-99|U |1581110465|usc430ac|server:python server.py|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 20 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ac-intro-100|U |1581111131|usc430ac|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 41442)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 41442)
+waiting for a connection
+

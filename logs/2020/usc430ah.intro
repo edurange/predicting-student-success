@@ -1,0 +1,692 @@
+User usc430ah start time 1580874906 end 1581300241
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ah-intro-0|U |000000000|usc430ah|:|
+INPUT|usc430ah-intro-1|U |000000000|usc430ah|:|
+INPUT|usc430ah-intro-2|A1 A4 A2 A3 A0 |1580874906|usc430ah|intro:find . -name "*intro*"|
+INPUT|usc430ah-intro-3|U |1580874908|usc430ah|intro:ls|thomas.png  usc430ah.txt
+
+INPUT|usc430ah-intro-4|A0 A2 A3 A4 A1 |1580874922|usc430ah|intro:find . -name "intro"|
+INPUT|usc430ah-intro-5|U |1580874925|usc430ah|intro:ls|thomas.png  usc430ah.txt
+
+INPUT|usc430ah-intro-6|U |1580874927|usc430ah|intro:ls -al|total 1120
+drwx------  6 usc430ah USC430     512 Jan 17 14:34 .
+drwxr-xr-x 27 root     root      4096 Feb  4 19:48 ..
+-rw-------  1 usc430ah USC430      94 Jan 17 14:41 .bash_history
+drwx------  2 usc430ah USC430     512 Jan 17 14:07 .cache
+-rw-r--r--  1 usc430ah USC430      15 Jan 17 11:11 .forward
+drwx------  3 usc430ah USC430     512 Jan 17 14:07 .gnupg
+drwx------  2 usc430ah USC430     512 Jan 17 14:07 .ssh
+drwx------  2 usc430ah USC430     512 Jul 15  2019 .ssl
+-rw-r--r--  1 usc430ah USC430 1066601 Jan 17 14:34 thomas.png
+-rw-r--r--  1 usc430ah USC430       0 Jan 17 14:23 usc430ah.txt
+
+INPUT|usc430ah-intro-7|A4 A1 A2 A3 A0 |1580874972|usc430ah|intro:find . -name "intro"|
+INPUT|usc430ah-intro-8|U |1580874973|usc430ah|intro:s|thomas.png  usc430ah.txt
+
+INPUT|usc430ah-intro-9|U |1580874975|usc430ah|intro:pwd|/users/usc430ah
+
+INPUT|usc430ah-intro-10|U |1580875048|usc430ah|intro:ls|thomas.png  usc430ah.txt
+
+INPUT|usc430ah-intro-11|U |1580875050|usc430ah|intro:cat usc430ah.txt |
+INPUT|usc430ah-intro-12|U |1580875065|usc430ah|intro:cd ..|
+INPUT|usc430ah-intro-13|U |1580875068|usc430ah|intro:ls |aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ah
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ah-intro-14|U |1580875085|usc430ah|intro:ls|thomas.png  usc430ah.txt
+
+INPUT|usc430ah-intro-15|U |1580875145|usc430ah|intro:cd albpat03|bash: cd: albpat03: No such file or directory
+
+INPUT|usc430ah-intro-16|U |1580875147|usc430ah|intro:ls|thomas.png  usc430ah.txt
+
+INPUT|usc430ah-intro-17|U |1580875149|usc430ah|intro:cd ..|
+INPUT|usc430ah-intro-18|U |1580875151|usc430ah|intro:cd al|albpat03/ alotero/  
+
+INPUT|usc430ah-intro-19|U |1580875153|usc430ah|intro:ls|
+INPUT|usc430ah-intro-20|U |1580875155|usc430ah|intro:cd ..|
+INPUT|usc430ah-intro-21|U |1580875156|usc430ah|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ah
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ah-intro-22|U |1580875160|usc430ah|intro:cd usc430ah/|
+INPUT|usc430ah-intro-23|U |1580875161|usc430ah|intro:ls|thomas.png  usc430ah.txt
+
+INPUT|usc430ah-intro-24|U |1580875256|usc430ah|intro:ls|thomas.png  usc430ah.txt
+
+INPUT|usc430ah-intro-25|U |1580875259|usc430ah|intro:ls -al|total 1120
+drwx------  6 usc430ah USC430     512 Jan 17 14:34 .
+drwxr-xr-x 27 root     root      4096 Feb  4 19:48 ..
+-rw-------  1 usc430ah USC430      94 Jan 17 14:41 .bash_history
+drwx------  2 usc430ah USC430     512 Jan 17 14:07 .cache
+-rw-r--r--  1 usc430ah USC430      15 Jan 17 11:11 .forward
+drwx------  3 usc430ah USC430     512 Jan 17 14:07 .gnupg
+drwx------  2 usc430ah USC430     512 Jan 17 14:07 .ssh
+drwx------  2 usc430ah USC430     512 Jul 15  2019 .ssl
+-rw-r--r--  1 usc430ah USC430 1066601 Jan 17 14:34 thomas.png
+-rw-r--r--  1 usc430ah USC430       0 Jan 17 14:23 usc430ah.txt
+
+INPUT|usc430ah-intro-26|U |1580875265|usc430ah|intro:cd |
+INPUT|usc430ah-intro-27|U |1580875266|usc430ah|intro:ls|thomas.png  usc430ah.txt
+
+INPUT|usc430ah-intro-28|U |1580875267|usc430ah|intro:cd ..|
+INPUT|usc430ah-intro-29|U |1580875268|usc430ah|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ah
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ah-intro-30|U |1580875270|usc430ah|intro:cd ..|
+INPUT|usc430ah-intro-31|U |1580875271|usc430ah|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ah-intro-32|A3 A2 A0 A1 A4 |1580875280|usc430ah|intro:find . -name "intro"|find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-resolved.service-hZfoYx': Permission denied
+find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-timesyncd.service-oEkolb': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430ah-intro-33|U |1580875320|usc430ah|intro:lss|;1580875320
+Command 'lss' not found did you mean:
+
+  command 'lsd' from snap lsd (0.10.0+git1.097b708-dirty)
+  command 'lsc' from deb livescript
+  command 'lssu' from deb nilfs-tools
+  command 'less' from deb less
+  command 'lsns' from deb util-linux
+  command 'ss' from deb iproute2
+  command 'lsw' from deb suckless-tools
+  command 'lsh' from deb lsh-client
+  command 'lsm' from deb lsm
+  command 'ass' from deb irpas
+  command 'lrs' from deb lrslib
+  command 'les' from deb atm-tools
+  command 'lvs' from deb lvm2
+  command 'gss' from deb libgss-dev
+  command 'ls' from deb coreutils
+
+See 'snap info <snapname>' for additional versions.
+
+
+INPUT|usc430ah-intro-34|U |1580875321|usc430ah|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ah-intro-35|U |1580875323|usc430ah|intro:cd|
+INPUT|usc430ah-intro-36|U |1580875324|usc430ah|intro:cd ..|
+INPUT|usc430ah-intro-37|U |1580875325|usc430ah|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ah
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ah-intro-38|U |1580875327|usc430ah|intro:cd ..|
+INPUT|usc430ah-intro-39|U |1580875328|usc430ah|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ah-intro-40|U |1580875332|usc430ah|intro:pwd|/
+
+INPUT|usc430ah-intro-41|U |1580875334|usc430ah|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ah-intro-42|U |1580875336|usc430ah|intro:pwd|/
+
+INPUT|usc430ah-intro-43|A4 A1 A2 A3 A0 |1580875349|usc430ah|intro:find . -name "intro"|find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-resolved.service-hZfoYx': Permission denied
+find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-timesyncd.service-oEkolb': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430ah-intro-44|U |1580875381|usc430ah|intro:pwd|/
+
+INPUT|usc430ah-intro-45|U |1580875383|usc430ah|intro:cd |
+INPUT|usc430ah-intro-46|U |1580875386|usc430ah|intro:cd /|
+INPUT|usc430ah-intro-47|U |1580875388|usc430ah|intro:l;s|l: command not found
+s: command not found
+
+INPUT|usc430ah-intro-48|U |1580875389|usc430ah|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ah-intro-49|U |1580875391|usc430ah|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ah-intro-50|U |1580875403|usc430ah|intro:;s|bash: syntax error near unexpected token `;'
+
+INPUT|usc430ah-intro-51|U |1580875404|usc430ah|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ah
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ah-intro-52|U |1580875407|usc430ah|intro:cd usc430ah/|
+INPUT|usc430ah-intro-53|U |1580875408|usc430ah|intro:ls|thomas.png  usc430ah.txt
+
+INPUT|usc430ah-intro-54|A0 A2 A3 A1 A4 |1580875520|usc430ah|intro:find . -name "Intro"|
+INPUT|usc430ah-intro-55|A0 A2 A3 A4 A1 |1580875529|usc430ah|intro:find . -name "Intro"|
+INPUT|usc430ah-intro-56|U |1580875534|usc430ah|intro:cd                  |
+INPUT|usc430ah-intro-57|U |1580875536|usc430ah|intro:cd ..|
+INPUT|usc430ah-intro-58|U |1580875537|usc430ah|intro:cd .. |
+INPUT|usc430ah-intro-59|U |1580875539|usc430ah|intro:cd .. |
+INPUT|usc430ah-intro-60|U |1580875540|usc430ah|intro:cd .. |
+INPUT|usc430ah-intro-61|U |1580875541|usc430ah|intro:pwd|/
+
+INPUT|usc430ah-intro-62|A3 A2 A0 A4 A1 |1580875545|usc430ah|intro:find . -name "Intro"|find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-resolved.service-hZfoYx': Permission denied
+find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-timesyncd.service-oEkolb': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430ah-intro-63|A1 A4 A0 A2 A3 |1580875559|usc430ah|intro:find . -name "INTRO"|find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-resolved.service-hZfoYx': Permission denied
+find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-timesyncd.service-oEkolb': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430ah-intro-64|M2 M0 |1580875644|usc430ah|intro:find . -name "*.jpg"|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-resolved.service-hZfoYx': Permission denied
+find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-timesyncd.service-oEkolb': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied;1580875646
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission de
+INPUT|usc430ah-intro-65|M2 M0 |1580875697|usc430ah|intro:find . -name "*.jpg"|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-resolved.service-hZfoYx': Permission denied
+find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-timesyncd.service-oEkolb': Permission denied;1580875698
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied;1580875699
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Pe
+INPUT|usc430ah-intro-66|M2 M0 |1580875724|usc430ah|intro:find . -name "*.jpg"|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+
+INPUT|usc430ah-intro-67|M2 M0 |1580875775|usc430ah|intro:find . -name "*.jpg" | head -n 5|find: ./usr/share/pixmaps/xbzf136INTRO-1.jpg
+'./tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-resolved.service-hZfoYx': Permission denied
+find: './tmp/systemd-private-13141ac49b964a68bd3dac2f48a5bec9-systemd-timesyncd.service-oEkolb': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied;1580875777
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission de
+INPUT|usc430ah-intro-68|M2 M0 |1580875782|usc430ah|intro:find . -name "*.jpg" | head -n 5|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+
+INPUT|usc430ah-intro-69|M4 |1580875793|usc430ah|intro:find . -name "*.jpeg" | head -n 5|./.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ah-intro-70|A3 A2 A0 A1 A4 |1580875845|usc430ah|intro:find . -name "*.jpe" | head -n 5|
+INPUT|usc430ah-intro-71|A1 A4 A2 A3 A0 |1580875858|usc430ah|intro:find . -name "*.jfif" | head -n 5|
+INPUT|usc430ah-intro-72|A1 A4 A2 A3 A0 |1580875874|usc430ah|intro:find . -name "*.jif" | head -n 5|
+INPUT|usc430ah-intro-73|M2 M0 |1580875940|usc430ah|intro:find / -name "*.jpg" | head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ah-intro-74|M4 |1580875962|usc430ah|intro:find / -name "*.jpeg" | head -n 5|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ah-intro-75|U |1580876037|usc430ah|intro:grep -rnw \ -e 'intro'|grep: intro: No such file or directory
+
+INPUT|usc430ah-intro-76|U |1580876050|usc430ah|intro:grep -rnw / -e 'intro'|/local/logs/intro_startcmd.status.10:5:COMMAND=(sudo /proj/USC430/intro.sh >& /tmp/labinstall.log ; /usr/local/etc/emulab/startcmddone $?)
+/users/usc430ah/.ssh/known_hosts:2:intro.hw1-usc430ah.usc430.isi.deterlab.net ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAs2hwRkSsGpHiteOhs0ybgckgHndr9z26E7RMPaB0k+Lx7fHyRl2qHGBaLWv943b3QQ5hX6fNG1IXPAiFNcxAlUT6wqYpVZHrE960aqoSGgMTW1F4Oiz46XiaCHbeXbs55uD1oWseye2uYv1A767T/h8XgV4fTseDVbdaecgxeH0=
+/usr/local/src/analyze_continuous.py:84:    #The sample line for root prompt is '
+
+INPUT|usc430ah-intro-77|U |1581299538|usc430ah|server:python top_secret/server.py |starting up on localhost port 80
+Traceback (most recent call last):
+  File \"top_secret/server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ah-intro-78|U |1581299568|usc430ah|server:python top_secret/server.py |starting up on localhost port 80
+quitr;1581299710
+^CTraceback (most recent call last):
+  File \"top_secret/server.py\" line 24 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ah-intro-79|U |1581299717|usc430ah|server:cat top_secret/server.py |import socket
+import sys
+import os
+
+# Ability to read a file
+def readFile(filename):
+    filehandle = open(filename)
+    print filehandle.read()
+    filehandle.close()
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('localhost' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+	# Wait for a connection
+	connection client_address = sock.accept()
+
+	try:
+		print >>sys.stderr 'connection from' client_address
+
+		while True:
+			data = connection.recv(10000)
+			args = data.split()
+			if len(args) >= 3:
+				http_method = args[0]
+				file_name = args[1]
+				http_version = args[2]
+				full_filepath = '/tmp/' + file_name
+
+				file_exists = os.path.isfile(full_filepath)
+				if file_exists:
+					filehandle = open(full_filepath)
+					file_contents = filehandle.read()
+					connection.sendall(http_version + ' 200
+INPUT|usc430ah-intro-80|U |1581299732|usc430ah|server:vim top_secret/server.py |"top_secret/server.py" [noeol] 52L 1213C½6n  >cimport socket
+import sys
+import os
+
+# Ability to read a file
+def readFile(filename):
+    filehandle = open(filename)
+    print filehandle.read()
+    filehandle.close()
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('localhost' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+import socket
+import sys
+import os
+
+# Ability to read a file
+def readFile(filename):
+    filehandle = open(filename)
+    print filehandle.read()
+    filehandle.close()
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('localhost' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+\"top_secret/server.py\" 52L 1211C 
+INPUT|usc430ah-intro-81|U |1581299751|usc430ah|server:python top_secret/server.py |starting up on server port 80
+Traceback (most recent call last):
+  File \"top_secret/server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ah-intro-82|U |1581299757|usc430ah|server:python top_secret/server.py |starting up on server port 80
+connection from ('10.1.1.2' 44482)
+^CTraceback (most recent call last):
+  File \"top_secret/server.py\" line 24 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ah-intro-83|U |1581299850|usc430ah|server:python top_secret/server.py |starting up on server port 80
+Traceback (most recent call last):
+  File \"top_secret/server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ah-intro-84|U |1581299855|usc430ah|server:python top_secret/server.py |starting up on server port 80
+Traceback (most recent call last):
+  File \"top_secret/server.py\" line 17 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ah-intro-85|U |1581299876|usc430ah|server:fuser 80/tcp |
+INPUT|usc430ah-intro-86|U |1581299879|usc430ah|server:python top_secret/server.py |starting up on server port 80
+connection from ('10.1.1.2' 44484)
+^CTraceback (most recent call last):
+  File \"top_secret/server.py\" line 24 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ah-intro-87|U |1581299935|usc430ah|server:ls|systemd-private-97269616f59845dca815ba2c3f4b476e-systemd-resolved.service-i5FDzb
+systemd-private-97269616f59845dca815ba2c3f4b476e-systemd-timesyncd.service-hLOaN0
+
+INPUT|usc430ah-intro-88|U |1581299940|usc430ah|server:cd|
+INPUT|usc430ah-intro-89|U |1581299952|usc430ah|server:touch /tmp/test.txt|
+INPUT|usc430ah-intro-90|U |1581299957|usc430ah|server:vim /tmp/test.txt |"/tmp/test.txt" 1L 15C writtenRT --0111CAllT12h3i4s56i7s89a101t2e3s4t5^[  11410CAll::wq
+
+
+INPUT|usc430ah-intro-91|U |1581299967|usc430ah|server:20Psudo python top_secret/server.py |starting up on server port 80
+connection from ('10.1.1.2' 44486)
+^CTraceback (most recent call last):
+  File \"top_secret/server.py\" line 24 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ah-intro-92|U |1581300029|usc430ah|server:ls |client.py  thomas.png  usc430ah.txt
+server.py  top_secret  xbzf136INTRO-1.jpg
+
+INPUT|usc430ah-intro-93|U |1581300033|usc430ah|server:cd top_secret/|
+INPUT|usc430ah-intro-94|U |1581300034|usc430ah|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     diskfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430ah-intro-95|U |1581300036|usc430ah|server:cat client.py |import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Connect the socket to the port where the server is listening
+server_address = (sys.argv[1] 80)
+print >>sys.stderr 'connecting to %%s port %%s' %% server_address
+sock.connect(server_address)
+
+try:
+
+    # Look for the response
+    while True:
+    
+        # Send data
+        request = raw_input(\"Please Enter Your Request\
+\")
+        sock.sendall(request)
+
+        data = sock.recv(10000)
+        print >>sys.stderr data
+
+finally:
+    print >>sys.stderr 'closing socket'
+    sock.close()
+
+
+
+INPUT|usc430ah-intro-96|U |1581300045|usc430ah|server:cat server.py |import socket
+import sys
+import os
+
+# Ability to read a file
+def readFile(filename):
+    filehandle = open(filename)
+    print filehandle.read()
+    filehandle.close()
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+	# Wait for a connection
+	connection client_address = sock.accept()
+
+	try:
+		print >>sys.stderr 'connection from' client_address
+
+		while True:
+			data = connection.recv(10000)
+			args = data.split()
+			if len(args) >= 3:
+				http_method = args[0]
+				file_name = args[1]
+				http_version = args[2]
+				full_filepath = '/tmp/' + file_name
+
+				file_exists = os.path.isfile(full_filepath)
+				if file_exists:
+					filehandle = open(full_filepath)
+					file_contents = filehandle.read()
+					connection.sendall(http_version + ' 200 OK
+INPUT|usc430ah-intro-97|U |1581300056|usc430ah|server:cd|
+INPUT|usc430ah-intro-98|U |1581300058|usc430ah|server:ls|client.py  thomas.png  usc430ah.txt
+server.py  top_secret  xbzf136INTRO-1.jpg
+
+INPUT|usc430ah-intro-99|U |1581300060|usc430ah|server:cat server.py |import socket
+import sys
+import os
+
+# Ability to read a file
+def readFile(filename):
+    filehandle = open(filename)
+    print filehandle.read()
+    filehandle.close()
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('localhost' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+	# Wait for a connection
+	connection client_address = sock.accept()
+
+	try:
+		print >>sys.stderr 'connection from' client_address
+
+		while True:
+			data = connection.recv(10000)
+			args = data.split()
+			if len(args) >= 3:
+				http_method = args[0]
+				file_name = args[1]
+				http_version = args[2]
+				full_filepath = '/tmp/' + file_name
+
+				file_exists = os.path.isfile(full_filepath)
+				if file_exists:
+					filehandle = open(full_filepath)
+					file_contents = filehandle.read()
+					connection.sendall(http_version + ' 200
+INPUT|usc430ah-intro-100|U |1581300067|usc430ah|server:rm server.py |
+INPUT|usc430ah-intro-101|U |1581300069|usc430ah|server:ls|client.py  thomas.png  top_secret  usc430ah.txt  xbzf136INTRO-1.jpg
+
+INPUT|usc430ah-intro-102|U |1581300071|usc430ah|server:cat client.py |import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Connect the socket to the port where the server is listening
+server_address = (sys.argv[1] 8080)
+print >>sys.stderr 'connecting to %%s port %%s' %% server_address
+sock.connect(server_address)
+
+try:
+
+    # Look for the response
+    while True:
+    
+        # Send data
+        request = raw_input(\"Please Enter Your Request\
+\")
+        sock.sendall(request)
+
+        data = sock.recv(10000)
+        print >>sys.stderr data
+
+finally:
+    print >>sys.stderr 'closing socket'
+    sock.close()
+
+
+
+INPUT|usc430ah-intro-103|U |1581300076|usc430ah|server:rm client.py |
+INPUT|usc430ah-intro-104|U |1581300079|usc430ah|server:ls|thomas.png  top_secret	usc430ah.txt  xbzf136INTRO-1.jpg
+
+INPUT|usc430ah-intro-105|U |1581300083|usc430ah|server:cd top_secret/|
+INPUT|usc430ah-intro-106|U |1581300084|usc430ah|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     diskfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430ah-intro-107|U |1581300087|usc430ah|server:cd ..|
+INPUT|usc430ah-intro-108|U |1581300090|usc430ah|server:ls|thomas.png  top_secret	usc430ah.txt
+
+INPUT|usc430ah-intro-109|U |1581300095|usc430ah|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     diskfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430ah-intro-110|U |1581300130|usc430ah|server:cat answers.txt |\name: Tomas Craig
+email address: tcraig@usc.edu
+DeterLab username: usc430ah
+
+Images
+
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+Forbidden Planet
+
+./var/log/136intro-3.jpg
+It Came From Outer Space
+
+./.hidden/asdf136Intro-5kqlw.jpeg
+2001 A Space Odyssey
+
+/etc/wuer136intro-4.JPG
+She had to kill the thing her husband had become â€“ but should she? The Fly
+
+/dev/136intro-2jjaj.JPEG
+Godzilla: King of the Monsters
+
+1. /var directory contains information that the system writes updates and changes during its operation hence the term var derived from variable.
+
+2. /dev directory contains files that control access to peripheral devices like speakers and hard drives.
+
+3. [in diskfree.txt]
+
+4. GenuineIntel
+
+
+INPUT|usc430ah-intro-111|U |1581300157|usc430ah|server:ls|thomas.png  top_secret	usc430ah.txt
+
+INPUT|usc430ah-intro-112|U |1581300178|usc430ah|server:ls|foo.txt  thomas.png  top_secret  usc430ah.txt
+
+INPUT|usc430ah-intro-113|U |1581300180|usc430ah|server:rm foo.txt |
+INPUT|usc430ah-intro-114|U |1581300181|usc430ah|server:ls|thomas.png  top_secret	usc430ah.txt
+
+INPUT|usc430ah-intro-115|U |1581300229|usc430ah|server:tar cvzf top_secret.tar.gz top_secret/|top_secret/
+top_secret/xbzf136INTRO-1.jpg
+top_secret/136intro-3.jpg
+top_secret/asdf136Intro-5kqlw.jpeg
+top_secret/wuer136intro-4.JPG
+top_secret/136intro-2jjaj.JPEG
+top_secret/diskfree.txt
+top_secret/answers.txt
+top_secret/client.py
+top_secret/server.py
+
+INPUT|usc430ah-intro-116|U |1581300241|usc430ah|server:ls|thomas.png  top_secret	top_secret.tar.gz  usc430ah.txt
+

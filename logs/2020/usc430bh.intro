@@ -1,0 +1,3960 @@
+User usc430bh start time 1580007499 end 1587089567
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430bh-intro-0|U |000000000|usc430bh|:|
+INPUT|usc430bh-intro-1|U |000000000|usc430bh|:|
+INPUT|usc430bh-intro-2|U |1580007499|usc430bh|intro:ls  |comparebh.txt  testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-3|A1 A4 A0 A2 A3 |1580007560|usc430bh|intro:find . -name '*intro*'|
+INPUT|usc430bh-intro-4|A2 A3 A0 A4 A1 |1580007565|usc430bh|intro:find . -name '*intro*' -print|
+INPUT|usc430bh-intro-5|A2 A3 A0 A1 A4 |1580007581|usc430bh|intro:find -name '*intro*' -print|
+INPUT|usc430bh-intro-6|A0 A2 A3 A4 A1 |1580007584|usc430bh|intro:find -name '*intro*' -print|
+INPUT|usc430bh-intro-7|A2 A3 A0 A1 A4 |1580007674|usc430bh|intro:find . -name '*testing123.txt*'|./testing123.txt
+
+INPUT|usc430bh-intro-8|A4 A1 A3 A2 A0 |1580007695|usc430bh|intro:find . -name '*.txt*'|./testing123.txt
+./usc430bh.txt
+./comparebh.txt
+
+INPUT|usc430bh-intro-9|A1 A4 A3 A2 A0 |1580007717|usc430bh|intro:find . -name '*.jpeg*'|
+INPUT|usc430bh-intro-10|U |1580007749|usc430bh|intro:ls -a|.   .bash_history  comparebh.txt  .gnupg  .ssl		  usc430bh.txt
+..  .cache	   .forward	  .ssh	  testing123.txt
+
+INPUT|usc430bh-intro-11|U |1580007767|usc430bh|intro:ls -d|.
+
+INPUT|usc430bh-intro-12|A3 A2 A0 A4 A1 |1580007834|usc430bh|intro:find .  -name '*testing123.txt*'|./testing123.txt
+
+INPUT|usc430bh-intro-13|A3 A2 A0 A1 A4 |1580007842|usc430bh|intro:find -name '.txt*'|
+INPUT|usc430bh-intro-14|A4 A1 A2 A3 A0 |1580007849|usc430bh|intro:find -name '*.txt*'|./testing123.txt
+./usc430bh.txt
+./comparebh.txt
+
+INPUT|usc430bh-intro-15|A1 A4 A0 A2 A3 |1580007878|usc430bh|intro:locate intro       |locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bh-intro-16|A1 A4 A3 A2 A0 |1580007965|usc430bh|intro:locate --basename '\*.txt\'|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bh-intro-17|U |1580007987|usc430bh|intro:updatedb|
+INPUT|usc430bh-intro-18|A1 A4 A2 A3 A0 |1580008003|usc430bh|intro:locate --basename '\*.txt\'|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+
+INPUT|usc430bh-intro-19|A4 A1 A3 A2 A0 |1580008047|usc430bh|intro:locate --basename '\*.txt\'|
+INPUT|usc430bh-intro-20|A3 A2 A0 A4 A1 |1580008064|usc430bh|intro:locate --basename '\*.txt*'|
+INPUT|usc430bh-intro-21|A4 A1 A3 A2 A0 |1580008069|usc430bh|intro:locate --basename '*.txt*'|/boot/grub/gfxblacklist.txt
+/etc/X11/rgb.txt
+/lib/firmware/ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA6174/hw2.1/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
+/lib/firmware/ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
+/lib/firmware/ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
+/lib/firmware/ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
+/lib/firmware/carl9170fw/CMakeLists.txt
+/lib/firmware/carl9170fw/carlfw/CMakeLists.txt
+/lib/firmware/carl9170fw/config/CMakeLists.txt
+/lib/firmware/carl9170fw/minifw/CMakeLists.txt
+/lib/firmware/carl9170fw/tools/CMakeLists.txt
+/lib/firmware/carl9170fw
+INPUT|usc430bh-intro-22|M4 |1580008077|usc430bh|intro:locate --basename '*.jpeg*'|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430bh-intro-23|A4 A1 A2 A3 A0 |1580008137|usc430bh|intro:find . -name '*.jpeg*'|
+INPUT|usc430bh-intro-24|U |1580008430|usc430bh|intro:ls -a     |.   .bash_history  comparebh.txt  .gnupg  .ssl		  usc430bh.txt
+..  .cache	   .forward	  .ssh	  testing123.txt
+
+INPUT|usc430bh-intro-25|U |1580008444|usc430bh|intro:cd /.hidden|
+INPUT|usc430bh-intro-26|U |1580008445|usc430bh|intro:ls|asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430bh-intro-27|U |1580008498|usc430bh|intro:scp usc430bh@intro:asdf136Intro-5kqlw.jpeg|usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430bh-intro-28|U |1580008508|usc430bh|intro:scp usc430bh@intro:asdf136Intro-5kqlw.jpeg .|The authenticity of host 'intro (192.168.1.112)' can't be established.
+RSA key fingerprint is SHA256:t0vpeOm78PtRRaGx4qRt4PNUu2ZCRGzEBSfGP541+n0.
+Are you sure you want to continue connecting (yes/no)? yes;1580008514
+Warning: Permanently added 'intro192.168.1.112' (RSA) to the list of known hosts.
+bash: cannot set terminal process group (2466): Inappropriate ioctl for device
+bash: no job control in this shell
+scp: asdf136Intro-5kqlw.jpeg: No such file or directory
+
+INPUT|usc430bh-intro-29|U |1580008547|usc430bh|intro:clear|
+
+INPUT|usc430bh-intro-30|U |1580008550|usc430bh|intro:cd ..|
+INPUT|usc430bh-intro-31|U |1580008551|usc430bh|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430bh-intro-32|U |1580008556|usc430bh|intro:ls -a|.     dev      initrd.img      local	   opt	 run	srv    usr
+..    etc      initrd.img.old  lost+found  proc  sbin	sys    var
+bin   .hidden  lib	       media	   proj  share	tmp    vmlinuz
+boot  home     lib64	       mnt	   root  snap	users  vmlinuz.old
+
+INPUT|usc430bh-intro-33|U |1580008566|usc430bh|intro:cd ..|
+INPUT|usc430bh-intro-34|U |1580008568|usc430bh|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430bh-intro-35|U |1580669010|usc430bh|intro:ls|comparebh.txt  testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-36|U |1580669041|usc430bh|intro:mkdir topsecret|
+INPUT|usc430bh-intro-37|U |1580669042|usc430bh|intro:ls|comparebh.txt  testing123.txt  topsecret  usc430bh.txt
+
+INPUT|usc430bh-intro-38|U |1580669084|usc430bh|intro:rm -h|rm: invalid option -- 'h'
+Try 'rm --help' for more information.
+
+INPUT|usc430bh-intro-39|U |1580669105|usc430bh|intro:rmdir topsecret|
+INPUT|usc430bh-intro-40|U |1580669106|usc430bh|intro:ls|comparebh.txt  testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-41|U |1580669124|usc430bh|intro:mkdir top_secret|
+INPUT|usc430bh-intro-42|U |1580669125|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-43|U |1580669140|usc430bh|intro:ls top_secret|
+INPUT|usc430bh-intro-44|U |1580669142|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-45|U |1580669149|usc430bh|intro:cd top_secret|
+INPUT|usc430bh-intro-46|U |1580669151|usc430bh|intro:ls|
+INPUT|usc430bh-intro-47|U |1580669172|usc430bh|intro:cd ..|
+INPUT|usc430bh-intro-48|U |1580669174|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+TH;     rm $TMPPATH;  fiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AAAAAAAAAAAAAAAAAAAAAAAA
+
+INPUT|usc430bh-intro-49|A2 A3 A0 A4 A1 |1580669329|usc430bh|intro:locate -name "*intro*"|locate: invalid value `ame' of --limit
+
+INPUT|usc430bh-intro-50|A4 A1 A2 A3 A0 |1580669340|usc430bh|intro:locate "*intro*"|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bh-intro-51|U |1580669370|usc430bh|intro:updatedb|
+INPUT|usc430bh-intro-52|A3 A2 A0 A4 A1 |1580669388|usc430bh|intro:locate "*intro*"|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+
+INPUT|usc430bh-intro-53|M3 M2 |1580669395|usc430bh|intro:locate "*intro*"|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430bh.hw1-usc430bh.intro.csv
+/var/log/ttylog/usc430bh.hw1-usc430bh.intro.log
+
+INPUT|usc430bh-intro-54|M2 |1580669523|usc430bh|intro:locate "*intro*jpg"|/var/log/136intro-3.jpg
+
+INPUT|usc430bh-intro-55|M3 M2 M0 |1580669665|usc430bh|intro:locate -i "*intro*jpg"|/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430bh-intro-56|M4 M3 M2 M0 |1580669739|usc430bh|intro:locate -i "*136*"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/lib/modules/4.15.0-20-generic/kernel/drivers/iio/adc/max1363.ko
+/lib/modules/4.15.0-20-generic/kernel/drivers/iio/gyro/adis16136.ko
+/lib/modules/4.15.0-20-generic/kernel/drivers/usb/host/isp1362-hcd.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/iio/adc/max1363.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/iio/gyro/adis16136.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/usb/host/isp1362-hcd.ko
+/lib/modules/4.15.0-43-generic/vdso/.build-id/97/f6f8a7c6f5d2e2d01d0a039565136c649154c1.debug
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/IBM1364.so
+/usr/lib/x86_64-linux-gnu/gconv/IBM1364.so
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/src/linux-headers-4.15.0-20/include/linux/usb/isp1362.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/adis16136.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/max1363.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/usb/isp1362
+/usr/src/linux-headers-4.15.0-20-generic/i
+INPUT|usc430bh-intro-57|A0 A2 A3 A4 A1 |1580669818|usc430bh|intro:locate -i "*intro-2*"|
+INPUT|usc430bh-intro-58|M4 |1580669832|usc430bh|intro:locate -i "*jpeg*"|/.hidden/asdf136Intro-5kqlw.jpeg
+/boot/grub/i386-pc/jpeg.mod
+/usr/include/boost/gil/extension/io/jpeg_dynamic_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io_private.hpp
+/usr/lib/grub/i386-pc/jpeg.mod
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.la
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.so
+/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.so
+/usr/share/bash-completion/completions/jpegoptim
+/usr/share/doc/libjpeg-turbo8
+/usr/share/doc/libjpeg8
+/usr/share/doc/libjpeg-turbo8/changelog.Debian.gz
+/usr/share/doc/libjpeg-turbo8/copyright
+/usr/share/doc/libjpeg8/changelog.Debian.gz
+/usr/share/doc/libjpeg8/copyright
+/usr/share/ghostscript/9.26/lib/viewjpeg.ps
+/usr/share/icons/Humanity/mimes/16/gnome-mime-image-jpeg.svg
+/usr/share/icons/Humanity/mimes/16/image-jpeg.svg
+/usr/share/icons/H
+INPUT|usc430bh-intro-59|M2 |1580669909|usc430bh|intro:locate "*intro*jpg"|/var/log/136intro-3.jpg
+
+INPUT|usc430bh-intro-60|M4 M3 M2 M0 |1580670058|usc430bh|intro:locate -i "*136*"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/lib/modules/4.15.0-20-generic/kernel/drivers/iio/adc/max1363.ko
+/lib/modules/4.15.0-20-generic/kernel/drivers/iio/gyro/adis16136.ko
+/lib/modules/4.15.0-20-generic/kernel/drivers/usb/host/isp1362-hcd.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/iio/adc/max1363.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/iio/gyro/adis16136.ko
+/lib/modules/4.15.0-43-generic/kernel/drivers/usb/host/isp1362-hcd.ko
+/lib/modules/4.15.0-43-generic/vdso/.build-id/97/f6f8a7c6f5d2e2d01d0a039565136c649154c1.debug
+/usr/lib/debug/usr/lib/x86_64-linux-gnu/gconv/IBM1364.so
+/usr/lib/x86_64-linux-gnu/gconv/IBM1364.so
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/src/linux-headers-4.15.0-20/include/linux/usb/isp1362.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/adis16136.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/max1363.h
+/usr/src/linux-headers-4.15.0-20-generic/include/config/usb/isp1362
+/usr/src/linux-headers-4.15.0-20-generic/i
+INPUT|usc430bh-intro-61|M4 M3 M2 M0 |1580670079|usc430bh|intro:locate -i "*136intro*"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430bh-intro-62|M3 M2 M0 |1580670109|usc430bh|intro:locate -i "*jpg*"|/etc/wuer136intro-4.JPG
+/usr/share/icons/Humanity/mimes/16/jpg.svg
+/usr/share/icons/Humanity/mimes/22/jpg.svg
+/usr/share/icons/Humanity/mimes/24/jpg.svg
+/usr/share/icons/Humanity/mimes/48/jpg.svg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430bh-intro-63|M4 |1580670121|usc430bh|intro:locate -i "*jpeg*"|/.hidden/asdf136Intro-5kqlw.jpeg
+/boot/grub/i386-pc/jpeg.mod
+/usr/include/boost/gil/extension/io/jpeg_dynamic_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io_private.hpp
+/usr/lib/grub/i386-pc/jpeg.mod
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.la
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.so
+/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.so
+/usr/share/bash-completion/completions/jpegoptim
+/usr/share/doc/libjpeg-turbo8
+/usr/share/doc/libjpeg8
+/usr/share/doc/libjpeg-turbo8/changelog.Debian.gz
+/usr/share/doc/libjpeg-turbo8/copyright
+/usr/share/doc/libjpeg8/changelog.Debian.gz
+/usr/share/doc/libjpeg8/copyright
+/usr/share/ghostscript/9.26/lib/viewjpeg.ps
+/usr/share/icons/Humanity/mimes/16/gnome-mime-image-jpeg.svg
+/usr/share/icons/Humanity/mimes/16/image-jpeg.svg
+/usr/share/icons/H
+INPUT|usc430bh-intro-64|M4 |1580670149|usc430bh|intro:locate -i "*jpeg"|/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+/usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+/usr/src/linux-headers-4.15.0-43/drivers/media/platform/mtk-jpeg
+/usr/src/linux-headers-4.15.0-43/drivers/media/platform/s5p-jpeg
+
+INPUT|usc430bh-intro-65|A3 A2 A0 A1 A4 |1580670299|usc430bh|intro:locate -i "*intro-2*"|
+INPUT|usc430bh-intro-66|A1 A4 A3 A2 A0 |1580670343|usc430bh|intro:locate -i "*-2*jpeg"|/usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+/usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+
+INPUT|usc430bh-intro-67|A1 A4 A0 A2 A3 |1580670356|usc430bh|intro:locate -i "*-2*jpg"|
+INPUT|usc430bh-intro-68|M4 |1580670441|usc430bh|intro:locate -i "*jpe*"|/.hidden/asdf136Intro-5kqlw.jpeg
+/boot/grub/i386-pc/jpeg.mod
+/usr/include/boost/gil/extension/io/jpeg_dynamic_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io_private.hpp
+/usr/lib/grub/i386-pc/jpeg.mod
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.la
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.so
+/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.so
+/usr/share/bash-completion/completions/jpegoptim
+/usr/share/doc/libjpeg-turbo8
+/usr/share/doc/libjpeg8
+/usr/share/doc/libjpeg-turbo8/changelog.Debian.gz
+/usr/share/doc/libjpeg-turbo8/copyright
+/usr/share/doc/libjpeg8/changelog.Debian.gz
+/usr/share/doc/libjpeg8/copyright
+/usr/share/ghostscript/9.26/lib/viewjpeg.ps
+/usr/share/icons/Humanity/mimes/16/gnome-mime-image-jpeg.svg
+/usr/share/icons/Humanity/mimes/16/image-jpeg.svg
+/usr/share/icons/H
+INPUT|usc430bh-intro-69|A4 A1 A3 A2 A0 |1580670450|usc430bh|intro:locate -i "*jpe"|
+INPUT|usc430bh-intro-70|A3 A2 A0 A1 A4 |1580670456|usc430bh|intro:locate -i "*jif"|
+INPUT|usc430bh-intro-71|A1 A4 A2 A3 A0 |1580670461|usc430bh|intro:locate -i "*jfif"|
+INPUT|usc430bh-intro-72|A4 A1 A0 A2 A3 |1580670467|usc430bh|intro:locate -i "*jfi"|
+INPUT|usc430bh-intro-73|A1 A4 A3 A2 A0 |1580670550|usc430bh|intro:locate -h|Usage: locate [OPTION]... [PATTERN]...
+Search for entries in a mlocate database.
+
+  -A --all              only print entries that match all patterns
+  -b --basename         match only the base name of path names
+  -c --count            only print number of found entries
+  -d --database DBPATH  use DBPATH instead of default database (which is
+                         /var/lib/mlocate/mlocate.db)
+  -e --existing         only print entries for currently existing files
+  -L --follow           follow trailing symbolic links when checking file
+                         existence (default)
+  -h --help             print this help
+  -i --ignore-case      ignore case distinctions when matching patterns
+  -p --ignore-spaces    ignore punctuation and spaces when matching patterns
+  -t --transliterate    ignore accents using iconv transliteration when
+                         matching patterns
+  -l --limit -n LIMIT  limit output (or counting) to LIMIT entries
+  -m --mmap             ignored for back
+INPUT|usc430bh-intro-74|M4 M3 M2 M0 |1580670796|usc430bh|intro:locate -i -p "*136intro*"|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430bh-intro-75|A1 A4 A0 A2 A3 |1580670824|usc430bh|intro:find -help|Usage: find [-H] [-L] [-P] [-Olevel] [-D debugopts] [path...] [expression]
+
+default path is the current directory; default expression is -print
+expression may consist of: operators options tests and actions:
+operators (decreasing precedence; -and is implicit where no others are given):
+      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2
+      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1  EXPR2
+positional options (always true): -daystart -follow -regextype
+
+normal options (always true specified before other expressions):
+      -depth --help -maxdepth LEVELS -mindepth LEVELS -mount -noleaf
+      --version -xdev -ignore_readdir_race -noignore_readdir_race
+tests (N can be +N or -N or N): -amin N -anewer FILE -atime N -cmin N
+      -cnewer FILE -ctime N -empty -false -fstype TYPE -gid N -group NAME
+      -ilname PATTERN -iname PATTERN -inum N -iwholename PATTERN -iregex PATTERN
+      -links N -lname PATTERN -mmin N -mtime N -name PATTERN -newer FILE
+      -nouser -nogroup -p
+INPUT|usc430bh-intro-76|A3 A2 A0 A1 A4 |1580670832|usc430bh|intro:find -h   |find: unknown predicate `-h'
+
+INPUT|usc430bh-intro-77|A4 A1 A2 A3 A0 |1580670847|usc430bh|intro:find -help|Usage: find [-H] [-L] [-P] [-Olevel] [-D debugopts] [path...] [expression]
+
+default path is the current directory; default expression is -print
+expression may consist of: operators options tests and actions:
+operators (decreasing precedence; -and is implicit where no others are given):
+      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2
+      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1  EXPR2
+positional options (always true): -daystart -follow -regextype
+
+normal options (always true specified before other expressions):
+      -depth --help -maxdepth LEVELS -mindepth LEVELS -mount -noleaf
+      --version -xdev -ignore_readdir_race -noignore_readdir_race
+tests (N can be +N or -N or N): -amin N -anewer FILE -atime N -cmin N
+      -cnewer FILE -ctime N -empty -false -fstype TYPE -gid N -group NAME
+      -ilname PATTERN -iname PATTERN -inum N -iwholename PATTERN -iregex PATTERN
+      -links N -lname PATTERN -mmin N -mtime N -name PATTERN -newer FILE
+      -nouser -nogroup -p
+INPUT|usc430bh-intro-78|A1 A4 A0 A2 A3 |1580670872|usc430bh|intro:find -i "*intro*"|find: unknown predicate `-i'
+
+INPUT|usc430bh-intro-79|A2 A3 A0 A1 A4 |1580670878|usc430bh|intro:find "*intro*"|find: '*intro*': No such file or directory
+
+INPUT|usc430bh-intro-80|A0 A2 A3 A1 A4 |1580670885|usc430bh|intro:find -name "*intro*"|
+INPUT|usc430bh-intro-81|A0 A2 A3 A4 A1 |1580670981|usc430bh|intro:find . -name "*intro*"|
+INPUT|usc430bh-intro-82|A0 A2 A3 A4 A1 |1580671048|usc430bh|intro:find . -print | grep -i intro|
+INPUT|usc430bh-intro-83|A1 A4 A0 A2 A3 |1580671259|usc430bh|intro:find . -name "*.jpg"|
+INPUT|usc430bh-intro-84|U |1580671270|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-85|M3 M2 M1 |1580671334|usc430bh|intro:find / -name "*intro*"|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: '/tmp/systemd-private-5a3de826da18450bb1cbf5ebd721bee2-systemd-timesyncd.service-2rYqBm': Permission denied
+find: '/tmp/systemd-private-5a3de826da18450bb1cbf5ebd721bee2-systemd-resolved.service-apFrk9': Permission denied
+INPUT|usc430bh-intro-86|M4 M3 M2 M1 M0 |1580671376|usc430bh|intro:find / -print | grep -i 136intro|/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: '/tmp/systemd-private-5a3de826da18450bb1cbf5ebd721bee2-systemd-timesyncd.service-2rYqBm': Permission denied
+find: '/tmp/systemd-private-5a3de826da18450bb1cbf5ebd721bee2-systemd-resolved.service-apFrk9': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission
+INPUT|usc430bh-intro-87|U |1580671532|usc430bh|intro:ls                              |comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-88|U |1580671539|usc430bh|intro:clear|
+
+INPUT|usc430bh-intro-89|U |1580671802|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+TH;     rm $TMPPATH;  fiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA$exit_flag = 1 ]; then     bash;     exit; fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AAAAAAAAAAAAAAAAAAAAAAAA
+TH;     rm $TMPPATH;  fiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AAAAAAAAAAAAAAAAAAAAAAAA
+
+INPUT|usc430bh-intro-90|U |1580672074|usc430bh|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /top-secret|cp: cannot create regular file '/top-secret': Permission denied
+
+INPUT|usc430bh-intro-91|U |1580672080|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-92|U |1580672086|usc430bh|intro:cd top_secret|
+INPUT|usc430bh-intro-93|U |1580672088|usc430bh|intro:pwd|/users/usc430bh/top_secret
+
+INPUT|usc430bh-intro-94|U |1580672097|usc430bh|intro:cd ..|
+INPUT|usc430bh-intro-95|U |1580672101|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+ecret0bh@intro:~$ cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /users/usc430bh/top_se;1580672109
+
+INPUT|usc430bh-intro-96|U |1580672112|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-97|U |1580672117|usc430bh|intro:cd top_secret|
+INPUT|usc430bh-intro-98|U |1580672118|usc430bh|intro:ls|xbzf136INTRO-1.jpg
+
+INPUT|usc430bh-intro-99|U |1580672125|usc430bh|intro:cd ..|ecretA0bh@intro:~$ ls
+A
+A
+
+INPUT|usc430bh-intro-100|U |1580672158|usc430bh|intro:cp /dev/136intro-2jjaj.JPEG|
+INPUT|usc430bh-intro-101|U |1580672188|usc430bh|intro:cp o23/var/log/136intro-3.jpg /users/usc430bh/top_secret|
+INPUT|usc430bh-intro-102|U |1580672216|usc430bh|intro:cp /etc/wuer136intro-4.JPG /users/usc430bh/top_secret|
+INPUT|usc430bh-intro-103|U |1580672246|usc430bh|intro:cp /.hidden/asdf136Intro-5kqlw.jpeg|cp: missing destination file operand after '/.hidden/asdf136Intro-5kqlw.jpeg'
+Try 'cp --help' for more information.
+A
+
+INPUT|usc430bh-intro-104|U |1580672270|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-105|U |1580672274|usc430bh|intro:cd top_secret|
+INPUT|usc430bh-intro-106|U |1580672275|usc430bh|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430bh-intro-107|U |1580672282|usc430bh|intro:clear|
+
+INPUT|usc430bh-intro-108|U |1580672283|usc430bh|intro:cd ..|
+INPUT|usc430bh-intro-109|U |1580672289|usc430bh|intro:cd top_secret|
+INPUT|usc430bh-intro-110|U |1580672291|usc430bh|intro:pwd|/users/usc430bh/top_secret
+
+INPUT|usc430bh-intro-111|U |1580672294|usc430bh|intro:cd ..|
+INPUT|usc430bh-intro-112|U |1580672448|usc430bh|intro:scp usc430bh@users.deterlab.net:/users/usc430bh/top_secret .|;1580672537
+;1580672537
+
+^C
+
+INPUT|usc430bh-intro-113|U |1580672814|usc430bh|intro:ls          |comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-114|U |1580672848|usc430bh|intro:scp usc430bh@users.deterlab.net:usc430bh.txt .              |^C
+
+INPUT|usc430bh-intro-115|U |1580672866|usc430bh|intro:clear|
+
+INPUT|usc430bh-intro-116|U |1580675250|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-117|M6 |1580676048|usc430bh|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1988992         48    1988944   1%% /dev
+tmpfs                                                403952       6172     397780   2%% /run
+/dev/sda1                                          15681948    3256432   11625568  22%% /
+tmpfs                                               2019756          0    2019756   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               2019756          0    2019756   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430bh 2031313280 1138136704  730671488  61%% /users/usc430bh
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1371723520 1365044864  51%% /proj/USC430
+tmpfs                                                403948          0     403948   0%% /run/user/15218
+
+INPUT|usc430bh-intro-118|M6 |1580676133|usc430bh|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              1.9G   48K  1.9G   1%% /dev
+tmpfs                                             395M  6.1M  389M   2%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             2.0G     0  2.0G   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             2.0G     0  2.0G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430bh  1.9T  1.1T  697G  61%% /users/usc430bh
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             395M     0  395M   0%% /run/user/15218
+
+INPUT|usc430bh-intro-119|M5 |1580676432|usc430bh|intro:less /proc/cpuinfo    |processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 15
+model name      : Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping        : 11
+microcode       : 0xba
+cpu MHz         : 1600.088
+cache size      : 4096 KB
+physical id     : 0
+siblings        : 4
+core id         : 0
+cpu cores       : 4
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 10
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips        : 4266.90
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 36 bits physical 48 bits virtual
+power management:
+
+INPUT|usc430bh-intro-120|U |1580676647|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-121|U |1580676648|usc430bh|intro:clear|
+TH;     rm $TMPPATH;  fiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AAAAAAAAAAAAAAAAAAAAAAAA
+
+INPUT|usc430bh-intro-122|U |1580677112|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-123|U |1580677539|usc430bh|intro:ls|answers.txt  comparebh.txt  testing123.txt  top_secret	usc430bh.txt
+
+INPUT|usc430bh-intro-124|U |1580677672|usc430bh|intro:ls|answers.txt    diskfree.txt    top_secret
+comparebh.txt  testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-125|U |1580677693|usc430bh|intro:mv answers.txt /top_secret|mv: cannot create regular file '/top_secret': Permission denied
+
+INPUT|usc430bh-intro-126|U |1580677702|usc430bh|intro:clear|
+
+INPUT|usc430bh-intro-127|U |1580677706|usc430bh|intro:pwd|/users/usc430bh
+
+INPUT|usc430bh-intro-128|U |1580677710|usc430bh|intro:ls|answers.txt    diskfree.txt    top_secret
+comparebh.txt  testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-129|U |1580677770|usc430bh|intro:mv answers.txt top_secret|
+INPUT|usc430bh-intro-130|U |1580677771|usc430bh|intro:ls|comparebh.txt  diskfree.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-131|U |1580677777|usc430bh|intro:cd top_secret|
+INPUT|usc430bh-intro-132|U |1580677779|usc430bh|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430bh-intro-133|U |1580677782|usc430bh|intro:cd .|
+INPUT|usc430bh-intro-134|U |1580677784|usc430bh|intro:cd ..|
+INPUT|usc430bh-intro-135|U |1580677786|usc430bh|intro:ls|comparebh.txt  diskfree.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-136|U |1580677798|usc430bh|intro:mv diskfree.txt top_secret|
+INPUT|usc430bh-intro-137|U |1580677803|usc430bh|intro:cd top_secret|
+INPUT|usc430bh-intro-138|U |1580677805|usc430bh|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430bh-intro-139|U |1580677843|usc430bh|intro:cat answers.txt|Treasure Hunt:
+
+    Image 1:
+        Path: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+        Description: Spaced themed image titled “Forbidden Planet”.
+
+    Image 2:
+        Path: /dev/136intro-2jjaj.JPEG
+        Description: Image of Godzilla causing terror titled “Godzilla: 
+        King of the Monsters”.
+
+    Image 3:
+        Path: /var/log/136intro-3.jpg
+        Description: Space themed image titled “It Came From Outer Space”.
+
+    Image 4:
+        Path: /etc/wuer136intro-4.JPG
+        Description: Image of large bug frightening a women titled “The Fly”.
+
+    Image 5:
+        Path: /.hidden/asdf136Intro-5kqlw.jpeg
+        Description: Spaced themed image titled “2001 a space odyssey”.
+
+Information Hunt:
+
+    1. The /var directory is a subdirectory of the root directory that stores 
+    files that the system writes data to while it is running.
+
+    2. The /dev directory stores special files that control access to 
+    peripheral devices.
+
+    4. Vendor ID: GenuineI
+INPUT|usc430bh-intro-140|U |1580677856|usc430bh|intro:cat diskfree.txt|Information Hunt: Disks
+
+Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              1.9G   48K  1.9G   1%% /dev
+tmpfs                                             395M  6.1M  389M   2%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             2.0G     0  2.0G   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             2.0G     0  2.0G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430bh  1.9T  1.1T  697G  61%% /users/usc430bh
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             395M     0  395M   0%% /run/user/15218
+
+INPUT|usc430bh-intro-141|U |1580677866|usc430bh|intro:clear|
+
+INPUT|usc430bh-intro-142|U |1580677868|usc430bh|intro:cd ..|
+INPUT|usc430bh-intro-143|U |1580677875|usc430bh|intro:ls   |comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-144|U |1580677878|usc430bh|intro:clear|
+
+INPUT|usc430bh-intro-145|U |1580678147|usc430bh|intro:ls|comparebh.txt  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-146|U |1580683476|usc430bh|server:ip config|Object \"config\" is unknown try \"ip help\".
+
+INPUT|usc430bh-intro-147|U |1580683482|usc430bh|server:ipconfig|;1580683483
+Command 'ipconfig' not found did you mean:
+
+  command 'iwconfig' from deb wireless-tools
+  command 'iconfig' from deb ipmiutil
+  command 'ifconfig' from deb net-tools
+
+Try: apt install <deb name>
+
+
+INPUT|usc430bh-intro-148|U |1580683488|usc430bh|server:ifconfig|eth1: flags=4163<UPBROADCASTRUNNINGMULTICAST>  mtu 1500
+        inet 192.168.1.31  netmask 255.255.252.0  broadcast 192.168.3.255
+        inet6 fe80::204:23ff:fe9f:13b8  prefixlen 64  scopeid 0x20<link>
+        ether 00:04:23:9f:13:b8  txqueuelen 1000  (Ethernet)
+        RX packets 5845  bytes 7621945 (7.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1846  bytes 1458710 (1.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth2: flags=4163<UPBROADCASTRUNNINGMULTICAST>  mtu 1500
+        inet 10.1.1.3  netmask 255.255.255.0  broadcast 10.1.1.255
+        inet6 fe80::215:17ff:fe57:c7c1  prefixlen 64  scopeid 0x20<link>
+        ether 00:15:17:57:c7:c1  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 7  bytes 941 (941.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 17  memory 0xfe9a0000-fe9c0000  
+
+lo: f
+INPUT|usc430bh-intro-149|U |1580684087|usc430bh|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.494 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.415 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.566 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.602 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=5 ttl=64 time=0.565 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=6 ttl=64 time=0.424 ms
+^C
+--- client-link0 ping statistics ---
+6 packets transmitted 6 received 0%% packet loss time 5108ms
+rtt min/avg/max/mdev = 0.415/0.511/0.602/0.072 ms
+
+INPUT|usc430bh-intro-150|U |1580684605|usc430bh|server:python server.py |starting up on localhost port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430bh-intro-151|U |1580684660|usc430bh|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430bh-intro-152|U |1580702545|usc430bh|client:clear|
+
+INPUT|usc430bh-intro-153|U |1580702550|usc430bh|server:clear|
+
+INPUT|usc430bh-intro-154|U |1580702553|usc430bh|server:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.048 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.021 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.019 ms
+;1580702555
+64 bytes from server-link0 (10.1.1.3): icmp_seq=4 ttl=64 time=0.018 ms
+^C
+--- server-link0 ping statistics ---
+4 packets transmitted 4 received 0%% packet loss time 3059ms
+rtt min/avg/max/mdev = 0.018/0.026/0.048/0.013 ms
+
+INPUT|usc430bh-intro-155|U |1580702557|usc430bh|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.478 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.372 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.272 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=4 ttl=64 time=0.405 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=5 ttl=64 time=0.282 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=6 ttl=64 time=0.417 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=7 ttl=64 time=0.313 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=8 ttl=64 time=0.223 ms
+^C
+--- server-link0 ping statistics ---
+8 packets transmitted 8 received 0%% packet loss time 7160ms
+rtt min/avg/max/mdev = 0.223/0.345/0.478/0.082 ms
+
+INPUT|usc430bh-intro-156|U |1580702564|usc430bh|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.368 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.385 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.277 ms
+^C
+--- client-link0 ping statistics ---
+3 packets transmitted 3 received 0%% packet loss time 2027ms
+rtt min/avg/max/mdev = 0.277/0.343/0.385/0.049 ms
+
+INPUT|usc430bh-intro-157|U |1580702567|usc430bh|client:clear|
+
+INPUT|usc430bh-intro-158|U |1580702572|usc430bh|server:clear|
+
+INPUT|usc430bh-intro-159|U |1580702589|usc430bh|server:clear|
+
+INPUT|usc430bh-intro-160|U |1580702594|usc430bh|client:clear|
+
+INPUT|usc430bh-intro-161|U |1580702632|usc430bh|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430bh-intro-162|U |1580702699|usc430bh|client:python client.py server|connecting to server port 80
+Traceback (most recent call last):
+  File \"client.py\" line 10 in <module>
+    sock.connect(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430bh-intro-163|U |1580703562|usc430bh|client:python client.py server|connecting to server port 80
+Traceback (most recent call last):
+  File \"client.py\" line 10 in <module>
+    sock.connect(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430bh-intro-164|U |1580703566|usc430bh|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430bh-intro-165|U |1580763561|usc430bh|client:python client.py server|connecting to server port 80
+Traceback (most recent call last):
+  File \"client.py\" line 10 in <module>
+    sock.connect(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430bh-intro-166|U |1580763578|usc430bh|client:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.037 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.019 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.019 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.018 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=5 ttl=64 time=0.020 ms
+^C
+--- client-link0 ping statistics ---
+5 packets transmitted 5 received 0%% packet loss time 4075ms
+rtt min/avg/max/mdev = 0.018/0.022/0.037/0.008 ms
+
+INPUT|usc430bh-intro-167|U |1580763587|usc430bh|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.394 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.272 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.373 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.465 ms
+^Z
+[1]+  Stopped                 ping client
+
+INPUT|usc430bh-intro-168|U |1580763831|usc430bh|client:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.051 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.023 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.022 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.040 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=5 ttl=64 time=0.021 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=6 ttl=64 time=0.023 ms
+^C
+--- client-link0 ping statistics ---
+6 packets transmitted 6 received 0%% packet loss time 5125ms
+rtt min/avg/max/mdev = 0.021/0.030/0.051/0.011 ms
+
+INPUT|usc430bh-intro-169|U |1580765002|usc430bh|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.594 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.498 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.361 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.227 ms
+^C
+--- client-link0 ping statistics ---
+4 packets transmitted 4 received 0%% packet loss time 3058ms
+rtt min/avg/max/mdev = 0.227/0.420/0.594/0.138 ms
+
+INPUT|usc430bh-intro-170|U |1580765011|usc430bh|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.493 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.440 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.247 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=4 ttl=64 time=0.259 ms
+^C
+--- server-link0 ping statistics ---
+4 packets transmitted 4 received 0%% packet loss time 3067ms
+rtt min/avg/max/mdev = 0.247/0.359/0.493/0.110 ms
+
+INPUT|usc430bh-intro-171|U |1580765331|usc430bh|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.359 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.490 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.153 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=4 ttl=64 time=0.308 ms
+^C
+--- server-link0 ping statistics ---
+4 packets transmitted 4 received 0%% packet loss time 3059ms
+rtt min/avg/max/mdev = 0.153/0.327/0.490/0.122 ms
+
+INPUT|usc430bh-intro-172|U |1580765336|usc430bh|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.601 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.484 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.351 ms
+^C
+--- client-link0 ping statistics ---
+3 packets transmitted 3 received 0%% packet loss time 2053ms
+rtt min/avg/max/mdev = 0.351/0.478/0.601/0.105 ms
+
+INPUT|usc430bh-intro-173|U |1580766080|usc430bh|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.280 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.471 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.375 ms
+^C
+--- server-link0 ping statistics ---
+3 packets transmitted 3 received 0%% packet loss time 2045ms
+rtt min/avg/max/mdev = 0.280/0.375/0.471/0.079 ms
+
+INPUT|usc430bh-intro-174|U |1580766084|usc430bh|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.330 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.591 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.449 ms
+^C
+--- client-link0 ping statistics ---
+3 packets transmitted 3 received 0%% packet loss time 2041ms
+rtt min/avg/max/mdev = 0.330/0.456/0.591/0.109 ms
+
+INPUT|usc430bh-intro-175|U |1580767598|usc430bh|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.498 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.316 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.248 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=4 ttl=64 time=0.403 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=5 ttl=64 time=0.312 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=6 ttl=64 time=0.470 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=7 ttl=64 time=0.133 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=8 ttl=64 time=0.288 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=9 ttl=64 time=0.448 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=10 ttl=64 time=0.355 ms
+^C
+--- server-link0 ping statistics ---
+10 packets transmitted 10 received 0%% packet loss time 9207ms
+rtt min/avg/max/mdev = 0.133/0.347/0.498/0.106 ms
+
+INPUT|usc430bh-intro-176|U |1580767603|usc430bh|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.537 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.436 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.295 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.395 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=5 ttl=64 time=0.506 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=6 ttl=64 time=0.363 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=7 ttl=64 time=0.220 ms
+^C
+--- client-link0 ping statistics ---
+7 packets transmitted 7 received 0%% packet loss time 6151ms
+rtt min/avg/max/mdev = 0.220/0.393/0.537/0.104 ms
+
+INPUT|usc430bh-intro-177|U |1580767613|usc430bh|server:ls|client.py  comparebh.txt  server.py  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-178|U |1580767625|usc430bh|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430bh-intro-179|U |1580767646|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 40214)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 40214)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt;1580767756
+
+INPUT|usc430bh-intro-180|U |1580767659|usc430bh|client:python client.py|connecting to server port 80
+sending \"This is the message.  It will be repeated.\"
+received \"This is the mess\"
+received \"age.  It will be\"
+received \" repeated.\"
+closing socket
+
+INPUT|usc430bh-intro-181|U |1580767761|usc430bh|server:vim /tmp/|.font-unix/
+.ICE-unix/
+systemd-private-d5cb8ce1bb014311ae406fc0b2599f83-systemd-resolved.service-lkKg7N/
+systemd-private-d5cb8ce1bb014311ae406fc0b2599f83-systemd-timesyncd.service-BBE80Z/
+.Test-unix/
+.X11-unix/
+.XIM-unix/
+
+INPUT|usc430bh-intro-182|U |1580767781|usc430bh|server:vim /tmp/1.html|"/tmp/1.html" [New File]�6n  >c~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~        
+INPUT|usc430bh-intro-183|U |1580767860|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 40216)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 40216)
+waiting for a connection
+
+INPUT|usc430bh-intro-184|U |1580767865|usc430bh|client:python client.py|connecting to server port 80
+sending \"This is the message.  It will be repeated.\"
+received \"This is the mess\"
+received \"age.  It will be\"
+received \" repeated.\"
+closing socket
+
+INPUT|usc430bh-intro-185|U |1580769171|usc430bh|server:ls|client.py  comparebh.txt  server.py  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-186|U |1580769176|usc430bh|server:cat client.py|import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Connect the socket to the port where the server is listening
+server_address = ('server' 80)
+print >>sys.stderr 'connecting to %%s port %%s' %% server_address
+sock.connect(server_address)
+
+try:
+    
+    # Send data
+    message = 'This is the message.  It will be repeated.'
+    print >>sys.stderr 'sending \"%%s\"' %% message
+    sock.sendall(message)
+
+    # Look for the response
+    amount_received = 0
+    amount_expected = len(message)
+    
+    while amount_received < amount_expected:
+        data = sock.recv(16)
+        amount_received += len(data)
+        print >>sys.stderr 'received \"%%s\"' %% data
+
+finally:
+    print >>sys.stderr 'closing socket'
+    sock.close()
+
+INPUT|usc430bh-intro-187|U |1580955243|usc430bh|server:ls /|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430bh-intro-188|U |1580955305|usc430bh|server:ls /tmp|systemd-private-79dd75cab5294db0ace497bcba00a2b7-systemd-resolved.service-i21qxD
+systemd-private-79dd75cab5294db0ace497bcba00a2b7-systemd-timesyncd.service-KsSGMC
+
+INPUT|usc430bh-intro-189|U |1580955313|usc430bh|server:cd tmp|bash: cd: tmp: No such file or directory
+
+INPUT|usc430bh-intro-190|U |1580955316|usc430bh|server:cd /tmp|
+INPUT|usc430bh-intro-191|U |1580955323|usc430bh|server:ls|systemd-private-79dd75cab5294db0ace497bcba00a2b7-systemd-resolved.service-i21qxD
+systemd-private-79dd75cab5294db0ace497bcba00a2b7-systemd-timesyncd.service-KsSGMC
+
+INPUT|usc430bh-intro-192|U |1580955350|usc430bh|server:cd ..|
+INPUT|usc430bh-intro-193|U |1580955353|usc430bh|server:cd ..|
+INPUT|usc430bh-intro-194|U |1580955367|usc430bh|server:exit|exit
+
+INPUT|usc430bh-intro-195|U |1580955377|usc430bh|server:ls|client.py  comparebh.txt  server.py  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-196|U |1580955381|usc430bh|server:ls /tmp|systemd-private-79dd75cab5294db0ace497bcba00a2b7-systemd-resolved.service-i21qxD
+systemd-private-79dd75cab5294db0ace497bcba00a2b7-systemd-timesyncd.service-KsSGMC
+
+INPUT|usc430bh-intro-197|U |1580955383|usc430bh|server:clear|
+
+INPUT|usc430bh-intro-198|U |1580955650|usc430bh|server:ls|client1.py  comparebh.txt  server.py	   top_secret
+client.py   server1.py	   testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-199|U |1580955653|usc430bh|client:ls|client1.py  comparebh.txt  server.py	   top_secret
+client.py   server1.py	   testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-200|U |1580955662|usc430bh|client:python client.py|connecting to server port 80
+Traceback (most recent call last):
+  File \"client.py\" line 10 in <module>
+    sock.connect(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430bh-intro-201|U |1580955715|usc430bh|client:python client1.py|connecting to server port 80
+Traceback (most recent call last):
+  File \"client1.py\" line 10 in <module>
+    sock.connect(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430bh-intro-202|U |1580955723|usc430bh|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.426 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.310 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.209 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.347 ms
+^C
+--- client-link0 ping statistics ---
+4 packets transmitted 4 received 0%% packet loss time 3075ms
+rtt min/avg/max/mdev = 0.209/0.323/0.426/0.078 ms
+
+INPUT|usc430bh-intro-203|U |1580955729|usc430bh|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.343 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.236 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.356 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=4 ttl=64 time=0.233 ms
+^C
+--- server-link0 ping statistics ---
+4 packets transmitted 4 received 0%% packet loss time 3053ms
+rtt min/avg/max/mdev = 0.233/0.292/0.356/0.057 ms
+
+INPUT|usc430bh-intro-204|U |1580955750|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37846)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37846)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-205|U |1580955753|usc430bh|client:python client.py|connecting to server port 80
+sending \"This is the message.  It will be repeated.\"
+received \"This is the mess\"
+received \"age.  It will be\"
+received \" repeated.\"
+closing socket
+
+INPUT|usc430bh-intro-206|U |1580955803|usc430bh|server:10Psudo python server1.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37848)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37848)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server1.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-207|U |1580955810|usc430bh|client:python client1.py|connecting to server port 80
+sending \"This is the message.  It will be repeated.\"
+received \"This is the mess\"
+received \"age.  It will be\"
+received \" repeated.\"
+closing socket
+
+INPUT|usc430bh-intro-208|U |1580955816|usc430bh|server:python server.py|  File \"server.py\" line 31
+    }
+    ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bh-intro-209|U |1580955864|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37854)
+received \"\"
+no more data from ('10.1.1.2' 37854)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-210|U |1580955868|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /filename.html HTTP/1.1;1580955885
+closing socket
+Traceback (most recent call last):
+  File \"client.py\" line 15 in <module>
+    message = input(\"Enter request:\
+\")
+  File \"<string>\" line 1
+    GET /filename.html HTTP/1.1
+                          ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bh-intro-211|U |1580956007|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37856)
+received \"GET /filename.html HTTP/1.1\"
+sending data back to the client
+Traceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    data = connection.recv(80) #parameter is the buffer size
+socket.error: [Errno 104] Connection reset by peer
+
+INPUT|usc430bh-intro-212|U |1580956008|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /filename.html HTTP/1.1;1580956026
+received \"404 Not Found\"
+received \"GET /filename.ht\"
+closing socket
+
+INPUT|usc430bh-intro-213|U |1580956224|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37858)
+received \"GET /filename.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37858)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-214|U |1580956227|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /filename.html HTTP/1.1;1580956245
+received \"404 Not Found\"
+^Cclosing socket
+Traceback (most recent call last):
+  File \"client.py\" line 23 in <module>
+    data = sock.recv(16)
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-215|U |1580956283|usc430bh|server:clear|
+
+INPUT|usc430bh-intro-216|U |1580956284|usc430bh|client:clear|
+
+INPUT|usc430bh-intro-217|U |1580957094|usc430bh|client:ls|bigtest.html  client.py      index.html  server.py	 top_secret
+client1.py    comparebh.txt  server1.py  testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-218|U |1580957096|usc430bh|server:ls|bigtest.html  client.py      index.html  server.py	 top_secret
+client1.py    comparebh.txt  server1.py  testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-219|U |1580957136|usc430bh|server:mv index.html /tmp|
+INPUT|usc430bh-intro-220|U |1580957140|usc430bh|server:ls /tmp|index.html
+systemd-private-79dd75cab5294db0ace497bcba00a2b7-systemd-resolved.service-i21qxD
+systemd-private-79dd75cab5294db0ace497bcba00a2b7-systemd-timesyncd.service-KsSGMC
+
+INPUT|usc430bh-intro-221|U |1580957160|usc430bh|server:mv bigtest.html /tmp|
+INPUT|usc430bh-intro-222|U |1580957162|usc430bh|client:ls|client1.py  comparebh.txt  server.py	   top_secret
+client.py   server1.py	   testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-223|U |1580957166|usc430bh|server:ls|client1.py  comparebh.txt  server.py	   top_secret
+client.py   server1.py	   testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-224|U |1580957169|usc430bh|server:ls /tmp|bigtest.html
+index.html
+systemd-private-79dd75cab5294db0ace497bcba00a2b7-systemd-resolved.service-i21qxD
+systemd-private-79dd75cab5294db0ace497bcba00a2b7-systemd-timesyncd.service-KsSGMC
+
+INPUT|usc430bh-intro-225|U |1580957177|usc430bh|server:13P11@sudo python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37860)
+received \"GET /index.html HTTP/1.1\"
+Traceback (most recent call last):
+  File \"server.py\" line 41 in <module>
+    connection.sendall(toSend)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+TypeError: sendall() argument 1 must be string or buffer not list
+
+INPUT|usc430bh-intro-226|U |1580957181|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580957199
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\";1580957199
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\";1580957199
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+re
+INPUT|usc430bh-intro-227|U |1580957362|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37862)
+received \"GET /index.html HTTP/1.1\"
+Traceback (most recent call last):
+  File \"server.py\" line 41 in <module>
+    connection.sendall(toSend)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+TypeError: sendall() argument 1 must be string or buffer not list
+
+INPUT|usc430bh-intro-228|U |1580957365|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580957386
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\";1580957386
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+INPUT|usc430bh-intro-229|U |1580957391|usc430bh|client:clear|
+
+INPUT|usc430bh-intro-230|U |1580957414|usc430bh|server:cat server.py|import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()
+
+    try:
+        print >>sys.stderr 'connection from' client_address
+
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv(80) #parameter is the buffer size
+            print >>sys.stderr 'received \"%%s\"' %% data
+            if data:
+                commands = data.split()
+                if(commands[0] != \"GET\"):
+                    print(\"We do not recognize the command: \" commands[0]); 
+                
+                else: 
+                    filename = commands[1]
+     
+INPUT|usc430bh-intro-231|U |1580957429|usc430bh|server:cat server.py|import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()
+
+    try:
+        print >>sys.stderr 'connection from' client_address
+
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv(80) #parameter is the buffer size
+            print >>sys.stderr 'received \"%%s\"' %% data
+            if data:
+                commands = data.split()
+                if(commands[0] != \"GET\"):
+                    print(\"We do not recognize the command: \" commands[0]); 
+                
+                else: 
+                    filename = commands[1]
+     
+INPUT|usc430bh-intro-232|U |1580957432|usc430bh|server:clear|
+
+INPUT|usc430bh-intro-233|U |1580957435|usc430bh|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430bh-intro-234|U |1580957453|usc430bh|server:clear|
+
+INPUT|usc430bh-intro-235|U |1580957455|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37864)
+received \"GET index.html HTTP/1.1\"
+sending data back to the client
+^CTraceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    data = connection.recv(80) #parameter is the buffer size
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-236|U |1580957457|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET index.html HTTP/1.1;1580957470
+received \"4\"
+received \"04 Not Found\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\";1580957484
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\";1580957484
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+received \"\"
+rece
+INPUT|usc430bh-intro-237|U |1580957489|usc430bh|client:clear|
+
+INPUT|usc430bh-intro-238|U |1580957493|usc430bh|server:clear|
+
+INPUT|usc430bh-intro-239|U |1580957549|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37866)
+received \"GET /index.html HTTP/1.1\"
+sending data back to the client
+Traceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    data = connection.recv(80) #parameter is the buffer size
+socket.error: [Errno 104] Connection reset by peer
+
+INPUT|usc430bh-intro-240|U |1580957552|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580957575
+received \"<!DOCTYPE html>
+\"
+received \"<html>
+    <body\"
+closing socket
+
+INPUT|usc430bh-intro-241|U |1580961082|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37870)
+received \"GET /index.html HTML/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37870)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-242|U |1580961085|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTML/1.1   ;1580961114
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+^Cclosing socket
+Traceback (most recent call last):
+  File \"client.py\" line 19 in <module>
+    data = sock.recv(4096)
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-243|U |1580961383|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-244|U |1580961385|usc430bh|client:python client.py|  File \"client.py\" line 26
+    finally:
+    ^
+IndentationError: unexpected unindent
+
+INPUT|usc430bh-intro-245|U |1580961496|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37872)
+received \"GET /index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37872)
+waiting for a connection
+connection from ('10.1.1.2' 37874)
+received \"GET /index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37874)
+waiting for a connection
+connection from ('10.1.1.2' 37876)
+received \"GET /index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37876)
+waiting for a connection
+connection from ('10.1.1.2' 37878)
+received \"GET /index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37878)
+waiting for a connection
+connection from ('10.1.1.2' 37880)
+received \"GET /index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37880)
+waiting for a connection
+connection from ('10.1.1.2' 37882)
+recei
+INPUT|usc430bh-intro-246|U |1580961498|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580961513
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+^Cclosing socket
+Traceback (most recent call last):
+  File \"client.py\" line 19 in <module>
+    data = sock.recv(4096)
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-247|U |1580961550|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580961560
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+^Cclosing socket
+Traceback (most recent call last):
+  File \"client.py\" line 19 in <module>
+    data = sock.recv(4096)
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-248|U |1580961586|usc430bh|client:cat client.py|import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Connect the socket to the port where the server is listening
+server_address = ('server' 80)
+print >>sys.stderr 'connecting to %%s port %%s' %% server_address
+sock.connect(server_address)
+
+try:
+    
+    # Send data
+    message = raw_input(\"Enter request:\
+\")
+    sock.sendall(message)
+    
+    while True:
+        data = sock.recv(4096)
+        try:
+            print(data)
+        except IOError:
+            break
+
+finally:
+    print >>sys.stderr 'closing socket'
+    sock.close()
+
+INPUT|usc430bh-intro-249|U |1580961592|usc430bh|client:clear|
+
+INPUT|usc430bh-intro-250|U |1580961624|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580961635
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+^Cclosing socket
+Traceback (most recent call last):
+  File \"client.py\" line 19 in <module>
+    data = sock.recv(4096)
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-251|U |1580961669|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1           ;1580961683
+in here
+<!DOCTYPE html>
+
+in here
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+^Cclosing socket
+Traceback (most recent call last):
+  File \"client.py\" line 19 in <module>
+    print(\"in here1\")
+KeyboardInterrupt;1580961732
+
+INPUT|usc430bh-intro-252|U |1580961734|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580961743
+in here1
+in here
+<!DOCTYPE html>
+
+in here1
+in here
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+in here1
+^Cclosing socket
+Traceback (most recent call last):
+  File \"client.py\" line 20 in <module>
+    data = sock.recv(4096)
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-253|U |1580961796|usc430bh|client:python client.py|  File \"client.py\" line 26
+    print(\"here 2\")
+        ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bh-intro-254|U |1580961842|usc430bh|client:python client.py|  File \"client.py\" line 27
+    print(\"here 2\")
+        ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bh-intro-255|U |1580961911|usc430bh|client:python client.py|  File \"client.py\" line 27
+    print(\"in here2\")
+        ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bh-intro-256|U |1580961929|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580961941
+in here1
+in here
+<!DOCTYPE html>
+
+in here1
+in here
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+in here1
+^Cclosing socket
+Traceback (most recent call last):
+  File \"client.py\" line 20 in <module>
+    data = sock.recv(4096)
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-257|U |1580961992|usc430bh|client:python client.py|  File \"client.py\" line 27
+    print >> \"here\"
+        ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bh-intro-258|U |1580962363|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580962373
+in here1
+16
+in here
+<!DOCTYPE html>
+
+in here1
+101
+in here
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+in here1
+^[[A^[[A^Cclosing socket
+Traceback (most recent call last):
+  File \"client.py\" line 20 in <module>
+    data = sock.recv(4096)
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-259|U |1580962432|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /bigtest.html HTTP/1.1;1580962452
+in here1
+1
+in here
+
+
+in here1
+972
+in here
+<!DOCTYPE HTML >
+<html  lang=\"en-US\">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">
+  <meta id=\"request-method\" name=\"request-method\" content=\"GET\">
+  <meta name=\"author\" content=\"Blackboard\">
+  <meta name=\"copyright\" content=\"&copy; 1997-2020 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7493396 and 7558853. Additional Patents Pending.\">
+  <meta name=\"keywords\" content=\"Blackboard\">
+  <meta http-equiv=\"Pragma\" content=\"no-cache\">
+  <meta http-equiv=\"Expires\" content=\"-1\">
+      <meta name=\"viewport\" content=\"width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=no\" />
+    
+  <link rel=\"SHORTCUT ICON\" type=\"image/x-icon\" href=\"/ui/bb-icon2.ico\">
+     <link rel=\"stylesheet\" type=\"text/css\" href=\"/common/shared.css?v=3500.0.9-rel.12+
+INPUT|usc430bh-intro-260|U |1580963263|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /bigtest.html HTTP/1.1;1580963288
+in here1
+1
+in here
+
+
+in here1
+1428
+in here
+<!DOCTYPE HTML >
+<html  lang=\"en-US\">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">
+  <meta id=\"request-method\" name=\"request-method\" content=\"GET\">
+  <meta name=\"author\" content=\"Blackboard\">
+  <meta name=\"copyright\" content=\"&copy; 1997-2020 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7493396 and 7558853. Additional Patents Pending.\">
+  <meta name=\"keywords\" content=\"Blackboard\">
+  <meta http-equiv=\"Pragma\" content=\"no-cache\">
+  <meta http-equiv=\"Expires\" content=\"-1\">
+      <meta name=\"viewport\" content=\"width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=no\" />
+    
+  <link rel=\"SHORTCUT ICON\" type=\"image/x-icon\" href=\"/ui/bb-icon2.ico\">
+     <link rel=\"stylesheet\" type=\"text/css\" href=\"/common/shared.css?v=3500.0.9-rel.12
+INPUT|usc430bh-intro-261|U |1580963919|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580963932
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+closing socket
+Traceback (most recent call last):
+  File \"client.py\" line 23 in <module>
+    except TimeoutError:
+NameError: name 'TimeoutError' is not defined
+
+INPUT|usc430bh-intro-262|U |1580964513|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /bigtest.html HTTP/1.1;1580964528
+;1580964528
+
+<!DOCTYPE HTML >
+<html  lang=\"en-US\">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">
+  <meta id=\"request-method\" name=\"request-method\" content=\"GET\">
+  <meta name=\"author\" content=\"Blackboard\">
+  <meta name=\"copyright\" content=\"&copy; 1997-2020 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7493396 and 7558853. Additional Patents Pending.\">
+  <meta name=\"keywords\" content=\"Blackboard\">
+  <meta http-equiv=\"Pragma\" content=\"no-cache\">
+
+  <meta http-equiv=\"Expires\" content=\"-1\">
+      <meta name=\"viewport\" content=\"width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=no\" />
+    
+  <link rel=\"SHORTCUT ICON\" type=\"image/x-icon\" href=\"/ui/bb-icon2.ico\">
+     <link rel=\"stylesheet\" type=\"text/css\" href=\"/common/shared.css?v=3500.0.9-rel.12+78adef1\" id=\"css_0\">
+    
+INPUT|usc430bh-intro-263|U |1580965117|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+POST /index.html HTTP/1.1;1580965131
+closing socket
+
+INPUT|usc430bh-intro-264|U |1580965244|usc430bh|server:python server.py|  File \"server.py\" line 30
+    connection.sendall(\"We do not recognize the command: \"%%s\" \" %% commands[0]); 
+                                                              ^
+SyntaxError: invalid syntax
+
+INPUT|usc430bh-intro-265|U |1580965693|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37900)
+received \"POST blah balh\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37900)
+waiting for a connection
+connection from ('10.1.1.2' 37902)
+received \"GET /index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37902)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-266|U |1580965695|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+POST blah balh;1580965701
+We do not recognize the command: \"POST\" 
+closing socket
+
+INPUT|usc430bh-intro-267|U |1580965714|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580965727
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+closing socket
+
+INPUT|usc430bh-intro-268|U |1580965866|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37904)
+received \"GET /index.html HTTP/1.1\"
+Traceback (most recent call last):
+  File \"server.py\" line 42 in <module>
+    connection.sendall(toSend[x])
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+TypeError: sendall() argument 1 must be string or buffer not list
+
+INPUT|usc430bh-intro-269|U |1580965868|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580965879
+HTTP/1.1 200 OK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580965879
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1
+INPUT|usc430bh-intro-270|U |1580966047|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37906)
+received \"GET /index.html HTTP/1.1\"
+Traceback (most recent call last):
+  File \"server.py\" line 43 in <module>
+    connection.sendall(toSend[x])
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+TypeError: sendall() argument 1 must be string or buffer not list
+
+INPUT|usc430bh-intro-271|U |1580966052|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580966073
+HTTP/1.1 200 OK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;1580966073
+
+
+
+
+
+
+
+INPUT|usc430bh-intro-272|U |1580966275|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37908)
+received \"GET /index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37908)
+waiting for a connection
+connection from ('10.1.1.2' 37910)
+received \"GET index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37910)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-273|U |1580966277|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1580966288
+HTTP/1.1 200 OK
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+closing socket
+
+INPUT|usc430bh-intro-274|U |1580966308|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET index.html HTTP/1.1;1580966319
+4
+04 Not Found
+closing socket
+
+INPUT|usc430bh-intro-275|U |1580966420|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 37912)
+received \"GET index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37912)
+waiting for a connection
+connection from ('10.1.1.2' 37914)
+received \"GET /bigtest.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 37914);1580966509
+waiting for a connection
+
+INPUT|usc430bh-intro-276|U |1580966425|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET index.html HTTP/1.1;1580966467
+404 Not Found
+closing socket
+
+INPUT|usc430bh-intro-277|U |1580966485|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /bigtest.html HTTP/1.1;1580966507
+HTTP/1.1 200 OK
+
+;1580966507
+<!DOCTYPE HTML >
+<html  lang=\"en-US\">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">
+  <meta id=\"request-method\" name=\"request-method\" content=\"GET\">
+  <meta name=\"author\" content=\"Blackboard\">
+  <meta name=\"copyright\" content=\"&copy; 1997-2020 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7493396 and 7558853. Additional Patents Pending.\">
+  <meta name=\"keywords\" content=\"Blackboard\">
+  <meta http-equiv=\"Pragma\" content=\"no-cache\">
+  <meta http-equiv=\"Expires\" content=\"-1\">
+      <meta name=\"viewport\" content=\"width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=no\" />
+    
+  <link rel=\"SHORTCUT ICON\" type=\"image/x-icon\" href=\"/ui/bb-icon2.ico\">
+     <link rel=\"stylesheet\" type=\"text/css\" href=\"/common/shared.css?v=3500.0.9-rel.12+78adef1\" id=
+INPUT|usc430bh-intro-278|U |1580966525|usc430bh|client:clear|
+
+INPUT|usc430bh-intro-279|U |1581201919|usc430bh|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 50424)
+received \"GET index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 50424)
+waiting for a connection
+connection from ('10.1.1.2' 50426)
+received \"GET /index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 50426)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-280|U |1581201922|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET index.html HTTP/1.1;1581201938
+404 Not Found
+closing socket
+
+INPUT|usc430bh-intro-281|U |1581201949|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1581201958
+404 Not Found
+closing socket
+
+INPUT|usc430bh-intro-282|U |1581201977|usc430bh|client:ls /tmp|systemd-private-c1754bbceb62452aa7bed7fc2a1eb9d0-systemd-resolved.service-Lmju3Q
+systemd-private-c1754bbceb62452aa7bed7fc2a1eb9d0-systemd-timesyncd.service-73CGFu
+
+INPUT|usc430bh-intro-283|U |1581201988|usc430bh|client:ls|client1.py  comparebh.txt  server.py	   top_secret
+client.py   server1.py	   testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-284|U |1581202005|usc430bh|server:ls /tmp|systemd-private-070b859de79445c6ad052194f7460744-systemd-resolved.service-7ixcHd
+systemd-private-070b859de79445c6ad052194f7460744-systemd-timesyncd.service-ivU2S2
+
+INPUT|usc430bh-intro-285|U |1581202053|usc430bh|server:ls  |bigtest.html  client.py      index.html  server.py	 top_secret
+client1.py    comparebh.txt  server1.py  testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-286|U |1581202062|usc430bh|server:mv bigtest.html /tmp|
+INPUT|usc430bh-intro-287|U |1581202070|usc430bh|server:mv index.html /tmp|
+INPUT|usc430bh-intro-288|U |1581202073|usc430bh|server:ls /tmp|bigtest.html
+index.html
+systemd-private-070b859de79445c6ad052194f7460744-systemd-resolved.service-7ixcHd
+systemd-private-070b859de79445c6ad052194f7460744-systemd-timesyncd.service-ivU2S2
+
+INPUT|usc430bh-intro-289|U |1581202079|usc430bh|server:11@sudo python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 50428)
+received \"GET /index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 50428)
+waiting for a connection
+connection from ('10.1.1.2' 50430)
+received \"GET /bigtest.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 50430)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bh-intro-290|U |1581202080|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /index.html HTTP/1.1;1581202087
+HTTP/1.1 200 OK
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1> Testing 123</h1>
+        <p>My first paragraph</p>
+    </body>
+</html>
+closing socket
+
+INPUT|usc430bh-intro-291|U |1581202091|usc430bh|client:python client.py|connecting to server port 80
+Enter request:
+GET /bigtest.html HTTP/1.1;1581202112
+HTTP/1.1 200 OK
+
+;1581202112
+<!DOCTYPE HTML >
+<html  lang=\"en-US\">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">
+  <meta id=\"request-method\" name=\"request-method\" content=\"GET\">
+  <meta name=\"author\" content=\"Blackboard\">
+  <meta name=\"copyright\" content=\"&copy; 1997-2020 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7493396 and 7558853. Additional Patents Pending.\">
+  <meta name=\"keywords\" content=\"Blackboard\">
+  <meta http-equiv=\"Pragma\" content=\"no-cache\">
+  <meta http-equiv=\"Expires\" content=\"-1\">
+      <meta name=\"viewport\" content=\"width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=no\" />
+    
+  <link rel=\"SHORTCUT ICON\" type=\"image/x-icon\" href=\"/ui/bb-icon2.ico\">
+     <link rel=\"stylesheet\" type=\"text/css\" href=\"/common/shared.css?v=3500.0.9-rel.12+78adef1\" id=
+INPUT|usc430bh-intro-292|U |1581202137|usc430bh|server:clear|
+
+INPUT|usc430bh-intro-293|U |1581202182|usc430bh|server:ls|client1.py  comparebh.txt  server.py	   top_secret
+client.py   server1.py	   testing123.txt  usc430bh.txt
+
+INPUT|usc430bh-intro-294|U |1581202190|usc430bh|server:cat client.py|import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+sock.settimeout(1)
+
+# Connect the socket to the port where the server is listening
+server_address = ('server' 80)
+print >>sys.stderr 'connecting to %%s port %%s' %% server_address
+sock.connect(server_address)
+
+try:
+    
+    # Send data
+    message = raw_input(\"Enter request:\
+\")
+    sock.sendall(message)
+    
+    while True:
+        try:
+            data = sock.recv(4096)
+            print(data)
+        except:
+            break
+
+finally:
+    print >>sys.stderr 'closing socket'
+    sock.close()
+
+INPUT|usc430bh-intro-295|U |1581202199|usc430bh|server:clear|
+
+INPUT|usc430bh-intro-296|U |1581202212|usc430bh|server:mv client.py top_secret|
+INPUT|usc430bh-intro-297|U |1581202219|usc430bh|server:mv server.py top_secret|
+INPUT|usc430bh-intro-298|U |1581202221|usc430bh|server:ls|client1.py  comparebh.txt  server1.py  testing123.txt  top_secret  usc430bh.txt
+
+INPUT|usc430bh-intro-299|U |1581202227|usc430bh|server:cd top_secret|
+INPUT|usc430bh-intro-300|U |1581202228|usc430bh|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     diskfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430bh-intro-301|U |1581202252|usc430bh|server:cat answers.txt|Shalani Weerasooriya
+weerasoo@usc.edu
+usc430bh
+
+Treasure Hunt:
+
+    Image 1:
+        Path: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+        Description: Spaced themed image titled “Forbidden Planet”.
+
+    Image 2:
+        Path: /dev/136intro-2jjaj.JPEG
+        Description: Image of Godzilla causing terror titled “Godzilla: 
+        King of the Monsters”.
+
+    Image 3:
+        Path: /var/log/136intro-3.jpg
+        Description: Space themed image titled “It Came From Outer Space”.
+
+    Image 4:
+        Path: /etc/wuer136intro-4.JPG
+        Description: Image of large bug frightening a women titled “The Fly”.
+
+    Image 5:
+        Path: /.hidden/asdf136Intro-5kqlw.jpeg
+        Description: Spaced themed image titled “2001 a space odyssey”.
+
+Information Hunt:
+
+    1. The /var directory is a subdirectory of the root directory that stores 
+    files that the system writes data to while it is running.
+
+    2. The /dev directory stores special files that control access to 
+   
+INPUT|usc430bh-intro-302|U |1581202384|usc430bh|server:exit|exit
+
+INPUT|usc430bh-intro-303|U |1587086737|usc430bh|intro:cd /|
+INPUT|usc430bh-intro-304|U |1587086763|usc430bh|intro:echo -n "hello" | md5sum | tr -d " -" >> hashes|bash: hashes: Permission denied
+
+INPUT|usc430bh-intro-305|U |1587086766|usc430bh|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430bh-intro-306|U |1587086774|usc430bh|intro:45@echo -n "hello" | md5sum | tr -d " -" >> hashes.txt|bash: hashes.txt: Permission denied
+
+INPUT|usc430bh-intro-307|U |1587086784|usc430bh|intro:cd ~     |
+INPUT|usc430bh-intro-308|U |1587086788|usc430bh|intro:echo -n "hello" | md5sum | tr -d " -" >> hashes    |
+INPUT|usc430bh-intro-309|U |1587086789|usc430bh|intro:ls| client1.py	 largefile			     top_secret
+ comparebh.txt	 payload			    'udo systemctl status apache2'
+ cookies.txt	 runwget.sh			     usc430bh-exploits-1583371780.tar.gz
+ CTFTesting	 server1.py			     usc430bh-exploits-1583373853.tar.gz
+ exploit.sh	 shalani-weerasooriya-intro.tar.gz   usc430bh.txt
+ fhttpd		 tcpdumpsyn0.pcap		     webserver.c
+ filename.pcap	 tcpdumpsyn1.pcap		     webserver.orig.c
+ hashes		 tcpdumptest.pcap
+ index.html	 testing123.txt
+
+INPUT|usc430bh-intro-310|U |1587086796|usc430bh|intro:cd /|
+INPUT|usc430bh-intro-311|U |1587087249|usc430bh|intro:cd ~ls|bash: cd: ~ls: No such file or directory
+
+INPUT|usc430bh-intro-312|U |1587087253|usc430bh|intro:cd ~  |
+INPUT|usc430bh-intro-313|U |1587087254|usc430bh|intro:ls| client1.py	 hashcat      shalani-weerasooriya-intro.tar.gz   usc430bh-exploits-1583371780.tar.gz
+ comparebh.txt	 hashes       tcpdumpsyn0.pcap			  usc430bh-exploits-1583373853.tar.gz
+ cookies.txt	 index.html   tcpdumpsyn1.pcap			  usc430bh.txt
+ CTFTesting	 largefile    tcpdumptest.pcap			  webserver.c
+ exploit.sh	 payload      testing123.txt			  webserver.orig.c
+ fhttpd		 runwget.sh   top_secret
+ filename.pcap	 server1.py  'udo systemctl status apache2'
+
+INPUT|usc430bh-intro-314|U |1587087264|usc430bh|intro:mv hashes /|mv: cannot create regular file '/hashes': Permission denied
+
+INPUT|usc430bh-intro-315|U |1587087317|usc430bh|intro:cd hashes       |bash: cd: hashes: Not a directory
+
+INPUT|usc430bh-intro-316|U |1587087328|usc430bh|intro:mv hashcat /|mv: cannot create directory '/hashcat': Permission denied
+
+INPUT|usc430bh-intro-317|U |1587087338|usc430bh|intro:mv hashcat /|
+INPUT|usc430bh-intro-318|U |1587087369|usc430bh|intro:ls|bin   dev  hashcat  initrd.img	    lib    local       media  opt   proj  run	share  srv  tmp    usr	vmlinuz
+boot  etc  home     initrd.img.old  lib64  lost+found  mnt    proc  root  sbin	snap   sys  users  var	vmlinuz.old
+
+INPUT|usc430bh-intro-319|U |1587087374|usc430bh|intro:cd hashcat|
+INPUT|usc430bh-intro-320|U |1587087403|usc430bh|intro:makke  |;1587087404
+Command 'makke' not found did you mean:
+
+  command 'make' from deb make
+  command 'make' from deb make-guile
+
+Try: apt install <deb name>
+
+
+INPUT|usc430bh-intro-321|U |1587087406|usc430bh|intro:make|gcc -c -W -Wall -Wextra -O2 -pipe -std=gnu99 -Iinclude/ -IOpenCL/ -Ideps/LZMA-SDK/C -Ideps/zlib -Ideps/OpenCL-Headers -DWITH_BRAIN -Ideps/xxHash -DWITH_CUBIN -DWITH_HWMON src/affinity.c -o obj/affinity.NATIVE.o -fpic
+gcc -c -W -Wall -Wextra -O2 -pipe -std=gnu99 -Iinclude/ -IOpenCL/ -Ideps/LZMA-SDK/C -Ideps/zlib -Ideps/OpenCL-Headers -DWITH_BRAIN -Ideps/xxHash -DWITH_CUBIN -DWITH_HWMON src/autotune.c -o obj/autotune.NATIVE.o -fpic
+gcc -c -W -Wall -Wextra -O2 -pipe -std=gnu99 -Iinclude/ -IOpenCL/ -Ideps/LZMA-SDK/C -Ideps/zlib -Ideps/OpenCL-Headers -DWITH_BRAIN -Ideps/xxHash -DWITH_CUBIN -DWITH_HWMON src/backend.c -o obj/backend.NATIVE.o -fpic
+gcc -c -W -Wall -Wextra -O2 -pipe -std=gnu99 -Iinclude/ -IOpenCL/ -Ideps/LZMA-SDK/C -Ideps/zlib -Ideps/OpenCL-Headers -DWITH_BRAIN -Ideps/xxHash -DWITH_CUBIN -DWITH_HWMON src/benchmark.c -o obj/benchmark.NATIVE.o -fpic
+gcc -c -W -Wall -Wextra -O2 -pipe -std=gnu99 -Iinclude/ -IOpenCL/ -Ideps/LZMA-SDK/C -Ideps/zlib -Ideps/OpenCL-Headers -DWITH_BRAIN -
+INPUT|usc430bh-intro-322|U |1587087628|usc430bh|intro:./hashcat --version|v5.1.0-1774-gf96594ef
+
+INPUT|usc430bh-intro-323|U |1587087663|usc430bh|intro:echo -n "hello" | md5sum | tr -d " -" >> hashes.txt|
+INPUT|usc430bh-intro-324|U |1587087693|usc430bh|intro:./hashes -m 0 hashes.txt rockyou.txt|bash: ./hashes: Permission denied
+
+INPUT|usc430bh-intro-325|U |1587087702|usc430bh|intro:./hashcat -m 0 hashes.txt rockyou.txt|hashcat (v5.1.0-1774-gf96594ef) starting...
+
+ATTENTION! No OpenCL or CUDA installation found.
+
+You are probably missing the CUDA or OpenCL runtime installation.
+
+* AMD GPUs on Linux require this driver:
+  "RadeonOpenCompute (ROCm)" Software Platform (3.1 or later)
+* Intel CPUs require this runtime:
+  "OpenCL Runtime for Intel Core and Intel Xeon Processors" (16.1.1 or later)
+* NVIDIA GPUs require this runtime and/or driver (both):
+  "NVIDIA Driver" (440.64 or later)
+  "CUDA Toolkit" (9.0 or later)
+
+Started: Thu Apr 16 18:41:42 2020
+Stopped: Thu Apr 16 18:41:42 2020
+
+INPUT|usc430bh-intro-326|U |1587087742|usc430bh|intro:cd deps   |
+INPUT|usc430bh-intro-327|U |1587087743|usc430bh|intro:ls|LZMA-SDK  OpenCL  OpenCL-Headers  xxHash  zlib
+
+INPUT|usc430bh-intro-328|U |1587087755|usc430bh|intro:ls OpenCL|CL  CODE_OF_CONDUCT.md	LICENSE  README.md  tests
+
+INPUT|usc430bh-intro-329|U |1587087774|usc430bh|intro:cd ..|
+INPUT|usc430bh-intro-330|U |1587087786|usc430bh|intro:./hashcat -b -D 12|hashcat (v5.1.0-1774-gf96594ef) starting in benchmark mode...
+
+Benchmarking uses hand-optimized kernel code by default.
+You can use it in your cracking session by setting the -O option.
+Note: Using optimized kernel code limits the maximum supported password length.
+To disable the optimized kernel code in benchmark mode use the -w option.
+
+ATTENTION! No OpenCL or CUDA installation found.
+
+You are probably missing the CUDA or OpenCL runtime installation.
+
+* AMD GPUs on Linux require this driver:
+  "RadeonOpenCompute (ROCm)" Software Platform (3.1 or later)
+* Intel CPUs require this runtime:
+  "OpenCL Runtime for Intel Core and Intel Xeon Processors" (16.1.1 or later)
+* NVIDIA GPUs require this runtime and/or driver (both):
+  "NVIDIA Driver" (440.64 or later)
+  "CUDA Toolkit" (9.0 or later)
+
+Started: Thu Apr 16 18:43:06 2020
+Stopped: Thu Apr 16 18:43:06 2020
+
+INPUT|usc430bh-intro-331|U |1587087899|usc430bh|intro:cd ..|
+INPUT|usc430bh-intro-332|U |1587087901|usc430bh|intro:clear|
+
+INPUT|usc430bh-intro-333|U |1587087949|usc430bh|intro:uname -mrs|Linux 4.15.0-43-generic x86_64
+
+INPUT|usc430bh-intro-334|U |1587088027|usc430bh|intro:apt-get install john|Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  python3-netifaces
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  john-data
+Suggested packages:
+  wordlist
+The following NEW packages will be installed:
+  john john-data
+0 upgraded 2 newly installed 0 to remove and 321 not upgraded.
+Need to get 4466 kB of archives.
+After this operation 7875 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y;1587088032
+Get:1 http://scratch/ubuntu bionic/main amd64 john-data all 1.8.0-2build1 [4276 kB]
+Get:2 http://scratch/ubuntu bionic/main amd64 john amd64 1.8.0-2build1 [189 kB]
+Fetched 4466 kB in 0s (30.5 MB/s)
+dpkg: unrecoverable fatal error aborting:
+ unknown user 'quagga' in statoverride file
+E: Sub-process /usr/bin/dpkg returned an error code (2)
+
+INPUT|usc430bh-intro-335|U |1587088073|usc430bh|intro:sed -i '/quagga/d' /var/lib/dpkg/statoverride|
+INPUT|usc430bh-intro-336|U |1587088075|usc430bh|intro:apt-get install john|Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  python3-netifaces
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  john-data
+Suggested packages:
+  wordlist
+The following NEW packages will be installed:
+  john john-data
+0 upgraded 2 newly installed 0 to remove and 321 not upgraded.
+Need to get 0 B/4466 kB of archives.
+After this operation 7875 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y;1587088079
+Selecting previously unselected package john-data.
+(Reading database ... 155243 files and directories currently installed.)
+Preparing to unpack .../john-data_1.8.0-2build1_all.deb ...
+Unpacking john-data (1.8.0-2build1) ...
+Selecting previously unselected package john.
+Preparing to unpack .../john_1.8.0-2build1_amd64.deb ...
+Unpacking john (1.8.0-2build1) ...
+Processing triggers for man-db (2.
+INPUT|usc430bh-intro-337|U |1587088240|usc430bh|intro:ls|bin   dev  hashcat  initrd.img	    lib    local       media  opt   proj  run	share  srv  tmp    usr	vmlinuz
+boot  etc  home     initrd.img.old  lib64  lost+found  mnt    proc  root  sbin	snap   sys  users  var	vmlinuz.old
+
+INPUT|usc430bh-intro-338|U |1587088267|usc430bh|intro:apt-get install john|Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+john is already the newest version (1.8.0-2build1).
+The following package was automatically installed and is no longer required:
+  python3-netifaces
+Use 'sudo apt autoremove' to remove it.
+0 upgraded 0 newly installed 0 to remove and 321 not upgraded.
+
+INPUT|usc430bh-intro-339|U |1587088285|usc430bh|intro:cd ~|
+INPUT|usc430bh-intro-340|U |1587088329|usc430bh|intro:john|Created directory: /users/usc430bh/.john
+John the Ripper password cracker version 1.8.0
+Copyright (c) 1996-2013 by Solar Designer
+Homepage: http://www.openwall.com/john/
+
+Usage: john [OPTIONS] [PASSWORD-FILES]
+--single                   "single crack" mode
+--wordlist=FILE --stdin    wordlist mode read words from FILE or stdin
+--rules                    enable word mangling rules for wordlist mode
+--incremental[=MODE]       "incremental" mode [using section MODE]
+--external=MODE            external mode or word filter
+--stdout[=LENGTH]          just output candidate passwords [cut at LENGTH]
+--restore[=NAME]           restore an interrupted session [called NAME]
+--session=NAME             give a new session the NAME
+--status[=NAME]            print status of a session [called NAME]
+--make-charset=FILE        make a charset FILE will be overwritten
+--show                     show cracked passwords
+--test[=TIME]              run tests and benchmarks for TIME seconds each
+--users=[-]LOGIN|
+INPUT|usc430bh-intro-341|U |1587088379|usc430bh|intro:ls| client1.py	 largefile			     top_secret
+ comparebh.txt	 payload			    'udo systemctl status apache2'
+ cookies.txt	 runwget.sh			     usc430bh-exploits-1583371780.tar.gz
+ CTFTesting	 server1.py			     usc430bh-exploits-1583373853.tar.gz
+ exploit.sh	 shalani-weerasooriya-intro.tar.gz   usc430bh.txt
+ fhttpd		 tcpdumpsyn0.pcap		     webserver.c
+ filename.pcap	 tcpdumpsyn1.pcap		     webserver.orig.c
+ hashes		 tcpdumptest.pcap
+ index.html	 testing123.txt
+
+INPUT|usc430bh-intro-342|U |1587088383|usc430bh|intro:cat hashes|5d41402abc4b2a76b9719d911017c592
+
+INPUT|usc430bh-intro-343|U |1587088402|usc430bh|intro:john --format=raw-md5 hashes|Unknown ciphertext format name requested
+
+INPUT|usc430bh-intro-344|U |1587088463|usc430bh|intro:john -format=raw-md5 hashes|Unknown ciphertext format name requested
+
+INPUT|usc430bh-intro-345|U |1587088470|usc430bh|intro:john --format=md5 hashes|Unknown ciphertext format name requested
+
+INPUT|usc430bh-intro-346|U |1587088490|usc430bh|intro:john|John the Ripper password cracker version 1.8.0
+Copyright (c) 1996-2013 by Solar Designer
+Homepage: http://www.openwall.com/john/
+
+Usage: john [OPTIONS] [PASSWORD-FILES]
+--single                   "single crack" mode
+--wordlist=FILE --stdin    wordlist mode read words from FILE or stdin
+--rules                    enable word mangling rules for wordlist mode
+--incremental[=MODE]       "incremental" mode [using section MODE]
+--external=MODE            external mode or word filter
+--stdout[=LENGTH]          just output candidate passwords [cut at LENGTH]
+--restore[=NAME]           restore an interrupted session [called NAME]
+--session=NAME             give a new session the NAME
+--status[=NAME]            print status of a session [called NAME]
+--make-charset=FILE        make a charset FILE will be overwritten
+--show                     show cracked passwords
+--test[=TIME]              run tests and benchmarks for TIME seconds each
+--users=[-]LOGIN|UID[..]  [do not] load this (these) user(
+INPUT|usc430bh-intro-347|U |1587088517|usc430bh|intro:john --format=md5crypt hashes|No password hashes loaded (see FAQ)
+
+INPUT|usc430bh-intro-348|U |1587088569|usc430bh|intro:john -format:raw-md5 hashes|Unknown ciphertext format name requested
+
+INPUT|usc430bh-intro-349|U |1587088588|usc430bh|intro:rm hashes|
+INPUT|usc430bh-intro-350|U |1587088589|usc430bh|intro:ls| client1.py	 filename.pcap	 shalani-weerasooriya-intro.tar.gz  'udo systemctl status apache2'
+ comparebh.txt	 index.html	 tcpdumpsyn0.pcap		     usc430bh-exploits-1583371780.tar.gz
+ cookies.txt	 largefile	 tcpdumpsyn1.pcap		     usc430bh-exploits-1583373853.tar.gz
+ CTFTesting	 payload	 tcpdumptest.pcap		     usc430bh.txt
+ exploit.sh	 runwget.sh	 testing123.txt			     webserver.c
+ fhttpd		 server1.py	 top_secret			     webserver.orig.c
+
+INPUT|usc430bh-intro-351|U |1587088669|usc430bh|intro:cd /                 |
+INPUT|usc430bh-intro-352|U |1587088673|usc430bh|intro:cd hashcat|
+INPUT|usc430bh-intro-353|U |1587088677|usc430bh|intro:ls|BUILD_CYGWIN.md  docs		 example400.hash  example.dict	     hashcat.hctune   include	modules      rules
+BUILD.md	 example0.cmd	 example400.sh	  extra		     hashcat.log      kernels	obj	     src
+BUILD_MSYS2.md	 example0.hash	 example500.cmd   hashcat	     hashcat.potfile  layouts	OpenCL	     tools
+charsets	 example0.sh	 example500.hash  hashcat.dictstat2  hashes	      Makefile	README.md
+deps		 example400.cmd  example500.sh	  hashcat.hcstat2    hashes.txt       masks	rockyou.txt
+
+INPUT|usc430bh-intro-354|U |1587088694|usc430bh|intro:cp rockyou.txt ~/|
+INPUT|usc430bh-intro-355|U |1587088698|usc430bh|intro:cd ~|
+INPUT|usc430bh-intro-356|U |1587088699|usc430bh|intro:ls| client1.py	 payload			     top_secret
+ comparebh.txt	 rockyou.txt			    'udo systemctl status apache2'
+ cookies.txt	 runwget.sh			     usc430bh-exploits-1583371780.tar.gz
+ CTFTesting	 server1.py			     usc430bh-exploits-1583373853.tar.gz
+ exploit.sh	 shalani-weerasooriya-intro.tar.gz   usc430bh.txt
+ fhttpd		 tcpdumpsyn0.pcap		     webserver.c
+ filename.pcap	 tcpdumpsyn1.pcap		     webserver.orig.c
+ index.html	 tcpdumptest.pcap
+ largefile	 testing123.txt
+
+INPUT|usc430bh-intro-357|U |1587088846|usc430bh|intro:john|John the Ripper password cracker version 1.8.0
+Copyright (c) 1996-2013 by Solar Designer
+Homepage: http://www.openwall.com/john/
+
+Usage: john [OPTIONS] [PASSWORD-FILES]
+--single                   "single crack" mode
+--wordlist=FILE --stdin    wordlist mode read words from FILE or stdin
+--rules                    enable word mangling rules for wordlist mode
+--incremental[=MODE]       "incremental" mode [using section MODE]
+--external=MODE            external mode or word filter
+--stdout[=LENGTH]          just output candidate passwords [cut at LENGTH]
+--restore[=NAME]           restore an interrupted session [called NAME]
+--session=NAME             give a new session the NAME
+--status[=NAME]            print status of a session [called NAME]
+--make-charset=FILE        make a charset FILE will be overwritten
+--show                     show cracked passwords
+--test[=TIME]              run tests and benchmarks for TIME seconds each
+--users=[-]LOGIN|UID[..]  [do not] load this (these) user(
+INPUT|usc430bh-intro-358|U |1587089380|usc430bh|intro:john --format=md5 hashes|Unknown ciphertext format name requested
+
+INPUT|usc430bh-intro-359|U |1587089468|usc430bh|intro:john hashes|stat: hashes: No such file or directory
+
+INPUT|usc430bh-intro-360|U |1587089471|usc430bh|intro:ls| client1.py	 payload			     top_secret
+ comparebh.txt	 rockyou.txt			    'udo systemctl status apache2'
+ cookies.txt	 runwget.sh			     usc430bh-exploits-1583371780.tar.gz
+ CTFTesting	 server1.py			     usc430bh-exploits-1583373853.tar.gz
+ exploit.sh	 shalani-weerasooriya-intro.tar.gz   usc430bh.txt
+ fhttpd		 tcpdumpsyn0.pcap		     webserver.c
+ filename.pcap	 tcpdumpsyn1.pcap		     webserver.orig.c
+ index.html	 tcpdumptest.pcap
+ largefile	 testing123.txt
+
+INPUT|usc430bh-intro-361|U |1587089487|usc430bh|intro:echo -n "hello" | md5sum | tr -d " -" >> hashes.txt|
+INPUT|usc430bh-intro-362|U |1587089489|usc430bh|intro:ls| client1.py	 hashes.txt    shalani-weerasooriya-intro.tar.gz   usc430bh-exploits-1583371780.tar.gz
+ comparebh.txt	 index.html    tcpdumpsyn0.pcap			   usc430bh-exploits-1583373853.tar.gz
+ cookies.txt	 largefile     tcpdumpsyn1.pcap			   usc430bh.txt
+ CTFTesting	 payload       tcpdumptest.pcap			   webserver.c
+ exploit.sh	 rockyou.txt   testing123.txt			   webserver.orig.c
+ fhttpd		 runwget.sh    top_secret
+ filename.pcap	 server1.py   'udo systemctl status apache2'
+
+INPUT|usc430bh-intro-363|U |1587089495|usc430bh|intro:john hashes.txt|Loaded 2 password hashes with no different salts (LM [DES 128/128 SSE2-16])
+Press 'q' or Ctrl-C to abort almost any other key for status
+0g 0:00:00:28 3/3 0g/s 8818Kp/s 8818Kc/s 17636KC/s BLTDY3..BLBDAN
+0g 0:00:00:35 3/3 0g/s 9029Kp/s 9029Kc/s 18059KC/s SB1W34..SBABJK
+Session aborted
+
+INPUT|usc430bh-intro-364|U |1587089540|usc430bh|intro:joh18@john --format=md5crypt hashes.txt|No password hashes loaded (see FAQ)
+
+INPUT|usc430bh-intro-365|U |1587089553|usc430bh|intro:vim hashes.txt|"hashes.txt" 1L 33C6n  >c5d41402abc4b2a76b9719d911017c592
+"hashes.txt" 1L 42C written                                                                                            ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                      
+INPUT|usc430bh-intro-366|U |1587089567|usc430bh|intro:19@john --format=md5crypt hashes.txt|No password hashes loaded (see FAQ)
+

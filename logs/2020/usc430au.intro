@@ -1,0 +1,1130 @@
+User usc430au start time 1580183987 end 1580894122
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430au-intro-0|U |000000000|usc430au|:|
+INPUT|usc430au-intro-1|U |000000000|usc430au|:|
+INPUT|usc430au-intro-2|U |1580183987|usc430au|intro:ls|malware.txt  thomas.png  usc430au.txt
+
+INPUT|usc430au-intro-3|U |1580183993|usc430au|intro:cd ../|
+INPUT|usc430au-intro-4|U |1580183994|usc430au|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430au
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430au-intro-5|U |1580184003|usc430au|intro:ls|malware.txt  thomas.png  usc430au.txt
+
+INPUT|usc430au-intro-6|U |1580184013|usc430au|intro:dir|malware.txt  thomas.png  usc430au.txt
+
+INPUT|usc430au-intro-7|U |1580184015|usc430au|intro:path|;1580184015
+Command 'path' not found did you mean:
+
+  command 'path6' from deb ipv6toolkit
+  command 'xpath' from deb libxml-xpath-perl
+  command 'pat' from deb dist
+  command 'mpath' from deb libmodule-path-perl
+  command 'patch' from deb patch
+
+Try: apt install <deb name>
+
+
+INPUT|usc430au-intro-8|U |1580184017|usc430au|intro:whoami|usc430au
+
+INPUT|usc430au-intro-9|U |1580184022|usc430au|intro:ls -la|total 1128
+drwx------  7 usc430au USC430     512 Jan 17 14:35 .
+drwxr-xr-x 27 root     root      4096 Jan 27 19:50 ..
+-rw-------  1 usc430au USC430    1721 Jan 24 16:07 .bash_history
+drwx------  2 usc430au USC430     512 Jan 17 13:41 .cache
+-rw-r--r--  1 usc430au USC430      16 Jan 17 11:14 .forward
+drwx------  3 usc430au USC430     512 Jan 17 13:41 .gnupg
+drwxr-xr-x  3 usc430au USC430     512 Jan 17 13:44 .local
+-rw-r--r--  1 usc430au USC430      24 Jan 17 13:45 malware.txt
+drwx------  2 usc430au USC430     512 Jan 17 13:41 .ssh
+drwx------  2 usc430au USC430     512 Jan  9  2019 .ssl
+-rw-r--r--  1 usc430au USC430 1066601 Jan 17 14:35 thomas.png
+-rw-r--r--  1 usc430au USC430       0 Jan 17 14:33 usc430au.txt
+
+INPUT|usc430au-intro-10|U |1580184024|usc430au|intro:ls -lru|total 1092
+-rw-r--r-- 1 usc430au USC430       0 Jan 17 14:21 usc430au.txt
+-rw-r--r-- 1 usc430au USC430 1066601 Jan 17 14:35 thomas.png
+-rw-r--r-- 1 usc430au USC430      24 Jan 17 13:44 malware.txt
+
+INPUT|usc430au-intro-11|U |1580184038|usc430au|intro:mkdir top_secret|
+INPUT|usc430au-intro-12|U |1580184039|usc430au|intro:ls|malware.txt  thomas.png  top_secret  usc430au.txt
+
+INPUT|usc430au-intro-13|U |1580184047|usc430au|intro:cd top_secret/|
+INPUT|usc430au-intro-14|U |1580184051|usc430au|intro:touch answers.txt|
+INPUT|usc430au-intro-15|U |1580184054|usc430au|intro:nano answers.txt |
+
+INPUT|usc430au-intro-16|U |1580184166|usc430au|intro:cd ~|
+INPUT|usc430au-intro-17|U |1580184167|usc430au|intro:ls|malware.txt  thomas.png  top_secret  usc430au.txt
+
+INPUT|usc430au-intro-18|U |1580184168|usc430au|intro:cd ../|
+INPUT|usc430au-intro-19|U |1580184169|usc430au|intro:cd ../|
+INPUT|usc430au-intro-20|U |1580184170|usc430au|intro:cd ../|
+INPUT|usc430au-intro-21|U |1580184171|usc430au|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430au-intro-22|M4 |1580184172|usc430au|intro:find |.
+./.hidden
+./.hidden/asdf136Intro-5kqlw.jpeg
+./local
+./local/logs
+./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./vmlinuz.old
+./users
+./users/alotero
+./users/giotah
+./users/dbosch
+./users/regste07
+./users/aashraya
+./users/sunshine
+./users/selenaws
+./users/mlocasto
+./users/thang89
+./users/barada24
+./users/rweiss
+./users/dagny64
+./users/quin2
+./users/usc430au
+./users/usc430au/.forward
+./users/usc430au/.ssl
+./users/usc430au/.ssl/emulab.pem
+./users/usc430au/.ssh
+./users/usc430au/.ssh/id_rsa
+./users/usc430au/.ssh/id_rsa.pub
+./users/usc430au/.ssh/known_hosts
+./users/usc430au/.ssh/id_emulab.pub
+./users/usc430au/.ssh/authorized_keys
+./users/usc430au/.ssh/external_keys
+./users/usc430au/.gnupg
+./users/usc430au/.gnupg/private-keys-v1.d
+./users/usc430au/.cache
+./users/usc430au/.cache/motd.legal-displayed
+./users/usc430au/malware.txt
+./use
+INPUT|usc430au-intro-23|A1 A4 A0 A2 A3 |1580184205|usc430au|intro:find | grep 'intro'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+^C;1580184212
+
+INPUT|usc430au-intro-24|M4 |1580184260|usc430au|intro:find . -name \*.jpeg -print|./.hidden/asdf136Intro-5kqlw.jpeg
+find: './tmp/systemd-private-af859b7833a9419793d2d15571bf0ef0-systemd-resolved.service-1KiUQ2': Permission denied
+find: './tmp/systemd-private-af859b7833a9419793d2d15571bf0ef0-systemd-timesyncd.service-pjmCIP': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './pr
+INPUT|usc430au-intro-25|A1 A4 A2 A3 A0 |1580184285|usc430au|intro:find . -name \*.jpeg -print|Hint - The command appears to be missing parameters or options
+
+INPUT|usc430au-intro-26|M4 |1580184305|usc430au|intro:find . -name \*.jpeg -print | grep -i -v -E 'Permission denied'|find: './tmp/systemd-private-af859b7833a9419793d2d15571bf0ef0-systemd-resolved.service-1KiUQ2'./.hidden/asdf136Intro-5kqlw.jpeg
+: Permission denied
+find: './tmp/systemd-private-af859b7833a9419793d2d15571bf0ef0-systemd-timesyncd.service-pjmCIP': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './pr
+INPUT|usc430au-intro-27|M4 |1580184332|usc430au|intro:find . -name \*.jpeg -print|./.hidden/asdf136Intro-5kqlw.jpeg
+find: './tmp/systemd-private-af859b7833a9419793d2d15571bf0ef0-systemd-resolved.service-1KiUQ2': Permission denied
+find: './tmp/systemd-private-af859b7833a9419793d2d15571bf0ef0-systemd-timesyncd.service-pjmCIP': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './pr
+INPUT|usc430au-intro-28|A4 A1 A0 A2 A3 |1580184449|usc430au|intro:find . -name '*intro*.jpeg' \( -type f -o -type l\)|find: Must separate multiple arguments to -type using: ''
+
+INPUT|usc430au-intro-29|A0 A2 A3 A4 A1 |1580184461|usc430au|intro:find . -name '*intro*.jpeg' \( -type f -o -type l\)|find: Must separate multiple arguments to -type using: ''
+
+INPUT|usc430au-intro-30|A1 A4 A0 A2 A3 |1580184478|usc430au|intro:find . -name '*intro*.jpeg'                        |find: './tmp/systemd-private-af859b7833a9419793d2d15571bf0ef0-systemd-resolved.service-1KiUQ2': Permission denied
+find: './tmp/systemd-private-af859b7833a9419793d2d15571bf0ef0-systemd-timesyncd.service-pjmCIP': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430au-intro-31|A2 A3 A0 A1 A4 |1580184535|usc430au|intro:find . -name '*intro*.jpeg' 2>&1 | grep -v "Permission denied"|
+INPUT|usc430au-intro-32|M4 M1 |1580184583|usc430au|intro:find . -type f -iname '*intro*.jpeg' 2>&1 | grep -v "Permission denied"|./.hidden/asdf136Intro-5kqlw.jpeg
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430au-intro-33|M4 M1 |1580184596|usc430au|intro:find . -type f -iname '*intro*.jpeg' 2>&1 | grep -v "Permission denied"|./.hidden/asdf136Intro-5kqlw.jpeg
+find: './proc/2441': No such file or directory
+find: './proc/2442': No such file or directory
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430au-intro-34|U |1580184614|usc430au|intro:clear|
+
+INPUT|usc430au-intro-35|U |1580184615|usc430au|intro:clear|
+
+INPUT|usc430au-intro-36|M4 M1 |1580184616|usc430au|intro:find . -type f -iname '*intro*.jpeg' 2>&1 | grep -v "Permission denied"|./.hidden/asdf136Intro-5kqlw.jpeg
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430au-intro-37|A1 A4 A3 A2 A0 |1580184653|usc430au|intro:find . -type f -ilname '*intro*.jpeg' 2>&1 | grep -v "Permission denied"|find: './proc/2455/task/2455/fdinfo/5': No such file or directory
+find: './proc/2455/fdinfo/6': No such file or directory
+
+INPUT|usc430au-intro-38|U |1580184749|usc430au|intro:updatedb|
+INPUT|usc430au-intro-39|M4 |1580184773|usc430au|intro:locate *.jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430au-intro-40|A4 A1 A2 A3 A0 |1580184817|usc430au|intro:locate *.jpeg --igore-case|locate: unrecognized option '--igore-case'
+
+INPUT|usc430au-intro-41|M4 |1580184820|usc430au|intro:locate *.jpeg --ignore-case|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430au-intro-42|U |1580184825|usc430au|intro:../|bash: ../: Is a directory
+
+INPUT|usc430au-intro-43|U |1580184828|usc430au|intro:../|bash: ../: Is a directory
+
+INPUT|usc430au-intro-44|U |1580184831|usc430au|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430au-intro-45|A0 A2 A3 A1 A4 |1580184863|usc430au|intro:find . *.jpeg --ignore-case|find: unknown predicate `--ignore-case'
+
+INPUT|usc430au-intro-46|A1 A4 A2 A3 A0 |1580184880|usc430au|intro:find . *.jpeg -iname       |find: missing argument to `-iname'
+
+INPUT|usc430au-intro-47|M4 M1 |1580184890|usc430au|intro:find . -iname '*.jpeg'      |./.hidden/asdf136Intro-5kqlw.jpeg
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430au-intro-48|A0 A2 A3 A1 A4 |1580184938|usc430au|intro:find . -iname 'intro'|
+INPUT|usc430au-intro-49|M4 M3 M2 M1 M0 |1580184952|usc430au|intro:find . -iname '*intro*'|./.hidden/asdf136Intro-5kqlw.jpeg
+./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/doc/bash/INTRO.gz
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430au.hw1-usc430au.intro.csv
+./var/log/ttylog/usc430au.hw1-
+INPUT|usc430au-intro-50|M4 M3 M2 M1 M0 |1580184980|usc430au|intro:find . -iname '*.jp*'|./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430au-intro-51|U |1580185034|usc430au|intro:mv ./.hidden/asdf136Intro-5kqlw.jpeg users/usc430au/top_secret/|mv: cannot remove './.hidden/asdf136Intro-5kqlw.jpeg': Permission denied
+
+INPUT|usc430au-intro-52|U |1580185038|usc430au|intro:mv ./.hidden/asdf136Intro-5kqlw.jpeg users/usc430au/top_secret/|
+INPUT|usc430au-intro-53|U |1580185055|usc430au|intro:mv ./usr/share/pixmaps/xbzf136INTRO-1.jpg users/usc430au/top_secret/|
+INPUT|usc430au-intro-54|M1 |1580185104|usc430au|intro:find . -iname '*.jp*' | xargs mv $1 users/usc430au/top_secret/|mv: target './dev/136intro-2jjaj.JPEG' is not a directory
+
+INPUT|usc430au-intro-55|U |1580185138|usc430au|intro:mv ./var/log/136intro-3.jpg users/usc430au/top_secret/|mv: cannot remove './var/log/136intro-3.jpg': Permission denied
+
+INPUT|usc430au-intro-56|U |1580185142|usc430au|intro:mv ./var/log/136intro-3.jpg users/usc430au/top_secret/|
+INPUT|usc430au-intro-57|U |1580185153|usc430au|intro:mv ./etc/wuer136intro-4.JPG users/usc430au/top_secret/|
+INPUT|usc430au-intro-58|U |1580185164|usc430au|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430au-intro-59|U |1580185172|usc430au|intro:ls users/usc430au/top_secret/|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430au-intro-60|U |1580185188|usc430au|intro:nano users/usc430au/top_secret/answers.txt |48d(BModified(B5;47rM1;50r5;47rB^O(B Write Out   (B^W(B Where Is    (B^K(B Cut Text    (B^J(B Justify     (B^C(B Cur Pos93G(BU(B Undo 6b(BM-A(B Mark Text(BX(B Exit  16G(B^R(B Read File   (B^\(B Replace     (B^U(B Uncut Text  (B^T(B To Spell    (B^_(B Go To Line  (BM-E(B Redo 6b(BM-6(B Copy Text
+
+INPUT|usc430au-intro-61|U |1580187821|usc430au|intro:ssh intro.hw1-usc430au.USC430.isi.deterlab.usc.edu|ssh: Could not resolve hostname intro.hw1-usc430au.usc430.isi.deterlab.usc.edu: Name or service not known
+
+INPUT|usc430au-intro-62|U |1580187833|usc430au|intro:ssh intro.hw1-usc430au.USC430.isi.deterlab.usc.net|^C;1580187909
+
+INPUT|usc430au-intro-63|U |1580187911|usc430au|intro:ssh intro.hw1-usc430au.USC430.isi.deterlab.usc.net|^C;1580187922
+
+INPUT|usc430au-intro-64|U |1580187925|usc430au|intro:ssh intro.hw1-usc430au.USC430.isi.deterlab.net|Warning: Permanently added the RSA host key for IP address '192.168.1.189' to the list of known hosts.
+
+INPUT|usc430au-intro-65|U |1580187928|usc430au|intro:ls|malware.txt  thomas.png  top_secret  usc430au.txt
+
+INPUT|usc430au-intro-66|U |1580187934|usc430au|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430au-intro-67|U |1580187937|usc430au|intro:subl answers.txt |;1580187937
+Command 'subl' not found but can be installed with:
+
+snap install sublime-text
+Please ask your administrator.
+
+
+INPUT|usc430au-intro-68|U |1580187940|usc430au|intro:nano answers.txt |
+
+INPUT|usc430au-intro-69|U |1580188540|usc430au|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430au-intro-70|U |1580188709|usc430au|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430au-intro-71|U |1580188729|usc430au|intro:scp |usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430au-intro-72|U |1580188901|usc430au|intro:scp 136intro-2jjaj.JPEG        |usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430au-intro-73|U |1580188932|usc430au|intro:ls                                    |136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430au-intro-74|U |1580188951|usc430au|intro:cp|cp: missing file operand
+Try 'cp --help' for more information.
+
+INPUT|usc430au-intro-75|U |1580188955|usc430au|intro:cp --help|Usage: cp [OPTION]... [-T] SOURCE DEST
+  or:  cp [OPTION]... SOURCE... DIRECTORY
+  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Copy SOURCE to DEST or multiple SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a --archive                same as -dR --preserve=all
+      --attributes-only        don't copy the file data just the attributes
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --copy-contents          copy contents of special files when recursive
+  -d                           same as --no-dereference --preserve=links
+  -f --force                  if an existing destination file cannot be
+                                 opened remove it and try again (this option
+                                 is ignored when the -n option is also used)
+  -i --interactive            prompt before overwrite (overrides a previous -n
+
+INPUT|usc430au-intro-76|U |1580189031|usc430au|intro:node_list|node_list: command not found
+
+INPUT|usc430au-intro-77|U |1580189222|usc430au|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430au-intro-78|U |1580189352|usc430au|intro:nano answers.txt |
+
+INPUT|usc430au-intro-79|U |1580190851|usc430au|intro:exit|exit
+
+INPUT|usc430au-intro-80|U |1580599000|usc430au|intro:ssh intro.hw1-usc430au.USC430.isi.deterlab.net|Warning: Permanently added the RSA host key for IP address '192.168.1.31' to the list of known hosts.
+
+INPUT|usc430au-intro-81|U |1580599004|usc430au|intro:ls|malware.txt  thomas.png  top_secret  usc430au.txt
+
+INPUT|usc430au-intro-82|U |1580599007|usc430au|intro:du|8	./.ssl
+28	./.ssh
+4	./.gnupg/private-keys-v1.d
+8	./.gnupg
+4	./.cache
+4	./.local/share/nano
+8	./.local/share
+12	./.local
+256	./top_secret
+1432	.
+
+INPUT|usc430au-intro-83|M6 |1580599009|usc430au|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1988984         48    1988936   1%% /dev
+tmpfs                                                403952       6268     397684   2%% /run
+/dev/sda1                                          15681948    3252860   11629140  22%% /
+tmpfs                                               2019748          0    2019748   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               2019748          0    2019748   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430au 2031313280 1177972736  690835456  64%% /users/usc430au
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1371280512 1365487872  51%% /proj/USC430
+tmpfs                                                403948          0     403948   0%% /run/user/14184
+
+INPUT|usc430au-intro-84|M6 |1580599011|usc430au|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              1.9G   48K  1.9G   1%% /dev
+tmpfs                                             395M  6.2M  389M   2%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             2.0G     0  2.0G   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             2.0G     0  2.0G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430au  1.9T  1.1T  659G  64%% /users/usc430au
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             395M     0  395M   0%% /run/user/14184
+
+INPUT|usc430au-intro-85|A6 |1580599024|usc430au|intro:df -h > top_secret/diskfree.txt    |
+INPUT|usc430au-intro-86|U |1580599027|usc430au|intro:cd top_secret/|
+INPUT|usc430au-intro-87|U |1580599028|usc430au|intro:ls|136intro-2jjaj.JPEG  answers.txt	      diskfree.txt     wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  diskfree.txttxt  xbzf136INTRO-1.jpg
+
+INPUT|usc430au-intro-88|U |1580599030|usc430au|intro:cat diskfree.txt|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              1.9G   48K  1.9G   1%% /dev
+tmpfs                                             395M  6.2M  389M   2%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             2.0G     0  2.0G   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             2.0G     0  2.0G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430au  1.9T  1.1T  659G  64%% /users/usc430au
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             395M     0  395M   0%% /run/user/14184
+
+INPUT|usc430au-intro-89|U |1580599033|usc430au|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430au-intro-90|U |1580599079|usc430au|intro:cd ../|
+INPUT|usc430au-intro-91|U |1580599080|usc430au|intro:cd ../|
+INPUT|usc430au-intro-92|U |1580599082|usc430au|intro:cd ../|
+INPUT|usc430au-intro-93|U |1580599088|usc430au|intro:ls|1     113   14	  2	2396  2583  2707  34   418  479  935	    driver	 kpagecgroup   schedstat      version_signature
+10    1133  1410  20	24    2585  2708  340  42   48	 97	    execdomains  kpagecount    scsi	      vmallocinfo
+100   1140  1435  201	25    2586  2711  35   420  49	 98	    fb		 kpageflags    self	      vmstat
+101   1151  1437  202	2514  2588  2713  36   421  5	 99	    filesystems  loadavg       slabinfo       zoneinfo
+102   1185  1480  204	2516  2589  2714  37   422  50	 acpi	    fs		 locks	       softirqs
+103   1194  15	  205	2517  26    2716  38   423  52	 buddyinfo  interrupts	 mdstat        stat
+104   12    1562  21	2549  2656  2717  385  426  53	 bus	    iomem	 meminfo       swaps
+1040  1201  16	  2178	2554  2657  2753  39   428  54	 cgroups    ioports	 misc	       sys
+105   122   1728  2184	2556  2658  28	  396  43   55	 cmdline    ipmi	 modules       sysrq-trigger
+1058  1292  1771  2185	2558  2688  280   4    435  6	 consoles   irq		 mounts        sysvipc
+106   13   
+INPUT|usc430au-intro-94|M5 |1580599091|usc430au|intro:cat cpuinfo |processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microcode	: 0xba
+cpu MHz		: 1826.916
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4266.87
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microco
+INPUT|usc430au-intro-95|M5 |1580599094|usc430au|intro:less cpuinfo |processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 15
+model name      : Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping        : 11
+microcode       : 0xba
+cpu MHz         : 1600.079
+cache size      : 4096 KB
+physical id     : 0
+siblings        : 4
+core id         : 0
+cpu cores       : 4
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 10
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips        : 4266.87
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 36 bits physical 48 bits virtual
+power management:
+
+INPUT|usc430au-intro-96|M5 |1580599106|usc430au|intro:cat cpuinfo |processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microcode	: 0xba
+cpu MHz		: 1619.838
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4266.87
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microco
+INPUT|usc430au-intro-97|A5 |1580599131|usc430au|intro:cat cpuinfo > ../users/usc430au/top_secret/cpuinfo.txt|\
+
+INPUT|usc430au-intro-98|M5 |1580599146|usc430au|intro:cat ../users/usc430au/top_secret/cpuinfo.txt |processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microcode	: 0xba
+cpu MHz		: 1646.741
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4266.87
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microco
+INPUT|usc430au-intro-99|U |1580800604|usc430au|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=201 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=100 ms
+^C
+--- server-link0 ping statistics ---
+2 packets transmitted 2 received 0%% packet loss time 1001ms
+rtt min/avg/max/mdev = 100.621/150.956/201.292/50.336 ms
+usc430au@ubuntu:~$ ls;1580800608
+malware.txt  thomas.png  top_secret  usc430au.txt
+usc430au@ubuntu:~$ cd top_secret/;1580800641
+usc430au@ubuntu:~/top_secret$ exit;1580800690
+exit
+
+INPUT|usc430au-intro-100|U |1580892451|usc430au|client:ls|malware.txt  thomas.png  top_secret  usc430au.txt
+
+INPUT|usc430au-intro-101|U |1580892454|usc430au|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=201 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=100 ms
+^C
+--- server-link0 ping statistics ---
+2 packets transmitted 2 received 0%% packet loss time 1001ms
+rtt min/avg/max/mdev = 100.543/150.872/201.202/50.330 ms
+
+INPUT|usc430au-intro-102|U |1580892460|usc430au|client:ssh server|The authenticity of host 'server (10.1.1.3)' can't be established.
+RSA key fingerprint is SHA256:t0vpeOm78PtRRaGx4qRt4PNUu2ZCRGzEBSfGP541+n0.
+Are you sure you want to continue connecting (yes/no)? yes;1580892462
+Warning: Permanently added 'server10.1.1.3' (RSA) to the list of known hosts.
+usc430au@server:~$ ls;1580892468
+malware.txt  thomas.png  top_secret  usc430au.txt
+usc430au@server:~$ cd top_secret/;1580892471
+usc430au@server:~/top_secret$ py -v;1580892474
+;1580892475
+Command 'py' not found but can be installed with:
+
+apt install pythonpy
+Please ask your administrator.
+
+usc430au@server:~/top_secret$ python -v;1580892478
+# installing zipimport hook
+import zipimport # builtin
+# installed zipimport hook
+# /usr/lib/python2.7/site.pyc matches /usr/lib/python2.7/site.py
+import site # precompiled from /usr/lib/python2.7/site.pyc
+# /usr/lib/python2.7/os.pyc matches /usr/lib/python2.7/os.py
+import os # precompiled from /usr/lib/python2.7/os.pyc
+import errno # builtin
+import posix # builtin
+
+INPUT|usc430au-intro-103|U |1580892469|usc430au|server:ls|malware.txt  thomas.png  top_secret  usc430au.txt
+
+INPUT|usc430au-intro-104|U |1580892471|usc430au|server:cd top_secret/|
+INPUT|usc430au-intro-105|U |1580892475|usc430au|server:py -v|;1580892475
+Command 'py' not found but can be installed with:
+
+apt install pythonpy
+Please ask your administrator.
+
+
+INPUT|usc430au-intro-106|U |1580892478|usc430au|server:python -v|# installing zipimport hook
+import zipimport # builtin
+# installed zipimport hook
+# /usr/lib/python2.7/site.pyc matches /usr/lib/python2.7/site.py
+import site # precompiled from /usr/lib/python2.7/site.pyc
+# /usr/lib/python2.7/os.pyc matches /usr/lib/python2.7/os.py
+import os # precompiled from /usr/lib/python2.7/os.pyc
+import errno # builtin
+import posix # builtin
+# /usr/lib/python2.7/posixpath.pyc matches /usr/lib/python2.7/posixpath.py
+import posixpath # precompiled from /usr/lib/python2.7/posixpath.pyc
+# /usr/lib/python2.7/stat.pyc matches /usr/lib/python2.7/stat.py
+import stat # precompiled from /usr/lib/python2.7/stat.pyc
+# /usr/lib/python2.7/genericpath.pyc matches /usr/lib/python2.7/genericpath.py
+import genericpath # precompiled from /usr/lib/python2.7/genericpath.pyc
+# /usr/lib/python2.7/warnings.pyc matches /usr/lib/python2.7/warnings.py
+import warnings # precompiled from /usr/lib/python2.7/warnings.pyc
+# /usr/lib/python2.7/linecache.pyc matches /usr/lib/python2.7/linecache.
+INPUT|usc430au-intro-107|U |1580892485|usc430au|server:python server.py |starting up on localhost port 80
+Traceback (most recent call last):
+  File "server.py" line 16 in <module>
+    sock.bind(server_address)
+  File "/usr/lib/python2.7/socket.py" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430au-intro-108|U |1580892491|usc430au|server:python server.py |starting up on localhost port 80
+here1
+waiting for a connection
+^CTraceback (most recent call last):
+  File "server.py" line 25 in <module>
+    connection client_address = sock.accept()
+  File "/usr/lib/python2.7/socket.py" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430au-intro-109|U |1580892539|usc430au|client:cd top_secret/|
+INPUT|usc430au-intro-110|U |1580892545|usc430au|client:python client.py localhost|connecting to localhost port 80
+Traceback (most recent call last):
+  File "client.py" line 24 in <module>
+    sock.connect(server_address)
+  File "/usr/lib/python2.7/socket.py" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430au-intro-111|U |1580892551|usc430au|client:python client.py server   |connecting to server port 80
+Traceback (most recent call last):
+  File "client.py" line 24 in <module>
+    sock.connect(server_address)
+  File "/usr/lib/python2.7/socket.py" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430au-intro-112|U |1580892567|usc430au|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=100 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=100 ms
+^C
+--- server-link0 ping statistics ---
+2 packets transmitted 2 received 0%% packet loss time 1002ms
+rtt min/avg/max/mdev = 100.391/100.433/100.475/0.042 ms
+
+INPUT|usc430au-intro-113|U |1580892582|usc430au|client:ping server-link0|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=100 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=100 ms
+^C
+--- server-link0 ping statistics ---
+2 packets transmitted 2 received 0%% packet loss time 1001ms
+rtt min/avg/max/mdev = 100.546/100.604/100.663/0.322 ms
+
+INPUT|usc430au-intro-114|U |1580892588|usc430au|client:17@sudo python client.py server-link0|connecting to server-link0 port 80
+Traceback (most recent call last):
+  File "client.py" line 24 in <module>
+    sock.connect(server_address)
+  File "/usr/lib/python2.7/socket.py" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430au-intro-115|U |1580893062|usc430au|client:python client.py server      |connecting to server port 80
+Traceback (most recent call last):
+  File "client.py" line 24 in <module>
+    sock.connect(server_address)
+  File "/usr/lib/python2.7/socket.py" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430au-intro-116|U |1580893168|usc430au|server:nano|
+
+INPUT|usc430au-intro-117|U |1580893172|usc430au|server:nano server.py |
+
+INPUT|usc430au-intro-118|U |1580893202|usc430au|server:python server.py |starting up on  port 80
+here1
+waiting for a connection
+connection from ('10.1.1.2' 48450)
+receiving data from client
+here2
+here3
+received "GET"
+receiving data from client
+here2
+here3
+received ""
+no more data from ('10.1.1.2' 48450)
+Message Received: GET
+terminating connection with client
+terminating connection with client
+here1
+waiting for a connection
+connection from ('10.1.1.2' 48452)
+receiving data from client
+here2
+here3
+received "GET /tmp/usc430a"
+receiving data from client
+here2
+here3
+received "u/testfile.txt"
+receiving data from client
+here2
+here3
+received ""
+no more data from ('10.1.1.2' 48452)
+Message Received: GET /tmp/usc430au/testfile.txt
+terminating connection with client
+terminating connection with client
+here1
+waiting for a connection
+connection from ('10.1.1.2' 48454)
+receiving data from client
+here2
+here3
+received "GET /tmp/usc430a"
+receiving data from client
+here2
+here3
+received "u/testfile.txt H"
+receiving data from client
+here2
+here3
+received "TTP/1.1"
+receiving dat
+INPUT|usc430au-intro-119|U |1580893206|usc430au|client:python client.py server|connecting to server port 80
+Please enter a request in HTTP format: 
+GET;1580893219
+requesting GET
+closing socket
+Traceback (most recent call last):
+  File "client.py" line 41 in <module>
+    with open(request.split(' ')[1].split('/')[-1] 'wb') as f:
+IndexError: list index out of range
+
+INPUT|usc430au-intro-120|U |1580893246|usc430au|client:cd ../|
+INPUT|usc430au-intro-121|U |1580893247|usc430au|client:cd ../|
+INPUT|usc430au-intro-122|U |1580893250|usc430au|client:cd ../|
+INPUT|usc430au-intro-123|U |1580893252|usc430au|client:cd tmp/|
+INPUT|usc430au-intro-124|U |1580893253|usc430au|client:ls|systemd-private-bd7f781c5d3047eb806959eeecd6d06f-systemd-resolved.service-e7qupl
+systemd-private-bd7f781c5d3047eb806959eeecd6d06f-systemd-timesyncd.service-eEJKGK
+
+INPUT|usc430au-intro-125|U |1580893260|usc430au|client:mkdir usc430au|
+INPUT|usc430au-intro-126|U |1580893263|usc430au|client:cd usc430au/|
+INPUT|usc430au-intro-127|U |1580893275|usc430au|client:nano testfile.txt|
+
+INPUT|usc430au-intro-128|U |1580893286|usc430au|client:cwd   |;1580893286
+Command 'cwd' not found did you mean:
+
+  command 'cwr' from snap cwr (0.4.2)
+  command 'cwm' from deb swap-cwm
+  command 'gwd' from deb geneweb
+  command 'cdw' from deb cdw
+  command 'pwd' from deb coreutils
+  command 'xwd' from deb x11-apps
+  command 'cw' from deb cw
+
+See 'snap info <snapname>' for additional versions.
+
+
+INPUT|usc430au-intro-129|U |1580893291|usc430au|client:ls|testfile.txt
+
+INPUT|usc430au-intro-130|U |1580893294|usc430au|client:ls -la|total 12
+drwxr-xr-x  2 usc430au USC430 4096 Feb  5 01:01 .
+drwxrwxrwt 10 root     root   4096 Feb  5 01:01 ..
+-rw-r--r--  1 usc430au USC430   15 Feb  5 01:01 testfile.txt
+
+INPUT|usc430au-intro-131|U |1580893296|usc430au|client:cd ../|
+INPUT|usc430au-intro-132|U |1580893298|usc430au|client:cd ../|
+INPUT|usc430au-intro-133|U |1580893300|usc430au|client:cd ../|
+INPUT|usc430au-intro-134|U |1580893306|usc430au|client:cd users/usc430au/|
+INPUT|usc430au-intro-135|U |1580893307|usc430au|client:ls|malware.txt  thomas.png  top_secret  usc430au.txt
+
+INPUT|usc430au-intro-136|U |1580893313|usc430au|client:cd top_secret/|
+INPUT|usc430au-intro-137|U |1580893322|usc430au|client:python client.py server|connecting to server port 80
+Please enter a request in HTTP format: 
+GET /tmp/usc430au/testfile.txt;1580893337
+requesting GET /tmp/usc430au/testfile.txt
+opened file testfile.txt
+receiving data...
+data=ERROR invalid re
+receiving data...
+data=quest length ex
+receiving data...
+data=pected GET <file
+receiving data...
+data=name> <protocol>
+receiving data...
+data=ERROR invalid sy
+receiving data...
+data=ntax: /tmp/usc43
+receiving data...
+data=0au/testfile.txt
+receiving data...
+data= expected HTTP/
+receiving data...
+data=1.1
+receiving data...
+data=
+received all of testfile.txt
+Received Message: 
+ERROR invalid request length expected GET <filename> <protocol>ERROR invalid syntax: /tmp/usc430au/testfile.txt expected HTTP/1.1
+
+connection to server closed
+closing socket
+
+INPUT|usc430au-intro-138|U |1580893342|usc430au|client:python client.py server|connecting to server port 80
+Please enter a request in HTTP format: 
+GET /tmp/usc430au/testfile.txt HTTP/1.1;1580893357
+requesting GET /tmp/usc430au/testfile.txt HTTP/1.1
+opened file testfile.txt
+receiving data...
+data=
+received all of 1.1
+Received Message: 
+
+
+connection to server closed
+closing socket
+
+INPUT|usc430au-intro-139|U |1580893410|usc430au|server:nano server.py |
+
+INPUT|usc430au-intro-140|U |1580893421|usc430au|server:python server.py |starting up on  port 80
+here1
+waiting for a connection
+connection from ('10.1.1.2' 48456)
+receiving data from client
+here2
+here3
+received "GET /tmp/testfil"
+receiving data from client
+here2
+here3
+received "e.txt HTTP/1.1"
+receiving data from client
+here2
+here3
+received ""
+no more data from ('10.1.1.2' 48456)
+Message Received: GET /tmp/testfile.txt HTTP/1.1
+No such file or directory
+here1;1580893433
+waiting for a connection
+^CTraceback (most recent call last):
+  File "server.py" line 26 in <module>
+    connection client_address = sock.accept()
+  File "/usr/lib/python2.7/socket.py" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430au-intro-141|U |1580893423|usc430au|client:python client.py server|connecting to server port 80
+Please enter a request in HTTP format: 
+GET /tmp/testfile.txt HTTP/1.1;1580893433
+requesting GET /tmp/testfile.txt HTTP/1.1
+opened file testfile.txt
+receiving data...
+data=
+received all of 1.1
+Received Message: 
+
+
+connection to server closed
+closing socket;1580893433
+
+INPUT|usc430au-intro-142|U |1580893451|usc430au|server:nano server.py |10d11d12d13d14d15d16d17d3;18r18d8S1;20rrequested_filepath = msg.split((B' '(B)[1]requested_file = requested_filepath.split((B'/'(B)[-1](B # send message and contents back to client(Bfail_msg = (B"HTTP/1.1 404 FAIL(B (Band(B ok == (BTrue(B:nnection.sendall(fail_msg)ok = (BFalseif(B msg.split((B' '(B)[-1] != (B"HTTP/1.1"(B:fail_msg = (B'ERROR invalid syntax: %%s expected HTTP/1.1'(B %% msg.split((B' '(B)[-1]
+"(Bok_msg = (B"HTTP/1.1 200 OK
+10d(B14dAAAAA                f(BModified(B9;17rM1;20r9;18rl = f.read(16)(Bwhile(B (l):connection.send(l)(Bprint(B >>sys.stderr (B'sent %%s'(B %% repr(l)l = f.read(16)f.close()(Bprint(B >>sys.stderr (B'done sending'
+
+
+INPUT|usc430au-intro-143|U |1580893581|usc430au|server:python server.py |starting up on  port 80
+here1
+waiting for a connection
+connection from ('10.1.1.2' 48458)
+receiving data from client
+here2
+here3
+received "GET /tmp/testfil"
+receiving data from client
+here2
+here3
+received "e.txt HTTP/1.1"
+receiving data from client
+here2
+here3
+received ""
+no more data from ('10.1.1.2' 48458)
+Message Received: GET /tmp/testfile.txt HTTP/1.1
+No such file or directory
+here1
+waiting for a connection
+^[[A^[[B^[[B^CTraceback (most recent call last):
+  File "server.py" line 26 in <module>
+    connection client_address = sock.accept()
+  File "/usr/lib/python2.7/socket.py" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430au-intro-144|U |1580893585|usc430au|client:python client.py server|connecting to server port 80
+Please enter a request in HTTP format: 
+GET /tmp/testfile.txt HTTP/1.1;1580893598
+requesting GET /tmp/testfile.txt HTTP/1.1
+opened file testfile.txt
+receiving data...
+data=
+received all of 1.1
+Received Message: 
+
+
+connection to server closed
+closing socket
+
+INPUT|usc430au-intro-145|U |1580893717|usc430au|server:nano server.py |(B6;18r
+7;18r
+18d8S1;20r(B # send message and contents back to client(Bfail_msg = (B"HTTP/1.1 404 FAIL
+"(Bok_msg = (B"HTTP/1.1 200 OK
+
+
+INPUT|usc430au-intro-146|U |1580893760|usc430au|server:python server.py |starting up on  port 80
+here1
+waiting for a connection
+connection from ('10.1.1.2' 48460)
+receiving data from client
+received "GET /tmp/testfil"
+receiving data from client
+received "e.txt HTTP/1.1"
+receiving data from client
+received ""
+no more data from ('10.1.1.2' 48460)
+Message Received: GET /tmp/testfile.txt HTTP/1.1
+No such file or directory
+here1
+waiting for a connection
+^CTraceback (most recent call last):
+  File "server.py" line 26 in <module>
+    connection client_address = sock.accept()
+  File "/usr/lib/python2.7/socket.py" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430au-intro-147|U |1580893761|usc430au|client:python client.py server|connecting to server port 80
+Please enter a request in HTTP format: 
+GET /tmpstfile.txt HTTP/1.1;1580893772
+requesting GET /tmp/testfile.txt HTTP/1.1
+opened file testfile.txt
+receiving data...
+data=
+received all of 1.1
+Received Message: 
+
+
+connection to server closed
+closing socket
+
+INPUT|usc430au-intro-148|U |1580893786|usc430au|client:ls |136intro-2jjaj.JPEG  answers.txt	      client.py    diskfree.txt  testfile.txt	     xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  cpuinfo.txt  server.py	 wuer136intro-4.JPG
+
+INPUT|usc430au-intro-149|U |1580893789|usc430au|client:rm testfile.txt |rm: remove write-protected regular empty file 'testfile.txt'? y;1580893794
+
+INPUT|usc430au-intro-150|U |1580893795|usc430au|client:ls|136intro-2jjaj.JPEG  answers.txt	      client.py    diskfree.txt  wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  cpuinfo.txt  server.py	 xbzf136INTRO-1.jpg
+
+INPUT|usc430au-intro-151|U |1580893819|usc430au|client:python|Python 2.7.15rc1 (default Nov 12 2018 14:31:15) 
+[GCC 7.3.0] on linux2
+Type "help" "copyright" "credits" or "license" for more information.
+>>> import os;1580893823
+>>> os.getcwd();1580893828
+'/users/usc430au/top_secret'
+>>> os.chdir('/');1580893838
+>>> os.getcwd();1580893841
+'/'
+>>> exit;1580893847
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> exit();1580893850
+
+INPUT|usc430au-intro-152|U |1580893857|usc430au|server:nano server.py |14d16d17d2;18r18d8S1;20r(B # send message and contents back to client(Bfail_msg = (B"HTTP/1.1 404 FAIL
+"(Bok_msg = (B"HTTP/1.1 200 OK
+(BAA9d10d11d12d13d14d15d16d2;18r8S1;20r(B # send message and contents back to client(Bfail_msg = (B"HTTP/1.1 404 FAIL
+"(Bok_msg = (B"HTTP/1.1 200 OK
+
+
+INPUT|usc430au-intro-153|U |1580893936|usc430au|server:python server.py |starting up on  port 80
+here1
+waiting for a connection
+connection from ('10.1.1.2' 48462)
+receiving data from client
+received "GET /tmp/testfil"
+receiving data from client
+received "e.txt HTTP/1.1"
+receiving data from client
+received ""
+no more data from ('10.1.1.2' 48462)
+Message Received: GET /tmp/testfile.txt HTTP/1.1
+attempting to open /tmp/testfile.txt;1580893950
+No such file or directory
+here1
+waiting for a connection
+^CTraceback (most recent call last):
+  File "server.py" line 26 in <module>
+    connection client_address = sock.accept()
+  File "/usr/lib/python2.7/socket.py" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430au-intro-154|U |1580893940|usc430au|client:python client.py server|connecting to server port 80
+Please enter a request in HTTP format: 
+GET /tmp/testfile.txt HTTP/1.1;1580893950
+requesting GET /tmp/testfile.txt HTTP/1.1
+opened file testfile.txt
+receiving data...
+data=
+received all of 1.1
+Received Message: 
+
+
+connection to server closed
+closing socket
+
+INPUT|usc430au-intro-155|U |1580893975|usc430au|server:ls ../../../tmp/|systemd-private-2b852f351215407998eab4963ed9afe6-systemd-resolved.service-00OXZK
+systemd-private-2b852f351215407998eab4963ed9afe6-systemd-timesyncd.service-GdC8hn
+
+INPUT|usc430au-intro-156|U |1580894009|usc430au|server:nano ../../../tmp/usc430au/test.txt|
+
+INPUT|usc430au-intro-157|U |1580894064|usc430au|server:mkdir ../../../tmp/usc430au|
+INPUT|usc430au-intro-158|U |1580894069|usc430au|server:nano ../../../tmp/usc430au/test.txt|
+
+INPUT|usc430au-intro-159|U |1580894078|usc430au|server:nano server.py |
+
+INPUT|usc430au-intro-160|U |1580894084|usc430au|server:python server.py |starting up on  port 80
+here1
+waiting for a connection
+connection from ('10.1.1.2' 48464)
+receiving data from client
+received "GET /tmp/usc430a"
+receiving data from client
+received "u/test.txt HTTP/"
+receiving data from client
+received "1.1"
+receiving data from client
+received ""
+no more data from ('10.1.1.2' 48464)
+Message Received: GET /tmp/usc430au/test.txt HTTP/1.1
+attempting to open /tmp/usc430au/test.txt
+sent 'this is a test v'
+sent '2\
+'
+done sending
+here1
+waiting for a connection
+^CTraceback (most recent call last):
+  File "server.py" line 26 in <module>
+    connection client_address = sock.accept()
+  File "/usr/lib/python2.7/socket.py" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430au-intro-161|U |1580894086|usc430au|client:python client.py server|connecting to server port 80
+Please enter a request in HTTP format: 
+GET /tmp/usc430au/test.txt HTTP/1.1;1580894097
+requesting GET /tmp/usc430au/test.txt HTTP/1.1
+opened file test.txt
+receiving data...
+data=HTTP/1.1 200 OK
+
+receiving data...
+data=this is a test v
+receiving data...
+data=2
+
+receiving data...
+data=
+received all of 1.1
+Received Message: 
+HTTP/1.1 200 OK
+this is a test v2
+
+
+connection to server closed
+closing socket
+
+INPUT|usc430au-intro-162|U |1580894101|usc430au|client:ls|136intro-2jjaj.JPEG  answers.txt	      client.py    diskfree.txt  testfile.txt  wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  cpuinfo.txt  server.py	 test.txt      xbzf136INTRO-1.jpg
+
+INPUT|usc430au-intro-163|U |1580894106|usc430au|client:rm testfile.txt |rm: remove write-protected regular empty file 'testfile.txt'? y;1580894108
+
+INPUT|usc430au-intro-164|U |1580894108|usc430au|client:ls|136intro-2jjaj.JPEG  answers.txt	      client.py    diskfree.txt  test.txt	     xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  cpuinfo.txt  server.py	 wuer136intro-4.JPG
+
+INPUT|usc430au-intro-165|U |1580894113|usc430au|client:echo test.txt |test.txt
+
+INPUT|usc430au-intro-166|U |1580894122|usc430au|client:cat test.txt |HTTP/1.1 200 OK
+this is a test v2
+

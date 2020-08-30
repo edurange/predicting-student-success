@@ -1,0 +1,248 @@
+User usc430bm start time 1581400940 end 1581496340
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430bm-intro-0|U |000000000|usc430bm|:|
+INPUT|usc430bm-intro-1|U |000000000|usc430bm|:|
+INPUT|usc430bm-intro-2|U |1581400940|usc430bm|intro:ls|File10.txt  File15.txt	File1.txt   File24.txt	File5.txt  I_am_inevitable
+File11.txt  File16.txt	File20.txt  File25.txt	File6.txt
+File12.txt  File17.txt	File21.txt  File2.txt	File7.txt
+File13.txt  File18.txt	File22.txt  File3.txt	File8.txt
+File14.txt  File19.txt	File23.txt  File4.txt	File9.txt
+
+INPUT|usc430bm-intro-3|U |1581400942|usc430bm|intro:clear|
+
+INPUT|usc430bm-intro-4|U |1581401015|usc430bm|intro:ls|File10.txt  File15.txt	File1.txt   File24.txt	File5.txt  I_am_inevitable
+File11.txt  File16.txt	File20.txt  File25.txt	File6.txt
+File12.txt  File17.txt	File21.txt  File2.txt	File7.txt
+File13.txt  File18.txt	File22.txt  File3.txt	File8.txt
+File14.txt  File19.txt	File23.txt  File4.txt	File9.txt
+
+INPUT|usc430bm-intro-5|U |1581401121|usc430bm|intro:exit|exit
+
+INPUT|usc430bm-intro-6|U |1581401153|usc430bm|intro:exit|;1581401121
+exit
+
+INPUT|usc430bm-intro-7|U |1581401183|usc430bm|intro:clear|;1581401153
+
+
+INPUT|usc430bm-intro-8|U |1581401313|usc430bm|intro:ls|File10.txt  File15.txt	File1.txt   File24.txt	File5.txt  I_am_inevitable
+File11.txt  File16.txt	File20.txt  File25.txt	File6.txt
+File12.txt  File17.txt	File21.txt  File2.txt	File7.txt
+File13.txt  File18.txt	File22.txt  File3.txt	File8.txt
+File14.txt  File19.txt	File23.txt  File4.txt	File9.txt
+
+INPUT|usc430bm-intro-9|U |1581401318|usc430bm|intro:rm *|
+INPUT|usc430bm-intro-10|U |1581401319|usc430bm|intro:ls|
+INPUT|usc430bm-intro-11|U |1581401321|usc430bm|intro:clear|
+
+INPUT|usc430bm-intro-12|U |1581401322|usc430bm|intro:cd ..|
+INPUT|usc430bm-intro-13|U |1581401323|usc430bm|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430bm
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430bm-intro-14|U |1581401341|usc430bm|intro:cd usc430bm|
+INPUT|usc430bm-intro-15|U |1581401354|usc430bm|intro:mkdir top_secret|
+INPUT|usc430bm-intro-16|U |1581401355|usc430bm|intro:ls|top_secret
+
+INPUT|usc430bm-intro-17|A4 A1 A0 A2 A3 |1581401743|usc430bm|intro:find / -name "intro*" "*.jpeg" | head -n 5|find: paths must precede expression: `*.jpeg'
+
+INPUT|usc430bm-intro-18|A4 A1 A3 A2 A0 |1581401924|usc430bm|intro:find / -name "intro*" && "*.jpeg" | head -n 5|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+find: '/tmp/systemd-private-8dc7bf07d4644474bad7b7ac8852745a-systemd-timesyncd.service-8nz9hu': Permission denied
+find: '/tmp/systemd-private-8dc7bf07d4644474bad7b7ac8852745a-systemd-resolved.service-kYI3CO': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: 
+INPUT|usc430bm-intro-19|U |1581401969|usc430bm|intro:clear|
+
+INPUT|usc430bm-intro-20|U |1581488325|usc430bm|intro:clear|
+
+INPUT|usc430bm-intro-21|U |1581489359|usc430bm|intro:exti|exti: command not found
+
+INPUT|usc430bm-intro-22|U |1581489362|usc430bm|intro:exit|exit
+
+INPUT|usc430bm-intro-23|U |1581489619|usc430bm|intro:ls|;1581489362
+top_secret
+
+INPUT|usc430bm-intro-24|U |1581490669|usc430bm|intro:exit |exit
+
+INPUT|usc430bm-intro-25|U |1581493412|usc430bm|intro:ls|;1581490669
+top_secret
+o.jpeg" | head -n 5ind / -name "intro*.JPG" -o -name "intro*.jpg" -o -name "intr ;1581493689
+find: '/tmp/systemd-private-3667af15457042e7a96a8ff617df1c20-systemd-timesyncd.service-oaC9Fu': Permission denied
+find: '/tmp/systemd-private-3667af15457042e7a96a8ff617df1c20-systemd-resolved.service-ZrFw5R': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permiss
+INPUT|usc430bm-intro-26|A1 A4 A0 A2 A3 |1581493800|usc430bm|intro:find ~/ -name "intro*.JPG" -o -name "intro*.jpg" -o -name "introAc430bm@intro:~$ find ~|
+ro.jpeg"            nd ~/ -name "intro*.JPG" -o -name "intro*.jpg" -o -name "intr;1581493812
+me ".jpeg"ntro:~$ find ~/ -name "intro*" -o -name "*.jpg" -o -name ".JPG" -o -na ;1581493889
+A
+
+INPUT|usc430bm-intro-27|M2 M0 |1581493899|usc430bm|intro:find / -name "intro*" -o -name "*.jpg" -o -name ".JPG" -o -nameAsc430bm@intro:~$ find |
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+find: '/tmp/systemd-private-3667af15457042e7a96a8ff617df1c20-systemd-timesyncd.service-oaC9Fu': Permission denied
+find: '/tmp/systemd-private-3667af15457042e7a96a8ff617df1c20-systemd-resolved.service-ZrFw5R': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc
+INPUT|usc430bm-intro-28|U |1581494083|usc430bm|intro:xdg-open /usr/share/pixmaps/xbzf136INTRO-1.jpg|;1581494083
+Command 'xdg-open' not found but can be installed with:
+
+apt install xdg-utils
+Please ask your administrator.
+
+
+INPUT|usc430bm-intro-29|U |1581494599|usc430bm|intro:scp /usr/share/pixmaps/xbzf136INTRO-1.jpg  /Users/christopherfuAsc430bm@intro:~$ scp|
+cp: cannot create regular file '/Users/christopherfucci/Documents/CSCI430': No such file or directory
+A
+
+INPUT|usc430bm-intro-30|U |1581494663|usc430bm|intro:scp /usr/share/pixmaps/xbzf136INTRO-1.jpg  christopherfucci@Chr43@istophers-MacBook-Pro-3:/Users/christopherfu36INTRO-1.jpg  /Users/christopherfucci/Documents/CSCI430 |ssh: Could not resolve hostname christophers-macbook-pro-3: Temporary failure in name resolution
+lost connection
+A
+
+INPUT|usc430bm-intro-31|U |1581495544|usc430bm|intro:cd  /usr/share/pixmaps/xbzf136INTRO-1.jpg |bash: cd: /usr/share/pixmaps/xbzf136INTRO-1.jpg: Not a directory
+
+INPUT|usc430bm-intro-32|U |1581495549|usc430bm|intro:cd |
+INPUT|usc430bm-intro-33|U |1581495556|usc430bm|intro:cd  /usr/share/pixmaps/xbzf136INTRO-1.jpg |bash: cd: /usr/share/pixmaps/xbzf136INTRO-1.jpg: Not a directory
+
+INPUT|usc430bm-intro-34|U |1581495586|usc430bm|intro:cd /usr/share/pixmaps/|
+INPUT|usc430bm-intro-35|U |1581495587|usc430bm|intro:ls|debian-logo.png        pstree16.xpm   python3.xpm  vim-48.xpm
+gvim.svg	       pstree32.xpm   python.xpm   xbzf136INTRO-1.jpg
+htop.png	       python2.7.xpm  vim-16.xpm
+language-selector.png  python3.6.xpm  vim-32.xpm
+
+INPUT|usc430bm-intro-36|U |1581495643|usc430bm|intro:mv xbzf136INTRO-1.jpg ~/usc430bm/top_secret|mv: cannot move 'xbzf136INTRO-1.jpg' to '/users/usc430bm/usc430bm/top_secret': No such file or directory
+
+INPUT|usc430bm-intro-37|U |1581495681|usc430bm|intro:mv xbzf136INTRO-1.jpg ~/top_secret|mv: cannot remove 'xbzf136INTRO-1.jpg': Permission denied
+
+INPUT|usc430bm-intro-38|U |1581495717|usc430bm|intro:cp xbzf136INTRO-1.jpg ~/top_secret|
+INPUT|usc430bm-intro-39|U |1581495720|usc430bm|intro:cd|
+INPUT|usc430bm-intro-40|U |1581495722|usc430bm|intro:ls|top_secret
+
+INPUT|usc430bm-intro-41|U |1581495726|usc430bm|intro:cd top_secret/|
+INPUT|usc430bm-intro-42|U |1581495727|usc430bm|intro:ls|xbzf136INTRO-1.jpg
+
+INPUT|usc430bm-intro-43|U |1581495929|usc430bm|intro:cd |
+INPUT|usc430bm-intro-44|U |1581495932|usc430bm|intro:node_list|node_list: command not found
+
+INPUT|usc430bm-intro-45|U |1581495935|usc430bm|intro:exit|exit
+
+INPUT|usc430bm-intro-46|A4 A1 A0 A2 A3 |1581496102|usc430bm|intro:find / -name "INTRO*" | head -n 5|;1581495935
+find: /usr/share/doc/bash/INTRO.gz
+'/tmp/systemd-private-3667af15457042e7a96a8ff617df1c20-systemd-timesyncd.service-oaC9Fu': Permission denied
+find: '/tmp/systemd-private-3667af15457042e7a96a8ff617df1c20-systemd-resolved.service-ZrFw5R': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Pe
+INPUT|usc430bm-intro-47|U |1581496235|usc430bm|intro:clear|
+
+INPUT|usc430bm-intro-48|U |1581496239|usc430bm|intro:clear|
+
+INPUT|usc430bm-intro-49|U |1581496241|usc430bm|intro:clear|
+
+INPUT|usc430bm-intro-50|A1 A4 A0 A2 A3 |1581496249|usc430bm|intro:find / -name "INTRO*" | head -n 5|find: /usr/share/doc/bash/INTRO.gz
+'/tmp/systemd-private-3667af15457042e7a96a8ff617df1c20-systemd-timesyncd.service-oaC9Fu': Permission denied;1581496250
+find: '/tmp/systemd-private-3667af15457042e7a96a8ff617df1c20-systemd-resolved.service-ZrFw5R': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Per
+INPUT|usc430bm-intro-51|U |1581496283|usc430bm|intro:clear|
+
+INPUT|usc430bm-intro-52|A0 A2 A3 A1 A4 |1581496311|usc430bm|intro:find ~/ -name "INTRO*.jpg" | head -n 5|
+INPUT|usc430bm-intro-53|A0 A2 A3 A4 A1 |1581496332|usc430bm|intro:find ~/ -name "INTRO*" -o -name ".jpg" | head -n 5|
+INPUT|usc430bm-intro-54|A1 A4 A2 A3 A0 |1581496340|usc430bm|intro:find / -name "INTRO*" -o -name ".jpg" | head -n 5|find: '/tmp/systemd-private-3667af15457042e7a96a8ff617df1c20-systemd-timesyncd.service-oaC9Fu'/usr/share/doc/bash/INTRO.gz
+: Permission denied
+find: '/tmp/systemd-private-3667af15457042e7a96a8ff617df1c20-systemd-resolved.service-ZrFw5R': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission den

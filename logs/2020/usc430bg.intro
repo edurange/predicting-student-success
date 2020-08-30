@@ -1,0 +1,227 @@
+User usc430bg start time 1580495399 end 1580627736
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430bg-intro-0|U |000000000|usc430bg|:|
+INPUT|usc430bg-intro-1|U |000000000|usc430bg|:|
+INPUT|usc430bg-intro-2|U |1580495399|usc430bg|intro:ls| myhashes.txt				     txt.txt
+'Screen Shot 2019-12-29 at 5.42.45 PM.png'   usc430bg.txt
+
+INPUT|usc430bg-intro-3|A1 A4 A2 A3 A0 |1580495640|usc430bg|intro:find . -name "*intro*"|
+INPUT|usc430bg-intro-4|M3 M2 M1 |1580495665|usc430bg|intro:find / -name "*intro*"|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+ /usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: '/tmp/systemd-private-fa820327a07147aebfaee475216a8ed0-systemd-timesyncd.service-3qyyEb': Permission denied
+find: '/tmp/systemd-private-fa820327a07147aebfaee475216a8ed0-systemd-resolved.service-Jj2VPj': Permission denie
+INPUT|usc430bg-intro-5|M2 |1580495698|usc430bg|intro:find / -name "*intro*.jpg"|find: '/tmp/systemd-private-fa820327a07147aebfaee475216a8ed0-systemd-timesyncd.service-3qyyEb': Permission denied
+find: '/tmp/systemd-private-fa820327a07147aebfaee475216a8ed0-systemd-resolved.service-Jj2VPj': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430bg-intro-6|A4 A1 A2 A3 A0 |1580495728|usc430bg|intro:find ~ -name "*intro*.jpg"|
+INPUT|usc430bg-intro-7|A1 A4 A0 A2 A3 |1580495784|usc430bg|intro:find ~ -name "*intro*.jpeg"|
+INPUT|usc430bg-intro-8|A4 A1 A0 A2 A3 |1580495788|usc430bg|intro:find / -name "*intro*.jpeg"|find: '/tmp/systemd-private-fa820327a07147aebfaee475216a8ed0-systemd-timesyncd.service-3qyyEb': Permission denied
+find: '/tmp/systemd-private-fa820327a07147aebfaee475216a8ed0-systemd-resolved.service-Jj2VPj': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430bg-intro-9|A0 A2 A3 A4 A1 |1580495831|usc430bg|intro:find / -name "*intro*.jpeg" head -n 5|find: paths must precede expression: `head'
+
+INPUT|usc430bg-intro-10|A1 A4 A0 A2 A3 |1580495839|usc430bg|intro:find / -name "*intro*.jpeg" | head -n 5|
+INPUT|usc430bg-intro-11|M2 |1580495851|usc430bg|intro:find / -name "*intro*.jpg" | head -n 5|/var/log/136intro-3.jpg
+
+INPUT|usc430bg-intro-12|A2 A3 A0 A4 A1 |1580495903|usc430bg|intro:find / -name "*Intro*.jpg" | head -n 5|
+INPUT|usc430bg-intro-13|M3 M2 M0 |1580495963|usc430bg|intro:find / -iname "*intro*.jpg" | head -n 5|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430bg-intro-14|M4 M1 |1580495979|usc430bg|intro:find / -iname "*intro*.jpeg" | head -n 5|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bg-intro-15|U |1580496213|usc430bg|intro:mkdir top_secret|
+INPUT|usc430bg-intro-16|U |1580496220|usc430bg|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg top_secret/|mv: cannot remove '/usr/share/pixmaps/xbzf136INTRO-1.jpg': Permission denied
+
+INPUT|usc430bg-intro-17|U |1580496249|usc430bg|intro:mv /var/log/136intro-3.jpg top_secret/|
+INPUT|usc430bg-intro-18|U |1580496256|usc430bg|intro:mv /etc/wuer136intro-4.JPG top_secret/|
+INPUT|usc430bg-intro-19|U |1580496263|usc430bg|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg top_secret/|
+INPUT|usc430bg-intro-20|U |1580496268|usc430bg|intro:mv /dev/136intro-2jjaj.JPEG top_secret/|
+INPUT|usc430bg-intro-21|U |1580496269|usc430bg|intro:ls| myhashes.txt				     top_secret   usc430bg.txt
+'Screen Shot 2019-12-29 at 5.42.45 PM.png'   txt.txt
+
+INPUT|usc430bg-intro-22|U |1580496855|usc430bg|intro:ls             | myhashes.txt				     top_secret       txt.txt
+'Screen Shot 2019-12-29 at 5.42.45 PM.png'   top_secret.tar   usc430bg.txt
+
+INPUT|usc430bg-intro-23|U |1580496869|usc430bg|intro:rm top_secret.tar |
+INPUT|usc430bg-intro-24|U |1580496871|usc430bg|intro:cd top_secret/|
+INPUT|usc430bg-intro-25|U |1580496872|usc430bg|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430bg-intro-26|U |1580496875|usc430bg|intro:youch |;1580496876
+Command 'youch' not found did you mean:
+
+  command 'touch' from deb coreutils
+
+Try: apt install <deb name>
+
+
+INPUT|usc430bg-intro-27|U |1580496884|usc430bg|intro:touch answers.txt|
+INPUT|usc430bg-intro-28|U |1580496887|usc430bg|intro:vi answers.txt |
+
+INPUT|usc430bg-intro-29|U |1580496898|usc430bg|intro:vi answers.txt |"answers.txt" 0L 0C6n  >c~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~              
+INPUT|usc430bg-intro-30|U |1580497024|usc430bg|intro:vi answers.txt |"answers.txt" 5L 156C6n  >c136intro-2jjaj.JPEG godzilla
+asdf136Intro-5kqlw.jpeg space odessy
+xbzf136INTRO-1.jpg forbidden planet
+136intro-3.jpg 3 dimension
+wuer136intro-4.JPG the fly
+
+
+INPUT|usc430bg-intro-31|U |1580497047|usc430bg|intro:vi answers.txt |"answers.txt" 5L 156C6n  >c136intro-2jjaj.JPEG godzilla
+asdf136Intro-5kqlw.jpeg space odessy
+xbzf136INTRO-1.jpg forbidden planet
+136intro-3.jpg 3 dimension
+wuer136intro-4.JPG the fly
+"answers.txt" 5L 203C written                                                  ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                 
+INPUT|usc430bg-intro-32|U |1580627271|usc430bg|intro:ls| myhashes.txt				     top_secret   usc430bg.txt
+'Screen Shot 2019-12-29 at 5.42.45 PM.png'   txt.txt
+
+INPUT|usc430bg-intro-33|U |1580627278|usc430bg|intro:fdisk|fdisk: bad usage
+Try 'fdisk --help' for more information.
+
+INPUT|usc430bg-intro-34|U |1580627283|usc430bg|intro:fdisk -l|Disk /dev/sda: 465.8 GiB 500107862016 bytes 976773168 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x8416d6c8
+
+Device     Boot    Start       End   Sectors   Size Id Type
+/dev/sda1  *        2048  31999999  31997952  15.3G 83 Linux
+/dev/sda2       32000000  40957951   8957952   4.3G 82 Linux swap / Solaris
+/dev/sda3       40957952 976773167 935815216 446.2G  0 Empty
+
+INPUT|usc430bg-intro-35|M6 |1580627344|usc430bg|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1988984          0    1988984   0%% /dev
+tmpfs                                                403952       6000     397952   2%% /run
+/dev/sda1                                          15681948    3252644   11629356  22%% /
+tmpfs                                               2019748          0    2019748   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               2019748          0    2019748   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/share                 507823232  241726976  225470464  52%% /share
+users.isi.deterlab.net:/mnt/other/users/usc430bg 2031313280 1178170368  690637824  64%% /users/usc430bg
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1371283072 1365485184  51%% /proj/USC430
+tmpfs                      
+INPUT|usc430bg-intro-36|U |1580627429|usc430bg|intro:fdisk -l|Disk /dev/sda: 465.8 GiB 500107862016 bytes 976773168 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x8416d6c8
+
+Device     Boot    Start       End   Sectors   Size Id Type
+/dev/sda1  *        2048  31999999  31997952  15.3G 83 Linux
+/dev/sda2       32000000  40957951   8957952   4.3G 82 Linux swap / Solaris
+/dev/sda3       40957952 976773167 935815216 446.2G  0 Empty
+
+INPUT|usc430bg-intro-37|U |1580627514|usc430bg|intro:touch top_secret/diskfree.txt|
+INPUT|usc430bg-intro-38|U |1580627530|usc430bg|intro:fdisk -l > top_secret/diskfree.txt |
+INPUT|usc430bg-intro-39|M5 |1580627564|usc430bg|intro:cat /proc/cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microcode	: 0xba
+cpu MHz		: 1656.846
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4266.75
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microco
+INPUT|usc430bg-intro-40|U |1580627725|usc430bg|intro:cd top_secret/|
+INPUT|usc430bg-intro-41|U |1580627728|usc430bg|intro:vi diskfree.txt |"diskfree.txt" 11L 513C6n  >cDisk /dev/sda: 465.8 GiB 500107862016 bytes 976773168 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x8416d6c8
+
+Device     Boot    Start
+/dev/sda1  *
+/dev/sda2
+/dev/sda3
+
+
+INPUT|usc430bg-intro-42|U |1580627733|usc430bg|intro:ls|136intro-2jjaj.JPEG  answers.txt	      diskfree.txt	  xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+
+INPUT|usc430bg-intro-43|U |1580627736|usc430bg|intro:vi answers.txt |"answers.txt" 5L 203C6n  >c/dev/136intro-2jjaj.JPEG godzilla
+/.hidden/asdf136Intro-5kqlw.jpeg space odessy
+/usr/share/pixmaps/xbzf136INTRO-1.jpg forbidden planet
+/var/log/136intro-3.jpg 3 dimension
+/etc/wuer136intro-4.JPG the fly
+"answers.txt" 9L 288C written                                                                              ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~              

@@ -1,0 +1,1391 @@
+User usc430ag start time 1580331620 end 1581192941
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ag-intro-0|U |000000000|usc430ag|:|
+INPUT|usc430ag-intro-1|U |000000000|usc430ag|:|
+INPUT|usc430ag-intro-2|U |1580331620|usc430ag|intro:ls|hashes_ag.txt  test.rtf  thomas.png  usc430ag.txt
+
+INPUT|usc430ag-intro-3|U |1580331628|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-4|U |1580331629|usc430ag|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ag-intro-5|U |1580331638|usc430ag|intro:cd|
+INPUT|usc430ag-intro-6|M4 M3 M2 M1 M0 |1580331790|usc430ag|intro:find / -iname "*intro*"              |/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: '/tmp/systemd-private-6d41a09c8de7406f941258215dce61c9-systemd-resolved.service-GPsOLd': Permission denied
+find: '/tmp/s
+INPUT|usc430ag-intro-7|A0 A2 A3 A4 A1 |1580331858|usc430ag|intro:find / -iname "*intro*" | -name "*.jpeg"|;1580331859
+Command '-name' not found did you mean:
+
+  command 'uname' from deb coreutils
+
+Try: apt install <deb name>
+
+
+INPUT|usc430ag-intro-8|A2 A3 A0 A1 A4 |1580331869|usc430ag|intro:find / -iname "*intro*" | find . -name "*.jpeg"|
+INPUT|usc430ag-intro-9|M4 |1580331880|usc430ag|intro:find / -iname "*intro*" | find / -name "*.jpeg"|/.hidden/asdf136Intro-5kqlw.jpeg
+find: '/tmp/systemd-private-6d41a09c8de7406f941258215dce61c9-systemd-resolved.service-GPsOLd': Permission denied
+find: '/tmp/systemd-private-6d41a09c8de7406f941258215dce61c9-systemd-timesyncd.service-tIToJV': Permission denied
+find: '/tmp/systemd-private-6d41a09c8de7406f941258215dce61c9-systemd-resolved.service-GPsOLd': Permission denied
+find: '/tmp/systemd-private-6d41a09c8de7406f941258215dce61c9-systemd-timesyncd.service-tIToJV': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find:
+INPUT|usc430ag-intro-10|M4 |1580331936|usc430ag|intro:find / -iname "*intro*" -a -name "*.jpeg"|/.hidden/asdf136Intro-5kqlw.jpeg
+find: '/tmp/systemd-private-6d41a09c8de7406f941258215dce61c9-systemd-resolved.service-GPsOLd': Permission denied
+find: '/tmp/systemd-private-6d41a09c8de7406f941258215dce61c9-systemd-timesyncd.service-tIToJV': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission
+INPUT|usc430ag-intro-11|M4 |1580331973|usc430ag|intro:find / -iname "*intro*" -a -name "*.jpeg"|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ag-intro-12|M2 M0 |1580332038|usc430ag|intro:find / -iname "*intro*" -a -name "*.jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ag-intro-13|M4 M3 M2 M1 M0 |1580332094|usc430ag|intro:find / -iname "*intro*"                 |/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ag.hw1-usc430ag.intro.log
+/var/log/ttylog/usc430ag.hw1-usc430ag.intro.csv
+/etc/w
+INPUT|usc430ag-intro-14|M4 M3 M2 M1 M0 |1580332258|usc430ag|intro:find / -iname "*intro*" | find -iname "*.jpg"|eg"430ag@intro:~$ sudo find / -iname "*intro*" -a -iname "*.jpg" -o -iname "*.jp ;1580332286
+/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430ag-intro-15|U |1580332340|usc430ag|intro:ls|hashes_ag.txt  test.rtf  thomas.png  usc430ag.txt
+
+INPUT|usc430ag-intro-16|U |1580332375|usc430ag|intro:rm thomas.png|
+INPUT|usc430ag-intro-17|U |1580332377|usc430ag|intro:ls|hashes_ag.txt  test.rtf  usc430ag.txt
+
+INPUT|usc430ag-intro-18|U |1580332439|usc430ag|intro:rm test.rtf|
+INPUT|usc430ag-intro-19|U |1580332477|usc430ag|intro:mkdir top_secret|
+INPUT|usc430ag-intro-20|U |1580332478|usc430ag|intro:ls|hashes_ag.txt  top_secret  usc430ag.txt
+cret30ag@intro:~$ sudo find / -iname "*intro*" -a -iname "*.jpg" -o -iname "*.jpeg" | mv top_se ;1580332708
+mv: missing destination file operand after 'top_secret'
+Try 'mv --help' for more information.
+A
+
+INPUT|usc430ag-intro-21|U |1580332806|usc430ag|intro:ls|hashes_ag.txt  top_secret  usc430ag.txt
+
+INPUT|usc430ag-intro-22|U |1580332811|usc430ag|intro:cd top_secret|
+INPUT|usc430ag-intro-23|U |1580332812|usc430ag|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg
+-exec mv -t top_secret {} +A$ ls
+A
+
+INPUT|usc430ag-intro-24|U |1580332834|usc430ag|intro:cd| top_secret {} +A$ sudo find / -iname "*intro*" -a -iname "*.jpg" -o -iname "*.jpeg" | mv top_secretA30ag@intro:~$ ls
+A
+A
+
+INPUT|usc430ag-intro-25|M3 M2 M0 |1580332841|usc430ag|intro:find / -iname "*intro*" -a -iname "*.jpg" -o -iname "*.jpeg            |> ";1580332843
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430ag-intro-26|A0 A2 A3 A1 A4 |1580332894|usc430ag|intro:find / -iname "*intro*" -a -iname "*.jpg" |
+INPUT|usc430ag-intro-27|U |1580332904|usc430ag|intro:cd top_secret|
+INPUT|usc430ag-intro-28|U |1580332906|usc430ag|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ag-intro-29|U |1580333341|usc430ag|intro:cd|
+INPUT|usc430ag-intro-30|U |1580333345|usc430ag|intro:ls|hashes_ag.txt  top_secret  usc430ag.txt
+
+INPUT|usc430ag-intro-31|U |1580333491|usc430ag|intro:ls|answers.txt  hashes_ag.txt  top_secret	usc430ag.txt
+
+INPUT|usc430ag-intro-32|U |1580333536|usc430ag|intro:mv answer.txt top_secret|mv: cannot stat 'answer.txt': No such file or directory
+
+INPUT|usc430ag-intro-33|U |1580333541|usc430ag|intro:mv answers.txt top_secret|
+INPUT|usc430ag-intro-34|U |1580333543|usc430ag|intro:ls|hashes_ag.txt  top_secret  usc430ag.txt
+
+INPUT|usc430ag-intro-35|U |1580333549|usc430ag|intro:cd top_secret|
+INPUT|usc430ag-intro-36|U |1580333550|usc430ag|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430ag-intro-37|U |1580333628|usc430ag|intro:cat answers.txt|/.hidden/asdf136Intro-5kqlw.jpeg - 2001 space odyssey
+/usr/share/pixmaps/xbzf136INTRO-1.jpg - Forbidden planet
+/var/log/136intro-3.jpg - Fantastic sights leap at you
+/etc/wuer136intro-4.JPG - The Fly
+/dev/136intro-2jjaj.JPEG - Godzilla
+
+INPUT|usc430ag-intro-38|U |1580333638|usc430ag|intro:open answers.txt|Couldn't get a file descriptor referring to the console
+
+INPUT|usc430ag-intro-39|U |1580446783|usc430ag|intro:ls|hashes_ag.txt  top_secret  usc430ag.txt
+
+INPUT|usc430ag-intro-40|M6 |1580446839|usc430ag|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  5.9M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ag  1.9T  1.2T  643G  64%% /users/usc430ag
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             200M     0  200M   0%% /run/user/14170
+
+INPUT|usc430ag-intro-41|A6 |1580446863|usc430ag|intro:df -h > top_secret/diskfree.txt|
+INPUT|usc430ag-intro-42|U |1580446882|usc430ag|intro:cat top_secret/diskfree.txt|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  5.9M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ag  1.9T  1.2T  643G  64%% /users/usc430ag
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             200M     0  200M   0%% /run/user/14170
+
+INPUT|usc430ag-intro-43|U |1580446890|usc430ag|intro:cd top_secret |
+INPUT|usc430ag-intro-44|U |1580446891|usc430ag|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430ag-intro-45|U |1580446955|usc430ag|intro:cd |
+INPUT|usc430ag-intro-46|M5 |1580446957|usc430ag|intro:cat /proc/cpuinfo | grep vendor_id|vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+
+INPUT|usc430ag-intro-47|U |1580447002|usc430ag|intro:cat top_secret/answers.txt|/.hidden/asdf136Intro-5kqlw.jpeg - 2001 space odyssey
+/usr/share/pixmaps/xbzf136INTRO-1.jpg - Forbidden planet
+/var/log/136intro-3.jpg - Fantastic sights leap at you
+/etc/wuer136intro-4.JPG - The Fly
+/dev/136intro-2jjaj.JPEG - Godzilla
+
+INPUT|usc430ag-intro-48|U |1580447105|usc430ag|intro:ls|answers.txt  hashes_ag.txt  top_secret	usc430ag.txt
+
+INPUT|usc430ag-intro-49|U |1580447121|usc430ag|intro:mv answers.txt top_secret|
+INPUT|usc430ag-intro-50|U |1580447134|usc430ag|intro:cat top_secret/answers.txt |Treasure Hunt
+/.hidden/asdf136Intro-5kqlw.jpeg - 2001 space odyssey
+/usr/share/pixmaps/xbzf136INTRO-1.jpg - Forbidden planet
+/var/log/136intro-3.jpg - Fantastic sights leap at you
+/etc/wuer136intro-4.JPG - The Fly
+/dev/136intro-2jjaj.JPEG - Godzilla
+
+Information Hunt
+1. The /var directory on UNIX computers contains variable data files to which the system writes data during the course of its operation.
+2. The /dev directory on a UNIX computer contains the special device files for all the devices that are created during installation.
+3. In diskfree.txt
+4. GenuineIntel
+
+INPUT|usc430ag-intro-51|U |1580447147|usc430ag|intro:ls top_secret|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430ag-intro-52|U |1581130698|usc430ag|server:ls|client.py  hashes_ag.txt  server.py  top_secret  usc430ag.txt
+
+INPUT|usc430ag-intro-53|U |1581130710|usc430ag|server:python server |python: can't open file 'server': [Errno 2] No such file or directory
+
+INPUT|usc430ag-intro-54|U |1581130714|usc430ag|server:python server.py|starting up on localhost port 80
+Traceback (most recent call last):
+  File \"server.py\" line 9 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ag-intro-55|U |1581130733|usc430ag|server:python server.py|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-56|U |1581130970|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-57|U |1581130977|usc430ag|server:cat server.py|import socket
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('localhost' 80)
+print('starting up on %%s port %%s' %% server_address)
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection client_address = sock.accept()
+
+    try:
+        print('connection from' client_address)
+
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv(16)
+            print('received \"%%s\"' %% data)
+            if data:
+                print('sending data back to the client')
+                connection.sendall(data)
+            else:
+                print('no more data from' client_address)
+                break
+
+    finally:
+        # Clean up the connection
+        connection.close()
+
+INPUT|usc430ag-intro-58|U |1581131007|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-59|U |1581131011|usc430ag|server:python server.py|starting up on localhost port 80
+Traceback (most recent call last):
+  File \"server.py\" line 9 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ag-intro-60|U |1581131019|usc430ag|server:python server.py |starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-61|U |1581131099|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-62|U |1581131117|usc430ag|server:python server.py|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-63|U |1581131298|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-64|U |1581131300|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56080))
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+('no more data from' ('10.1.1.2' 56080))
+waiting for a connection
+('connection from' ('10.1.1.2' 56082))
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+('no more data from' ('10.1.1.2' 56082))
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-65|U |1581131436|usc430ag|server:ls|client.py  hashes_ag.txt  server.py  top_secret  usc430ag.txt
+
+INPUT|usc430ag-intro-66|U |1581131442|usc430ag|server:cd /tmp|
+INPUT|usc430ag-intro-67|U |1581131443|usc430ag|server:ls|systemd-private-4e4cad3cc0584c3780f0f039ebf20346-systemd-resolved.service-VPIkMX
+systemd-private-4e4cad3cc0584c3780f0f039ebf20346-systemd-timesyncd.service-48L5mG
+
+INPUT|usc430ag-intro-68|U |1581131485|usc430ag|server:cd|
+INPUT|usc430ag-intro-69|U |1581131486|usc430ag|server:cd|
+INPUT|usc430ag-intro-70|U |1581131494|usc430ag|server:cd tmp|bash: cd: tmp: No such file or directory
+
+INPUT|usc430ag-intro-71|U |1581131504|usc430ag|server:cd /tmp|
+INPUT|usc430ag-intro-72|U |1581131508|usc430ag|server:ls|systemd-private-4e4cad3cc0584c3780f0f039ebf20346-systemd-resolved.service-VPIkMX
+systemd-private-4e4cad3cc0584c3780f0f039ebf20346-systemd-timesyncd.service-48L5mG
+
+INPUT|usc430ag-intro-73|U |1581132089|usc430ag|server:cd|
+INPUT|usc430ag-intro-74|U |1581132092|usc430ag|server:cd /tmp/|
+INPUT|usc430ag-intro-75|U |1581132093|usc430ag|server:ls|systemd-private-4e4cad3cc0584c3780f0f039ebf20346-systemd-resolved.service-VPIkMX
+systemd-private-4e4cad3cc0584c3780f0f039ebf20346-systemd-timesyncd.service-48L5mG
+
+INPUT|usc430ag-intro-76|U |1581132842|usc430ag|server:touch test1.html|
+INPUT|usc430ag-intro-77|U |1581132848|usc430ag|server:ls|systemd-private-4e4cad3cc0584c3780f0f039ebf20346-systemd-resolved.service-VPIkMX   test1.html
+systemd-private-4e4cad3cc0584c3780f0f039ebf20346-systemd-timesyncd.service-48L5mG
+
+INPUT|usc430ag-intro-78|U |1581132879|usc430ag|server:vi test1.html|"test1.html" 1L 19C written                                                                                                          ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~  
+INPUT|usc430ag-intro-79|U |1581133060|usc430ag|server:cat test1/html|cat: test1/html: No such file or directory
+
+INPUT|usc430ag-intro-80|U |1581133062|usc430ag|server:cat test1.html|this is test1 html
+
+INPUT|usc430ag-intro-81|U |1581133104|usc430ag|server:touch 404.html|
+INPUT|usc430ag-intro-82|U |1581133137|usc430ag|server:vi 404.html|"404.html" 1L 22C written                                                                                                          ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~    
+INPUT|usc430ag-intro-83|U |1581133165|usc430ag|server:cat 404.html|error: file not found
+
+INPUT|usc430ag-intro-84|U |1581134085|usc430ag|server:cd|
+INPUT|usc430ag-intro-85|U |1581134094|usc430ag|server:cat /tmp/test1.html|this is test1 html
+
+INPUT|usc430ag-intro-86|U |1581134615|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-87|U |1581134629|usc430ag|server:cat server.py|import socket
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print('starting up on %%s port %%s' %% server_address)
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection client_address = sock.accept()
+
+    try:
+        print('connection from' client_address)
+        request = ''
+
+        # Receive the data in small chunks and append to string
+        while True:
+            data = connection.recv(16)
+            print('received \"%%s\"' %% data)
+            if data:
+                request += data
+            else:
+                # full client request is received
+                print('no more data from' client_address)
+                break
+
+        # parse file name
+        parsed = request.split(' ')
+        file_name = parsed[1]
+
+        # try to find file
+     
+INPUT|usc430ag-intro-88|U |1581134642|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-89|U |1581134655|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56120))
+received \"\"
+('no more data from' ('10.1.1.2' 56120))
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file_name = parsed[1]
+IndexError: list index out of range
+
+INPUT|usc430ag-intro-90|U |1581134815|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56122))
+received \"\"
+('no more data from' ('10.1.1.2' 56122))
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file_name = parsed[1]
+IndexError: list index out of range
+
+INPUT|usc430ag-intro-91|U |1581134876|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56124))
+received \"\"
+('no more data from' ('10.1.1.2' 56124))
+Traceback (most recent call last):
+  File \"server.py\" line 38 in <module>
+    file_name = parsed[1]
+IndexError: list index out of range
+
+INPUT|usc430ag-intro-92|U |1581134927|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56126))
+received \"\"
+('no more data from' ('10.1.1.2' 56126))
+Traceback (most recent call last):
+  File \"server.py\" line 38 in <module>
+    file_name = parsed[1]
+IndexError: list index out of range
+
+INPUT|usc430ag-intro-93|U |1581134995|usc430ag|server:cat server.py|import socket
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print('starting up on %%s port %%s' %% server_address)
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection client_address = sock.accept()
+
+    try:
+        print('connection from' client_address)
+        request = ''
+
+        # Receive the data in small chunks and append to string
+        while True:
+            data = connection.recv(16)
+            print('received \"%%s\"' %% data)
+            if data:
+                request += data
+            else:
+                # full client request is received
+                print('no more data from' client_address)
+                break
+
+        # parse file name
+        parsed = request.split(' ')
+        if len(parsed) > 0:
+            file_name = parsed[1]
+
+
+INPUT|usc430ag-intro-94|U |1581135022|usc430ag|server:cat server.py|import socket
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print('starting up on %%s port %%s' %% server_address)
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection client_address = sock.accept()
+
+    try:
+        print('connection from' client_address)
+        request = ''
+
+        # Receive the data in small chunks and append to string
+        while True:
+            data = connection.recv(16)
+            print('received \"%%s\"' %% data)
+            if data:
+                request += data
+            else:
+                # full client request is received
+                print('no more data from' client_address)
+                break
+
+        # parse file name
+        parsed = request.split(' ')
+        print(parsed)
+        if len(parsed) > 0:
+            f
+INPUT|usc430ag-intro-95|U |1581135026|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56128))
+received \"\"
+('no more data from' ('10.1.1.2' 56128))
+['']
+Traceback (most recent call last):
+  File \"server.py\" line 39 in <module>
+    file_name = parsed[1]
+IndexError: list index out of range
+
+INPUT|usc430ag-intro-96|U |1581135144|usc430ag|server:python3 server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56130)
+received \"b'GET /test1.html '\"
+Traceback (most recent call last):
+  File \"server.py\" line 29 in <module>
+    request += data
+TypeError: must be str not bytes
+
+INPUT|usc430ag-intro-97|U |1581135937|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-98|U |1581135940|usc430ag|server:python3 server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56140)
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    data = connection.recv(16).decode()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-99|U |1581136088|usc430ag|server:python3 server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+OSError: [Errno 98] Address already in use
+
+INPUT|usc430ag-intro-100|U |1581136098|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-101|U |1581136100|usc430ag|server:python3 server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+OSError: [Errno 98] Address already in use
+
+INPUT|usc430ag-intro-102|U |1581136148|usc430ag|server:python3 server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56142)
+received \"GET /test1.html HTTP/1.1\"
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    data = connection.recv(32).decode()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-103|U |1581136220|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-104|U |1581136271|usc430ag|server:python3 server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56152)
+received \"b''\"
+no more data from ('10.1.1.2' 56152)
+['']
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python3.6/socket.py\" line 205 in accept
+    fd addr = self._accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-105|U |1581136286|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56154))
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    data = connection.recv(16)
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-106|U |1581136438|usc430ag|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ag-intro-107|U |1581136443|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-108|U |1581136448|usc430ag|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ag-intro-109|U |1581136452|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-110|U |1581136482|usc430ag|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ag-intro-111|U |1581136485|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-112|U |1581136522|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56156))
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    data = connection.recv(16)
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-113|U |1581136852|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56166))
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    if data:
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-114|U |1581137091|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-115|U |1581137098|usc430ag|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ag-intro-116|U |1581137101|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-117|U |1581137109|usc430ag|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ag-intro-118|U |1581137111|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-119|U |1581137141|usc430ag|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ag-intro-120|U |1581137142|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-121|U |1581137193|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56168))
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+('no more data from' ('10.1.1.2' 56168))
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-122|U |1581137245|usc430ag|server:python server.py|  File \"server.py\" line 29
+    else:
+       ^
+IndentationError: expected an indented block
+
+INPUT|usc430ag-intro-123|U |1581137275|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56170))
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+('no more data from' ('10.1.1.2' 56170))
+waiting for a connection
+('connection from' ('10.1.1.2' 56172))
+received \"GET /test1.html \"
+sending data back to the client
+received \"HTTP/1.1\"
+sending data back to the client
+received \"\"
+('no more data from' ('10.1.1.2' 56172))
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-124|U |1581137539|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56176))
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+received \"\"
+('no more data from' ('10.1.1.2' 56176))
+GET /test1.html HTTP/1.1
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-125|U |1581137673|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56178))
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+received \"\"
+('no more data from' ('10.1.1.2' 56178))
+['GET' '/test1.html' 'HTTP/1.1']
+/test1.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-126|U |1581137724|usc430ag|server:clea|;1581137725
+Command 'clea' not found did you mean:
+
+  command 'clear' from deb ncurses-bin
+  command 'clex' from deb clex
+  command 'cleo' from deb cleo
+
+Try: apt install <deb name>
+
+
+INPUT|usc430ag-intro-127|U |1581137728|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-128|U |1581137730|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56188))
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+received \"\"
+('no more data from' ('10.1.1.2' 56188))
+HTTP/1.1 404 Not Found
+
+error: file not found
+
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-129|U |1581137935|usc430ag|server:ls|client.py  hashes_ag.txt  server.py  top_secret  usc430ag.txt
+
+INPUT|usc430ag-intro-130|U |1581137939|usc430ag|server:cd /tmp|
+INPUT|usc430ag-intro-131|U |1581137940|usc430ag|server:ls|404.html
+systemd-private-4e4cad3cc0584c3780f0f039ebf20346-systemd-resolved.service-VPIkMX
+systemd-private-4e4cad3cc0584c3780f0f039ebf20346-systemd-timesyncd.service-48L5mG
+test1.html
+
+INPUT|usc430ag-intro-132|U |1581138342|usc430ag|server:cd|
+INPUT|usc430ag-intro-133|U |1581138345|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56190))
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+received \"\"
+('no more data from' ('10.1.1.2' 56190))
+HTTP/1.1 200 OK
+
+this is test1 html
+
+waiting for a connection
+('connection from' ('10.1.1.2' 56192))
+received \"GET /test2.html \"
+received \"HTTP/1.1\"
+received \"\"
+('no more data from' ('10.1.1.2' 56192))
+HTTP/1.1 404 Not Found
+
+error: file not found
+
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-134|U |1581138592|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-135|U |1581138597|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56202))
+received \"GET /test2.html \"
+received \"HTTP/1.1\"
+^CTraceback (most recent call last):
+  File \"server.py\" line 27 in <module>
+    print('received \"%%s\"' %% data)
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-136|U |1581138672|usc430ag|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ag-intro-137|U |1581138674|usc430ag|server:clea|;1581138674
+Command 'clea' not found did you mean:
+
+  command 'cleo' from deb cleo
+  command 'clex' from deb clex
+  command 'clear' from deb ncurses-bin
+
+Try: apt install <deb name>
+
+
+INPUT|usc430ag-intro-138|U |1581138675|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-139|U |1581138707|usc430ag|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use;1581138707
+
+INPUT|usc430ag-intro-140|U |1581138709|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-141|U |1581138727|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+('connection from' ('10.1.1.2' 56204))
+received \"GET /test2.html \"
+received \"HTTP/1.1\"
+received \"\"
+('no more data from' ('10.1.1.2' 56204))
+HTTP/1.1 404 Not Found
+
+error: file not found
+;1581138732
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-142|U |1581138799|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-143|U |1581138800|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+Traceback (most recent call last):
+  File \"server.py\" line 21 in <module>
+    print('connection from ' + client_address)
+TypeError: cannot concatenate 'str' and 'tuple' objects
+
+INPUT|usc430ag-intro-144|U |1581138830|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-145|U |1581138831|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56208)
+received \"GET /test2.html \"
+received \"HTTP/1.1\"
+received \"\"
+('no more data from' \"('10.1.1.2' 56208)\")
+HTTP/1.1 404 Not Found
+
+error: file not found
+
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-146|U |1581138890|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-147|U |1581138895|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56210)
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+received \"\"
+no more data from ('10.1.1.2' 56210)
+HTTP/1.1 200 OK
+
+this is test1 html
+
+waiting for a connection
+connection from ('10.1.1.2' 56212)
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+received \"\"
+no more data from ('10.1.1.2' 56212)
+HTTP/1.1 200 OK
+
+this is test1 html
+
+waiting for a connection
+connection from ('10.1.1.2' 56214)
+received \"GET /test2.html \"
+received \"HTTP/1.1\"
+received \"\"
+no more data from ('10.1.1.2' 56214)
+HTTP/1.1 404 Not Found
+
+error: file not found
+
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-148|U |1581139073|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-149|U |1581139075|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56216)
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    data = connection.recv(16)
+KeyboardInterrupt;1581139116
+
+INPUT|usc430ag-intro-150|U |1581139205|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-151|U |1581139210|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56218)
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    data = connection.recv(16)
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-152|U |1581149120|usc430ag|server:python client.py server|connecting to server port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430ag-intro-153|U |1581149138|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-154|U |1581149147|usc430ag|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 9 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ag-intro-155|U |1581149155|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 34448)
+received \"GET /text1.html \"
+received \"HTTP/1.1\"
+no more data from ('10.1.1.2' 34448)
+Traceback (most recent call last):
+  File \"server.py\" line 48 in <module>
+    f = open('/tmp' + file_name 'r')
+IOError: [Errno 2] No such file or directory: '/tmp/404.html'
+
+INPUT|usc430ag-intro-156|U |1581149221|usc430ag|server:ls|client.py  hashes_ag.txt  server.py  top_secret  usc430ag.txt
+
+INPUT|usc430ag-intro-157|U |1581149225|usc430ag|server:cd /tmp|
+INPUT|usc430ag-intro-158|U |1581149226|usc430ag|server:ls|systemd-private-5cac98d725db4f76b30ab53e45086edc-systemd-resolved.service-RYjwYG
+systemd-private-5cac98d725db4f76b30ab53e45086edc-systemd-timesyncd.service-If7NRd
+
+INPUT|usc430ag-intro-159|U |1581149245|usc430ag|server:touch 404.html|
+INPUT|usc430ag-intro-160|U |1581149249|usc430ag|server:vi 404.html|"404.html" 1L 22C written                                                                                        ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                            
+INPUT|usc430ag-intro-161|U |1581149307|usc430ag|server:touch test1.html|
+INPUT|usc430ag-intro-162|U |1581149311|usc430ag|server:vi test1.html|"test1.html" 1L 14C written                                                                                        ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                          
+INPUT|usc430ag-intro-163|U |1581149340|usc430ag|server:touch test2.html|
+INPUT|usc430ag-intro-164|U |1581149351|usc430ag|server:vi test2.html|"test2.html" 1L 14C written                                                                                        ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                                         ~                                                                          
+INPUT|usc430ag-intro-165|U |1581149379|usc430ag|server:cd   |
+INPUT|usc430ag-intro-166|U |1581149381|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-167|U |1581149385|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 34458)
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+no more data from ('10.1.1.2' 34458)
+waiting for a connection
+connection from ('10.1.1.2' 34460)
+received \"GET /test2.html \"
+received \"HTTP/1.1\"
+no more data from ('10.1.1.2' 34460)
+waiting for a connection
+connection from ('10.1.1.2' 34462)
+received \"GET /test3.html \"
+received \"HTTP/1.1\"
+no more data from ('10.1.1.2' 34462)
+waiting for a connection;1581149497
+connection from ('10.1.1.2' 34464)
+received \"GET test1.html H\"
+received \"TTP/1.1\"
+no more data from ('10.1.1.2' 34464)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-168|U |1581149618|usc430ag|server:mv /tmp/test1.html ~|
+INPUT|usc430ag-intro-169|U |1581149622|usc430ag|server:ls|client.py  hashes_ag.txt  server.py  test1.html  top_secret  usc430ag.txt
+
+INPUT|usc430ag-intro-170|U |1581149637|usc430ag|server:mv /tmp/test2.html ~|
+INPUT|usc430ag-intro-171|U |1581149644|usc430ag|server:mv /tmp/404.html ~|
+INPUT|usc430ag-intro-172|U |1581149649|usc430ag|server:cd /tmp|
+INPUT|usc430ag-intro-173|U |1581149651|usc430ag|server:ls|systemd-private-5cac98d725db4f76b30ab53e45086edc-systemd-resolved.service-RYjwYG
+systemd-private-5cac98d725db4f76b30ab53e45086edc-systemd-timesyncd.service-If7NRd
+
+INPUT|usc430ag-intro-174|U |1581149655|usc430ag|server:ls|404.html   hashes_ag.txt  test1.html  top_secret
+client.py  server.py	  test2.html  usc430ag.txt
+
+INPUT|usc430ag-intro-175|U |1581149721|usc430ag|server:cp server.py top_secret|
+INPUT|usc430ag-intro-176|U |1581149726|usc430ag|server:cp client.py top_secret|
+INPUT|usc430ag-intro-177|U |1581149731|usc430ag|server:ls |404.html   hashes_ag.txt  test1.html  top_secret
+client.py  server.py	  test2.html  usc430ag.txt
+
+INPUT|usc430ag-intro-178|U |1581149748|usc430ag|server:cd top_secret|
+INPUT|usc430ag-intro-179|U |1581149749|usc430ag|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     diskfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430ag-intro-180|U |1581149852|usc430ag|server:cd|
+INPUT|usc430ag-intro-181|U |1581149855|usc430ag|server:cd|
+INPUT|usc430ag-intro-182|U |1581190363|usc430ag|server:ls|404.html   hashes_ag.txt  sophia-chen-intro.tar.gz  test2.html	usc430ag.txt
+client.py  server.py	  test1.html		    top_secret
+
+INPUT|usc430ag-intro-183|U |1581190370|usc430ag|server:cd /tmp|
+INPUT|usc430ag-intro-184|U |1581190372|usc430ag|server:ls|systemd-private-e5cb74493a6942abba0879f1ee305db7-systemd-resolved.service-hgDyKI
+systemd-private-e5cb74493a6942abba0879f1ee305db7-systemd-timesyncd.service-yBEiog
+
+INPUT|usc430ag-intro-185|U |1581190376|usc430ag|server:cd|
+INPUT|usc430ag-intro-186|U |1581190397|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 38924)
+received \"GET /12345678912\"
+received \"34.html HTTP/1.1\"
+^CTraceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    data = connection.recv(16)
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-187|U |1581191015|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 38934)
+received \"GET /12345678912\"
+no more data from ('10.1.1.2' 38934)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-188|U |1581191190|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 38936)
+received \"GET /12345678912\"
+received \"34.html HTTP/1.1\"
+no more data from ('10.1.1.2' 38936)
+Traceback (most recent call last):
+  File \"server.py\" line 48 in <module>;1581191209
+    f = open('/tmp' + file_name 'r')
+IOError: [Errno 2] No such file or directory: '/tmp/404.html'
+
+INPUT|usc430ag-intro-189|U |1581191241|usc430ag|server:cp 404.html /tmp|
+INPUT|usc430ag-intro-190|U |1581191244|usc430ag|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 9 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ag-intro-191|U |1581191253|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-192|U |1581191546|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 38946)
+received \"GET /12345678912\"
+received \"34.html HTTP/1.1\"
+no more data from ('10.1.1.2' 38946)
+waiting for a connection
+connection from ('10.1.1.2' 38948)
+received \"GET /12345678912\"
+received \"34.html HTTP/1.1\"
+no more data from ('10.1.1.2' 38948)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-193|U |1581192018|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-194|U |1581192025|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 38950)
+received \"GET /12345678912\"
+received \"34.html HTTP/1.1\"
+no more data from ('10.1.1.2' 38950)
+waiting for a connection
+connection from ('10.1.1.2' 38952)
+received \"GET /12345678912\"
+received \"34.html HTTP/1.1\"
+no more data from ('10.1.1.2' 38952)
+waiting for a connection
+connection from ('10.1.1.2' 38954)
+received \"GET 123456789123\"
+received \"4.html HTTP/1.1\"
+no more data from ('10.1.1.2' 38954)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-195|U |1581192487|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-196|U |1581192488|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 38964)
+received \"GET 123456789123\"
+received \"4.html HTTP/1.1\"
+no more data from ('10.1.1.2' 38964)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-197|U |1581192574|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-198|U |1581192575|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 38966)
+received \"GET /12345678912\"
+received \"34.html HTTP/1.1\"
+no more data from ('10.1.1.2' 38966)
+waiting for a connection
+connection from ('10.1.1.2' 38968)
+received \"GET /12345678912\"
+received \"34.html HTTP/1.1\"
+no more data from ('10.1.1.2' 38968)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-199|U |1581192782|usc430ag|server:cp test1.html /tmp|
+INPUT|usc430ag-intro-200|U |1581192785|usc430ag|server:cp test2.html /tmp|
+INPUT|usc430ag-intro-201|U |1581192787|usc430ag|server:clear|
+
+INPUT|usc430ag-intro-202|U |1581192796|usc430ag|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 38972)
+received \"GET /test1.html \"
+received \"HTTP/1.1\"
+no more data from ('10.1.1.2' 38972)
+waiting for a connection
+connection from ('10.1.1.2' 38974)
+received \"GET /test3.html \"
+received \"HTTP/1.1\"
+no more data from ('10.1.1.2' 38974)
+waiting for a connection
+connection from ('10.1.1.2' 38976)
+received \"GET /12345678912\"
+received \"34.html HTTP/1.1\"
+no more data from ('10.1.1.2' 38976)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 17 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ag-intro-203|U |1581192848|usc430ag|server:ls|404.html   hashes_ag.txt  sophia-chen-intro.tar.gz  test2.html	usc430ag.txt
+client.py  server.py	  test1.html		    top_secret
+
+INPUT|usc430ag-intro-204|U |1581192873|usc430ag|server:cp client.py top_secret|
+INPUT|usc430ag-intro-205|U |1581192879|usc430ag|server:cp server.py top_secret|
+INPUT|usc430ag-intro-206|U |1581192883|usc430ag|server:cd top_secret|
+INPUT|usc430ag-intro-207|U |1581192885|usc430ag|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     diskfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430ag-intro-208|U |1581192890|usc430ag|server:cat server.py|import socket
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print('starting up on %%s port %%s' %% server_address)
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection client_address = sock.accept()
+
+    try:
+        print('connection from ' + str(client_address))
+
+        request = ''
+        # Receive the data in small chunks and append to string
+        while True:
+            data = connection.recv(16)
+            print('received \"%%s\"' %% data)
+            request += data
+
+            if data.find('HTTP/' -8 -3) != -1:
+                # full client request is received
+                print('no more data from ' + str(client_address))
+                break
+
+        # parse file name
+        parsed = request.split(' ')
+
+        if len(parsed) == 3:
+            file_name 
+INPUT|usc430ag-intro-209|U |1581192903|usc430ag|server:cat client.py|import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Get user input for server name
+server_address = (sys.argv[1] 80)
+
+# Connect the socket to the port where the server is listening
+print('connecting to %%s port %%s' %% server_address)
+sock.connect(server_address)
+
+try:
+    # Send data
+    request = raw_input('Enter a request: ')
+    print('sending \"%%s\"' %% request)
+    sock.sendall(request)
+
+    # Receive the data in small chunks
+    response = ''
+    amount_received = 0
+    amount_expected = float('inf')  # initialize to infinity
+
+    while amount_received < amount_expected:
+        data = sock.recv(16)
+
+        if amount_received == 0:
+            # get actual expected length of message and update loop condition
+            length = ''
+            for i in data:
+                if i.isdigit():
+                    length += i
+                else:
+                    break
+            amount_expected = int(length)
+
+         
+INPUT|usc430ag-intro-210|U |1581192935|usc430ag|server:tar cvzf sophia-chen-intro.tar.gz top_secret|tar: top_secret: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+INPUT|usc430ag-intro-211|U |1581192939|usc430ag|server:cd|
+INPUT|usc430ag-intro-212|U |1581192941|usc430ag|server:tar cvzf sophia-chen-intro.tar.gz top_secret|top_secret/
+top_secret/asdf136Intro-5kqlw.jpeg
+top_secret/136intro-2jjaj.JPEG
+top_secret/xbzf136INTRO-1.jpg
+top_secret/136intro-3.jpg
+top_secret/wuer136intro-4.JPG
+top_secret/answers.txt
+top_secret/diskfree.txt
+top_secret/server.py
+top_secret/client.py
+top_secret/sophia-chen-intro.tar.gz
+

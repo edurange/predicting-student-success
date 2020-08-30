@@ -1,0 +1,1859 @@
+User usc430af start time 1548546926 end 1548555684
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430af-intro-0|U |1548546926|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-1|U |000000000|usc430af|:|
+INPUT|usc430af-intro-2|U |000000000|usc430af|:|
+INPUT|usc430af-intro-3|U |000000000|usc430af|intro:nodelist|nodelist: command not found
+INPUT|usc430af-intro-4|U |000000000|usc430af|intro:cd top_secret|
+INPUT|usc430af-intro-5|U |1548546931|usc430af|intro:ls|answers.xt  diskfree.txt
+INPUT|usc430af-intro-6|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-7|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find . -name \"*intro*\"|
+INPUT|usc430af-intro-8|U |1548546963|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-9|U |1548547123|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-10|U |000000000|usc430af|intro:cd /share|
+INPUT|usc430af-intro-11|U |1548547191|usc430af|intro:ls|
+INPUT|usc430af-intro-12|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-13|U |1548547207|usc430af|intro:dir|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-14|U |1548547211|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-15|M2 |000000000|usc430af|intro:find . -name \"*intro*\"|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+./var/log/ttylog/ttylog.intro.0
+./var/log/ttylog/alltty.intro
+./var/log/ttylog/ttylog.intro.1
+./var/log/ttylog/cli.intro.csv
+find: './var/log/unattended-upgrades': Permission denied
+./var/log/136intro-3.jpg
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Perm
+INPUT|usc430af-intro-16|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find . -name \"*intro*\.jpeg|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+find: './var/log/unattended-upgrades': Permission denied
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find
+INPUT|usc430af-intro-17|U |1548547289|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-18|U |000000000|usc430af|intro:pwd|/
+INPUT|usc430af-intro-19|U |000000000|usc430af|intro:cd share|
+INPUT|usc430af-intro-20|U |1548547298|usc430af|intro:ls|
+INPUT|usc430af-intro-21|U |000000000|usc430af|intro:cd education|bash: cd: education: No such file or directory
+INPUT|usc430af-intro-22|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-23|U |1548547305|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-24|U |000000000|usc430af|intro:cd ~|
+INPUT|usc430af-intro-25|U |1548547309|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-26|U |000000000|usc430af|intro:cd /share/education/LinuxDETERIntro_UCLA/intro.ns|bash: cd: /share/education/LinuxDETERIntro_UCLA/intro.ns: No such file or directory
+INPUT|usc430af-intro-27|U |000000000|usc430af|intro:cd /share/education/LinuxDETERIntro_UCLA/|bash: cd: /share/education/LinuxDETERIntro_UCLA/: No such file or directory
+INPUT|usc430af-intro-28|U |1548547353|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-29|U |1548547360|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-30|U |000000000|usc430af|intro:cd /|
+INPUT|usc430af-intro-31|U |1548547369|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-32|U |000000000|usc430af|intro:cd /share/education/LinuxDETERIntro_UCLA/intro.ns|
+INPUT|usc430af-intro-33|A1 A2 A0 A4 A3 |1548547384|usc430af|intro:find . -name "*intro*.jpeg" | less|find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+find: './var/log/unattended-upgrades': Permission denied
+=
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/tas
+INPUT|usc430af-intro-34|A3 A4 A0 A2 A1 |1548547479|usc430af|intro:find . -name \"*intro*.jpeg\" | less|
+INPUT|usc430af-intro-35|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find . -name \"*intro*.jpeg\" | less|
+INPUT|usc430af-intro-36|U |1548547548|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-37|U |000000000|usc430af|intro:cd ~|
+INPUT|usc430af-intro-38|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-39|U |000000000|usc430af|intro:cd notes|bash: cd: notes: Not a directory
+INPUT|usc430af-intro-40|U |000000000|usc430af|intro:more notes|%sudo (superuser do)
+ sudo shutdown -r now : shutdown system%% need user password
+su (switch user)
+ su - : switches to root%% need root password
+cat (concatenate)
+ cat /var/log/messages : prints sys messages
+ less /var/log/messages : has buffer and allows search with /%%\
+ more /var/log/messages : prints entire listings
+grep (global regular expression print)
+ cat /var/log/messages | grep phrasetofind : prints to ptf
+ cat /var/log/messages | grep ptf | less : pipes ptf to less
+ cat /var/log/messages | grep ptf > file.txt : output to file.txt
+find
+ find . name \"*.txt\" | head -n 5 : finds txt files%% pipes head
+ find directory -name \"*.swp\" -o -name \"*~\"
+ find / -mount -mtime 2190 : starts in root directory
+xargs (extended arguments)
+ find / -iname \"*.pwd\" | xargs strings $1 | sort :
+  runs strings on all pwd files%% then sorts
+ find . -mount -mtime +24 \( -name \"*~\" \) \ head -
+INPUT|usc430af-intro-41|A3 A4 A0 A2 A1 |000000000|usc430af|intro:find . -name "*intro*.jpeg" | less|<ESC>[?1049h<ESC>[?1h<ESC>=
+
+<ESC>[K<ESC>[7m(END)<ESC>[27m<ESC>[K
+INPUT|usc430af-intro-42|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-43|U |1548547551|usc430af|intro:ssh pc157|%The authenticity of host 'pc157 (192.168.1.157)' can't be established.
+RSA key fingerprint is SHA256:t0vpeOm78PtRRaGx4qRt4PNUu2ZCRGzEBSfGP541+n0.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'pc157%%192.168.1.157' (RSA) to the list of known hosts.
+%
+INPUT|usc430af-intro-44|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-45|U |000000000|usc430af|intro:ssh pc157.usc430af-homework1.USC430|ssh: Could not resolve hostname pc157.usc430af-homework1.usc430: Name or service not known
+
+INPUT|usc430af-intro-46|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-47|U |000000000|usc430af|intro:cd /proj/USC430/exp/usc430af-homework1|
+INPUT|usc430af-intro-48|U |000000000|usc430af|intro:ls|archive  containers   datastore  swapinfo  tftpboot
+bin  count.intro  logs  tbdata    tmp
+INPUT|usc430af-intro-49|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find . -name \"*intro*.jpe|g\"
+INPUT|usc430af-intro-50|A3 A4 A0 A2 A1 |000000000|usc430af|intro:find . -name \"*intro*.jpeg|g\"<BS>
+INPUT|usc430af-intro-51|A3 A4 A2 A0 A1 |000000000|usc430af|intro:find . -name "*intro*.jp|
+g
+<ESC>[1P"
+INPUT|usc430af-intro-52|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find . -name "*intro*.jp"|
+INPUT|usc430af-intro-53|A3 A4 A0 A2 A1 |000000000|usc430af|intro:find . -name "*intro*.j"|
+INPUT|usc430af-intro-54|A2 A0 A1 A3 A4 |000000000|usc430af|intro:find . -name "*.jpeg|
+INPUT|usc430af-intro-55|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find . -name \"*.jpg\"|
+INPUT|usc430af-intro-56|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find . -name \"*intro*\"|./logs/cli.intro.csv
+./count.intro
+INPUT|usc430af-intro-57|U |1548547634|usc430af|intro:ssh pc157.usc430af-homework1.USC430|ssh: Could not resolve hostname pc157.usc430af-homework1.usc430: Name or service not known
+
+INPUT|usc430af-intro-58|U |1548547667|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-59|U |000000000|usc430af|intro:cd /proj/USC430/exp/usc430af-homework1|
+INPUT|usc430af-intro-60|U |1548547685|usc430af|intro:ls|archive  containers   datastore  swapinfo  tftpboot
+bin  count.intro  logs  tbdata    tmp
+INPUT|usc430af-intro-61|A2 A0 A1 A3 A4 |000000000|usc430af|intro:find . -name \"*intro*.jpe|g\"
+INPUT|usc430af-intro-62|A3 A4 A0 A2 A1 |000000000|usc430af|intro:find . -name \"*intro*.jpeg|g\"<BS>
+INPUT|usc430af-intro-63|A0 A2 A1 A3 A4 |000000000|usc430af|intro:find . -name "*intro*.jp|
+g
+<ESC>[1P"
+INPUT|usc430af-intro-64|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find . -name "*intro*.jp"|
+INPUT|usc430af-intro-65|A3 A4 A2 A0 A1 |000000000|usc430af|intro:find . -name "*intro*.j"|
+INPUT|usc430af-intro-66|A1 A0 A2 A4 A3 |000000000|usc430af|intro:find . -name "*.jpeg|
+INPUT|usc430af-intro-67|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find . -name \"*.jpg\"|
+INPUT|usc430af-intro-68|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find . -name \"*intro*\"|./logs/cli.intro.csv
+./count.intro
+INPUT|usc430af-intro-69|A2 A0 A1 A3 A4 |000000000|usc430af|intro:find . -name \\"*intro*\"|
+INPUT|usc430af-intro-70|U |000000000|usc430af|intro:grep -irl \"intro\"|.ssh/known_hosts
+.bash_history
+INPUT|usc430af-intro-71|U |1548548415|usc430af|intro:ssh usc430af@localhost|The authenticity of host 'localhost (127.0.0.1)' can't be established.
+RSA key fingerprint is SHA256:t0vpeOm78PtRRaGx4qRt4PNUu2ZCRGzEBSfGP541+n0.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'localhost' (RSA) to the list of known hosts.
+
+INPUT|usc430af-intro-72|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-73|U |000000000|usc430af|intro:cd /proj|
+INPUT|usc430af-intro-74|U |000000000|usc430af|intro:ls|DeterTest  intro.createimage.Share  Modeling  share  Share  USC430
+INPUT|usc430af-intro-75|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-76|U |000000000|usc430af|intro:;s|bash: syntax error near unexpected token `;'
+INPUT|usc430af-intro-77|U |000000000|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-78|U |000000000|usc430af|intro:cd lost+found|bash: cd: lost+found: Permission denied
+INPUT|usc430af-intro-79|U |000000000|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-80|U |000000000|usc430af|intro:cd bin|
+INPUT|usc430af-intro-81|U |000000000|usc430af|intro:ls|bash      hostname       rbash
+btrfs      ip        readlink
+btrfs-calc-size     journalctl       red
+btrfsck      kbd_mode       rm
+btrfs-convert     keyctl       rmdir
+btrfs-debug-tree    kill       rnano
+btrfs-find-root     kmod       run-parts
+btrfs-image     less       rzsh
+btrfs-map-logical   lessecho       sed
+btrfs-select-super  lessfile       setfacl
+btrfs-show-super    lesskey       setfont
+btrfstune     lesspipe       setupcon
+btrfs-zero-log     ln        sh
+bunzip2      loadkeys       sh.distrib
+busybox      login       sleep
+bzcat      loginctl       ss
+bzcmp      lowntfs-3g       static-sh
+bzdiff      ls        stty
+bzegrep      lsblk       su
+bzexe      lsmod       sync
+bzfgrep      mkdir       systemctl
+bzgrep      mkfs.btrfs       systemd
+bzip2 
+INPUT|usc430af-intro-82|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-83|U |000000000|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-84|U |000000000|usc430af|intro:cd var|
+INPUT|usc430af-intro-85|U |000000000|usc430af|intro:ls|backups  crash  lib lock  mail  run   spool
+cache  emulab  local log   opt   snap  tmp
+INPUT|usc430af-intro-86|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-87|U |000000000|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-88|U |000000000|usc430af|intro:cd users|
+INPUT|usc430af-intro-89|U |000000000|usc430af|intro:ls|aashraya  gbartlet  jhickey   scuric   shareah shareap  shareax  sharetb
+abhi   gerow     jjh       shareaa  shareai shareaq  shareay  sharetc
+alefiya   gknopf    jross     shareab  shareaj sharear  shareaz  sharetd
+alwabel   glawler   kls2      shareac  shareak shareas  shareba  sklower
+bks   jaipuria  melkins   sharead  shareal shareat  sharebb  sunshine
+bloznali  jboman    piobair   shareae  shaream shareau  sharebc  usc430af
+ekline   jelena    rgoodfel  shareaf  sharean shareav  sharebd
+faber   jgli     schwab    shareag  shareao shareaw  shareta
+INPUT|usc430af-intro-90|U |000000000|usc430af|intro:cd sunshine|
+INPUT|usc430af-intro-91|U |000000000|usc430af|intro:ls|
+INPUT|usc430af-intro-92|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-93|U |000000000|usc430af|intro:ls|aashraya  gbartlet  jhickey   scuric   shareah shareap  shareax  sharetb
+abhi   gerow     jjh       shareaa  shareai shareaq  shareay  sharetc
+alefiya   gknopf    jross     shareab  shareaj sharear  shareaz  sharetd
+alwabel   glawler   kls2      shareac  shareak shareas  shareba  sklower
+bks   jaipuria  melkins   sharead  shareal shareat  sharebb  sunshine
+bloznali  jboman    piobair   shareae  shaream shareau  sharebc  usc430af
+ekline   jelena    rgoodfel  shareaf  sharean shareav  sharebd
+faber   jgli     schwab    shareag  shareao shareaw  shareta
+INPUT|usc430af-intro-94|U |000000000|usc430af|intro:cd usc430af|
+INPUT|usc430af-intro-95|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-96|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-97|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find . -name "*intro*"|
+INPUT|usc430af-intro-98|M2 |000000000|usc430af|intro:find . /|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+/var/log/ttylog/ttylog.intro.3
+/var/log/ttylog/ttylog.intro.2
+/var/log/ttylog/ttylog.intro.4
+/var/log/ttylog/ttylog.intro.0
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+find: '/var/log/unattended-upgrades': Permission denied
+/var/log/136intro-3.jpg
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denie
+INPUT|usc430af-intro-99|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find / -name \"*intro*\.jpeg|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430af-intro-100|U |000000000|usc430af|intro:^C|
+INPUT|usc430af-intro-101|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find / -name \"*intro*.jpeg\" 2>/dev/null|
+
+
+^C
+INPUT|usc430af-intro-102|A0 A2 A1 A3 A4 |000000000|usc430af|intro:find / -n2>/dev/null >|
+INPUT|usc430af-intro-103|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find / 2>/dev/null > -name \"*intro*.|
+INPUT|usc430af-intro-104|M3 M2 M1 |000000000|usc430af|intro:find / -name \"*intro*\" 2>&1 | grep -v \"Permission deni|ed\"
+/var/log/ttylog/ttylog.intro.3
+/var/log/ttylog/ttylog.intro.2
+/var/log/ttylog/ttylog.intro.4
+/var/log/ttylog/ttylog.intro.0
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/proj/intro.createimage.Share
+/proj/share/exp/createimage/logs/cli.intro.csv.1535412403
+/proj/share/exp/createimage/logs/ttylog.intro.0
+/proj/share/exp/createimage/logs/alltty.intro
+/proj/share/exp/createimage/logs/cli.intro.csv
+/proj/share/exp/createimage/count.intro
+/proj/USC430/logs/runlog-mjoseph-Homework1.intro.xUiMEB
+/proj/USC430/logs/edumodel.snoopy.intro.1521748498
+/proj/USC430/logs/edumodel.snoopy.intro.1521760450
+/proj/USC430/logs/edumodel.snoopy.intro.1521761327
+/proj/USC430/logs/edumodel.snoopy.intro.1521762323
+/proj/USC430/logs/tedu.snoopy.intro.1521766507
+/proj/USC430/logs/tedu.snoopy.intro
+INPUT|usc430af-intro-105|M3 M2 M1 |000000000|usc430af|intro:find / -name \"*intro*\" 2>&1 | grep -v \"Permission denie|ed\"
+/var/log/ttylog/ttylog.intro.3
+/var/log/ttylog/ttylog.intro.2
+/var/log/ttylog/ttylog.intro.4
+/var/log/ttylog/ttylog.intro.0
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/proj/intro.createimage.Share
+/proj/share/exp/createimage/logs/cli.intro.csv.1535412403
+/proj/share/exp/createimage/logs/ttylog.intro.0
+/proj/share/exp/createimage/logs/alltty.intro
+/proj/share/exp/createimage/logs/cli.intro.csv
+/proj/share/exp/createimage/count.intro
+/proj/USC430/logs/runlog-mjoseph-Homework1.intro.xUiMEB
+/proj/USC430/logs/edumodel.snoopy.intro.1521748498
+/proj/USC430/logs/edumodel.snoopy.intro.1521760450
+/proj/USC430/logs/edumodel.snoopy.intro.1521761327
+/proj/USC430/logs/edumodel.snoopy.intro.1521762323
+/proj/USC430/logs/tedu.snoopy.intro.1521766507
+/proj/USC430/logs/tedu.snoopy.intro
+INPUT|usc430af-intro-106|A1 A0 A2 A4 A3 |000000000|usc430af|intro:find / -name \"*intro*\" 2>&1 | grep -v \"Permission denie|ed\"<BS><BS>
+INPUT|usc430af-intro-107|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find / -name "*intro*." 2>&1 | grep -v "Permission deniec430af@intro:/users$ find / -name "*intro*.j" 2>&1 | grep -v "Permission denic430af@intro:/users$ find / -name "*intro*.jp" 2>&1 | grep -v "Permission denc430af@intro:/users$ find / -name "*intro*.jpe" 2>&1 | grep -v "Permission dec430af@intro:/users$ find / -name "*intro*.jpeg" 2>&1 | grep -v "Permission dc430af@intro:/users$ find / -name "*intro*.jpeg|
+
+INPUT|usc430af-intro-108|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find / -name \"*intro*.jpeg\" 2>&1 | grep -v \"Permission| denied\"<BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430af-intro-109|M2 |000000000|usc430af|intro:find / -name "*intro*.jpe\g" 2>&1 | grep -v "Permission c430af@intro:/users$ find / -name "*intro*.jpeg" 2>&1 | grep -v "Permission sc430af@intro:/users$ find / -name "*intro*.jpg" 2>&1 | grep -v "Permission dsc430af@intro:/users$ find / -name "*intro*.jp|
+
+/var/log/136intro-3.jpg
+INPUT|usc430af-intro-110|U |000000000|usc430af|intro:cd /var/log|
+INPUT|usc430af-intro-111|U |000000000|usc430af|intro:ls|136intro-3.jpg   dist-upgrade   fsck      quagga
+alternatives.log  dmesg    installer  syslog
+apt    dpkg.log   kern.log   tiplogs
+auth.log   emulab.log   lastlog    ttylog
+bootstrap.log   faillog   lxd      unattended-upgrades
+btmp    fontconfig.log  ntpstats   wtmp
+INPUT|usc430af-intro-112|U |000000000|usc430af|intro:more 136intro-3.jpg|%<C3><BF><C3><98><C3><BF><C3><A0>
+<SO><NAK><DC2><SYN><SYN><NAK><DC2><DC4><DC4><ETB><SUB>"
+<ETB><EM> <EM><DC4><DC4>
+(
+ #$&&&<ETB>
+)%%)%%%%"%%&$<SOH><ACK><ACK><ACK><BS><BEL><BS><DC1>  <DC1>$<CAN><DC4><CAN><CAN>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$<C3><BF><C3><84><SOH><C2><CENT>
+
+<DLE>
+<SYN><ETB><CAN><EM><SUB>%%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz<C2><83><C2><84>
+<C2><86><C2><87><C2><88><C2><89><C2><8A><C2><92><C2><93><C2><94><C2><BULL><C2><96><C2><97><C2><98><C2><99><C2><9A><C2><CENT><C2><POUND><C2><CURR><C2><YEN><C2><A6><C2><SECT><C2><UMLT><C2><COPY><C2><ORDF><C2><B2><C2><B3><C2><ACUTE><C2><MICRO><C2><PARA><C2><MIDDOT><C2><CEDIL><C2><B9><C2><ORDM><C3><82><C3><83><C3><84><C3><85><C3><86><C3><87><C3><88><C3><89><C3><8A><C3><92><C3><93><C3><94><C3><BULL><C3><96>
+<C3><97><C3><98><C3><99><C3><9A><C3><A1><C3><CENT><C3><POUND><C3><CURR><C3><YEN><C3><A6><C3><SECT><C3><UMLT><C3><COPY><C3><ORDF><C3><PLSMN><C3><B2><C3><B3><C3><ACUTE><C3><
+INPUT|usc430af-intro-113|U |000000000|usc430af|intro:ls|136intro-3.jpg   dist-upgrade   fsck      quagga
+alternatives.log  dmesg    installer  syslog
+apt    dpkg.log   kern.log   tiplogs
+auth.log   emulab.log   lastlog    ttylog
+bootstrap.log   faillog   lxd      unattended-upgrades
+btmp    fontconfig.log  ntpstats   wtmp
+INPUT|usc430af-intro-114|M3 M2 M1 |000000000|usc430af|intro:find / -name "*intro*.jpg" 2>&1 | grep -v "Permission|n denied"<ESC>[Aintro:/var/log$ find / -name "*intro*.jpeg" 2>&1 | grep -v "Permissio<ESC>[1@n denied"<ESC>[Antro:/var/log$ find / -name "*intro*" 2>&1 | grep -v "Permission den<ESC>[5Pied"
+/var/log/ttylog/ttylog.intro.3
+/var/log/ttylog/ttylog.intro.2
+/var/log/ttylog/ttylog.intro.4
+/var/log/ttylog/ttylog.intro.0
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/proj/intro.createimage.Share
+/proj/share/exp/createimage/logs/cli.intro.csv.1535412403
+/proj/share/exp/createimage/logs/ttylog.intro.0
+/proj/share/exp/createimage/logs/alltty.intro
+/proj/share/exp/createimage/logs/cli.intro.csv
+/proj/share/exp/createimage/count.intro
+/proj/USC430/logs/runlog-mjoseph-Homework1.intro.xUiMEB
+/proj/USC430/logs/edumodel.snoopy.intro.1521748498
+/proj/USC430/logs/edumodel.snoopy.intro.1521760450
+/proj/US
+INPUT|usc430af-intro-115|A2 A0 A1 A3 A4 |000000000|usc430af|intro:find / -name \"*intro*\" 2>&1 | grep -v \"Permission den|nied\"<ESC>[A0af@intro:/var/log$ ls<ESC>[K
+
+INPUT|usc430af-intro-116|A2 A0 A1 A3 A4 |000000000|usc430af|intro:find / -name "*intro*" 2>&1 | grep -v "Permission den|nied"<ESC>[A0af@intro:/var/log$ <ESC>[K
+
+INPUT|usc430af-intro-117|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find / -name \"*intro*\" 2>&1 | grep -v \"Permission den|nied\"<ESC>[A0af@intro:/var/log$ ls<ESC>[K
+
+INPUT|usc430af-intro-118|A1 A0 A2 A4 A3 |000000000|usc430af|intro:find / -name "*intro*" 2>&1 | grep -v "Permission den|nied"<ESC>[A0af@intro:/var/log$ ls<ESC>[K
+
+INPUT|usc430af-intro-119|A1 A0 A2 A4 A3 |000000000|usc430af|intro:find / -name "*intro*.jpg" 2>&1 | grep -v "Permission|n denied"<BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430af-intro-120|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / i-name "*intro*.jpg" 2>&1 | grep -v "Permissionc430af@intro:/var/log$ find / -name "*intro*.jpg" 2>&1 | grep -v "Permissionsc430af@intro:/var/log$ find / -iname "*intro*.jpg" 2>&1 | grep -v "Permissionc430af@intro:/var/log$ find / -iname \"*intro*.jpg\"  2>&1 | grep -v "Permissioc430af@intro:/var/log$ find / -iname "*intro*.jpg" - 2>&1 | grep -v "Permi|
+<ESC>[1@s<ESC>[Asc430af@intro:/var/log$ find / -iname "*intro*.jpg" -o 2>&1 | grep -v "Permis<ESC>[1@s<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o  2>&1 | grep -v "Permis<ESC>[1@s<ESC>[A430af@intro:/var/log$ find / -iname "*intro*.jpg" -o - 2>&1 | grep -v "Perm<ESC>[1@i<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -i 2>&1 | grep -v "Per<ESC>[1@m<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -in 2>&1 | grep -v "Pe<ESC>[1@r<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -ina 2>&1 | grep -v "P<ESC>[1@e<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -inam 2>&1 | grep -v "<ESC>[1@P<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -iname 2>&1 | grep -v <ESC>[1@"<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -iname  2>&1 | grep -v<ESC>[1@ <ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -iname " 2>&1 | grep -<ESC>[1@v<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -inam
+INPUT|usc430af-intro-121|M3 M2 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\"| 2>&1 | grep -v \"Permission denied\"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+^C
+INPUT|usc430af-intro-122|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\"| 2>&1 | grep -v \"Permission denied\"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-123|U |000000000|usc430af|intro:/var/log/136intro-3.jpg|bash: /var/log/136intro-3.jpg: Permission denied
+INPUT|usc430af-intro-124|U |000000000|usc430af|intro:/etc/wuer136intro-4.JPG|bash: /etc/wuer136intro-4.JPG: Permission denied
+INPUT|usc430af-intro-125|U |000000000|usc430af|intro:/.hidden/asdf136Intro-5kqlw.jpeg|bash: /.hidden/asdf136Intro-5kqlw.jpeg: Permission denied
+INPUT|usc430af-intro-126|U |000000000|usc430af|intro:/dev/136intro-2jjaj.JPEG|bash: /dev/136intro-2jjaj.JPEG: Permission denied
+INPUT|usc430af-intro-127|U |000000000|usc430af|intro:/usr/share/pixmaps/xbzf136INTRO-1.jpg|bash: /usr/share/pixmaps/xbzf136INTRO-1.jpg: Permission denied
+INPUT|usc430af-intro-128|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\"| 2>&1 | grep -v \"Permission denied\"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-129|U |000000000|usc430af|intro:/var/log/136intro-3.jpg|bash: /var/log/136intro-3.jpg: Permission denied
+INPUT|usc430af-intro-130|U |000000000|usc430af|intro:/etc/wuer136intro-4.JPG|bash: /etc/wuer136intro-4.JPG: Permission denied
+INPUT|usc430af-intro-131|U |000000000|usc430af|intro:/.hidden/asdf136Intro-5kqlw.jpeg|bash: /.hidden/asdf136Intro-5kqlw.jpeg: Permission denied
+INPUT|usc430af-intro-132|U |000000000|usc430af|intro:/dev/136intro-2jjaj.JPEG|bash: /dev/136intro-2jjaj.JPEG: Permission denied
+INPUT|usc430af-intro-133|U |000000000|usc430af|intro:/usr/share/pixmaps/xbzf136INTRO-1.jpgls|bash: /usr/share/pixmaps/xbzf136INTRO-1.jpgls: No such file or directory
+INPUT|usc430af-intro-134|U |000000000|usc430af|intro:/usr/share/pixmaps/xbzf136INTRO-1.jpgls|
+INPUT|usc430af-intro-135|U |000000000|usc430af|intro:/.hidden/asdf136Intro-5kqlw.jpeg|
+INPUT|usc430af-intro-136|M0 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"| 2>&1 | grep -v "Permission denied"<ESC>[A<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[15P/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+INPUT|usc430af-intro-137|U |000000000|usc430af|intro:/usr/share/pixmaps/xbzf136INTRO-1.jpg|
+INPUT|usc430af-intro-138|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\"| 2>&1 | grep -v \"Permission denied\"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-139|U |000000000|usc430af|intro:cd ~|
+INPUT|usc430af-intro-140|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-141|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-142|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-143|U |000000000|usc430af|intro:more notes|%sudo (superuser do)
+ sudo shutdown -r now : shutdown system%% need user password
+su (switch user)
+ su - : switches to root%% need root password
+cat (concatenate)
+ cat /var/log/messages : prints sys messages
+ less /var/log/messages : has buffer and allows search with /%%\
+ more /var/log/messages : prints entire listings
+grep (global regular expression print)
+ cat /var/log/messages | grep phrasetofind : prints to ptf
+ cat /var/log/messages | grep ptf | less : pipes ptf to less
+ cat /var/log/messages | grep ptf > file.txt : output to file.txt
+find
+ find . name \"*.txt\" | head -n 5 : finds txt files%% pipes head
+ find directory -name \"*.swp\" -o -name \"*~\"
+ find / -mount -mtime 2190 : starts in root directory
+xargs (extended arguments)
+ find / -iname \"*.pwd\" | xargs strings $1 | sort :
+  runs strings on all pwd files%% then sorts
+ find . -mount -mtime +24 \( -name \"*~\" \) \ head -
+INPUT|usc430af-intro-144|A1 A0 A2 A4 A3 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied" | xargs -0 -I {} top_secret
+xargs: top_secret: No such file or directory
+INPUT|usc430af-intro-145|U |000000000|usc430af|intro:^C|
+INPUT|usc430af-intro-146|A3 A4 A2 A0 A1 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 ||% grep -v \"Permission denied\" | xargs -0 -I {} top_secret<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>-I {}<ESC>[1@m<ESC>[1@v <ESC>[1@ <BS><ESC>[1@\<ESC>[1@\<BS><ESC>[1P<BS><ESC>[1P<ESC>[1P<BS><BS><ESC>[1P<BS><ESC>[1P <ESC>[1@ <BS><ESC>[1@%%<BS><ESC>[1P<ESC>[1@m<ESC>[1@v <ESC>[1@ <BS><ESC>[1@{<ESC>[1@} <ESC>[1@ <BS><ESC>[1P<BS><ESC>[A%
+INPUT|usc430af-intro-147|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 || grep -v \"Permission denied\" | xargs -0 -I {} mv {} top_secret<BEL>
+
+
+mv: cannot stat '/var/log/136intro-3.jpg'$'\
+''/etc/wuer136intro-4.JPG'$'\
+''/.hidden/asdf136Intro-5kqlw.jpeg'$'\
+''/dev/136intro-2jjaj.JPEG'$'\
+''/usr/share/pixmaps/xbzf136INTRO-1.jpg'$'\
+': No such file or directory
+INPUT|usc430af-intro-148|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-149|U |000000000|usc430af|intro:cd top_secret|
+INPUT|usc430af-intro-150|U |000000000|usc430af|intro:ls|answers.xt  diskfree.txt
+INPUT|usc430af-intro-151|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-152|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-153|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied" | xargs -0 -I {} mv {} top_secret<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[6Ptop_secret<ESC>[A
+INPUT|usc430af-intro-154|U |000000000|usc430af|intro:more notes|
+INPUT|usc430af-intro-155|A2 A0 A1 A3 A4 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied" | xargs -0 -I {} top_secret<ESC>[A
+INPUT|usc430af-intro-156|U |000000000|usc430af|intro:more notes|
+INPUT|usc430af-intro-157|A1 A0 A2 A4 A3 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied"<ESC>[A<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>ls<ESC>[K
+
+INPUT|usc430af-intro-158|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-159|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 || grep -v \"Permission denied\" -exec mv -t /top_secret {} +
+grep: invalid option -- 't'
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+INPUT|usc430af-intro-160|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 || grep -v \"Permission denied\" -exec mv -t /top_secret {} +<ESC>[A
+INPUT|usc430af-intro-161|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-162|U |000000000|usc430af|intro:cd top_secret/|
+INPUT|usc430af-intro-163|U |000000000|usc430af|intro:ls|answers.xt  diskfree.txt
+INPUT|usc430af-intro-164|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-165|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied" -exec mv -t /top_secret {} +<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<ESC>[1P<BS><BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<ESC>[1P<BS><BS><ESC>[1P<BS><ESC>[1P<ESC>[1P<BS><BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<ESC>[1P
+INPUT|usc430af-intro-166|A3 A4 A0 A2 A1 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1  -sc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 -esc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>& -exsc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2> -exesc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2 -execsc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec sc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"|!TRUNCATED TO 500L! 
+
+find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/
+INPUT|usc430af-intro-167|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-168|U |000000000|usc430af|intro:cd top_secret|
+INPUT|usc430af-intro-169|U |000000000|usc430af|intro:ls|answers.xt  diskfree.txt
+INPUT|usc430af-intro-170|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-171|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-172|U |000000000|usc430af|intro:mv notes /|mv: cannot create regular file '/top_secret': Permission denied
+INPUT|usc430af-intro-173|U |000000000|usc430af|intro:mv notes|
+INPUT|usc430af-intro-174|U |000000000|usc430af|intro:ls|example  top_secret
+INPUT|usc430af-intro-175|U |000000000|usc430af|intro:cd top_secret|
+INPUT|usc430af-intro-176|U |000000000|usc430af|intro:ls|answers.xt  diskfree.txt  notes
+INPUT|usc430af-intro-177|U |000000000|usc430af|intro:mv notes ..|
+INPUT|usc430af-intro-178|U |000000000|usc430af|intro:ls|answers.xt  diskfree.txt
+INPUT|usc430af-intro-179|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-180|U |000000000|usc430af|intro:mv notes /top_secret|
+INPUT|usc430af-intro-181|A3 A4 A2 A0 A1 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec| mv -t /top_secret {} +<ESC>[A<BS><BS><BS><BS><BS>cd ..<ESC>[K
+
+INPUT|usc430af-intro-182|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec|!TRUNCATED TO 500L!  mv -t /top_secret {} +<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[1P
+find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd
+INPUT|usc430af-intro-183|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-184|U |000000000|usc430af|intro:cd top_secret|
+INPUT|usc430af-intro-185|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  answers.xt  asdf136Intro-5kqlw.jpeg  diskfree.txt
+INPUT|usc430af-intro-186|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-187|A3 A4 A0 A2 A1 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec| mv -t top_secret {} +<ESC>[A<BS><BS><BS><BS>cd ..<ESC>[K
+
+INPUT|usc430af-intro-188|U |000000000|usc430af|intro:mv notes /top_secret|
+INPUT|usc430af-intro-189|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec| mv -t /top_secret {} +<ESC>[A<BS><BS><BS><BS><BS>cd ..<ESC>[K
+
+INPUT|usc430af-intro-190|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec| mv -t /top_secret {} +<ESC>[A<BS><BS><BS><BS><BS>cd ..<ESC>[K
+
+INPUT|usc430af-intro-191|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec| mv -t /top_secret {} +<ESC>[A<BS><BS><BS><BS><BS>cd ..<ESC>[K
+
+INPUT|usc430af-intro-192|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied" -exec mv -t /top_secret {} +<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[K -exec mv -t /top_secret {} +<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[K
+/var/log/136intro-3.jpg
+/users/usc430af/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430af/top_secret/136intro-2jjaj.JPEG
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-193|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|mv: cannot remove '/var/log/136intro-3.jpg': Permission denied
+INPUT|usc430af-intro-194|U |000000000|usc430af|intro:mv /etc/wuer136intro-4.JPG top_secret|mv: cannot remove '/etc/wuer136intro-4.JPG': Permission denied
+INPUT|usc430af-intro-195|U |000000000|usc430af|intro:mv /etc/wuer136intro-4.JPG top_secret|
+INPUT|usc430af-intro-196|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-197|M2 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 || grep -v \"Permission denied\"<ESC>[A<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[22Pmv /var/log/136intro-3.jpg top_secret
+
+INPUT|usc430af-intro-198|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-199|A3 A4 A2 A0 A1 |000000000|usc430af|intro:sudo|
+INPUT|usc430af-intro-200|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-201|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-202|U |000000000|usc430af|intro:mv /etc/wuer136intro-4.JPG top_secret|
+INPUT|usc430af-intro-203|U |000000000|usc430af|intro:mv /etc/wuer136intro-4.JPG top_secret|
+INPUT|usc430af-intro-204|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-205|M4 M1 M0 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 || grep -v \"Permission denied\"
+/users/usc430af/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430af/top_secret/136intro-2jjaj.JPEG
+/users/usc430af/top_secret/136intro-3.jpg
+/users/usc430af/top_secret/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-206|U |000000000|usc430af|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg top_secret|
+INPUT|usc430af-intro-207|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-208|U |000000000|usc430af|intro:cd top_secret|
+INPUT|usc430af-intro-209|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.xt      wuer136intro-4.JPG
+INPUT|usc430af-intro-210|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.xt      wuer136intro-4.JPG
+INPUT|usc430af-intro-211|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.xt      wuer136intro-4.JPG
+INPUT|usc430af-intro-212|U |000000000|usc430af|intro:nano answers.xt|%<ESC>[?1049h<ESC>[1;44r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[42;31H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[42;37H<ESC>(B<ESC>[0;7m 22 lines ]
+<ESC>[25d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3             File: answers.xt                                <ESC>[3;1H<ESC>(B<ESC>[m1. What goes in the /var directory on a UNIX computer?<ESC>[4;9HA. Var is a standard subdirectory that contains files to
+<ESC>[5dwhich the system writes data during the course of its operations
+<ESC>[6dincluding:<ESC>[7;17H/cache%% cached data from application programs<ESC>[8;16H<ESC>[41m<ESC>[1K <ESC>[49m<ESC>(B<ESC>[m/games%% variable data relating to games in /usr<ESC>[9;17H/lib%% dynamic data libraries and files<ESC>[10;17H/lock%% lock files created by programs<ESC>[11;17H/log%% log files from the system<ESC>[12;17H/run%% cont
+INPUT|usc430af-intro-213|U |000000000|usc430af|intro:mv answers.xt answers.txt|
+INPUT|usc430af-intro-214|U |000000000|usc430af|intro:rm answers.xt|rm: cannot remove 'answers.xt': No such file or directory
+INPUT|usc430af-intro-215|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-216|U |000000000|usc430af|intro:nano answers.txt|%<ESC>[?1049h<ESC>[1;44r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[42;31H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[42;37H<ESC>(B<ESC>[0;7m 22 lines ]
+<ESC>[25d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3            File: answers.txt                                <ESC>[3;1H<ESC>(B<ESC>[m1. What goes in the /var directory on a UNIX computer?<ESC>[4;9HA. Var is a standard subdirectory that contains files to
+<ESC>[5dwhich the system writes data during the course of its operations
+<ESC>[6dincluding:<ESC>[7;17H/cache%% cached data from application programs<ESC>[8;16H<ESC>[41m<ESC>[1K <ESC>[49m<ESC>(B<ESC>[m/games%% variable data relating to games in /usr<ESC>[9;17H/lib%% dynamic data libraries and files<ESC>[10;17H/lock%% lock files created by programs<ESC>[11;17H/log%% log files from the system<ESC>[12;17H/run%% cont
+INPUT|usc430af-intro-217|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-218|U |000000000|usc430af|intro:nano answers.txt|%<ESC>[?1049h<ESC>[1;44r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[42;31H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[42;37H<ESC>(B<ESC>[0;7m 41 lines ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3            File: answers.txt                                <ESC>[3;1H<ESC>(B<ESC>[mThomas Finn
+<ESC>[4d4286990982
+<ESC>[5dthomasjf@usc.edu
+<ESC>[6dusc430af
+<ESC>[8d::: TREASURE HUNT :::
+<ESC>[10dCommand to find files:<ESC>[11;9Hfind / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"<ESC>[12;17H2>&1 | grep -v "Permission denied"
+<ESC>[14dFile 1: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+<ESC>[16dFile 2: /dev/136intro-2jjaj.JPEG
+<ESC>[18dFile 3:
+<ESC>[20d::: INFORMATION HUNT :::
+<ESC>[22d1. What goes in the /var directory on a UNIX computer?<ESC>[23;9HA. Var is a standard subdirectory that contains
+INPUT|usc430af-intro-219|U |000000000|usc430af|intro:node_list|node_list: command not found
+INPUT|usc430af-intro-220|U |000000000|usc430af|intro:scp|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430af-intro-221|U |000000000|usc430af|intro:%set PATH=\"%%PATH%%;%%ProgramFiles%%\putty\"%|
+INPUT|usc430af-intro-222|U |000000000|usc430af|intro:pscp|The program 'pscp' is currently not installed. To run 'pscp' please ask your administrator to install the package 'putty-tools'
+INPUT|usc430af-intro-223|U |000000000|usc430af|intro:pscp|sudo: pscp: command not found
+INPUT|usc430af-intro-224|U |000000000|usc430af|intro:scp|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430af-intro-225|U |000000000|usc430af|intro:scp c:\downloads usc430af@intro:xbzf136INTRO-1.jp|pg 
+ssh: Could not resolve hostname c: Name or service not known
+
+INPUT|usc430af-intro-226|U |000000000|usc430af|intro:scp c:\downloads usc430af@intro:xbzf136INTRO-1.jp|pg <BS><BS>
+INPUT|usc430af-intro-227|U |000000000|usc430af|intro:scp c:\udownloads usc430af@intro:xbzf136INTRO-1.jpg 30af@intro:~/top_secret$ scp c:\usdownloads usc430af@intro:xbzf136INTRO-1.jc430af@intro:~/top_secret$ scp c:\usedownloads usc430af@intro:xbzf136INTRO-1.c430af@intro:~/top_secret$ scp c:\userdownloads usc430af@intro:xbzf136INTRO-1c430af@intro:~/top_secret$ scp c:\usersdownloads usc430af@intro:xbzf136INTRO-c430af@intro:~/top_secret$ scp c:\userdownloads usc430af@intro:xbzf136INTRO-sc430af@intro:~/top_secret$ scp c:\usedownloads usc430af@intro:xbzf136INTRO-1sc430af@intro:~/top_secret$ scp c:\usdownloads usc430af@intro:xbzf136INTRO-1.sc430af@intro:~/top_secret$ scp c:\udownloads usc430af@intro:xbzf136INTRO-1.jsc430af@intro:~/top_secret$ scp c:\downloads usc430af@intro:xbzf136INTRO-1.jpg 430af@intro:~/top_secret$ scp c:downloads usc430af@intro:xbzf136INTRO-1.jpg c430af@intro:~/top_secret$ scp cdownloads usc430af@intro:xbzf136INTRO-1.jpg sc430af@intro:~/top_secret$ scp downloads usc430af@intro:xbzf136INTRO-1.jpg|
+INPUT|usc430af-intro-228|U |000000000|usc430af|intro:scp Cdownloads usc430af@intro:xbzf136INTRO-1.jpg|
+INPUT|usc430af-intro-229|U |000000000|usc430af|intro:scp C:downloads usc430af@intro:xbzf136INTRO-1.jpg c430af@intro:~/top_secret$ scp C:\downloads usc430af@intro:xbzf136INTRO-1.jpg 430af@intro:~/top_secret$ scp C:\Udownloads usc430af@intro:xbzf136INTRO-1.jpg 30af@intro:~/top_secret$ scp C:\Usdownloads usc430af@intro:xbzf136INTRO-1.jc430af@intro:~/top_secret$ scp C:\Usedownloads usc430af@intro:xbzf136INTRO-1.c430af@intro:~/top_secret$ scp C:\Userdownloads usc430af@intro:xbzf136INTRO-1c430af@intro:~/top_secret$ scp C:\Usersdownloads usc430af@intro:xbzf136INTRO-c430af@intro:~/top_secret$ scp C:\Users\downloads usc430af@intro:xbzf136INTROc430af@intro:~/top_secret$ scp C:\Users\sdownloads usc430af@intro:xbzf136INTRc430af@intro:~/top_secret$ scp C:\Users\stdownloads usc430af@intro:xbzf136INTc430af@intro:~/top_secret$ scp C:\Users\studownloads usc430af@intro:xbzf136INc430af@intro:~/top_secret$ scp C:\Users\studdownloads usc430af@intro:xbzf136Ic430af@intro:~/top_secret$ scp C:\Users\studedownloads usc430af@intro:xbzf136c430af@intro:~/top_secret$ scp C:\Users\studendownloads usc430af@intro:xbzf13c430af@intro:~/top_secret$ scp C:\Users\studentdownloads usc430af@intro:xbzf1c430af@intro:~/top_secret$ scp C:\Users\student\downloads usc430af@intro:xbzfc430af@intro:~/top_secret$ scp C:\Users\student\ownloads usc430af@intro:xbzfsc430af@intro:~/top_secret$ scp C:\Users\student\Downloads usc430af@intro:xbzfc430af@intro:~/top_secret$ scp C:\Users\student\D|
+
+ssh: Could not resolve hostname c: Name or service not known
+
+INPUT|usc430af-intro-230|U |000000000|usc430af|intro:scp C:\Users\student\Downloads usc430af@intro:xbz|zf136INTRO-1.jpg <ESC>[Atop_secret$ <ESC>[K
+
+INPUT|usc430af-intro-231|U |000000000|usc430af|intro:scp C:\Users\student\Downloads usc430af@intro:xbz|zf136INTRO-1.jpg <BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430af-intro-232|U |000000000|usc430af|intro:pscp C:\Users\student\Downloads usc430af@intro:xbzc430af@intro:~/top_secret$ p|
+
+The program 'pscp' is currently not installed. To run 'pscp' please ask your administrator to install the package 'putty-tools'
+INPUT|usc430af-intro-233|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-234|U |000000000|usc430af|intro:nano answers.txt|%<ESC>[?1049h<ESC>[1;44r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[42;31H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[42;37H<ESC>(B<ESC>[0;7m 45 lines ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3            File: answers.txt                                <ESC>[3;1H<ESC>(B<ESC>[mThomas Finn
+<ESC>[4d4286990982
+<ESC>[5dthomasjf@usc.edu
+<ESC>[6dusc430af
+<ESC>[8d::: TREASURE HUNT :::
+<ESC>[10dCommand to find files:<ESC>[11;9Hfind / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"<ESC>[12;17H2>&1 | grep -v "Permission denied"
+<ESC>[14dFile 1: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+<ESC>[16dFile 2: /dev/136intro-2jjaj.JPEG
+<ESC>[18dFile 3: /var/log/136intro-3.jpg
+<ESC>[20dFile 4: /etc/wuer136intro-4.JPG
+<ESC>[22dFile 5: /.hidden/asdf136Intro-5kqlw.jpeg
+<ESC>[24d::: INFORMATION HUNT :::
+
+INPUT|usc430af-intro-235|M5 |000000000|usc430af|intro:less /proc/cpuinfo|%<ESC>[?1049h<ESC>[?1h<ESC>=
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping        : 3
+microcode       : 0x5
+cpu MHz         : 2992.690
+cache size      : 2048 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cm <BS>ov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm co <BS>nstant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr
+bugs            :
+bogomips        : 5985.38
+clflush size    : 64
+cache_alignment : 128
+address sizes   : 36 bits physical%% 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : GenuineIntel
+c
+INPUT|usc430af-intro-236|M5 |000000000|usc430af|intro:lscpu|%Architecture:          x86_64
+CPU op-mode(s):        32-bit%% 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    2
+Core(s) per socket:    1
+Socket(s):             2
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            15
+Model:                 4
+Model name:            Intel(R) Xeon(TM) CPU 3.00GHz
+Stepping:              3
+CPU MHz:               2992.690
+BogoMIPS:              5985.44
+L1d cache:             16K
+L2 cache:              2048K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr%
+INPUT|usc430af-intro-237|U |000000000|usc430af|intro:nano answers.txt|%<ESC>[?1049h<ESC>[1;44r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[42;31H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[42;37H<ESC>(B<ESC>[0;7m 46 lines ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3            File: answers.txt                                <ESC>[3;1H<ESC>(B<ESC>[mThomas Finn
+<ESC>[4dthomasjf@usc.edu
+<ESC>[5dusc430af
+<ESC>[7d::: TREASURE HUNT :::
+<ESC>[9dCommand to find files:<ESC>[10;9Hfind / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 | grep -v $<ESC>[12;1HFile 1: /usr/share/pixmaps/xbzf136INTRO-1.jpg<ESC>[13;9HForbidden Planet Poster
+<ESC>[15dFile 2: /dev/136intro-2jjaj.JPEG<ESC>[16;9HGodzilla King of the Monsters Poster
+<ESC>[18dFile 3: /var/log/136intro-3.jpg<ESC>[19;9HIt Came From Outer Space Poster
+<ESC>[21dFile 4: /etc/wuer136intro-4.JPG<ESC>[22;9HThe Fly Poster
+INPUT|usc430af-intro-238|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-239|M6 |000000000|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2908124   11908340  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631104 1815137280  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740480  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-240|U |000000000|usc430af|intro:reset|
+<ESC>[3g        <ESC>H        <ESC>H        <ESC>H        <ESC>H        <ESC>H        <ESC>H        <ESC>H        <ESC>H        <ESC>H
+<ESC>c<ESC>[!p<ESC>[?3;4l<ESC>[4l<ESC>>
+INPUT|usc430af-intro-241|M6 |000000000|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907508   11908956  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631104 1815137280  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740480  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-242|M6 |000000000|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907540   11908924  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631104 1815137280  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740480  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-243|U |000000000|usc430af|intro:cat df|cat: df: No such file or directory
+INPUT|usc430af-intro-244|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-245|U |000000000|usc430af|intro:cat df > ex.txt|cat: df: No such file or directory
+INPUT|usc430af-intro-246|M6 |000000000|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907564   11908900  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631232 1815137024  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740480  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-247|A6 |000000000|usc430af|intro:df > ex.txt|
+INPUT|usc430af-intro-248|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+136intro-3.jpg      diskfree.txt       xbzf136INTRO-1.jpg
+answers.txt      ex.txt
+INPUT|usc430af-intro-249|U |000000000|usc430af|intro:more ex.txt|%Filesystem                                        1K-blocks       Used  Avail
+able Use%% Mounted on
+udev                                                1003424         48    100
+3376   1%% /dev
+tmpfs                                                204720      13700     19
+1020   7%% /run
+/dev/sda1                                          15616412    2907564   1190
+8900  20%% /
+tmpfs                                               1023600          0    102
+3600   0%% /dev/shm
+tmpfs                                                  5120          0       
+5120   0%% /run/lock
+tmpfs                                               1023600          0    102
+3600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631232 181513
+7024  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  38674
+0480  80%% /users/usc430af
+tmpfs                                                20472
+INPUT|usc430af-intro-250|M6 |000000000|usc430af|intro:df -a|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+sysfs                                                     0          0          0    - /sys
+proc                                                      0          0          0    - /proc
+udev                                                1003424         48    1003376   1%% /dev
+devpts                                                    0          0          0    - /dev/pts
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907836   11908628  20%% /
+securityfs                                                0          0          0    - /sys/kernel/security
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs     
+INPUT|usc430af-intro-251|U |000000000|usc430af|intro:|
+INPUT|usc430af-intro-252|M6 |000000000|usc430af|intro:df -a|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+sysfs                                                     0          0          0    - /sys
+proc                                                      0          0          0    - /proc
+udev                                                1003424         48    1003376   1%% /dev
+devpts                                                    0          0          0    - /dev/pts
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907920   11908544  20%% /
+securityfs                                                0          0          0    - /sys/kernel/security
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs     
+INPUT|usc430af-intro-253|M6 |000000000|usc430af|intro:df -h|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              980M   48K  980M   1%% /dev
+tmpfs                                             200M   14M  187M   7%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                            1000M     0 1000M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                            1000M     0 1000M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af  1.9T  1.4T  369G  80%% /users/usc430af
+tmpfs                                             200M     0  200M   0%% /run/user/14169%
+INPUT|usc430af-intro-254|M6 |000000000|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2908236   11908228  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631360 1815136896  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740352  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-255|M6 |000000000|usc430af|intro:df -i|%Filesystem                                          Inodes   IUsed     IFree IUse%% Mounted on
+udev                                                250856     426    250430    1%% /dev
+tmpfs                                               255900    1124    254776    1%% /run
+/dev/sda1                                          1001712  151690    850022   16%% /
+tmpfs                                               255900       1    255899    1%% /dev/shm
+tmpfs                                               255900       6    255894    1%% /run/lock
+tmpfs                                               255900      16    255884    1%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 384426238 1472576 382953662    1%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 262517374 6625017 255892357    3%% /users/usc430af
+tmpfs                                               255900       4    255896    1%% /run/user/14169%
+INPUT|usc430af-intro-256|U |000000000|usc430af|intro:reset|
+<ESC>[3g        <ESC>H        <ESC>H        <ESC>H        <ESC>H        <ESC>H        <ESC>H        <ESC>H        <ESC>H        <ESC>H
+<ESC>c<ESC>[!p<ESC>[?3;4l<ESC>[4l<ESC>>
+INPUT|usc430af-intro-257|M6 |000000000|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907668   11908796  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631616 1815136768  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740352  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-258|M6 |000000000|usc430af|intro:df -h|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              980M   48K  980M   1%% /dev
+tmpfs                                             200M   14M  187M   7%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                            1000M     0 1000M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                            1000M     0 1000M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af  1.9T  1.4T  369G  80%% /users/usc430af
+tmpfs                                             200M     0  200M   0%% /run/user/14169%
+INPUT|usc430af-intro-259|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  answers.txt       diskfree.txt  wuer136intro-4.JPG
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  ex.txt     xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-260|A6 |000000000|usc430af|intro:df -h > diskfree.txt|
+INPUT|usc430af-intro-261|U |000000000|usc430af|intro:rm ex.txt|
+INPUT|usc430af-intro-262|U |000000000|usc430af|intro:nano diskfree.txt|%<ESC>[?1049h<ESC>[1;44r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[42;33H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[42;32H<ESC>(B<ESC>[0;7m[ Read 10 lines
+<ESC>[13d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3             File: diskfree.txt                                 <ESC>[3;1H<ESC>(B<ESC>[mFilesystem<ESC>[3;51HSize  Used Avail Use%% Mounted$<ESC>[4;1Hudev<ESC>[4;51H980M   48K  980M   1%% /dev
+<ESC>[5dtmpfs<ESC>[5;51H200M   14M  187M   7%% /run
+<ESC>[6d/dev/sda1<ESC>[6;52H15G  2.8G   12G  20%% /
+<ESC>[7dtmpfs<ESC>[7;50H1000M     0 1000M   0%% /dev/shm<ESC>[8;1Htmpfs<ESC>[8;51H5.0M     0  5.0M   0%% /run/lo$<ESC>[9;1Htmpfs<ESC>[9;50H1000M     0 1000M   0%% /sys/fs$<ESC>[10;1Husers.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/U$<ESC>[11;1Husers.isi.deterlab.net:/mnt/other/users/usc
+INPUT|usc430af-intro-263|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-264|A6 |000000000|usc430af|intro:df /intro|df: /intro: No such file or directory
+INPUT|usc430af-intro-265|A6 |000000000|usc430af|intro:df /pc157|df: /pc157: No such file or directory
+INPUT|usc430af-intro-266|M6 |000000000|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2908384   11908080  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631616 1815136640  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740352  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-267|M6 |000000000|usc430af|intro:df -h|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              980M   48K  980M   1%% /dev
+tmpfs                                             200M   14M  187M   7%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                            1000M     0 1000M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                            1000M     0 1000M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af  1.9T  1.4T  369G  80%% /users/usc430af
+tmpfs                                             200M     0  200M   0%% /run/user/14169%
+INPUT|usc430af-intro-268|U |000000000|usc430af|intro:nano diskfree.txt|%<ESC>[?1049h<ESC>[1;44r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[42;33H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[42;32H<ESC>(B<ESC>[0;7m[ Read 12 lines
+<ESC>[15d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3             File: diskfree.txt                                 <ESC>[3;1H<ESC>(B<ESC>[mCommand Used: df -h > diskfree.txt
+<ESC>[5dFilesystem<ESC>[5;51HSize  Used Avail Use%% Mounted$<ESC>[6;1Hudev<ESC>[6;51H980M   48K  980M   1%% /dev
+<ESC>[7dtmpfs<ESC>[7;51H200M   14M  187M   7%% /run
+<ESC>[8d/dev/sda1<ESC>[8;52H15G  2.8G   12G  20%% /
+<ESC>[9dtmpfs<ESC>[9;50H1000M     0 1000M   0%% /dev/shm<ESC>[10;1Htmpfs<ESC>[10;51H5.0M     0  5.0M   0%% /run/lo$<ESC>[11;1Htmpfs<ESC>[11;50H1000M     0 1000M   0%% /sys/fs$<ESC>[12;1Husers.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/U$<ESC
+INPUT|usc430af-intro-269|U |000000000|usc430af|intro:[A|[A: command not found
+INPUT|usc430af-intro-270|U |000000000|usc430af|intro:nano diskfree.txt|%<ESC>[?1049h<ESC>[1;44r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[42;33H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[42;32H<ESC>(B<ESC>[0;7m[ Read 12 lines
+<ESC>[15d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3             File: diskfree.txt                                 <ESC>[3;1H<ESC>(B<ESC>[mCommand Used: df -h > diskfree.txt
+<ESC>[5dFilesystem<ESC>[5;51HSize  Used Avail Use%% Mounted$<ESC>[6;1Hudev<ESC>[6;51H980M   48K  980M   1%% /dev
+<ESC>[7dtmpfs<ESC>[7;51H200M   14M  187M   7%% /run
+<ESC>[8d/dev/sda1<ESC>[8;52H15G  2.8G   12G  20%% /
+<ESC>[9dtmpfs<ESC>[9;50H1000M     0 1000M   0%% /dev/shm<ESC>[10;1Htmpfs<ESC>[10;51H5.0M     0  5.0M   0%% /run/lo$<ESC>[11;1Htmpfs<ESC>[11;50H1000M     0 1000M   0%% /sys/fs$<ESC>[12;1Husers.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/U$<ESC
+INPUT|usc430af-intro-271|U |000000000|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-272|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-273|U |000000000|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-274|A6 |000000000|usc430af|intro:df -h > diskfree.txt|
+INPUT|usc430af-intro-275|U |000000000|usc430af|intro:pscp C:\Users\student\Downloads usc430af@intro:xbzf136INTRO-1.j|
+INPUT|usc430af-intro-276|U |000000000|usc430af|intro:scp C:\Users\student\Downloads usc430af@intro:xbzf136INTRO-1.jpg 430af@intro:~$ scp c:\downloads usc430af@intro:xbzf136INTRO-1.jpg|
+INPUT|usc430af-intro-277|U |000000000|usc430af|intro:scp c:\downloads usc430af@intro:xbzf136INTRO-1.jpg|
+INPUT|usc430af-intro-278|U |000000000|usc430af|intro:%set PATH="%%PATH%%;%%ProgramFiles%%\putty"%|
+INPUT|usc430af-intro-279|U |000000000|usc430af|intro:mv answers.xt answers.txt|
+INPUT|usc430af-intro-280|U |000000000|usc430af|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg top_secret|
+INPUT|usc430af-intro-281|M2 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 | gre|ep -v \"Permission denied\"<ESC>[A<BS><BS><BS><BS><BS><BS><BS><ESC>[20Psudo mv /var/log/136intro-3.jpg top_secret
+
+INPUT|usc430af-intro-282|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-283|U |000000000|usc430af|intro:mv /etc/wuer136intro-4.JPG top_secret|
+INPUT|usc430af-intro-284|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-285|M4 M1 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 | gre|ep -v \"Permission denied\"
+/users/usc430af/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430af/top_secret/136intro-2jjaj.JPEG
+/users/usc430af/top_secret/136intro-3.jpg
+/users/usc430af/top_secret/wuer136intro-4.JPG
+/users/usc430af/top_secret/xbzf136INTRO-1.jpg
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430af-intro-286|U |000000000|usc430af|intro:cd /proj|
+INPUT|usc430af-intro-287|U |1548548419|usc430af|intro:ls|DeterTest  intro.createimage.Share  Modeling  share  Share  USC430
+INPUT|usc430af-intro-288|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-289|U |000000000|usc430af|intro:;s|bash: syntax error near unexpected token `;'
+INPUT|usc430af-intro-290|U |1548548480|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-291|U |000000000|usc430af|intro:cd lost+found|bash: cd: lost+found: Permission denied
+INPUT|usc430af-intro-292|U |1548548521|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-293|U |000000000|usc430af|intro:cd bin|
+INPUT|usc430af-intro-294|U |1548548535|usc430af|intro:ls|bash      hostname       rbash
+btrfs      ip        readlink
+btrfs-calc-size     journalctl       red
+btrfsck      kbd_mode       rm
+btrfs-convert     keyctl       rmdir
+btrfs-debug-tree    kill       rnano
+btrfs-find-root     kmod       run-parts
+btrfs-image     less       rzsh
+btrfs-map-logical   lessecho       sed
+btrfs-select-super  lessfile       setfacl
+btrfs-show-super    lesskey       setfont
+btrfstune     lesspipe       setupcon
+btrfs-zero-log     ln        sh
+bunzip2      loadkeys       sh.distrib
+busybox      login       sleep
+bzcat      loginctl       ss
+bzcmp      lowntfs-3g       static-sh
+bzdiff      ls        stty
+bzegrep      lsblk       su
+bzexe      lsmod       sync
+bzfgrep      mkdir       systemctl
+bzgrep      mkfs.btrfs       systemd
+bzip2 
+INPUT|usc430af-intro-295|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-296|U |1548548541|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-297|U |000000000|usc430af|intro:cd var|
+INPUT|usc430af-intro-298|U |1548548544|usc430af|intro:ls|backups  crash  lib lock  mail  run   spool
+cache  emulab  local log   opt   snap  tmp
+INPUT|usc430af-intro-299|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-300|U |1548548548|usc430af|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430af-intro-301|U |000000000|usc430af|intro:cd users|
+INPUT|usc430af-intro-302|U |1548548556|usc430af|intro:ls|aashraya  gbartlet  jhickey   scuric   shareah shareap  shareax  sharetb
+abhi   gerow     jjh       shareaa  shareai shareaq  shareay  sharetc
+alefiya   gknopf    jross     shareab  shareaj sharear  shareaz  sharetd
+alwabel   glawler   kls2      shareac  shareak shareas  shareba  sklower
+bks   jaipuria  melkins   sharead  shareal shareat  sharebb  sunshine
+bloznali  jboman    piobair   shareae  shaream shareau  sharebc  usc430af
+ekline   jelena    rgoodfel  shareaf  sharean shareav  sharebd
+faber   jgli     schwab    shareag  shareao shareaw  shareta
+INPUT|usc430af-intro-303|U |000000000|usc430af|intro:cd sunshine|
+INPUT|usc430af-intro-304|U |1548548561|usc430af|intro:ls|
+INPUT|usc430af-intro-305|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-306|U |1548548575|usc430af|intro:ls|aashraya  gbartlet  jhickey   scuric   shareah shareap  shareax  sharetb
+abhi   gerow     jjh       shareaa  shareai shareaq  shareay  sharetc
+alefiya   gknopf    jross     shareab  shareaj sharear  shareaz  sharetd
+alwabel   glawler   kls2      shareac  shareak shareas  shareba  sklower
+bks   jaipuria  melkins   sharead  shareal shareat  sharebb  sunshine
+bloznali  jboman    piobair   shareae  shaream shareau  sharebc  usc430af
+ekline   jelena    rgoodfel  shareaf  sharean shareav  sharebd
+faber   jgli     schwab    shareag  shareao shareaw  shareta
+INPUT|usc430af-intro-307|U |000000000|usc430af|intro:cd usc430af|
+INPUT|usc430af-intro-308|U |1548548577|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-309|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-310|A2 A0 A1 A3 A4 |000000000|usc430af|intro:find . -name "*intro*"|
+INPUT|usc430af-intro-311|M2 |000000000|usc430af|intro:find . /|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+/var/log/ttylog/ttylog.intro.3
+/var/log/ttylog/ttylog.intro.2
+/var/log/ttylog/ttylog.intro.4
+/var/log/ttylog/ttylog.intro.0
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+find: '/var/log/unattended-upgrades': Permission denied
+/var/log/136intro-3.jpg
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denie
+INPUT|usc430af-intro-312|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find / -name \"*intro*\.jpeg|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430af-intro-313|U |000000000|usc430af|intro:^C|
+INPUT|usc430af-intro-314|A3 A4 A0 A2 A1 |000000000|usc430af|intro:find / -name \"*intro*.jpeg\" 2>/dev/null|
+
+
+^C
+INPUT|usc430af-intro-315|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find / -n2>/dev/null >|
+INPUT|usc430af-intro-316|A2 A0 A1 A3 A4 |000000000|usc430af|intro:find / 2>/dev/null > -name \"*intro*.|
+INPUT|usc430af-intro-317|M3 M2 M1 |000000000|usc430af|intro:find / -name \"*intro*\" 2>&1 | grep -v \"Permission deni|ed\"
+/var/log/ttylog/ttylog.intro.3
+/var/log/ttylog/ttylog.intro.2
+/var/log/ttylog/ttylog.intro.4
+/var/log/ttylog/ttylog.intro.0
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/proj/intro.createimage.Share
+/proj/share/exp/createimage/logs/cli.intro.csv.1535412403
+/proj/share/exp/createimage/logs/ttylog.intro.0
+/proj/share/exp/createimage/logs/alltty.intro
+/proj/share/exp/createimage/logs/cli.intro.csv
+/proj/share/exp/createimage/count.intro
+/proj/USC430/logs/runlog-mjoseph-Homework1.intro.xUiMEB
+/proj/USC430/logs/edumodel.snoopy.intro.1521748498
+/proj/USC430/logs/edumodel.snoopy.intro.1521760450
+/proj/USC430/logs/edumodel.snoopy.intro.1521761327
+/proj/USC430/logs/edumodel.snoopy.intro.1521762323
+/proj/USC430/logs/tedu.snoopy.intro.1521766507
+/proj/USC430/logs/tedu.snoopy.intro
+INPUT|usc430af-intro-318|M3 M2 M1 |000000000|usc430af|intro:find / -name \"*intro*\" 2>&1 | grep -v \"Permission denie|ed\"
+/var/log/ttylog/ttylog.intro.3
+/var/log/ttylog/ttylog.intro.2
+/var/log/ttylog/ttylog.intro.4
+/var/log/ttylog/ttylog.intro.0
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/proj/intro.createimage.Share
+/proj/share/exp/createimage/logs/cli.intro.csv.1535412403
+/proj/share/exp/createimage/logs/ttylog.intro.0
+/proj/share/exp/createimage/logs/alltty.intro
+/proj/share/exp/createimage/logs/cli.intro.csv
+/proj/share/exp/createimage/count.intro
+/proj/USC430/logs/runlog-mjoseph-Homework1.intro.xUiMEB
+/proj/USC430/logs/edumodel.snoopy.intro.1521748498
+/proj/USC430/logs/edumodel.snoopy.intro.1521760450
+/proj/USC430/logs/edumodel.snoopy.intro.1521761327
+/proj/USC430/logs/edumodel.snoopy.intro.1521762323
+/proj/USC430/logs/tedu.snoopy.intro.1521766507
+/proj/USC430/logs/tedu.snoopy.intro
+INPUT|usc430af-intro-319|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find / -name \"*intro*\" 2>&1 | grep -v \"Permission denie|ed\"<BS><BS>
+INPUT|usc430af-intro-320|A1 A0 A2 A4 A3 |000000000|usc430af|intro:find / -name "*intro*." 2>&1 | grep -v "Permission deniec430af@intro:/users$ find / -name "*intro*.j" 2>&1 | grep -v "Permission denic430af@intro:/users$ find / -name "*intro*.jp" 2>&1 | grep -v "Permission denc430af@intro:/users$ find / -name "*intro*.jpe" 2>&1 | grep -v "Permission dec430af@intro:/users$ find / -name "*intro*.jpeg" 2>&1 | grep -v "Permission dc430af@intro:/users$ find / -name "*intro*.jpeg|
+
+INPUT|usc430af-intro-321|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find / -name \"*intro*.jpeg\" 2>&1 | grep -v \"Permission| denied\"<BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430af-intro-322|M2 |000000000|usc430af|intro:find / -name "*intro*.jpe\g" 2>&1 | grep -v "Permission c430af@intro:/users$ find / -name "*intro*.jpeg" 2>&1 | grep -v "Permission sc430af@intro:/users$ find / -name "*intro*.jpg" 2>&1 | grep -v "Permission dsc430af@intro:/users$ find / -name "*intro*.jp|
+
+/var/log/136intro-3.jpg
+INPUT|usc430af-intro-323|U |000000000|usc430af|intro:cd /var/log|
+INPUT|usc430af-intro-324|U |1548548582|usc430af|intro:ls|136intro-3.jpg   dist-upgrade   fsck      quagga
+alternatives.log  dmesg    installer  syslog
+apt    dpkg.log   kern.log   tiplogs
+auth.log   emulab.log   lastlog    ttylog
+bootstrap.log   faillog   lxd      unattended-upgrades
+btmp    fontconfig.log  ntpstats   wtmp
+INPUT|usc430af-intro-325|U |1548548984|usc430af|intro:more 136intro-3.jpg|%<C3><BF><C3><98><C3><BF><C3><A0>
+"
+ 
+(
+ #$&&&
+)%%)%%%%"%%  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$<C3><BF><C3><84>
+
+
+%%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+<C2><ORDF><C2><B2><C2><B3><C2><MICRO><C2><B9><C2><ORDM><C3><82><C3><83><C3><84><C3><85><C3><86><C3><87><C3><88><C3><89><C3><8A><C3><92><C3><93><C3><94><C3><BULL><C3><96>
+<C3><98><C3><99><C3><9A><C3><A1><C3><CENT><C3><POUND><C3><CURR><C3><YEN><C3><A6><C3><SECT><C3><UMLT><C3><COPY><C3><ORDF><C3><PLSMN><C3><B2><C3><B3><C3><ACUTE><C3><MICRO><C3><PARA><C3><CEDIL><C3><B9><C3><ORDM>
+
+
+$4<C3><A1>%%<C3><PLSMN>&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+<C2><ORDF><C2><B2><C2><B3><C2><MICRO><C2><B9><C2><ORDM><C3><82><C3><83><C3><84><C3><85><C3><86><C3><87><C3><88><C3><89><C3><8A><C3><92><C3><93>
+<C3><94><C3><BULL><C3><96><C3><98><C3><99><C3><9A><C3><CENT><C3><POUND><C3><CURR><C3><YEN><C3><A6><C3><SECT><C3><UMLT><C3><COPY><C3><ORDF><C3><B2><C3><B3><C3><ACUTE><C3><MICRO><
+INPUT|usc430af-intro-326|U |1548548995|usc430af|intro:ls|136intro-3.jpg   dist-upgrade   fsck      quagga
+alternatives.log  dmesg    installer  syslog
+apt    dpkg.log   kern.log   tiplogs
+auth.log   emulab.log   lastlog    ttylog
+bootstrap.log   faillog   lxd      unattended-upgrades
+btmp    fontconfig.log  ntpstats   wtmp
+INPUT|usc430af-intro-327|M3 M2 M1 |000000000|usc430af|intro:find / -name "*intro*.jpg" 2>&1 | grep -v "Permission|n denied"<ESC>[Aintro:/var/log$ find / -name "*intro*.jpeg" 2>&1 | grep -v "Permissio<ESC>[1@n denied"<ESC>[Antro:/var/log$ find / -name "*intro*" 2>&1 | grep -v "Permission den<ESC>[5Pied"
+/var/log/ttylog/ttylog.intro.3
+/var/log/ttylog/ttylog.intro.2
+/var/log/ttylog/ttylog.intro.4
+/var/log/ttylog/ttylog.intro.0
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/proj/intro.createimage.Share
+/proj/share/exp/createimage/logs/cli.intro.csv.1535412403
+/proj/share/exp/createimage/logs/ttylog.intro.0
+/proj/share/exp/createimage/logs/alltty.intro
+/proj/share/exp/createimage/logs/cli.intro.csv
+/proj/share/exp/createimage/count.intro
+/proj/USC430/logs/runlog-mjoseph-Homework1.intro.xUiMEB
+/proj/USC430/logs/edumodel.snoopy.intro.1521748498
+/proj/USC430/logs/edumodel.snoopy.intro.1521760450
+/proj/US
+INPUT|usc430af-intro-328|A1 A0 A2 A4 A3 |000000000|usc430af|intro:find / -name \"*intro*\" 2>&1 | grep -v \"Permission den|nied\"<ESC>[A0af@intro:/var/log$ ls<ESC>[K
+
+INPUT|usc430af-intro-329|A1 A0 A2 A4 A3 |000000000|usc430af|intro:find / -name "*intro*" 2>&1 | grep -v "Permission den|nied"<ESC>[A0af@intro:/var/log$ <ESC>[K
+
+INPUT|usc430af-intro-330|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find / -name \"*intro*\" 2>&1 | grep -v \"Permission den|nied\"<ESC>[A0af@intro:/var/log$ ls<ESC>[K
+
+INPUT|usc430af-intro-331|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find / -name "*intro*" 2>&1 | grep -v "Permission den|nied"<ESC>[A0af@intro:/var/log$ ls<ESC>[K
+
+INPUT|usc430af-intro-332|A0 A2 A1 A3 A4 |000000000|usc430af|intro:find / -name "*intro*.jpg" 2>&1 | grep -v "Permission|n denied"<BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430af-intro-333|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / i-name "*intro*.jpg" 2>&1 | grep -v "Permissionc430af@intro:/var/log$ find / -name "*intro*.jpg" 2>&1 | grep -v "Permissionsc430af@intro:/var/log$ find / -iname "*intro*.jpg" 2>&1 | grep -v "Permissionc430af@intro:/var/log$ find / -iname \"*intro*.jpg\"  2>&1 | grep -v "Permissioc430af@intro:/var/log$ find / -iname "*intro*.jpg" - 2>&1 | grep -v "Permi|
+<ESC>[1@s<ESC>[Asc430af@intro:/var/log$ find / -iname "*intro*.jpg" -o 2>&1 | grep -v "Permis<ESC>[1@s<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o  2>&1 | grep -v "Permis<ESC>[1@s<ESC>[A430af@intro:/var/log$ find / -iname "*intro*.jpg" -o - 2>&1 | grep -v "Perm<ESC>[1@i<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -i 2>&1 | grep -v "Per<ESC>[1@m<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -in 2>&1 | grep -v "Pe<ESC>[1@r<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -ina 2>&1 | grep -v "P<ESC>[1@e<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -inam 2>&1 | grep -v "<ESC>[1@P<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -iname 2>&1 | grep -v <ESC>[1@"<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -iname  2>&1 | grep -v<ESC>[1@ <ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -iname " 2>&1 | grep -<ESC>[1@v<ESC>[Ac430af@intro:/var/log$ find / -iname "*intro*.jpg" -o -inam
+INPUT|usc430af-intro-334|M3 M2 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\"| 2>&1 | grep -v \"Permission denied\"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+^C
+INPUT|usc430af-intro-335|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\"| 2>&1 | grep -v \"Permission denied\"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-336|U |1548549422|usc430af|intro:/var/log/136intro-3.jpg|bash: /var/log/136intro-3.jpg: Permission denied
+INPUT|usc430af-intro-337|U |1548549422|usc430af|intro:/etc/wuer136intro-4.JPG|bash: /etc/wuer136intro-4.JPG: Permission denied
+INPUT|usc430af-intro-338|U |1548549422|usc430af|intro:/.hidden/asdf136Intro-5kqlw.jpeg|bash: /.hidden/asdf136Intro-5kqlw.jpeg: Permission denied
+INPUT|usc430af-intro-339|U |1548549422|usc430af|intro:/dev/136intro-2jjaj.JPEG|bash: /dev/136intro-2jjaj.JPEG: Permission denied
+INPUT|usc430af-intro-340|U |1548549422|usc430af|intro:/usr/share/pixmaps/xbzf136INTRO-1.jpg|bash: /usr/share/pixmaps/xbzf136INTRO-1.jpg: Permission denied
+INPUT|usc430af-intro-341|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\"| 2>&1 | grep -v \"Permission denied\"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-342|U |1548549470|usc430af|intro:/var/log/136intro-3.jpg|bash: /var/log/136intro-3.jpg: Permission denied
+INPUT|usc430af-intro-343|U |1548549470|usc430af|intro:/etc/wuer136intro-4.JPG|bash: /etc/wuer136intro-4.JPG: Permission denied
+INPUT|usc430af-intro-344|U |1548549470|usc430af|intro:/.hidden/asdf136Intro-5kqlw.jpeg|bash: /.hidden/asdf136Intro-5kqlw.jpeg: Permission denied
+INPUT|usc430af-intro-345|U |1548549470|usc430af|intro:/dev/136intro-2jjaj.JPEG|bash: /dev/136intro-2jjaj.JPEG: Permission denied
+INPUT|usc430af-intro-346|U |1548549472|usc430af|intro:/usr/share/pixmaps/xbzf136INTRO-1.jpgls|bash: /usr/share/pixmaps/xbzf136INTRO-1.jpgls: No such file or directory
+INPUT|usc430af-intro-347|U |000000000|usc430af|intro:/usr/share/pixmaps/xbzf136INTRO-1.jpgls|
+INPUT|usc430af-intro-348|U |000000000|usc430af|intro:/.hidden/asdf136Intro-5kqlw.jpeg|
+INPUT|usc430af-intro-349|M0 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"| 2>&1 | grep -v "Permission denied"<ESC>[A<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[15P/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+INPUT|usc430af-intro-350|U |000000000|usc430af|intro:/usr/share/pixmaps/xbzf136INTRO-1.jpg|
+INPUT|usc430af-intro-351|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\"| 2>&1 | grep -v \"Permission denied\"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-352|U |000000000|usc430af|intro:cd ~|
+INPUT|usc430af-intro-353|U |1548549957|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-354|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-355|U |1548550025|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-356|U |1548550044|usc430af|intro:more notes|%sudo (superuser do)
+ sudo shutdown -r now : shutdown system%% need user password
+su (switch user)
+ su - : switches to root%% need root password
+cat (concatenate)
+ cat /var/log/messages : prints sys messages
+ less /var/log/messages : has buffer and allows search with /%%\
+ more /var/log/messages : prints entire listings
+grep (global regular expression print)
+ cat /var/log/messages | grep phrasetofind : prints to ptf
+ cat /var/log/messages | grep ptf | less : pipes ptf to less
+ cat /var/log/messages | grep ptf > file.txt : output to file.txt
+find
+ find . name \"*.txt\" | head -n 5 : finds txt files%% pipes head
+ find directory -name \"*.swp\" -o -name \"*~\"
+ find / -mount -mtime 2190 : starts in root directory
+xargs (extended arguments)
+ find / -iname \"*.pwd\" | xargs strings $1 | sort :
+  runs strings on all pwd files%% then sorts
+ find . -mount -mtime +24 \( -name \"*~\" \) \ head -
+INPUT|usc430af-intro-357|A1 A0 A2 A4 A3 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied" | xargs -0 -I {} top_secret
+xargs: top_secret: No such file or directory
+INPUT|usc430af-intro-358|U |000000000|usc430af|intro:^C|
+INPUT|usc430af-intro-359|A3 A4 A2 A0 A1 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 ||% grep -v \"Permission denied\" | xargs -0 -I {} top_secret<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>-I {}<ESC>[1@m<ESC>[1@v <ESC>[1@ <BS><ESC>[1@\<ESC>[1@\<BS><ESC>[1P<BS><ESC>[1P<ESC>[1P<BS><BS><ESC>[1P<BS><ESC>[1P <ESC>[1@ <BS><ESC>[1@%%<BS><ESC>[1P<ESC>[1@m<ESC>[1@v <ESC>[1@ <BS><ESC>[1@{<ESC>[1@} <ESC>[1@ <BS><ESC>[1P<BS><ESC>[A%
+INPUT|usc430af-intro-360|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 || grep -v \"Permission denied\" | xargs -0 -I {} mv {} top_secret<BEL>
+
+
+mv: cannot stat '/var/log/136intro-3.jpg'$'\
+''/etc/wuer136intro-4.JPG'$'\
+''/.hidden/asdf136Intro-5kqlw.jpeg'$'\
+''/dev/136intro-2jjaj.JPEG'$'\
+''/usr/share/pixmaps/xbzf136INTRO-1.jpg'$'\
+': No such file or directory
+INPUT|usc430af-intro-361|U |1548550195|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-362|U |000000000|usc430af|intro:cd top_secret|
+INPUT|usc430af-intro-363|U |1548550199|usc430af|intro:ls|answers.xt  diskfree.txt
+INPUT|usc430af-intro-364|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-365|U |1548550204|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-366|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied" | xargs -0 -I {} mv {} top_secret<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[6Ptop_secret<ESC>[A
+INPUT|usc430af-intro-367|U |000000000|usc430af|intro:more notes|
+INPUT|usc430af-intro-368|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied" | xargs -0 -I {} top_secret<ESC>[A
+INPUT|usc430af-intro-369|U |000000000|usc430af|intro:more notes|
+INPUT|usc430af-intro-370|A2 A0 A1 A3 A4 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied"<ESC>[A<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>ls<ESC>[K
+
+INPUT|usc430af-intro-371|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied"
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-372|A3 A4 A0 A2 A1 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 || grep -v \"Permission denied\" -exec mv -t /top_secret {} +
+grep: invalid option -- 't'
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+INPUT|usc430af-intro-373|A4 A3 A1 A0 A2 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 || grep -v \"Permission denied\" -exec mv -t /top_secret {} +<ESC>[A
+INPUT|usc430af-intro-374|U |1548550287|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-375|U |000000000|usc430af|intro:cd top_secret/|
+INPUT|usc430af-intro-376|U |1548550292|usc430af|intro:ls|answers.xt  diskfree.txt
+INPUT|usc430af-intro-377|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-378|A3 A4 A0 A2 A1 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied" -exec mv -t /top_secret {} +<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<ESC>[1P<BS><BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<ESC>[1P<BS><BS><ESC>[1P<BS><ESC>[1P<ESC>[1P<BS><BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<ESC>[1P
+INPUT|usc430af-intro-379|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1  -sc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 -esc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>& -exsc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2> -exesc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2 -execsc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec sc430af@intro:~$ find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"|!TRUNCATED TO 500L! 
+
+find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/
+INPUT|usc430af-intro-380|U |1548550326|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-381|U |000000000|usc430af|intro:cd top_secret|
+INPUT|usc430af-intro-382|U |1548550333|usc430af|intro:ls|answers.xt  diskfree.txt
+INPUT|usc430af-intro-383|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-384|U |1548550338|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-385|U |000000000|usc430af|intro:mv notes /|mv: cannot create regular file '/top_secret': Permission denied
+INPUT|usc430af-intro-386|U |000000000|usc430af|intro:mv notes|
+INPUT|usc430af-intro-387|U |1548550375|usc430af|intro:ls|example  top_secret
+INPUT|usc430af-intro-388|U |000000000|usc430af|intro:cd top_secret|
+INPUT|usc430af-intro-389|U |1548550383|usc430af|intro:ls|answers.xt  diskfree.txt  notes
+INPUT|usc430af-intro-390|U |1548550387|usc430af|intro:mv notes ..|
+INPUT|usc430af-intro-391|U |1548550388|usc430af|intro:ls|answers.xt  diskfree.txt
+INPUT|usc430af-intro-392|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-393|U |000000000|usc430af|intro:mv notes /top_secret|
+INPUT|usc430af-intro-394|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec| mv -t /top_secret {} +<ESC>[A<BS><BS><BS><BS><BS>cd ..<ESC>[K
+
+INPUT|usc430af-intro-395|A4 A3 A1 A2 A0 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec|!TRUNCATED TO 500L!  mv -t /top_secret {} +<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[1P
+find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd
+INPUT|usc430af-intro-396|U |1548550416|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-397|U |000000000|usc430af|intro:cd top_secret|
+INPUT|usc430af-intro-398|U |1548550421|usc430af|intro:ls|136intro-2jjaj.JPEG  answers.xt  asdf136Intro-5kqlw.jpeg  diskfree.txt
+INPUT|usc430af-intro-399|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-400|A3 A4 A2 A0 A1 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec| mv -t top_secret {} +<ESC>[A<BS><BS><BS><BS>cd ..<ESC>[K
+
+INPUT|usc430af-intro-401|U |000000000|usc430af|intro:mv notes /top_secret|
+INPUT|usc430af-intro-402|A1 A2 A0 A4 A3 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec| mv -t /top_secret {} +<ESC>[A<BS><BS><BS><BS><BS>cd ..<ESC>[K
+
+INPUT|usc430af-intro-403|A0 A2 A1 A3 A4 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec| mv -t /top_secret {} +<ESC>[A<BS><BS><BS><BS><BS>cd ..<ESC>[K
+
+INPUT|usc430af-intro-404|A3 A4 A0 A2 A1 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"  -exec| mv -t /top_secret {} +<ESC>[A<BS><BS><BS><BS><BS>cd ..<ESC>[K
+
+INPUT|usc430af-intro-405|M4 M3 M2 M1 M0 |000000000|usc430af|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 || grep -v "Permission denied" -exec mv -t /top_secret {} +<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[K -exec mv -t /top_secret {} +<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[K
+/var/log/136intro-3.jpg
+/users/usc430af/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430af/top_secret/136intro-2jjaj.JPEG
+/etc/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-406|U |1548550529|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|mv: cannot remove '/var/log/136intro-3.jpg': Permission denied
+INPUT|usc430af-intro-407|U |1548550548|usc430af|intro:mv /etc/wuer136intro-4.JPG top_secret|mv: cannot remove '/etc/wuer136intro-4.JPG': Permission denied
+INPUT|usc430af-intro-408|U |1548550614|usc430af|intro:mv /etc/wuer136intro-4.JPG top_secret|
+INPUT|usc430af-intro-409|U |1548550643|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-410|M2 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 || grep -v \"Permission denied\"<ESC>[A<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[22Pmv /var/log/136intro-3.jpg top_secret
+
+INPUT|usc430af-intro-411|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-412|A3 A4 A0 A2 A1 |000000000|usc430af|intro:sudo|
+INPUT|usc430af-intro-413|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-414|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-415|U |000000000|usc430af|intro:mv /etc/wuer136intro-4.JPG top_secret|
+INPUT|usc430af-intro-416|U |000000000|usc430af|intro:mv /etc/wuer136intro-4.JPG top_secret|
+INPUT|usc430af-intro-417|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-418|M4 M1 M0 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 || grep -v \"Permission denied\"
+/users/usc430af/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430af/top_secret/136intro-2jjaj.JPEG
+/users/usc430af/top_secret/136intro-3.jpg
+/users/usc430af/top_secret/wuer136intro-4.JPG
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-419|U |1548550700|usc430af|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg top_secret|
+INPUT|usc430af-intro-420|U |1548550702|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-421|U |000000000|usc430af|intro:cd top_secret|
+INPUT|usc430af-intro-422|U |1548550706|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.xt      wuer136intro-4.JPG
+INPUT|usc430af-intro-423|U |1548550787|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.xt      wuer136intro-4.JPG
+INPUT|usc430af-intro-424|U |1548550791|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.xt      wuer136intro-4.JPG
+INPUT|usc430af-intro-425|U |1548550801|usc430af|intro:nano answers.xt|%(B===(B(B[ Reading File ]
+(B(B 22 lines ]
+(B(B  GNU nano 2.5.3             File: answers.xt                                (B1. What goes in the /var directory on a UNIX computer?A. Var is a standard subdirectory that contains files to
+which the system writes data during the course of its operations
+including:/cache%% cached data from application programs (B/games%% variable data relating to games in /usr/lib%% dynamic data libraries and files/lock%% lock files created by programs/log%% log files from the system/run%% contains PIDs and sys info/spool%% mail%% news%% and printer queues
+2. What is the /dev directory for on a UNIX computer?A.
+3. On your experimental node%% find out how large the disks are and
+how much space is free. Put this information in a separate file
+called top_secret/diskfree.txt.
+4. On your experimental node%% find out the "vendor id" of the
+experimental node's CPU model.A.
+(B^G(B Get Help    (B^O(B Write Out   (B^W(B Where Is    (
+INPUT|usc430af-intro-426|U |1548550850|usc430af|intro:mv answers.xt answers.txt|
+INPUT|usc430af-intro-427|U |1548550855|usc430af|intro:rm answers.xt|rm: cannot remove 'answers.xt': No such file or directory
+INPUT|usc430af-intro-428|U |1548550857|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-429|U |1548550870|usc430af|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B 22 lines ]
+(B(B  GNU nano 2.5.3            File: answers.txt                                (B1. What goes in the /var directory on a UNIX computer?A. Var is a standard subdirectory that contains files to
+which the system writes data during the course of its operations
+including:/cache%% cached data from application programs (B/games%% variable data relating to games in /usr/lib%% dynamic data libraries and files/lock%% lock files created by programs/log%% log files from the system/run%% contains PIDs and sys info/spool%% mail%% news%% and printer queues
+2. What is the /dev directory for on a UNIX computer?A.
+3. On your experimental node%% find out how large the disks are and
+how much space is free. Put this information in a separate file
+called top_secret/diskfree.txt.
+4. On your experimental node%% find out the "vendor id" of the
+experimental node's CPU model.A.
+(B^G(B Get Help    (B^O(B Write Out   (B^W(B Where Is    (
+INPUT|usc430af-intro-430|U |1548551159|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-431|U |1548551163|usc430af|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B 41 lines ]
+(B(B  GNU nano 2.5.3            File: answers.txt                                (BThomas Finn
+4286990982
+thomasjf@usc.edu
+usc430af
+::: TREASURE HUNT :::
+Command to find files:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"2>&1 | grep -v "Permission denied"
+File 1: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+File 2: /dev/136intro-2jjaj.JPEG
+File 3:
+::: INFORMATION HUNT :::
+1. What goes in the /var directory on a UNIX computer?A. Var is a standard subdirectory that contains files to
+which the system writes data during the course of its operations
+including:/cache%% cached data from application programs/games%% variable data relating to games in /usr/lib%% dynamic data libraries and files/lock%% lock files created by programs/log%% log files from the system/run%% contains PIDs and sys info/spool%% mail%% news%% and printer queues
+2. What is the /dev directory for on a UNIX computer?A.
+3. On your exp
+INPUT|usc430af-intro-432|U |000000000|usc430af|intro:node_list|node_list: command not found
+INPUT|usc430af-intro-433|U |1548551498|usc430af|intro:scp|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430af-intro-434|U |000000000|usc430af|intro:%set PATH=\"%%PATH%%;%%ProgramFiles%%\putty\"%|
+INPUT|usc430af-intro-435|U |000000000|usc430af|intro:pscp|The program 'pscp' is currently not installed. To run 'pscp' please ask your administrator to install the package 'putty-tools'
+INPUT|usc430af-intro-436|U |1548551615|usc430af|intro:pscp|sudo: pscp: command not found
+INPUT|usc430af-intro-437|U |1548551635|usc430af|intro:scp|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430af-intro-438|U |000000000|usc430af|intro:scp c:\downloads usc430af@intro:xbzf136INTRO-1.jp|pg 
+ssh: Could not resolve hostname c: Name or service not known
+
+INPUT|usc430af-intro-439|U |000000000|usc430af|intro:scp c:\downloads usc430af@intro:xbzf136INTRO-1.jp|pg <BS><BS>
+INPUT|usc430af-intro-440|U |000000000|usc430af|intro:scp c:\udownloads usc430af@intro:xbzf136INTRO-1.jpg 30af@intro:~/top_secret$ scp c:\usdownloads usc430af@intro:xbzf136INTRO-1.jc430af@intro:~/top_secret$ scp c:\usedownloads usc430af@intro:xbzf136INTRO-1.c430af@intro:~/top_secret$ scp c:\userdownloads usc430af@intro:xbzf136INTRO-1c430af@intro:~/top_secret$ scp c:\usersdownloads usc430af@intro:xbzf136INTRO-c430af@intro:~/top_secret$ scp c:\userdownloads usc430af@intro:xbzf136INTRO-sc430af@intro:~/top_secret$ scp c:\usedownloads usc430af@intro:xbzf136INTRO-1sc430af@intro:~/top_secret$ scp c:\usdownloads usc430af@intro:xbzf136INTRO-1.sc430af@intro:~/top_secret$ scp c:\udownloads usc430af@intro:xbzf136INTRO-1.jsc430af@intro:~/top_secret$ scp c:\downloads usc430af@intro:xbzf136INTRO-1.jpg 430af@intro:~/top_secret$ scp c:downloads usc430af@intro:xbzf136INTRO-1.jpg c430af@intro:~/top_secret$ scp cdownloads usc430af@intro:xbzf136INTRO-1.jpg sc430af@intro:~/top_secret$ scp downloads usc430af@intro:xbzf136INTRO-1.jpg|
+INPUT|usc430af-intro-441|U |000000000|usc430af|intro:scp Cdownloads usc430af@intro:xbzf136INTRO-1.jpg|
+INPUT|usc430af-intro-442|U |000000000|usc430af|intro:scp C:downloads usc430af@intro:xbzf136INTRO-1.jpg c430af@intro:~/top_secret$ scp C:\downloads usc430af@intro:xbzf136INTRO-1.jpg 430af@intro:~/top_secret$ scp C:\Udownloads usc430af@intro:xbzf136INTRO-1.jpg 30af@intro:~/top_secret$ scp C:\Usdownloads usc430af@intro:xbzf136INTRO-1.jc430af@intro:~/top_secret$ scp C:\Usedownloads usc430af@intro:xbzf136INTRO-1.c430af@intro:~/top_secret$ scp C:\Userdownloads usc430af@intro:xbzf136INTRO-1c430af@intro:~/top_secret$ scp C:\Usersdownloads usc430af@intro:xbzf136INTRO-c430af@intro:~/top_secret$ scp C:\Users\downloads usc430af@intro:xbzf136INTROc430af@intro:~/top_secret$ scp C:\Users\sdownloads usc430af@intro:xbzf136INTRc430af@intro:~/top_secret$ scp C:\Users\stdownloads usc430af@intro:xbzf136INTc430af@intro:~/top_secret$ scp C:\Users\studownloads usc430af@intro:xbzf136INc430af@intro:~/top_secret$ scp C:\Users\studdownloads usc430af@intro:xbzf136Ic430af@intro:~/top_secret$ scp C:\Users\studedownloads usc430af@intro:xbzf136c430af@intro:~/top_secret$ scp C:\Users\studendownloads usc430af@intro:xbzf13c430af@intro:~/top_secret$ scp C:\Users\studentdownloads usc430af@intro:xbzf1c430af@intro:~/top_secret$ scp C:\Users\student\downloads usc430af@intro:xbzfc430af@intro:~/top_secret$ scp C:\Users\student\ownloads usc430af@intro:xbzfsc430af@intro:~/top_secret$ scp C:\Users\student\Downloads usc430af@intro:xbzfc430af@intro:~/top_secret$ scp C:\Users\student\D|
+
+ssh: Could not resolve hostname c: Name or service not known
+
+INPUT|usc430af-intro-443|U |000000000|usc430af|intro:scp C:\Users\student\Downloads usc430af@intro:xbz|zf136INTRO-1.jpg <ESC>[Atop_secret$ <ESC>[K
+
+INPUT|usc430af-intro-444|U |000000000|usc430af|intro:scp C:\Users\student\Downloads usc430af@intro:xbz|zf136INTRO-1.jpg <BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430af-intro-445|U |000000000|usc430af|intro:pscp C:\Users\student\Downloads usc430af@intro:xbzc430af@intro:~/top_secret$ p|
+
+The program 'pscp' is currently not installed. To run 'pscp' please ask your administrator to install the package 'putty-tools'
+INPUT|usc430af-intro-446|U |1548551984|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-447|U |1548551992|usc430af|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B 45 lines ]
+(B(B  GNU nano 2.5.3            File: answers.txt                                (BThomas Finn
+4286990982
+thomasjf@usc.edu
+usc430af
+::: TREASURE HUNT :::
+Command to find files:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"2>&1 | grep -v "Permission denied"
+File 1: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+File 2: /dev/136intro-2jjaj.JPEG
+File 3: /var/log/136intro-3.jpg
+File 4: /etc/wuer136intro-4.JPG
+File 5: /.hidden/asdf136Intro-5kqlw.jpeg
+::: INFORMATION HUNT :::
+1. What goes in the /var directory on a UNIX computer?A. Var is a standard subdirectory that contains files to
+which the system writes data during the course of its operations
+including:/cache%% cached data from application programs/games%% variable data relating to games in /usr/lib%% dynamic data libraries and files/lock%% lock files created by programs/log%% log files from the system/run%% contains PIDs and sys info/spool%% mail%%
+INPUT|usc430af-intro-448|M5 |1548552781|usc430af|intro:less /proc/cpuinfo|%=
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping        : 3
+microcode       : 0x5
+cpu MHz         : 2992.690
+cache size      : 2048 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr
+bugs            :
+bogomips        : 5985.38
+clflush size    : 64
+cache_alignment : 128
+address sizes   : 36 bits physical%% 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : GenuineIntel
+cpu family      : 15
+model        
+INPUT|usc430af-intro-449|M5 |1548552808|usc430af|intro:lscpu|%Architecture:          x86_64
+CPU op-mode(s):        32-bit%% 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    2
+Core(s) per socket:    1
+Socket(s):             2
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            15
+Model:                 4
+Model name:            Intel(R) Xeon(TM) CPU 3.00GHz
+Stepping:              3
+CPU MHz:               2992.690
+BogoMIPS:              5985.44
+L1d cache:             16K
+L2 cache:              2048K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr%
+INPUT|usc430af-intro-450|U |1548552829|usc430af|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B 46 lines ]
+(B(B  GNU nano 2.5.3            File: answers.txt                                (BThomas Finn
+thomasjf@usc.edu
+usc430af
+::: TREASURE HUNT :::
+Command to find files:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" 2>&1 | grep -v $File 1: /usr/share/pixmaps/xbzf136INTRO-1.jpgForbidden Planet Poster
+File 2: /dev/136intro-2jjaj.JPEGGodzilla King of the Monsters Poster
+File 3: /var/log/136intro-3.jpgIt Came From Outer Space Poster
+File 4: /etc/wuer136intro-4.JPGThe Fly Poster
+File 5: /.hidden/asdf136Intro-5kqlw.jpeg2001 A Space Odyssey
+::: INFORMATION HUNT :::
+1. What goes in the /var directory on a UNIX computer?A. The /var directory is a standard subdirectory that contains files$/cache%% cached data from application programs/games%% variable data relating to games in /usr/lib%% dynamic data libraries and files/lock%% lock files created by programs/log%% log files from the system/run%% contains PIDs and sys
+INPUT|usc430af-intro-451|U |1548552874|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-452|M6 |1548552918|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2908124   11908340  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631104 1815137280  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740480  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-453|U |1548552929|usc430af|intro:reset|
+        H        H        H        H        H        H        H        H        H
+c>
+INPUT|usc430af-intro-454|M6 |1548552932|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907508   11908956  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631104 1815137280  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740480  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-455|M6 |1548552936|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907540   11908924  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631104 1815137280  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740480  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-456|U |1548553093|usc430af|intro:cat df|cat: df: No such file or directory
+INPUT|usc430af-intro-457|U |1548553095|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-458|U |1548553110|usc430af|intro:cat df > ex.txt|cat: df: No such file or directory
+INPUT|usc430af-intro-459|M6 |1548553114|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907564   11908900  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631232 1815137024  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740480  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-460|A6 |1548553122|usc430af|intro:df > ex.txt|
+INPUT|usc430af-intro-461|U |1548553123|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+136intro-3.jpg      diskfree.txt       xbzf136INTRO-1.jpg
+answers.txt      ex.txt
+INPUT|usc430af-intro-462|U |1548553126|usc430af|intro:more ex.txt|%Filesystem                                        1K-blocks       Used  Avail
+able Use%% Mounted on
+udev                                                1003424         48    100
+3376   1%% /dev
+tmpfs                                                204720      13700     19
+1020   7%% /run
+/dev/sda1                                          15616412    2907564   1190
+8900  20%% /
+tmpfs                                               1023600          0    102
+3600   0%% /dev/shm
+tmpfs                                                  5120          0       
+5120   0%% /run/lock
+tmpfs                                               1023600          0    102
+3600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631232 181513
+7024  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  38674
+0480  80%% /users/usc430af
+tmpfs                                                20472
+INPUT|usc430af-intro-463|M6 |1548553149|usc430af|intro:df -a|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+sysfs                                                     0          0          0    - /sys
+proc                                                      0          0          0    - /proc
+udev                                                1003424         48    1003376   1%% /dev
+devpts                                                    0          0          0    - /dev/pts
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907836   11908628  20%% /
+securityfs                                                0          0          0    - /sys/kernel/security
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs     
+INPUT|usc430af-intro-464|U |000000000|usc430af|intro:|
+INPUT|usc430af-intro-465|M6 |1548553154|usc430af|intro:df -a|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+sysfs                                                     0          0          0    - /sys
+proc                                                      0          0          0    - /proc
+udev                                                1003424         48    1003376   1%% /dev
+devpts                                                    0          0          0    - /dev/pts
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907920   11908544  20%% /
+securityfs                                                0          0          0    - /sys/kernel/security
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs     
+INPUT|usc430af-intro-466|M6 |1548553168|usc430af|intro:df -h|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              980M   48K  980M   1%% /dev
+tmpfs                                             200M   14M  187M   7%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                            1000M     0 1000M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                            1000M     0 1000M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af  1.9T  1.4T  369G  80%% /users/usc430af
+tmpfs                                             200M     0  200M   0%% /run/user/14169%
+INPUT|usc430af-intro-467|M6 |1548553198|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2908236   11908228  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631360 1815136896  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740352  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-468|M6 |1548553214|usc430af|intro:df -i|%Filesystem                                          Inodes   IUsed     IFree IUse%% Mounted on
+udev                                                250856     426    250430    1%% /dev
+tmpfs                                               255900    1124    254776    1%% /run
+/dev/sda1                                          1001712  151690    850022   16%% /
+tmpfs                                               255900       1    255899    1%% /dev/shm
+tmpfs                                               255900       6    255894    1%% /run/lock
+tmpfs                                               255900      16    255884    1%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 384426238 1472576 382953662    1%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 262517374 6625017 255892357    3%% /users/usc430af
+tmpfs                                               255900       4    255896    1%% /run/user/14169%
+INPUT|usc430af-intro-469|U |1548553221|usc430af|intro:reset|
+        H        H        H        H        H        H        H        H        H
+c>
+INPUT|usc430af-intro-470|M6 |1548553277|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2907668   11908796  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631616 1815136768  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740352  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-471|M6 |1548553281|usc430af|intro:df -h|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              980M   48K  980M   1%% /dev
+tmpfs                                             200M   14M  187M   7%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                            1000M     0 1000M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                            1000M     0 1000M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af  1.9T  1.4T  369G  80%% /users/usc430af
+tmpfs                                             200M     0  200M   0%% /run/user/14169%
+INPUT|usc430af-intro-472|U |1548553297|usc430af|intro:ls|136intro-2jjaj.JPEG  answers.txt       diskfree.txt  wuer136intro-4.JPG
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  ex.txt     xbzf136INTRO-1.jpg
+INPUT|usc430af-intro-473|A6 |1548553308|usc430af|intro:df -h > diskfree.txt|
+INPUT|usc430af-intro-474|U |1548553311|usc430af|intro:rm ex.txt|
+INPUT|usc430af-intro-475|U |1548553317|usc430af|intro:nano diskfree.txt|%(B===(B(B[ Reading File ]
+(B(B[ Read 10 lines
+(B(B  GNU nano 2.5.3             File: diskfree.txt                                 (BFilesystemSize  Used Avail Use%% Mounted$udev980M   48K  980M   1%% /dev
+tmpfs200M   14M  187M   7%% /run
+/dev/sda115G  2.8G   12G  20%% /
+tmpfs1000M     0 1000M   0%% /dev/shmtmpfs5.0M     0  5.0M   0%% /run/lo$tmpfs1000M     0 1000M   0%% /sys/fs$users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/U$users.isi.deterlab.net:/mnt/other/users/usc430af  1.9T  1.4T  369G  80%% /users/$tmpfs200M     0  200M   0%% /run/us$(B^G(B Get Help  (B^O(B Write Out (B^W(B Where Is  (B^K(B Cut Text  (B^J(B Justify   (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File (B^\(B Replace   (B^U(B Uncut Text(B^T(B To Spell  (B^_(B Go To Line
+M(BModified
+(BMM
+Command Us
+ed: df -h > diskfree.txt
+(BSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                     Y(B Yes
+(B N(B No     (B^C(B Cancel
+(BFile Name 
+INPUT|usc430af-intro-476|U |1548553426|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-477|A6 |1548553455|usc430af|intro:df /intro|df: /intro: No such file or directory
+INPUT|usc430af-intro-478|A6 |1548553472|usc430af|intro:df /pc157|df: /pc157: No such file or directory
+INPUT|usc430af-intro-479|M6 |1548553479|usc430af|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      13700     191020   7%% /run
+/dev/sda1                                          15616412    2908384   11908080  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921631616 1815136640  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af 2031313280 1482067840  386740352  80%% /users/usc430af
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430af-intro-480|M6 |1548553482|usc430af|intro:df -h|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              980M   48K  980M   1%% /dev
+tmpfs                                             200M   14M  187M   7%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                            1000M     0 1000M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                            1000M     0 1000M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430af  1.9T  1.4T  369G  80%% /users/usc430af
+tmpfs                                             200M     0  200M   0%% /run/user/14169%
+INPUT|usc430af-intro-481|U |1548553590|usc430af|intro:nano diskfree.txt|%(B===(B(B[ Reading File ]
+(B(B[ Read 12 lines
+(B(B  GNU nano 2.5.3             File: diskfree.txt                                 (BCommand Used: df -h > diskfree.txt
+FilesystemSize  Used Avail Use%% Mounted$udev980M   48K  980M   1%% /dev
+tmpfs200M   14M  187M   7%% /run
+/dev/sda115G  2.8G   12G  20%% /
+tmpfs1000M     0 1000M   0%% /dev/shmtmpfs5.0M     0  5.0M   0%% /run/lo$tmpfs1000M     0 1000M   0%% /sys/fs$users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/U$users.isi.deterlab.net:/mnt/other/users/usc430af  1.9T  1.4T  369G  80%% /users/$tmpfs200M     0  200M   0%% /run/us$(B^G(B Get Help  (B^O(B Write Out (B^W(B Where Is  (B^K(B Cut Text  (B^J(B Justify   (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File (B^\(B Replace   (B^U(B Uncut Text(B^T(B To Spell  (B^_(B Go To Line
+%
+INPUT|usc430af-intro-482|U |000000000|usc430af|intro:[A|[A: command not found
+INPUT|usc430af-intro-483|U |1548553614|usc430af|intro:nano diskfree.txt|%(B===(B(B[ Reading File ]
+(B(B[ Read 12 lines
+(B(B  GNU nano 2.5.3             File: diskfree.txt                                 (BCommand Used: df -h > diskfree.txt
+FilesystemSize  Used Avail Use%% Mounted$udev980M   48K  980M   1%% /dev
+tmpfs200M   14M  187M   7%% /run
+/dev/sda115G  2.8G   12G  20%% /
+tmpfs1000M     0 1000M   0%% /dev/shmtmpfs5.0M     0  5.0M   0%% /run/lo$tmpfs1000M     0 1000M   0%% /sys/fs$users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/U$users.isi.deterlab.net:/mnt/other/users/usc430af  1.9T  1.4T  369G  80%% /users/$tmpfs200M     0  200M   0%% /run/us$(B^G(B Get Help  (B^O(B Write Out (B^W(B Where Is  (B^K(B Cut Text  (B^J(B Justify   (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File (B^\(B Replace   (B^U(B Uncut Text(B^T(B To Spell  (B^_(B Go To Line
+%
+INPUT|usc430af-intro-484|U |1548555682|usc430af|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answers.txt      wuer136intro-4.JPG
+INPUT|usc430af-intro-485|U |000000000|usc430af|intro:cd ..|
+INPUT|usc430af-intro-486|U |1548555684|usc430af|intro:ls|example  notes top_secret
+INPUT|usc430af-intro-487|A6 |000000000|usc430af|intro:df -h > diskfree.txt|
+INPUT|usc430af-intro-488|U |000000000|usc430af|intro:pscp C:\Users\student\Downloads usc430af@intro:xbzf136INTRO-1.j|
+INPUT|usc430af-intro-489|U |000000000|usc430af|intro:scp C:\Users\student\Downloads usc430af@intro:xbzf136INTRO-1.jpg 430af@intro:~$ scp c:\downloads usc430af@intro:xbzf136INTRO-1.jpg|
+INPUT|usc430af-intro-490|U |000000000|usc430af|intro:scp c:\downloads usc430af@intro:xbzf136INTRO-1.jpg|
+INPUT|usc430af-intro-491|U |000000000|usc430af|intro:%set PATH="%%PATH%%;%%ProgramFiles%%\putty"%|
+INPUT|usc430af-intro-492|U |000000000|usc430af|intro:mv answers.xt answers.txt|
+INPUT|usc430af-intro-493|U |000000000|usc430af|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg top_secret|
+INPUT|usc430af-intro-494|M2 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 | gre|ep -v \"Permission denied\"<ESC>[A<BS><BS><BS><BS><BS><BS><BS><ESC>[20Psudo mv /var/log/136intro-3.jpg top_secret
+
+INPUT|usc430af-intro-495|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-496|U |000000000|usc430af|intro:mv /etc/wuer136intro-4.JPG top_secret|
+INPUT|usc430af-intro-497|U |000000000|usc430af|intro:mv /var/log/136intro-3.jpg top_secret|
+INPUT|usc430af-intro-498|M4 M1 |000000000|usc430af|intro:find / -iname \"*intro*.jpg\" -o -iname \"*intro*.jpeg\" 2>&1 | gre|ep -v \"Permission denied\"
+/users/usc430af/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430af/top_secret/136intro-2jjaj.JPEG
+/users/usc430af/top_secret/136intro-3.jpg
+/users/usc430af/top_secret/wuer136intro-4.JPG
+/users/usc430af/top_secret/xbzf136INTRO-1.jpg
+/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG

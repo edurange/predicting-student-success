@@ -1,0 +1,1439 @@
+User usc430ax start time 1580507815 end 1580514512
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ax-intro-0|U |000000000|usc430ax|:|
+INPUT|usc430ax-intro-1|U |000000000|usc430ax|:|
+INPUT|usc430ax-intro-2|U |1580507815|usc430ax|intro:ls|createfiles.sh	temp  temp2.txt  temp.txt  zip
+
+INPUT|usc430ax-intro-3|U |1580507817|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-4|U |1580507819|usc430ax|intro:ls|createfiles.sh	temp  temp2.txt  temp.txt  zip
+
+INPUT|usc430ax-intro-5|U |1580507821|usc430ax|intro:ls|createfiles.sh	temp  temp2.txt  temp.txt  zip
+
+INPUT|usc430ax-intro-6|U |1580508026|usc430ax|intro:sudo|usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user] [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p prompt] [-T timeout]
+            [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p prompt] [-T timeout]
+            [-u user] file ...;1580508026
+
+INPUT|usc430ax-intro-7|U |1580508028|usc430ax|intro:ls|createfiles.sh	temp  temp2.txt  temp.txt  zip
+
+INPUT|usc430ax-intro-8|U |1580508030|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-9|U |1580508033|usc430ax|intro:cd /pro|proc/ proj/ 
+
+INPUT|usc430ax-intro-10|U |1580508045|usc430ax|intro:cat /proj/USC430/intro.sh |#!/bin/bash
+
+sudo mkdir /var/log/milestones/
+sudo cp /proj/USC430/milestones/milestones-intro /var/log/milestones/milestone_file
+sudo /share/education/LinuxDETERIntro_UCLA/install
+
+INPUT|usc430ax-intro-11|U |1580508070|usc430ax|intro:cat /tmp/labinstall.log|cat: /tmp/labinstall.log: No such file or directory
+
+INPUT|usc430ax-intro-12|U |1580508086|usc430ax|intro:cat /proj/USC430/milestones/milestones-intro |*find -i|locate/usr/share/pixmaps/xbzf136INTRO-1.jpg
+*find -i|locate/dev/136intro-2jjaj.JPEG
+*find -i|locate/var/log/136intro-3.jpg
+*find -i|locate/etc/wuer136intro-4.JPG
+*find -i|locate/.hidden/asdf136Intro-5kqlw.jpeg
+*cpuinfo|cpu|vendorGenuineIntel
+*df/dev/sda1
+
+INPUT|usc430ax-intro-13|U |1580508130|usc430ax|intro:cat /proj/USC430/milestones/milestones-intro > files.txt|
+INPUT|usc430ax-intro-14|U |1580508131|usc430ax|intro:ls|createfiles.sh	files.txt  temp  temp2.txt  temp.txt  zip
+
+INPUT|usc430ax-intro-15|U |1580508134|usc430ax|intro:vim files.txt |"files.txt" [noeol] 7L 277C6n  >c*find -i|locate/usr/share/pixmaps/xbzf136INTRO-1.jpg
+*find -i|locate/dev/136intro-2jjaj.JPEG
+*find -i|locate/var/log/136intro-3.jpg
+*find -i|locate/etc/wuer136intro-4.JPG
+*find -i|locate/.hidden/asdf136Intro-5kqlw.jpeg
+*cpuinfo|cpu|vendorGenuineIntel
+*df/dev/sda1
+
+
+INPUT|usc430ax-intro-16|U |1580508151|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-17|U |1580508159|usc430ax|intro:ls|createfiles.sh	files.txt  temp  temp2.txt  temp.txt  zip
+
+INPUT|usc430ax-intro-18|U |1580508166|usc430ax|intro:mkdir top_secret|
+INPUT|usc430ax-intro-19|A1 A4 A3 A2 A0 |1580508168|usc430ax|intro:locate|locate: no pattern to search for specified
+
+INPUT|usc430ax-intro-20|U |1580508173|usc430ax|intro:man locate |locate(1)                            General Commands Manual                            locate(1)
+
+NAME
+       locate - find files by name
+
+SYNOPSIS
+       locate [OPTION]... PATTERN...
+
+DESCRIPTION
+       locate  reads one or more databases prepared by updatedb(8) and writes file names matching
+       at least one of the PATTERNs to standard output one per line.
+
+       If --regex is not specified PATTERNs can contain globbing  characters.   If  any  PATTERN
+       contains no globbing characters locate behaves as if the pattern were *PATTERN*.
+
+       By default locate does not check whether files found in database still exist (but it does
+       require all parent directories to exist if the database was built with  --require-visibil-
+       ity  no).  locate can never report files created after the most recent update of the rele-
+       vant database.
+
+EXIT STATUS
+       locate exits with status 0 if any match was found or if locate was invoked with one of the
+       --limit  0  --
+INPUT|usc430ax-intro-21|U |1580508262|usc430ax|intro:updatedb|
+INPUT|usc430ax-intro-22|A0 A2 A3 A1 A4 |1580508667|usc430ax|intro:locate -r (\w*intro\w*)(.jpg$|.jpeg$)|bash: syntax error near unexpected token `('
+
+INPUT|usc430ax-intro-23|A4 A1 A3 A2 A0 |1580508689|usc430ax|intro:locate -r \(\w*intro\w*\)\(.jpg$|.jpeg$\)|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+.jpeg$): command not found
+
+INPUT|usc430ax-intro-24|A0 A2 A3 A1 A4 |1580508697|usc430ax|intro:locate -r \(\w*intro\w*\)\(.jpg$|.jpeg$\)|.jpeg$): command not found
+
+INPUT|usc430ax-intro-25|A1 A4 A3 A2 A0 |1580508744|usc430ax|intro:locate -r '(\w*intro\w*)(.jpg$|.jpeg$)'|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+
+INPUT|usc430ax-intro-26|A4 A1 A2 A3 A0 |1580508750|usc430ax|intro:locate -r '(\w*intro\w*)(.jpg$|.jpeg$)'|
+INPUT|usc430ax-intro-27|U |1580508753|usc430ax|intro:man locate|locate(1)                            General Commands Manual                            locate(1)
+
+NAME
+       locate - find files by name
+
+SYNOPSIS
+       locate [OPTION]... PATTERN...
+
+DESCRIPTION
+       locate  reads one or more databases prepared by updatedb(8) and writes file names matching
+       at least one of the PATTERNs to standard output one per line.
+
+       If --regex is not specified PATTERNs can contain globbing  characters.   If  any  PATTERN
+       contains no globbing characters locate behaves as if the pattern were *PATTERN*.
+
+       By default locate does not check whether files found in database still exist (but it does
+       require all parent directories to exist if the database was built with  --require-visibil-
+       ity  no).  locate can never report files created after the most recent update of the rele-
+       vant database.
+
+EXIT STATUS
+       locate exits with status 0 if any match was found or if locate was invoked with one of the
+       --limit  0  --
+INPUT|usc430ax-intro-28|U |1580508773|usc430ax|intro:man locate|locate(1)                            General Commands Manual                            locate(1)
+
+NAME
+       locate - find files by name
+
+SYNOPSIS
+       locate [OPTION]... PATTERN...
+
+DESCRIPTION
+       locate  reads one or more databases prepared by updatedb(8) and writes file names matching
+       at least one of the PATTERNs to standard output one per line.
+
+       If --regex is not specified PATTERNs can contain globbing  characters.   If  any  PATTERN
+       contains no globbing characters locate behaves as if the pattern were *PATTERN*.
+
+       By default locate does not check whether files found in database still exist (but it does
+       require all parent directories to exist if the database was built with  --require-visibil-
+       ity  no).  locate can never report files created after the most recent update of the rele-
+       vant database.
+
+EXIT STATUS
+       locate exits with status 0 if any match was found or if locate was invoked with one of the
+       --limit  0  --
+INPUT|usc430ax-intro-29|A4 A1 A3 A2 A0 |1580508795|usc430ax|intro:locate --regex '(\w*intro\w*)(.jpg$|.jpeg$)'|
+INPUT|usc430ax-intro-30|M4 M3 M0 |1580508808|usc430ax|intro:locate --regex ''                           |/
+/.hidden
+/bin
+/boot
+/dev
+/etc
+/home
+/initrd.img
+/initrd.img.old
+/lib
+/lib64
+/local
+/lost+found
+/media
+/mnt
+/opt
+/proc
+/proj
+/root
+/run
+/sbin
+/share
+/snap
+/srv
+/sys
+/tmp
+/users
+/usr
+/var
+/vmlinuz
+/vmlinuz.old
+/.hidden/asdf136Intro-5kqlw.jpeg
+/bin/bash
+/bin/btrfs
+/bin/btrfs-debug-tree
+/bin/btrfs-find-root
+/bin/btrfs-image
+/bin/btrfs-map-logical
+/bin/btrfs-select-super
+/bin/btrfs-zero-log
+/bin/btrfsck
+/bin/btrfstune
+/bin/bunzip2
+/bin/busybox
+/bin/bzcat
+/bin/bzcmp
+/bin/bzdiff
+/bin/bzegrep
+/bin/bzexe
+/bin/bzfgrep
+/bin/bzgrep
+/bin/bzip2
+/bin/bzip2recover
+/bin/bzless
+/bin/bzmore
+/bin/cat
+/bin/chacl
+/bin/chgrp
+/bin/chmod
+/bin/chown
+/bin/chvt
+/bin/cp
+/bin/cpio
+/bin/csh
+/bin/dash
+/bin/date
+/bin/dd
+/bin/df
+/bin/dir
+/bin/dmesg
+/bin/dnsdomainname
+/bin/domainname
+/bin/dumpkeys
+/bin/echo
+/bin/ed
+/bin/egrep
+/bin/false
+/bin/fgconsole
+/bin/fgrep
+/bin/findmnt
+/bin/fsck.btrfs
+/bin/fuser
+/bin/fusermount
+/bin/getfacl
+/bin/grep
+/bin/gunzip
+/bin/gzexe
+/bin/gzip
+/bin/hostname
+/bin/ip
+/bin/journalctl
+/bin/kbd
+INPUT|usc430ax-intro-31|M3 M2 |1580508818|usc430ax|intro:locate --regex 'intro'|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ax.hw1-usc430ax.intro.csv
+/var/log/ttylog/usc430ax.hw1-usc430ax.intro.log
+
+INPUT|usc430ax-intro-32|M3 M2 |1580508840|usc430ax|intro:locate --regex '\w*intro'|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ax.hw1-usc430ax.intro.csv
+/var/log/ttylog/usc430ax.hw1-usc430ax.intro.log
+
+INPUT|usc430ax-intro-33|M3 M2 |1580508853|usc430ax|intro:locate --regex '\w*intro\w*'|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status;1580508853
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ax.hw1-usc430ax.intro.csv
+/var/log/ttylog/usc430ax.hw1-usc430ax.intro.log
+
+INPUT|usc430ax-intro-34|A1 A4 A0 A2 A3 |1580508868|usc430ax|intro:locate --regex '\w*intro\w*.jpeg'|
+INPUT|usc430ax-intro-35|A0 A2 A3 A1 A4 |1580508876|usc430ax|intro:locate --regex '\w*intro\w*.jpg'|
+INPUT|usc430ax-intro-36|A4 A1 A2 A3 A0 |1580508889|usc430ax|intro:locate --regex '\w*intro\w*jpg'|
+INPUT|usc430ax-intro-37|A2 A3 A0 A1 A4 |1580508892|usc430ax|intro:locate --regex '\w*intro\w*.jpg'|
+INPUT|usc430ax-intro-38|M4 |1580509101|usc430ax|intro:locate --regex '.jpeg'|/.hidden/asdf136Intro-5kqlw.jpeg
+/boot/grub/i386-pc/jpeg.mod
+/usr/include/boost/gil/extension/io/jpeg_dynamic_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io.hpp
+/usr/include/boost/gil/extension/io/jpeg_io_private.hpp
+/usr/lib/grub/i386-pc/jpeg.mod
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8
+/usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.la
+/usr/lib/x86_64-linux-gnu/ImageMagick-6.9.7/modules-Q16/coders/jpeg.so
+/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.so
+/usr/share/bash-completion/completions/jpegoptim
+/usr/share/doc/libjpeg-turbo8
+/usr/share/doc/libjpeg8
+/usr/share/doc/libjpeg-turbo8/changelog.Debian.gz
+/usr/share/doc/libjpeg-turbo8/copyright
+/usr/share/doc/libjpeg8/changelog.Debian.gz
+/usr/share/doc/libjpeg8/copyright
+/usr/share/ghostscript/9.26/lib/viewjpeg.ps
+/usr/share/icons/Humanity/mimes/16/gnome-mime-image-jpeg.svg
+/usr/share/icons/Humanity/mimes/16/image-jpeg.svg
+/usr/share/icons/H
+INPUT|usc430ax-intro-39|A2 A3 A0 A4 A1 |1580509263|usc430ax|intro:locate amd64.list|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+
+INPUT|usc430ax-intro-40|A0 A2 A3 A1 A4 |1580509268|usc430ax|intro:locate amd64.list|/var/lib/dpkg/info/binutils-common:amd64.list
+/var/lib/dpkg/info/dconf-gsettings-backend:amd64.list
+/var/lib/dpkg/info/gcc-7-base:amd64.list
+/var/lib/dpkg/info/gcc-8-base:amd64.list
+/var/lib/dpkg/info/gir1.2-glib-2.0:amd64.list
+/var/lib/dpkg/info/glib-networking:amd64.list
+/var/lib/dpkg/info/libaccountsservice0:amd64.list
+/var/lib/dpkg/info/libacl1:amd64.list
+/var/lib/dpkg/info/libapparmor1:amd64.list
+/var/lib/dpkg/info/libapt-inst2.0:amd64.list
+/var/lib/dpkg/info/libapt-pkg5.0:amd64.list
+/var/lib/dpkg/info/libarchive13:amd64.list
+/var/lib/dpkg/info/libargon2-0:amd64.list
+/var/lib/dpkg/info/libasan4:amd64.list
+/var/lib/dpkg/info/libasn1-8-heimdal:amd64.list
+/var/lib/dpkg/info/libasound2:amd64.list
+/var/lib/dpkg/info/libassuan0:amd64.list
+/var/lib/dpkg/info/libatk-bridge2.0-0:amd64.list
+/var/lib/dpkg/info/libatk1.0-0:amd64.list
+/var/lib/dpkg/info/libatm1:amd64.list
+/var/lib/dpkg/info/libatomic1:amd64.list
+/var/lib/dpkg/info/libatspi2.0-0:amd64.list
+/var/lib/dpkg/info/libattr1:amd64.list
+INPUT|usc430ax-intro-41|A2 A3 A0 A4 A1 |1580509280|usc430ax|intro:locate -regex 'amd64.list'|locate: non-option arguments are not allowed with --regexp
+
+INPUT|usc430ax-intro-42|A0 A2 A3 A1 A4 |1580509287|usc430ax|intro:locate --regex 'amd64.list'|/var/lib/dpkg/info/binutils-common:amd64.list
+/var/lib/dpkg/info/dconf-gsettings-backend:amd64.list
+/var/lib/dpkg/info/gcc-7-base:amd64.list
+/var/lib/dpkg/info/gcc-8-base:amd64.list
+/var/lib/dpkg/info/gir1.2-glib-2.0:amd64.list
+/var/lib/dpkg/info/glib-networking:amd64.list
+/var/lib/dpkg/info/libaccountsservice0:amd64.list
+/var/lib/dpkg/info/libacl1:amd64.list
+/var/lib/dpkg/info/libapparmor1:amd64.list
+/var/lib/dpkg/info/libapt-inst2.0:amd64.list
+/var/lib/dpkg/info/libapt-pkg5.0:amd64.list
+/var/lib/dpkg/info/libarchive13:amd64.list
+/var/lib/dpkg/info/libargon2-0:amd64.list
+/var/lib/dpkg/info/libasan4:amd64.list
+/var/lib/dpkg/info/libasn1-8-heimdal:amd64.list
+/var/lib/dpkg/info/libasound2:amd64.list
+/var/lib/dpkg/info/libassuan0:amd64.list
+/var/lib/dpkg/info/libatk-bridge2.0-0:amd64.list
+/var/lib/dpkg/info/libatk1.0-0:amd64.list
+/var/lib/dpkg/info/libatm1:amd64.list
+/var/lib/dpkg/info/libatomic1:amd64.list
+/var/lib/dpkg/info/libatspi2.0-0:amd64.list
+/var/lib/dpkg/info/libattr1:amd64.list
+INPUT|usc430ax-intro-43|A3 A2 A0 A4 A1 |1580509304|usc430ax|intro:locate --regex '\w+.list'|/boot/grub/gfxblacklist.txt
+/boot/grub/i386-pc/blocklist.mod
+/etc/bindresvport.blacklist
+/etc/apport/blacklist.d
+/etc/apport/blacklist.d/README.blacklist
+/etc/apport/blacklist.d/apport
+/etc/apt/sources.list
+/etc/apt/sources.list.d
+/etc/apt/sources.list~
+/etc/modprobe.d/amd64-microcode-blacklist.conf
+/etc/modprobe.d/blacklist-ath_pci.conf
+/etc/modprobe.d/blacklist-firewire.conf
+/etc/modprobe.d/blacklist-framebuffer.conf
+/etc/modprobe.d/blacklist-rare-network.conf
+/etc/modprobe.d/blacklist.conf
+/etc/modprobe.d/intel-microcode-blacklist.conf
+/lib/firmware/carl9170fw/tools/include/list.h
+/lib/modprobe.d/blacklist_linux_4.15.0-20-generic.conf
+/lib/modprobe.d/blacklist_linux_4.15.0-43-generic.conf
+/lib/modprobe.d/fbdev-blacklist.conf
+/lib/modules/4.15.0-20-generic/kernel/net/netfilter/ipset/ip_set_list_set.ko
+/lib/modules/4.15.0-43-generic/kernel/net/netfilter/ipset/ip_set_list_set.ko
+/lib/x86_64-linux-gnu/security/pam_listfile.so
+/usr/bin/acpi_listen
+/usr/bin/corelist
+/usr/bin/dh_listpackag
+INPUT|usc430ax-intro-44|A1 A4 A0 A2 A3 |1580509314|usc430ax|intro:locate --regex '10@\w*intro\w*.jpg'|
+INPUT|usc430ax-intro-45|A4 A1 A2 A3 A0 |1580509335|usc430ax|intro:locate --regex '\w*.jpg |> ;1580509338
+> ';1580509340
+
+INPUT|usc430ax-intro-46|M2 M0 |1580509346|usc430ax|intro:locate --regex '\w*.jpg'|/usr/share/icons/Humanity/mimes/16/jpg.svg
+/usr/share/icons/Humanity/mimes/22/jpg.svg
+/usr/share/icons/Humanity/mimes/24/jpg.svg
+/usr/share/icons/Humanity/mimes/48/jpg.svg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-47|M2 M0 |1580509353|usc430ax|intro:locate --regex '\w*.jpg$'|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-48|A4 A1 A2 A3 A0 |1580509366|usc430ax|intro:locate --regex '\w*intro\w*.jpg$'|
+INPUT|usc430ax-intro-49|A3 A2 A0 A1 A4 |1580509374|usc430ax|intro:locate --regex '\w*intro.jpg$'|
+INPUT|usc430ax-intro-50|M2 M0 |1580509381|usc430ax|intro:locate --regex 'jpg$'|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-51|A4 A1 A3 A2 A0 |1580509394|usc430ax|intro:locate --regex '\w*intro\w*.jpg$'|
+INPUT|usc430ax-intro-52|A4 A1 A0 A2 A3 |1580509492|usc430ax|intro:locate --regex '\w*intro\w*' *jpg|locate: invalid regexp `*jpg': Invalid preceding regular expression
+
+INPUT|usc430ax-intro-53|M2 M0 |1580509501|usc430ax|intro:locate *jpg                      |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-54|M2 M0 |1580509541|usc430ax|intro:locate *jpg|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-55|M2 |1580509586|usc430ax|intro:find / -name "*intro*.jpg"|find: '/tmp/systemd-private-a5c9625533304710923c5f0cf34d2f14-systemd-resolved.service-Ydw230': Permission denied
+find: '/tmp/systemd-private-a5c9625533304710923c5f0cf34d2f14-systemd-timesyncd.service-5FgqNT': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430ax-intro-56|M2 |1580509600|usc430ax|intro:find / -name "*intro*.jpg" | head|/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-57|A2 A3 A0 A1 A4 |1580509669|usc430ax|intro:find / -name "*intro*.jpg" -o "*intro*.jpeg"       |find: paths must precede expression: `*intro*.jpeg'
+
+INPUT|usc430ax-intro-58|M2 |1580509682|usc430ax|intro:find / -name "*intro*.jpg" -o -name "*intro*.jpeg"|/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-59|U |1580509711|usc430ax|intro:cat |.bash_history              .gnupg/                    temp.txt
+.cache/                    .lesshst                   top_secret/
+createfiles.sh             .ssh/                      .vim/
+.File0.txt                 .ssl/                      .viminfo
+.File1.txt                 .sudo_as_admin_successful  zip
+files.txt                  temp/                      
+.forward                   temp2.txt                  
+
+INPUT|usc430ax-intro-60|U |1580509714|usc430ax|intro:cat files.txt |*find -i|locate/usr/share/pixmaps/xbzf136INTRO-1.jpg
+*find -i|locate/dev/136intro-2jjaj.JPEG
+*find -i|locate/var/log/136intro-3.jpg
+*find -i|locate/etc/wuer136intro-4.JPG
+*find -i|locate/.hidden/asdf136Intro-5kqlw.jpeg
+*cpuinfo|cpu|vendorGenuineIntel
+*df/dev/sda1
+
+INPUT|usc430ax-intro-61|A0 A2 A3 A1 A4 |1580509745|usc430ax|intro:find -name "locate"|
+INPUT|usc430ax-intro-62|A4 A1 A2 A3 A0 |1580509751|usc430ax|intro:locate find        |locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+
+INPUT|usc430ax-intro-63|M3 M2 |1580509758|usc430ax|intro:locate "intro"|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ax.hw1-usc430ax.intro.csv
+/var/log/ttylog/usc430ax.hw1-usc430ax.intro.log
+
+INPUT|usc430ax-intro-64|U |1580509779|usc430ax|intro:cat files.txt |*find -i|locate/usr/share/pixmaps/xbzf136INTRO-1.jpg
+*find -i|locate/dev/136intro-2jjaj.JPEG
+*find -i|locate/var/log/136intro-3.jpg
+*find -i|locate/etc/wuer136intro-4.JPG
+*find -i|locate/.hidden/asdf136Intro-5kqlw.jpeg
+*cpuinfo|cpu|vendorGenuineIntel
+*df/dev/sda1
+
+INPUT|usc430ax-intro-65|A2 A3 A0 A1 A4 |1580509822|usc430ax|intro:locate --regex '\w*intro\w*.jpg'|
+INPUT|usc430ax-intro-66|A1 A4 A0 A2 A3 |1580509833|usc430ax|intro:locate --regex '\w*intro.jpg'|
+INPUT|usc430ax-intro-67|A2 A3 A0 A1 A4 |1580509838|usc430ax|intro:locate --regex 'intro.jpg'|
+INPUT|usc430ax-intro-68|M2 M0 |1580509843|usc430ax|intro:locate --regex '\w*.jpg'|/usr/share/icons/Humanity/mimes/16/jpg.svg
+/usr/share/icons/Humanity/mimes/22/jpg.svg
+/usr/share/icons/Humanity/mimes/24/jpg.svg
+/usr/share/icons/Humanity/mimes/48/jpg.svg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-69|M2 M0 |1580509869|usc430ax|intro:locate --regex '\w*(.jpg)'|/usr/share/icons/Humanity/mimes/16/jpg.svg
+/usr/share/icons/Humanity/mimes/22/jpg.svg
+/usr/share/icons/Humanity/mimes/24/jpg.svg
+/usr/share/icons/Humanity/mimes/48/jpg.svg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-70|M2 M0 |1580509873|usc430ax|intro:locate --regex '\w*(.jpg)$'|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-71|A2 A3 A0 A4 A1 |1580509880|usc430ax|intro:locate --regex 'intro\w*(.jpg)$'|
+INPUT|usc430ax-intro-72|A2 A3 A0 A1 A4 |1580509896|usc430ax|intro:locate --regex '\w*intro\w*(.jpg)$'|
+INPUT|usc430ax-intro-73|M4 |1580509910|usc430ax|intro:locate --regex 'w*aw*'|/local
+/media
+/share
+/snap
+/var
+/.hidden/asdf136Intro-5kqlw.jpeg
+/bin/bash
+/bin/btrfs-image
+/bin/btrfs-map-logical
+/bin/bzcat
+/bin/cat
+/bin/chacl
+/bin/dash
+/bin/date
+/bin/dnsdomainname
+/bin/domainname
+/bin/false
+/bin/getfacl
+/bin/hostname
+/bin/journalctl
+/bin/loadkeys
+/bin/nano
+/bin/netcat
+/bin/netstat
+/bin/nisdomainname
+/bin/ntfscat
+/bin/ntfsfallocate
+/bin/ntfssecaudit
+/bin/ntfstruncate
+/bin/ntfsusermap
+/bin/rbash
+/bin/readlink
+/bin/rnano
+/bin/run-parts
+/bin/setfacl
+/bin/static-sh
+/bin/systemd-ask-password
+/bin/systemd-escape
+/bin/systemd-machine-id-setup
+/bin/systemd-tty-ask-password-agent
+/bin/tar
+/bin/udevadm
+/bin/uname
+/bin/unicode_start
+/bin/whiptail
+/bin/ypdomainname
+/bin/zcat
+/boot/System.map-4.15.0-20-generic
+/boot/System.map-4.15.0-43-generic
+/boot/abi-4.15.0-20-generic
+/boot/grub/default
+/boot/grub/gfxblacklist.txt
+/boot/grub/locale
+/boot/grub/i386-pc/acpi.mod
+/boot/grub/i386-pc/adler32.mod
+/boot/grub/i386-pc/affs.mod
+/boot/grub/i386-pc/afs.mod
+/boot/grub/i386-pc/ahci.mod
+/b
+INPUT|usc430ax-intro-74|A3 A2 A0 A4 A1 |1580509919|usc430ax|intro:locate --regex '13@w*introw*(.jpg)$'|
+INPUT|usc430ax-intro-75|A0 A2 A3 A4 A1 |1580509930|usc430ax|intro:locate --regex '13@\w*abc'|/usr/lib/python2.7/_abcoll.py
+/usr/lib/python2.7/_abcoll.pyc
+/usr/lib/python2.7/abc.py
+/usr/lib/python2.7/abc.pyc
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/azure/_3761b98b_673d_526c_8d55_fee918758e6e_services_hostedservices_testdcabc.xml
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/azure/_3761b98b_673d_526c_8d55_fee918758e6e_services_hostedservices_testdcabc2.xml
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/azure/_3761b98b_673d_526c_8d55_fee918758e6e_services_hostedservices_testdcabc2_deployments.xml
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/azure/_3761b98b_673d_526c_8d55_fee918758e6e_services_hostedservices_testdcabc2_deploymentslots_Production.xml
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/azure/_3761b98b_673d_526c_8d55_fee918758e6e_services_hostedservices_testdcabc_deployments.xml
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/dimensiondata/_oec_0_9_8a8f6abc_2745_4
+INPUT|usc430ax-intro-76|M3 M2 |1580509939|usc430ax|intro:locate --regex '\w*intro'|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ax.hw1-usc430ax.intro.csv
+/var/log/ttylog/usc430ax.hw1-usc430ax.intro.log
+
+INPUT|usc430ax-intro-77|A4 A1 A0 A2 A3 |1580509990|usc430ax|intro:locate --regex '(?i)\w*intro'|locate: invalid regexp `(?i)\w*intro': Invalid preceding regular expression
+
+INPUT|usc430ax-intro-78|U |1580510081|usc430ax|intro:man find|FIND(1)                              General Commands Manual                              FIND(1)
+
+NAME
+       find - search for files in a directory hierarchy
+
+SYNOPSIS
+       find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
+
+DESCRIPTION
+       This  manual page documents the GNU version of find.  GNU find searches the directory tree
+       rooted at each given starting-point by evaluating the given expression from left to right
+       according  to  the rules of precedence (see section OPERATORS) until the outcome is known
+       (the left hand side is false for and operations true for or) at which point  find  moves
+       on to the next file name.  If no starting-point is specified `.' is assumed.
+
+       If  you  are  using find in an environment where security is important (for example if you
+       are using it to search directories that are writable by other users) you should read  the
+       `Security  Considerations' chapter of the findutils docum
+INPUT|usc430ax-intro-79|A0 A2 A3 A1 A4 |1580510115|usc430ax|intro:find -iregex|find: missing argument to `-iregex'
+
+INPUT|usc430ax-intro-80|A3 A2 A0 A1 A4 |1580510123|usc430ax|intro:find -iregex "\w*intro\w*"|
+INPUT|usc430ax-intro-81|A0 A2 A3 A4 A1 |1580510130|usc430ax|intro:find -iregex "\w*"|
+INPUT|usc430ax-intro-82|A1 A4 A2 A3 A0 |1580510137|usc430ax|intro:find -iregex 'w+'|
+INPUT|usc430ax-intro-83|A4 A1 A0 A2 A3 |1580510173|usc430ax|intro:find -type f -regex "\w*"|
+INPUT|usc430ax-intro-84|A0 A2 A3 A4 A1 |1580510185|usc430ax|intro:find -type f -regex "*.jpg"|
+INPUT|usc430ax-intro-85|A4 A1 A2 A3 A0 |1580510189|usc430ax|intro:find -type f -regex "\w*.jpg"|
+INPUT|usc430ax-intro-86|A4 A1 A3 A2 A0 |1580510190|usc430ax|intro:find -type f -regex "\w*.jpg"|Hint - The command appears to be missing parameters or options
+usc430ax@i\w*"^C
+
+INPUT|usc430ax-intro-87|A4 A1 A0 A2 A3 |1580510195|usc430ax|intro:find -type f -regex "\w*.jpg"|
+INPUT|usc430ax-intro-88|A0 A2 A3 A1 A4 |1580510196|usc430ax|intro:find -type f -regex "\w*.jpg"|
+INPUT|usc430ax-intro-89|A0 A2 A3 A4 A1 |1580510207|usc430ax|intro:find -type f -regex "*.jpg"|
+INPUT|usc430ax-intro-90|M3 M2 M0 |1580510268|usc430ax|intro:find / -iname *jpg |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430ax-intro-91|M4 M3 M2 M1 M0 |1580510283|usc430ax|intro:find / -iname *jpg -o -iname *jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+/usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+/usr/src/linux-headers-4.15.0-43/drivers/media/platform/mtk-jpeg
+/usr/src/linux-headers-4.15.0-43/drivers/media/platform/s5p-jpeg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430ax-intro-92|M4 M3 M2 M1 M0 |1580510315|usc430ax|intro:find / -iname *.jpg -o -iname *.jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430ax-intro-93|U |1580510356|usc430ax|intro:cp /.hidden/asdf136Intro-5kqlw.jpeg top_secret/|
+INPUT|usc430ax-intro-94|U |1580510371|usc430ax|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg top_secret/|
+INPUT|usc430ax-intro-95|U |1580510379|usc430ax|intro:cp /var/log/136intro-3.jpg top_secret/|
+INPUT|usc430ax-intro-96|U |1580510390|usc430ax|intro:cp /etc/wuer136intro-4.JPG top_secret/|
+INPUT|usc430ax-intro-97|U |1580510397|usc430ax|intro:ls|createfiles.sh	files.txt  temp  temp2.txt  temp.txt  top_secret  zip
+
+INPUT|usc430ax-intro-98|U |1580510398|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-99|U |1580510399|usc430ax|intro:ls|createfiles.sh	files.txt  temp  temp2.txt  temp.txt  top_secret  zip
+
+INPUT|usc430ax-intro-100|U |1580510402|usc430ax|intro:cat temp|cat: temp: Is a directory
+
+INPUT|usc430ax-intro-101|U |1580510408|usc430ax|intro:cat temp.txt |
+INPUT|usc430ax-intro-102|U |1580510411|usc430ax|intro:cat temp2.txt |
+INPUT|usc430ax-intro-103|U |1580510417|usc430ax|intro:rm temp.txt temp2.txt |
+INPUT|usc430ax-intro-104|U |1580510418|usc430ax|intro:ls|createfiles.sh	files.txt  temp  top_secret  zip
+
+INPUT|usc430ax-intro-105|U |1580510422|usc430ax|intro:ls     |createfiles.sh	files.txt  temp  top_secret  zip
+
+INPUT|usc430ax-intro-106|U |1580510424|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-107|U |1580510425|usc430ax|intro:cd t|bash: cd: t: No such file or directory
+
+INPUT|usc430ax-intro-108|U |1580510430|usc430ax|intro:cd |.bash_history              .forward                   temp/
+.cache/                    .gnupg/                    top_secret/
+createfiles.sh             .lesshst                   .vim/
+.File0.txt                 .ssh/                      .viminfo
+.File1.txt                 .ssl/                      zip
+files.txt                  .sudo_as_admin_successful  
+
+INPUT|usc430ax-intro-109|U |1580510434|usc430ax|intro:cd top_secret/|
+INPUT|usc430ax-intro-110|U |1580510435|usc430ax|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ax-intro-111|U |1580510436|usc430ax|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ax-intro-112|U |1580510441|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-113|U |1580510462|usc430ax|intro:imgcat|;1580510462
+Command 'imgcat' not found did you mean:
+
+  command 'img_cat' from deb sleuthkit
+  command 'imcat' from deb im
+
+Try: apt install <deb name>
+
+
+INPUT|usc430ax-intro-114|U |1580510466|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-115|U |1580510472|usc430ax|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ax-intro-116|U |1580510571|usc430ax|intro:display|;1580510571
+Command 'display' not found but can be installed with:
+
+apt install imagemagick-6.q16                
+apt install graphicsmagick-imagemagick-compat
+apt install imagemagick-6.q16hdri            
+
+Ask your administrator to install one of them.
+
+
+INPUT|usc430ax-intro-117|U |1580510573|usc430ax|intro:feh|;1580510573
+Command 'feh' not found but can be installed with:
+
+apt install feh
+Please ask your administrator.
+
+
+INPUT|usc430ax-intro-118|U |1580510576|usc430ax|intro:apt insall feh|E: Invalid operation insall
+
+INPUT|usc430ax-intro-119|U |1580510580|usc430ax|intro:apt install feh|E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend) are you root?
+
+INPUT|usc430ax-intro-120|U |1580510585|usc430ax|intro:apt install feh|Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  python3-netifaces
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  libexif12 libid3tag0 libimlib2 libjpeg-progs libjpeg9 yudit-common
+Suggested packages:
+  yudit-doc yudit
+The following NEW packages will be installed:
+  feh libexif12 libid3tag0 libimlib2 libjpeg-progs libjpeg9 yudit-common
+0 upgraded 7 newly installed 0 to remove and 299 not upgraded.
+Need to get 2225 kB of archives.
+After this operation 11.3 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y;1580510588
+Get:1 http://scratch/ubuntu bionic/main amd64 libexif12 amd64 0.6.21-4 [77.2 kB]
+Get:2 http://scratch/ubuntu bionic/universe amd64 libid3tag0 amd64 0.15.1b-13 [31.2 kB]
+Get:3 http://scratch/ubuntu bionic/universe amd64 libimlib2 amd64 1.4.10-1 [173 kB]
+Get:4 http://scratch/ubuntu
+INPUT|usc430ax-intro-121|U |1580510597|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-122|U |1580510598|usc430ax|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ax-intro-123|U |1580510645|usc430ax|intro:display|;1580510645
+Command 'display' not found but can be installed with:
+
+apt install imagemagick-6.q16                
+apt install graphicsmagick-imagemagick-compat
+apt install imagemagick-6.q16hdri            
+
+Ask your administrator to install one of them.
+
+
+INPUT|usc430ax-intro-124|U |1580510763|usc430ax|intro:ls               |136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ax-intro-125|U |1580510788|usc430ax|intro:eog|;1580510788
+Command 'eog' not found but can be installed with:
+
+snap install eog  # version 3.28.4 or
+apt  install eog
+
+See 'snap info eog' for additional versions.
+
+
+INPUT|usc430ax-intro-126|U |1580510791|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-127|U |1580510843|usc430ax|intro:cd ..|
+INPUT|usc430ax-intro-128|U |1580510844|usc430ax|intro:ls|createfiles.sh	files.txt  temp  top_secret  zip
+
+INPUT|usc430ax-intro-129|U |1580510849|usc430ax|intro:snap|Usage:
+  snap <command>
+
+Install configure refresh and remove snap packages. Snaps are
+'universal' packages that work across many different Linux systems
+enabling secure distribution of the latest apps and utilities for
+cloud servers desktops and the internet of things.
+
+This is the CLI for snapd a background service that takes care of
+snaps on the system. Start with 'snap list' to see installed snaps.
+
+Available commands:
+  abort       Abort a pending change
+  ack         Add an assertion to the system
+  alias       Set up a manual alias
+  aliases     List aliases in the system
+  buy         Buy a snap
+  changes     List system changes
+  connect     Connect a plug to a slot
+  disable     Disable a snap in the system
+  disconnect  Disconnect a plug from a slot
+  download    Download the given snap
+  enable      Enable a snap in the system
+  find        Find packages to install (aliases: search)
+  get         Print configuration options
+  help        Show help about a command
+  info    
+INPUT|usc430ax-intro-130|U |1580510854|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-131|U |1580510860|usc430ax|intro:snap install --edge tiv|error: cannot install "tiv": Post https://api.snapcraft.io/v2/snaps/refresh: dial tcp
+       91.189.92.38:443: connect: no route to host
+
+INPUT|usc430ax-intro-132|U |1580510878|usc430ax|intro:clear                       |
+
+INPUT|usc430ax-intro-133|U |1580510952|usc430ax|intro:fdisk|fdisk: bad usage
+Try 'fdisk --help' for more information.
+
+INPUT|usc430ax-intro-134|U |1580510955|usc430ax|intro:fdisk -l|fdisk: cannot open /dev/sr0: Permission denied
+fdisk: cannot open /dev/fd0: Permission denied
+fdisk: cannot open /dev/sda: Permission denied
+
+INPUT|usc430ax-intro-135|U |1580510958|usc430ax|intro:fdisk -l|Disk /dev/sda: 33.9 GiB 36420075008 bytes 71132959 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x8416d6c8
+
+Device     Boot    Start      End  Sectors  Size Id Type
+/dev/sda1  *        2048 31999999 31997952 15.3G 83 Linux
+/dev/sda2       32000000 40957951  8957952  4.3G 82 Linux swap / Solaris
+/dev/sda3       40957952 71132958 30175007 14.4G  0 Empty
+
+INPUT|usc430ax-intro-136|U |1580511022|usc430ax|intro:man fdisk|FDISK(8)                              System Administration                              FDISK(8)
+
+NAME
+       fdisk - manipulate disk partition table
+
+SYNOPSIS
+       fdisk [options] device
+
+       fdisk -l [device...]
+
+DESCRIPTION
+       fdisk  is  a  dialog-driven program for creation and manipulation of partition tables.  It
+       understands GPT MBR Sun SGI and BSD partition tables.
+
+       Block devices can be divided into one or more logical disks called partitions.  This divi-
+       sion  is  recorded in the partition table usually found in sector 0 of the disk.  (In the
+       BSD world one talks about `disk slices' and a `disklabel'.)
+
+       All partitioning is driven by device I/O limits (the topology) by default.  fdisk is  able
+       to  optimize  the  disk  layout for a 4K-sector size and use an alignment offset on modern
+       devices for MBR and GPT.  It is always a good idea  to  follow  fdisk's  defaults  as  the
+       default  values  (e.g.  first and last part
+INPUT|usc430ax-intro-137|U |1580511044|usc430ax|intro:fdisk -lL|Disk /dev/sda: 33.9 GiB 36420075008 bytes 71132959 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x8416d6c8
+;1580511044
+Device     Boot    Start      End  Sectors  Size Id Type
+/dev/sda1  *        2048 31999999 31997952 15.3G 83 Linux
+/dev/sda2       32000000 40957951  8957952  4.3G 82 Linux swap / Solaris
+/dev/sda3       40957952 71132958 30175007 14.4G  0 Empty
+
+INPUT|usc430ax-intro-138|U |1580511049|usc430ax|intro:fdisk -: |fdisk: invalid option -- ':'
+Try 'fdisk --help' for more information.
+
+INPUT|usc430ax-intro-139|U |1580511051|usc430ax|intro:fdisk -L|fdisk: bad usage
+Try 'fdisk --help' for more information.
+
+INPUT|usc430ax-intro-140|U |1580511053|usc430ax|intro:fdisk : |
+Welcome to fdisk (util-linux 2.31.1).
+Changes will remain in memory only until you decide to write them.
+Be careful before using the write command.
+
+fdisk: cannot open :: No such file or directory
+
+INPUT|usc430ax-intro-141|U |1580511056|usc430ax|intro:fdisk L|
+Welcome to fdisk (util-linux 2.31.1).
+Changes will remain in memory only until you decide to write them.
+Be careful before using the write command.
+
+fdisk: cannot open L: No such file or directory
+
+INPUT|usc430ax-intro-142|U |1580511059|usc430ax|intro:man fdisk|FDISK(8)                              System Administration                              FDISK(8)
+
+NAME
+       fdisk - manipulate disk partition table
+
+SYNOPSIS
+       fdisk [options] device
+
+       fdisk -l [device...]
+
+DESCRIPTION
+       fdisk  is  a  dialog-driven program for creation and manipulation of partition tables.  It
+       understands GPT MBR Sun SGI and BSD partition tables.
+
+       Block devices can be divided into one or more logical disks called partitions.  This divi-
+       sion  is  recorded in the partition table usually found in sector 0 of the disk.  (In the
+       BSD world one talks about `disk slices' and a `disklabel'.)
+
+       All partitioning is driven by device I/O limits (the topology) by default.  fdisk is  able
+       to  optimize  the  disk  layout for a 4K-sector size and use an alignment offset on modern
+       devices for MBR and GPT.  It is always a good idea  to  follow  fdisk's  defaults  as  the
+       default  values  (e.g.  first and last part
+INPUT|usc430ax-intro-143|U |1580511076|usc430ax|intro:fdisk -L auto|
+Welcome to fdisk (util-linux 2.31.1).
+Changes will remain in memory only until you decide to write them.
+Be careful before using the write command.
+
+fdisk: cannot open auto: No such file or directory
+
+INPUT|usc430ax-intro-144|U |1580511079|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-145|U |1580511082|usc430ax|intro:fdisk -la|fdisk: invalid option -- 'a'
+Try 'fdisk --help' for more information.
+
+INPUT|usc430ax-intro-146|U |1580511083|usc430ax|intro:fdisk -l |fdisk: cannot open /dev/sr0: Permission denied
+fdisk: cannot open /dev/fd0: Permission denied
+fdisk: cannot open /dev/sda: Permission denied
+
+INPUT|usc430ax-intro-147|U |1580511086|usc430ax|intro:fdisk -l|Disk /dev/sda: 33.9 GiB 36420075008 bytes 71132959 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x8416d6c8
+
+Device     Boot    Start      End  Sectors  Size Id Type
+/dev/sda1  *        2048 31999999 31997952 15.3G 83 Linux
+/dev/sda2       32000000 40957951  8957952  4.3G 82 Linux swap / Solaris
+/dev/sda3       40957952 71132958 30175007 14.4G  0 Empty
+
+INPUT|usc430ax-intro-148|U |1580511963|usc430ax|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ax-intro-149|U |1580511997|usc430ax|intro:ls -la    |total 252
+drwxr-xr-x 2 usc430ax USC430    512 Jan 31 14:39 .
+drwx------ 9 usc430ax USC430    512 Jan 31 14:40 ..
+-rw-r--r-- 1 root     USC430  45909 Jan 31 14:39 136intro-2jjaj.JPEG
+-rw-r--r-- 1 root     USC430 101182 Jan 31 14:39 136intro-3.jpg
+-rw-r--r-- 1 root     USC430  24495 Jan 31 14:39 asdf136Intro-5kqlw.jpeg
+-rw-r--r-- 1 root     USC430  48645 Jan 31 14:39 wuer136intro-4.JPG
+-rw-r--r-- 1 root     USC430  23932 Jan 31 14:39 xbzf136INTRO-1.jpg
+
+INPUT|usc430ax-intro-150|U |1580511999|usc430ax|intro:cd ..|
+INPUT|usc430ax-intro-151|U |1580512000|usc430ax|intro:ls -la|total 292
+drwx------  9 usc430ax USC430    512 Jan 31 14:40 .
+drwxr-xr-x 27 root     root     4096 Jan 31 13:52 ..
+-rw-------  1 usc430ax USC430   7107 Jan 31 13:35 .bash_history
+drwx------  2 usc430ax USC430    512 Jan 17 13:49 .cache
+-rwxr-xr-x  1 usc430ax USC430     76 Jan 17 15:11 createfiles.sh
+-rw-r--r--  1 usc430ax USC430      6 Jan 17 14:49 .File0.txt
+-rw-r--r--  1 usc430ax USC430      6 Jan 17 14:49 .File1.txt
+-rw-r--r--  1 usc430ax USC430    277 Jan 31 14:02 files.txt
+-rw-r--r--  1 usc430ax USC430     16 Jan 17 11:14 .forward
+drwx------  3 usc430ax USC430    512 Jan 17 13:49 .gnupg
+-rw-------  1 usc430ax USC430     32 Jan 31 13:29 .lesshst
+drwx------  2 usc430ax USC430    512 Jan 17 13:49 .ssh
+drwx------  2 usc430ax USC430    512 Jan  9  2019 .ssl
+-rw-r--r--  1 usc430ax USC430      0 Jan 24 16:04 .sudo_as_admin_successful
+drwxr-xr-x  2 usc430ax USC430   1024 Jan 17 15:11 temp
+drwxr-xr-x  2 usc430ax USC430    512 Jan 31 14:39 top_secret
+drwxr-xr-x  2 usc430ax USC430    512 Jan
+INPUT|usc430ax-intro-152|U |1580512004|usc430ax|intro:vim .bash_history |".bash_history" 379L 7107C6n  >cls
+ls -la
+vim
+vim .ssh
+ls -la
+clear
+ssh A.test.usc430
+ping B
+traceroute B
+sudo apt install traceroute
+traceroute B
+ping B.test.usc430
+traceroute B.test.usc430
+ls
+ls
+vim
+vim test2.txt
+ssh A.test.usc430
+ls -la
+ls
+cd ..
+ls
+cd proj
+cd /
+ls
+cd proj
+ls1111CTop?12$p~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   101~@k   1~@k   2~@k   345~@k   6~@k   7~@k   8~@k   9~@k   20~@k   1~@k   2~@k   1;27r
+1;28rcd USC43023111C0%%~@k   1;27r
+1;28rls24111C0%%~@k   1;27r
+1;28rls -la25111C0%%~@k   1;27r
+1;28rcd team1-pass26111C1%%~@k   1;27r
+1;28rvim team1-pass27111C1%%~@k   1;27r
+1;28rls28111C1%%~@k   1;27r
+1;28rls -la29111C1%%~@k   1;27r
+1;28rcd ~30111C2%%~@k   1;27r
+1;28rls31111C2%%~@k   1;27r
+1;28rclear32111C2%%~@k   1;27r
+1;28rcd /proj/usc43033111C3%%1;27r
+1;28rcd /proj/USC43034111C3%%1;27r
+1;28rclear35111C3%%1;27r
+1;28rcd /users/usc430af36111C3%%1;27r
+1;28rsudo cd /users/usc430af37111C4%%1;27r
+1;28rclear38111C4%%1;27r
+1;28rls39111C4%%1;27r
+1;28rclear401
+INPUT|usc430ax-intro-153|U |1580512020|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-154|U |1580512027|usc430ax|intro:ls|createfiles.sh	files.txt  temp  top_secret  zip
+
+INPUT|usc430ax-intro-155|U |1580512029|usc430ax|intro:cd top_secret/|
+INPUT|usc430ax-intro-156|U |1580512030|usc430ax|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ax-intro-157|U |1580512243|usc430ax|intro:               |
+INPUT|usc430ax-intro-158|U |1580512248|usc430ax|intro:vim answers.txt|"answers.txt" [New] 2L 66C written                                                                                               ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                      
+INPUT|usc430ax-intro-159|A4 A1 A0 A2 A3 |1580512433|usc430ax|intro:find / -iname ".jpg"|^C;1580512443
+
+INPUT|usc430ax-intro-160|A4 A1 A3 A2 A0 |1580512446|usc430ax|intro:find / -name ".jpg"|^C;1580512465
+
+INPUT|usc430ax-intro-161|A3 A2 A0 A4 A1 |1580512565|usc430ax|intro:find / -iname *.jpg -o -iname *.jpeg |find: paths must precede expression: `xbzf136INTRO-1.jpg'
+find: possible unquoted pattern after predicate `-iname'?
+
+INPUT|usc430ax-intro-162|M4 M0 |1580512575|usc430ax|intro:find / -iname "*.jpg" -o -iname "*.jpeg" |/.hidden/asdf136Intro-5kqlw.jpeg
+/users/usc430ax/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430ax/top_secret/xbzf136INTRO-1.jpg
+/users/usc430ax/top_secret/136intro-3.jpg
+/users/usc430ax/top_secret/wuer136intro-4.JPG
+/users/usc430ax/top_secret/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+^[[A^C;1580512578
+
+INPUT|usc430ax-intro-163|M0 |1580512582|usc430ax|intro:find / -iname "*.jpg"                    |/users/usc430ax/top_secret/xbzf136INTRO-1.jpg
+/users/usc430ax/top_secret/136intro-3.jpg
+/users/usc430ax/top_secret/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+^[[A^[[B^C;1580512586
+
+INPUT|usc430ax-intro-164|M0 |1580512589|usc430ax|intro:find / -iname "*.jpg"|/users/usc430ax/top_secret/xbzf136INTRO-1.jpg
+/users/usc430ax/top_secret/136intro-3.jpg
+/users/usc430ax/top_secret/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+^C;1580512592
+
+INPUT|usc430ax-intro-165|A1 A4 A2 A3 A0 |1580512596|usc430ax|intro:find / -iname "*.jpg" | head   |^C;1580512600
+
+INPUT|usc430ax-intro-166|M0 |1580512603|usc430ax|intro:find / -iname "*.jpg"|/users/usc430ax/top_secret/xbzf136INTRO-1.jpg
+/users/usc430ax/top_secret/136intro-3.jpg
+/users/usc430ax/top_secret/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+^C;1580512604
+
+INPUT|usc430ax-intro-167|U |1580512605|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-168|A4 A1 A2 A3 A0 |1580512609|usc430ax|intro:locate -name|locate: invalid value `ame' of --limit
+
+INPUT|usc430ax-intro-169|A3 A2 A0 A4 A1 |1580512613|usc430ax|intro:locate ".jpg"|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+
+INPUT|usc430ax-intro-170|M2 M0 |1580512617|usc430ax|intro:locate ".jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-171|A0 A2 A3 A4 A1 |1580512626|usc430ax|intro:locate -iname ".jpg"|locate: invalid value `ame' of --limit
+
+INPUT|usc430ax-intro-172|U |1580512631|usc430ax|intro:man locate               |locate(1)                            General Commands Manual                            locate(1)
+
+NAME
+       locate - find files by name
+
+SYNOPSIS
+       locate [OPTION]... PATTERN...
+
+DESCRIPTION
+       locate  reads one or more databases prepared by updatedb(8) and writes file names matching
+       at least one of the PATTERNs to standard output one per line.
+
+       If --regex is not specified PATTERNs can contain globbing  characters.   If  any  PATTERN
+       contains no globbing characters locate behaves as if the pattern were *PATTERN*.
+
+       By default locate does not check whether files found in database still exist (but it does
+       require all parent directories to exist if the database was built with  --require-visibil-
+       ity  no).  locate can never report files created after the most recent update of the rele-
+       vant database.
+
+EXIT STATUS
+       locate exits with status 0 if any match was found or if locate was invoked with one of the
+       --limit  0  --
+INPUT|usc430ax-intro-173|A4 A1 A3 A2 A0 |1580512642|usc430ax|intro:locate -i".jpg"|locate: invalid option -- '.'
+
+INPUT|usc430ax-intro-174|M3 M2 M0 |1580512645|usc430ax|intro:locate -i ".jpg"|/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ax-intro-175|U |1580512647|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-176|U |1580512872|usc430ax|intro:man locate           |locate(1)                            General Commands Manual                            locate(1)
+
+NAME
+       locate - find files by name
+
+SYNOPSIS
+       locate [OPTION]... PATTERN...
+
+DESCRIPTION
+       locate  reads one or more databases prepared by updatedb(8) and writes file names matching
+       at least one of the PATTERNs to standard output one per line.
+
+       If --regex is not specified PATTERNs can contain globbing  characters.   If  any  PATTERN
+       contains no globbing characters locate behaves as if the pattern were *PATTERN*.
+
+       By default locate does not check whether files found in database still exist (but it does
+       require all parent directories to exist if the database was built with  --require-visibil-
+       ity  no).  locate can never report files created after the most recent update of the rele-
+       vant database.
+
+EXIT STATUS
+       locate exits with status 0 if any match was found or if locate was invoked with one of the
+       --limit  0  --
+INPUT|usc430ax-intro-177|M4 M0 |1580513138|usc430ax|intro:find / -iname "*.jpg" -o -iname "*.jpeg" |/.hidden/asdf136Intro-5kqlw.jpeg
+/users/usc430ax/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430ax/top_secret/xbzf136INTRO-1.jpg
+/users/usc430ax/top_secret/136intro-3.jpg
+/users/usc430ax/top_secret/wuer136intro-4.JPG
+/users/usc430ax/top_secret/136intro-2jjaj.JPEG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/share/chef/chef-packages/old/click/examples/imagepipe/example01.jpg
+/share/chef/chef-packages/old/click/examples/imagepipe/example02.jpg
+^C;1580513148
+
+INPUT|usc430ax-intro-178|M4 |1580513153|usc430ax|intro:find / -iname "*.jpg" -o -iname "*.jpeg" | head -n 5|/.hidden/asdf136Intro-5kqlw.jpeg
+/users/usc430ax/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430ax/top_secret/xbzf136INTRO-1.jpg
+/users/usc430ax/top_secret/136intro-3.jpg
+/users/usc430ax/top_secret/wuer136intro-4.JPG
+
+INPUT|usc430ax-intro-179|U |1580513183|usc430ax|intro:ls                       |createfiles.sh	files.txt  temp  top_secret  zip
+
+INPUT|usc430ax-intro-180|U |1580513185|usc430ax|intro:cd top_secret/|
+INPUT|usc430ax-intro-181|U |1580513186|usc430ax|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430ax-intro-182|U |1580513190|usc430ax|intro:vim a|answers.txt              asdf136Intro-5kqlw.jpeg  
+
+INPUT|usc430ax-intro-183|U |1580513191|usc430ax|intro:vim answers.txt |"answers.txt" 2L 66C6n  >c1. TREASURE HUNT
+ - File 1: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+1. TREASURE HUNT
+  - File 1: /usr/share/pixmaps/xbzf136INTRO-1.jp - Forbidden Planet
+  - File 2: /dev/136intro-2jjaj.JPEG - Godzilla
+  - File 3: /var/log/136intro-3.jpg - IT came from outer space!
+  - File 4: /etc/wuer136intro-4.JPG - The Fly
+  - File 5: /.hidden/asdf136Intro-5kqlw.jpeg - 2001 a Space Odyssey
+
+2. INFORMATION HUNT
+  - 1. The /var directory contains files to which the system writes data during it's operation (variables).
+  - 2.
+- File 1: /usr/share/pixmaps/xbzf136INTRO-1.jp - Forbidden Planet
+  - File 2: /dev/136intro-2jjaj.JPEG - Godzilla
+  - File 3: /var/log/136intro-3.jpg - IT came from outer space!
+  - File 4: /etc/wuer136intro-4.JPG - The Fly
+  - File 5: /.hidden/asdf136Intro-5kqlw.jpeg - 2001 a Space Odyssey
+
+2. INFORMATION HUNT
+  - 1. The /var directory contains files to which the system writes data during it's operation (variables).
+  - 2. The /dev directory contains devic
+INPUT|usc430ax-intro-184|M6 |1580513610|usc430ax|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       6276     197760   4%% /run
+/dev/sda1                                          15681948    3300656   11581344  23%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1373376512 1363391744  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ax 2031313280 1178221056  690587136  64%% /users/usc430ax
+tmpfs                                                204032          0     204032   0%% /run/user/14187
+users.isi.deterlab
+INPUT|usc430ax-intro-185|U |1580513616|usc430ax|intro:du|264	.
+
+INPUT|usc430ax-intro-186|U |1580513624|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-187|M6 |1580513625|usc430ax|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       6276     197760   4%% /run
+/dev/sda1                                          15681948    3300668   11581332  23%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1373376512 1363391744  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ax 2031313280 1178221056  690587136  64%% /users/usc430ax
+tmpfs                                                204032          0     204032   0%% /run/user/14187
+users.isi.deterlab
+INPUT|usc430ax-intro-188|U |1580513648|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-189|U |1580513654|usc430ax|intro:man du|DU(1)                                            User Commands                                           DU(1)
+
+NAME
+       du - estimate file space usage
+
+SYNOPSIS
+       du [OPTION]... [FILE]...
+       du [OPTION]... --files0-from=F
+
+DESCRIPTION
+       Summarize disk usage of the set of FILEs recursively for directories.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       -0 --null
+              end each output line with NUL not newline
+
+       -a --all
+              write counts for all files not just directories
+
+       --apparent-size
+              print  apparent sizes rather than disk usage; although the apparent size is usually smaller it
+              may be larger due to holes in ('sparse') files internal fragmentation indirect blocks and the
+              like
+
+       -B --block-size=SIZE
+              scale  sizes by SIZE before printing them; e.g. '-BM' prints sizes in units of 1048576 bytes;
+
+DESCRIPTION
+       Summarize disk usage of 
+INPUT|usc430ax-intro-190|U |1580513677|usc430ax|intro:du -hf|du: invalid option -- 'f'
+Try 'du --help' for more information.
+
+INPUT|usc430ax-intro-191|U |1580513680|usc430ax|intro:du -h -f|du: invalid option -- 'f'
+Try 'du --help' for more information.
+
+INPUT|usc430ax-intro-192|U |1580513682|usc430ax|intro:du -h -s|264K	.
+
+INPUT|usc430ax-intro-193|U |1580513687|usc430ax|intro:du -h   |264K	.
+
+INPUT|usc430ax-intro-194|M6 |1580513689|usc430ax|intro:df   |Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       6276     197760   4%% /run
+/dev/sda1                                          15681948    3300720   11581280  23%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1373376640 1363391744  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ax 2031313280 1178221056  690587136  64%% /users/usc430ax
+tmpfs                                                204032          0     204032   0%% /run/user/14187
+users.isi.deterlab
+INPUT|usc430ax-intro-195|U |1580513692|usc430ax|intro:man df|DF(1)                                            User Commands                                           DF(1)
+
+NAME
+       df - report file system disk space usage
+
+SYNOPSIS
+       df [OPTION]... [FILE]...
+
+DESCRIPTION
+       This  manual  page  documents the GNU version of df.  df displays the amount of disk space available on
+       the file system containing each file name argument.  If no file name is given the space  available  on
+       all  currently  mounted file systems is shown.  Disk space is shown in 1K blocks by default unless the
+       environment variable POSIXLY_CORRECT is set in which case 512-byte blocks are used.
+
+       If an argument is the absolute file name of a disk device node containing a  mounted  file  system  df
+       shows  the  space  available  on  that file system rather than on the file system containing the device
+       node.  This version of df cannot show the space available on unmounted file systems  because  on  most
+       kinds of systems do
+INPUT|usc430ax-intro-196|M6 |1580513720|usc430ax|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  6.2M  194M   4%% /run
+/dev/sda1                                          15G  3.2G   12G  23%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ax  1.9T  1.1T  659G  64%% /users/usc430ax
+tmpfs                                             200M     0  200M   0%% /run/user/14187
+users.isi.deterlab.net:/mnt/share                 485G  231G  216G  52%% /share
+
+INPUT|usc430ax-intro-197|A6 |1580513780|usc430ax|intro:df -h > diskfree.txt|
+INPUT|usc430ax-intro-198|U |1580513783|usc430ax|intro:cat diskfree.txt |Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  6.2M  194M   4%% /run
+/dev/sda1                                          15G  3.2G   12G  23%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ax  1.9T  1.1T  659G  64%% /users/usc430ax
+tmpfs                                             200M     0  200M   0%% /run/user/14187
+users.isi.deterlab.net:/mnt/share                 485G  231G  216G  52%% /share
+
+INPUT|usc430ax-intro-199|U |1580513801|usc430ax|intro:fdisk -l|fdisk: cannot open /dev/sr0: Permission denied
+fdisk: cannot open /dev/fd0: Permission denied
+fdisk: cannot open /dev/sda: Permission denied
+
+INPUT|usc430ax-intro-200|U |1580513804|usc430ax|intro:fdisk -l|Disk /dev/sda: 33.9 GiB 36420075008 bytes 71132959 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x8416d6c8
+
+Device     Boot    Start      End  Sectors  Size Id Type
+/dev/sda1  *        2048 31999999 31997952 15.3G 83 Linux
+/dev/sda2       32000000 40957951  8957952  4.3G 82 Linux swap / Solaris
+/dev/sda3       40957952 71132958 30175007 14.4G  0 Empty
+
+INPUT|usc430ax-intro-201|U |1580513820|usc430ax|intro:fdisk -la|fdisk: invalid option -- 'a'
+Try 'fdisk --help' for more information.
+
+INPUT|usc430ax-intro-202|U |1580513821|usc430ax|intro:fdisk -l |Disk /dev/sda: 33.9 GiB 36420075008 bytes 71132959 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x8416d6c8
+
+Device     Boot    Start      End  Sectors  Size Id Type
+/dev/sda1  *        2048 31999999 31997952 15.3G 83 Linux
+/dev/sda2       32000000 40957951  8957952  4.3G 82 Linux swap / Solaris
+/dev/sda3       40957952 71132958 30175007 14.4G  0 Empty
+
+INPUT|usc430ax-intro-203|U |1580513824|usc430ax|intro:man fdisk|FDISK(8)                                     System Administration                                    FDISK(8)
+
+NAME
+       fdisk - manipulate disk partition table
+
+SYNOPSIS;1580513824
+       fdisk [options] device
+
+       fdisk -l [device...]
+
+DESCRIPTION
+       fdisk  is  a  dialog-driven  program for creation and manipulation of partition tables.  It understands
+       GPT MBR Sun SGI and BSD partition tables.
+
+       Block devices can be divided into one or more  logical  disks  called  partitions.   This  division  is
+       recorded  in  the  partition table usually found in sector 0 of the disk.  (In the BSD world one talks
+       about `disk slices' and a `disklabel'.)
+
+       All partitioning is driven by device I/O limits (the topology) by default.  fdisk is able  to  optimize
+       the disk layout for a 4K-sector size and use an alignment offset on modern devices for MBR and GPT.  It
+       is always a good idea to follow fdisk's defaults as the default values (e.g. first a
+INPUT|usc430ax-intro-204|U |1580513842|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-205|A5 |1580513903|usc430ax|intro:lsdcpu|;1580513903
+Command 'lsdcpu' not found did you mean:
+
+  command 'lscpu' from deb util-linux
+
+Try: apt install <deb name>
+
+
+INPUT|usc430ax-intro-206|M5 |1580513905|usc430ax|intro:lscpu|Architecture:        x86_64
+CPU op-mode(s):      32-bit 64-bit
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  2
+Core(s) per socket:  1
+Socket(s):           2
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          15
+Model:               4
+Model name:          Intel(R) Xeon(TM) CPU 3.00GHz
+Stepping:            3
+CPU MHz:             2992.749
+BogoMIPS:            5985.49
+L1d cache:           16K
+L2 cache:            2048K
+NUMA node0 CPU(s):   0-3
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+
+INPUT|usc430ax-intro-207|U |1580513990|usc430ax|intro:cat answers.txt |1. TREASURE HUNT
+  - File 1: /usr/share/pixmaps/xbzf136INTRO-1.jp - Forbidden Planet
+  - File 2: /dev/136intro-2jjaj.JPEG - Godzilla
+  - File 3: /var/log/136intro-3.jpg - IT came from outer space!
+  - File 4: /etc/wuer136intro-4.JPG - The Fly
+  - File 5: /.hidden/asdf136Intro-5kqlw.jpeg - 2001 a Space Odyssey
+
+2. INFORMATION HUNT
+  - 1. The /var directory contains files to which the system writes data during it's operation (variables).
+  - 2. The /dev directory contains device files such as drivers.
+  - 3. Refer to diskfree.txt.
+  - 4. GenuineIntel is the Vendor Id of this node.
+
+INPUT|usc430ax-intro-208|U |1580514009|usc430ax|intro:cat diskfree.txt |Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  6.2M  194M   4%% /run
+/dev/sda1                                          15G  3.2G   12G  23%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ax  1.9T  1.1T  659G  64%% /users/usc430ax
+tmpfs                                             200M     0  200M   0%% /run/user/14187
+users.isi.deterlab.net:/mnt/share                 485G  231G  216G  52%% /share
+
+INPUT|usc430ax-intro-209|U |1580514011|usc430ax|intro:clear|
+
+INPUT|usc430ax-intro-210|U |1580514512|usc430ax|intro:clear|
+

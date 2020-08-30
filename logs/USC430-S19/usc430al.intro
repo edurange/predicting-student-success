@@ -1,0 +1,775 @@
+User usc430al start time 1548110810 end 1548576328
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430al-intro-0|U |000000000|usc430al|:|
+INPUT|usc430al-intro-1|U |000000000|usc430al|intro:cd top_secret/|
+INPUT|usc430al-intro-2|U |000000000|usc430al|:|
+INPUT|usc430al-intro-3|U |1548575083|usc430al|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430al-intro-4|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-5|M6 |1548575104|usc430al|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003424         48    1003376   1%% /dev
+tmpfs                                                204720      11108     193612   6%% /run
+/dev/sda1                                          15616412    2904460   11912004  20%% /
+tmpfs                                               1023600          0    1023600   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023600          0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430al 2031313280 1431503232  437305088  77%% /users/usc430al
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921649920 1815118464  34%% /proj/USC430
+tmpfs                                                204720          0     204720   0%% /run/u
+INPUT|usc430al-intro-6|A6 |1548575137|usc430al|intro:df > top_secret/diskfree.txt|
+INPUT|usc430al-intro-7|U |1548575159|usc430al|intro:vim answers.txt|%=<C2><BD>  ]11;?"answers.txt" [New File]~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                      
+INPUT|usc430al-intro-8|U |000000000|usc430al|intro:answers.txt|answers.txt: command not found
+INPUT|usc430al-intro-9|U |1548575187|usc430al|intro:vim answers|%=<C2><BD>  ]11;?"answers" [New File]~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~  
+INPUT|usc430al-intro-10|U |1548575295|usc430al|intro:vim top_secret/answers.txt|%=<C2><BD>  ]11;?"top_secret/answers.txt" 6L%% 317COriginal LocationFile NameDescription
+/usr/share/pixmaps/xbzf136INTRO-1.jpgForbidden Planet
+/.hidden/asdf136Intro-5kqlw.jpegSpace Odyssey
+/var/log/136intro-3.jpgIt Came From Outer Space
+/etc/wuer136intro-4.JPGThe Fly
+/dev/136intro-2jjaj.JPEGGodzilla
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                
+INPUT|usc430al-intro-11|U |1548575744|usc430al|intro:ls|top_secret
+INPUT|usc430al-intro-12|U |000000000|usc430al|intro:cd ~|
+INPUT|usc430al-intro-13|U |1548575753|usc430al|intro:ls|top_secret
+INPUT|usc430al-intro-14|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-15|U |1548575772|usc430al|intro:ls|aashraya  ekline    jaipuria  jross scuric  shareaf  shareal  sharear  shareax  sharebd  sunshine
+abhi   faber     jboman    kls2 shareaa  shareag  shaream  shareas  shareay  shareta  usc430al
+alefiya   gbartlet  jelena    melkins shareab  shareah  sharean  shareat  shareaz  sharetb
+alwabel   gerow     jgli      piobair shareac  shareai  shareao  shareau  shareba  sharetc
+bks   gknopf    jhickey   rgoodfel sharead  shareaj  shareap  shareav  sharebb  sharetd
+bloznali  glawler   jjh       schwab shareae  shareak  shareaq  shareaw  sharebc  sklower
+INPUT|usc430al-intro-16|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-17|U |1548575778|usc430al|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430al-intro-18|U |000000000|usc430al|intro:cd var|
+INPUT|usc430al-intro-19|U |1548575784|usc430al|intro:ls|backups  cache crash  emulab  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+INPUT|usc430al-intro-20|U |000000000|usc430al|intro:cd tmp|
+INPUT|usc430al-intro-21|U |1548575802|usc430al|intro:ls|
+INPUT|usc430al-intro-22|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-23|U |1548575807|usc430al|intro:ls|backups  cache crash  emulab  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+INPUT|usc430al-intro-24|U |000000000|usc430al|intro:cd local|
+INPUT|usc430al-intro-25|U |1548575815|usc430al|intro:ls|
+INPUT|usc430al-intro-26|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-27|U |1548575819|usc430al|intro:ls|backups  cache crash  emulab  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+INPUT|usc430al-intro-28|U |000000000|usc430al|intro:cd emulab|
+INPUT|usc430al-intro-29|U |1548575833|usc430al|intro:ls|boot  db  jails  lock  logs  sup  vms
+INPUT|usc430al-intro-30|U |000000000|usc430al|intro:cd vms|
+INPUT|usc430al-intro-31|U |1548575840|usc430al|intro:ls|
+INPUT|usc430al-intro-32|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-33|U |1548575845|usc430al|intro:ls|boot  db  jails  lock  logs  sup  vms
+INPUT|usc430al-intro-34|U |000000000|usc430al|intro:cd boot|
+INPUT|usc430al-intro-35|U |1548575850|usc430al|intro:ls|bossip    creator   keyhash  ltpmap myip    nickname  progagents  realname  routerip  syncserver  topomap
+controlif  eventkey  ltmap    mydomain mynetmask  nodeid    rc.route  role    swapper   tmcc
+INPUT|usc430al-intro-36|U |000000000|usc430al|intro:cd creator|bash: cd: creator: Not a directory
+INPUT|usc430al-intro-37|U |1548575881|usc430al|intro:vim creator|%=<C2><BD>  ]11;?"creator" [readonly] 1L%% 9Cusc430al
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                      
+INPUT|usc430al-intro-38|U |1548575891|usc430al|intro:ls|bossip    creator   keyhash  ltpmap myip    nickname  progagents  realname  routerip  syncserver  topomap
+controlif  eventkey  ltmap    mydomain mynetmask  nodeid    rc.route  role    swapper   tmcc
+INPUT|usc430al-intro-39|U |1548575908|usc430al|intro:vim nodid|%=<C2><BD>  ]11;?"nodid" [New File]~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~    
+INPUT|usc430al-intro-40|U |000000000|usc430al|intro:vim node|%<ESC>[?1049h<ESC>[?1h<ESC>=<ESC>[2;1H<C2><BD><ESC>[6n<ESC>[2;1H  <ESC>[1;1H<ESC>]11;?<BEL><ESC>[1;30r<ESC>[?12;25h<ESC>[?12l<ESC>[?25h<ESC>[27m<ESC>[23m<ESC>[m<ESC>[H<ESC>[2J<ESC>[?25l<ESC>[30;1H"nodeid" [readonly] 1L%% 6C<ESC>[>c<ESC>[1;1Hpc195
+<ESC>[94m~                                                                                                                       <ESC>[3;1H~                                                                                                                       <ESC>[4;1H~                                                                                                                       <ESC>[5;1H~                                                                                                                       <ESC>[6;1H~                                                                                                                       <ESC>[7;1H~                                                                                          
+INPUT|usc430al-intro-41|U |1548575937|usc430al|intro:vim bossip|%=<C2><BD>  ]11;?"bossip" [readonly] 1L%% 14C192.168.252.1
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                 
+INPUT|usc430al-intro-42|U |1548575952|usc430al|intro:vim progagents|%=<C2><BD>  ]11;?"progagents" [readonly] 2L%% 191CUID=usc430al
+AGENT=intro_startcmd TIMEOUT=0 EXPECTED_EXIT_CODE=0 COMMAND='(sudo /share/education/LinuxDETERIntro_UCLA/install >& /tmpp/labinstall.log ; /usr/local/etc/emulab/startcmddone $?)'
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                               
+INPUT|usc430al-intro-43|U |1548575973|usc430al|intro:vim controlif|%=<C2><BD>  ]11;?"controlif" [readonly] 1L%% 5Ceth4
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                        
+INPUT|usc430al-intro-44|U |000000000|usc430al|intro:vim|%<ESC>[?1049h<ESC>[?1h<ESC>=<ESC>[2;1H<C2><BD><ESC>[6n<ESC>[2;1H  <ESC>[1;1H<ESC>]11;?<BEL><ESC>[1;30r<ESC>[?12;25h<ESC>[?12l<ESC>[?25h<ESC>[27m<ESC>[23m<ESC>[m<ESC>[H<ESC>[2J<ESC>[?25l<ESC>[30;1H"eventkey" [readonly][noeol] 1L%% 32C<ESC>[>c<ESC>[1;1Hd9ef152fcc3e1b1cc27d18c0ee4d0a5f
+<ESC>[94m~                                                                                                                       <ESC>[3;1H~                                                                                                                       <ESC>[4;1H~                                                                                                                       <ESC>[5;1H~                                                                                                                       <ESC>[6;1H~                                                                                                                       <ESC>[7;1H~                                                     
+INPUT|usc430al-intro-45|U |1548575992|usc430al|intro:vim ltmap|%=<C2><BD>  ]11;?"ltmap" [readonly] 3L%% 22Ch intro
+r static
+s ns
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                    
+INPUT|usc430al-intro-46|U |1548576001|usc430al|intro:vim mydomain|%=<C2><BD>  ]11;?"mydomain" [readonly] 1L%% 17Cisi.deterlab.net
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                            
+INPUT|usc430al-intro-47|U |1548576016|usc430al|intro:vim mynetmask|%=<C2><BD>  ]11;?"mynetmask" [readonly] 1L%% 14C255.255.252.0
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                              
+INPUT|usc430al-intro-48|U |1548576026|usc430al|intro:vim rc.route|%=<C2><BD>  ]11;?"rc.route" [readonly] 12L%% 207C#!/bin/sh
+# auto-generated by /usr/local/etc/emulab/rc/rc.route%% DO NOT EDIT
+case "$1" in
+  enable)
+    sysctl -w net.ipv4.conf.all.forwarding=1
+  ;;
+  enable-routes)
+  ;;
+  disable-routes)
+  ;;
+esac
+exit 0
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                          
+INPUT|usc430al-intro-49|U |1548576034|usc430al|intro:vim role|%=<C2><BD>  ]11;?"role" [readonly] 1L%% 5Cnode
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                             
+INPUT|usc430al-intro-50|U |1548576041|usc430al|intro:vim swapper|%=<C2><BD>  ]11;?"swapper" [readonly] 1L%% 9Cusc430al
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                      
+INPUT|usc430al-intro-51|U |1548576047|usc430al|intro:vim tmcc|%=<C2><BD>  ]11;?"tmcc" is a directory" ============================================================================
+" Netrw Directory Listing                                        (netrw v155)
+"   /var/emulab/boot/tmcc
+"   Sorted by      name
+"   Sort sequence: [\/]$%%\<core\%%(\.\d\+\)\=\>%%\.h$%%\.c$%%\.cpp$%%\~\=\*$%%*%%\.o$%%\.obj$%%\.info$%%\.swp$%%\.bak$%%\~$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:special
+" ==============================================================================
+../                                                                                                                     ./
+accounts
+creator
+delay
+eventkey
+firewallinfo
+ifconfig
+ipodinfo
+keyhash
+linkdelay
+localization
+motelog
+mounts
+newdelay
+nodeid
+nseconfigs
+ntpinfo
+programs
+role
+routelist
+routing8%%1Top:q%
+INPUT|usc430al-intro-52|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-53|U |1548576114|usc430al|intro:ls|boot  db  jails  lock  logs  sup  vms
+INPUT|usc430al-intro-54|U |000000000|usc430al|intro:cd db|
+INPUT|usc430al-intro-55|U |1548576118|usc430al|intro:ls|groupdb  mountdb  passdb
+INPUT|usc430al-intro-56|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-57|U |1548576122|usc430al|intro:ls|boot  db  jails  lock  logs  sup  vms
+INPUT|usc430al-intro-58|U |000000000|usc430al|intro:cd vms|
+INPUT|usc430al-intro-59|U |1548576129|usc430al|intro:ls|
+INPUT|usc430al-intro-60|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-61|U |1548576134|usc430al|intro:ls|boot  db  jails  lock  logs  sup  vms
+INPUT|usc430al-intro-62|U |000000000|usc430al|intro:cd sup|
+INPUT|usc430al-intro-63|U |1548576139|usc430al|intro:ls|
+INPUT|usc430al-intro-64|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-65|U |1548576145|usc430al|intro:ls|boot  db  jails  lock  logs  sup  vms
+INPUT|usc430al-intro-66|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-67|U |1548576150|usc430al|intro:ls|backups  cache crash  emulab  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+INPUT|usc430al-intro-68|U |000000000|usc430al|intro:cd spool|
+INPUT|usc430al-intro-69|U |1548576162|usc430al|intro:ls|cron  mail  rsyslog
+INPUT|usc430al-intro-70|U |000000000|usc430al|intro:cd cron|
+INPUT|usc430al-intro-71|U |1548576172|usc430al|intro:ls|atjobs atspool  crontabs
+INPUT|usc430al-intro-72|U |000000000|usc430al|intro:cd atjobs|bash: cd: atjobs: Permission denied
+INPUT|usc430al-intro-73|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-74|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-75|U |1548576186|usc430al|intro:ls|backups  cache crash  emulab  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+INPUT|usc430al-intro-76|U |000000000|usc430al|intro:cd run|
+INPUT|usc430al-intro-77|U |1548576191|usc430al|intro:ls|acpid.pid      dbus      iscsid.pid   mdadm   resolvconf   slothd.pid      systemd
+acpid.socket   dmeventd-client     linktest.pid  motd.dynamic  rpcbind   snapd-snap.socket  tmpfiles.d
+agetty.reload  dmeventd-server     lock   mount   rpcbind.sock   snapd.socket      udev
+atd.pid        emulab-watchdog.pid  log    network  rpc_pipefs   sshd       user
+blkid        evproxy.pid     lvm    ntpd.pid  rsyslogd.pid   sshd.pid      utmp
+cnet        initctl      lvmetad.pid   progagent.pid  screen    sudo       uuidd
+crond.pid      initramfs     lxcfs   pubsubd.pid  sendsigs.omit.d  syncd.pid
+crond.reboot   irqbalance.pid     lxcfs.pid   quagga  shm    sysconfig
+INPUT|usc430al-intro-78|U |1548576246|usc430al|intro:ls|acpid.pid      dbus      iscsid.pid   mdadm   resolvconf   slothd.pid      systemd
+acpid.socket   dmeventd-client     linktest.pid  motd.dynamic  rpcbind   snapd-snap.socket  tmpfiles.d
+agetty.reload  dmeventd-server     lock   mount   rpcbind.sock   snapd.socket      udev
+atd.pid        emulab-watchdog.pid  log    network  rpc_pipefs   sshd       user
+blkid        evproxy.pid     lvm    ntpd.pid  rsyslogd.pid   sshd.pid      utmp
+cnet        initctl      lvmetad.pid   progagent.pid  screen    sudo       uuidd
+crond.pid      initramfs     lxcfs   pubsubd.pid  sendsigs.omit.d  syncd.pid
+crond.reboot   irqbalance.pid     lxcfs.pid   quagga  shm    sysconfig
+INPUT|usc430al-intro-79|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-80|U |1548576250|usc430al|intro:ls|backups  cache crash  emulab  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+INPUT|usc430al-intro-81|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-82|U |1548576254|usc430al|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430al-intro-83|U |000000000|usc430al|intro:cd proc|
+INPUT|usc430al-intro-84|U |1548576264|usc430al|intro:ls|1     134   15   169 2367  2581  316  392  46   72       bus    iomem misc       swaps
+10    135   159   17 2373  2582  317  396  47   73       cgroups    ioports modules       sys
+1052  136   16   170 2374  26    32  399  48   74       cmdline    irq  mounts       sysrq-trigger
+1060  137   161   1734 2385  263   33  40   5    75       consoles    kallsyms mpt       sysvipc
+1069  1375  162   1740 2391  2647  34  400  562  76       cpuinfo    kcore mtrr       thread-self
+1075  138   163   1749 2487  2661  35  405  6    77       crypto    keys  net       timer_list
+1083  139   164   176 2490  27    358  407  64   79       devices    key-users pagetypeinfo  timer_stats
+1094  140   165   18 2493  2710  359  408  65   8       diskstats    kmsg  partitions    tty
+11    1410  1651  181 25    2739  36  41   66   81       dma 
+INPUT|usc430al-intro-85|M5 |1548576286|usc430al|intro:vim cpuinfo|%=<C2><BD>  ]11;?"cpuinfo" [readonly] 108L%% 2676Cprocessor   : 0
+vendor_id   : GenuineIntel
+cpu family  : 15
+model: 4
+model name  : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping    : 3
+microcode   : 0x5
+cpu MHz     : 2992.552
+cache size  : 2048 KB
+physical id : 0
+siblings    : 2
+core id     : 0
+cpu cores   : 1
+apicid      : 0
+initial apicid  : 0
+fpu     : yes
+fpu_exception   : yes
+cpuid level : 5
+wp      : yes
+flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse22 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr
+bugs:
+bogomips    : 5985.10
+clflush size    : 64
+cache_alignment : 128
+address sizes   : 36 bits physical%% 48 bits virtual
+power management:
+
+processor   : 11%%1Top:q%
+INPUT|usc430al-intro-86|U |000000000|usc430al|intro:cd ~|
+INPUT|usc430al-intro-87|U |1548576311|usc430al|intro:ls|top_secret
+INPUT|usc430al-intro-88|U |000000000|usc430al|intro:cd top_secret/|
+INPUT|usc430al-intro-89|U |1548576317|usc430al|intro:ls|136intro-2jjaj.JPEG  answers.txt       diskfree.txt   xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+INPUT|usc430al-intro-90|U |1548576328|usc430al|intro:vim answers.txt|%=<C2><BD>  ]11;?"answers.txt" 13L%% 517CTreasure Hunt
+Original LocationFile NameDescription
+/usr/share/pixmaps/xbzf136INTRO-1.jpgForbidden Planet
+/.hidden/asdf136Intro-5kqlw.jpegSpace Odyssey
+/var/log/136intro-3.jpgIt Came From Outer Space
+/etc/wuer136intro-4.JPGThe Fly
+/dev/136intro-2jjaj.JPEGGodzilla
+
+Information Hunt
+1.) /var contains data files for things that change often
+2.) /dev contains special device files for all of the devices
+3.) disk space information in diskfree.txt
+4.)
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                              
+INPUT|usc430al-intro-91|U |000000000|usc430al|intro:vim diskfree|%<ESC>[?1049h<ESC>[?1h<ESC>=<ESC>[2;1H<C2><BD><ESC>[6n<ESC>[2;1H  <ESC>[1;1H<ESC>]11;?<BEL><ESC>[1;30r<ESC>[?12;25h<ESC>[?12l<ESC>[?25h<ESC>[27m<ESC>[23m<ESC>[m<ESC>[H<ESC>[2J<ESC>[?25l<ESC>[30;1H"diskfree.txt" 10L%% 972C<ESC>[>c<ESC>[1;1HFilesystem<ESC>[40C1K-blocks<ESC>[7CUsed  Available Use%% Mounted on
+udev<ESC>[48C1003424<ESC>[9C48    1003376   1%% /dev
+tmpfs<ESC>[48C204720      11108     193612   6%% /run
+/dev/sda1<ESC>[42C15616412    2904464   11912000  20%% /
+tmpfs<ESC>[47C1023600<ESC>[10C0    1023600   0%% /dev/shm
+tmpfs<ESC>[50C5120<ESC>[10C0<ESC>[7C5120   0%% /run/lock
+tmpfs<ESC>[47C1023600<ESC>[10C0    1023600   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430al 2031313280 1431503232  437305088  77%% /users/usc430al
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  921649920 1815118464  34%% /proj/USC430
+tmpfs<ESC>[48C204720<ESC>[10C0     204720   0%% /run/user/14175
+<ESC>[94m~                                        
+INPUT|usc430al-intro-92|A3 A4 A0 A2 A1 |000000000|usc430al|intro:find . -name \"\*intro*\"|
+INPUT|usc430al-intro-93|A1 A2 A0 A4 A3 |000000000|usc430al|intro:find . -name \"*.jpeg|
+INPUT|usc430al-intro-94|A3 A4 A2 A0 A1 |000000000|usc430al|intro:find . -name \".*|
+INPUT|usc430al-intro-95|A2 A0 A1 A3 A4 |000000000|usc430al|intro:find . -name \"*.jpge|
+INPUT|usc430al-intro-96|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find . -name \"*.|.
+./.forward
+./.ssl
+./.ssl/emulab.pem
+./.ssh
+./.ssh/id_rsa
+./.ssh/id_rsa.pub
+./.ssh/known_hosts
+./.ssh/id_emulab.pub
+./.ssh/authorized_keys
+./.ssh/external_keys
+./.cache
+./.cache/motd.legal-displayed
+./.bash_history
+INPUT|usc430al-intro-97|U |000000000|usc430al|intro:ficd .|
+INPUT|usc430al-intro-98|U |1548110810|usc430al|intro:ls|
+INPUT|usc430al-intro-99|A1 A2 A0 A4 A3 |000000000|usc430al|intro:find ./.cache|./.cache
+./.cache/motd.legal-displayed
+INPUT|usc430al-intro-100|A4 A3 A1 A2 A0 |000000000|usc430al|intro:findls - la|ls: cannot access '-': No such file or directory
+ls: cannot access 'la': No such file or directory
+INPUT|usc430al-intro-101|U |000000000|usc430al|intro:ls -|total 28
+drwx------  5 usc430al USC430  512 Jan 11 15:54 .
+drwxr-xr-x 64 root     root   4096 Jan 21 14:33 ..
+-rw-------  1 usc430al USC430  447 Jan 18 15:19 .bash_history
+drwx------  2 usc430al USC430  512 Jan 11 13:47 .cache
+-rw-r--r--  1 usc430al USC430   17 Jan 11 13:33 .forward
+drwx------  2 usc430al USC430  512 Jan 11 13:47 .ssh
+drwx------  2 usc430al USC430  512 Jan  9 16:18 .ssl
+INPUT|usc430al-intro-102|U |000000000|usc430al|intro:ls -|.  ..  .bash_history  .cache  .forward .ssh  .ssl
+INPUT|usc430al-intro-103|U |1548112473|usc430al|intro:ls *|ls: cannot access '*': No such file or directory
+INPUT|usc430al-intro-104|U |1548112494|usc430al|intro:clear|
+INPUT|usc430al-intro-105|U |1548112497|usc430al|intro:ls -a|.  ..  .bash_history  .cache  .forward .ssh  .ssl
+INPUT|usc430al-intro-106|U |1548112520|usc430al|intro:ls -d */|ls: cannot access '*/': No such file or directory
+INPUT|usc430al-intro-107|U |1548112540|usc430al|intro:ls *.jpg|ls: cannot access '*.jpg': No such file or directory
+INPUT|usc430al-intro-108|U |000000000|usc430al|intro:ls *.jpe|ls: cannot access '*.jpeg': No such file or directory
+INPUT|usc430al-intro-109|U |000000000|usc430al|intro:lss "|ls: cannot access '*.jpeg': No such file or directory
+INPUT|usc430al-intro-110|U |000000000|usc430al|intro:ls \"-a|.  ..  .bash_history  .cache  .forward .ssh  .ssl
+INPUT|usc430al-intro-111|U |1548113313|usc430al|intro:ls|
+INPUT|usc430al-intro-112|U |000000000|usc430al|intro:ssh|
+INPUT|usc430al-intro-113|M2 |000000000|usc430al|intro:find / -name \"*.jpg\"|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+/var/log/136intro-3.jpg
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+INPUT|usc430al-intro-114|M2 |000000000|usc430al|intro:find / -name \"*.intro*|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+find: '/var/log/unattended-upgrades': Permission denied
+/var/log/136intro-3.jpg
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied<
+INPUT|usc430al-intro-115|M2 |000000000|usc430al|intro:find / -name \"*intro*\.jpg|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+/var/log/136intro-3.jpg
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+INPUT|usc430al-intro-116|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find / -name \"*intro*.jpg\" > output_of_find|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430al-intro-117|M2 |1548185875|usc430al|intro:find / -name \"*intro*.jjpg\" | less|find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+=
+find: '/var/lib/apt/lists/partial': Permission denied/var/log/136intro-3.jpg
+
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/pro
+INPUT|usc430al-intro-118|U |1548185919|usc430al|intro:tcpdump|tcpdump: eth4: You don't have permission to capture on that device
+(socket: Operation not permitted)
+INPUT|usc430al-intro-119|U |1548185927|usc430al|intro:-s|%root@intro:~# ls
+output_of_find
+root@intro:~# 
+root@intro:~# 
+root@intro:~# rm output_of_find 
+root@intro:~# ls
+root@intro:~# 
+root@intro:~# tcpdump
+tcpdump: verbose output suppressed%% use -v or -vv for full protocol decode
+listening on eth4%% link-type EN10MB (Ethernet)%% capture size 262144 bytes
+11:38:59.137141 IP pc200.isi.deterlab.net.ssh > users.isi.deterlab.net.36091: Flags [P.]%% seq 384429798:384429986%% ack 3335267609%% win 312%% options [nop%%nop%%TS val 627602 ecr 2232183639]%% length 188
+11:38:59.142379 IP pc200.isi.deterlab.net.43682 > boss.isi.deterlab.net.domain: 1927+ PTR? 1.253.168.192.in-addr.arpa. (44)
+11:38:59.143932 IP boss.isi.deterlab.net.domain > pc200.isi.deterlab.net.43682: 1927* 1/1/1 PTR users.isi.deterlab.net. (115)
+11:38:59.144074 IP pc200.isi.deterlab.net.39938 > boss.isi.deterlab.net.domain: 13380+ PTR? 200.1.168.192.in-addr.arpa. (44)
+11:38:59.146074 IP boss.isi.deterlab.net.domain > pc200.isi.deterlab.net.39
+INPUT|usc430al-intro-120|A3 A4 A2 A0 A1 |000000000|usc430al|intro:find / -name "*intro*.JPEG|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430al-intro-121|A4 A3 A1 A2 A0 |000000000|usc430al|intro:find / -name \"*intro*.JPEG\"|
+INPUT|usc430al-intro-122|A3 A4 A0 A2 A1 |000000000|usc430al|intro:find / -name "*.jpg"|
+INPUT|usc430al-intro-123|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find / -name "*Intro*.jfif"|
+INPUT|usc430al-intro-124|A1 A2 A0 A4 A3 |1548191593|usc430al|intro:find / -name "*intro*.jpg" | less|
+INPUT|usc430al-intro-125|A1 A2 A0 A4 A3 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-126|A1 A2 A0 A4 A3 |000000000|usc430al|intro:find / -name \"*intro*.JPEG\"|
+INPUT|usc430al-intro-127|A3 A4 A2 A0 A1 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-128|A1 A0 A2 A4 A3 |000000000|usc430al|intro:find / -name \"*intro*.JPEG\"|
+INPUT|usc430al-intro-129|A4 A3 A1 A0 A2 |000000000|usc430al|intro:find / -name "*.jpg"|
+INPUT|usc430al-intro-130|A1 A2 A0 A4 A3 |000000000|usc430al|intro:find / -name "*INTRO*.jpg"|
+INPUT|usc430al-intro-131|A2 A0 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.jpg"|
+INPUT|usc430al-intro-132|A4 A3 A1 A2 A0 |000000000|usc430al|intro:find / -name "*INTRO*.jpg"|
+INPUT|usc430al-intro-133|A4 A3 A1 A0 A2 |000000000|usc430al|intro:find / -name "*INTRO*.jpg"|
+INPUT|usc430al-intro-134|U |000000000|usc430al|intro:cd /|
+INPUT|usc430al-intro-135|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430al-intro-136|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find / -name \"*intro*.JPEG\"|
+INPUT|usc430al-intro-137|A4 A3 A1 A2 A0 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-138|A2 A0 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-139|M2 |000000000|usc430al|intro:find / -name "*intro*.jpg" | less|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+<ESC>[?1049h<ESC>[?1h<ESC>=
+find: /var/log/136intro-3.jpg
+'/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/ta
+INPUT|usc430al-intro-140|A4 A3 A1 A0 A2 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-141|A3 A4 A0 A2 A1 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-142|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.jpg" | less|
+INPUT|usc430al-intro-143|A3 A4 A0 A2 A1 |000000000|usc430al|intro:find / -name \"*intro*.jJPEG"|
+INPUT|usc430al-intro-144|A4 A3 A1 A0 A2 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-145|A4 A3 A1 A0 A2 |000000000|usc430al|intro:find / -name "*.jpg"|
+INPUT|usc430al-intro-146|A4 A3 A1 A0 A2 |000000000|usc430al|intro:find / -name "*INTRO*.jpg"|
+INPUT|usc430al-intro-147|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.jpg"|
+INPUT|usc430al-intro-148|U |000000000|usc430al|intro:ssh node1.hw1-exp-USC430alusc430al|
+INPUT|usc430al-intro-149|A2 A0 A1 A3 A4 |000000000|usc430al|intro:find ./.cache -name "*"|
+INPUT|usc430al-intro-150|A2 A0 A1 A3 A4 |000000000|usc430al|intro:find . -name "*intro*"|
+INPUT|usc430al-intro-151|U |000000000|usc430al|intro:diff /tmp/hashresults /tmp/hashes|
+INPUT|usc430al-intro-152|U |000000000|usc430al|intro:sha256sum /usr/bin/* > /tmp/hashresults|
+INPUT|usc430al-intro-153|U |000000000|usc430al|intro:diff /tmp/hashresults /tmp/hashes|
+INPUT|usc430al-intro-154|U |000000000|usc430al|intro:sha256sum * > /tmp/hashresults|
+INPUT|usc430al-intro-155|U |000000000|usc430al|intro:sha256sum * > hashresults|
+INPUT|usc430al-intro-156|U |000000000|usc430al|intro:sha256sum * > hashresults|
+INPUT|usc430al-intro-157|U |000000000|usc430al|intro:sha256sum * > hashresults|
+INPUT|usc430al-intro-158|U |000000000|usc430al|intro:sha256sum * > /tmp/hashresults|
+INPUT|usc430al-intro-159|U |000000000|usc430al|intro:diff /tmp/hashresults /tmp/hashes|
+INPUT|usc430al-intro-160|U |000000000|usc430al|intro:less /tmp/hashresults|
+INPUT|usc430al-intro-161|U |000000000|usc430al|intro:sha256sum /usr/bin/* > /tmp/hashresults|
+INPUT|usc430al-intro-162|U |000000000|usc430al|intro:diff /tmp/hashresults /tmp/hashes|
+INPUT|usc430al-intro-163|A4 A3 A1 A2 A0 |000000000|usc430al|intro:find . -name "*intro*"|
+INPUT|usc430al-intro-164|A2 A0 A1 A3 A4 |000000000|usc430al|intro:find ./.cache -name "*"|
+INPUT|usc430al-intro-165|A1 A0 A2 A4 A3 |000000000|usc430al|intro:find ./.cache -name "*"|
+INPUT|usc430al-intro-166|U |000000000|usc430al|intro:ssh node1.hw1-exp-USC430alusc430al|
+INPUT|usc430al-intro-167|A3 A4 A2 A0 A1 |000000000|usc430al|intro:find / -name "*intro*.jpg"|
+INPUT|usc430al-intro-168|A3 A4 A0 A2 A1 |000000000|usc430al|intro:find / -name "*INTRO*.jpg"|
+INPUT|usc430al-intro-169|A1 A0 A2 A4 A3 |000000000|usc430al|intro:find / -name "*Intro*.jfif"|
+INPUT|usc430al-intro-170|A3 A4 A2 A0 A1 |000000000|usc430al|intro:find / -name "*intro*.jpg" | less|
+INPUT|usc430al-intro-171|A1 A2 A0 A4 A3 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-172|A3 A4 A0 A2 A1 |000000000|usc430al|intro:find / -name "*intro*.jpg" | less|
+INPUT|usc430al-intro-173|U |1548191792|usc430al|intro:ls|
+INPUT|usc430al-intro-174|A3 A4 A2 A0 A1 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-175|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-176|A2 A0 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-177|U |000000000|usc430al|intro:cd /|
+INPUT|usc430al-intro-178|U |1548191798|usc430al|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430al-intro-179|A3 A4 A0 A2 A1 |000000000|usc430al|intro:find / -name "*intro*.jpg" | less|
+INPUT|usc430al-intro-180|U |000000000|usc430al|intro:cd root|bash: cd: root: Permission denied
+INPUT|usc430al-intro-181|U |1548210201|usc430al|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430al-intro-182|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-183|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430al-intro-184|U |000000000|usc430al|intro:fisudo|/dev/136intro-2jjaj.JPEG
+INPUT|usc430al-intro-185|A1 A2 A0 A4 A3 |000000000|usc430al|intro:find / -name \"*intro*.JJPEG|
+INPUT|usc430al-intro-186|U |1548210478|usc430al|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430al-intro-187|U |000000000|usc430al|intro:cd usr|
+INPUT|usc430al-intro-188|U |1548210490|usc430al|intro:ls|bin  games  include  lib  local  sbin  share  src  testbed
+INPUT|usc430al-intro-189|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-190|U |1548210496|usc430al|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430al-intro-191|U |000000000|usc430al|intro:cd home|
+INPUT|usc430al-intro-192|U |1548210502|usc430al|intro:ls|deter
+INPUT|usc430al-intro-193|U |000000000|usc430al|intro:cd deter|
+INPUT|usc430al-intro-194|U |1548210507|usc430al|intro:ls|
+INPUT|usc430al-intro-195|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-196|U |1548210514|usc430al|intro:ls|deter
+INPUT|usc430al-intro-197|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-198|U |1548210531|usc430al|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430al-intro-199|U |000000000|usc430al|intro:cd users|
+INPUT|usc430al-intro-200|U |1548210536|usc430al|intro:ls|aashraya  ekline    jaipuria  jross scuric  shareaf  shareal  sharear  shareax  sharebd  sunshine
+abhi   faber     jboman    kls2 shareaa  shareag  shaream  shareas  shareay  shareta  usc430al
+alefiya   gbartlet  jelena    melkins shareab  shareah  sharean  shareat  shareaz  sharetb
+alwabel   gerow     jgli      piobair shareac  shareai  shareao  shareau  shareba  sharetc
+bks   gknopf    jhickey   rgoodfel sharead  shareaj  shareap  shareav  sharebb  sharetd
+bloznali  glawler   jjh       schwab shareae  shareak  shareaq  shareaw  sharebc  sklower
+INPUT|usc430al-intro-201|U |000000000|usc430al|intro:cd usc430al|
+INPUT|usc430al-intro-202|U |1548210543|usc430al|intro:ls|
+INPUT|usc430al-intro-203|U |1548210555|usc430al|intro:mkdir top_secret|
+INPUT|usc430al-intro-204|U |1548210556|usc430al|intro:ls|top_secret
+INPUT|usc430al-intro-205|A1 A2 A0 A4 A3 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-206|A2 A0 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-207|M1 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|/dev/136intro-2jjaj.JPEG
+INPUT|usc430al-intro-208|U |1548210741|usc430al|intro:mv /dev/136intro-2jjaj.JPEG /users/usc430al/top_secret/|mv: cannot remove '/dev/136intro-2jjaj.JPEG': Permission denied
+INPUT|usc430al-intro-209|A0 A2 A1 A3 A4 |000000000|usc430al|intro:sudo|
+INPUT|usc430al-intro-210|U |1548210751|usc430al|intro:ls|top_secret
+INPUT|usc430al-intro-211|U |000000000|usc430al|intro:cd top_secret|
+INPUT|usc430al-intro-212|U |1548210759|usc430al|intro:ls|136intro-2jjaj.JPEG
+INPUT|usc430al-intro-213|U |000000000|usc430al|intro:cd ..|
+INPUT|usc430al-intro-214|U |1548210768|usc430al|intro:ls|top_secret
+INPUT|usc430al-intro-215|U |000000000|usc430al|intro:mv /dev/136intro-2jjaj.JPEG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-216|U |000000000|usc430al|intro:mv /dev/136intro-2jjaj.JPEG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-217|M3 |000000000|usc430al|intro:find / -name "*intro*.JPG|/etc/wuer136intro-4.JPG
+INPUT|usc430al-intro-218|A1 A0 A2 A4 A3 |000000000|usc430al|intro:find / -name \"*intro*.JPG\"|
+INPUT|usc430al-intro-219|U |000000000|usc430al|intro:mv /etc/wuer136intro-4|
+INPUT|usc430al-intro-220|U |1548211261|usc430al|intro:mv /etc/wuer136intro-4.JPG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-221|A1 A0 A2 A4 A3 |000000000|usc430al|intro:find / -name "*I|
+INPUT|usc430al-intro-222|M2 |000000000|usc430al|intro:find / -name \"*Iintro*.jpg|/var/log/136intro-3.jpg
+INPUT|usc430al-intro-223|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find / -name \"*iIntro*.JPG"|
+INPUT|usc430al-intro-224|U |000000000|usc430al|intro:mv /etc/wuer136intro-4.JPG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-225|A3 A4 A2 A0 A1 |000000000|usc430al|intro:find / -name "*intro*.JPG"|
+INPUT|usc430al-intro-226|U |000000000|usc430al|intro:mv /var/log/136intro-3.jpg|
+INPUT|usc430al-intro-227|U |1548211710|usc430al|intro:mv /var/log/136intro-3.jpg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-228|M4 |000000000|usc430al|intro:find / -name "*I|/.hidden/asdf136Intro-5kqlw.jpeg
+INPUT|usc430al-intro-229|A3 A4 A0 A2 A1 |000000000|usc430al|intro:find / -name \"*Intro*.jpeg\"|
+INPUT|usc430al-intro-230|U |000000000|usc430al|intro:mv /.hidden/asdf136Intro-5kqlw/jpeg|mv: cannot stat '/.hidden/asdf136Intro-5kqlw/jpeg': No such file or directory
+INPUT|usc430al-intro-231|U |000000000|usc430al|intro:mv /.hidden/asdf136Intro-5kqlw.|
+INPUT|usc430al-intro-232|U |1548211792|usc430al|intro:mv /.hidden/asdf136Intro-5kqlw/jpeg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-233|M0 |000000000|usc430al|intro:find / -name "*INTRO|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430al-intro-234|A1 A0 A2 A4 A3 |000000000|usc430al|intro:find / -name \"*INTRO*.jpg\"|
+INPUT|usc430al-intro-235|U |000000000|usc430al|intro:mv /usr/share/pixmaps/xbzf136INTRO-1|
+INPUT|usc430al-intro-236|U |1548211869|usc430al|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-237|A4 A3 A1 A2 A0 |000000000|usc430al|intro:find / -name "*intro|/users/usc430al/top_secret/wuer136intro-4.JPG
+INPUT|usc430al-intro-238|A4 A3 A1 A0 A2 |000000000|usc430al|intro:find / -name \"*intro*.JPGE|/users/usc430al/top_secret/136intro-2jjaj.JPEG
+INPUT|usc430al-intro-239|A1 A0 A2 A4 A3 |000000000|usc430al|intro:find / -name \"*intro*.JPEG\"|
+INPUT|usc430al-intro-240|U |1548211910|usc430al|intro:ls|top_secret
+INPUT|usc430al-intro-241|U |000000000|usc430al|intro:cd top_secret/|
+INPUT|usc430al-intro-242|U |1548211915|usc430al|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430al-intro-243|U |000000000|usc430al|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-244|U |000000000|usc430al|intro:mv /.hidden/asdf136Intro-5kqlw/jpeg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-245|U |000000000|usc430al|intro:mv /var/log/136intro-3.jpg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-246|U |000000000|usc430al|intro:mv /etc/wuer136intro-4.JPG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-247|A3 A4 A0 A2 A1 |000000000|usc430al|intro:find / -name "*intro*.JPG"|
+INPUT|usc430al-intro-248|U |000000000|usc430al|intro:mv /dev/136intro-2jjaj.JPEG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-249|U |000000000|usc430al|intro:mv /etc/wuer136intro-4.JPG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-250|U |000000000|usc430al|intro:mv /var/log/136intro-3.jpg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-251|U |000000000|usc430al|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-252|U |000000000|usc430al|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-253|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-254|U |1548212395|usc430al|intro:cat >answers.txt|Original Location   File Name
+/^[[D^[[D^H^H^H^H^H^H
+INPUT|usc430al-intro-255|U |1548212539|usc430al|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430al-intro-256|U |000000000|usc430al|intro:answers.txt|answers.txt: command not found
+INPUT|usc430al-intro-257|U |1548212652|usc430al|intro:vim answers.txt|%=<C2><BD>  ]11;?"answers.txt" [noeol] 3L%% 65COriginal LocationFile Name
+/^[[D^[[D^H^H^H^H^H^H
+/usr/share/pixmaps/xv
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                
+INPUT|usc430al-intro-258|U |1548212737|usc430al|intro:ls|136intro-2jjaj.JPEG  answers.txt       [dit]    xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+INPUT|usc430al-intro-259|U |000000000|usc430al|intro:del [dit]|%No command 'del' found%% did you mean:
+ Command 'delp' from package 'fp-utils-3.0.0' (universe)
+ Command 'el' from package 'oneliner-el' (universe)
+ Command 'dll' from package 'brickos' (universe)
+ Command 'hdel' from package 'hfsutils' (main)
+ Command 'tel' from package 'orville-write' (universe)
+ Command 'qdel' from package 'gridengine-client' (universe)
+ Command 'qdel' from package 'slurm-wlm-torque' (universe)
+ Command 'qdel' from package 'torque-client' (universe)
+ Command 'qdel' from package 'torque-client-x11' (universe)
+ Command 'mdel' from package 'mtools' (main)
+ Command 'wdel' from package 'wput' (universe)
+ Command 'deal' from package 'deal' (universe)
+ Command 'dex' from package 'dex' (universe)
+ Command 'delv' from package 'bind9' (main)
+ Command 'bel' from package 'belier' (universe)
+del: command not found%
+INPUT|usc430al-intro-260|U |000000000|usc430al|intro:del|%No command 'del' found%% did you mean:
+ Command 'dex' from package 'dex' (universe)
+ Command 'mdel' from package 'mtools' (main)
+ Command 'delv' from package 'bind9' (main)
+ Command 'qdel' from package 'torque-client-x11' (universe)
+ Command 'qdel' from package 'torque-client' (universe)
+ Command 'qdel' from package 'slurm-wlm-torque' (universe)
+ Command 'qdel' from package 'gridengine-client' (universe)
+ Command 'hdel' from package 'hfsutils' (main)
+ Command 'tel' from package 'orville-write' (universe)
+ Command 'delp' from package 'fp-utils-3.0.0' (universe)
+ Command 'wdel' from package 'wput' (universe)
+ Command 'bel' from package 'belier' (universe)
+ Command 'deal' from package 'deal' (universe)
+ Command 'el' from package 'oneliner-el' (universe)
+ Command 'dll' from package 'brickos' (universe)
+del: command not found%
+INPUT|usc430al-intro-261|U |1548212895|usc430al|intro:rm [dit]|
+INPUT|usc430al-intro-262|U |1548212896|usc430al|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430al-intro-263|U |1548212963|usc430al|intro:vim|%=<C2><BD>  ]11;?"answers.txt" [noeol] 3L%% 65COriginal LocationFile Name
+/^[[D^[[D^H^H^H^H^H^H
+/usr/share/pixmaps/xv
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                
+INPUT|usc430al-intro-264|U |1548212997|usc430al|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430al-intro-265|U |1548213013|usc430al|intro:vim|%=<C2><BD>  ]11;?~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                      
+INPUT|usc430al-intro-266|U |000000000|usc430al|intro:lsl|%No command 'lsl' found%% did you mean:
+ Command 'wsl' from package 'wsl' (universe)
+ Command 'psl' from package 'psl' (universe)
+ Command 'ls' from package 'coreutils' (main)
+ Command 'lsw' from package 'suckless-tools' (universe)
+ Command 'sl' from package 'sl' (universe)
+ Command 'lsh' from package 'lsh-client' (universe)
+ Command 'lsx' from package 'suckless-tools' (universe)
+lsl: command not found%
+INPUT|usc430al-intro-267|U |1548213394|usc430al|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430al-intro-268|U |1548213400|usc430al|intro:vim answers.txt|%=<C2><BD>  ]11;?"answers.txt" [noeol] 3L%% 65COriginal LocationFile Name
+/^[[D^[[D^H^H^H^H^H^H
+/usr/share/pixmaps/xv
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                
+INPUT|usc430al-intro-269|U |000000000|usc430al|intro:vim|%<ESC>[?1049h<ESC>[?1h<ESC>=<ESC>[2;1H<C2><BD><ESC>[6n<ESC>[2;1H  <ESC>[1;1H<ESC>]11;?<BEL><ESC>[1;30r<ESC>[?12;25h<ESC>[?12l<ESC>[?25h<ESC>[27m<ESC>[23m<ESC>[m<ESC>[H<ESC>[2J<ESC>[>c<ESC>[?25l<ESC>[2;1H<ESC>[94m~                                                                                                                       <ESC>[3;1H~                                                                                                                       <ESC>[4;1H~                                                                                                                       <ESC>[5;1H~                                                                                                                       <ESC>[6;1H~                                                                                                                       <ESC>[7;1H~                                                                                                                       <ESC>[8;1H~       
+INPUT|usc430al-intro-270|U |000000000|usc430al|intro:vim|%<ESC>[?1049h<ESC>[?1h<ESC>=<ESC>[2;1H<C2><BD><ESC>[6n<ESC>[2;1H  <ESC>[1;1H<ESC>]11;?<BEL><ESC>[1;30r<ESC>[?12;25h<ESC>[?12l<ESC>[?25h<ESC>[27m<ESC>[23m<ESC>[m<ESC>[H<ESC>[2J<ESC>[>c<ESC>[?25l<ESC>[2;1H<ESC>[94m~                                                                                                                       <ESC>[3;1H~                                                                                                                       <ESC>[4;1H~                                                                                                                       <ESC>[5;1H~                                                                                                                       <ESC>[6;1H~                                                                                                                       <ESC>[7;1H~                                                                                                                       <ESC>[8;1H~       
+INPUT|usc430al-intro-271|U |1548219047|usc430al|intro:vim answers.txt|%=<C2><BD>  ]11;?"answers.txt" [noeol] 3L%% 65COriginal LocationFile Name
+/^[[D^[[D^H^H^H^H^H^H
+/usr/share/pixmaps/xv
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                
+INPUT|usc430al-intro-272|U |000000000|usc430al|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430al-intro-273|U |000000000|usc430al|intro:vim answers.txt|%<ESC>[?1049h<ESC>[?1h<ESC>=<ESC>[2;1H<C2><BD><ESC>[6n<ESC>[2;1H  <ESC>[1;1H<ESC>]11;?<BEL><ESC>[1;30r<ESC>[?12;25h<ESC>[?12l<ESC>[?25h<ESC>[27m<ESC>[23m<ESC>[m<ESC>[H<ESC>[2J<ESC>[?25l<ESC>[30;1H"answers.txt" 6L%% 206C<ESC>[>c<ESC>[1;1HOriginal Location<ESC>[15CFile Name
+/usr/share/pixmaps/<ESC>[13Cxbzf136INTRO-1.jpg
+/.hidden/<ESC>[23Casdf136Intro-5kqlw.jpeg
+/var/log/<ESC>[23C136intro-3.jpg
+/etc/<ESC>[27Cwuer136intro-4.JPG
+/dev/<ESC>[27C136intro-2jjaj.JPEG
+<ESC>[94m~                                                                                                                       <ESC>[8;1H~                                                                                                                       <ESC>[9;1H~                                                                                                                       <ESC>[10;1H~                                                                                                                       
+INPUT|usc430al-intro-274|U |000000000|usc430al|intro:scp xbxf136INTRO-1.jpg usc430al@users.deterlab.net|
+INPUT|usc430al-intro-275|U |000000000|usc430al|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-276|U |000000000|usc430al|intro:mv /.hidden/asdf136Intro-5kqlw/jpeg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-277|U |000000000|usc430al|intro:mv /var/log/136intro-3.jpg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-278|U |000000000|usc430al|intro:mv /etc/wuer136intro-4.JPG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-279|A4 A3 A1 A0 A2 |000000000|usc430al|intro:find / -name "*intro*.JPG"|
+INPUT|usc430al-intro-280|U |000000000|usc430al|intro:mv /etc/wuer136intro-4.JPG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-281|U |000000000|usc430al|intro:mv /etc/wuer136intro-4.JPG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-282|A1 A2 A0 A4 A3 |000000000|usc430al|intro:find / -name "*intro*.JPG"|
+INPUT|usc430al-intro-283|U |000000000|usc430al|intro:mv /dev/136intro-2jjaj.JPEG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-284|U |000000000|usc430al|intro:mv /dev/136intro-2jjaj.JPEG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-285|A4 A3 A1 A0 A2 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-286|A0 A2 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-287|A1 A2 A0 A4 A3 |000000000|usc430al|intro:find / -name "*intro*.jpg" | less|
+INPUT|usc430al-intro-288|U |000000000|usc430al|intro:ssh node1.hw1-exp-USC430alusc430al|
+INPUT|usc430al-intro-289|U |000000000|usc430al|intro:diff /tmp/hashresults /tmp/hashes|
+INPUT|usc430al-intro-290|U |000000000|usc430al|intro:sha256sum /usr/bin/* > /tmp/hashresults|
+INPUT|usc430al-intro-291|U |000000000|usc430al|intro:diff /tmp/hashresults /tmp/hashes|
+INPUT|usc430al-intro-292|U |000000000|usc430al|intro:diff /tmp/hashresults /tmp/hashes|
+INPUT|usc430al-intro-293|U |000000000|usc430al|intro:sha256sum /usr/bin/* > /tmp/hashresults|
+INPUT|usc430al-intro-294|U |000000000|usc430al|intro:diff /tmp/hashresults /tmp/hashes|
+INPUT|usc430al-intro-295|A3 A4 A0 A2 A1 |000000000|usc430al|intro:find / -name "*intro*.jpg" | less|
+INPUT|usc430al-intro-296|A4 A3 A1 A0 A2 |000000000|usc430al|intro:find / -name "*intro*.jpg" | less|
+INPUT|usc430al-intro-297|A2 A0 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-298|A2 A0 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-299|U |000000000|usc430al|intro:mv /dev/136intro-2jjaj.JPEG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-300|U |000000000|usc430al|intro:mv /dev/136intro-2jjaj.JPEG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-301|U |000000000|usc430al|intro:mv /etc/wuer136intro-4.JPG /users/usc430al/top_secret/|
+INPUT|usc430al-intro-302|U |000000000|usc430al|intro:mv /var/log/136intro-3.jpg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-303|U |000000000|usc430al|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-304|U |000000000|usc430al|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg /users/usc430al/top_secret/|
+INPUT|usc430al-intro-305|A2 A0 A1 A3 A4 |000000000|usc430al|intro:find / -name "*intro*.JPEG"|
+INPUT|usc430al-intro-306|U |000000000|usc430al|intro:scp|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430al-intro-307|U |000000000|usc430al|intro:scp xbzf136INTRO-1.jpg usc430al@users.deterlab.net|
+INPUT|usc430al-intro-308|U |000000000|usc430al|intro:ls|136intro-2jjaj.JPEG  answers.txt       usc430al@users.deterlab.net  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+INPUT|usc430al-intro-309|U |000000000|usc430al|intro:vim usc430al\@users.deterlab.net|%<ESC>[?1049h<ESC>[?1h<ESC>=<ESC>[2;1H<C2><BD><ESC>[6n<ESC>[2;1H  <ESC>[1;1H<ESC>]11;?<BEL><ESC>[1;30r<ESC>[?12;25h<ESC>[?12l<ESC>[?25h<ESC>[27m<ESC>[23m<ESC>[m<ESC>[H<ESC>[2J<ESC>[?25l<ESC>[30;1H"usc430al@users.deterlab.net" [noeol] 111L%% 23932C<ESC>[>c<ESC>[1;1H<C3><BF><C3><98><C3><BF><C3><A0><ESC>[34m^@^P<ESC>[mJFIF<ESC>[34m^@^A^B^@^@<ESC>[md<ESC>[34m^@<ESC>[md<ESC>[34m^@^@<ESC>[m<C3><BF><C3><NOT><ESC>[34m^@^Q<ESC>[mDucky<ESC>[34m^@^A^@^D^@^@^@<ESC>[m-<ESC>[34m^@^@<ESC>[m<C3><BF><C3><REG><ESC>[34m^@<ESC>[m!Adobe<ESC>[34m^@<ESC>[md<C3><EURO><ESC>[34m^@^@^@^A^C^@^P^C^C^F<ESC>[m  <ESC>[34m^@^@^[<ESC>[mH<ESC>[34m^@^@<ESC>[m6K<ESC>[34m^@^@<ESC>[m]z<C3><BF><C3><9b><ESC>[34m^@~~<ESC>[2;1HD^@
+^G^G^G^H^G
+^H^H
+^N<ESC>[m  <ESC>[34m^H<ESC>[m  <ESC>[34m^N^Q^M
+
+^M^Q^T^P^P^Q^P^P^T^S^O^Q^P^P^Q^O^S^S^W^W^Y^W^W^S^^^^<ESC>[m  <ESC>[34m^^^^<ESC>[m%%+++%%1111111111<ESC>[34m^A^K<ESC>[7C^K^L^K^M^K^K^M^Q^N^N^N^Q^T^N^N^N^N^TT<ESC>[8;1H^X^P^P^Q^P^P^X^^^V^S^S^S^S^V^^^[^]^Y^Y^Y^]^[<ESC>[m!!<ESC
+INPUT|usc430al-intro-310|U |000000000|usc430al|intro:rm usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-311|U |000000000|usc430al|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430al-intro-312|U |000000000|usc430al|intro:rm usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-313|U |000000000|usc430al|intro:vim usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-314|U |000000000|usc430al|intro:vim usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-315|U |000000000|usc430al|intro:rm usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-316|U |000000000|usc430al|intro:rm usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-317|U |000000000|usc430al|intro:vim usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-318|U |000000000|usc430al|intro:vim usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-319|U |000000000|usc430al|intro:rm usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-320|U |000000000|usc430al|intro:rm usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-321|U |000000000|usc430al|intro:vim usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-322|U |000000000|usc430al|intro:rm usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-323|U |000000000|usc430al|intro:rm usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-324|U |000000000|usc430al|intro:vim usc430al\@users.deterlab.net|
+INPUT|usc430al-intro-325|U |000000000|usc430al|intro:vim answers.txt|%<ESC>[?1049h<ESC>[?1h<ESC>=<ESC>[2;1H<C2><BD><ESC>[6n<ESC>[2;1H  <ESC>[1;1H<ESC>]11;?<BEL><ESC>[1;30r<ESC>[?12;25h<ESC>[?12l<ESC>[?25h<ESC>[27m<ESC>[23m<ESC>[m<ESC>[H<ESC>[2J<ESC>[?25l<ESC>[30;1H"answers.txt" 6L%% 206C<ESC>[>c<ESC>[1;1HOriginal Location<ESC>[15CFile Name
+/usr/share/pixmaps/<ESC>[13Cxbzf136INTRO-1.jpg
+/.hidden/<ESC>[23Casdf136Intro-5kqlw.jpeg
+/var/log/<ESC>[23C136intro-3.jpg
+/etc/<ESC>[27Cwuer136intro-4.JPG
+/dev/<ESC>[27C136intro-2jjaj.JPEG
+<ESC>[94m~                                                                                                                       <ESC>[8;1H~                                                                                                                       <ESC>[9;1H~                                                                                                                       <ESC>[10;1H~                                                                                                                       
+INPUT|usc430al-intro-326|U |000000000|usc430al|intro:^C|

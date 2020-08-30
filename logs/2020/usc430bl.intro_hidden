@@ -1,0 +1,404 @@
+User usc430bl start time 1580237888 end 1580259124
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430bl-intro-0|U |000000000|usc430bl|:|
+INPUT|usc430bl-intro-1|U |000000000|usc430bl|:|
+INPUT|usc430bl-intro-2|U |1580237888|usc430bl|intro:mkdir top_secret |
+INPUT|usc430bl-intro-3|U |1580237890|usc430bl|intro:cd top_secret/|
+INPUT|usc430bl-intro-4|U |1580237896|usc430bl|intro:touch answers.txt|
+INPUT|usc430bl-intro-5|U |1580237899|usc430bl|intro:emacs answers.txt |48d-111:----F1  *scratch*      All L1     (Fundamental) ---------------------------------------------------
+A2d49dLoading 00debian-vars...done
+/etc/emacs/site-start.d/50autoconf.el (source)...
+done
+tcsh.el (source)...
+done
+>0c49dLoading /etc/emacs/site-start.d/50tcsh.el (source)...doneFile Edit Options Buffers Tools Lisp-Interaction Help                                                   
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  *scratch*      All L1     (Lisp Interaction) ----------------------------------------------
+A2d49dFor information about GNU Emacs and the GNU system type C-h C-a.
+49dFor information about GNU Emacs and the GNU system type C-h C-a.File Edit Options Buffers Tools Text Help                                                               
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  answers.txt    All L1     (Text) ----------------------------------------------------------
+A2d49d2de*49dBeginning of buffer
+49dEnd
+49dBeginning
+49d2d49
+INPUT|usc430bl-intro-6|U |1580238273|usc430bl|intro:cd ..   |
+INPUT|usc430bl-intro-7|U |1580238275|usc430bl|intro:ls |top_secret  toupee.txt	usc430bl.txt  wig.txt
+
+INPUT|usc430bl-intro-8|U |1580238322|usc430bl|intro:cd proj|bash: cd: proj: No such file or directory
+
+INPUT|usc430bl-intro-9|A0 A2 A3 A1 A4 |1580238337|usc430bl|intro:find . -name "*intro*"|
+INPUT|usc430bl-intro-10|A1 A4 A2 A3 A0 |1580238349|usc430bl|intro:find . -name "*toupee*"|./toupee.txt
+
+INPUT|usc430bl-intro-11|U |1580238366|usc430bl|intro:cd ..|
+INPUT|usc430bl-intro-12|U |1580238367|usc430bl|intro:dir|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430bl
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430bl-intro-13|U |1580238374|usc430bl|intro:cd ..|
+INPUT|usc430bl-intro-14|U |1580238375|usc430bl|intro:dir|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430bl-intro-15|A1 A4 A0 A2 A3 |1580238382|usc430bl|intro:find . -name "*intro*"|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+^C;1580238391
+
+INPUT|usc430bl-intro-16|A3 A2 A0 A1 A4 |1580238392|usc430bl|intro:find . -name "*intro*"|Hint - The command appears to be missing parameters or options
+
+INPUT|usc430bl-intro-17|M2 |1580238415|usc430bl|intro:find . -name "*intro*.jpg" -o -name "*intro*.jpeg"|find: './tmp/systemd-private-a874a73e2e4849bfbb472318d800f87b-systemd-resolved.service-g6G2jS': Permission denied
+find: './tmp/systemd-private-a874a73e2e4849bfbb472318d800f87b-systemd-timesyncd.service-Uzv7hx': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430bl-intro-18|M2 |1580238528|usc430bl|intro:find . -name "*intro*.jpg" -o -name "*intro*.jpeg" | grep -v "Permission denied"|find: './tmp/systemd-private-a874a73e2e4849bfbb472318d800f87b-systemd-resolved.service-g6G2jS': Permission denied
+find: './tmp/systemd-private-a874a73e2e4849bfbb472318d800f87b-systemd-timesyncd.service-Uzv7hx': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430bl-intro-19|M2 |1580238612|usc430bl|intro:find / -name "*intro*.jpg" -o -name "*intro*.jpeg" | grep -v "Permission"            |/var/log/136intro-3.jpg
+
+INPUT|usc430bl-intro-20|M4 M3 M2 M1 M0 |1580238698|usc430bl|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" | grep -v "Permission"|/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bl-intro-21|M4 M3 M2 M1 M0 |1580239387|usc430bl|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg"                       |/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bl-intro-22|U |1580239462|usc430bl|intro:mkdir ~/hw1|
+INPUT|usc430bl-intro-23|M4 M3 M2 M1 M0 |1580239663|usc430bl|intro:find / -iname "*intro*.jpg" -o -iname "*intro*.jpeg" | xargs -p cp $1 ~/hw1|cp /users/usc430bl/hw1 /.hidden/asdf136Intro-5kqlw.jpeg /usr/share/pixmaps/xbzf136INTRO-1.jpg /var/log/136intro-3.jpg /etc/wuer136intro-4.JPG /dev/136intro-2jjaj.JPEG ?...no;1580239704
+
+INPUT|usc430bl-intro-24|U |1580240035|usc430bl|intro:cd ~/hw1   |
+INPUT|usc430bl-intro-25|U |1580240036|usc430bl|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430bl-intro-26|U |1580240268|usc430bl|intro:dir|answers.txt
+
+INPUT|usc430bl-intro-27|U |1580240317|usc430bl|intro:cd ..|
+INPUT|usc430bl-intro-28|U |1580240326|usc430bl|intro:cp hw1/* ./top_secret|
+INPUT|usc430bl-intro-29|U |1580240328|usc430bl|intro:cd top_secret/|
+INPUT|usc430bl-intro-30|U |1580240329|usc430bl|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430bl-intro-31|U |1580240344|usc430bl|intro:nano answers.txt|
+
+INPUT|usc430bl-intro-32|U |1580240456|usc430bl|intro:cat answers.txt |1: /usr/share/pixmaps/xbzf136INTRO-1.jpg : "Forbidden Planet"
+2: /dev/136intro-2jjaj.JPEG : "Godzilla"
+3: /var/log/136intro-3.jpg : "It Came From Outer Space"
+4: /etc/wuer136intro-4.JPG : "The Fly"
+5: /.hidden/asdf136Intro-5kqlw.jpeg : "2001: A Space Odyssey"
+
+INPUT|usc430bl-intro-33|U |1580254407|usc430bl|intro:ls|hw1  top_secret  toupee.txt  usc430bl.txt  wig.txt
+
+INPUT|usc430bl-intro-34|U |1580254410|usc430bl|intro:cd top_secret/|
+INPUT|usc430bl-intro-35|U |1580254414|usc430bl|intro:nano answers.txt |
+
+INPUT|usc430bl-intro-36|M6 |1580254448|usc430bl|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989776         48     989728   1%% /dev
+tmpfs                                                204108       5736     198372   3%% /run
+/dev/sda1                                          15681948    3252816   11629184  22%% /
+tmpfs                                               1020540          0    1020540   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020540          0    1020540   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1380346112 1356422144  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430bl 2031313280 1234551808  634256384  67%% /users/usc430bl
+tmpfs                                                204108          0     204108   0%% /run/user/15245
+
+INPUT|usc430bl-intro-37|U |1580254473|usc430bl|intro:touch diskfree.txt|
+INPUT|usc430bl-intro-38|A6 |1580254478|usc430bl|intro:df > diskfree.txt |
+INPUT|usc430bl-intro-39|M5 |1580254491|usc430bl|intro:less /proc/cpuinfo|processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping        : 1
+microcode       : 0x17
+cpu MHz         : 2992.715
+cache size      : 1024 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips        : 5985.43
+clflush size    : 64
+cache_alignment : 128
+address sizes   : 36 bits physical 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Inte
+INPUT|usc430bl-intro-40|U |1580254508|usc430bl|intro:nano answers.txt |
+
+INPUT|usc430bl-intro-41|U |1580254555|usc430bl|intro:cat diskfree.txt |Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989776         48     989728   1%% /dev
+tmpfs                                                204108       5736     198372   3%% /run
+/dev/sda1                                          15681948    3252828   11629172  22%% /
+tmpfs                                               1020540          0    1020540   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020540          0    1020540   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1380346112 1356422144  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430bl 2031313280 1234551808  634256384  67%% /users/usc430bl
+tmpfs                                                204108          0     204108   0%% /run/user/15245
+
+INPUT|usc430bl-intro-42|U |1580254594|usc430bl|intro:nano answers.txt |
+
+INPUT|usc430bl-intro-43|U |1580256562|usc430bl|server:cd top_secret/|
+INPUT|usc430bl-intro-44|U |1580256569|usc430bl|server:python server.py |starting up on localhost port 80
+Traceback (most recent call last):
+  File \"server.py\" line 16 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430bl-intro-45|U |1580256583|usc430bl|server:python server.py|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 24 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bl-intro-46|U |1580256776|usc430bl|server:python|Python 2.7.15rc1 (default Nov 12 2018 14:31:15) 
+[GCC 7.3.0] on linux2
+Type \"help\" \"copyright\" \"credits\" or \"license\" for more information.
+>>> import socket;1580256787
+>>> import sys;1580256788
+>>> gethostname();1580256793
+Traceback (most recent call last):
+  File \"<stdin>\" line 1 in <module>
+NameError: name 'gethostname' is not defined
+>>> quit();1580257024
+
+INPUT|usc430bl-intro-47|U |1580257027|usc430bl|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35560)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 35560)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    print >>sys.stderr 'waiting for a connection'
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bl-intro-48|U |1580258592|usc430bl|server:mkdir tmp|
+INPUT|usc430bl-intro-49|U |1580258629|usc430bl|server:ls /tmp|systemd-private-24a595822815464fbc66a937928f06a6-systemd-resolved.service-WnLPzI
+systemd-private-24a595822815464fbc66a937928f06a6-systemd-timesyncd.service-WbFOWO
+
+INPUT|usc430bl-intro-50|U |1580258636|usc430bl|server:ls ./tmp/*|./tmp/404.html	./tmp/test.html
+
+INPUT|usc430bl-intro-51|U |1580258661|usc430bl|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 35580)
+waiting for a connection
+connection from ('10.1.1.2' 35582)
+waiting for a connection
+connection from ('10.1.1.2' 35584)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 27 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430bl-intro-52|U |1580259044|usc430bl|server:cat answers.txt |Benjamin Ma
+benjamjm@usc.edu
+usc430bl
+
+1. Treasure Hunt
+
+1: /usr/share/pixmaps/xbzf136INTRO-1.jpg : \"Forbidden Planet\"
+2: /dev/136intro-2jjaj.JPEG : \"Godzilla\"
+3: /var/log/136intro-3.jpg : \"It Came From Outer Space\"
+4: /etc/wuer136intro-4.JPG : \"The Fly\"
+5: /.hidden/asdf136Intro-5kqlw.jpeg : \"2001: A Space Odyssey\"
+
+2. Information Hunt
+
+1. The /var directory contains files which in turn contain data that the system writes during standard operation such as cached data variable game data lock files log files spool files dynamic libraries and variable system information.
+2. The /dev directory contains device files for all connected devices which are created during their installation.
+3. see diskfree.txt
+4. GenuineIntel
+
+INPUT|usc430bl-intro-53|U |1580259059|usc430bl|server:ls| 136intro-2jjaj.JPEG   answers.txt		 diskfree.txt   wuer136intro-4.JPG
+ 136intro-3.jpg        asdf136Intro-5kqlw.jpeg	 server.py      xbzf136INTRO-1.jpg
+'#answers.txt#'        client.py		 tmp
+
+INPUT|usc430bl-intro-54|U |1580259091|usc430bl|server:cd ..|
+INPUT|usc430bl-intro-55|U |1580259122|usc430bl|server:tar cvzf benjamin-ma-intro.tar.gz top_secret|top_secret/
+top_secret/answers.txt
+top_secret/diskfree.txt
+top_secret/136intro-2jjaj.JPEG
+top_secret/136intro-3.jpg
+top_secret/asdf136Intro-5kqlw.jpeg
+top_secret/wuer136intro-4.JPG
+top_secret/xbzf136INTRO-1.jpg
+top_secret/#answers.txt#
+top_secret/client.py
+top_secret/server.py
+top_secret/tmp/
+top_secret/tmp/404.html
+top_secret/tmp/test.html
+
+INPUT|usc430bl-intro-56|U |1580259124|usc430bl|server:ls|benjamin-ma-intro.tar.gz  hw1  top_secret  toupee.txt  usc430bl.txt  wig.txt
+

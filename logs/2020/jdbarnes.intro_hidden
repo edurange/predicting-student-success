@@ -1,0 +1,179 @@
+User jdbarnes start time 1576620648 end 1578950755
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|jdbarnes-intro-0|U |000000000|jdbarnes|:|
+INPUT|jdbarnes-intro-1|U |000000000|jdbarnes|:|
+INPUT|jdbarnes-intro-2|U |1576620648|jdbarnes|nodeA:hostnamectl|   Static hostname: ubuntu
+Transient hostname: nodea.basic-experiment.detertest.isi.deterlab.net
+         Icon name: computer
+        Machine ID: 5ba4a79402dd4b6691a057a30e6489a2
+           Boot ID: a72b82642b8e48569766017f4f14ccfa
+  Operating System: Ubuntu 18.04.1 LTS
+            Kernel: Linux 4.15.0-43-generic
+      Architecture: x86-64
+
+INPUT|jdbarnes-intro-3|U |1576620674|jdbarnes|nodeA:vim /usr/local/etc/emulab/emulab-networkd.sh |"/usr/local/etc/emulab/emulab-networkd.sh" [readonly] 174L 5989C½6n  >csed -re 's/^([^=]*)=(.*\s+.*)/\1="\2"/' /run/systemd/netif/leases/$ifindex \
+    > /run/emulab/control-netif-lease
+    . /run/emulab/control-netif-lease
+elif [ -e /run/systemd/netif/leases/* ]; then
+    echo "`date`: ${iface}: unexpected leases file with mismatched ifindex; attempting to use anyway to write cnet metadata in $BOOTDIR" >>$LOGFILE 2>&1
+    for f in /run/systemd/netif/leases/* ; do
+    sed -re 's/^([^=]*)=(.*\s+.*)/\1="\2"/' $f \>> /run/emulab/control-netif-lease
+    done
+    . /run/emulab/control-netif-lease
+else
+    echo "`date`: ${iface}: no leases file in /run/systemd/netif/leases; cannot write cnet metadata in $BOOTDIR; failing!" >>$LOGFILE 2>&1
+    exit 1
+fi
+
+# Actually do the metadata file writes.    
+echo $SERVER_ADDRESS > $BOOTDIR/bossip
+echo $HOSTNAME > $BOOTDIR/realname
+echo $ROUTER > $BOOTDIR/routerip
+echo $ADDRESS > $BOOTDIR/myip
+echo $NETMASK > $BOOTDIR/mynetmask
+echo $DOMAINNAME > $BOOTDI
+INPUT|jdbarnes-intro-4|U |1576620688|jdbarnes|nodeA:vim /usr/local/etc/emulab/emulab-networkd.sh |"/usr/local/etc/emulab/emulab-networkd.sh" 174L 5989C½6n  >csed -re 's/^([^=]*)=(.*\s+.*)/\1="\2"/' /run/systemd/netif/leases/$ifindex \
+    > /run/emulab/control-netif-lease
+    . /run/emulab/control-netif-lease
+elif [ -e /run/systemd/netif/leases/* ]; then
+    echo "`date`: ${iface}: unexpected leases file with mismatched ifindex; attempting to use anyway to write cnet metadata in $BOOTDIR" >>$LOGFILE 2>&1
+    for f in /run/systemd/netif/leases/* ; do
+    sed -re 's/^([^=]*)=(.*\s+.*)/\1="\2"/' $f \>> /run/emulab/control-netif-lease
+    done
+    . /run/emulab/control-netif-lease
+else
+    echo "`date`: ${iface}: no leases file in /run/systemd/netif/leases; cannot write cnet metadata in $BOOTDIR; failing!" >>$LOGFILE 2>&1
+    exit 1
+fi
+
+# Actually do the metadata file writes.    
+echo $SERVER_ADDRESS > $BOOTDIR/bossip
+echo $HOSTNAME > $BOOTDIR/realname
+echo $ROUTER > $BOOTDIR/routerip
+echo $ADDRESS > $BOOTDIR/myip
+echo $NETMASK > $BOOTDIR/mynetmask
+echo $DOMAINNAME > $BOOTDIR/mydomain
+
+INPUT|jdbarnes-intro-5|U |1576620828|jdbarnes|nodeA:cat /etc/passwd|root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd
+INPUT|jdbarnes-intro-6|U |1578949001|jdbarnes|nodeA:hostnamectl|   Static hostname: ubuntu
+Transient hostname: nodea.basic-experiment.detertest.isi.deterlab.net
+         Icon name: computer
+        Machine ID: 5ba4a79402dd4b6691a057a30e6489a2
+           Boot ID: 76303f97f08347f096c590dda87523b7
+  Operating System: Ubuntu 18.04.1 LTS
+            Kernel: Linux 4.15.0-43-generic
+      Architecture: x86-64
+(reverse-i-search)`grep': ^Cep physical /proc/cpuinfo 
+
+INPUT|jdbarnes-intro-7|U |1578949024|jdbarnes|nodeA:grep -i hostname /var/log/syslog | less|Jan  5 17:45:24 ubuntu kernel: [    1.006725] systemd[1]: Set hostname to <ubuntu>.
+Jan  5 17:45:24 ubuntu systemd-resolved[258]: Using system hostname 'ubuntu'.
+Jan  5 17:45:58 ubuntu systemd-resolved[1674]: Using system hostname 'ubuntu'.
+Nov 29 11:56:15 ubuntu systemd-networkd[764]: Not connected to system bus not setting hostname.
+Nov 29 11:56:15 ubuntu systemd-resolved[811]: Using system hostname 'ubuntu'.
+Nov 29 11:56:15 ubuntu kernel: [   13.998737] systemd[1]: Set hostname to <ubuntu>.
+Nov 29 11:56:15 ubuntu dbus-daemon[927]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.0' (uid=100 pid=764 comm=\"/lib/systemd/systemd-networkd \" label=\"unconfined\")
+Nov 29 11:56:16 ubuntu systemd[1]: Starting Hostname Service...
+Nov 29 11:56:17 ubuntu dbus-daemon[927]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Nov 29 11:56:17 ubuntu systemd[1]: Started Hostname Service.
+Nov 29 
+INPUT|jdbarnes-intro-8|U |1578949233|jdbarnes|nodeA:cat /27Pvar/emulab/logs/dhclient.loglient|Resetting hostname to nodea.creat-log-29nov.modeling.isi.deterlab.net ... Done!
+Resetting hostname to nodea.creat-log-29nov.modeling.isi.deterlab.net ... Done!
+Resetting hostname to nodea.basic-experiment.detertest.isi.deterlab.net ... Done!
+Resetting hostname to nodea.basic-experiment.detertest.isi.deterlab.net ... Done!
+
+INPUT|jdbarnes-intro-9|U |1578950127|jdbarnes|nodeA:which /bin/l|less        lessecho    lessfile    lesskey     lesspipe    ln          loadkeys    login       loginctl    lowntfs-3g  ls          lsblk       lsmod       
+
+INPUT|jdbarnes-intro-10|U |1578950130|jdbarnes|nodeA:which /bin/logg|
+INPUT|jdbarnes-intro-11|U |1578950315|jdbarnes|nodeA:hostnamectl|   Static hostname: nodea.basic-experiment.detertest.isi.deterlab.net
+         Icon name: computer
+        Machine ID: 5ba4a79402dd4b6691a057a30e6489a2
+           Boot ID: a55631c58ac840b78093964e5746a2bb
+  Operating System: Ubuntu 18.04.1 LTS
+            Kernel: Linux 4.15.0-43-generic
+      Architecture: x86-64
+
+INPUT|jdbarnes-intro-12|U |1578950330|jdbarnes|nodeA:ls -lah /var/lib/lxd/|total 8.0K
+drwxr-xr-x  2 ntp  nogroup 4.0K Jan 13 13:17 .
+drwxr-xr-x 40 root root    4.0K Jan  5  2019 ..
+srw-rw----  1 root root       0 Jan 13 13:17 unix.socket
+
+INPUT|jdbarnes-intro-13|U |1578950333|jdbarnes|nodeA:grep lxd /etc/passwd|(failed reverse-i-search)`reinstall': g^Cp lxd /etc/passwd
+
+INPUT|jdbarnes-intro-14|U |1578950355|jdbarnes|nodeA:apt install --reinstall lxd|Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  python3-netifaces
+Use 'sudo apt autoremove' to remove it.
+0 upgraded 0 newly installed 1 reinstalled 0 to remove and 306 not upgraded.
+Need to get 5199 kB of archives.
+After this operation 0 B of additional disk space will be used.
+Get:1 http://scratch/ubuntu bionic-updates/main amd64 lxd amd64 3.0.3-0ubuntu1~18.04.1 [5199 kB]
+Fetched 5199 kB in 0s (31.0 MB/s)
+(Reading database ... 154834 files and directories currently installed.)
+Preparing to unpack .../lxd_3.0.3-0ubuntu1~18.04.1_amd64.deb ...
+76;0fProgress: [  0%%] [.......................................................................................................................................................................................................................................................................................................] 76;
+INPUT|jdbarnes-intro-15|U |1578950424|jdbarnes|nodeA:grep lxd /etc/group|lxd:x:118:
+
+INPUT|jdbarnes-intro-16|U |1578950445|jdbarnes|nodeA:chown -R lxd:lxd /var/lib/lxd/|
+INPUT|jdbarnes-intro-17|U |1578950600|jdbarnes|nodeA:systemctl status|* nodea.basic-experiment.detertest.isi.deterlab.net
+    State: running
+     Jobs: 0 queued
+   Failed: 0 units
+    Since: Mon 2020-01-13 13:22:32 PST; 48s ago
+   CGroup: /
+           |-user.slice
+           | `-user-18656.slice
+           |   |-user@18656.service
+           |   | `-init.scope
+           |   |   |-1756 /lib/systemd/systemd --user
+           |   |   `-1764 (sd-pam)
+           |   `-session-1.scope
+           |     |-1747 sshd: jdbarnes [priv]
+           |     |-1884 sshd: jdbarnes@pts/0
+           |     |-1886 bash -c /usr/local/src/script.sh
+           |     |-1887 bash /usr/local/src/start_ttylog.sh;1578950600
+           |     |-1913 sudo /usr/local/src/ttylog/ttylog pts/0
+           |     |-1914 bash
+           |     |-1917 waiting for pts/0 (1919)
+           |     |-1919 strace -e readwrite -s16384 -q -x -ttt -o |/usr/local/src/ttylog/ttylog -r - -o - -p 1884
+           |     |-1921 sh -c /usr/local/src/ttylog/ttylog -r - -o -
+           |     |-1922 /usr/bin/perl -w 
+INPUT|jdbarnes-intro-18|U |1578950605|jdbarnes|nodeA:hostnamectl|   Static hostname: nodea.basic-experiment.detertest.isi.deterlab.net
+         Icon name: computer
+        Machine ID: 5ba4a79402dd4b6691a057a30e6489a2
+           Boot ID: 337de608d1504651b0dba8d7820d72cc
+  Operating System: Ubuntu 18.04.1 LTS
+            Kernel: Linux 4.15.0-43-generic
+      Architecture: x86-64
+
+INPUT|jdbarnes-intro-19|U |1578950755|jdbarnes|nodeA:grep -i hostname /var/log/syslog | lessog | less|Jan  5 17:45:24 ubuntu kernel: [    1.006725] systemd[1]: Set hostname to <ubuntu>.
+Jan  5 17:45:24 ubuntu systemd-resolved[258]: Using system hostname 'ubuntu'.
+Jan  5 17:45:58 ubuntu systemd-resolved[1674]: Using system hostname 'ubuntu'.
+Nov 29 11:56:15 ubuntu systemd-networkd[764]: Not connected to system bus not setting hostname.
+Nov 29 11:56:15 ubuntu systemd-resolved[811]: Using system hostname 'ubuntu'.
+Nov 29 11:56:15 ubuntu kernel: [   13.998737] systemd[1]: Set hostname to <ubuntu>.
+Nov 29 11:56:15 ubuntu dbus-daemon[927]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.0' (uid=100 pid=764 comm=\"/lib/systemd/systemd-networkd \" label=\"unconfined\")
+Nov 29 11:56:16 ubuntu systemd[1]: Starting Hostname Service...
+Nov 29 11:56:17 ubuntu dbus-daemon[927]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Nov 29 11:56:17 ubuntu systemd[1]: Started Hostname Service.
+Nov 29 

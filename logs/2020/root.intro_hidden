@@ -1,0 +1,65 @@
+User root start time 1580889154 end 1582522208
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|root-intro-0|U |000000000|root|:|
+INPUT|root-intro-1|U |000000000|root|:|
+INPUT|root-intro-2|U |1580889154|root|intro:ssh intro.hw1-usc430ac.usc430.isi.deterlab.net|ssh: connect to host intro.hw1-usc430ac.usc430.isi.deterlab.net port 22: No route to host
+
+INPUT|root-intro-3|U |1580889186|root|intro:su usc430ac|usc430ac@intro:/users/usc430ta$ cd;1580889195
+usc430ac@intro:~$ ls;1580889198
+usc430ac@intro:~$ exit;1580889216
+exit
+
+INPUT|root-intro-4|U |1580889219|root|intro:exit|exit
+
+INPUT|root-intro-5|U |1580889271|root|intro:su usc430ac|usc430ac@intro:/users/usc430ta$ cd;1580889274
+usc430ac@intro:~$ ssh intro.hw1-usc430ac.USC430.isi.deterlab.net;1580889296
+ssh: connect to host intro.hw1-usc430ac.usc430.isi.deterlab.net port 22: No route to host
+usc430ac@intro:~$ ls;1580889307
+usc430ac@intro:~$ pwd
+/users/usc430ac
+usc430ac@intro:~$ ls;1580889320
+usc430ac@intro:~$ ;1580889321
+usc430ac@intro:~$ cd;1580889327
+usc430ac@intro:~$ ;1580889328
+usc430ac@intro:~$ exit;1580889330
+exit
+
+INPUT|root-intro-6|U |1580889337|root|intro:exit|exit
+
+INPUT|root-intro-7|U |1581133812|root|intro:su usc430ao|usc430ao@intro:/users/usc430ta$ ;1581133819
+usc430ao@intro:/users/usc430ta$ ;1581133819
+usc430ao@intro:/users/usc430ta$ ;1581133819
+usc430ao@intro:/users/usc430ta$ cd;1581133821
+usc430ao@intro:~$ ls;1581133822
+usc430ao@intro:~$ ;1581133823
+usc430ao@intro:~$ pwd;1581133824
+/users/usc430ao
+usc430ao@intro:~$ ;1581133825
+usc430ao@intro:~$ ls -alh;1581133835
+total 24K
+drwxr-xr-x  2 usc430ao USC430 4.0K Feb  7 19:48 .
+drwxr-xr-x 81 root     root   4.0K Feb  7 19:48 ..
+-rw-r--r--  1 usc430ao USC430  220 Apr  4  2018 .bash_logout
+-rw-r--r--  1 usc430ao USC430 3.7K Apr  4  2018 .bashrc
+-rw-r--r--  1 usc430ao USC430   26 Feb  7 19:48 .forward
+-rw-r--r--  1 usc430ao USC430  807 Apr  4  2018 .profile
+usc430ao@intro:~$ ;1581133839
+usc430ao@intro:~$ ;1581133841
+usc430ao@intro:~$ ;1581133843
+usc430ao@intro:~$ ;1581133843
+usc430ao@intro:~$ cd ..;1581133857
+usc430ao@intro:/users$ ls;1581133859
+aashraya  giotah    paullepe  sunshine  usc430ad  usc430ak  usc430ar  usc430ay  usc430bf  usc430bm  usc430bt  
+INPUT|root-intro-8|U |1581133989|root|intro:exit|exit
+
+INPUT|root-intro-9|U |1582521680|root|intro:cd /us|users/ usr/   
+
+INPUT|root-intro-10|U |1582521685|root|intro:cd /usr/|bin/     games/   include/ lib/     local/   sbin/    share/   src/     testbed/ 
+
+INPUT|root-intro-11|U |1582521691|root|intro:cd /usr/src/|i40e-2.0.19/                     linux-headers-4.15.0-20-generic/ linux-headers-4.15.0-43-generic/ 
+linux-headers-4.15.0-20/         linux-headers-4.15.0-43/         
+
+INPUT|root-intro-12|U |1582522204|root|intro:cd /usr/src/|
+INPUT|root-intro-13|U |1582522206|root|intro:cd|
+INPUT|root-intro-14|U |1582522208|root|intro:exit|exit
+

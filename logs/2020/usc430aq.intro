@@ -1,0 +1,366 @@
+User usc430aq start time 1580446617 end 1580505609
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430aq-intro-0|U |000000000|usc430aq|:|
+INPUT|usc430aq-intro-1|U |000000000|usc430aq|:|
+INPUT|usc430aq-intro-2|U |1580446617|usc430aq|intro:ls|file.txt  thomas.png  usc430aq.txt
+
+INPUT|usc430aq-intro-3|A1 A4 A0 A2 A3 |1580446725|usc430aq|intro:find . -name "intro*"|
+INPUT|usc430aq-intro-4|A2 A3 A0 A1 A4 |1580446758|usc430aq|intro:find / -name "intro*"|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+find: '/tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-resolved.service-VRlcnB': Permission denied
+find: '/tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-timesyncd.service-v6VDSv': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: 
+INPUT|usc430aq-intro-5|A4 A1 A2 A3 A0 |1580446801|usc430aq|intro:find / -name "intro*.jpeg""|> ;1580446809
+> ^C
+
+INPUT|usc430aq-intro-6|A0 A2 A3 A1 A4 |1580446818|usc430aq|intro:find / -name "intro*.jpeg"|find: '/tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-resolved.service-VRlcnB': Permission denied
+find: '/tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-timesyncd.service-v6VDSv': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/3/task/3/fd'
+INPUT|usc430aq-intro-7|A4 A1 A2 A3 A0 |1580446834|usc430aq|intro:find . -name "intro*.jpeg"|
+INPUT|usc430aq-intro-8|U |1580446836|usc430aq|intro:cd ..|
+INPUT|usc430aq-intro-9|U |1580446837|usc430aq|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430aq
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430aq-intro-10|A1 A4 A0 A2 A3 |1580446852|usc430aq|intro:find . -name "intro*.jpeg"|
+INPUT|usc430aq-intro-11|U |1580446869|usc430aq|intro:cd usc 430aq|bash: cd: too many arguments
+
+INPUT|usc430aq-intro-12|U |1580446872|usc430aq|intro:cd usc430aq|
+INPUT|usc430aq-intro-13|U |1580446874|usc430aq|intro:ls|file.txt  thomas.png  usc430aq.txt
+
+INPUT|usc430aq-intro-14|A0 A2 A3 A4 A1 |1580446887|usc430aq|intro:find . -name "intro*"|
+INPUT|usc430aq-intro-15|A0 A2 A3 A4 A1 |1580446922|usc430aq|intro:find -name "intro*"|
+INPUT|usc430aq-intro-16|U |1580447024|usc430aq|intro:ssh intro.hw1-usc430aq.USC430.isi.deterlab.net|Warning: Permanently added the RSA host key for IP address '192.168.1.171' to the list of known hosts.
+
+INPUT|usc430aq-intro-17|U |1580447031|usc430aq|intro:ls|file.txt  thomas.png  usc430aq.txt
+
+INPUT|usc430aq-intro-18|A2 A3 A0 A1 A4 |1580447057|usc430aq|intro:find -name "intro*"|
+INPUT|usc430aq-intro-19|A0 A2 A3 A4 A1 |1580447063|usc430aq|intro:find . -name "intro*"|
+INPUT|usc430aq-intro-20|A1 A4 A3 A2 A0 |1580447147|usc430aq|intro:find ~ -iname '*jpeg'|
+INPUT|usc430aq-intro-21|A1 A4 A0 A2 A3 |1580447153|usc430aq|intro:find . -iname '*jpeg'|
+INPUT|usc430aq-intro-22|A2 A3 A0 A1 A4 |1580447161|usc430aq|intro:find . -iname 'jpeg'|
+INPUT|usc430aq-intro-23|A4 A1 A3 A2 A0 |1580447186|usc430aq|intro:find . -iname 'intro'|
+INPUT|usc430aq-intro-24|U |1580447196|usc430aq|intro:cd ..|
+INPUT|usc430aq-intro-25|A0 A2 A3 A4 A1 |1580447197|usc430aq|intro:find . -iname 'intro'|
+INPUT|usc430aq-intro-26|U |1580447203|usc430aq|intro:cd ..|
+INPUT|usc430aq-intro-27|A1 A4 A0 A2 A3 |1580447204|usc430aq|intro:find . -iname 'intro'|find: './tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-resolved.service-VRlcnB': Permission denied
+find: './tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-timesyncd.service-v6VDSv': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430aq-intro-28|U |1580447222|usc430aq|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430aq-intro-29|A1 A4 A0 A2 A3 |1580447234|usc430aq|intro:find . -iname 'intro'|
+INPUT|usc430aq-intro-30|M4 M1 |1580447256|usc430aq|intro:find . -iname '*jpeg'|./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/s5p-jpeg
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430aq-intro-31|A0 A2 A3 A1 A4 |1580447267|usc430aq|intro:find . -iname 'intro*.jpeg'|
+INPUT|usc430aq-intro-32|A4 A1 A0 A2 A3 |1580447285|usc430aq|intro:find . -iname 'intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/doc/bash/INTRO.gz
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./etc/apparmor.d/abstractions/apparmor_api/introspect
+./proj/USC430/images/sigs/intro.ndz.sig
+./proj/USC430/images/intro.ndz
+./proj/USC430/intro.ns
+./proj/USC430/intro.ns~
+./proj/USC430/intro.sh
+
+INPUT|usc430aq-intro-33|U |1580447358|usc430aq|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430aq-intro-34|U |1580447360|usc430aq|intro:cd proj|
+INPUT|usc430aq-intro-35|U |1580447362|usc430aq|intro:ls|Modeling  USC430
+
+INPUT|usc430aq-intro-36|U |1580447365|usc430aq|intro:cd usc430|bash: cd: usc430: No such file or directory
+
+INPUT|usc430aq-intro-37|U |1580447370|usc430aq|intro:cd USC430|
+INPUT|usc430aq-intro-38|U |1580447371|usc430aq|intro:LS|;1580447371
+Command 'LS' not found but can be installed with:
+
+apt install sl
+Please ask your administrator.
+
+
+INPUT|usc430aq-intro-39|U |1580447372|usc430aq|intro:ls| 11	    exp		    john-1.8.0.9-jumbo-macosx_v3.zip   REDTEAM.info   start.sh	    team3.hash
+ 292	    fixresolve.sh  'login?user=realuser'	       rpms	      tarfiles	    team3-pass
+ 65	    gethashes.pl   'login?user=username'	       score	      team1.hash    team3.stats
+ bd.cron    groups	    logs			       scoreCTF2      team1-pass    team4-pass
+ cctf2.ns   host.conf	    milestones			       scorer.conf    team1-pass~   team5-pass
+ cctf.ns    images	    newdir			       server	      team1.stats   team6-pass
+ CTF2	    intro.ns	    nmap.ns			       startips       team2.hash    templates
+ CTF_Bank   intro.ns~	    pulllogs.pl			       startnc	      team2-pass    tiplogs
+ deltas     intro.sh	    RED2			       start.pl       team2-pass~   webserver.c
+
+INPUT|usc430aq-intro-40|U |1580447385|usc430aq|intro:cd exp|
+INPUT|usc430aq-intro-41|U |1580447386|usc430aq|intro:ls|bank1	    dos1	      hw1-pt3-usc430ad	   hw1-usc430ar  hw1-usc430be	  jexploits	  synf
+bank2	    dos2	      hw1-server-usc430bl  hw1-usc430au  hw1-usc430bh	  jtrydns	  test
+bank3	    dos3	      hw1-usc430ab	   hw1-usc430ax  hw1-usc430bi	  modeling	  test2
+bank4	    exp		      hw1-usc430ad	   hw1-usc430az  hw1-usc430bi-p3  nmap		  testhij
+calc	    hash	      hw1-usc430ag	   hw1-usc430ba  hw1-usc430bl	  pl
+cookies     hierlCCTF	      hw1-usc430ao	   hw1-usc430bb  hw3		  ServerClient
+ctfggalaxy  hw1-ClientServer  hw1-usc430aq	   hw1-usc430bd  jelenaavb	  sunshine-intro
+
+INPUT|usc430aq-intro-42|U |1580447392|usc430aq|intro:ls|archive  bin  containers  count.intro  datastore  logs	swapinfo  tbdata  tftpboot  tmp
+
+INPUT|usc430aq-intro-43|U |1580447410|usc430aq|intro:cd logs|
+INPUT|usc430aq-intro-44|U |1580447411|usc430aq|intro:ls|event-sched.log  feedback.log
+
+INPUT|usc430aq-intro-45|U |1580447417|usc430aq|intro:cd ..|
+INPUT|usc430aq-intro-46|A0 A2 A3 A4 A1 |1580447427|usc430aq|intro:find . -iname 'intro'|
+INPUT|usc430aq-intro-47|U |1580447438|usc430aq|intro:cd ~|
+INPUT|usc430aq-intro-48|U |1580447440|usc430aq|intro:ls|file.txt  thomas.png  usc430aq.txt
+
+INPUT|usc430aq-intro-49|A2 A3 A0 A4 A1 |1580447447|usc430aq|intro:find . -iname 'intro'|
+INPUT|usc430aq-intro-50|A0 A2 A3 A4 A1 |1580447450|usc430aq|intro:find . -iname 'intro*'|
+INPUT|usc430aq-intro-51|A0 A2 A3 A4 A1 |1580447517|usc430aq|intro:find . -iname  |find: missing argument to `-iname'
+
+INPUT|usc430aq-intro-52|A4 A1 A0 A2 A3 |1580447519|usc430aq|intro:find . -iname *|find: paths must precede expression: `thomas.png'
+find: possible unquoted pattern after predicate `-iname'?
+
+INPUT|usc430aq-intro-53|A1 A4 A0 A2 A3 |1580447522|usc430aq|intro:find . -iname '*'|.
+./.forward
+./.ssl
+./.ssl/emulab.pem
+./.ssh
+./.ssh/id_rsa
+./.ssh/id_rsa.pub
+./.ssh/known_hosts
+./.ssh/id_emulab.pub
+./.ssh/authorized_keys
+./.ssh/external_keys
+./.gnupg
+./.gnupg/private-keys-v1.d
+./.cache
+./.cache/motd.legal-displayed
+./.bash_history
+./file.txt
+./usc430aq.txt
+./thomas.png
+./.local
+./.local/share
+./.local/share/nano
+./.local/share/nano/search_history
+
+INPUT|usc430aq-intro-54|A2 A3 A0 A1 A4 |1580447562|usc430aq|intro:find . -iname '*jpg'|
+INPUT|usc430aq-intro-55|A4 A1 A2 A3 A0 |1580447564|usc430aq|intro:find . -iname '*jpeg'|
+INPUT|usc430aq-intro-56|A1 A4 A0 A2 A3 |1580447580|usc430aq|intro:find ~ -iname '*jpeg'|
+INPUT|usc430aq-intro-57|U |1580447638|usc430aq|intro:ls |file.txt  thomas.png  usc430aq.txt
+
+INPUT|usc430aq-intro-58|M4 |1580447646|usc430aq|intro:find / -iname '*jpeg'|/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+/usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+/usr/src/linux-headers-4.15.0-43/drivers/media/platform/mtk-jpeg
+/usr/src/linux-headers-4.15.0-43/drivers/media/platform/s5p-jpeg
+find: '/tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-resolved.service-VRlcnB': Permission denied
+find: '/tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-timesyncd.service-v6VDSv': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permiss
+INPUT|usc430aq-intro-59|U |1580447662|usc430aq|intro:ls|file.txt  thomas.png  usc430aq.txt
+
+INPUT|usc430aq-intro-60|U |1580447663|usc430aq|intro:cd .|
+INPUT|usc430aq-intro-61|U |1580447665|usc430aq|intro:cd ..|
+INPUT|usc430aq-intro-62|U |1580447667|usc430aq|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430aq
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430aq-intro-63|A4 A1 A0 A2 A3 |1580447675|usc430aq|intro:find . -iname '*jpeg'|
+INPUT|usc430aq-intro-64|U |1580447677|usc430aq|intro:cd ..|
+INPUT|usc430aq-intro-65|M4 M1 |1580447678|usc430aq|intro:find . -iname '*jpeg'|./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/s5p-jpeg
+find: './tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-resolved.service-VRlcnB': Permission denied
+find: './tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-timesyncd.service-v6VDSv': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/t
+INPUT|usc430aq-intro-66|A3 A2 A0 A4 A1 |1580447691|usc430aq|intro:find . -iname 'intro*.jpeg'|find: './tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-resolved.service-VRlcnB': Permission denied
+find: './tmp/systemd-private-23033f33f6584e59ae410855df61af78-systemd-timesyncd.service-v6VDSv': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430aq-intro-67|A3 A2 A0 A1 A4 |1580447700|usc430aq|intro:find . -iname 'intro*.jpeg'|
+INPUT|usc430aq-intro-68|M4 M1 |1580447883|usc430aq|intro:find . -iname '*.jpeg'|./.hidden/asdf136Intro-5kqlw.jpeg
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430aq-intro-69|M3 M2 M0 |1580447904|usc430aq|intro:find . -iname '*.jpg' |./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+
+INPUT|usc430aq-intro-70|A1 A4 A3 A2 A0 |1580447919|usc430aq|intro:find . -iname 'intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/doc/bash/INTRO.gz
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./etc/apparmor.d/abstractions/apparmor_api/introspect
+./proj/USC430/images/sigs/intro.ndz.sig
+./proj/USC430/images/intro.ndz
+./proj/USC430/intro.ns
+./proj/USC430/intro.ns~
+./proj/USC430/intro.sh
+
+INPUT|usc430aq-intro-71|M4 M1 |1580447937|usc430aq|intro:find . -iname '*intro*.jpeg'|./.hidden/asdf136Intro-5kqlw.jpeg
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430aq-intro-72|A1 A4 A3 A2 A0 |1580447989|usc430aq|intro:find . ( -iname '*intro*.jpeg' -o -iname '*intro*.jpg' )|bash: syntax error near unexpected token `('
+
+INPUT|usc430aq-intro-73|M4 M3 M2 M1 M0 |1580448025|usc430aq|intro:find . \( -iname '*intro*.jpeg' -o -iname '*intro*.jpg' \)|./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430aq-intro-74|M4 M3 M2 M1 M0 |1580448235|usc430aq|intro:find . \( -iname '*intro*.jpeg' -o -iname '*intro*.jpg' \) | xargs -I{}  scp '{}|> ' ~/;1580448247
+cp: cannot stat './.hidden/asdf136Intro-5kqlw.jpeg'$'\
+': No such file or directory
+cp: cannot stat './usr/share/pixmaps/xbzf136INTRO-1.jpg'$'\
+': No such file or directory
+cp: cannot stat './var/log/136intro-3.jpg'$'\
+': No such file or directory
+cp: cannot stat './etc/wuer136intro-4.JPG'$'\
+': No such file or directory
+cp: cannot stat './dev/136intro-2jjaj.JPEG'$'\
+': No such file or directory
+
+INPUT|usc430aq-intro-75|A4 A1 A0 A2 A3 |1580448264|usc430aq|intro:find . \( -iname '*intro*.jpeg' -o -iname '*intro*.jpg' \) | xargs -I{}  scp '{}|A
+
+INPUT|usc430aq-intro-76|A0 A2 A3 A1 A4 |1580448267|usc430aq|intro:find . \( -iname '*intro*.jpeg' -o -iname '*intro*.jpg' \) | xargs -I{}  scp '{}'|
+INPUT|usc430aq-intro-77|U |1580448292|usc430aq|intro:ls |bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430aq-intro-78|U |1580448294|usc430aq|intro:cd users|
+INPUT|usc430aq-intro-79|U |1580448296|usc430aq|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430aq
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430aq-intro-80|U |1580448299|usc430aq|intro:cd usc430aq|
+INPUT|usc430aq-intro-81|U |1580448300|usc430aq|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  file.txt	thomas.png  usc430aq.txt  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430aq-intro-82|U |1580505594|usc430aq|intro:                                                       |Display all 1658 possibilities? (y or n);1580505597
+
+INPUT|usc430aq-intro-83|M6 |1580505609|usc430aq|intro:df -H|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              1.1G   50k  1.1G   1%% /dev
+tmpfs                                             209M  6.2M  203M   3%% /run
+/dev/sda1                                          17G  3.4G   12G  22%% /
+tmpfs                                             1.1G     0  1.1G   0%% /dev/shm
+tmpfs                                             5.3M     0  5.3M   0%% /run/lock
+tmpfs                                             1.1G     0  1.1G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430aq  2.1T  1.3T  710G  63%% /users/usc430aq
+users.isi.deterlab.net:/mnt/projects/proj/USC430  3.1T  1.5T  1.4T  51%% /proj/USC430
+tmpfs                                             209M     0  209M   0%% /run/user/14180
+

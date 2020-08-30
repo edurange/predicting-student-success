@@ -1,0 +1,1929 @@
+User usc430ba start time 1580070424 end 1580580153
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ba-intro-0|U |000000000|usc430ba|:|
+INPUT|usc430ba-intro-1|U |000000000|usc430ba|:|
+INPUT|usc430ba-intro-2|U |1580070424|usc430ba|intro:ls|430bafiles.txt	430ba.txt  ba_file.txt	file.txt  usc430ba.txt
+
+INPUT|usc430ba-intro-3|U |1580070938|usc430ba|intro:rm ba_file.txt |
+INPUT|usc430ba-intro-4|U |1580070939|usc430ba|intro:ls |430bafiles.txt	430ba.txt  file.txt  usc430ba.txt
+
+INPUT|usc430ba-intro-5|U |1580070952|usc430ba|intro:rm 430bafiles.txt |
+INPUT|usc430ba-intro-6|U |1580070955|usc430ba|intro:ls|430ba.txt  file.txt  usc430ba.txt
+
+INPUT|usc430ba-intro-7|U |1580070965|usc430ba|intro:pwd|/users/usc430ba
+
+INPUT|usc430ba-intro-8|U |1580071000|usc430ba|intro:node_list|node_list: command not found
+
+INPUT|usc430ba-intro-9|U |1580071164|usc430ba|intro:cls|;1580071164
+Command 'cls' not found but there are 17 similar ones.
+
+
+INPUT|usc430ba-intro-10|U |1580071166|usc430ba|intro:clear|
+
+INPUT|usc430ba-intro-11|A4 A1 A0 A2 A3 |1580071281|usc430ba|intro:find . -name "*.jpeg"|
+INPUT|usc430ba-intro-12|A0 A2 A3 A4 A1 |1580071290|usc430ba|intro:find . -name "*.jpg"|
+INPUT|usc430ba-intro-13|U |1580071309|usc430ba|intro:ls|430ba.txt  file.txt  usc430ba.txt
+
+INPUT|usc430ba-intro-14|A0 A2 A3 A1 A4 |1580071316|usc430ba|intro:find . -name "*.txt"|./file.txt
+./usc430ba.txt
+./430ba.txt
+
+INPUT|usc430ba-intro-15|U |1580071321|usc430ba|intro:man|What manual page do you want?
+
+INPUT|usc430ba-intro-16|U |1580071324|usc430ba|intro:man find|FIND(1)                                    General Commands Manual                                   FIND(1)
+
+NAME
+       find - search for files in a directory hierarchy
+
+SYNOPSIS
+       find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
+
+DESCRIPTION
+       This  manual  page documents the GNU version of find.  GNU find searches the directory tree rooted at
+       each given starting-point by evaluating the given expression from left to  right  according  to  the
+       rules  of precedence (see section OPERATORS) until the outcome is known (the left hand side is false
+       for and operations true for or) at which point find moves on to the next file name.  If  no  start-
+       ing-point is specified `.' is assumed.
+
+       If  you are using find in an environment where security is important (for example if you are using it
+       to search directories that are writable by other users) you should  read  the  `Security  Considera-
+       tions'  chapter  o
+INPUT|usc430ba-intro-17|U |1580071362|usc430ba|intro:pwd|/users/usc430ba
+
+INPUT|usc430ba-intro-18|U |1580071368|usc430ba|intro: cd|
+INPUT|usc430ba-intro-19|U |1580071501|usc430ba|intro:cd ..|
+INPUT|usc430ba-intro-20|U |1580071502|usc430ba|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430ba
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430ba-intro-21|U |1580071536|usc430ba|intro:ls|
+INPUT|usc430ba-intro-22|U |1580071538|usc430ba|intro:ls|
+INPUT|usc430ba-intro-23|U |1580071542|usc430ba|intro:cd ../usc430ba/|
+INPUT|usc430ba-intro-24|U |1580071543|usc430ba|intro:ls|430ba.txt  file.txt  usc430ba.txt
+
+INPUT|usc430ba-intro-25|U |1580072171|usc430ba|intro:ls|430ba.txt  file.txt  usc430ba.txt
+
+INPUT|usc430ba-intro-26|A4 A1 A0 A2 A3 |1580072202|usc430ba|intro:find . -name "*.txt"|./file.txt
+./usc430ba.txt
+./430ba.txt
+
+INPUT|usc430ba-intro-27|U |1580072563|usc430ba|intro:ls -r|usc430ba.txt  file.txt	430ba.txt
+
+INPUT|usc430ba-intro-28|U |1580075490|usc430ba|intro:ls|430ba.txt  file.txt  usc430ba.txt
+
+INPUT|usc430ba-intro-29|U |1580075540|usc430ba|intro:pwd|/users/usc430ba
+
+INPUT|usc430ba-intro-30|A0 A2 A3 A1 A4 |1580075672|usc430ba|intro:find / -name "*.jpeg" | grep intro| ;1580075689
+^Z;1580075697
+[1]+  Stopped                 find / -name "*.jpeg" | grep intro
+
+INPUT|usc430ba-intro-31|M4 |1580075702|usc430ba|intro:find / -name "*.jpeg"             |/.hidden/asdf136Intro-5kqlw.jpeg
+find: '/tmp/systemd-private-c83631b738854af48a71073ca4676713-systemd-timesyncd.service-3a7zLa': Permission denied
+find: '/tmp/systemd-private-c83631b738854af48a71073ca4676713-systemd-resolved.service-5FOtKl': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission
+INPUT|usc430ba-intro-32|U |1580075760|usc430ba|intro:clear|
+
+INPUT|usc430ba-intro-33|A4 A1 A0 A2 A3 |1580075766|usc430ba|intro:find / -name "*.txt"|/users/usc430ba/file.txt
+/users/usc430ba/usc430ba.txt
+/users/usc430ba/430ba.txt
+/usr/share/ieee-data/iab.txt
+/usr/share/ieee-data/oui.txt
+/usr/share/ieee-data/mam.txt
+/usr/share/ieee-data/oui36.txt
+/usr/share/emacs/25.2/etc/gnus-tut.txt
+/usr/share/emacs/25.2/etc/enriched.txt
+/usr/share/emacs/25.2/etc/compilation.txt
+/usr/share/emacs/25.2/etc/grep.txt
+/usr/share/emacs/25.2/etc/rgb.txt
+/usr/share/doc/mount/mount.txt
+/usr/share/doc/openssl/HOWTO/keys.txt
+/usr/share/doc/openssl/fingerprints.txt
+/usr/share/doc/libdb5.3/build_signature_amd64.txt
+/usr/share/doc/publicsuffix/examples/test_psl.txt
+/usr/share/doc/python-kerberos/README.txt
+/usr/share/doc/powermgmt-base/power_supply.txt
+/usr/share/doc/linux-firmware/licenses/LICENCE.realtek-firmware.txt
+/usr/share/doc/linux-firmware/licenses/LICENCE.ralink-firmware.txt
+/usr/share/doc/linux-firmware/licenses/LICENCE.rtlwifi_firmware.txt
+/usr/share/doc/linux-firmware/licenses/LICENCE.tda7706-firmware.txt
+/usr/share/doc/apport/symptoms.txt
+/usr/shar
+INPUT|usc430ba-intro-34|U |1580075941|usc430ba|intro:clear|
+
+INPUT|usc430ba-intro-35|U |1580075947|usc430ba|intro:updatedb|
+INPUT|usc430ba-intro-36|A3 A2 A0 A4 A1 |1580075963|usc430ba|intro:locate *.txt|
+INPUT|usc430ba-intro-37|M2 M0 |1580075998|usc430ba|intro:locate *.jpg|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ba-intro-38|U |1580076011|usc430ba|intro:ls|430ba.txt  file.txt  usc430ba.txt
+
+INPUT|usc430ba-intro-39|U |1580076012|usc430ba|intro:pwd|/users/usc430ba
+
+INPUT|usc430ba-intro-40|U |1580076056|usc430ba|intro:ls /|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430ba-intro-41|U |1580076060|usc430ba|intro:cd /|
+INPUT|usc430ba-intro-42|U |1580076062|usc430ba|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430ba-intro-43|U |1580076089|usc430ba|intro:cd users/|
+INPUT|usc430ba-intro-44|U |1580076090|usc430ba|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430ba
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430ba-intro-45|U |1580076094|usc430ba|intro:cd usc430ba/|
+INPUT|usc430ba-intro-46|U |1580076148|usc430ba|intro:ls       |430ba.txt  file.txt  usc430ba.txt
+
+INPUT|usc430ba-intro-47|U |1580076159|usc430ba|intro:ls|Modeling  USC430
+
+INPUT|usc430ba-intro-48|U |1580076164|usc430ba|intro:ls| 11	    deltas	    intro.sh			       pulllogs.pl    startips	    team1.stats   team5-pass
+ 292	    exp		    john-1.8.0.9-jumbo-macosx_v3.zip   RED2	      startnc	    team2.hash	  team6-pass
+ 65	    fixresolve.sh  'login?user=realuser'	       REDTEAM.info   start.pl	    team2-pass	  templates
+ bd.cron    gethashes.pl   'login?user=username'	       rpms	      start.sh	    team2-pass~   tiplogs
+ cctf2.ns   groups	    logs			       score	      tarfiles	    team3.hash	  webserver.c
+ cctf.ns    host.conf	    milestones			       scoreCTF2      team1.hash    team3-pass
+ CTF2	    images	    newdir			       scorer.conf    team1-pass    team3.stats
+ CTF_Bank   intro.ns	    nmap.ns			       server	      team1-pass~   team4-pass
+
+INPUT|usc430ba-intro-49|U |1580076194|usc430ba|intro:cd ../..|
+INPUT|usc430ba-intro-50|U |1580076195|usc430ba|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ba-intro-51|U |1580076204|usc430ba|intro:cd users/usc430ba/|
+INPUT|usc430ba-intro-52|U |1580076205|usc430ba|intro:ls|430ba.txt  file.txt  usc430ba.txt
+
+INPUT|usc430ba-intro-53|U |1580076223|usc430ba|intro:mkdir top_secret|
+INPUT|usc430ba-intro-54|U |1580076224|usc430ba|intro:ls|430ba.txt  file.txt  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-55|U |1580076278|usc430ba|intro:cd ..|
+INPUT|usc430ba-intro-56|U |1580076279|usc430ba|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ba
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ba-intro-57|U |1580076280|usc430ba|intro:cd ..|
+INPUT|usc430ba-intro-58|U |1580076281|usc430ba|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ba-intro-59|A1 A4 A0 A2 A3 |1580076309|usc430ba|intro:find . -name "*.txt"|./users/usc430ba/file.txt
+./users/usc430ba/usc430ba.txt
+./users/usc430ba/430ba.txt
+./usr/share/ieee-data/iab.txt
+./usr/share/ieee-data/oui.txt
+./usr/share/ieee-data/mam.txt
+./usr/share/ieee-data/oui36.txt
+./usr/share/emacs/25.2/etc/gnus-tut.txt
+./usr/share/emacs/25.2/etc/enriched.txt
+./usr/share/emacs/25.2/etc/compilation.txt
+./usr/share/emacs/25.2/etc/grep.txt
+./usr/share/emacs/25.2/etc/rgb.txt
+./usr/share/doc/mount/mount.txt
+./usr/share/doc/openssl/HOWTO/keys.txt
+./usr/share/doc/openssl/fingerprints.txt
+./usr/share/doc/libdb5.3/build_signature_amd64.txt
+./usr/share/doc/publicsuffix/examples/test_psl.txt
+./usr/share/doc/python-kerberos/README.txt
+./usr/share/doc/powermgmt-base/power_supply.txt
+./usr/share/doc/linux-firmware/licenses/LICENCE.realtek-firmware.txt
+./usr/share/doc/linux-firmware/licenses/LICENCE.ralink-firmware.txt
+./usr/share/doc/linux-firmware/licenses/LICENCE.rtlwifi_firmware.txt
+./usr/share/doc/linux-firmware/licenses/LICENCE.tda7706-firmware.txt
+./usr/share/doc/appor
+INPUT|usc430ba-intro-60|U |1580076346|usc430ba|intro:clear|
+
+INPUT|usc430ba-intro-61|M4 |1580076400|usc430ba|intro:find . -name "*.jpeg" | head -n 5|find: './tmp/systemd-private-c83631b738854af48a71073ca4676713-systemd-timesyncd.service-3a7zLa'./.hidden/asdf136Intro-5kqlw.jpeg
+: Permission denied
+find: './tmp/systemd-private-c83631b738854af48a71073ca4676713-systemd-resolved.service-5FOtKl': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './pr
+INPUT|usc430ba-intro-62|U |1580076439|usc430ba|intro:clear|
+
+INPUT|usc430ba-intro-63|U |1580076441|usc430ba|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ba-intro-64|U |1580076481|usc430ba|intro:pwd|/
+
+INPUT|usc430ba-intro-65|U |1580076542|usc430ba|intro:man grep|GREP(1)                                                       User Commands                                                       GREP(1)
+
+NAME
+       grep egrep fgrep rgrep - print lines matching a pattern
+
+SYNOPSIS
+       grep [OPTIONS] PATTERN [FILE...]
+       grep [OPTIONS] -e PATTERN ... [FILE...]
+       grep [OPTIONS] -f FILE ... [FILE...]
+
+DESCRIPTION
+       grep searches for PATTERN in each FILE.  A FILE of "-" stands for standard input.  If no FILE is given recursive searches examine
+       the working directory and nonrecursive searches read standard input.  By default grep prints the matching lines.
+
+       In addition the variant programs egrep fgrep and rgrep are the same as  grep -E  grep -F  and  grep -r  respectively.   These
+       variants are deprecated but are provided for backward compatibility.
+
+OPTIONS
+   Generic Program Information
+       --help Output a usage message and exit.
+
+       -V --version
+              Output the version number of grep and exit.
+
+   Ma
+INPUT|usc430ba-intro-66|U |1580076733|usc430ba|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ba-intro-67|U |1580076736|usc430ba|intro:clear|
+
+INPUT|usc430ba-intro-68|U |1580076737|usc430ba|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ba-intro-69|U |1580076749|usc430ba|intro:grep -Rl "intro" ./|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.status
+grep: ./vmlinuz.old: Permission denied
+./users/usc430ba/.ssh/known_hosts
+./users/usc430ba/.bash_history
+./usr/local/src/analyze_continuous.py
+./usr/local/src/analyze.py
+./usr/local/etc/emulab/linktest.pl
+./usr/local/etc/testbed/linktest.pl
+./usr/testbed/lib/linktest.pl
+./usr/share/calendar/calendar.history
+./usr/share/calendar/calendar.music
+./usr/share/calendar/calendar.computer
+./usr/share/ieee-data/iab.csv
+./usr/share/ieee-data/iab.txt
+./usr/share/ieee-data/oui.csv
+./usr/share/ieee-data/oui.txt
+./usr/share/bash-completion/completions/psql
+./usr/share/bash-completion/completions/createuser
+./usr/share/bash-completion/completions/busctl
+./usr/share/bash-completion/completions/dropuser
+./usr/share/bash-completion/completions/dropdb
+./usr/share/bash-completion/completions/createdb
+./usr/share/bash-completion/completions/ldattach
+./usr/share/bash-completion/completions/svk
+./usr/share/command-not-found/commands.db
+.
+INPUT|usc430ba-intro-70|U |1580076930|usc430ba|intro:clear|
+
+INPUT|usc430ba-intro-71|M2 M0 |1580076940|usc430ba|intro:find . -name "*.jpg"   |./usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: './tmp/systemd-private-c83631b738854af48a71073ca4676713-systemd-timesyncd.service-3a7zLa': Permission denied
+find: './tmp/systemd-private-c83631b738854af48a71073ca4676713-systemd-resolved.service-5FOtKl': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: 
+INPUT|usc430ba-intro-72|U |1580077001|usc430ba|intro:cd usr/share/pixmaps/xbzf136INTRO-1.jpg |bash: cd: usr/share/pixmaps/xbzf136INTRO-1.jpg: Not a directory
+
+INPUT|usc430ba-intro-73|U |1580077008|usc430ba|intro:ls|debian-logo.png  htop.png		pstree16.xpm  python2.7.xpm  python3.xpm  vim-16.xpm  vim-48.xpm
+gvim.svg	 language-selector.png	pstree32.xpm  python3.6.xpm  python.xpm   vim-32.xpm  xbzf136INTRO-1.jpg
+
+INPUT|usc430ba-intro-74|U |1580151993|usc430ba|server:ls|430ba.txt  client.py  file.txt	top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-75|U |1580152020|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-76|U |1580152079|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-77|U |1580152167|usc430ba|server:python server.py|starting server
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ba-intro-78|U |1580152186|usc430ba|server:python server.py|starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 45048))
+('received: ' 'hello my name is')
+Sending data back to client
+('received: ' ' surya')
+Sending data back to client
+('received: ' '')
+('no more data from client' ('10.1.1.2' 45048))
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt;1580152210
+
+INPUT|usc430ba-intro-79|U |1580152880|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ba-intro-80|U |1580152888|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-81|U |1580152892|usc430ba|server:python server.py|starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 45058))
+('received: ' 'hello my name is')
+Sending data back to client
+('received: ' ' surya')
+Sending data back to client
+('received: ' '')
+('no more data from client' ('10.1.1.2' 45058))
+waiting for a connection
+
+INPUT|usc430ba-intro-82|U |1580189443|usc430ba|server:vi server.py |"server.py" [dos] 35L 962C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print("starting server")
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection client_address = sock.accept()
+
+INPUT|usc430ba-intro-83|U |1580190211|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-84|U |1580190545|usc430ba|server:vi server.py  |"server.py" 0L 0C written                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                                   
+INPUT|usc430ba-intro-85|U |1580190612|usc430ba|server:ls|430ba.txt  client.py  file.txt	top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-86|U |1580190613|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-87|U |1580190673|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-88|U |1580190675|usc430ba|server:vi server.py |"server.py" [dos] 73L 2208C½6n  >c"""
+Surya Solanki
+suryasol@usc.edu
+CS 430 Hmwk 1
+
+Received assistance from: Rajat 
+"""
+import socket
+import os
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('localhost' 80)
+print("starting server")
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection client_address = sock.accept()
+    try:print("connection from: " client_address)1111CTop^[[   ^[[2    ^[[2;     ^[[2;1      ~@k   2~@k   3~@k   4~@k   50-1~@k   61  ~@k   7~@k   8~@k   9~@k   101~@k   10-1~@k   21  ~@k   3~@k   40-1~@k   51  ~@k   6~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   10~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   (15C)8~@k  (15C)9~@k   20~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   8~@k   7~@k   6s cl  -- INSERT --162(
+1;
+INPUT|usc430ba-intro-89|U |1580190724|usc430ba|server:vi server.py |"server.py" [dos] 74L 2215C½6n  >cprint("new path: " os.getcwd())try:with open(file[1:] 'r') as f:# file found - return contents of file to clientcontent = f.read()connection.sendall("HTTP/1.1 200 OK
+" + content)# file not foundexcept FileNotFoundError:# return 404 file with open('404.html' 'r') as f:content = f.read()connection.sendall("HTTP/1.1 404 Page Not Found" + content)# return to original directoryos.chdir(curr_path)"""if data:
+                print("Sending data back to client")
+                connection.sendall(data)
+            else:
+                print ("no more data from client" client_address)
+                break
+"server.py" [dos] 74L 2215C writtene connectionconnection.close()70810CBot^[  ^[[   ^[[2;     ^[[2;1      ~@k   69~@k   8~@k   7~@k   6~@k   5~@k   4~@k   3~@k   2~@k   1~@k   0~@k   590-1~@k   88  ~@k   7~@k   6~@k   5~@k   4~@k   3~@k   2~@k   1~@k   1;29rL1;30ros.chdir("../../tmp/") # change directory to tmp folder50810C97%%~@k   1;29rL1;30r# try to find 
+INPUT|usc430ba-intro-90|U |1580190747|usc430ba|server:clear   |
+
+INPUT|usc430ba-intro-91|U |1580190777|usc430ba|server:ls    |404.html  430ba.txt  client.py	file.txt  server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-92|U |1580190783|usc430ba|server:vi 404.html |"404.html" [noeol][dos] 9L 101C½6n  >c<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    Page Not Found
+</body>
+</html>
+<!DOCTYPE html>!DOCTYPE html>1<!DOCTYPE html>2
+<
+<
+<
+<
+"404.html" [dos] 9L 103C written
+
+
+INPUT|usc430ba-intro-93|U |1580190826|usc430ba|server:ls|404.html  430ba.txt  client.py	file.txt  server.py  top_secret  usc430ba.txt  vergehtml.html
+
+INPUT|usc430ba-intro-94|U |1580190836|usc430ba|server:vi vergehtml.html |"vergehtml.html" [noeol] 3L 1319418C½6n  >c<!-- saved from url=(0025)https://www.theverge.com/ -->
+"vergehtml.html" 3L 1319419C written-Type" content="text/html; charset=UTF-8"></head><body><ddiv class="line-gutter-backdrop"></div><table><tbody><tr><td class="line-number" value="1"></tdd><td class="line-content"><br></td></tr><tr><td class="line-number" value="2"></td><td class=""line-content"><br></td></tr><tr><td class="line-number" value="3"></td><td class="line-contentt"><br></td></tr><tr><td class="line-number" value="4"></td><td class="line-content"><br></td><</tr><tr><td class="line-number" value="5"></td><td class="line-content"><span class="html-docttype">&lt;!DOCTYPE html&gt;</span></td></tr><tr><td class="line-number" value="6"></td><td classs="line-content"><span class="html-tag">&lt;html <span class="html-attribute-name">lang</span>>="<span class="html-attribute-value">en</span>"&gt;</span></td></tr><tr><td class="line-numberr" value="7"></td><td class="line-content">  <sp
+INPUT|usc430ba-intro-95|U |1580190941|usc430ba|server:mv 404.html vergehtml.html /|mv: cannot create regular file '/404.html': Permission denied
+mv: cannot create regular file '/vergehtml.html': Permission denied
+
+INPUT|usc430ba-intro-96|U |1580190949|usc430ba|server:cd /|
+INPUT|usc430ba-intro-97|U |1580190951|usc430ba|server:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430ba-intro-98|U |1580190959|usc430ba|server:ls|404.html  430ba.txt  client.py	file.txt  server.py  top_secret  usc430ba.txt  vergehtml.html
+
+INPUT|usc430ba-intro-99|U |1580190973|usc430ba|server:mv 404.html ../../tmp|
+INPUT|usc430ba-intro-100|U |1580190975|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt  vergehtml.html
+
+INPUT|usc430ba-intro-101|U |1580190979|usc430ba|server:cd ../../tmp|
+INPUT|usc430ba-intro-102|U |1580190980|usc430ba|server:ls|404.html
+systemd-private-d171a1211ea2491cb52b971d7b62980b-systemd-resolved.service-B0hqRq
+systemd-private-d171a1211ea2491cb52b971d7b62980b-systemd-timesyncd.service-ozkdDA
+
+INPUT|usc430ba-intro-103|U |1580190987|usc430ba|server:cd ../users/usc430ba/|
+INPUT|usc430ba-intro-104|U |1580190988|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt  vergehtml.html
+
+INPUT|usc430ba-intro-105|U |1580190994|usc430ba|server:mv vergehtml.html ../../tmp|
+INPUT|usc430ba-intro-106|U |1580190998|usc430ba|server:cd ../../tmp|
+INPUT|usc430ba-intro-107|U |1580190999|usc430ba|server:ls|404.html
+systemd-private-d171a1211ea2491cb52b971d7b62980b-systemd-resolved.service-B0hqRq
+systemd-private-d171a1211ea2491cb52b971d7b62980b-systemd-timesyncd.service-ozkdDA
+vergehtml.html
+
+INPUT|usc430ba-intro-108|U |1580191006|usc430ba|server:cd ../users/usc430ba/|
+INPUT|usc430ba-intro-109|U |1580191007|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-110|U |1580191009|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-111|U |1580191015|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ba-intro-112|U |1580191020|usc430ba|server:clear    |
+
+INPUT|usc430ba-intro-113|U |1580191028|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39438))
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-114|U |1580191419|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-115|U |1580191421|usc430ba|server:python server.py |starting server
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-116|U |1580191441|usc430ba|server:vi client.py |"client.py" [dos] 34L 837C½6n  >c"""
+Surya Solanki
+suryasol@usc.edu
+CS 430 Hmwk 1
+
+Received assistance from: Rajat 
+"""
+import socket
+import sys
+
+#Create a TCP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+#Connect the socket to the port where the server is listening
+server_name = sys.argv[1]
+server_add = (server_name 80)
+print('connection to port')
+sock.connect(server_add)
+
+try:
+"client.py" [dos] 34L 828C writtenk   8~@k   7~@k   6~@k   5~@k   4~@k   3~@k   2~@k   1~@k   0~@k   9 ~@k   8~@k   7~@k   6~@k   5~@k   4~@k   3~@k   2~@k   1~@k   04~@k   1~@k   2~@k   3~@k   2~@k   1<20>    2<20>    3<20>    4<20>    5~@k   3~@k   4~@k   dl     print("sending message: " message)<20>    6<20>    7<20>    8<20>    9<20>    10~@k   3~@k   2~@k   9 ~@k   8~@k   7~@k   6~@k   5~@k   4~@k   3~@k   2~@k   1~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ^I  ::wq
+
+
+INPUT|usc430ba-intro-117|U |1580191557|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-118|U |1580191559|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39448))
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-119|U |1580191885|usc430ba|server:python --version|Python 2.7.15rc1
+
+INPUT|usc430ba-intro-120|U |1580192115|usc430ba|server:vi server.py |"server.py" [dos] 74L 2215C½6n  >c"""
+Surya Solanki
+suryasol@usc.edu
+CS 430 Hmwk 1
+
+Received assistance from: Rajat 
+"""
+import socket
+import os
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print("starting server")
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection client_address = sock.accept()
+    try:print("connection from: " client_address)4711CTop^[[2    ^[[2;     ^[[2;1      s cl  -- INSERT --4711CTopHmwk 1 Hmwk 18516874889108112834158678912081213841;29r
+1;30r# Receive the data and try to find the file contents25811C2%%1;29r
+1;30rwhile True:26811C4%%1;29r
+1;30rdata = connection.recv(1024)27811C6%%1;29r
+1;30rprint ('received from client: ' data)28811C8%%1;29r
+1;30r29110C11%%1;29r
+1;30r# split the string to retrieve the file name30810C13%%1;29r
+1;30rdata_li
+INPUT|usc430ba-intro-121|U |1580192328|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-122|U |1580192330|usc430ba|server:vi server.py |"server.py" [dos] 74L 2216C½6n  >csock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print("starting server")
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection client_address = sock.accept()
+    try:print("connection from: " client_address)# Receive the data and try to find the file contentswhile True:data = connection.recv(1024)print ('received from client: ' data)# split the string to retrieve the file namedata_list = data.split(b" ")file = data_list[1]print("file to open: " file)# save current pathcurr_path = os.getcwd()3636
+1;30r[
+1;30r[
+1;30r# try to find the file3913
+1;30ros.chdir("../../tmp/") # change directory to tmp folder4032
+1;30rprint("new path: " os.getcwd())4136
+1;30r4237
+1;30rtry:43110C42%%1;29r
+1;30rwith open(file[1:] 'r') as f:4435
+1;30r# file found - return contents of file to client
+INPUT|usc430ba-intro-123|U |1580192350|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39458))
+('received from client: ' 'GET /vergehtml.html HTTP/1.1')
+('file to open: ' '/vergehtml.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-124|U |1580192951|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  student_page.html  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-125|U |1580192958|usc430ba|server:mv student_page.html ../../tmp/|
+INPUT|usc430ba-intro-126|U |1580192963|usc430ba|server:cd ../../tmp|
+INPUT|usc430ba-intro-127|U |1580192964|usc430ba|server:ls|404.html
+student_page.html
+systemd-private-d171a1211ea2491cb52b971d7b62980b-systemd-resolved.service-B0hqRq
+systemd-private-d171a1211ea2491cb52b971d7b62980b-systemd-timesyncd.service-ozkdDA
+vergehtml.html
+
+INPUT|usc430ba-intro-128|U |1580192969|usc430ba|server:cd ../users/usc430ba/|
+INPUT|usc430ba-intro-129|U |1580192972|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-130|U |1580192976|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39470))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' '/student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+^CTraceback (most recent call last):
+  File \"server.py\" line 32 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-131|U |1580193002|usc430ba|server:vi server.py |"server.py" [dos] 74L 2216C½6n  >c# split the string to retrieve the file namedata_list = data.split(b" ")file = data_list[1]print("file to open: " file)# save current pathcurr_path = os.getcwd()print("current path: " curr_path)# try to find the fileos.chdir("../../tmp/") # change directory to tmp folderprint("new path: " os.getcwd())try:with open(file[1:] 'r') as f:# file found - return contents of file to clientcontent = f.read()connection.sendall("HTTP/1.1 200 OK
+" + content)# file not foundexcept FileNotFoundError:# return 404 file with open('404.html' 'r') as f:content = f.read()connection.sendall("HTTP/1.1 404 Page Not Found" + content)# return to original directoryos.chdir(curr_path)4816
+            except FileNotFoundError:
+                # return 404 file 
+                with open(10C 'r') as f:
+                    content = f.read()
+                    connection.sendall(
+
+            # return to original directory
+            os.chdir(curr_path)
+            " + content)   
+INPUT|usc430ba-intro-132|U |1580193087|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39472))
+('received from client: ' 'GET /fds.html HTTP/1.1')
+('file to open: ' '/fds.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+Traceback (most recent call last):
+  File \"server.py\" line 54 in <module>
+    except FileNotFoundError:
+NameError: name 'FileNotFoundError' is not defined
+
+INPUT|usc430ba-intro-133|U |1580193182|usc430ba|server:vi server.py |"server.py" [dos] 74L 2221C½6n  >cprint("file to open: " file)# save current pathcurr_path = os.getcwd()print("current path: " curr_path)# try to find the fileos.chdir("../../tmp/") # change directory to tmp folderprint("new path: " os.getcwd())try:with open(file[1:] 'r') as f:# file found - return contents of file to clientcontent = f.read()connection.sendall("HTTP/1.1 200 OK" + "
+" + content)# file not foundexcept FileNotFoundError:# return 404 file with open('404.html' 'r') as f:content = f.read()connection.sendall("HTTP/1.1 404 Page Not Found" + content)# return to original directoryos.chdir(curr_path)"""if data:
+                print("Sending data back to client")
+                connection.sendall(data)
+            else:5259
+                # return 404 file 
+                with open(10C 'r') as f:
+                    content = f.read()
+                    connection.sendall(
+
+            # return to original directory
+            os.chdir(curr_path)
+            
+            
+  
+INPUT|usc430ba-intro-134|U |1580193212|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-135|U |1580193214|usc430ba|server:python server.py |  File \"server.py\" line 59
+    \"\"\"
+      ^
+SyntaxError: invalid syntax
+
+INPUT|usc430ba-intro-136|U |1580193257|usc430ba|server:python server.py |  File \"server.py\" line 58
+    connection.sendall(\"HTTP/1.1 404 Page Not Found\" + content)\"\"\"
+                                                                 ^
+SyntaxError: invalid syntax
+
+INPUT|usc430ba-intro-137|U |1580193331|usc430ba|server:python server.py |  File \"server.py\" line 59
+    \"\"\"
+      ^
+SyntaxError: invalid syntax
+
+INPUT|usc430ba-intro-138|U |1580193370|usc430ba|server:python server.py |  File \"server.py\" line 60
+    \"\"\"
+      ^
+SyntaxError: invalid syntax
+
+INPUT|usc430ba-intro-139|U |1580193425|usc430ba|server:python server.py |  File \"server.py\" line 54
+    os.chdir(curr_path)
+     ^
+SyntaxError: invalid syntax
+
+INPUT|usc430ba-intro-140|U |1580193486|usc430ba|server:python server.py |  File \"server.py\" line 55
+    os.chdir(curr_path)
+     ^
+SyntaxError: invalid syntax
+
+INPUT|usc430ba-intro-141|U |1580193542|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-142|U |1580193544|usc430ba|server:python server.py |  File \"server.py\" line 59
+    \"\"\"
+      ^
+SyntaxError: invalid syntax
+
+INPUT|usc430ba-intro-143|U |1580193583|usc430ba|server:rm server.py |
+INPUT|usc430ba-intro-144|U |1580193590|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-145|U |1580193593|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39484))
+('received from client: ' 'GET /vergehtml.html HTTP/1.1')
+('file to open: ' 'vergehtml.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/users')
+Traceback (most recent call last):
+  File \"server.py\" line 49 in <module>
+    with open(file[1:] 'r') as f:
+IOError: [Errno 2] No such file or directory: 'vergehtml.html'
+
+INPUT|usc430ba-intro-146|U |1580193620|usc430ba|server:vi server.py |"server.py" [dos] 73L 2201C½6n  >cprint ('received from client: ' data)# split the string to retrieve the file namedata_list = data.split(b" ")file = data_list[1]print("file to open: " file[1:])# save current pathcurr_path = os.getcwd()print("current path: " curr_path)# try to find the fileos.chdir("../") # change directory to tmp folderprint("new path: " os.getcwd())with open(file[1:] 'r') as f:# file found - return contents of file to clientcontent = f.read()connection.sendall("HTTP/1.1 200 OK
+" + content)# file not found"""except FileNotFoundError:
+                # return 404 file 
+                with open('404.html' 'r') as f:
+                    content = f.read()
+                    connection.sendall("HTTP/1.1 404 Page Not Found" + content)
+            """# return to original directoryos.chdir(curr_path)47110C72%%~@k   6~@k   5~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   10~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   20~@k   (
+         
+INPUT|usc430ba-intro-147|U |1580193642|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-148|U |1580193648|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-149|U |1580193650|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-150|U |1580193659|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-151|U |1580193675|usc430ba|server:vi server.py |"server.py" [dos] 73L 2208C½6n  >cwhile True:data = connection.recv(1024)print ('received from client: ' data)# split the string to retrieve the file namedata_list = data.split(b" ")file = data_list[1]print("file to open: " file[1:])# save current pathcurr_path = os.getcwd()print("current path: " curr_path)# try to find the fileos.chdir("../../tmp/") # change directory to tmp folderprint("new path: " os.getcwd())with open(file[1:] 'r') as f:# file found - return contents of file to clientcontent = f.read()connection.sendall("HTTP/1.1 200 OK
+" + content)# file not found"""except FileNotFoundError:
+                # return 404 file 
+                with open('404.html' 'r') as f:
+                    content = f.read()
+                    connection.sendall("HTTP/1.1 404 Page Not Found" + content)
+            """4532
+1;30r[
+1;30r[
+1;30r# try to find the file3912
+1;30ros.chdir("../../tmp/") # change directory to tmp folder4031
+1;30rprint("new path: " os.getcwd())4133
+1;30r4233
+1;30r430-1
+1
+INPUT|usc430ba-intro-152|U |1580193716|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-153|U |1580193718|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39486))
+('received from client: ' 'GET /vergehtml.html HTTP/1.1')
+('file to open: ' 'vergehtml.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-154|U |1580193743|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-155|U |1580193749|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39488))
+('received from client: ' 'GET /not.html HTTP/1.1')
+('file to open: ' 'not.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+Traceback (most recent call last):
+  File \"server.py\" line 49 in <module>
+    with open(file[1:] 'r') as f:
+IOError: [Errno 2] No such file or directory: 'not.html'
+
+INPUT|usc430ba-intro-156|U |1580193940|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-157|U |1580193942|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-158|U |1580193944|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39490))
+('received from client: ' 'GET /404.html HTTP/1.1')
+('file to open: ' '404.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/users')
+Traceback (most recent call last):
+  File \"server.py\" line 56 in <module>
+    with open('404.html' 'r') as f:
+IOError: [Errno 2] No such file or directory: '404.html'
+
+INPUT|usc430ba-intro-159|U |1580193973|usc430ba|server:rm server.py |
+INPUT|usc430ba-intro-160|U |1580193982|usc430ba|server:vi server.py |"server.py" [dos] 73L 2213C½6n  >c# split the string to retrieve the file namedata_list = data.split(b" ")file = data_list[1]print("file to open: " file[1:])# save current pathcurr_path = os.getcwd()print("current path: " curr_path)# try to find the fileos.chdir("../../tmp/") # change directory to tmp folderprint("new path: " os.getcwd())try:with open(file[1:] 'r') as f:# file found - return contents of file to clientcontent = f.read()connection.sendall("HTTP/1.1 200 OK"+ "
+" + content)# file not foundexcept IOError:# return 404 file with open('404.html' 'r') as f:content = f.read()connection.sendall("HTTP/1.1" + "
+"server.py" [dos] 73L 2213C writtenginal directoryos.chdir(curr_path)"""if data:49310C77%%~@k   8~@k   7s cl  -- INSERT --47310C77%%4^[  47310C77%%::wq
+
+
+INPUT|usc430ba-intro-161|U |1580193996|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-162|U |1580194000|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-163|U |1580194011|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-164|U |1580194013|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-165|U |1580194019|usc430ba|server:vi server.py |"server.py" [dos] 73L 2213C½6n  >cprint ('received from client: ' data)# split the string to retrieve the file namedata_list = data.split(b" ")file = data_list[1]print("file to open: " file[1:])# save current pathcurr_path = os.getcwd()print("current path: " curr_path)# try to find the fileos.chdir("../../tmp/") # change directory to tmp folderprint("new path: " os.getcwd())try:with open(file[1:] 'r') as f:# file found - return contents of file to clientcontent = f.read()connection.sendall("HTTP/1.1 200 OK"+ "
+" + content)# file not foundexcept IOError:# return 404 file with open('404.html' 'r') as f:content = f.read()connection.sendall("HTTP/1.1" + "
+"server.py" [dos] 73L 2212C writtenginal directoryos.chdir(curr_path)47310C72%%s cl  -- INSERT --47310C72%%123^[  47210C72%%::wq
+
+
+INPUT|usc430ba-intro-166|U |1580194031|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-167|U |1580194033|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-168|U |1580194037|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39492))
+('received from client: ' 'GET /404.html HTTP/1.1')
+('file to open: ' '404.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-169|U |1580194177|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39494))
+('received from client: ' 'GET /pythonpage.html HTTP/1.1')
+('file to open: ' 'pythonpage.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+^CTraceback (most recent call last):
+  File \"server.py\" line 32 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-170|U |1580194213|usc430ba|server:vi server.py |"server.py" [dos] 73L 2212C½6n  >cprint ('received from client: ' data)# split the string to retrieve the file namedata_list = data.split(b" ")file = data_list[1]print("file to open: " file[1:])# save current pathcurr_path = os.getcwd()print("current path: " curr_path)# try to find the fileos.chdir("../../tmp/") # change directory to tmp folderprint("new path: " os.getcwd())try:with open(file[1:] 'r') as f:# file found - return contents of file to clientcontent = f.read()connection.sendall("HTTP/1.1 200 OK"+ "
+" + content)# file not foundexcept IOError:# return 404 file with open('404.html' 'r') as f:content = f.read()connection.sendall("HTTP/1.1" + "
+" + "404 " + content)# return to original directoryos.chdir(curr_path)47210C72%%~@k   8~@k   9~@k   50~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   10~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   20~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   30~@k   1~@k   1~@k   2~@k 
+INPUT|usc430ba-intro-171|U |1580194244|usc430ba|server:ls|430ba.txt  client.py  file.txt	pythonpage.html  server.py  top_secret	usc430ba.txt
+
+INPUT|usc430ba-intro-172|U |1580194252|usc430ba|server:mv pythonpage.html ../../tmp/|
+INPUT|usc430ba-intro-173|U |1580194253|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-174|U |1580194256|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-175|U |1580194281|usc430ba|server:cd ../../tmp/|
+INPUT|usc430ba-intro-176|U |1580194284|usc430ba|server:vi 404.html |"404.html" [dos] 9L 103C½6n  >c<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    Page Not Found
+</body>
+</html>
+"404.html" [dos] 9L 36C written                                                              ~                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                                                                                             ~                       
+INPUT|usc430ba-intro-177|U |1580194320|usc430ba|server:cd ../users/usc430ba/|
+INPUT|usc430ba-intro-178|U |1580194353|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39504))
+('received from client: ' 'GET /pythonpage.html HTTP/1.1')
+('file to open: ' 'pythonpage.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-179|U |1580194430|usc430ba|server:cd ../../tmp/|
+INPUT|usc430ba-intro-180|U |1580194431|usc430ba|server:ls|404.html
+pythonpage.html
+student_page.html
+systemd-private-d171a1211ea2491cb52b971d7b62980b-systemd-resolved.service-B0hqRq
+systemd-private-d171a1211ea2491cb52b971d7b62980b-systemd-timesyncd.service-ozkdDA
+vergehtml.html
+
+INPUT|usc430ba-intro-181|U |1580194435|usc430ba|server:vi pythonpage.html |"pythonpage.html" [noeol] 3L 183717C½6n  >c<!-- saved from url=(0103)https://teamtreehouse.com/community/how-to-read-all-content-of-a-fille-in-python-while-that-file-is-open -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><ddiv class="line-gutter-backdrop"></div><table><tbody><tr><td class="line-number" value="1"></tdd><td class="line-content"><span class="html-doctype">&lt;!DOCTYPE html&gt;</span></td></tr><trr><td class="line-number" value="2"></td><td class="line-content"><span class="html-tag">&lt;httml <span class="html-attribute-name">lang</span>="<span class="html-attribute-value">en</span>>" <span class="html-attribute-name">class</span>="<span class="html-attribute-value">applicatiion-layout forum-posts-show forum-posts-controller show-action has-topic visitor chrome webkit  windows</span>" <span class="html-attribute-name">id</span>="<span class="html-attribute-valuee">layout</span>" <span class="html-attribute-name">data-featur
+INPUT|usc430ba-intro-182|U |1580194465|usc430ba|server:vi student_page.html |"student_page.html" [noeol][dos] 42L 751C½6n  >c<!DOCTYPE html>
+<html>
+<head>
+    <title>Surya's Page</title>
+    <style type="text/css">body{background-color: #80F3A5;}#color{color:#F5ED3C;}
+    </style>
+</head>
+<body><h1> Surya Solanki </h1>
+    <p>suryasol@usc.edu</p><h3>Classes this semester:</h3>
+    <ul><li>CS 356</li><li>CS 360</li><li>CS 430</li><li>ITP 303</li>
+"student_page.html" [dos] 42L 753C written111CTop^[[   ^[  ^[  s cl  -- INSERT --1111CTop!DOCTYPE html>>!DOCTYPE html>!DOCTYPE html>1<!DOCTYPE html>2^[  1111CTop::wq
+
+
+INPUT|usc430ba-intro-183|U |1580194482|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-184|U |1580194484|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-185|U |1580194487|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39506))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-186|U |1580194670|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39508))
+('received from client: ' 'GET /fdsa HTTP/1.1')
+('file to open: ' 'fdsa')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+^CTraceback (most recent call last):
+  File \"server.py\" line 32 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-187|U |1580194699|usc430ba|server:vi server.py |"server.py" [dos] 73L 2203C½6n  >c# try to find the fileos.chdir("../../tmp/") # change directory to tmp folderprint("new path: " os.getcwd())try:with open(file[1:] 'r') as f:# file found - return contents of file to clientcontent = f.read()connection.sendall("HTTP/1.1 200 OK"+ "
+" + content)# file not foundexcept IOError:# return 404 file with open('404.html' 'r') as f:content = f.read()connection.sendall("HTTP/1.1" + "
+" + content)# return to original directoryos.chdir(curr_path)"""if data:
+                print("Sending data back to client")
+                connection.sendall(data)
+            else:
+                print ("no more data from client" client_address)
+                break
+            """finally:# Clean up the connection5858
+            # return to original directory
+            os.chdir(curr_path)
+            
+            
+                print(29C)
+                connection.sendall(data)
+            else:
+                print (26C client_address)
+                bre
+INPUT|usc430ba-intro-188|U |1580194908|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-189|U |1580194910|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39510))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-190|U |1580194981|usc430ba|server:ls|430ba.txt  client.py  deterlab.html  file.txt  server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-191|U |1580194987|usc430ba|server:mv deterlab.html ../../tmp/|
+INPUT|usc430ba-intro-192|U |1580194993|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-193|U |1580194995|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39512))
+('received from client: ' 'GET /dfs HTTP/1.1')
+('file to open: ' 'dfs')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-194|U |1580195043|usc430ba|server:clera|;1580195043
+Command 'clera' not found did you mean:
+
+  command 'clear' from deb ncurses-bin
+
+Try: apt install <deb name>
+
+
+INPUT|usc430ba-intro-195|U |1580195044|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-196|U |1580195046|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39514))
+('received from client: ' 'GET /jj HTTP/1.1')
+('file to open: ' 'jj')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-197|U |1580195064|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39516))
+('received from client: ' 'GET /deterlab.html HTTP/1.1')
+('file to open: ' 'deterlab.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+^CTraceback (most recent call last):
+  File \"server.py\" line 32 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-198|U |1580195508|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-199|U |1580195512|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-200|U |1580195567|usc430ba|intro:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-201|U |1580195570|usc430ba|intro:cd top_secret/|
+INPUT|usc430ba-intro-202|U |1580195571|usc430ba|intro:ls|136intro-2jjaj.JPEG  answers.txt	      diskfree.txt	  xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+
+INPUT|usc430ba-intro-203|U |1580195575|usc430ba|intro:vi diskfree.txt |"diskfree.txt" 4L 89C6n  >cDisk space on the experimental node: 1.9T
+Disk space free: 723G
+
+vendor_id: GenuineIntel
+~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                                                                                                       ~                                           
+INPUT|usc430ba-intro-204|U |1580195593|usc430ba|intro:cd ..|
+INPUT|usc430ba-intro-205|U |1580195595|usc430ba|intro:cd /|
+INPUT|usc430ba-intro-206|U |1580195596|usc430ba|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430ba-intro-207|M6 |1580195598|usc430ba|intro:df -H|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              1.1G   50k  1.1G   1%% /dev
+tmpfs                                             210M  6.3M  203M   4%% /run
+/dev/sda1                                          17G  3.4G   12G  22%% /
+tmpfs                                             1.1G     0  1.1G   0%% /dev/shm
+tmpfs                                             5.3M     0  5.3M   0%% /run/lock
+tmpfs                                             1.1G     0  1.1G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ba  2.1T  1.3T  674G  65%% /users/usc430ba
+users.isi.deterlab.net:/mnt/projects/proj/USC430  3.1T  1.5T  1.4T  51%% /proj/USC430
+tmpfs                                             210M     0  210M   0%% /run/user/14289
+
+INPUT|usc430ba-intro-208|A6 |1580195618|usc430ba|intro:df -H > /users/usc430ba/top_secret/diskfree.txt|
+INPUT|usc430ba-intro-209|U |1580195624|usc430ba|intro:cd users/usc430ba/|
+INPUT|usc430ba-intro-210|U |1580195626|usc430ba|intro:cd top_secret/|
+INPUT|usc430ba-intro-211|U |1580195726|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39526))
+('received from client: ' 'GET /fsdf HTTP/1.1')
+('file to open: ' 'fsdf')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-212|U |1580195745|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39528))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-213|U |1580195838|usc430ba|server:ls|404.html
+deterlab.html
+pythonpage.html
+student_page.html
+systemd-private-d171a1211ea2491cb52b971d7b62980b-systemd-resolved.service-B0hqRq
+systemd-private-d171a1211ea2491cb52b971d7b62980b-systemd-timesyncd.service-ozkdDA
+vergehtml.html
+
+INPUT|usc430ba-intro-214|U |1580195848|usc430ba|server:cd ../users/usc430ba/|
+INPUT|usc430ba-intro-215|U |1580195850|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-216|U |1580195853|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39530))
+('received from client: ' 'GET /deterlab.html HTTP/1.1')
+('file to open: ' 'deterlab.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-217|U |1580196025|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-218|U |1580196027|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 39532))
+('received from client: ' 'GET /deterlab.html HTTP/1.1')
+('file to open: ' 'deterlab.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+Traceback (most recent call last):
+  File \"server.py\" line 59 in <module>
+    connection.sendall(\"HTTP/1.1\")
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 32] Broken pipe
+
+INPUT|usc430ba-intro-219|U |1580196138|usc430ba|server:python server.py |starting server
+waiting for a connection
+^[[A^[[A^Z
+[1]+  Stopped                 sudo python server.py
+
+INPUT|usc430ba-intro-220|U |1580196202|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-221|U |1580196203|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use;1580196203
+
+INPUT|usc430ba-intro-222|U |1580196206|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-223|U |1580196208|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-224|U |1580196234|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-225|U |1580196237|usc430ba|server:vi client.py |"client.py" [dos] 33L 733C½6n  >cReceived assistance from: Rajat 
+"""
+import socket
+import sys
+
+#Create a TCP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+#Connect the socket to the port where the server is listening
+server_name = sys.argv[1]
+server_add = (server_name 80)
+print('connection to port')
+sock.connect(server_add)
+
+try:
+    filename = raw_input("Enter a file name or press q to quit: ")
+    message = "GET /" + filename + " HTTP/1.1"
+    print("sending message: " message)
+    sock.sendall(message.encode('utf-8'))
+    while 1:data = sock.recv(4096)print(data)if data == "b":break
+
+finally:
+    print('closing socket')
+"client.py" [dos] 33L 734C written
+
+
+INPUT|usc430ba-intro-226|U |1580196254|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-227|U |1580196260|usc430ba|server:vi server.py |"server.py" [dos] 75L 2268C½6n  >c# save current pathcurr_path = os.getcwd()print("current path: " curr_path)# try to find the fileos.chdir("../../tmp/") # change directory to tmp folderprint("new path: " os.getcwd())try:with open(file[1:] 'r') as f:# file found - return contents of file to clientcontent = f.read()connection.sendall("HTTP/1.1 200 OK")connection.sendall(content)# file not foundexcept IOError:# return 404 file with open('404.html' 'r') as f:content = f.read()connection.sendall("HTTP/1.1")connection.sendall(content)# return to original directoryos.chdir(curr_path)"""if data:
+                print("Sending data back to client")
+                connection.sendall(data)5339
+1;30r(
+1;30r(
+1;30r                break6523
+1;30r            """6639
+1;30r6739
+1;30rfinally:6817
+1;30r# Clean up the connection6939
+1;30rconnection.close()7021;1580196296
+"server.py" [dos] 75L 2268C written
+
+
+INPUT|usc430ba-intro-228|U |1580196305|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-229|U |1580196307|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-230|U |1580196347|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-231|U |1580196364|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-232|U |1580196367|usc430ba|server:vi server.py |"server.py" [dos] 75L 2268C½6n  >ctry:with open(file[1:] 'r') as f:# file found - return contents of file to clientcontent = f.read()connection.sendall("HTTP/1.1 200 OK")connection.sendall(content)# file not foundexcept IOError:# return 404 file with open('404.html' 'r') as f:content = f.read()connection.sendall("HTTP/1.1")connection.sendall(content)# return to original directoryos.chdir(curr_path)"""if data:
+                print("Sending data back to client")
+                connection.sendall(data)
+            else:
+                print ("no more data from client" client_address)
+                break
+"server.py" [dos] 75L 2268C writtene connectionconnection.close()7526
+
+
+INPUT|usc430ba-intro-233|U |1580196405|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-234|U |1580196408|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-235|U |1580196412|usc430ba|server:vi server.py |"server.py" [dos] 75L 2268C½6n  >c"""
+Surya Solanki
+suryasol@usc.edu
+CS 430 Hmwk 1
+
+Received assistance from: Rajat 
+"""
+import socket
+import os
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print("starting server")
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection client_address = sock.accept()
+"server.py" [dos] 75L 2270C writtenlient_address)1630
+
+
+INPUT|usc430ba-intro-236|U |1580196426|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 35396))
+('received from client: ' 'GET /deterlab.html HTTP/1.1')
+('file to open: ' 'deterlab.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-237|U |1580196478|usc430ba|server:vi server.py |"server.py" [dos] 75L 2270C½6n  >c"""
+Surya Solanki
+suryasol@usc.edu
+CS 430 Hmwk 1
+
+Received assistance from: Rajat 
+"""
+import socket
+import os
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 1024)
+print("starting server")
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print('waiting for a connection')
+    connection client_address = sock.accept()
+"server.py" [dos] 75L 2268C writtenlient_address)1632
+
+
+INPUT|usc430ba-intro-238|U |1580196510|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-239|U |1580488814|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-240|U |1580488819|usc430ba|server:ls|430ba.txt  client.py  file.txt	server.py  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-241|U |1580488972|usc430ba|server:nano server.py |15d16d17d18d19d20d21d22d23d(BModified(B23;28rB) (Bas(B f:(B # file found - return contents of file to client(Bcontent = f.read()
+
+
+INPUT|usc430ba-intro-242|U |1580489164|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-243|U |1580489187|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-244|U |1580489693|usc430ba|server:cd ../../tmp/|
+INPUT|usc430ba-intro-245|U |1580489694|usc430ba|server:ls|systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-resolved.service-6V2bYD
+systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-timesyncd.service-2imjLa
+
+INPUT|usc430ba-intro-246|U |1580489703|usc430ba|server:ls|systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-resolved.service-6V2bYD
+systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-timesyncd.service-2imjLa
+
+INPUT|usc430ba-intro-247|U |1580489729|usc430ba|server:ls|systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-resolved.service-6V2bYD
+systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-timesyncd.service-2imjLa
+
+INPUT|usc430ba-intro-248|U |1580489731|usc430ba|server:cd ..|
+INPUT|usc430ba-intro-249|U |1580489732|usc430ba|server:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var;1580489732
+
+INPUT|usc430ba-intro-250|U |1580489736|usc430ba|server:cd tmp/|
+INPUT|usc430ba-intro-251|U |1580489737|usc430ba|server:ls|systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-resolved.service-6V2bYD
+systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-timesyncd.service-2imjLa
+
+INPUT|usc430ba-intro-252|U |1580489798|usc430ba|server:ls|systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-resolved.service-6V2bYD
+systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-timesyncd.service-2imjLa
+
+INPUT|usc430ba-intro-253|U |1580489815|usc430ba|server:cd ..|
+INPUT|usc430ba-intro-254|U |1580489829|usc430ba|server:ls|404.html  430ba.txt  client.py	file.txt  server.py  test_files  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-255|U |1580489840|usc430ba|server:cp 404.html ../../tmp/|
+INPUT|usc430ba-intro-256|U |1580489844|usc430ba|server:ls|404.html
+systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-resolved.service-6V2bYD
+systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-timesyncd.service-2imjLa
+
+INPUT|usc430ba-intro-257|U |1580489848|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-258|U |1580489855|usc430ba|server:cd ../users/usc430ba/|
+INPUT|usc430ba-intro-259|U |1580489856|usc430ba|server:ls|404.html  430ba.txt  client.py	file.txt  server.py  test_files  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-260|U |1580489868|usc430ba|server:cd test_files/|
+INPUT|usc430ba-intro-261|U |1580489869|usc430ba|server:ls|404.html  deterlab.html  student_page.html  vergehtml.html
+
+INPUT|usc430ba-intro-262|U |1580489885|usc430ba|server:cp deterlab.html ../../../tmp/|
+INPUT|usc430ba-intro-263|U |1580489891|usc430ba|server:cd ../../../tmp/|
+INPUT|usc430ba-intro-264|U |1580489892|usc430ba|server:ls|404.html
+deterlab.html
+systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-resolved.service-6V2bYD
+systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-timesyncd.service-2imjLa
+
+INPUT|usc430ba-intro-265|U |1580489900|usc430ba|server:cd ../users/usc430ba/test_files/|
+INPUT|usc430ba-intro-266|U |1580489901|usc430ba|server:ls|404.html  deterlab.html  student_page.html  vergehtml.html
+
+INPUT|usc430ba-intro-267|U |1580489910|usc430ba|server:cp student_page.html ../../../tmp/|
+INPUT|usc430ba-intro-268|U |1580489918|usc430ba|server:cp vergehtml.html ../../../tmp/|
+INPUT|usc430ba-intro-269|U |1580489923|usc430ba|server:cd ../../../tmp/|
+INPUT|usc430ba-intro-270|U |1580489924|usc430ba|server:ls|404.html
+deterlab.html
+student_page.html
+systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-resolved.service-6V2bYD
+systemd-private-32cbb7609ed44aeea35f24d495ad7d19-systemd-timesyncd.service-2imjLa
+vergehtml.html
+
+INPUT|usc430ba-intro-271|U |1580489930|usc430ba|server:cd ../users/usc430ba/|
+INPUT|usc430ba-intro-272|U |1580489931|usc430ba|server:ls|404.html  430ba.txt  client.py	file.txt  server.py  test_files  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-273|U |1580489963|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 41710))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+^CTraceback (most recent call last):
+  File \"server.py\" line 32 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-274|U |1580490464|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 41720))
+('received from client: ' 'GET /vergehtml.html HTTP/1.1')
+('file to open: ' 'vergehtml.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+^CTraceback (most recent call last):
+  File \"server.py\" line 32 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-275|U |1580491244|usc430ba|server:ls|404.html   client.py  server.py   top_secret	verge.html
+430ba.txt  file.txt   test_files  usc430ba.txt
+
+INPUT|usc430ba-intro-276|U |1580491255|usc430ba|server:cp verge.html test_files/|
+INPUT|usc430ba-intro-277|U |1580491257|usc430ba|server:cd test_files/|
+INPUT|usc430ba-intro-278|U |1580491258|usc430ba|server:ls|404.html  deterlab.html  student_page.html  verge.html	vergehtml.html
+
+INPUT|usc430ba-intro-279|U |1580491260|usc430ba|server:cd ..|
+INPUT|usc430ba-intro-280|U |1580491266|usc430ba|server:mv verge.html ../../tmp/|
+INPUT|usc430ba-intro-281|U |1580491267|usc430ba|server:ls|404.html  430ba.txt  client.py	file.txt  server.py  test_files  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-282|U |1580491527|usc430ba|server:python server.py |starting server;1580491528
+waiting for a connection;1580491528
+('connection from: ' ('10.1.1.2' 41738))
+('received from client: ' 'GET /hello.html HTTP/1.1')
+('file to open: ' 'hello.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+^CTraceback (most recent call last):
+  File \"server.py\" line 32 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-283|U |1580491599|usc430ba|server:ls |404.html  430ba.txt  client.py	file.txt  server.py  test_files  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-284|U |1580491618|usc430ba|server:cd test_files/|
+INPUT|usc430ba-intro-285|U |1580491620|usc430ba|server:ls|404.html  deterlab.html  student_page.html  verge.html	vergehtml.html
+
+INPUT|usc430ba-intro-286|U |1580491624|usc430ba|server:nano 404.html |2;27r
+2;27r
+2;28r
+2;28r
+2;28r
+2;28r
+
+
+INPUT|usc430ba-intro-287|U |1580491727|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-288|U |1580491728|usc430ba|server:ls|404.html  deterlab.html  student_page.html  verge.html	vergehtml.html
+
+INPUT|usc430ba-intro-289|U |1580491735|usc430ba|server:python server.py |python: can't open file 'server.py': [Errno 2] No such file or directory
+
+INPUT|usc430ba-intro-290|U |1580491738|usc430ba|server:cd ..|
+INPUT|usc430ba-intro-291|U |1580491740|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 41740))
+('received from client: ' 'GET /verge.html HTTP/1.1')
+('file to open: ' 'verge.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+
+INPUT|usc430ba-intro-292|U |1580498676|usc430ba|server:ls|404.html  430ba.txt  client.py	file.txt  server.py  test_files  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-293|U |1580498915|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51904))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+Traceback (most recent call last):
+  File \"server.py\" line 57 in <module>
+    with open('404.html' 'r') as f:
+IOError: [Errno 2] No such file or directory: '404.html'
+
+INPUT|usc430ba-intro-294|U |1580498952|usc430ba|server:ls|404.html  430ba.txt  client.py	file.txt  server.py  test_files  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-295|U |1580498961|usc430ba|server:ls|systemd-private-42ced1022edd405196b3fc97d0efb243-systemd-resolved.service-o5McJ0
+systemd-private-42ced1022edd405196b3fc97d0efb243-systemd-timesyncd.service-OxCxux
+
+INPUT|usc430ba-intro-296|U |1580498965|usc430ba|server:cd ../users/usc430ba/|
+INPUT|usc430ba-intro-297|U |1580498970|usc430ba|server:cd test_files/|
+INPUT|usc430ba-intro-298|U |1580498971|usc430ba|server:ls|404.html  deterlab.html  student_page.html  verge.html	vergehtml.html
+
+INPUT|usc430ba-intro-299|U |1580498983|usc430ba|server:cp 404.html ../../../tmp/|
+INPUT|usc430ba-intro-300|U |1580498994|usc430ba|server:cp student_page.html ../../../tmp/|
+INPUT|usc430ba-intro-301|U |1580498999|usc430ba|server:ls|404.html
+student_page.html
+systemd-private-42ced1022edd405196b3fc97d0efb243-systemd-resolved.service-o5McJ0
+systemd-private-42ced1022edd405196b3fc97d0efb243-systemd-timesyncd.service-OxCxux
+
+INPUT|usc430ba-intro-302|U |1580499006|usc430ba|server:cd ../users/usc430ba/|
+INPUT|usc430ba-intro-303|U |1580499009|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-304|U |1580499020|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51906))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-305|U |1580499218|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-306|U |1580499219|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51916))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-307|U |1580499311|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-308|U |1580499393|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-309|U |1580499407|usc430ba|server:clear          |
+
+INPUT|usc430ba-intro-310|U |1580499410|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51918))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-311|U |1580499447|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-312|U |1580499477|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-313|U |1580499486|usc430ba|server:python server.py |starting server
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-314|U |1580499496|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-315|U |1580499502|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-316|U |1580499503|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51920))
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-317|U |1580499637|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51922))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-318|U |1580499710|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-319|U |1580499792|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51932))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+^CTraceback (most recent call last):
+  File \"server.py\" line 32 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-320|U |1580499870|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-321|U |1580499909|usc430ba|server:python server.py |starting server
+Traceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ba-intro-322|U |1580499916|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51934))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-323|U |1580499958|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-324|U |1580499988|usc430ba|server:nano server.py |8;29r
+15;29r
+
+
+INPUT|usc430ba-intro-325|U |1580500215|usc430ba|server:10Psudo python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51936))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-326|U |1580500469|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51938))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-327|U |1580500591|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51940))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-328|U |1580500619|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-329|U |1580500690|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-330|U |1580500741|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51950))
+('received from client: ' 'GET /fsdf.html HTTP/1.1')
+('file to open: ' 'fsdf.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+Traceback (most recent call last):
+  File \"server.py\" line 37 in <module>
+    file = data_list[1]
+IndexError: list index out of range
+
+INPUT|usc430ba-intro-331|U |1580500758|usc430ba|server:nano server.py |33;44r
+33;44r
+33d33;44r
+16;44r
+15;44r
+25d27d28d29d30d:31;44r
+
+
+INPUT|usc430ba-intro-332|U |1580500976|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-333|U |1580500978|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51952))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-334|U |1580501014|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 51954))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+waiting for a connection
+
+INPUT|usc430ba-intro-335|U |1580579136|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-336|U |1580579142|usc430ba|server:ls|404.html   client.py  server.py   top_secret
+430ba.txt  file.txt   test_files  usc430ba.txt
+
+INPUT|usc430ba-intro-337|U |1580579144|usc430ba|server:cd top_secret/|
+INPUT|usc430ba-intro-338|U |1580579146|usc430ba|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430ba-intro-339|U |1580579153|usc430ba|server:cd ..|
+INPUT|usc430ba-intro-340|U |1580579154|usc430ba|server:ls|404.html   client.py  server.py   top_secret
+430ba.txt  file.txt   test_files  usc430ba.txt
+
+INPUT|usc430ba-intro-341|U |1580579163|usc430ba|server:cd test_files/|
+INPUT|usc430ba-intro-342|U |1580579164|usc430ba|server:ls|404.html  deterlab.html  student_page.html  verge.html	vergehtml.html
+
+INPUT|usc430ba-intro-343|U |1580579177|usc430ba|server:cp 404.html ../../../tmp/|
+INPUT|usc430ba-intro-344|U |1580579192|usc430ba|server:cp student_page.html ../../../tmp/|
+INPUT|usc430ba-intro-345|U |1580579199|usc430ba|server:cp deterlab.html ../../../tmp/|
+INPUT|usc430ba-intro-346|U |1580579203|usc430ba|server:cd ../../../tmp/|
+INPUT|usc430ba-intro-347|U |1580579204|usc430ba|server:ls|404.html
+deterlab.html
+student_page.html
+systemd-private-2e9186816f634991a4840de70cad5b40-systemd-resolved.service-m18vpn
+systemd-private-2e9186816f634991a4840de70cad5b40-systemd-timesyncd.service-Wycb84
+
+INPUT|usc430ba-intro-348|U |1580579221|usc430ba|server:cd ../users/usc430ba/  |
+INPUT|usc430ba-intro-349|U |1580579222|usc430ba|server:ls|404.html   client.py  server.py   top_secret
+430ba.txt  file.txt   test_files  usc430ba.txt
+
+INPUT|usc430ba-intro-350|U |1580579227|usc430ba|server:python server.py |starting server
+waiting for a connection
+su('connection from: ' ('10.1.1.2' 56412))
+('received from client: ' 'GET /blah.html HTTP/1.1')
+('file to open: ' 'blah.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+waiting for a connection
+('connection from: ' ('10.1.1.2' 56414))
+('received from client: ' 'GET /student_page.html HTTP/1.1')
+('file to open: ' 'student_page.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+waiting for a connection
+('connection from: ' ('10.1.1.2' 56416))
+('received from client: ' 'GET /deterlab.html HTTP/1.1')
+('file to open: ' 'deterlab.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept
+INPUT|usc430ba-intro-351|U |1580579376|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-352|U |1580579380|usc430ba|server:cd test_files/|
+INPUT|usc430ba-intro-353|U |1580579381|usc430ba|server:ls|404.html  deterlab.html  student_page.html  verge.html	vergehtml.html
+
+INPUT|usc430ba-intro-354|U |1580579391|usc430ba|server:cp verge.html ../../../tmp/|
+INPUT|usc430ba-intro-355|U |1580579393|usc430ba|server:cd ..|
+INPUT|usc430ba-intro-356|U |1580579396|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 56418))
+('received from client: ' 'GET /verge.html HTTP/1.1')
+('file to open: ' 'verge.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-357|U |1580579438|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-358|U |1580579621|usc430ba|server:python server.py |starting server
+waiting for a connection
+('connection from: ' ('10.1.1.2' 56420))
+('received from client: ' 'GET /verge.html HTTP/1.1')
+('file to open: ' 'verge.html')
+('current path: ' '/users/usc430ba')
+('new path: ' '/tmp')
+('received from client: ' '')
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 26 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ba-intro-359|U |1580579640|usc430ba|server:ls|404.html   client.py  server.py   top_secret
+430ba.txt  file.txt   test_files  usc430ba.txt
+
+INPUT|usc430ba-intro-360|U |1580579649|usc430ba|server:mv client.py top_secret/|
+INPUT|usc430ba-intro-361|U |1580579650|usc430ba|server:ls|404.html  430ba.txt  file.txt  server.py  test_files  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-362|U |1580579656|usc430ba|server:mv server.py top_secret/|
+INPUT|usc430ba-intro-363|U |1580579699|usc430ba|server:clear|
+
+INPUT|usc430ba-intro-364|U |1580579702|usc430ba|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     diskfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430ba-intro-365|U |1580579720|usc430ba|server:nano answers.txt |
+
+INPUT|usc430ba-intro-366|U |1580579767|usc430ba|server:nano diskfree.txt |
+
+INPUT|usc430ba-intro-367|U |1580579794|usc430ba|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     diskfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430ba-intro-368|U |1580579801|usc430ba|server:nano client.py |
+
+INPUT|usc430ba-intro-369|U |1580579806|usc430ba|server:nano server.py |
+
+INPUT|usc430ba-intro-370|U |1580580126|usc430ba|server:cd ..|
+INPUT|usc430ba-intro-371|U |1580580128|usc430ba|server:ls|430ba.txt  file.txt  test_files  top_secret  usc430ba.txt
+
+INPUT|usc430ba-intro-372|U |1580580149|usc430ba|server:tar cvzf surya-solanki-intro.tar.gz top_secret|top_secret/
+top_secret/xbzf136INTRO-1.jpg
+top_secret/136intro-2jjaj.JPEG
+top_secret/136intro-3.jpg
+top_secret/asdf136Intro-5kqlw.jpeg
+top_secret/wuer136intro-4.JPG
+top_secret/answers.txt
+top_secret/diskfree.txt
+top_secret/client.py
+top_secret/server.py
+
+INPUT|usc430ba-intro-373|U |1580580153|usc430ba|server:ls|430ba.txt  surya-solanki-intro.tar.gz  top_secret
+file.txt   test_files		       usc430ba.txt
+

@@ -1,0 +1,480 @@
+User usc430am start time 1581396191 end 1581398704
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430am-intro-0|U |000000000|usc430am|:|
+INPUT|usc430am-intro-1|U |000000000|usc430am|:|
+INPUT|usc430am-intro-2|U |1581396191|usc430am|intro:ls|430am-file.txt	file.txt  thomas.png  usc430am.txt
+
+INPUT|usc430am-intro-3|A2 A3 A0 A1 A4 |1581396275|usc430am|intro:locate *.jpg|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430am-intro-4|U |1581396293|usc430am|intro:ls|430am-file.txt	file.txt  thomas.png  usc430am.txt
+
+INPUT|usc430am-intro-5|U |1581396327|usc430am|intro:mv /thomas.png ~/|mv: cannot stat '/thomas.png': No such file or directory
+
+INPUT|usc430am-intro-6|U |1581396336|usc430am|intro:mv thomas.png ~/|mv: 'thomas.png' and '/users/usc430am/thomas.png' are the same file
+
+INPUT|usc430am-intro-7|U |1581396543|usc430am|intro:scp usc430am@users.deterlab.net:thomas.png|usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430am-intro-8|U |1581396574|usc430am|intro:rm thomas.png|
+INPUT|usc430am-intro-9|U |1581396575|usc430am|intro:ls|430am-file.txt	file.txt  usc430am.txt
+
+INPUT|usc430am-intro-10|A0 A2 A3 A4 A1 |1581396734|usc430am|intro:find . -name "*.jpg"|
+INPUT|usc430am-intro-11|U |1581396736|usc430am|intro:ls|430am-file.txt	file.txt  usc430am.txt
+
+INPUT|usc430am-intro-12|A0 A2 A3 A4 A1 |1581396774|usc430am|intro:find / -iname "*.jpg" | xargs strings $1 | sort|find: '/tmp/systemd-private-76bb27730235494d949ee6887575f503-systemd-resolved.service-co1Cjo': Permission denied
+find: '/tmp/systemd-private-76bb27730235494d949ee6887575f503-systemd-timesyncd.service-Hs0ZCN': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430am-intro-13|M2 M0 |1581396827|usc430am|intro:find / -name "*.jpg"                           |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: '/tmp/systemd-private-76bb27730235494d949ee6887575f503-systemd-resolved.service-co1Cjo': Permission denied
+find: '/tmp/systemd-private-76bb27730235494d949ee6887575f503-systemd-timesyncd.service-Hs0ZCN': Permission denied;1581396828
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2
+INPUT|usc430am-intro-14|U |1581396889|usc430am|intro:cd var|bash: cd: var: No such file or directory
+
+INPUT|usc430am-intro-15|U |1581396890|usc430am|intro:ls|430am-file.txt	file.txt  usc430am.txt
+
+INPUT|usc430am-intro-16|U |1581396901|usc430am|intro:cd */var/log|bash: cd: */var/log: No such file or directory
+
+INPUT|usc430am-intro-17|U |1581396912|usc430am|intro:cd ..|
+INPUT|usc430am-intro-18|U |1581396914|usc430am|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430am
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430am-intro-19|U |1581396924|usc430am|intro:cd ..|
+INPUT|usc430am-intro-20|U |1581396925|usc430am|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-21|U |1581396934|usc430am|intro:cd var|
+INPUT|usc430am-intro-22|U |1581396935|usc430am|intro:ls|backups  cache	crash  emulab  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+
+INPUT|usc430am-intro-23|U |1581396938|usc430am|intro:cd log|
+INPUT|usc430am-intro-24|U |1581396939|usc430am|intro:ls|136intro-3.jpg	  apt		 dist-upgrade  fontconfig.log  landscape   ntpstats  ttylog
+alternatives.log  auth.log	 dpkg.log      installer       lastlog	   syslog    unattended-upgrades
+analyze_cont	  bootstrap.log  emulab.log    journal	       lxd	   tallylog  wtmp
+annotator	  btmp		 faillog       kern.log        milestones  tiplogs
+
+INPUT|usc430am-intro-25|U |1581397025|usc430am|intro:scp usc430am@users.deterlab.net:136intro-3.jpg|usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430am-intro-26|U |1581397028|usc430am|intro:ls|136intro-3.jpg	  apt		 dist-upgrade  fontconfig.log  landscape   ntpstats  ttylog
+alternatives.log  auth.log	 dpkg.log      installer       lastlog	   syslog    unattended-upgrades
+analyze_cont	  bootstrap.log  emulab.log    journal	       lxd	   tallylog  wtmp
+annotator	  btmp		 faillog       kern.log        milestones  tiplogs
+
+INPUT|usc430am-intro-27|U |1581397031|usc430am|intro:cd ..|
+INPUT|usc430am-intro-28|U |1581397033|usc430am|intro:ls|backups  cache	crash  emulab  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+
+INPUT|usc430am-intro-29|U |1581397035|usc430am|intro:cd ..|
+INPUT|usc430am-intro-30|U |1581397036|usc430am|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-31|U |1581397040|usc430am|intro:cd users|
+INPUT|usc430am-intro-32|U |1581397044|usc430am|intro:ls |aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430am
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430am-intro-33|U |1581397051|usc430am|intro:cd usc430am|
+INPUT|usc430am-intro-34|U |1581397052|usc430am|intro:ls|430am-file.txt	file.txt  usc430am.txt
+
+INPUT|usc430am-intro-35|U |1581397069|usc430am|intro:cd ..|
+INPUT|usc430am-intro-36|U |1581397070|usc430am|intro:cd ..|
+INPUT|usc430am-intro-37|U |1581397072|usc430am|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-38|U |1581397076|usc430am|intro:cd var|
+INPUT|usc430am-intro-39|U |1581397078|usc430am|intro:cd log|
+INPUT|usc430am-intro-40|U |1581397087|usc430am|intro:ls |136intro-3.jpg	  apt		 dist-upgrade  fontconfig.log  landscape   ntpstats  ttylog
+alternatives.log  auth.log	 dpkg.log      installer       lastlog	   syslog    unattended-upgrades
+analyze_cont	  bootstrap.log  emulab.log    journal	       lxd	   tallylog  wtmp
+annotator	  btmp		 faillog       kern.log        milestones  tiplogs
+
+INPUT|usc430am-intro-41|U |1581397098|usc430am|intro:mv 136intro-3.jpg|mv: missing destination file operand after '136intro-3.jpg'
+Try 'mv --help' for more information.
+
+INPUT|usc430am-intro-42|U |1581397108|usc430am|intro:mv 136intro-3.jpg ~/|mv: cannot remove '136intro-3.jpg': Permission denied
+
+INPUT|usc430am-intro-43|U |1581397127|usc430am|intro:scp usc430am@users.deterlab.net:136intro-3.jpg ~/|^C
+
+INPUT|usc430am-intro-44|U |1581397210|usc430am|intro:cd ..|
+INPUT|usc430am-intro-45|U |1581397235|usc430am|intro:cd /log/136intro-3.jpg|bash: cd: /log/136intro-3.jpg: No such file or directory
+
+INPUT|usc430am-intro-46|U |1581397256|usc430am|intro:mv /log/136intro-3.jpg ~/|mv: cannot stat '/log/136intro-3.jpg': No such file or directory
+
+INPUT|usc430am-intro-47|U |1581397261|usc430am|intro:mv log/136intro-3.jpg ~/|mv: cannot remove 'log/136intro-3.jpg': Permission denied
+
+INPUT|usc430am-intro-48|U |1581397269|usc430am|intro:scp log/136intro-3.jpg ~/|
+INPUT|usc430am-intro-49|U |1581397276|usc430am|intro:cd ..|
+INPUT|usc430am-intro-50|U |1581397279|usc430am|intro:cd users|
+INPUT|usc430am-intro-51|U |1581397284|usc430am|intro:cls|;1581397285
+Command 'cls' not found but there are 17 similar ones.
+
+
+INPUT|usc430am-intro-52|U |1581397286|usc430am|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430am
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430am-intro-53|U |1581397290|usc430am|intro:cd usc430am|
+INPUT|usc430am-intro-54|U |1581397291|usc430am|intro:ls|136intro-3.jpg	430am-file.txt	file.txt  usc430am.txt
+
+INPUT|usc430am-intro-55|U |1581397352|usc430am|intro:scp usc430am@users.deterlab.net:136intro-3.jpg .|^C
+
+INPUT|usc430am-intro-56|U |1581397364|usc430am|intro:scp usc430am@users.deterlab.net:136intro-3.jpg  |usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430am-intro-57|U |1581397390|usc430am|intro:scp usc430am@users.deterlab.net:136intro-3.jpg:.|usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430am-intro-58|U |1581397458|usc430am|intro:scp 136intro-3.jpg usc430am@users.deterlab.net:.|^[[A^[[A^C
+
+INPUT|usc430am-intro-59|U |1581397478|usc430am|intro:scp 136intro-3.jpg usc430am@users.deterlab.net:.|ssh: connect to host users.deterlab.net port 22: Connection timed out
+lost connection
+
+INPUT|usc430am-intro-60|U |1581397783|usc430am|intro:scp 136intro-3.jpg usc430am@users.deterlab.net:.|^C
+
+INPUT|usc430am-intro-61|U |1581397786|usc430am|intro:pwd|/users/usc430am
+
+INPUT|usc430am-intro-62|U |1581397805|usc430am|intro:ls|136intro-3.jpg	430am-file.txt	file.txt  usc430am.txt
+
+INPUT|usc430am-intro-63|U |1581397823|usc430am|intro:scp usc430am@users.deterlab.net:136intro-3.jpg: .|^[[A^C
+
+INPUT|usc430am-intro-64|U |1581397834|usc430am|intro:scp usc430am@users.deterlab.net:136intro-3.jpg .|^C
+
+INPUT|usc430am-intro-65|U |1581397881|usc430am|intro:pwd|/users/usc430am
+
+INPUT|usc430am-intro-66|U |1581397888|usc430am|intro:cd ..|
+INPUT|usc430am-intro-67|U |1581397889|usc430am|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430am
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430am-intro-68|U |1581397898|usc430am|intro:cd sunshine|
+INPUT|usc430am-intro-69|U |1581397899|usc430am|intro:ls|
+INPUT|usc430am-intro-70|U |1581397902|usc430am|intro:cd ..|
+INPUT|usc430am-intro-71|U |1581397906|usc430am|intro:ls|
+INPUT|usc430am-intro-72|U |1581397909|usc430am|intro:cd ..|
+INPUT|usc430am-intro-73|U |1581397911|usc430am|intro:cd ..|
+INPUT|usc430am-intro-74|U |1581397912|usc430am|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-75|U |1581397914|usc430am|intro:cd etc|
+INPUT|usc430am-intro-76|U |1581397915|usc430am|intro:ls|acpi			dkms		     kernel		  networks		   securetty
+adduser.conf		dnsmasq.d	     kernel-img.conf	  newt			   security
+alternatives		dnsmasq.d-available  landscape		  nsswitch.conf		   selinux
+ansible			dpkg		     ldap		  ntp.conf		   services
+apache2			emacs		     ld.so.cache	  opt			   shadow
+apm			emacs25		     ld.so.conf		  os-release		   shadow-
+apparmor		emulab		     ld.so.conf.d	  overlayroot.conf	   shells
+apparmor.d		environment	     legal		  pam.conf		   skel
+apport			ethertypes	     libaudit.conf	  pam.d			   sos.conf
+apt			fonts		     libnl-3		  papersize		   ssh
+at.deny			fstab		     libpaper.d		  passwd		   ssl
+bash.bashrc		fuse.conf	     lighttpd		  passwd-		   subgid
+bash_completion		gai.conf	     locale.alias	  perl			   subgid-
+bash_completion.d	gdb		     locale.gen		  pm			   subuid
+bindresvport.blacklist	ghostscript	     localtime		  polkit-1		   subuid-
+binfmt.d		glvnd		     logcheck		  pollinate		   sudoers
+byobu			groff		     login.defs		  popularity-contest.conf  
+INPUT|usc430am-intro-77|U |1581397942|usc430am|intro:cd ..|
+INPUT|usc430am-intro-78|U |1581397943|usc430am|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-79|M2 M0 |1581397954|usc430am|intro:find -name "*.jpg"|./users/usc430am/136intro-3.jpg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: './tmp/systemd-private-76bb27730235494d949ee6887575f503-systemd-resolved.service-co1Cjo': Permission denied
+find: './tmp/systemd-private-76bb27730235494d949ee6887575f503-systemd-timesyncd.service-Hs0ZCN': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied;1581397956
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: 
+INPUT|usc430am-intro-80|U |1581397995|usc430am|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-81|U |1581397998|usc430am|intro:cd usr|
+INPUT|usc430am-intro-82|U |1581397999|usc430am|intro:ls|bin  games  include  lib  local  sbin  share  src  testbed
+
+INPUT|usc430am-intro-83|U |1581398002|usc430am|intro:ls|aclocal		   debconf		 grub-gfxpayload-lists	m17n			pyshared
+aclocal-1.15	   debhelper		 hal			man			python
+adduser		   debianutils		 i18n			man-db			python3
+alsa		   defaults		 i40e-dkms		maven-repo		python-apt
+appdata		   dh-autoreconf	 icons			mdadm			readline
+applications	   dict			 ieee-data		menu			rsyslog
+apport		   distro-info		 ImageMagick-6		metainfo		rubygems-integration
+apps		   dns			 info			mime			screen
+augeas		   dnsmasq-base		 initramfs-tools	misc			sensible-utils
+autoconf	   doc			 installation-report	nano			sosreport
+automake-1.15	   doc-base		 intltool-debian	nfs-common		systemd
+awk		   dpkg			 iptables		nmap			systemtap
+base-files	   emacs		 iso-codes		ntp			tabset
+base-passwd	   emacs25		 java			numpy3			tcltk
+bash-completion    file			 javascript		openssh			terminfo
+binfmts		   fonts		 keyrings		open-vm-tools		themes
+bug		   fonts-droid-fallback  keyutils		os-prober		thumbnailers
+build-essential    gcc-8		 landscape		package-data-downloads	ubuntu-advantage-tools
+b
+INPUT|usc430am-intro-84|A4 A1 A2 A3 A0 |1581398016|usc430am|intro:find -name "*.jpg"|./pixmaps/xbzf136INTRO-1.jpg
+
+INPUT|usc430am-intro-85|U |1581398026|usc430am|intro:ls|debian-logo.png  htop.png		pstree16.xpm  python2.7.xpm  python3.xpm  vim-16.xpm  vim-48.xpm
+gvim.svg	 language-selector.png	pstree32.xpm  python3.6.xpm  python.xpm   vim-32.xpm  xbzf136INTRO-1.jpg
+
+INPUT|usc430am-intro-86|U |1581398061|usc430am|intro:mv xbzf136INTRO-1.jpg ~/|mv: cannot remove 'xbzf136INTRO-1.jpg': Permission denied
+
+INPUT|usc430am-intro-87|U |1581398073|usc430am|intro:cd ..|
+INPUT|usc430am-intro-88|U |1581398080|usc430am|intro:mv pixmaps/xbzf136INTRO-1.jpg ~/|mv: cannot remove 'pixmaps/xbzf136INTRO-1.jpg': Permission denied
+
+INPUT|usc430am-intro-89|U |1581398131|usc430am|intro:scp pixmaps/xbzf136INTRO-1.jpg ~/|
+INPUT|usc430am-intro-90|U |1581398135|usc430am|intro:cd ../..|
+INPUT|usc430am-intro-91|U |1581398137|usc430am|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-92|U |1581398143|usc430am|intro:cd users/usc430am|
+INPUT|usc430am-intro-93|U |1581398144|usc430am|intro:ls|136intro-3.jpg	430am-file.txt	file.txt  usc430am.txt	xbzf136INTRO-1.jpg
+
+INPUT|usc430am-intro-94|U |1581398160|usc430am|intro:cd ..|
+INPUT|usc430am-intro-95|U |1581398161|usc430am|intro:cd ..|
+INPUT|usc430am-intro-96|U |1581398162|usc430am|intro:cd ..|
+INPUT|usc430am-intro-97|U |1581398163|usc430am|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-98|M3 M2 M1 |1581398176|usc430am|intro:find -name "*intro*"|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./users/usc430am/136intro-3.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: './tmp/systemd-private-76bb27730235494d949ee6887575f503-systemd-resolved.service-co1Cjo': Permission denied
+find: './tmp/systemd-private-76bb27730235494d949ee6887575f503
+INPUT|usc430am-intro-99|M2 |1581398234|usc430am|intro:find -name "*intro*.jpg"|./users/usc430am/136intro-3.jpg
+find: './tmp/systemd-private-76bb27730235494d949ee6887575f503-systemd-resolved.service-co1Cjo': Permission denied
+find: './tmp/systemd-private-76bb27730235494d949ee6887575f503-systemd-timesyncd.service-Hs0ZCN': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc
+INPUT|usc430am-intro-100|U |1581398256|usc430am|intro:ls   |bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-101|U |1581398279|usc430am|intro:etc|;1581398279
+Command 'etc' not found did you mean:
+
+  command 'atc' from deb bsdgames
+  command 'etcd' from deb etcd-server
+  command 'etr' from deb extremetuxracer
+  command 'etm' from deb etm
+  command 'htc' from deb httptunnel
+  command 'dtc' from deb device-tree-compiler
+  command 'rtc' from deb nvram-wakeup
+  command 'ecc' from deb ecere-dev
+  command 'tc' from deb iproute2
+  command 'etw' from deb etw
+
+Try: apt install <deb name>
+
+
+INPUT|usc430am-intro-102|U |1581398283|usc430am|intro:cd etc.|bash: cd: etc.: No such file or directory
+
+INPUT|usc430am-intro-103|U |1581398285|usc430am|intro:ls|acpi			dkms		     kernel		  networks		   securetty
+adduser.conf		dnsmasq.d	     kernel-img.conf	  newt			   security
+alternatives		dnsmasq.d-available  landscape		  nsswitch.conf		   selinux
+ansible			dpkg		     ldap		  ntp.conf		   services
+apache2			emacs		     ld.so.cache	  opt			   shadow
+apm			emacs25		     ld.so.conf		  os-release		   shadow-
+apparmor		emulab		     ld.so.conf.d	  overlayroot.conf	   shells
+apparmor.d		environment	     legal		  pam.conf		   skel
+apport			ethertypes	     libaudit.conf	  pam.d			   sos.conf
+apt			fonts		     libnl-3		  papersize		   ssh
+at.deny			fstab		     libpaper.d		  passwd		   ssl
+bash.bashrc		fuse.conf	     lighttpd		  passwd-		   subgid
+bash_completion		gai.conf	     locale.alias	  perl			   subgid-
+bash_completion.d	gdb		     locale.gen		  pm			   subuid
+bindresvport.blacklist	ghostscript	     localtime		  polkit-1		   subuid-
+binfmt.d		glvnd		     logcheck		  pollinate		   sudoers
+byobu			groff		     login.defs		  popularity-contest.conf  
+INPUT|usc430am-intro-104|U |1581398314|usc430am|intro:scp wuer136intro-4.JPG ~/|
+INPUT|usc430am-intro-105|A2 A3 A0 A4 A1 |1581398329|usc430am|intro:find "*.jpg"|find: '*.jpg': No such file or directory
+
+INPUT|usc430am-intro-106|A1 A4 A0 A2 A3 |1581398337|usc430am|intro:find -name "*.jpg"|find: './polkit-1/localauthority': Permission denied
+find: './ssl/private': Permission denied
+
+INPUT|usc430am-intro-107|U |1581398346|usc430am|intro:cd gss|
+INPUT|usc430am-intro-108|U |1581398348|usc430am|intro:ls|mech.d
+
+INPUT|usc430am-intro-109|U |1581398351|usc430am|intro:cd ..|
+INPUT|usc430am-intro-110|U |1581398353|usc430am|intro:cd csh|
+INPUT|usc430am-intro-111|U |1581398354|usc430am|intro:ls|login.d
+
+INPUT|usc430am-intro-112|U |1581398356|usc430am|intro:cd ..|
+INPUT|usc430am-intro-113|U |1581398360|usc430am|intro:cd ..|
+INPUT|usc430am-intro-114|U |1581398372|usc430am|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-115|U |1581398375|usc430am|intro:cd dev|
+INPUT|usc430am-intro-116|U |1581398376|usc430am|intro:ls|136intro-2jjaj.JPEG  hpet	loop7		    sda       tty13  tty31  tty5       ttyS0   ttyS27	vcs4
+autofs		     hugepages	loop-control	    sda1      tty14  tty32  tty50      ttyS1   ttyS28	vcs5
+block		     hwrng	mapper		    sda2      tty15  tty33  tty51      ttyS10  ttyS29	vcs6
+bsg		     i2c-0	mcelog		    sda3      tty16  tty34  tty52      ttyS11  ttyS3	vcs7
+btrfs-control	     i2c-1	mem		    sg0       tty17  tty35  tty53      ttyS12  ttyS30	vcsa
+bus		     i2c-2	memory_bandwidth    sg1       tty18  tty36  tty54      ttyS13  ttyS31	vcsa1
+cdrom		     i2c-3	mqueue		    sg2       tty19  tty37  tty55      ttyS14  ttyS4	vcsa2
+char		     initctl	net		    shm       tty2   tty38  tty56      ttyS15  ttyS5	vcsa3
+console		     input	network_latency     snapshot  tty20  tty39  tty57      ttyS16  ttyS6	vcsa4
+core		     ipmi0	network_throughput  snd       tty21  tty4   tty58      ttyS17  ttyS7	vcsa5
+cpu		     kmsg	null		    sr0       tty22  tty40  tty59      ttyS18  ttyS8	vcsa6
+cpu_dma_latency      lightnvm	
+INPUT|usc430am-intro-117|U |1581398419|usc430am|intro:scp 136intro-2jjaj.JPG ~/|cp: cannot stat '136intro-2jjaj.JPG': No such file or directory
+
+INPUT|usc430am-intro-118|U |1581398439|usc430am|intro:scp 136intro-2jjaj.JPEG ~/|
+INPUT|usc430am-intro-119|U |1581398444|usc430am|intro:cd ..|
+INPUT|usc430am-intro-120|U |1581398450|usc430am|intro:cd users/usc430am|
+INPUT|usc430am-intro-121|U |1581398451|usc430am|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  430am-file.txt  file.txt  usc430am.txt  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430am-intro-122|U |1581398460|usc430am|intro:cd ../..|
+INPUT|usc430am-intro-123|A0 A2 A3 A1 A4 |1581398485|usc430am|intro:find -name "*-5*.jpg"|find: './tmp/systemd-private-76bb27730235494d949ee6887575f503-systemd-resolved.service-co1Cjo': Permission denied
+find: './tmp/systemd-private-76bb27730235494d949ee6887575f503-systemd-timesyncd.service-Hs0ZCN': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430am-intro-124|M4 |1581398518|usc430am|intro:find -name "*-5*"|./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/iso-codes/json/schema-639-5.json
+./usr/share/iso-codes/json/iso_639-5.json
+./usr/share/emacs/25.2/etc/charsets/8859-5.map
+./usr/share/emacs/25.2/etc/charsets/CNS-5.map
+./usr/share/consoletrans/ISO-8859-5.acm.gz
+./usr/share/i18n/charmaps/ISO-8859-5.gz
+./usr/share/doc/perl-modules-5.26
+./usr/share/doc/iptables/html/packet-filtering-HOWTO-5.html
+./usr/share/doc/iptables/html/NAT-HOWTO-5.html
+./usr/share/doc/libhx509-5-heimdal
+./usr/share/doc/kbd/font-formats/font-formats-5.html
+./usr/share/doc/kbd/charsets/iso8859-5.txt.gz
+./usr/share/poppler/cMap/Adobe-Japan1/Adobe-Japan1-5
+./usr/share/poppler/cMap/Adobe-GB1/Adobe-GB1-5
+./usr/share/poppler/cMap/Adobe-CNS1/Adobe-CNS1-5
+./usr/share/terminfo/a/altos-5
+./usr/share/terminfo/n/nwp-511
+./usr/share/terminfo/n/ntconsole-50
+./usr/share/terminfo/n/nwp-517
+./usr/share/terminfo/n/ntconsole-50-w
+./usr/share/terminfo/n/ntconsole-50-nti
+./usr/share/terminfo/n/nwp-517-w
+./usr/share/terminfo/g/gator-52t
+./usr/
+INPUT|usc430am-intro-125|U |1581398584|usc430am|intro:cd hidden|bash: cd: hidden: No such file or directory
+
+INPUT|usc430am-intro-126|U |1581398586|usc430am|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-127|U |1581398592|usc430am|intro:cd ./hidden|bash: cd: ./hidden: No such file or directory
+
+INPUT|usc430am-intro-128|U |1581398658|usc430am|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430am-intro-129|U |1581398664|usc430am|intro:cd ./hidden|bash: cd: ./hidden: No such file or directory
+
+INPUT|usc430am-intro-130|U |1581398669|usc430am|intro:cd /.hidden|
+INPUT|usc430am-intro-131|U |1581398671|usc430am|intro:ls|asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430am-intro-132|U |1581398696|usc430am|intro:scp asdf136Intro-5kqlw.jpeg ~/|
+INPUT|usc430am-intro-133|U |1581398704|usc430am|intro:ls|136intro-2jjaj.JPEG  430am-file.txt	      file.txt	    wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  usc430am.txt  xbzf136INTRO-1.jpg
+

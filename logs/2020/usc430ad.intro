@@ -1,0 +1,2358 @@
+User usc430ad start time 1580439533 end 1580669642
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ad-intro-0|U |000000000|usc430ad|:|
+INPUT|usc430ad-intro-1|U |000000000|usc430ad|:|
+INPUT|usc430ad-intro-2|U |1580439533|usc430ad|intro:ls|430ad.txt  test.txt  thomas.png  usc430ad.txt
+
+INPUT|usc430ad-intro-3|A2 A3 A0 A4 A1 |1580439672|usc430ad|intro:find . -name "*intro*"|
+INPUT|usc430ad-intro-4|U |1580439688|usc430ad|intro:man find|FIND(1)                                                    General Commands Manual                                                    FIND(1)
+
+NAME
+       find - search for files in a directory hierarchy
+
+SYNOPSIS
+       find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
+
+DESCRIPTION
+       This manual page documents the GNU version of find.  GNU find searches the directory tree rooted at each given starting-point by eval-
+       uating the given expression from left to right according to the rules of precedence (see section OPERATORS)  until  the  outcome  is
+       known (the left hand side is false for and operations true for or) at which point find moves on to the next file name.  If no start-
+       ing-point is specified `.' is assumed.
+
+       If you are using find in an environment where security is important (for example if you are using it to search  directories  that  are
+       writable  by other users) you should read the `Security Considerations
+INPUT|usc430ad-intro-5|U |1580439784|usc430ad|intro:updatedb|
+INPUT|usc430ad-intro-6|M3 M2 |1580439823|usc430ad|intro:locate *intro*|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.csv
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.log
+
+INPUT|usc430ad-intro-7|M2 |1580439884|usc430ad|intro:locate *intro*.jpg|/var/log/136intro-3.jpg
+
+INPUT|usc430ad-intro-8|M3 M2 |1580439903|usc430ad|intro:locate *intro*|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.csv
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.log
+
+INPUT|usc430ad-intro-9|U |1580439952|usc430ad|intro:..|..: command not found
+
+INPUT|usc430ad-intro-10|U |1580439975|usc430ad|intro:cd|
+INPUT|usc430ad-intro-11|U |1580439978|usc430ad|intro:cd .|
+INPUT|usc430ad-intro-12|U |1580439980|usc430ad|intro:ls|430ad.txt  test.txt  thomas.png  usc430ad.txt
+
+INPUT|usc430ad-intro-13|U |1580439994|usc430ad|intro:rm 430ad.txt |
+INPUT|usc430ad-intro-14|U |1580439996|usc430ad|intro:rm test.txt |
+INPUT|usc430ad-intro-15|U |1580439999|usc430ad|intro:rm thomas.png |
+INPUT|usc430ad-intro-16|U |1580440000|usc430ad|intro:rm usc430ad.txt |
+INPUT|usc430ad-intro-17|U |1580440001|usc430ad|intro:ls|
+INPUT|usc430ad-intro-18|M2 M0 |1580440035|usc430ad|intro:locate *.jpg  |/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ad-intro-19|A4 A1 A3 A2 A0 |1580440142|usc430ad|intro:find -inanme "*intro*.jpg"|find: unknown predicate `-inanme'
+
+INPUT|usc430ad-intro-20|A0 A2 A3 A1 A4 |1580440153|usc430ad|intro:find -iname "*intro*.jpg"|
+INPUT|usc430ad-intro-21|A1 A4 A2 A3 A0 |1580440162|usc430ad|intro:find . -iname "*intro*.jpg"|
+INPUT|usc430ad-intro-22|M3 M2 M0 |1580440167|usc430ad|intro:find / -iname "*intro*.jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: '/tmp/systemd-private-db9b68ecb61e46ec9a9cd61e3caff473-systemd-resolved.service-qX2uzX': Permission denied
+find: '/tmp/systemd-private-db9b68ecb61e46ec9a9cd61e3caff473-systemd-timesyncd.service-2BnM9L': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430ad-intro-23|M2 M0 |1580440205|usc430ad|intro:locate "*.jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ad-intro-24|M3 M2 |1580440219|usc430ad|intro:locate *intro*|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.csv
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.log
+
+INPUT|usc430ad-intro-25|U |1580440234|usc430ad|intro:man locate|locate(1)                                                  General Commands Manual                                                  locate(1)
+
+NAME
+       locate - find files by name
+
+SYNOPSIS
+       locate [OPTION]... PATTERN...
+
+DESCRIPTION
+       locate  reads  one  or  more databases prepared by updatedb(8) and writes file names matching at least one of the PATTERNs to standard
+       output one per line.
+
+       If --regex is not specified PATTERNs can contain globbing characters.  If any PATTERN contains no globbing characters locate behaves
+       as if the pattern were *PATTERN*.
+
+       By  default locate does not check whether files found in database still exist (but it does require all parent directories to exist if
+       the database was built with --require-visibility no).  locate can never report files created after the most recent update of the rele-
+       vant database.
+
+EXIT STATUS
+       locate  exits  with status 0 if any match was found or if locate was invoked wi
+INPUT|usc430ad-intro-26|M4 M3 M2 M0 |1580440284|usc430ad|intro:locate *intro* -i|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ad.
+INPUT|usc430ad-intro-27|U |1580440325|usc430ad|intro:/var/log/ttylog/usc430ad.hw1-usc430ad.intro.csv|bash: /var/log/ttylog/usc430ad.hw1-usc430ad.intro.csv: Permission denied
+
+INPUT|usc430ad-intro-28|U |1580440394|usc430ad|intro:man clear|clear(1)                                                   General Commands Manual                                                   clear(1)
+
+NAME
+       clear - clear the terminal screen
+
+SYNOPSIS
+       clear [-Ttype] [-V] [-x]
+
+DESCRIPTION
+       clear  clears  your  screen  if this is possible including its scrollback buffer (if the extended "E3" capability is defined).  clear
+       looks in the environment for the terminal type given by the environment variable TERM and then in the terminfo database to  determine
+       how to clear the screen.
+
+       clear  writes to the standard output.  You can redirect the standard output to a file (which prevents clear from actually clearing the
+       screen) and later cat the file to the screen clearing it at that point.
+
+OPTIONS
+       -T type
+            indicates the type of terminal.  Normally this option is unnecessary because the default is taken from the environment  variable
+            TERM.  If -T is specified then the shell va
+INPUT|usc430ad-intro-29|M3 M2 |1580440432|usc430ad|intro:locate *intro*|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.csv
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.log
+
+INPUT|usc430ad-intro-30|A1 A4 A2 A3 A0 |1580440452|usc430ad|intro:locate *2.* -i|/boot/grub/i386-pc/adler32.mod
+/boot/grub/i386-pc/efiemu32.o
+/boot/grub/i386-pc/ext2.mod
+/boot/grub/i386-pc/gcry_sha512.mod
+/boot/grub/i386-pc/minix2.mod
+/boot/grub/i386-pc/multiboot2.mod
+/boot/grub/i386-pc/nilfs2.mod
+/boot/grub/i386-pc/password_pbkdf2.mod
+/boot/grub/i386-pc/pbkdf2.mod
+/boot/grub/i386-pc/ufs2.mod
+/etc/python2.7
+/etc/rc2.d
+/etc/alternatives/emacs-32x32.png
+/etc/console-setup/compose.ISIRI-3342.inc
+/etc/console-setup/compose.ISO-8859-2.inc
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-japan2.conf
+/etc/python2.7/sitecustomize.py
+/etc/rc2.d/S01acpid
+/etc/rc2.d/S01apport
+/etc/rc2.d/S01atd
+/etc/rc2.d/S01console-setup.sh
+/etc/rc2.d/S01cron
+/etc/rc2.d/S01dbus
+/etc/rc2.d/S01grub-common
+/etc/rc2.d/S01irqbalance
+/etc/rc2.d/S01lvm2-lvmetad
+/etc/rc2.d/S01lvm2-lvmpolld
+/etc/rc2.d/S01lxcfs
+/etc/rc2.d/S01lxd
+/etc/rc2.d/S01mdadm
+/etc/rc2.d/S01ntp
+/etc/rc2.d/S01open-vm-tools
+/etc/rc2.d/S01plymouth
+/etc/rc2.d/S01rsync
+/etc/rc2.d/S01rsyslog
+/etc/rc2.d/S01ssh
+/etc/rc2.d/S01unattended-upgrad
+INPUT|usc430ad-intro-31|A0 A2 A3 A1 A4 |1580440462|usc430ad|intro:locate *2.jp* -i|
+INPUT|usc430ad-intro-32|M2 |1580440469|usc430ad|intro:locate *3.jp* -i|/var/log/136intro-3.jpg
+
+INPUT|usc430ad-intro-33|M0 |1580440472|usc430ad|intro:locate *1.jp* -i|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+INPUT|usc430ad-intro-34|M3 |1580440477|usc430ad|intro:locate *4.jp* -i|/etc/wuer136intro-4.JPG
+
+INPUT|usc430ad-intro-35|A1 A4 A2 A3 A0 |1580440482|usc430ad|intro:locate *5.jp* -i|
+INPUT|usc430ad-intro-36|U |1580440497|usc430ad|intro:man find|FIND(1)                                                    General Commands Manual                                                    FIND(1)
+
+NAME
+       find - search for files in a directory hierarchy
+
+SYNOPSIS
+       find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
+
+DESCRIPTION
+       This manual page documents the GNU version of find.  GNU find searches the directory tree rooted at each given starting-point by eval-
+       uating the given expression from left to right according to the rules of precedence (see section OPERATORS)  until  the  outcome  is
+       known (the left hand side is false for and operations true for or) at which point find moves on to the next file name.  If no start-
+       ing-point is specified `.' is assumed.
+
+       If you are using find in an environment where security is important (for example if you are using it to search  directories  that  are
+       writable  by other users) you should read the `Security Considerations
+INPUT|usc430ad-intro-37|A2 A3 A0 A4 A1 |1580440541|usc430ad|intro:find / -iname "*2.jp*"|;1580440541
+find: '/tmp/systemd-private-db9b68ecb61e46ec9a9cd61e3caff473-systemd-resolved.service-qX2uzX': Permission denied
+find: '/tmp/systemd-private-db9b68ecb61e46ec9a9cd61e3caff473-systemd-timesyncd.service-2BnM9L': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/
+INPUT|usc430ad-intro-38|A4 A1 A0 A2 A3 |1580440567|usc430ad|intro:find . -iname "*2.jp*"|
+INPUT|usc430ad-intro-39|M4 M3 M2 M0 |1580440584|usc430ad|intro:locate *intro* -i|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ad.
+INPUT|usc430ad-intro-40|M3 M2 |1580440655|usc430ad|intro:locate *intro* && *jp*|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.csv
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.log
+*jp*: command not found
+
+INPUT|usc430ad-intro-41|A0 A2 A3 A1 A4 |1580440710|usc430ad|intro:locate *2*            |/bin/bunzip2
+/bin/bzip2
+/bin/bzip2recover
+/boot/System.map-4.15.0-20-generic
+/boot/abi-4.15.0-20-generic
+/boot/config-4.15.0-20-generic
+/boot/initrd.img-4.15.0-20-generic
+/boot/retpoline-4.15.0-20-generic
+/boot/vmlinuz-4.15.0-20-generic
+/boot/grub/unicode.pf2
+/boot/grub/fonts/unicode.pf2
+/boot/grub/i386-pc/adler32.mod
+/boot/grub/i386-pc/efiemu32.o
+/boot/grub/i386-pc/ext2.mod
+/boot/grub/i386-pc/gcry_rfc2268.mod
+/boot/grub/i386-pc/gcry_sha256.mod
+/boot/grub/i386-pc/gcry_sha512.mod
+/boot/grub/i386-pc/minix2.mod
+/boot/grub/i386-pc/minix2_be.mod
+/boot/grub/i386-pc/multiboot2.mod
+/boot/grub/i386-pc/nilfs2.mod
+/boot/grub/i386-pc/password_pbkdf2.mod
+/boot/grub/i386-pc/pbkdf2.mod
+/boot/grub/i386-pc/pbkdf2_test.mod
+/boot/grub/i386-pc/ufs2.mod
+/boot/grub/i386-pc/usbserial_pl2303.mod
+/etc/apache2
+/etc/emacs25
+/etc/iproute2
+/etc/mke2fs.conf
+/etc/python2.7
+/etc/rc2.d
+/etc/X11/Xsession.d/20x11-common_process-args
+/etc/alternatives/emacs-128x128.png
+/etc/alternatives/emacs-24x24.png
+/etc/alternatives/
+INPUT|usc430ad-intro-42|U |1580440721|usc430ad|intro:man locate|locate(1)                                                  General Commands Manual                                                  locate(1)
+
+NAME
+       locate - find files by name
+
+SYNOPSIS
+       locate [OPTION]... PATTERN...
+
+DESCRIPTION
+       locate  reads  one  or  more databases prepared by updatedb(8) and writes file names matching at least one of the PATTERNs to standard
+       output one per line.
+
+       If --regex is not specified PATTERNs can contain globbing characters.  If any PATTERN contains no globbing characters locate behaves
+       as if the pattern were *PATTERN*.
+
+       By  default locate does not check whether files found in database still exist (but it does require all parent directories to exist if
+       the database was built with --require-visibility no).  locate can never report files created after the most recent update of the rele-
+       vant database.
+
+EXIT STATUS
+       locate  exits  with status 0 if any match was found or if locate was invoked wi
+INPUT|usc430ad-intro-43|M4 M3 M2 M0 |1580440766|usc430ad|intro:locate *intro* -iro* -i|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ad.
+INPUT|usc430ad-intro-44|M3 M2 M0 |1580440814|usc430ad|intro:locate *.jpg* -i|/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ad-intro-45|M4 |1580440820|usc430ad|intro:locate *.jpeg* -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ad-intro-46|A4 A1 A0 A2 A3 |1580440848|usc430ad|intro:find . -iname "*.jpg*" -i|
+INPUT|usc430ad-intro-47|A1 A4 A0 A2 A3 |1580440855|usc430ad|intro:find . -iname "*.jpg"|
+INPUT|usc430ad-intro-48|A3 A2 A0 A4 A1 |1580440914|usc430ad|intro:find . -name "*.jpg"|
+INPUT|usc430ad-intro-49|A4 A1 A0 A2 A3 |1580440924|usc430ad|intro:find . -name "*.jpeg"|
+INPUT|usc430ad-intro-50|A1 A4 A0 A2 A3 |1580440930|usc430ad|intro:find . -name *.jpeg|Hint - The command appears to be missing parameters or options
+
+INPUT|usc430ad-intro-51|M4 M3 M2 M0 |1580440955|usc430ad|intro:locate *12@intro* -i|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ad.
+INPUT|usc430ad-intro-52|U |1580441071|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-53|A1 A4 A0 A2 A3 |1580441467|usc430ad|intro:find / -iname "*intro-2.jp*"|find: '/tmp/systemd-private-db9b68ecb61e46ec9a9cd61e3caff473-systemd-resolved.service-qX2uzX': Permission denied
+find: '/tmp/systemd-private-db9b68ecb61e46ec9a9cd61e3caff473-systemd-timesyncd.service-2BnM9L': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430ad-intro-54|M4 M3 M2 M0 |1580441577|usc430ad|intro:locate *intro-* -i|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ad-intro-55|M4 M3 M2 M0 |1580441601|usc430ad|intro:locate *intro* -i|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ad.
+INPUT|usc430ad-intro-56|M4 M3 M2 M0 |1580441614|usc430ad|intro:locate *intro-* -i|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ad-intro-57|U |1580441756|usc430ad|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/top_secret/|mv: cannot remove '/usr/share/pixmaps/xbzf136INTRO-1.jpg': Permission denied
+
+INPUT|usc430ad-intro-58|U |1580441791|usc430ad|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/top_secret/|
+INPUT|usc430ad-intro-59|U |1580441795|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-60|U |1580441847|usc430ad|intro:mv /var/log/136intro-3.jpg ~/top_secret/|
+INPUT|usc430ad-intro-61|U |1580441867|usc430ad|intro:mv /etc/wuer136intro-4.JPG ~/top_secret/|
+INPUT|usc430ad-intro-62|U |1580441882|usc430ad|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg ~/top_secret/|
+INPUT|usc430ad-intro-63|M4 M3 M2 M0 |1580442188|usc430ad|intro:locate *intro-* -i|/.hidden/asdf136Intro-5kqlw.jpeg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ad-intro-64|U |1580443014|usc430ad|intro:updatedb|
+INPUT|usc430ad-intro-65|A4 A1 A0 A2 A3 |1580443022|usc430ad|intro:locate *intro-* -i|
+INPUT|usc430ad-intro-66|A1 A4 A3 A2 A0 |1580443046|usc430ad|intro:locate *2.* -i|/boot/grub/i386-pc/adler32.mod
+/boot/grub/i386-pc/efiemu32.o
+/boot/grub/i386-pc/ext2.mod
+/boot/grub/i386-pc/gcry_sha512.mod
+/boot/grub/i386-pc/minix2.mod
+/boot/grub/i386-pc/multiboot2.mod
+/boot/grub/i386-pc/nilfs2.mod
+/boot/grub/i386-pc/password_pbkdf2.mod
+/boot/grub/i386-pc/pbkdf2.mod
+/boot/grub/i386-pc/ufs2.mod
+/etc/python2.7
+/etc/rc2.d
+/etc/alternatives/emacs-32x32.png
+/etc/console-setup/compose.ISIRI-3342.inc
+/etc/console-setup/compose.ISO-8859-2.inc
+/etc/ghostscript/cidfmap.d/90gs-cjk-resource-japan2.conf
+/etc/python2.7/sitecustomize.py
+/etc/rc2.d/S01acpid
+/etc/rc2.d/S01apport
+/etc/rc2.d/S01atd
+/etc/rc2.d/S01console-setup.sh
+/etc/rc2.d/S01cron
+/etc/rc2.d/S01dbus
+/etc/rc2.d/S01grub-common
+/etc/rc2.d/S01irqbalance
+/etc/rc2.d/S01lvm2-lvmetad
+/etc/rc2.d/S01lvm2-lvmpolld
+/etc/rc2.d/S01lxcfs
+/etc/rc2.d/S01lxd
+/etc/rc2.d/S01mdadm
+/etc/rc2.d/S01ntp
+/etc/rc2.d/S01open-vm-tools
+/etc/rc2.d/S01plymouth
+/etc/rc2.d/S01rsync
+/etc/rc2.d/S01rsyslog
+/etc/rc2.d/S01ssh
+/etc/rc2.d/S01unattended-upgrad
+INPUT|usc430ad-intro-67|A4 A1 A0 A2 A3 |1580443053|usc430ad|intro:locate *2.jp* -i|
+INPUT|usc430ad-intro-68|A4 A1 A2 A3 A0 |1580443064|usc430ad|intro:locate *2.j* -i|/usr/lib/python2.7/dist-packages/libcloud/test/common/fixtures/digitalocean/_v2_actions_page_2.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/deployVirtualMachine_deployfail2.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/listNetworks_deployfail2.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/listZones_deployfail2.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/queryAsyncJobResult_111112.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/queryAsyncJobResult_11112.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/queryAsyncJobResult_1149342.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/queryAsyncJobResult_1300002.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/gce/projects_suse-cloud_global_licenses_sles_12.json
+/usr/lib/python2.7/dist-packages/l
+INPUT|usc430ad-intro-69|A1 A4 A0 A2 A3 |1580443073|usc430ad|intro:locate *.jp* -i|
+INPUT|usc430ad-intro-70|U |1580443119|usc430ad|intro:man locate|locate(1)                                                  General Commands Manual                                                  locate(1)
+
+NAME
+       locate - find files by name
+
+SYNOPSIS
+       locate [OPTION]... PATTERN...
+
+DESCRIPTION
+       locate  reads  one  or  more databases prepared by updatedb(8) and writes file names matching at least one of the PATTERNs to standard
+       output one per line.
+
+       If --regex is not specified PATTERNs can contain globbing characters.  If any PATTERN contains no globbing characters locate behaves
+       as if the pattern were *PATTERN*.
+
+       By  default locate does not check whether files found in database still exist (but it does require all parent directories to exist if
+       the database was built with --require-visibility no).  locate can never report files created after the most recent update of the rele-
+       vant database.
+
+EXIT STATUS
+       locate  exits  with status 0 if any match was found or if locate was invoked wi
+INPUT|usc430ad-intro-71|U |1580443174|usc430ad|intro:ls    |top_secret
+
+INPUT|usc430ad-intro-72|U |1580443180|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-73|U |1580443182|usc430ad|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ad
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ad-intro-74|U |1580443196|usc430ad|intro:cd|
+INPUT|usc430ad-intro-75|U |1580443197|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-76|U |1580443231|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-77|U |1580443232|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-78|U |1580443235|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-79|U |1580443236|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-80|U |1580443245|usc430ad|intro:cd|
+INPUT|usc430ad-intro-81|U |1580443246|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-82|U |1580443248|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-83|U |1580443252|usc430ad|intro:cd ~/|
+INPUT|usc430ad-intro-84|U |1580443253|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-85|U |1580443255|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-86|U |1580443257|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-87|U |1580443259|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-88|U |1580443261|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-89|U |1580443262|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-90|U |1580443273|usc430ad|intro:updatedb|
+INPUT|usc430ad-intro-91|A1 A4 A2 A3 A0 |1580443284|usc430ad|intro:locate *2.j* -i|/usr/lib/python2.7/dist-packages/libcloud/test/common/fixtures/digitalocean/_v2_actions_page_2.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/deployVirtualMachine_deployfail2.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/listNetworks_deployfail2.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/listZones_deployfail2.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/queryAsyncJobResult_111112.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/queryAsyncJobResult_11112.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/queryAsyncJobResult_1149342.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/cloudstack/queryAsyncJobResult_1300002.json
+/usr/lib/python2.7/dist-packages/libcloud/test/compute/fixtures/gce/projects_suse-cloud_global_licenses_sles_12.json
+/usr/lib/python2.7/dist-packages/l
+INPUT|usc430ad-intro-92|A0 A2 A3 A4 A1 |1580443294|usc430ad|intro:locate *2.jp* -i|
+INPUT|usc430ad-intro-93|U |1580443303|usc430ad|intro:cd ~|
+INPUT|usc430ad-intro-94|U |1580443305|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-95|U |1580443308|usc430ad|intro:updatedb|;1580443308
+
+INPUT|usc430ad-intro-96|A0 A2 A3 A4 A1 |1580443312|usc430ad|intro:locate *2.jp* -i|
+INPUT|usc430ad-intro-97|U |1580443319|usc430ad|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ad
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ad-intro-98|U |1580443329|usc430ad|intro:cd usc430ad/|
+INPUT|usc430ad-intro-99|U |1580443330|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-100|U |1580443333|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-101|U |1580443374|usc430ad|intro:cd aashraya/|
+INPUT|usc430ad-intro-102|U |1580443375|usc430ad|intro:ls|
+INPUT|usc430ad-intro-103|U |1580443378|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-104|U |1580443380|usc430ad|intro:ls|
+INPUT|usc430ad-intro-105|U |1580443382|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-106|U |1580443386|usc430ad|intro:cd al|bash: cd: al: No such file or directory;1580443386
+
+INPUT|usc430ad-intro-107|U |1580443391|usc430ad|intro:ls|
+INPUT|usc430ad-intro-108|U |1580443393|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-109|U |1580443398|usc430ad|intro:ls|
+INPUT|usc430ad-intro-110|U |1580443400|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-111|U |1580443401|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-112|U |1580443403|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-113|U |1580443410|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-114|U |1580443415|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-115|U |1580443422|usc430ad|intro:updatedb|
+INPUT|usc430ad-intro-116|A0 A2 A3 A4 A1 |1580443471|usc430ad|intro:find . -iname "*2.jp*"|find: './tmp/systemd-private-db9b68ecb61e46ec9a9cd61e3caff473-systemd-resolved.service-qX2uzX': Permission denied
+find: './tmp/systemd-private-db9b68ecb61e46ec9a9cd61e3caff473-systemd-timesyncd.service-2BnM9L': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430ad-intro-117|U |1580443497|usc430ad|intro:cd ~|
+INPUT|usc430ad-intro-118|U |1580443498|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-119|A0 A2 A3 A1 A4 |1580443508|usc430ad|intro:find / -iname "*2.jp*"|find: '/proc/3366': No such file or directory
+find: '/proc/3367': No such file or directory
+
+INPUT|usc430ad-intro-120|U |1580443523|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-121|U |1580443537|usc430ad|intro:updatedb|
+INPUT|usc430ad-intro-122|A0 A2 A3 A4 A1 |1580443564|usc430ad|intro:locate *2.jp*|
+INPUT|usc430ad-intro-123|A0 A2 A3 A1 A4 |1580443573|usc430ad|intro:locate *2.jp* -i|
+INPUT|usc430ad-intro-124|U |1580443591|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-125|U |1580443593|usc430ad|intro:cd top_secret/|
+INPUT|usc430ad-intro-126|U |1580443594|usc430ad|intro:ls|136intro-3.jpg	answers.txt  answers.txt~  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430ad-intro-127|U |1580443601|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-128|U |1580443605|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-129|A4 A1 A2 A3 A0 |1580443620|usc430ad|intro:locate *intro* -i|/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.csv
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.log
+
+INPUT|usc430ad-intro-130|A4 A1 A0 A2 A3 |1580443666|usc430ad|intro:find . -iname "*intro*"|./top_secret/xbzf136INTRO-1.jpg
+./top_secret/136intro-3.jpg
+./top_secret/wuer136intro-4.JPG
+./top_secret/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ad-intro-131|U |1580443674|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-132|U |1580443675|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-133|U |1580443676|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-134|M1 |1580443679|usc430ad|intro:find . -iname "*intro*"|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./users/usc430ad/top_secret/xbzf136INTRO-1.jpg
+./users/usc430ad/top_secret/136intro-3.jpg
+./users/usc430ad/top_secret/wuer136intro-4.JPG
+./users/usc430ad/top_secret/asdf136Intro-5kqlw.jpeg
+./usr/share/doc/bash/INTRO.gz
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpy
+INPUT|usc430ad-intro-135|A1 A4 A0 A2 A3 |1580443710|usc430ad|intro:find . -iname "*2.jp*"|find: './tmp/systemd-private-db9b68ecb61e46ec9a9cd61e3caff473-systemd-resolved.service-qX2uzX': Permission denied
+find: './tmp/systemd-private-db9b68ecb61e46ec9a9cd61e3caff473-systemd-timesyncd.service-2BnM9L': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430ad-intro-136|U |1580443733|usc430ad|intro:cd|
+INPUT|usc430ad-intro-137|U |1580443734|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-138|A4 A1 A3 A2 A0 |1580443738|usc430ad|intro:find . -iname "*2.jp*"|
+INPUT|usc430ad-intro-139|A4 A1 A2 A3 A0 |1580443746|usc430ad|intro:find / -iname "*2.jp*"|
+INPUT|usc430ad-intro-140|M1 |1580443763|usc430ad|intro:find / -iname "*intro*"|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/users/usc430ad/top_secret/xbzf136INTRO-1.jpg
+/users/usc430ad/top_secret/136intro-3.jpg
+/users/usc430ad/top_secret/wuer136intro-4.JPG
+/users/usc430ad/top_secret/asdf136Intro-5kqlw.jpeg
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/tty
+INPUT|usc430ad-intro-141|U |1580443810|usc430ad|intro:cd|
+INPUT|usc430ad-intro-142|A4 A1 A3 A2 A0 |1580443842|usc430ad|intro:find . -iname "*intro*"|./top_secret/xbzf136INTRO-1.jpg
+./top_secret/136intro-3.jpg
+./top_secret/wuer136intro-4.JPG
+./top_secret/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ad-intro-143|A1 A4 A0 A2 A3 |1580443854|usc430ad|intro:locate *intro* -i|/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/doc/bash/INTRO.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.csv
+/var/log/ttylog/usc430ad.hw1-usc430ad.intro.log
+
+INPUT|usc430ad-intro-144|A1 A4 A0 A2 A3 |1580443896|usc430ad|intro:find  -iname "*intro*"|./top_secret/xbzf136INTRO-1.jpg
+./top_secret/136intro-3.jpg
+./top_secret/wuer136intro-4.JPG
+./top_secret/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ad-intro-145|A4 A1 A3 A2 A0 |1580443908|usc430ad|intro:find  -iname "*intro"|
+INPUT|usc430ad-intro-146|A0 A2 A3 A1 A4 |1580443911|usc430ad|intro:find  -iname "intro"|
+INPUT|usc430ad-intro-147|A4 A1 A0 A2 A3 |1580443918|usc430ad|intro:find  -iname "intro*"|
+INPUT|usc430ad-intro-148|A2 A3 A0 A1 A4 |1580443926|usc430ad|intro:find  -iname "*intro*"|./top_secret/xbzf136INTRO-1.jpg
+./top_secret/136intro-3.jpg
+./top_secret/wuer136intro-4.JPG
+./top_secret/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ad-intro-149|A0 A2 A3 A4 A1 |1580443962|usc430ad|intro:find  -iname "*.jpeg" -i|find: unknown predicate `-i'
+
+INPUT|usc430ad-intro-150|A4 A1 A3 A2 A0 |1580443967|usc430ad|intro:find  -iname "*.jpeg"   |./top_secret/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ad-intro-151|A0 A2 A3 A4 A1 |1580443973|usc430ad|intro:find  -iname "*.jpg"|./top_secret/xbzf136INTRO-1.jpg
+./top_secret/136intro-3.jpg
+./top_secret/wuer136intro-4.JPG
+
+INPUT|usc430ad-intro-152|A0 A2 A3 A1 A4 |1580443978|usc430ad|intro:find  -iname "*.jp"|
+INPUT|usc430ad-intro-153|A1 A4 A3 A2 A0 |1580443983|usc430ad|intro:find  -iname "*.jp*"|./top_secret/xbzf136INTRO-1.jpg
+./top_secret/136intro-3.jpg
+./top_secret/wuer136intro-4.JPG
+./top_secret/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ad-intro-154|M1 |1580443998|usc430ad|intro:find / -iname "*.jp*"|/users/usc430ad/top_secret/xbzf136INTRO-1.jpg
+/users/usc430ad/top_secret/136intro-3.jpg
+/users/usc430ad/top_secret/wuer136intro-4.JPG
+/users/usc430ad/top_secret/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430ad-intro-155|U |1580444072|usc430ad|intro:mv /dev/136intro-2jjaj.JPEG ~/top_secret/|
+INPUT|usc430ad-intro-156|M6 |1580444399|usc430ad|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400          0     989400   0%% /dev
+tmpfs                                                204036       6016     198020   3%% /run
+/dev/sda1                                          15681948    3277372   11604628  23%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1372410496 1364357760  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ad 2031313280 1194690304  674117888  64%% /users/usc430ad
+tmpfs                                                204032          0     204032   0%% /run/user/14167
+
+INPUT|usc430ad-intro-157|M6 |1580444453|usc430ad|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M     0  967M   0%% /dev
+tmpfs                                             200M  5.9M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  23%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ad  1.9T  1.2T  643G  64%% /users/usc430ad
+tmpfs                                             200M     0  200M   0%% /run/user/14167
+
+INPUT|usc430ad-intro-158|A6 |1580444470|usc430ad|intro:df -t |df: option requires an argument -- 't'
+Try 'df --help' for more information.
+
+INPUT|usc430ad-intro-159|M6 |1580444474|usc430ad|intro:df -T|Filesystem                                       Type      1K-blocks       Used  Available Use%% Mounted on
+udev                                             devtmpfs     989400          0     989400   0%% /dev
+tmpfs                                            tmpfs        204036       6016     198020   3%% /run
+/dev/sda1                                        ext3       15681948    3277388   11604612  23%% /
+tmpfs                                            tmpfs       1020164          0    1020164   0%% /dev/shm
+tmpfs                                            tmpfs          5120          0       5120   0%% /run/lock
+tmpfs                                            tmpfs       1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 nfs      2974748160 1372410496 1364357760  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ad nfs      2031313280 1194690304  674117888  64%% /users/usc430ad
+tmpfs                                    
+INPUT|usc430ad-intro-160|U |1580444478|usc430ad|intro:man df|DF(1)                                                           User Commands                                                           DF(1)
+
+NAME
+       df - report file system disk space usage
+
+SYNOPSIS
+       df [OPTION]... [FILE]...
+
+DESCRIPTION
+       This  manual  page documents the GNU version of df.  df displays the amount of disk space available on the file system containing each
+       file name argument.  If no file name is given the space available on all currently mounted file systems  is  shown.   Disk  space  is
+       shown in 1K blocks by default unless the environment variable POSIXLY_CORRECT is set in which case 512-byte blocks are used.
+
+       If  an argument is the absolute file name of a disk device node containing a mounted file system df shows the space available on that
+       file system rather than on the file system containing the device node.  This  version  of  df  cannot  show  the  space  available  on
+       unmounted  file  systems because on most ki
+INPUT|usc430ad-intro-161|M6 |1580444494|usc430ad|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M     0  967M   0%% /dev
+tmpfs                                             200M  5.9M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  23%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ad  1.9T  1.2T  643G  64%% /users/usc430ad
+tmpfs                                             200M     0  200M   0%% /run/user/14167
+
+INPUT|usc430ad-intro-162|M6 |1580444533|usc430ad|intro:df -k|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400          0     989400   0%% /dev
+tmpfs                                                204036       6016     198020   3%% /run
+/dev/sda1                                          15681948    3277500   11604500  23%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1372410624 1364357760  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ad 2031313280 1194680064  674128128  64%% /users/usc430ad
+tmpfs                                                204032          0     204032   0%% /run/user/14167
+
+INPUT|usc430ad-intro-163|A6 |1580444587|usc430ad|intro:df -h > ~/top_secret/diskfree.txt|
+INPUT|usc430ad-intro-164|M5 |1580444768|usc430ad|intro:lscpu|Architecture:        x86_64
+CPU op-mode(s):      32-bit 64-bit
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  2
+Core(s) per socket:  1
+Socket(s):           2
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          15
+Model:               4
+Model name:          Intel(R) Xeon(TM) CPU 3.00GHz
+Stepping:            3
+CPU MHz:             2992.816
+BogoMIPS:            5985.63
+L1d cache:           16K
+L2 cache:            2048K
+NUMA node0 CPU(s):   0-3
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+
+INPUT|usc430ad-intro-165|U |1580445162|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-166|U |1580445165|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-167|U |1580445166|usc430ad|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ad
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ad-intro-168|U |1580445169|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-169|U |1580445170|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-170|U |1580445176|usc430ad|intro:cd proj/|
+INPUT|usc430ad-intro-171|U |1580445177|usc430ad|intro:ls|Modeling  USC430
+
+INPUT|usc430ad-intro-172|U |1580445182|usc430ad|intro:cd USC430/|
+INPUT|usc430ad-intro-173|U |1580445183|usc430ad|intro:ls| 11	    CTF_Bank	    images			       milestones     score	    start.sh	  team2-pass    team6-pass
+ 292	    deltas	    intro.ns			       newdir	      scoreCTF2     tarfiles	  team2-pass~   templates
+ 65	    exp		    intro.sh			       nmap.ns	      scorer.conf   team1.hash	  team3.hash    tiplogs
+ bd.cron    fixresolve.sh   john-1.8.0.9-jumbo-macosx_v3.zip   pulllogs.pl    server	    team1-pass	  team3-pass    webserver.c
+ cctf2.ns   gethashes.pl   'login?user=realuser'	       RED2	      startips	    team1-pass~   team3.stats
+ cctf.ns    groups	   'login?user=username'	       REDTEAM.info   startnc	    team1.stats   team4-pass
+ CTF2	    host.conf	    logs			       rpms	      start.pl	    team2.hash	  team5-pass
+
+INPUT|usc430ad-intro-174|U |1580445221|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-175|U |1580445227|usc430ad|intro:cd top_secret/|
+INPUT|usc430ad-intro-176|U |1580445228|usc430ad|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  answers.txt~	asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430ad-intro-177|U |1580445253|usc430ad|intro:mv /proj/USC430/intro.ns ~/top_secret/|
+INPUT|usc430ad-intro-178|U |1580445255|usc430ad|intro:ls|136intro-2jjaj.JPEG  answers.txt   asdf136Intro-5kqlw.jpeg  intro.ns		xbzf136INTRO-1.jpg
+136intro-3.jpg	     answers.txt~  diskfree.txt		    wuer136intro-4.JPG
+
+INPUT|usc430ad-intro-179|U |1580445330|usc430ad|intro:rm intro.ns  |rm: remove write-protected regular file 'intro.ns'? yes;1580445334
+
+INPUT|usc430ad-intro-180|U |1580445335|usc430ad|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  answers.txt~	asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430ad-intro-181|U |1580445345|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-182|U |1580445348|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-183|U |1580445349|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-184|U |1580445356|usc430ad|intro:cd proj/USC430/|
+INPUT|usc430ad-intro-185|U |1580445357|usc430ad|intro:ls | 11	    CTF_Bank	    images			       newdir	      scoreCTF2     tarfiles	  team2-pass~   templates
+ 292	    deltas	    intro.sh			       nmap.ns	      scorer.conf   team1.hash	  team3.hash    tiplogs
+ 65	    exp		    john-1.8.0.9-jumbo-macosx_v3.zip   pulllogs.pl    server	    team1-pass	  team3-pass    webserver.c
+ bd.cron    fixresolve.sh  'login?user=realuser'	       RED2	      startips	    team1-pass~   team3.stats
+ cctf2.ns   gethashes.pl   'login?user=username'	       REDTEAM.info   startnc	    team1.stats   team4-pass
+ cctf.ns    groups	    logs			       rpms	      start.pl	    team2.hash	  team5-pass
+ CTF2	    host.conf	    milestones			       score	      start.sh	    team2-pass	  team6-pass
+
+INPUT|usc430ad-intro-186|U |1580445390|usc430ad|intro:touch intro.ns|
+INPUT|usc430ad-intro-187|U |1580445398|usc430ad|intro:emacs intro.ns|50d-111:----F1  *scratch*      All L1     (Fundamental) --------------------------------------------------------------------------------------------
+A2d51dLoading 00debian-vars...done
+/etc/emacs/site-start.d/50autoconf.el (source)...
+done
+tcsh.el (source)...
+done
+>0c51dLoading /etc/emacs/site-start.d/50tcsh.el (source)...doneFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                            
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  *scratch*      All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------
+A2d51dFor information about GNU Emacs and the GNU system type C-h C-a.
+51dFor information about GNU Emacs and the GNU system type C-h C-a.File Edit Options Buffers Tools Help                                                                                                             
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INPUT|usc430ad-intro-188|U |1580445416|usc430ad|intro:ls| 11	    CTF2	    groups      john-1.8.0.9-jumbo-macosx_v3.zip   nmap.ns	  scoreCTF2     start.sh      team2.hash    team4-pass
+ 292	    CTF_Bank	    host.conf  'login?user=realuser'		   pulllogs.pl	  scorer.conf   tarfiles      team2-pass    team5-pass
+ 65	    deltas	    images     'login?user=username'		   RED2		  server        team1.hash    team2-pass~   team6-pass
+ bd.cron    exp		    intro.ns    logs				   REDTEAM.info   startips      team1-pass    team3.hash    templates
+ cctf2.ns   fixresolve.sh   intro.ns~   milestones			   rpms		  startnc       team1-pass~   team3-pass    tiplogs
+ cctf.ns    gethashes.pl    intro.sh    newdir				   score	  start.pl      team1.stats   team3.stats   webserver.c
+
+INPUT|usc430ad-intro-189|U |1580445424|usc430ad|intro:cd |
+INPUT|usc430ad-intro-190|U |1580445425|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-191|U |1580446993|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-192|U |1580446995|usc430ad|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  answers.txt~	asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430ad-intro-193|U |1580448938|usc430ad|intro:ls|136intro-2jjaj.JPEG  answers.txt   asdf136Intro-5kqlw.jpeg  client.py~	  server.py   wuer136intro-4.JPG
+136intro-3.jpg	     answers.txt~  client.py		    diskfree.txt  server.py~  xbzf136INTRO-1.jpg
+
+INPUT|usc430ad-intro-194|U |1580448970|usc430ad|intro:python client.py server|connecting to localhost port 80
+Traceback (most recent call last):
+  File "client.py" line 12 in <module>
+    sock.connect(server_address)
+  File "/usr/lib/python2.7/socket.py" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430ad-intro-195|U |1580448985|usc430ad|intro:python server.py|starting up on localhost port 80
+Traceback (most recent call last):
+  File "server.py" line 10 in <module>
+    sock.bind(server_address)
+  File "/usr/lib/python2.7/socket.py" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ad-intro-196|U |1580449007|usc430ad|intro:python server.py|starting up on localhost port 80
+waiting for a connection
+^X^CTraceback (most recent call last):
+  File "server.py" line 18 in <module>
+    connection client_address = sock.accept()
+  File "/usr/lib/python2.7/socket.py" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-197|U |1580449119|usc430ad|server:ls|top_secret
+
+INPUT|usc430ad-intro-198|U |1580449120|usc430ad|server:cd top_secret/|
+INPUT|usc430ad-intro-199|U |1580449121|usc430ad|server:ls|136intro-2jjaj.JPEG  answers.txt   asdf136Intro-5kqlw.jpeg  client.py~	  server.py   wuer136intro-4.JPG
+136intro-3.jpg	     answers.txt~  client.py		    diskfree.txt  server.py~  xbzf136INTRO-1.jpg
+
+INPUT|usc430ad-intro-200|U |1580449130|usc430ad|server:sudp python server.py|;1580449131
+Command 'sudp' not found did you mean:
+
+  command 'sfdp' from deb graphviz
+  command 'sup' from deb sup
+  command 'sudo' from deb sudo
+  command 'sudo' from deb sudo-ldap
+
+Try: apt install <deb name>
+
+
+INPUT|usc430ad-intro-201|U |1580449137|usc430ad|server:python server.py|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-202|U |1580449565|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+^X^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-203|U |1580593775|usc430ad|server:ls        |top_secret
+
+INPUT|usc430ad-intro-204|U |1580593777|usc430ad|server:cd top_secret/|
+INPUT|usc430ad-intro-205|U |1580593787|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ad-intro-206|U |1580593794|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 46992)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 46992)
+waiting for a connection
+connection from ('10.1.1.2' 46994)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 46994)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    print >>sys.stderr 'waiting for a connection'
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-207|U |1580594352|usc430ad|server:python server.py|Traceback (most recent call last):
+  File \"server.py\" line 40 in <module>
+    import http.server
+ImportError: No module named http.server
+
+INPUT|usc430ad-intro-208|U |1580594432|usc430ad|server:py -3 server.py|sudo: py: command not found
+
+INPUT|usc430ad-intro-209|U |1580594439|usc430ad|server:python -3 server.py|Traceback (most recent call last):
+  File \"server.py\" line 40 in <module>
+    import http.server
+ImportError: No module named http.server
+
+INPUT|usc430ad-intro-210|U |1580594466|usc430ad|server:python3 server.py|serving at port 80
+10.1.1.2 - - [01/Feb/2020 14:01:38] code 400 message Bad request syntax ('This is the message.  It will be repeated.')
+10.1.1.2 - - [01/Feb/2020 14:01:38] \"This is the message.  It will be repeated.\" 400 -
+^[[A^CTraceback (most recent call last):
+  File \"server.py\" line 48 in <module>
+    keyfile=\"path/tp/key.pem\"
+  File \"/usr/lib/python3.6/socketserver.py\" line 236 in serve_forever
+    ready = selector.select(poll_interval)
+  File \"/usr/lib/python3.6/selectors.py\" line 376 in select
+    fd_event_list = self._poll.poll(timeout)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-211|U |1580595097|usc430ad|server:python server.py|Traceback (most recent call last):
+  File \"server.py\" line 49 in <module>
+    certfile='path/to/cert.pem' server_side=True)
+  File \"/usr/lib/python2.7/ssl.py\" line 949 in wrap_socket
+    ciphers=ciphers)
+  File \"/usr/lib/python2.7/ssl.py\" line 560 in __init__
+    self._context.load_cert_chain(certfile keyfile)
+IOError: [Errno 2] No such file or directory
+
+INPUT|usc430ad-intro-212|U |1580595126|usc430ad|server:python server.py|Traceback (most recent call last):
+  File \"server.py\" line 48 in <module>
+    certfile='path/to/cert.pem' server_side=True)
+  File \"/usr/lib/python2.7/ssl.py\" line 949 in wrap_socket
+    ciphers=ciphers)
+  File \"/usr/lib/python2.7/ssl.py\" line 560 in __init__
+    self._context.load_cert_chain(certfile keyfile)
+IOError: [Errno 2] No such file or directory
+
+INPUT|usc430ad-intro-213|U |1580595441|usc430ad|intro:ls|top_secret
+
+INPUT|usc430ad-intro-214|U |1580595442|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-215|U |1580595443|usc430ad|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ad
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ad-intro-216|U |1580595500|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-217|U |1580595501|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-218|U |1580595504|usc430ad|intro:cd tmp/|
+INPUT|usc430ad-intro-219|U |1580595505|usc430ad|intro:ls|systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-resolved.service-Nt1spa
+systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-timesyncd.service-E6Msmc
+
+INPUT|usc430ad-intro-220|U |1580595591|usc430ad|server:python server.py|http server is starting...
+Traceback (most recent call last):
+  File \"server.py\" line 79 in <module>
+    run()  
+  File \"server.py\" line 74 in run
+    httpd = HTTPServer(server_address KodeFunHTTPRequestHandler)  
+NameError: global name 'KodeFunHTTPRequestHandler' is not defined
+
+INPUT|usc430ad-intro-221|U |1580595612|usc430ad|server:python server.py|http server is starting...
+http server is running...
+^CTraceback (most recent call last):
+  File \"server.py\" line 79 in <module>
+    run()  
+  File \"server.py\" line 76 in run
+    httpd.serve_forever()  
+  File \"/usr/lib/python2.7/SocketServer.py\" line 231 in serve_forever
+    poll_interval)
+  File \"/usr/lib/python2.7/SocketServer.py\" line 150 in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-222|U |1580595854|usc430ad|server:python server.py|http server is starting...
+http server is running...
+10.1.1.2 - - [01/Feb/2020 14:24:29] code 404 message file not found
+10.1.1.2 - - [01/Feb/2020 14:24:29] \"GET /filename.html HTTP/1.1\" 404 -
+Traceback (most recent call last):
+  File \"server.py\" line 79 in <module>
+^C    run()  
+  File \"server.py\" line 76 in run
+    httpd.serve_forever()  
+  File \"/usr/lib/python2.7/SocketServer.py\" line 231 in serve_forever
+    poll_interval)
+  File \"/usr/lib/python2.7/SocketServer.py\" line 150 in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-223|U |1580595956|usc430ad|server:ls|136intro-2jjaj.JPEG  answers.txt   asdf136Intro-5kqlw.jpeg  client.py~	  server.py   wuer136intro-4.JPG
+136intro-3.jpg	     answers.txt~  client.py		    diskfree.txt  server.py~  xbzf136INTRO-1.jpg
+
+INPUT|usc430ad-intro-224|U |1580595959|usc430ad|server:cd ..|
+INPUT|usc430ad-intro-225|U |1580595960|usc430ad|server:ls|top_secret
+
+INPUT|usc430ad-intro-226|U |1580595973|usc430ad|server:cd |
+INPUT|usc430ad-intro-227|U |1580595975|usc430ad|server:ls|top_secret
+
+INPUT|usc430ad-intro-228|U |1580595976|usc430ad|server:cd ..|
+INPUT|usc430ad-intro-229|U |1580595977|usc430ad|server:ls|aashraya  ambkrish  cristina  faber	glawler   jgli	   kls2      melkins   penged	 rweiss    sklower   tescjack
+albpat03  barada24  dagny64   garmar09	jacque	  jhickey  krisgado  mlocasto  quin2	 schwab    slohith   thang89
+alefiya   bks	    dbosch    gbartlet	jdbarnes  jjh	   kryptos   patrickv  regste07  scuric    sunshine  usc430ad
+alotero   chandler  ekline    giotah	jelena	  jmache   massacci  paullepe  rgoodfel  selenaws  tescdavy
+
+INPUT|usc430ad-intro-230|U |1580595987|usc430ad|server:cd ..|
+INPUT|usc430ad-intro-231|U |1580595993|usc430ad|server:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-232|U |1580595996|usc430ad|server:cd tmp/|
+INPUT|usc430ad-intro-233|U |1580595997|usc430ad|server:ls|systemd-private-518621d265ef431a9b348723954794bc-systemd-resolved.service-UsQYaK
+systemd-private-518621d265ef431a9b348723954794bc-systemd-timesyncd.service-SEkKyh
+
+INPUT|usc430ad-intro-234|U |1580596000|usc430ad|server:cd|
+INPUT|usc430ad-intro-235|U |1580596001|usc430ad|server:ls|top_secret
+
+INPUT|usc430ad-intro-236|U |1580596010|usc430ad|server:mkdir tmp|
+INPUT|usc430ad-intro-237|U |1580596013|usc430ad|server:cd tmp/|
+INPUT|usc430ad-intro-238|U |1580596014|usc430ad|server:ls|
+INPUT|usc430ad-intro-239|U |1580596036|usc430ad|server:touch filename.html|
+INPUT|usc430ad-intro-240|U |1580596041|usc430ad|server:emacs filename.html |69d-111:----F1  *scratch*      All L1     (Fundamental) --------------------------------------------------------------------------------------------
+A2d70dLoading 00debian-vars...done
+/etc/emacs/site-start.d/50autoconf.el (source)...
+done
+tcsh.el (source)...
+done
+>0c70dLoading /etc/emacs/site-start.d/50tcsh.el (source)...doneFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                            
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  *scratch*      All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------
+A2d70dFor information about GNU Emacs and the GNU system type C-h C-a.
+70dFor information about GNU Emacs and the GNU system type C-h C-a.File Edit Options Buffers Tools HTML SGML Text Help                                                                                              
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INPUT|usc430ad-intro-241|U |1580596092|usc430ad|server:cd ..|
+INPUT|usc430ad-intro-242|U |1580596093|usc430ad|server:ls|tmp  top_secret
+
+INPUT|usc430ad-intro-243|U |1580596095|usc430ad|server:cd t|bash: cd: t: No such file or directory
+
+INPUT|usc430ad-intro-244|U |1580596097|usc430ad|server:cd top_secret/|
+INPUT|usc430ad-intro-245|U |1580596104|usc430ad|server:python server.py|http server is starting...
+http server is running...
+10.1.1.2 - - [01/Feb/2020 14:28:37] code 404 message file not found
+10.1.1.2 - - [01/Feb/2020 14:28:37] \"GET /filename.html HTTP/1.1\" 404 -
+^CTraceback (most recent call last):
+  File \"server.py\" line 79 in <module>
+    run()  
+  File \"server.py\" line 76 in run
+    httpd.serve_forever()  
+  File \"/usr/lib/python2.7/SocketServer.py\" line 231 in serve_forever
+    poll_interval)
+  File \"/usr/lib/python2.7/SocketServer.py\" line 150 in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-246|U |1580596173|usc430ad|server:python server.py|http server is starting...
+http server is running...
+10.1.1.2 - - [01/Feb/2020 14:29:42] code 404 message file not found
+10.1.1.2 - - [01/Feb/2020 14:29:42] \"GET /filename.html HTTP/1.1\" 404 -
+10.1.1.2 - - [01/Feb/2020 14:30:58] code 404 message file not found
+10.1.1.2 - - [01/Feb/2020 14:30:58] \"GET filename.html HTTP/1.1\" 404 -
+^CTraceback (most recent call last):
+  File \"server.py\" line 79 in <module>
+    run()  
+  File \"server.py\" line 76 in run
+    httpd.serve_forever()  
+  File \"/usr/lib/python2.7/SocketServer.py\" line 231 in serve_forever
+    poll_interval)
+  File \"/usr/lib/python2.7/SocketServer.py\" line 150 in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-247|U |1580596271|usc430ad|intro:ls|systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-resolved.service-Nt1spa
+systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-timesyncd.service-E6Msmc
+
+INPUT|usc430ad-intro-248|U |1580596272|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-249|U |1580596274|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-250|U |1580596276|usc430ad|intro:cd|
+INPUT|usc430ad-intro-251|U |1580596277|usc430ad|intro:ls|tmp  top_secret
+
+INPUT|usc430ad-intro-252|U |1580596280|usc430ad|intro:cd tmp/|
+INPUT|usc430ad-intro-253|U |1580596281|usc430ad|intro:ls|filename.html  filename.html~
+
+INPUT|usc430ad-intro-254|U |1580596295|usc430ad|intro:cd /tmp|
+INPUT|usc430ad-intro-255|U |1580596297|usc430ad|intro:ls|systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-resolved.service-Nt1spa
+systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-timesyncd.service-E6Msmc
+
+INPUT|usc430ad-intro-256|U |1580596325|usc430ad|server:ls|136intro-2jjaj.JPEG  answers.txt   asdf136Intro-5kqlw.jpeg  client.py~	  server.py   wuer136intro-4.JPG
+136intro-3.jpg	     answers.txt~  client.py		    diskfree.txt  server.py~  xbzf136INTRO-1.jpg
+
+INPUT|usc430ad-intro-257|U |1580596328|usc430ad|server:cd /tmp|
+INPUT|usc430ad-intro-258|U |1580596329|usc430ad|server:ls|systemd-private-518621d265ef431a9b348723954794bc-systemd-resolved.service-UsQYaK
+systemd-private-518621d265ef431a9b348723954794bc-systemd-timesyncd.service-SEkKyh
+
+INPUT|usc430ad-intro-259|U |1580596442|usc430ad|intro:ls              |systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-resolved.service-Nt1spa
+systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-timesyncd.service-E6Msmc
+
+INPUT|usc430ad-intro-260|U |1580596450|usc430ad|intro:cd users|bash: cd: users: No such file or directory
+
+INPUT|usc430ad-intro-261|U |1580596453|usc430ad|intro:cd ..|
+INPUT|usc430ad-intro-262|U |1580596455|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-263|U |1580596458|usc430ad|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ad
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ad-intro-264|U |1580596462|usc430ad|intro:ls|tmp  top_secret
+
+INPUT|usc430ad-intro-265|U |1580596466|usc430ad|intro:   |
+INPUT|usc430ad-intro-266|U |1580596478|usc430ad|intro:cd /|
+INPUT|usc430ad-intro-267|U |1580596479|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-268|A0 A2 A3 A4 A1 |1580596592|usc430ad|intro:locate *intro* -i|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430ad-intro-269|U |1580596625|usc430ad|intro:mv ~/tmp/filename.html /tmp|
+INPUT|usc430ad-intro-270|U |1580596628|usc430ad|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ad-intro-271|U |1580596630|usc430ad|intro:cd tmp/|
+INPUT|usc430ad-intro-272|U |1580596631|usc430ad|intro:ls|filename.html
+systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-resolved.service-Nt1spa
+systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-timesyncd.service-E6Msmc
+
+INPUT|usc430ad-intro-273|U |1580596646|usc430ad|server:cd |
+INPUT|usc430ad-intro-274|U |1580596647|usc430ad|server:ls|tmp  top_secret
+
+INPUT|usc430ad-intro-275|U |1580596653|usc430ad|server:cd tmp/       |
+INPUT|usc430ad-intro-276|U |1580596654|usc430ad|server:ls|filename.html~
+
+INPUT|usc430ad-intro-277|U |1580596656|usc430ad|server:cd ..|
+INPUT|usc430ad-intro-278|U |1580596664|usc430ad|server:rm tmp |rm: cannot remove 'tmp': Is a directory
+
+INPUT|usc430ad-intro-279|U |1580596690|usc430ad|server:rmdir tmp|rmdir: failed to remove 'tmp': Directory not empty
+
+INPUT|usc430ad-intro-280|U |1580596701|usc430ad|server:rm -r tmp|
+INPUT|usc430ad-intro-281|U |1580596703|usc430ad|server:ls|top_secret
+
+INPUT|usc430ad-intro-282|U |1580596704|usc430ad|server:cd top_secret/|
+INPUT|usc430ad-intro-283|U |1580596709|usc430ad|server:python server.py|http server is starting...
+http server is running...
+10.1.1.2 - - [01/Feb/2020 14:38:37] code 404 message file not found
+10.1.1.2 - - [01/Feb/2020 14:38:37] \"GET filename.html HTTP/1.1\" 404 -
+10.1.1.2 - - [01/Feb/2020 14:38:50] code 404 message file not found
+10.1.1.2 - - [01/Feb/2020 14:38:50] \"GET /filename.html HTTP/1.1\" 404 -
+^CTraceback (most recent call last):
+  File \"server.py\" line 79 in <module>
+    run()  
+  File \"server.py\" line 76 in run
+    httpd.serve_forever()  
+  File \"/usr/lib/python2.7/SocketServer.py\" line 231 in serve_forever
+    poll_interval)
+  File \"/usr/lib/python2.7/SocketServer.py\" line 150 in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-284|U |1580596874|usc430ad|server:ls|systemd-private-518621d265ef431a9b348723954794bc-systemd-resolved.service-UsQYaK
+systemd-private-518621d265ef431a9b348723954794bc-systemd-timesyncd.service-SEkKyh
+
+INPUT|usc430ad-intro-285|U |1580596881|usc430ad|intro:ls|filename.html
+systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-resolved.service-Nt1spa
+systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-timesyncd.service-E6Msmc
+
+INPUT|usc430ad-intro-286|U |1580596949|usc430ad|server:cd /tmp|
+INPUT|usc430ad-intro-287|U |1580596950|usc430ad|server:ls|systemd-private-518621d265ef431a9b348723954794bc-systemd-resolved.service-UsQYaK
+systemd-private-518621d265ef431a9b348723954794bc-systemd-timesyncd.service-SEkKyh
+
+INPUT|usc430ad-intro-288|U |1580597284|usc430ad|server:touch filename.html|
+INPUT|usc430ad-intro-289|U |1580597309|usc430ad|server:emacs filename.html |69d-111:----F1  *scratch*      All L1     (Fundamental) --------------------------------------------------------------------------------------------
+A2d70dLoading 00debian-vars...done
+/etc/emacs/site-start.d/50autoconf.el (source)...
+done
+tcsh.el (source)...
+done
+>0c70dLoading /etc/emacs/site-start.d/50tcsh.el (source)...doneFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                            
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  *scratch*      All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------
+A2d70dFor information about GNU Emacs and the GNU system type C-h C-a.
+70dFor information about GNU Emacs and the GNU system type C-h C-a.File Edit Options Buffers Tools HTML SGML Text Help                                                                                              
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INPUT|usc430ad-intro-290|U |1580597354|usc430ad|intro:ls|filename.html
+systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-resolved.service-Nt1spa
+systemd-private-800226ca462e493c8006bb7cef7c5942-systemd-timesyncd.service-E6Msmc
+
+INPUT|usc430ad-intro-291|U |1580597374|usc430ad|server:cd|
+INPUT|usc430ad-intro-292|U |1580597377|usc430ad|server:cd top_secret/|
+INPUT|usc430ad-intro-293|U |1580597381|usc430ad|server:python server.py|http server is starting...
+http server is running...
+10.1.1.2 - - [01/Feb/2020 14:49:53] code 404 message file not found
+10.1.1.2 - - [01/Feb/2020 14:49:53] \"GET filename.html HTTP/1.1\" 404 -
+10.1.1.2 - - [01/Feb/2020 14:50:01] \"GET /filename.html HTTP/1.1\" 200 -
+10.1.1.2 - - [01/Feb/2020 14:50:25] \"GET /filename.html HTTP/1.1\" 200 -
+10.1.1.2 - - [01/Feb/2020 14:51:32] \"GET /filename.html HTTP/1.1\" 200 -
+^X^CTraceback (most recent call last):
+  File \"server.py\" line 79 in <module>
+    
+  File \"server.py\" line 76 in run
+    
+  File \"/usr/lib/python2.7/SocketServer.py\" line 231 in serve_forever
+    poll_interval)
+  File \"/usr/lib/python2.7/SocketServer.py\" line 150 in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-294|U |1580598408|usc430ad|server:python server.py|http server is starting...
+http server is running...
+10.1.1.2 - - [01/Feb/2020 15:07:00] code 404 message file not found
+10.1.1.2 - - [01/Feb/2020 15:07:00] \"GET filename.html HTTP/1.1\" 404 -
+10.1.1.2 - - [01/Feb/2020 15:07:06] \"GET /filename.html HTTP/1.1\" 200 -
+^CTraceback (most recent call last):
+  File \"server.py\" line 39 in <module>
+    if __name__ == '__main__':  
+  File \"server.py\" line 36 in run
+    print('http server is running...')  
+  File \"/usr/lib/python2.7/SocketServer.py\" line 231 in serve_forever
+    poll_interval)
+  File \"/usr/lib/python2.7/SocketServer.py\" line 150 in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-295|U |1580599195|usc430ad|server:python server.py|http server is starting...
+http server is running...
+10.1.1.2 - - [01/Feb/2020 15:20:33] code 404 message file not found
+10.1.1.2 - - [01/Feb/2020 15:20:33] \"GET filename.html HTTP/1.1\" 404 -
+10.1.1.2 - - [01/Feb/2020 15:21:25] \"GET /filename.html HTTP/1.1\" 200 -
+^CTraceback (most recent call last):
+  File \"server.py\" line 40 in <module>
+    run()  
+  File \"server.py\" line 37 in run
+    httpd.serve_forever()  
+  File \"/usr/lib/python2.7/SocketServer.py\" line 231 in serve_forever
+    poll_interval)
+  File \"/usr/lib/python2.7/SocketServer.py\" line 150 in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-296|U |1580600776|usc430ad|server:python server.py|http server is starting...
+http server is running...
+10.1.1.2 - - [01/Feb/2020 15:46:31] \"GET /filename.html HTTP/1.1\" 200 -
+^X^CTraceback (most recent call last):
+  File \"server.py\" line 40 in <module>
+    
+  File \"server.py\" line 37 in run
+    
+  File \"/usr/lib/python2.7/SocketServer.py\" line 231 in serve_forever
+    poll_interval)
+  File \"/usr/lib/python2.7/SocketServer.py\" line 150 in _eintr_retry
+    return func(*args)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-297|U |1580604145|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47140)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 47140)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-298|U |1580605291|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47158)
+Method: This
+Request Body: This is the message.  It will be repeated.
+Unknown HTTP request method: This
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-299|U |1580605829|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47160)
+waiting for a connection
+connection from ('10.1.1.2' 47162)
+waiting for a connection
+connection from ('10.1.1.2' 47164)
+waiting for a connection
+connection from ('10.1.1.2' 47174)
+Method: GET
+Request Body: GET /filename.html
+Serving web page [/tmp/filename.html]
+File not found. Serving 404 page.
+Traceback (most recent call last):
+  File \"server.py\" line 56 in <module>
+    response_header = self._generate_headers(404)
+NameError: name 'self' is not defined
+
+INPUT|usc430ad-intro-300|U |1580606425|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47176)
+Method: GET
+Request Body: ['GET' '/filename.html']
+Serving web page [/tmp/filename.html]
+File not found. Serving 404 page.
+Traceback (most recent call last):
+  File \"server.py\" line 57 in <module>
+    response_header = data[2] +	'404 Not Found\
+'
+IndexError: list index out of range
+
+INPUT|usc430ad-intro-301|U |1580606453|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-302|U |1580606459|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-303|U |1580606461|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-304|U |1580606468|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-305|U |1580606499|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-306|U |1580606603|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47180)
+Method: GET
+Request Body: ['GET' '/filename.html' 'HTTP/1.1']
+Serving web page [/tmp/filename.html]
+Traceback (most recent call last):
+  File \"server.py\" line 66 in <module>
+    client.send(response)
+NameError: name 'client' is not defined
+
+INPUT|usc430ad-intro-307|U |1580606739|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47182)
+Method: GET
+Request Body: ['GET' '/filename.html' 'HTTP/1.1']
+Serving web page [/tmp/filename.html]
+Method: GET
+Request Body: ['GET' '/f.html' 'HTTP/1.1']
+Serving web page [/tmp/f.html]
+File not found. Serving 404 page.
+Traceback (most recent call last):
+  File \"server.py\" line 60 in <module>
+    response_data = b\"<html><body><center><h1>Error 404: File not found</h1></center><p>Head back to <a href=\"/\">dry land</a>.</p></body></html>\"
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+
+INPUT|usc430ad-intro-308|U |1580607017|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47192)
+Method: f
+Request Body: ['f' 'f' 'f']
+Unknown HTTP request method: f
+^X^CTraceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-309|U |1580607032|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-310|U |1580607035|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-311|U |1580607053|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-312|U |1580607087|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-313|U |1580607111|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47194)
+Method: GET
+Request Body: ['GET' '/f' '/f']
+Serving web page [/tmp/f]
+File not found. Serving 404 page.
+waiting for a connection
+
+INPUT|usc430ad-intro-314|U |1580609665|usc430ad|server:python server.py|python: can't open file 'server.py': [Errno 2] No such file or directory
+
+INPUT|usc430ad-intro-315|U |1580609669|usc430ad|server:cd top_secret/|
+INPUT|usc430ad-intro-316|U |1580609670|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47224)
+Method: response
+Request Body: ['response' '=' 'response_header.encode()']
+waiting for a connection
+connection from ('10.1.1.2' 47226)
+Method: GET
+Request Body: ['GET' 'f.html' 'HTTP/1.1']
+Serving web page [/tmpf.html]
+File not found. Serving 404 page.
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-317|U |1580611360|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47246)
+Method: GET
+Request Body: ['GET' 'f./html' 'HTTP/1.1']
+Serving web page [/tmpf./html]
+File not found. Serving 404 page.
+Traceback (most recent call last):
+  File \"server.py\" line 65 in <module>
+    client.send(response)
+NameError: name 'client' is not defined
+
+INPUT|usc430ad-intro-318|U |1580611396|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-319|U |1580611401|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-320|U |1580611601|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47248)
+Method: GET
+Request Body: ['GET' 'f.html' 'HTTP/1.1']
+Serving web page [/tmpf.html]
+File not found. Serving 404 page.
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-321|U |1580611705|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47258)
+Method: GET
+Request Body: ['GET' '/filename.html' 'HTTP/1.1']
+Serving web page [/tmp/filename.html]
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-322|U |1580611810|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47260)
+Method: GET
+Request Body: ['GET' 'f.html' 'f']
+Serving web page [/tmpf.html]
+File not found. Serving 404 page.
+Method: GET
+Request Body: ['GET' '/filename.html' 'HTTP/1.1']
+Serving web page [/tmp/filename.html]
+
+INPUT|usc430ad-intro-323|U |1580667194|usc430ad|server:cd top_secret/|
+INPUT|usc430ad-intro-324|U |1580667857|usc430ad|server:14Psudo python client.py server|connecting to server port 80
+Traceback (most recent call last):
+  File \"client.py\" line 10 in <module>
+    sock.connect(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 111] Connection refused
+
+INPUT|usc430ad-intro-325|U |1580667871|usc430ad|server:s30Pudo python server.pyc430ad.USC430.isi.deterlab.netnet|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42864)
+Method: GET
+Request Body: ['GET' '/filename.html' 'HTTP/1.1']
+Serving web page [/tmp/filename.html]
+File not found. Serving 404 page.
+^CTraceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-326|U |1580668425|usc430ad|server:python server.py|  File \"server.py\" line 58
+    response_data = \"<html>/n
+                            ^
+SyntaxError: EOL while scanning string literal
+
+INPUT|usc430ad-intro-327|U |1580668645|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42874)
+Method: GET
+Request Body: ['GET' '/filename.html' 'HTTP/1.1']
+Serving web page [/tmp/filename.html]
+File not found. Serving 404 page.
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-328|U |1580668745|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42876)
+Method: GET
+Request Body: ['GET' 'filename.html' 'HTTP/1.1']
+Serving web page [/tmpfilename.html]
+File not found. Serving 404 page.
+^CTraceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-329|U |1580668818|usc430ad|server:cd|
+INPUT|usc430ad-intro-330|U |1580668819|usc430ad|server:ls|top_secret
+
+INPUT|usc430ad-intro-331|U |1580668821|usc430ad|server:ls|systemd-private-4bed6e9c3ae04634a2763e067ee011b1-systemd-resolved.service-B9ASV7
+systemd-private-4bed6e9c3ae04634a2763e067ee011b1-systemd-timesyncd.service-dkAwEI
+
+INPUT|usc430ad-intro-332|U |1580668843|usc430ad|server:touch filename.html |
+INPUT|usc430ad-intro-333|U |1580668846|usc430ad|server:emacs filename.html|79d-111:----F1  *scratch*      All L1     (Fundamental) --------------------------------------------------------------------------------------------
+A2d80dLoading 00debian-vars...done
+/etc/emacs/site-start.d/50autoconf.el (source)...
+done
+tcsh.el (source)...
+done
+>0c80dLoading /etc/emacs/site-start.d/50tcsh.el (source)...doneFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                            
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  *scratch*      All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------
+A2d80dFor information about GNU Emacs and the GNU system type C-h C-a.
+80dFor information about GNU Emacs and the GNU system type C-h C-a.File Edit Options Buffers Tools HTML SGML Text Help                                                                                              
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INPUT|usc430ad-intro-334|U |1580668896|usc430ad|server:cd|
+INPUT|usc430ad-intro-335|U |1580668899|usc430ad|server:cd top_secret/|
+INPUT|usc430ad-intro-336|U |1580668904|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42886)
+Method: GET
+Request Body: ['GET' '/filename.html' 'HTTP/1.1']
+Serving web page [/tmp/filename.html]
+Method: GET
+Request Body: ['GET' 'f.html' 'G']
+Serving web page [/tmpf.html]
+File not found. Serving 404 page.
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-337|U |1580669116|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42888)
+Method: f
+Request Body: ['f']
+Unknown HTTP request method: f
+^CTraceback (most recent call last):
+  File \"server.py\" line 25 in <module>
+    data = connection.recv(1024)
+KeyboardInterrupt
+
+INPUT|usc430ad-intro-338|U |1580669518|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-339|U |1580669521|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-340|U |1580669558|usc430ad|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ad-intro-341|U |1580669642|usc430ad|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42890)
+Method: f
+Request Body: ['f']
+Incorrectly formated request
+Method: f
+Request Body: ['f' 'f']
+Incorrectly formated request
+Method: f
+Request Body: ['f' 'f' 'f' 'f']
+Incorrectly formated request
+Method: GET
+Request Body: ['GET' '/filename.html' 'HTTP/1.1']
+Serving web page [/tmp/filename.html]
+Method: GET
+Request Body: ['GET' 'f' 'f']
+Serving web page [/tmpf]
+File not found. Serving 404 page.
+waiting for a connection
+connection from ('10.1.1.2' 42900)
+waiting for a connection
+connection from ('10.1.1.2' 42912)
+Method: GET
+Request Body: ['GET' 'f' 'HTTP/1.1']
+Serving web page [/tmpf]
+File not found. Serving 404 page.
+Method: GET
+Request Body: ['GET' '/filename.html' 'HTTP/1.1']
+Serving web page [/tmp/filename.html]
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"

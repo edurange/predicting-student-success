@@ -1,0 +1,749 @@
+User usc430ao start time 1580773140 end 1581223431
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ao-intro-0|U |000000000|usc430ao|:|
+INPUT|usc430ao-intro-1|U |000000000|usc430ao|:|
+INPUT|usc430ao-intro-2|U |1580773140|usc430ao|intro:ls|interview_prep.docx  thomas.png  usc430ao.txt
+
+INPUT|usc430ao-intro-3|U |1580773255|usc430ao|intro:ls|interview_prep.docx  thomas.png  usc430ao.txt
+
+INPUT|usc430ao-intro-4|U |1580773406|usc430ao|intro:ls|interview_prep.docx  thomas.png  usc430ao.txt
+
+INPUT|usc430ao-intro-5|U |1580773488|usc430ao|intro:node_list|node_list: command not found
+
+INPUT|usc430ao-intro-6|U |1580773761|usc430ao|intro:clear|
+
+INPUT|usc430ao-intro-7|U |1580773762|usc430ao|intro:ls|interview_prep.docx  thomas.png  usc430ao.txt
+
+INPUT|usc430ao-intro-8|U |1580773943|usc430ao|intro:cd ~|
+INPUT|usc430ao-intro-9|U |1580773946|usc430ao|intro:ls|interview_prep.docx  thomas.png  usc430ao.txt
+
+INPUT|usc430ao-intro-10|U |1580774221|usc430ao|intro:cp /tmp/|.font-unix/
+.ICE-unix/
+systemd-private-5e683f25a9a649c9a6fbdbaee7a39c6b-systemd-resolved.service-ND7UHv/
+systemd-private-5e683f25a9a649c9a6fbdbaee7a39c6b-systemd-timesyncd.service-0aF52j/
+.Test-unix/
+.X11-unix/
+.XIM-unix/
+
+INPUT|usc430ao-intro-11|U |1580774245|usc430ao|intro:cp -r /tmp/.font-unix/ ~/|
+INPUT|usc430ao-intro-12|U |1580774248|usc430ao|intro:ls -alh|total 1.2M
+drwx------  7 usc430ao USC430  512 Feb  3 15:57 .
+drwxr-xr-x 27 root     root   4.0K Feb  3 15:36 ..
+-rw-------  1 usc430ao USC430  195 Jan 17 14:39 .bash_history
+drwx------  2 usc430ao USC430  512 Jan 17 14:00 .cache
+drwxr-xr-x  2 usc430ao USC430  512 Feb  3 15:57 .font-unix
+-rw-r--r--  1 usc430ao USC430   17 Jan 17 11:13 .forward
+drwx------  3 usc430ao USC430  512 Jan 17 14:00 .gnupg
+-rw-r--r--  1 usc430ao USC430  18K Jan 17 14:07 interview_prep.docx
+drwx------  2 usc430ao USC430  512 Jan 17 14:00 .ssh
+drwx------  2 usc430ao USC430  512 Jul 15  2019 .ssl
+-rw-r--r--  1 usc430ao USC430 1.1M Jan 17 14:35 thomas.png
+-rw-r--r--  1 usc430ao USC430    0 Jan 17 14:33 usc430ao.txt
+
+INPUT|usc430ao-intro-13|U |1580774302|usc430ao|intro:ls|interview_prep.docx  thomas.png  usc430ao.txt
+
+INPUT|usc430ao-intro-14|U |1580774317|usc430ao|intro:cd /|
+INPUT|usc430ao-intro-15|U |1580774320|usc430ao|intro:ls -alh|total 116K
+drwxr-xr-x  28 root root 4.0K Feb  3 15:36 .
+drwxr-xr-x  28 root root 4.0K Feb  3 15:36 ..
+drwxr-xr-x   2 root root 4.0K Jan  5  2019 bin
+drwxr-xr-x   3 root root 4.0K Jan  5  2019 boot
+drwxr-xr-x  19 root root 4.0K Feb  3 15:36 dev
+drwxr-xr-x 110 root root 4.0K Feb  3 15:36 etc
+drwxr-xr-x   2 root root 4.0K Feb  3 15:36 .hidden
+drwxr-xr-x   3 root root 4.0K Jan  5  2019 home
+lrwxrwxrwx   1 root root   33 Jan  5  2019 initrd.img -> boot/initrd.img-4.15.0-43-generic
+lrwxrwxrwx   1 root root   33 Jan  5  2019 initrd.img.old -> boot/initrd.img-4.15.0-20-generic
+drwxr-xr-x  21 root root 4.0K Jan  5  2019 lib
+drwxr-xr-x   2 root root 4.0K Jan  5  2019 lib64
+drwxr-xr-x   3 root root 4.0K Jan 22 23:42 local
+drwx------   2 root root  16K Jan  5  2019 lost+found
+drwxr-xr-x   4 root root 4.0K Jan  5  2019 media
+drwxr-xr-x   2 root root 4.0K Apr 26  2018 mnt
+drwxr-xr-x   2 root root 4.0K Apr 26  2018 opt
+dr-xr-xr-x 150 root root    0 Feb  3 15:35 proc
+drwxr-xr-x   4 root root 4.0K Feb 
+INPUT|usc430ao-intro-16|U |1580774327|usc430ao|intro:cd users/|
+INPUT|usc430ao-intro-17|U |1580774328|usc430ao|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430ao
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430ao-intro-18|U |1580774339|usc430ao|intro:cd usc430ao/|
+INPUT|usc430ao-intro-19|U |1580774343|usc430ao|intro:cd ~/|
+INPUT|usc430ao-intro-20|U |1580774344|usc430ao|intro:ls|interview_prep.docx  thomas.png  usc430ao.txt
+
+INPUT|usc430ao-intro-21|U |1580774350|usc430ao|intro:pwd|/users/usc430ao
+
+INPUT|usc430ao-intro-22|U |1580774383|usc430ao|intro:cd /|
+INPUT|usc430ao-intro-23|U |1580774384|usc430ao|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ao-intro-24|U |1580774387|usc430ao|intro:cd|
+INPUT|usc430ao-intro-25|A1 A4 A0 A2 A3 |1580774727|usc430ao|intro:find ./GFG -name *intro|find: './GFG': No such file or directory
+
+INPUT|usc430ao-intro-26|U |1580774829|usc430ao|intro:grep intro *|
+INPUT|usc430ao-intro-27|U |1580774852|usc430ao|intro:grep -i intro *|
+INPUT|usc430ao-intro-28|U |1580774856|usc430ao|intro:ls|interview_prep.docx  thomas.png  usc430ao.txt
+
+INPUT|usc430ao-intro-29|U |1580774862|usc430ao|intro:cd /!|bash: cd: /!: No such file or directory
+
+INPUT|usc430ao-intro-30|U |1580774865|usc430ao|intro:cd ~|
+INPUT|usc430ao-intro-31|U |1580774868|usc430ao|intro:ls|interview_prep.docx  thomas.png  usc430ao.txt
+
+INPUT|usc430ao-intro-32|U |1580774870|usc430ao|intro:cd /|
+INPUT|usc430ao-intro-33|U |1580774871|usc430ao|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ao-intro-34|U |1580774880|usc430ao|intro:pwd|/
+
+INPUT|usc430ao-intro-35|U |1580774919|usc430ao|intro:grep -i intro *|grep: bin: Is a directory
+grep: boot: Is a directory
+grep: dev: Is a directory
+grep: etc: Is a directory
+grep: home: Is a directory
+grep: lib: Is a directory
+grep: lib64: Is a directory
+grep: local: Is a directory
+grep: lost+found: Permission denied
+grep: media: Is a directory
+grep: mnt: Is a directory
+grep: opt: Is a directory
+grep: proc: Is a directory
+grep: proj: Is a directory
+grep: root: Permission denied
+grep: run: Is a directory
+grep: sbin: Is a directory
+grep: share: Is a directory
+grep: snap: Is a directory
+grep: srv: Is a directory
+grep: sys: Is a directory
+grep: tmp: Is a directory
+grep: users: Is a directory
+grep: usr: Is a directory
+grep: var: Is a directory
+grep: vmlinuz: Permission denied
+grep: vmlinuz.old: Permission denied
+
+INPUT|usc430ao-intro-36|A1 A4 A2 A3 A0 |1580775100|usc430ao|intro:find -name *intro|find: './tmp/systemd-private-5e683f25a9a649c9a6fbdbaee7a39c6b-systemd-resolved.service-ND7UHv': Permission denied
+find: './tmp/systemd-private-5e683f25a9a649c9a6fbdbaee7a39c6b-systemd-timesyncd.service-0aF52j': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430ao-intro-37|U |1580775167|usc430ao|intro:clear|
+
+INPUT|usc430ao-intro-38|M4 |1580775186|usc430ao|intro:find -name *.jpeg|./.hidden/asdf136Intro-5kqlw.jpeg
+find: './tmp/systemd-private-5e683f25a9a649c9a6fbdbaee7a39c6b-systemd-resolved.service-ND7UHv': Permission denied
+find: './tmp/systemd-private-5e683f25a9a649c9a6fbdbaee7a39c6b-systemd-timesyncd.service-0aF52j': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './pr
+INPUT|usc430ao-intro-39|A1 A4 A0 A2 A3 |1580775231|usc430ao|intro:find -name *intro.jpeg|find: './tmp/systemd-private-5e683f25a9a649c9a6fbdbaee7a39c6b-systemd-resolved.service-ND7UHv': Permission denied
+find: './tmp/systemd-private-5e683f25a9a649c9a6fbdbaee7a39c6b-systemd-timesyncd.service-0aF52j': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430ao-intro-40|U |1580775239|usc430ao|intro:clear|
+
+INPUT|usc430ao-intro-41|A1 A4 A0 A2 A3 |1580775241|usc430ao|intro:find -name *intro.jpeg|find: './tmp/systemd-private-5e683f25a9a649c9a6fbdbaee7a39c6b-systemd-resolved.service-ND7UHv': Permission denied
+find: './tmp/systemd-private-5e683f25a9a649c9a6fbdbaee7a39c6b-systemd-timesyncd.service-0aF52j': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430ao-intro-42|M4 |1580775285|usc430ao|intro:find -name *.jpeg|./.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ao-intro-43|U |1580775430|usc430ao|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ao-intro-44|U |1580775438|usc430ao|intro:ls -alh|total 116K
+drwxr-xr-x  28 root root 4.0K Feb  3 15:36 .
+drwxr-xr-x  28 root root 4.0K Feb  3 15:36 ..
+drwxr-xr-x   2 root root 4.0K Jan  5  2019 bin
+drwxr-xr-x   3 root root 4.0K Jan  5  2019 boot
+drwxr-xr-x  19 root root 4.0K Feb  3 15:36 dev
+drwxr-xr-x 110 root root 4.0K Feb  3 15:36 etc
+drwxr-xr-x   2 root root 4.0K Feb  3 15:36 .hidden
+drwxr-xr-x   3 root root 4.0K Jan  5  2019 home
+lrwxrwxrwx   1 root root   33 Jan  5  2019 initrd.img -> boot/initrd.img-4.15.0-43-generic
+lrwxrwxrwx   1 root root   33 Jan  5  2019 initrd.img.old -> boot/initrd.img-4.15.0-20-generic
+drwxr-xr-x  21 root root 4.0K Jan  5  2019 lib
+drwxr-xr-x   2 root root 4.0K Jan  5  2019 lib64
+drwxr-xr-x   3 root root 4.0K Jan 22 23:42 local
+drwx------   2 root root  16K Jan  5  2019 lost+found
+drwxr-xr-x   4 root root 4.0K Jan  5  2019 media
+drwxr-xr-x   2 root root 4.0K Apr 26  2018 mnt
+drwxr-xr-x   2 root root 4.0K Apr 26  2018 opt
+dr-xr-xr-x 149 root root    0 Feb  3 15:35 proc
+drwxr-xr-x   4 root root 4.0K Feb 
+INPUT|usc430ao-intro-45|U |1580775466|usc430ao|intro:ls -al|total 116
+drwxr-xr-x  28 root root  4096 Feb  3 15:36 .
+drwxr-xr-x  28 root root  4096 Feb  3 15:36 ..
+drwxr-xr-x   2 root root  4096 Jan  5  2019 bin
+drwxr-xr-x   3 root root  4096 Jan  5  2019 boot
+drwxr-xr-x  19 root root  4000 Feb  3 15:36 dev
+drwxr-xr-x 110 root root  4096 Feb  3 15:36 etc
+drwxr-xr-x   2 root root  4096 Feb  3 15:36 .hidden
+drwxr-xr-x   3 root root  4096 Jan  5  2019 home
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img -> boot/initrd.img-4.15.0-43-generic
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img.old -> boot/initrd.img-4.15.0-20-generic
+drwxr-xr-x  21 root root  4096 Jan  5  2019 lib
+drwxr-xr-x   2 root root  4096 Jan  5  2019 lib64
+drwxr-xr-x   3 root root  4096 Jan 22 23:42 local
+drwx------   2 root root 16384 Jan  5  2019 lost+found
+drwxr-xr-x   4 root root  4096 Jan  5  2019 media
+drwxr-xr-x   2 root root  4096 Apr 26  2018 mnt
+drwxr-xr-x   2 root root  4096 Apr 26  2018 opt
+dr-xr-xr-x 150 root root     0 Feb  3 15:35 proc
+drwxr-xr-x   4 ro
+INPUT|usc430ao-intro-46|U |1580775468|usc430ao|intro:clear|
+
+INPUT|usc430ao-intro-47|U |1580775469|usc430ao|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ao-intro-48|A4 A1 A0 A2 A3 |1580775489|usc430ao|intro:find -name *intro.jpeg|
+INPUT|usc430ao-intro-49|M4 |1580775504|usc430ao|intro:find -name *.jpeg|./.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ao-intro-50|M4 M1 |1580775786|usc430ao|intro:find / -iname *.jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430ao-intro-51|M4 M3 M2 M1 M0 |1580775805|usc430ao|intro:find / -iname *intro*|/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ao.hw1-usc430ao.intro.csv
+/var/log/ttylog/usc430ao.hw1-usc430ao.intro.log
+/etc/w
+INPUT|usc430ao-intro-52|U |1580775819|usc430ao|intro:ls -alh|total 116K
+drwxr-xr-x  28 root root 4.0K Feb  3 15:36 .
+drwxr-xr-x  28 root root 4.0K Feb  3 15:36 ..
+drwxr-xr-x   2 root root 4.0K Jan  5  2019 bin
+drwxr-xr-x   3 root root 4.0K Jan  5  2019 boot
+drwxr-xr-x  19 root root 4.0K Feb  3 15:36 dev
+drwxr-xr-x 110 root root 4.0K Feb  3 15:36 etc
+drwxr-xr-x   2 root root 4.0K Feb  3 15:36 .hidden
+drwxr-xr-x   3 root root 4.0K Jan  5  2019 home
+lrwxrwxrwx   1 root root   33 Jan  5  2019 initrd.img -> boot/initrd.img-4.15.0-43-generic
+lrwxrwxrwx   1 root root   33 Jan  5  2019 initrd.img.old -> boot/initrd.img-4.15.0-20-generic
+drwxr-xr-x  21 root root 4.0K Jan  5  2019 lib
+drwxr-xr-x   2 root root 4.0K Jan  5  2019 lib64
+drwxr-xr-x   3 root root 4.0K Jan 22 23:42 local
+drwx------   2 root root  16K Jan  5  2019 lost+found
+drwxr-xr-x   4 root root 4.0K Jan  5  2019 media
+drwxr-xr-x   2 root root 4.0K Apr 26  2018 mnt
+drwxr-xr-x   2 root root 4.0K Apr 26  2018 opt
+dr-xr-xr-x 150 root root    0 Feb  3 15:35 proc
+drwxr-xr-x   4 root root 4.0K Feb 
+INPUT|usc430ao-intro-53|M4 M3 M2 M1 M0 |1580775832|usc430ao|intro:find / -iname *intro* | less|/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ao.hw1-usc430ao.intro.csv
+/var/log/ttylog/usc430ao.hw1-usc430ao.intro.log
+/etc/w
+INPUT|usc430ao-intro-54|U |1581050016|usc430ao|intro:cd |
+INPUT|usc430ao-intro-55|U |1581050017|usc430ao|intro:ls|top_secret
+
+INPUT|usc430ao-intro-56|U |1581050028|usc430ao|intro:ls|top_secret
+
+INPUT|usc430ao-intro-57|U |1581050032|usc430ao|intro:cd top_secret/|
+INPUT|usc430ao-intro-58|U |1581050033|usc430ao|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430ao-intro-59|A6 |1581050040|usc430ao|intro:df -kh .|Filesystem                                        Size  Used Avail Use%% Mounted on
+users.isi.deterlab.net:/mnt/other/users/usc430ao  1.9T  1.1T  702G  61%% /users/usc430ao
+
+INPUT|usc430ao-intro-60|A6 |1581050048|usc430ao|intro:df -kh . > diskfree.txt|
+INPUT|usc430ao-intro-61|U |1581050049|usc430ao|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430ao-intro-62|U |1581050272|usc430ao|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430ao-intro-63|U |1581050278|usc430ao|intro:rm answers.txt |
+INPUT|usc430ao-intro-64|A5 |1581050425|usc430ao|intro:/proc/cpuinfo|bash: /proc/cpuinfo: Permission denied
+
+INPUT|usc430ao-intro-65|M5 |1581050435|usc430ao|intro:cat /proc/cpuinfo | grep vendor_id|vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+
+INPUT|usc430ao-intro-66|U |1581050810|usc430ao|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+136intro-3.jpg	     diskfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430ao-intro-67|U |1581050815|usc430ao|intro:cd ..|
+INPUT|usc430ao-intro-68|U |1581050816|usc430ao|intro:ls|answers.txt  top_secret
+
+INPUT|usc430ao-intro-69|U |1581050820|usc430ao|intro:mv answers.txt top_secret/|
+INPUT|usc430ao-intro-70|U |1581051120|usc430ao|intro:ls   |top_secret
+
+INPUT|usc430ao-intro-71|U |1581051122|usc430ao|intro:cd top_secret/|
+INPUT|usc430ao-intro-72|U |1581051125|usc430ao|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430ao-intro-73|U |1581051128|usc430ao|intro:less answers.txt |Part 1
+1.  ./.hidden/asdf136Intro-5kqlw.jpeg
+    2001 a space odyssey
+2.  /dev/136intro-2jjaj.JPEG
+    GODZILLA-KING OF THE MONSTERS!
+3.  /usr/share/pixmaps/xbzf136INTRO-1.jpg
+    FORBIDDEN PLANET
+4.  /var/log/136intro-3.jpg
+    IT CAME FROM OUTER SPACE
+5.  /etc/wuer136intro-4.JPG
+    The Fly
+Part2
+1. 1 sentence: What goes in the /var directory on a UNIX computer?
+    /var is a standard subdirectory of the root directory in Linux and other Unix-like operating systems that contains files to which the system writes data during the course of its operation.
+2. 1 sentence: What is the /dev directory for on a UNIX computer?
+    /dev stands for device. It is the location of special or device files.
+Part4
+vendor_id       : GenuineIntel
+...skipping...
+Part 1
+1.  ./.hidden/asdf136Intro-5kqlw.jpeg
+    2001 a space odyssey
+2.  /dev/136intro-2jjaj.JPEG
+    GODZILLA-KING OF THE MONSTERS!
+3.  /usr/share/pixmaps/xbzf136INTRO-1.jpg
+    FORBIDDEN PLANET
+4.  /var/log/136intro-3.jpg
+    IT CAME FROM OUTER
+INPUT|usc430ao-intro-74|U |1581116224|usc430ao|server:ls|client.py  server.py  top_secret
+
+INPUT|usc430ao-intro-75|U |1581116231|usc430ao|server:python client.py |
+INPUT|usc430ao-intro-76|U |1581116237|usc430ao|server:python ./client.py |
+INPUT|usc430ao-intro-77|U |1581116467|usc430ao|server:python3 client.py |
+INPUT|usc430ao-intro-78|U |1581121746|usc430ao|server:ls|client.py  server.py  top_secret
+
+INPUT|usc430ao-intro-79|U |1581121775|usc430ao|server:python server.py |
+INPUT|usc430ao-intro-80|U |1581121782|usc430ao|server:emacs server.py |23d-111:----F1  *scratch*      All L1     (Fundamental) ---------------------------
+A2d24dLoading 00debian-vars...done
+/etc/emacs/site-start.d/50autoconf.el (source)...
+done
+tcsh.el (source)...
+done
+>0c24dLoading /etc/emacs/site-start.d/50tcsh.el (source)...doneFile Edit Options Buffers Tools Lisp-Interaction Help                           
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  *scratch*      All L1     (Lisp Interaction) ----------------------
+A2d24dFor information about GNU Emacs and the GNU system type C-h C-a.
+24dCan't guess python-indent-offset using defaults: 4
+24dCan't guess python-indent-offset using defaults: 4File Edit Options Buffers Tools Python Help                                     
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  server.py      All L1     (Python) --------------------------------
+A2d24dBeginning of buffer
+24dEnd
+24d2d24d
+
+INPUT|usc430ao-intro-81|U |1581121797|usc430ao|server:cat server.py|
+INPUT|usc430ao-intro-82|U |1581121801|usc430ao|server:cat client.py |
+INPUT|usc430ao-intro-83|U |1581121861|usc430ao|server:python server.py |starting up on localhost port 80
+Traceback (most recent call last):
+  File \"server.py\" line 9 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ao-intro-84|U |1581121872|usc430ao|server:python server.py |starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 16 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ao-intro-85|U |1581122031|usc430ao|server:nano server.py |
+
+INPUT|usc430ao-intro-86|U |1581122064|usc430ao|server:python server.py |starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56204)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 56204)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 16 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ao-intro-87|U |1581221379|usc430ao|server:ls|client.py  client.py~  server.py  top_secret
+
+INPUT|usc430ao-intro-88|U |1581221384|usc430ao|server:ls -alh|total 76K
+drwx------ 10 usc430ao USC430  512 Feb  7 16:34 .
+drwxr-xr-x 49 root     root   4.0K Feb  8 20:02 ..
+-rw-------  1 usc430ao USC430  15K Feb  8 17:41 .bash_history
+drwx------  2 usc430ao USC430  512 Jan 17 14:00 .cache
+-rw-r--r--  1 usc430ao USC430  774 Feb  7 16:32 client.py
+-rw-r--r--  1 usc430ao USC430  776 Feb  7 16:30 client.py~
+drwx------  2 usc430ao USC430  512 Feb  7 16:29 .emacs.d
+drwxr-xr-x  2 usc430ao USC430  512 Feb  3 15:57 .font-unix
+-rw-r--r--  1 usc430ao USC430   17 Jan 17 11:13 .forward
+drwx------  3 usc430ao USC430  512 Jan 17 14:00 .gnupg
+-rw-------  1 usc430ao USC430   28 Feb  6 20:52 .lesshst
+drwxr-xr-x  3 usc430ao USC430  512 Feb  7 16:33 .local
+-rw-r--r--  1 usc430ao USC430 1019 Feb  7 16:34 server.py
+drwx------  2 usc430ao USC430  512 Jan 17 14:00 .ssh
+drwx------  2 usc430ao USC430  512 Jul 15  2019 .ssl
+drwxr-xr-x  2 usc430ao USC430  512 Feb  6 20:46 top_secret
+
+INPUT|usc430ao-intro-89|U |1581221397|usc430ao|server:cd ~|
+INPUT|usc430ao-intro-90|U |1581221399|usc430ao|server:ls|client.py  client.py~  server.py  top_secret
+
+INPUT|usc430ao-intro-91|U |1581221426|usc430ao|server:cd root|bash: cd: root: No such file or directory
+
+INPUT|usc430ao-intro-92|U |1581221428|usc430ao|server:ls|client.py  client.py~  server.py  top_secret
+
+INPUT|usc430ao-intro-93|U |1581221463|usc430ao|server:cd /|
+INPUT|usc430ao-intro-94|U |1581221465|usc430ao|server:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ao-intro-95|U |1581221473|usc430ao|server:cd |
+INPUT|usc430ao-intro-96|U |1581221475|usc430ao|server:cd /|
+INPUT|usc430ao-intro-97|U |1581221482|usc430ao|server:cd var|
+INPUT|usc430ao-intro-98|U |1581221484|usc430ao|server:ls|backups  crash	 lib	lock  mail  run   spool
+cache	 emulab  local	log   opt   snap  tmp
+
+INPUT|usc430ao-intro-99|U |1581221488|usc430ao|server:cd|
+INPUT|usc430ao-intro-100|U |1581221839|usc430ao|server:cd|
+INPUT|usc430ao-intro-101|U |1581221840|usc430ao|server:ls|404.html  client.py  client.py~  server.py  top_secret	valid.html
+
+INPUT|usc430ao-intro-102|U |1581221846|usc430ao|server:rm client.py~|
+INPUT|usc430ao-intro-103|U |1581221847|usc430ao|server:ls|404.html  client.py  server.py	top_secret  valid.html
+
+INPUT|usc430ao-intro-104|U |1581221868|usc430ao|server:mv 404.html valid.html ~|mv: '404.html' and '/users/usc430ao/404.html' are the same file
+mv: 'valid.html' and '/users/usc430ao/valid.html' are the same file
+
+INPUT|usc430ao-intro-105|U |1581221893|usc430ao|server:less 404.html|<h1>"404 Not Found"</h1>
+<p>"The file you are looking for does not exist"</p>
+
+
+INPUT|usc430ao-intro-106|U |1581221907|usc430ao|server:less valid.html |<h1>this is a html page</h1>
+<p>hello world</p>
+
+
+INPUT|usc430ao-intro-107|U |1581221919|usc430ao|server:mv 404.html /|mv: cannot create regular file '/404.html': Permission denied
+
+INPUT|usc430ao-intro-108|U |1581221937|usc430ao|server:cd /|
+INPUT|usc430ao-intro-109|U |1581221938|usc430ao|server:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ao-intro-110|U |1581221943|usc430ao|server:cd |
+INPUT|usc430ao-intro-111|U |1581221971|usc430ao|server:mv 404.html /|mv: cannot create regular file '/404.html': Permission denied
+
+INPUT|usc430ao-intro-112|U |1581221981|usc430ao|server:mv 404.html|mv: missing destination file operand after '404.html'
+Try 'mv --help' for more information.
+
+INPUT|usc430ao-intro-113|U |1581221988|usc430ao|server:mv 404.html /|
+INPUT|usc430ao-intro-114|U |1581221996|usc430ao|server:mv valid.html /|
+INPUT|usc430ao-intro-115|U |1581221999|usc430ao|server:cd ?|bash: cd: ?: No such file or directory
+
+INPUT|usc430ao-intro-116|U |1581222001|usc430ao|server:ls|404.html  home		  local       proc  share  users       vmlinuz.old
+bin	  initrd.img	  lost+found  proj  snap   usr
+boot	  initrd.img.old  media       root  srv    valid.html
+dev	  lib		  mnt	      run   sys    var
+etc	  lib64		  opt	      sbin  tmp    vmlinuz
+
+INPUT|usc430ao-intro-117|U |1581222027|usc430ao|server:cd dev        |
+INPUT|usc430ao-intro-118|U |1581222028|usc430ao|server:ls|autofs		 loop1		     shm       tty31  tty61	 ttyS4
+block		 loop2		     snapshot  tty32  tty62	 ttyS5
+bsg		 loop3		     snd       tty33  tty63	 ttyS6
+btrfs-control	 loop4		     sr0       tty34  tty7	 ttyS7
+bus		 loop5		     stderr    tty35  tty8	 ttyS8
+cdrom		 loop6		     stdin     tty36  tty9	 ttyS9
+char		 loop7		     stdout    tty37  ttyprintk  uhid
+console		 loop-control	     tty       tty38  ttyS0	 uinput
+core		 mapper		     tty0      tty39  ttyS1	 urandom
+cpu		 mcelog		     tty1      tty4   ttyS10	 userio
+cpu_dma_latency  mem		     tty10     tty40  ttyS11	 vcs
+cuse		 memory_bandwidth    tty11     tty41  ttyS12	 vcs1
+disk		 mqueue		     tty12     tty42  ttyS13	 vcs2
+dri		 net		     tty13     tty43  ttyS14	 vcs3
+ecryptfs	 network_latency     tty14     tty44  ttyS15	 vcs4
+fd		 network_throughput  tty15     tty45  ttyS16	 vcs5
+fd0		 null		     tty16     tty46  ttyS17	 vcs6
+full		 port		     tty17     tty47  ttyS18	 vcs7
+fuse		 ppp		     tty18     tty48  ttyS19	 vcsa
+hpet		 psaux		     
+INPUT|usc430ao-intro-119|U |1581222030|usc430ao|server:cd ..|
+INPUT|usc430ao-intro-120|U |1581222032|usc430ao|server:clear|
+
+INPUT|usc430ao-intro-121|U |1581222034|usc430ao|server:ls|404.html  home		  local       proc  share  users       vmlinuz.old
+bin	  initrd.img	  lost+found  proj  snap   usr
+boot	  initrd.img.old  media       root  srv    valid.html
+dev	  lib		  mnt	      run   sys    var
+etc	  lib64		  opt	      sbin  tmp    vmlinuz
+
+INPUT|usc430ao-intro-122|U |1581222038|usc430ao|server:cd var|
+INPUT|usc430ao-intro-123|U |1581222039|usc430ao|server:ls|backups  crash	 lib	lock  mail  run   spool
+cache	 emulab  local	log   opt   snap  tmp
+
+INPUT|usc430ao-intro-124|U |1581222047|usc430ao|server:mv 404.html var|mv: cannot move '404.html' to 'var/404.html': Permission denied
+
+INPUT|usc430ao-intro-125|U |1581222054|usc430ao|server:mv 404.html var|
+INPUT|usc430ao-intro-126|U |1581222061|usc430ao|server:mv v|valid.html   var/         vmlinuz      vmlinuz.old  
+
+INPUT|usc430ao-intro-127|U |1581222066|usc430ao|server:mv valid.html var|
+INPUT|usc430ao-intro-128|U |1581222070|usc430ao|server:cd var/|
+INPUT|usc430ao-intro-129|U |1581222089|usc430ao|server:mv 404.html valid.html tmp|
+INPUT|usc430ao-intro-130|U |1581222091|usc430ao|server:ls|backups  crash	 lib	lock  mail  run   spool
+cache	 emulab  local	log   opt   snap  tmp
+
+INPUT|usc430ao-intro-131|U |1581222094|usc430ao|server:cd tmp|
+INPUT|usc430ao-intro-132|U |1581222095|usc430ao|server:ls|404.html
+systemd-private-89253a462be743fda33dd1888d8ac9fa-systemd-resolved.service-NWYaDA
+systemd-private-89253a462be743fda33dd1888d8ac9fa-systemd-timesyncd.service-LLpdfR
+valid.html
+
+INPUT|usc430ao-intro-133|U |1581222100|usc430ao|server:cd  |
+INPUT|usc430ao-intro-134|U |1581222883|usc430ao|server:ls|client.py  server.py  top_secret
+
+INPUT|usc430ao-intro-135|U |1581222942|usc430ao|server:python server.py |starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 60 in <module>
+    main()
+  File \"server.py\" line 18 in main
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ao-intro-136|U |1581222956|usc430ao|server:python server.py |starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 57306)
+received \"GET /valid.html HTTP/1/1\"
+/var/tmp/valid.html
+sending data back to the client
+received \"\"
+/var/tmp/
+no more data from ('10.1.1.2' 57306)
+waiting for a connection
+connection from ('10.1.1.2' 57308)
+received \"GET /ja.html HTTP/1/1\"
+/var/tmp/ja.html
+sending data back to the client
+Traceback (most recent call last):
+  File \"server.py\" line 60 in <module>
+    main()
+  File \"server.py\" line 49 in main
+    connection.sendall(file_get_contents(file_name))
+  File \"server.py\" line 8 in file_get_contents
+    f = codecs.open(filename 'r')
+  File \"/usr/lib/python2.7/codecs.py\" line 898 in open
+    file = __builtin__.open(filename mode buffering)
+IOError: [Errno 2] No such file or directory: '404.html'
+
+INPUT|usc430ao-intro-137|U |1581223035|usc430ao|server:clear|
+
+INPUT|usc430ao-intro-138|U |1581223036|usc430ao|server:python server.py |starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 60 in <module>
+    main()
+  File \"server.py\" line 18 in main
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430ao-intro-139|U |1581223041|usc430ao|server:clear|
+
+INPUT|usc430ao-intro-140|U |1581223217|usc430ao|server:python server.py |starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 57318)
+received \"GET /js.html HTTP/1/1\"
+/var/tmp/js.html
+sending data back to the client
+received \"\"
+/var/tmp/
+no more data from ('10.1.1.2' 57318)
+waiting for a connection
+connection from ('10.1.1.2' 57320)
+received \"GET /valid.html HTTP/1/1\"
+/var/tmp/valid.html
+sending data back to the client
+received \"\"
+/var/tmp/
+no more data from ('10.1.1.2' 57320)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 60 in <module>
+    main()
+  File \"server.py\" line 25 in main
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ao-intro-141|U |1581223343|usc430ao|server:clear|
+
+INPUT|usc430ao-intro-142|U |1581223421|usc430ao|server:cd users|bash: cd: users: No such file or directory
+
+INPUT|usc430ao-intro-143|U |1581223425|usc430ao|server:cd /|
+INPUT|usc430ao-intro-144|U |1581223426|usc430ao|server:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ao-intro-145|U |1581223429|usc430ao|server:cd home|
+INPUT|usc430ao-intro-146|U |1581223431|usc430ao|server:cd|

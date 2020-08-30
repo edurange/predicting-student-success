@@ -1,0 +1,186 @@
+User usc430bo start time 1580881979 end 1581367894
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430bo-intro-0|U |000000000|usc430bo|:|
+INPUT|usc430bo-intro-1|U |000000000|usc430bo|:|
+INPUT|usc430bo-intro-2|U |1580881979|usc430bo|intro:ls|
+INPUT|usc430bo-intro-3|U |1580881988|usc430bo|intro:ls -a|.  ..  .cache  .forward  .gnupg  .ssh  .ssl
+
+INPUT|usc430bo-intro-4|U |1580881993|usc430bo|intro:cd ..|
+INPUT|usc430bo-intro-5|U |1580881999|usc430bo|intro:ls -a|.	  alotero   garmar09  krisgado	paullepe  rweiss    tescjack
+..	  barada24  giotah    massacci	penged	  selenaws  thang89
+aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430bo
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+
+INPUT|usc430bo-intro-6|U |1580882018|usc430bo|intro:cd usc430bo|
+INPUT|usc430bo-intro-7|U |1580882019|usc430bo|intro:ls|
+INPUT|usc430bo-intro-8|U |1580882022|usc430bo|intro:ls -a|.  ..  .cache  .forward  .gnupg  .ssh  .ssl
+
+INPUT|usc430bo-intro-9|A2 A3 A0 A1 A4 |1580962147|usc430bo|intro:find / -iname "*intro*" -and -iname "*.jp*" 2>/dev/null|/share/safer/conf/cloned_web_data/https/amazon/g-ecx.images-amazon.com/images/G/01/kindle/merch/2014/campaign/KB/Bueller-Roto3-NoIntro-300x120._V337018340_.jpg
+/proj/USC430/exp/hw1-usc430bf/asdf136Intro-5kqlw.jpeg
+/proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+/proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+/proj/USC430/exp/hw1-usc430bf/top_secret/asdf136Intro-5kqlw.jpeg
+/proj/USC430/exp/hw1-usc430bf/top_secret/xbzf136INTRO-1.jpg
+/proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG
+/proj/USC430/exp/hw1-usc430bf/wuer136intro-4.JPG
+
+INPUT|usc430bo-intro-10|U |1581109103|usc430bo|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+136intro-3.jpg	     top_secret
+
+INPUT|usc430bo-intro-11|U |1581109382|usc430bo|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+136intro-3.jpg	     top_secret
+
+INPUT|usc430bo-intro-12|U |1581109482|usc430bo|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  top_secret
+136intro-3.jpg	     server.py		      wuer136intro-4.JPG
+
+INPUT|usc430bo-intro-13|U |1581109496|usc430bo|server:vi server.py|"server.py" 0L 0CE297: Write error in swap file00-1
+"server.py" E667: Fsync failed
+"server.py" or type command to continue2L10-1
+"server.py" E667: Fsync failed
+
+
+INPUT|usc430bo-intro-14|U |1581109988|usc430bo|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py   wuer136intro-4.JPG
+136intro-3.jpg	     client.py		      top_secret
+
+INPUT|usc430bo-intro-15|U |1581109996|usc430bo|server:cat client.py |
+INPUT|usc430bo-intro-16|U |1581110008|usc430bo|server:vi client.py|"client.py" 0L 0C writtenite error in swap file^[  ^[  00-1
+
+
+INPUT|usc430bo-intro-17|U |1581110573|usc430bo|server:cat client.py|
+INPUT|usc430bo-intro-18|U |1581110580|usc430bo|server:cat server.py|
+INPUT|usc430bo-intro-19|U |1581111180|usc430bo|server:fdisk|fdisk: bad usage
+Try 'fdisk --help' for more information.
+
+INPUT|usc430bo-intro-20|U |1581111188|usc430bo|server:fdisk --help|;1581111188
+Usage:
+ fdisk [options] <disk>      change partition table
+ fdisk [options] -l [<disk>] list partition table(s)
+
+Display or manipulate a disk partition table.
+
+Options:
+ -b --sector-size <size>      physical and logical sector size
+ -B --protect-boot            don't erase bootbits when creating a new label
+ -c --compatibility[=<mode>]  mode is 'dos' or 'nondos' (default)
+ -L --color[=<when>]          colorize output (auto always or never)
+                                 colors are enabled by default
+ -l --list                    display partitions and exit
+ -o --output <list>           output columns
+ -t --type <type>             recognize specified partition table type only
+ -u --units[=<unit>]          display units: 'cylinders' or 'sectors' (default)
+ -s --getsz                   display device size in 512-byte sectors [DEPRECATED]
+     --bytes                   print SIZE in bytes rather than in human readable format
+ -w --wipe <mode>             wipe signatures (auto
+INPUT|usc430bo-intro-21|U |1581111248|usc430bo|server:fdisk -b     |fdisk: option requires an argument -- 'b'
+Try 'fdisk --help' for more information.
+
+INPUT|usc430bo-intro-22|U |1581111261|usc430bo|server:fdisk --b|fdisk: bad usage
+Try 'fdisk --help' for more information.
+
+INPUT|usc430bo-intro-23|U |1581111270|usc430bo|server:fdisk -h |;1581111270
+Usage:
+ fdisk [options] <disk>      change partition table
+ fdisk [options] -l [<disk>] list partition table(s)
+
+Display or manipulate a disk partition table.
+
+Options:
+ -b --sector-size <size>      physical and logical sector size
+ -B --protect-boot            don't erase bootbits when creating a new label
+ -c --compatibility[=<mode>]  mode is 'dos' or 'nondos' (default)
+ -L --color[=<when>]          colorize output (auto always or never)
+                                 colors are enabled by default
+ -l --list                    display partitions and exit
+ -o --output <list>           output columns
+ -t --type <type>             recognize specified partition table type only
+ -u --units[=<unit>]          display units: 'cylinders' or 'sectors' (default)
+ -s --getsz                   display device size in 512-byte sectors [DEPRECATED]
+     --bytes                   print SIZE in bytes rather than in human readable format
+ -w --wipe <mode>             wipe signatures (auto
+INPUT|usc430bo-intro-24|U |1581111278|usc430bo|server:clear|
+
+INPUT|usc430bo-intro-25|U |1581111282|usc430bo|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py   wuer136intro-4.JPG
+136intro-3.jpg	     client.py		      top_secret
+
+INPUT|usc430bo-intro-26|U |1581111287|usc430bo|server:fdisk -h|;1581111287
+Usage:
+ fdisk [options] <disk>      change partition table
+ fdisk [options] -l [<disk>] list partition table(s)
+
+Display or manipulate a disk partition table.
+
+Options:
+ -b --sector-size <size>      physical and logical sector size
+ -B --protect-boot            don't erase bootbits when creating a new label
+ -c --compatibility[=<mode>]  mode is 'dos' or 'nondos' (default)
+ -L --color[=<when>]          colorize output (auto always or never)
+                                 colors are enabled by default
+ -l --list                    display partitions and exit
+ -o --output <list>           output columns
+ -t --type <type>             recognize specified partition table type only
+ -u --units[=<unit>]          display units: 'cylinders' or 'sectors' (default)
+ -s --getsz                   display device size in 512-byte sectors [DEPRECATED]
+     --bytes                   print SIZE in bytes rather than in human readable format
+ -w --wipe <mode>             wipe signatures (auto
+INPUT|usc430bo-intro-27|U |1581111307|usc430bo|server:fdisk -s|fdisk: bad usage
+Try 'fdisk --help' for more information.
+
+INPUT|usc430bo-intro-28|U |1581111326|usc430bo|server:fdisk --sector-size|fdisk: option '--sector-size' requires an argument
+Try 'fdisk --help' for more information.
+
+INPUT|usc430bo-intro-29|U |1581111331|usc430bo|server:fdisk --sector-size .|fdisk: invalid sector size argument: '.'
+
+INPUT|usc430bo-intro-30|U |1581111348|usc430bo|server:clear|
+
+INPUT|usc430bo-intro-31|U |1581111349|usc430bo|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py   wuer136intro-4.JPG
+136intro-3.jpg	     client.py		      top_secret
+
+INPUT|usc430bo-intro-32|U |1581111571|usc430bo|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py   wuer136intro-4.JPG
+136intro-3.jpg	     client.py		      top_secret
+
+INPUT|usc430bo-intro-33|U |1581111586|usc430bo|server:cd top_secret/|
+INPUT|usc430bo-intro-34|U |1581111592|usc430bo|server:ls|answers.txt  diskfree.txt  xbzf136INTRO-1.jpg
+
+INPUT|usc430bo-intro-35|U |1581111717|usc430bo|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py   wuer136intro-4.JPG
+136intro-3.jpg	     client.py		      top_secret
+
+INPUT|usc430bo-intro-36|U |1581112234|usc430bo|server:cd top_secret/|
+INPUT|usc430bo-intro-37|U |1581112238|usc430bo|server:cat answers.txt |1. Treasure Hunt
+
+/proj/USC430/exp/hw1-usc430bf/top_secret/xbzf136INTRO-1.jpg
+
+/proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG
+
+/proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+
+/proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+
+/proj/USC430/exp/hw1-usc430bf/asdf136Intro-5kqlw.jpeg
+
+2. Information Hunt 
+
+1. The /var directory contains things prone to change such as temporary files and databases
+
+2. The /dev directory contains special device files for all devices
+
+3. in diskfree.txt
+
+4. GenuineIntel
+
+INPUT|usc430bo-intro-38|U |1581112284|usc430bo|server:cd ..|
+INPUT|usc430bo-intro-39|U |1581112288|usc430bo|server:cd top_secret/|
+INPUT|usc430bo-intro-40|U |1581112291|usc430bo|server:cat diskfree.txt |Filesystem         1K-blocks       Used      Avail Capacity  Mounted on
+/dev/gpt/root       16233660     545840   14389128     4%%    /
+devfs                      1          1          0   100%%    /dev
+/dev/gpt/var        64995324   18191520   41604180    30%%    /var
+/dev/gpt/usr        64995324   12798296   46997404    21%%    /usr
+/dev/gpt/other    2031313164 1099956364  768851748    59%%    /mnt/other
+/dev/gpt/projects 2974748052 1374043460 1362724748    50%%    /mnt/projects
+/dev/gpt/share     507823184  241726928  225470404    52%%    /mnt/share
+/dev/md0             1015324     769896     164204    82%%    /tmp
+procfs                     4          4          0   100%%    /proc
+
+INPUT|usc430bo-intro-41|U |1581367729|usc430bo|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py   wuer136intro-4.JPG
+136intro-3.jpg	     client.py		      top_secret
+
+INPUT|usc430bo-intro-42|U |1581367894|usc430bo|intro:cd top_secret/|

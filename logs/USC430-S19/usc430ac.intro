@@ -1,0 +1,1127 @@
+User usc430ac start time 1549515017 end 1549696055
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ac-intro-0|U |000000000|usc430ac|:|
+INPUT|usc430ac-intro-1|U |000000000|usc430ac|intro:cd top_secret|
+INPUT|usc430ac-intro-2|U |000000000|usc430ac|:|
+INPUT|usc430ac-intro-3|U |1549694648|usc430ac|intro:python server.py|%starting up on localhost port 80
+waiting for a connection
+connection from ('127.0.0.1'%% 60930)
+received \"GET kj HTTP/1.1\"
+Traceback (most recent call last):
+  File \"server.py\"%% line 32%% in <module>
+    f=open(\"tmp/404.html\"%% \"r\")
+IOError: [Errno 2] No such file or directory: 'tmp/404.html'%
+INPUT|usc430ac-intro-4|U |1549694662|usc430ac|intro:python server.py|%starting up on localhost port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 9%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430ac-intro-5|U |1549694684|usc430ac|intro:python client.py|%Traceback (most recent call last):
+  File \"client.py\"%% line 8%% in <module>
+    server_address = (sys.argv[1]%% 80)
+IndexError: list index out of range%
+INPUT|usc430ac-intro-6|U |1549694689|usc430ac|intro:python client.py localhost|connecting to localhost port 80
+filepath: kj
+sending \"GET kj HTTP/1.1\"
+closing socket
+INPUT|usc430ac-intro-7|U |1549694705|usc430ac|intro:python client.py localhost|%connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\"%% line 10%% in <module>
+    sock.connect(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 111] Connection refused%
+INPUT|usc430ac-intro-8|U |1549695677|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg      client.py        wuer136intro-4.JPG
+answer.txt      diskfree.txt       xbzf136INTRO-1.jpg
+INPUT|usc430ac-intro-9|U |000000000|usc430ac|intro:rm *.txt|
+INPUT|usc430ac-intro-10|U |1549695688|usc430ac|intro:ls|136intro-2jjaj.JPEG  client.py      xbzf136INTRO-1.jpg
+136intro-3.jpg   server.py
+asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+INPUT|usc430ac-intro-11|U |1549695799|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg      client.py        wuer136intro-4.JPG
+answer.txt      diskfree.txt.txt       xbzf136INTRO-1.jpg
+INPUT|usc430ac-intro-12|U |1549695816|usc430ac|intro:cp diskfree.txt.txt diskfree.txt|
+INPUT|usc430ac-intro-13|U |1549695825|usc430ac|intro:rm diskfree.txt.txt|
+INPUT|usc430ac-intro-14|U |1549695831|usc430ac|intro:vim diskfree.txt|%=<C2><BD>  ]11;?"diskfree.txt" [dos] 10L%% 832CFilesystemSize  Used Avail Use%% Mounted  on
+udev2.0G   48K  2.0G   1%% /dev
+tmpfs396M   14M  382M   4%% /run
+/dev/sda115G  2.8G   12G  20%% /
+tmpfs2.0G     0  2.0G   0%% /dev/shmtmpfs5.0M     0  5.0M   0%% /run/locck
+tmpfs2.0G     0  2.0G   0%% /sys/fs//cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ac  1.9T  1.3T  500G  72%% /users/uusc430ac
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  880G  1.7T  34%% /proj/USSC430
+tmpfs396M     0  396M   0%% /run/useer/14166
+~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                        
+INPUT|usc430ac-intro-15|U |1549695956|usc430ac|intro:vim diskfree.txt|%=<C2><BD>  ]11;?"diskfree.txt" [dos] 10L%% 832CFilesystemSize  Used Avail Use%% Mounted  on
+udev2.0G   48K  2.0G   1%% /dev
+tmpfs396M   14M  382M   4%% /run
+/dev/sda115G  2.8G   12G  20%% /
+tmpfs2.0G     0  2.0G   0%% /dev/shmtmpfs5.0M     0  5.0M   0%% /run/locck
+tmpfs2.0G     0  2.0G   0%% /sys/fs//cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ac  1.9T  1.3T  500G  72%% /users/uusc430ac
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  880G  1.7T  34%% /proj/USSC430
+tmpfs396M     0  396M   0%% /run/useer/14166
+~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                        
+INPUT|usc430ac-intro-16|U |1549695972|usc430ac|intro:vim answer.txt|%=<C2><BD>  ]11;?"answer.txt" [noeol][dos] 23L%% 654Cname: Can Chen
+email:canchen@usc.edu
+username: usc430ac
+
+task1:
+dev/136intro-2jjaj.JPEG
+etc/wuer136intro-4.JPG
+var/log/136intro-3.jpg
+.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+intro1:forbidden planet
+intro2:godzilla
+intro3:3d imension
+intro4: the fly
+intro5: 2001 a space odyssey
+
+task2:
+/var is a standard subdirectory of the root directory in Linux and other Unix-liike operating systems that contains files to which the system writes data during  the course of its operation.
+
+The /dev directory contains special device files that control access to peripher@                                                                               1%%1Top234%%0-15%%1  678910%%11%%0-12%%1  34567%%0-18%%1  920%%0-1
+The /dev directory contains special device files that control access to peripherral devices.21%%133%%
+22%%0-166%%
+vendor_id: GenuineIntel23%%1
+INPUT|usc430ac-intro-17|U |1549696000|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg      client.py        wuer136intro-4.JPG
+answer.txt      diskfree.txt       xbzf136INTRO-1.jpg
+INPUT|usc430ac-intro-18|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-19|U |000000000|usc430ac|intro:tar cvzf canchen|top_secret/
+top_secret/136intro-2jjaj.JPEG
+top_secret/wuer136intro-4.JPG
+top_secret/136intro-3.jpg
+top_secret/asdf136Intro-5kqlw.jpeg
+top_secret/xbzf136INTRO-1.jpg
+top_secret/answer.txt
+top_secret/server.py
+top_secret/client.py
+top_secret/diskfree.txt
+INPUT|usc430ac-intro-20|U |1549696055|usc430ac|intro:ls|canchen-intro.tar.gz  dump.pcap  index.html  test  top_secret
+INPUT|usc430ac-intro-21|U |1549515017|usc430ac|intro:ls|shh
+INPUT|usc430ac-intro-22|U |000000000|usc430ac|intro:cd shh|bash: cd: shh: Not a directory
+INPUT|usc430ac-intro-23|U |1549515035|usc430ac|intro:dir|shh
+INPUT|usc430ac-intro-24|U |1549515093|usc430ac|intro:ls|shh
+INPUT|usc430ac-intro-25|U |000000000|usc430ac|intro:%%%ks%|%bash: fg: %%ks: no such job%
+INPUT|usc430ac-intro-26|U |000000000|usc430ac|intro:%%%ls%|%bash: fg: %%ls: no such job%
+INPUT|usc430ac-intro-27|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-28|U |000000000|usc430ac|intro:cd..|cd..: command not found
+INPUT|usc430ac-intro-29|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-30|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-31|U |1549515126|usc430ac|intro:ls -a|.     etc   initrd.img.old  media  root srv    var
+..    groups   lib    mnt  run sys    vmlinuz
+bin   .hidden   lib64    opt  sbin tmp    vmlinuz.old
+boot  home   local    proc  share users
+dev   initrd.img  lost+found   proj  snap usr
+INPUT|usc430ac-intro-32|U |1549515154|usc430ac|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ac-intro-33|U |1549515184|usc430ac|intro:mkdir top_secret|mkdir: cannot create directory 'top_secret': Permission denied
+INPUT|usc430ac-intro-34|U |000000000|usc430ac|intro:cd homw|bash: cd: homw: No such file or directory
+INPUT|usc430ac-intro-35|U |000000000|usc430ac|intro:cd home|
+INPUT|usc430ac-intro-36|U |1549515211|usc430ac|intro:ls|deter
+INPUT|usc430ac-intro-37|U |1549515222|usc430ac|intro:mkdir top_secret|mkdir: cannot create directory 'top_secret': Permission denied
+INPUT|usc430ac-intro-38|U |000000000|usc430ac|intro:mkdir: cannot create directory 'top_secret': Permission deni|ed^C
+INPUT|usc430ac-intro-39|U |000000000|usc430ac|intro:cd deter|
+INPUT|usc430ac-intro-40|U |1549515281|usc430ac|intro:ls|
+INPUT|usc430ac-intro-41|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-42|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-43|U |1549515288|usc430ac|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ac-intro-44|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-45|U |000000000|usc430ac|intro:%cd|
+INPUT|usc430ac-intro-46|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-47|U |000000000|usc430ac|intro:cd users|
+INPUT|usc430ac-intro-48|U |1549515300|usc430ac|intro:ls|aashraya  gbartlet  jhickey   scuric   shareah shareap  shareax  sharetb
+abhi   gerow     jjh       shareaa  shareai shareaq  shareay  sharetc
+alefiya   gknopf    jross     shareab  shareaj sharear  shareaz  sharetd
+alwabel   glawler   kls2      shareac  shareak shareas  shareba  sklower
+bks   jaipuria  melkins   sharead  shareal shareat  sharebb  sunshine
+bloznali  jboman    piobair   shareae  shaream shareau  sharebc  usc430ac
+ekline   jelena    rgoodfel  shareaf  sharean shareav  sharebd
+faber   jgli     schwab    shareag  shareao shareaw  shareta
+INPUT|usc430ac-intro-49|U |000000000|usc430ac|intro:~|bash: /users/usc430ac: Is a directory
+INPUT|usc430ac-intro-50|U |000000000|usc430ac|intro:cd ~|
+INPUT|usc430ac-intro-51|U |1549515336|usc430ac|intro:ls|shh
+INPUT|usc430ac-intro-52|U |000000000|usc430ac|intro:cd shh|bash: cd: shh: Not a directory
+INPUT|usc430ac-intro-53|U |1549515342|usc430ac|intro:ls -a|.  ..  .bash_history  .cache  .forward shh  .ssh  .ssl
+INPUT|usc430ac-intro-54|U |000000000|usc430ac|intro:re shh|The program 're' is currently not installed. To run 're' please ask your administrator to install the package 're'
+INPUT|usc430ac-intro-55|U |1549515364|usc430ac|intro:rm shh|
+INPUT|usc430ac-intro-56|U |1549515366|usc430ac|intro:ls|
+INPUT|usc430ac-intro-57|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-58|U |1549515382|usc430ac|intro:ls|aashraya  gbartlet  jhickey   scuric   shareah shareap  shareax  sharetb
+abhi   gerow     jjh       shareaa  shareai shareaq  shareay  sharetc
+alefiya   gknopf    jross     shareab  shareaj sharear  shareaz  sharetd
+alwabel   glawler   kls2      shareac  shareak shareas  shareba  sklower
+bks   jaipuria  melkins   sharead  shareal shareat  sharebb  sunshine
+bloznali  jboman    piobair   shareae  shaream shareau  sharebc  usc430ac
+ekline   jelena    rgoodfel  shareaf  sharean shareav  sharebd
+faber   jgli     schwab    shareag  shareao shareaw  shareta
+INPUT|usc430ac-intro-59|U |000000000|usc430ac|intro:cd ~|
+INPUT|usc430ac-intro-60|U |1549515416|usc430ac|intro:mkdir top_secret|
+INPUT|usc430ac-intro-61|U |1549515419|usc430ac|intro:ls|top_secret
+INPUT|usc430ac-intro-62|U |000000000|usc430ac|intro:pwd|/users/usc430ac
+INPUT|usc430ac-intro-63|U |1549515782|usc430ac|intro:man command_name|No manual entry for command_name
+INPUT|usc430ac-intro-64|U |000000000|usc430ac|intro:echo intro|intro
+INPUT|usc430ac-intro-65|U |000000000|usc430ac|intro:intro|intro: command not found
+INPUT|usc430ac-intro-66|U |1549516013|usc430ac|intro:ls|top_secret
+INPUT|usc430ac-intro-67|U |1549516015|usc430ac|intro:ls -a|.  ..  .bash_history  .cache  .forward .ssh  .ssl  top_secret
+INPUT|usc430ac-intro-68|U |1549516054|usc430ac|intro:ls -l intro|ls: cannot access 'intro': No such file or directory
+INPUT|usc430ac-intro-69|U |000000000|usc430ac|intro:cd ...|bash: cd: ...: No such file or directory
+INPUT|usc430ac-intro-70|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-71|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-72|U |1549516162|usc430ac|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ac-intro-73|U |000000000|usc430ac|intro:echo intro|intro
+INPUT|usc430ac-intro-74|U |000000000|usc430ac|intro:cd intro|bash: cd: intro: No such file or directory
+INPUT|usc430ac-intro-75|U |000000000|usc430ac|intro:echo *|bin boot dev etc groups home initrd.img initrd.img.old lib lib64 local lost+found media mnt opt proc proj root run sbin share snap srv sys tmp users usr var vmlinuz vmlinuz.old
+INPUT|usc430ac-intro-76|U |000000000|usc430ac|intro:echo */*intro*|dev/136intro-2jjaj.JPEG etc/wuer136intro-4.JPG proj/intro.createimage.Share
+INPUT|usc430ac-intro-77|U |000000000|usc430ac|intro:cd ~|
+INPUT|usc430ac-intro-78|U |000000000|usc430ac|intro:cp ^C|
+INPUT|usc430ac-intro-79|U |000000000|usc430ac|intro:cp|cp: missing destination file operand after 'dev/136intro-2jjaj.JPEG'
+Try 'cp --help' for more information.
+INPUT|usc430ac-intro-80|U |1549516378|usc430ac|intro:cp dev/136intro-2jjaj.JPEG 136intro-2jjaj.JPEG|cp: cannot stat 'dev/136intro-2jjaj.JPEG': No such file or directory
+INPUT|usc430ac-intro-81|U |000000000|usc430ac|intro:cp ../../|
+INPUT|usc430ac-intro-82|U |1549516395|usc430ac|intro:ls|136intro-2jjaj.JPEG  top_secret
+INPUT|usc430ac-intro-83|U |1549516441|usc430ac|intro:mv 136intro-2jjaj.JPEG top_secret/|
+INPUT|usc430ac-intro-84|U |1549516443|usc430ac|intro:ls|top_secret
+INPUT|usc430ac-intro-85|U |000000000|usc430ac|intro:cd top_secret|
+INPUT|usc430ac-intro-86|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-87|U |1549516473|usc430ac|intro:etc/wuer136intro-4.JPG proj/intro.createimage.Share|bash: etc/wuer136intro-4.JPG: No such file or directory
+INPUT|usc430ac-intro-88|U |000000000|usc430ac|intro:cp ../../../etc/wuer136intro-4.JPG etc/wuer136intro-4|.JPG
+cp: cannot create regular file 'etc/wuer136intro-4.JPG': No such file or directory
+INPUT|usc430ac-intro-89|U |000000000|usc430ac|intro:cp ../../../etc/wuer136intro-4.JPG etc/wuer136intro-4.|.JPG<BS><BS><BS>
+INPUT|usc430ac-intro-90|U |000000000|usc430ac|intro:cp ../../../etc/wuer136intro-4.JPG etcwuer136intro-4.Jsc430ac@intro:~/top_secret$ cp ../../../etc/wuer136intro-4.JPG etwuer136intro-4.JPGc430ac@intro:~/top_secret$ cp ../../../etc/wuer136intro-4.JPG ewuer136intro-4.JPGsc430ac@intro:~/top_secret$ cp ../../../etc/wuer136intro-4.JPG wuer136intro-4.JPG|
+INPUT|usc430ac-intro-91|U |000000000|usc430ac|intro:cp ../../../etc/wuer136intro-4.JPG|
+
+INPUT|usc430ac-intro-92|U |000000000|usc430ac|intro:cp ../../../proj/intro.createimage.Share proj/intro.c|reateimage.Share<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ac-intro-93|U |000000000|usc430ac|intro:cp ../../../proj/intro.createimage.Share projintro.cresc430ac@intro:~/top_secret$ cp ../../../proj/intro.createimage.Share prointro.creasc430ac@intro:~/top_secret$ cp ../../../proj/intro.createimage.Share printro.creatsc430ac@intro:~/top_secret$ cp ../../../proj/intro.createimage.Share pintro.createsc430ac@intro:~/top_secret$ cp ../../../proj/intro.createimage.Share intro.createisc430ac@intro:~/top_secret$ cp ../../../proj/intro.createimage.Share|
+
+cp: omitting directory '../../../proj/intro.createimage.Share'
+INPUT|usc430ac-intro-94|U |1549516572|usc430ac|intro:ls|136intro-2jjaj.JPEG  wuer136intro-4.JPG
+INPUT|usc430ac-intro-95|U |1549516598|usc430ac|intro:ls -a|.  ..  136intro-2jjaj.JPEG  wuer136intro-4.JPG
+INPUT|usc430ac-intro-96|U |000000000|usc430ac|intro:cd ../../..|
+INPUT|usc430ac-intro-97|U |000000000|usc430ac|intro:cd proj/intro.createimage.Share|
+INPUT|usc430ac-intro-98|U |1549516614|usc430ac|intro:ls|exp
+INPUT|usc430ac-intro-99|U |1549516624|usc430ac|intro:ls -l exp|total 8
+-rw-rw-rw- 1 root root    2 Aug 27 15:56 count.
+drwxr-xr-x 2 root root 4096 Aug 27 15:56 logs
+INPUT|usc430ac-intro-100|U |000000000|usc430ac|intro:cd exp|
+INPUT|usc430ac-intro-101|U |1549516629|usc430ac|intro:ls|count. logs
+INPUT|usc430ac-intro-102|U |000000000|usc430ac|intro:echo *intro*|*intro*
+INPUT|usc430ac-intro-103|U |1549516649|usc430ac|intro:ls|count. logs
+INPUT|usc430ac-intro-104|U |1549516653|usc430ac|intro:ls -a|.  ..  count.  logs
+INPUT|usc430ac-intro-105|U |000000000|usc430ac|intro:dc logs|The program 'dc' is currently not installed. To run 'dc' please ask your administrator to install the package 'dc'
+INPUT|usc430ac-intro-106|U |000000000|usc430ac|intro:cd logs|
+INPUT|usc430ac-intro-107|U |1549516663|usc430ac|intro:ls|ttylog..0
+INPUT|usc430ac-intro-108|U |000000000|usc430ac|intro:echo *|ttylog..0
+INPUT|usc430ac-intro-109|U |000000000|usc430ac|intro:echo */*|*/*
+INPUT|usc430ac-intro-110|U |000000000|usc430ac|intro:echo */*intro*|*/*intro*
+INPUT|usc430ac-intro-111|U |000000000|usc430ac|intro:cd ~/../..|
+INPUT|usc430ac-intro-112|U |000000000|usc430ac|intro:echo */*intro|dev/136intro-2jjaj.JPEG etc/wuer136intro-4.JPG proj/intro.createimage.Share
+INPUT|usc430ac-intro-113|U |000000000|usc430ac|intro:echo */*/*/JPEG|*/*/*/JPEG
+INPUT|usc430ac-intro-114|U |000000000|usc430ac|intro:echo */*/*intro*|local/logs/intro_startcmd.err local/logs/intro_startcmd.err.10 local/logs/intro_startcmd.out local/logs/intro_startcmd.out.10 local/logs/intro_startcmd.status local/logs/intro_startcmd.status.10 var/log/136intro-3.jpg
+INPUT|usc430ac-intro-115|U |000000000|usc430ac|intro:cd ~/top_secret|
+INPUT|usc430ac-intro-116|U |1549516813|usc430ac|intro:ls|136intro-2jjaj.JPEG  wuer136intro-4.JPG
+INPUT|usc430ac-intro-117|U |000000000|usc430ac|intro:cp ~/../../var/log/136intro-3.jpg|
+INPUT|usc430ac-intro-118|U |1549516832|usc430ac|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  wuer136intro-4.JPG
+INPUT|usc430ac-intro-119|U |000000000|usc430ac|intro:echo ~/../../*/*/*/*intro|/users/usc430ac/../../proc/2466/cwd/136intro-2jjaj.JPEG /users/usc430ac/../../proc/2466/cwd/136intro-3.jpg /users/usc430ac/../../proc/2466/cwd/wuer136intro-4.JPG /users/usc430ac/../../proc/self/cwd/136intro-2jjaj.JPEG /users/usc430ac/../../proc/self/cwd/136intro-3.jpg /users/usc430ac/../../proc/self/cwd/wuer136intro-4.JPG /users/usc430ac/../../proc/thread-self/cwd/136intro-2jjaj.JPEG /users/usc430ac/../../proc/thread-self/cwd/136intro-3.jpg /users/usc430ac/../../proc/thread-self/cwd/wuer136intro-4.JPG /users/usc430ac/../../proj/USC430/exp/sunshine-intro /users/usc430ac/../../proj/USC430/exp/usc430aj-intro /users/usc430ac/../../proj/USC430/exp/usc430ar-intro /users/usc430ac/../../proj/USC430/images/intro.ndz /users/usc430ac/../../proj/USC430/images/mjoseph-intro.ndz /users/usc430ac/../../proj/USC430/logs/edumodel.snoopy.intro.1521748498 /users/usc430ac/../../proj/USC430/logs/edumodel.snoopy.intro.1521760450 /users/usc430ac/../../proj/USC430/logs/edumodel.snoopy.intro.1521761327 /users/u
+INPUT|usc430ac-intro-120|U |000000000|usc430ac|intro:echo ~/../../*/*/*/*intro*.jpg|/users/usc430ac/../../proc/2466/cwd/136intro-3.jpg /users/usc430ac/../../proc/self/cwd/136intro-3.jpg /users/usc430ac/../../proc/thread-self/cwd/136intro-3.jpg /users/usc430ac/../../users/usc430ac/top_secret/136intro-3.jpg
+INPUT|usc430ac-intro-121|U |000000000|usc430ac|intro:echo */*int|top_secret/136intro-2jjaj.JPEG top_secret/136intro-3.jpg top_secret/wuer136intro-4.JPG
+INPUT|usc430ac-intro-122|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-123|U |000000000|usc430ac|intro:ssh intro.HW1CanChen.USC430.isi.deterlab.net|
+INPUT|usc430ac-intro-124|U |000000000|usc430ac|intro:echo ~/../../*/*intro*|
+INPUT|usc430ac-intro-125|U |000000000|usc430ac|intro:ssh intro.HW1CanChen.USC430.isi.deterlab.net|
+INPUT|usc430ac-intro-126|U |000000000|usc430ac|intro:echo ~/../../*/*/*/*intro*|
+INPUT|usc430ac-intro-127|U |000000000|usc430ac|intro:cp ~/../../var/log/136intro-3.jpg 136intro-3.jpg|
+INPUT|usc430ac-intro-128|U |000000000|usc430ac|intro:cd proj/intro.createimage.Share|
+INPUT|usc430ac-intro-129|U |000000000|usc430ac|intro:cp ../../../proj/intro.createimage.Share intro.createimage.Shar|re<ESC>[Ac430ac@intro:~$ cp ../../../<ESC>[9Petc/wuer136intro-4.JPG wuer136intro-4.JPG
+
+INPUT|usc430ac-intro-130|U |000000000|usc430ac|intro:cp ../../../etc/wuer136intro-4.JPG wuer136intro-4.JPG|
+INPUT|usc430ac-intro-131|U |000000000|usc430ac|intro:cp ../../../proj/intro.createimage.Share intro.createimage.Shar|re<ESC>[Ac430ac@intro:~$ cp ../../../<ESC>[9Petc/wuer136intro-4.JPG wuer136intro-4.JPG
+
+INPUT|usc430ac-intro-132|U |000000000|usc430ac|intro:cp ../../../etc/wuer136intro-4.JPG wuer136intro-4.JPG^C|
+INPUT|usc430ac-intro-133|U |000000000|usc430ac|intro:ssh intro.HW1CanChen.USC430.isi.deterlab.net|
+INPUT|usc430ac-intro-134|U |000000000|usc430ac|intro:echo ~/../../*/*intro*|
+INPUT|usc430ac-intro-135|U |000000000|usc430ac|intro:ssh intro.HW1CanChen.USC430.isi.deterlab.net|
+INPUT|usc430ac-intro-136|U |000000000|usc430ac|intro:echo ~/../../*/*/*/*intro*.jpg|
+INPUT|usc430ac-intro-137|U |000000000|usc430ac|intro:ssh intro.HW1CanChen.USC430.isi.deterlab.net|
+INPUT|usc430ac-intro-138|U |000000000|usc430ac|intro:echo ~/../../*/*/*intro*|
+INPUT|usc430ac-intro-139|U |000000000|usc430ac|intro:echo */*/*intro*.jpg|
+INPUT|usc430ac-intro-140|U |000000000|usc430ac|intro:ssh intro.HW1CanChen.USC430.isi.deterlab.net|
+INPUT|usc430ac-intro-141|U |000000000|usc430ac|intro:cd top_screte|bash: cd: top_screte: No such file or directory
+INPUT|usc430ac-intro-142|U |1549522181|usc430ac|intro:ls|top_secret
+INPUT|usc430ac-intro-143|U |000000000|usc430ac|intro:cd top_secret|
+INPUT|usc430ac-intro-144|U |1549522188|usc430ac|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  wuer136intro-4.JPG
+INPUT|usc430ac-intro-145|U |000000000|usc430ac|intro:cd ~/../..|
+INPUT|usc430ac-intro-146|U |000000000|usc430ac|intro:echo *intro|*intro*
+INPUT|usc430ac-intro-147|U |000000000|usc430ac|intro:echo */|dev/136intro-2jjaj.JPEG etc/wuer136intro-4.JPG proj/intro.createimage.Share
+INPUT|usc430ac-intro-148|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-149|U |000000000|usc430ac|intro:echo */.|*/.*intro*
+INPUT|usc430ac-intro-150|U |000000000|usc430ac|intro:echo */*/|local/logs/intro_startcmd.err local/logs/intro_startcmd.err.10 local/logs/intro_startcmd.out local/logs/intro_startcmd.out.10 local/logs/intro_startcmd.status local/logs/intro_startcmd.status.10 var/log/136intro-3.jpg
+INPUT|usc430ac-intro-151|U |000000000|usc430ac|intro:echo */*/*intro*.jpg|var/log/136intro-3.jpg
+INPUT|usc430ac-intro-152|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-153|U |000000000|usc430ac|intro:echo */*/*intro*.JPEG|*/*/*intro*.JPEG
+INPUT|usc430ac-intro-154|U |000000000|usc430ac|intro:echo */*/*intro*.JPG|*/*/*intro*.JPG
+INPUT|usc430ac-intro-155|U |000000000|usc430ac|intro:echo */*/*intro*|local/logs/intro_startcmd.err local/logs/intro_startcmd.err.10 local/logs/intro_startcmd.out local/logs/intro_startcmd.out.10 local/logs/intro_startcmd.status local/logs/intro_startcmd.status.10 var/log/136intro-3.jpg
+INPUT|usc430ac-intro-156|U |000000000|usc430ac|intro:echo */*/*/*|proj/USC430/exp/sunshine-intro proj/USC430/exp/usc430aj-intro proj/USC430/exp/usc430ar-intro proj/USC430/images/intro.ndz proj/USC430/images/mjoseph-intro.ndz proj/USC430/logs/edumodel.snoopy.intro.1521748498 proj/USC430/logs/edumodel.snoopy.intro.1521760450 proj/USC430/logs/edumodel.snoopy.intro.1521761327 proj/USC430/logs/edumodel.snoopy.intro.1521762323 proj/USC430/logs/runlog-mjoseph-Homework1.intro.xUiMEB proj/USC430/logs/tedu.snoopy.intro.1521766507 proj/USC430/logs/tedu.snoopy.intro.1521769869 proj/USC430/logs/tedu.snoopy.intro.1521774922 proj/USC430/logs/tedu.snoopy.intro.1522352032 proj/USC430/logs/tedu.snoopy.intro.1522733414 proj/USC430/logs/tedu.snoopy.intro.1523304170 users/usc430ac/top_secret/136intro-2jjaj.JPEG users/usc430ac/top_secret/136intro-3.jpg users/usc430ac/top_secret/wuer136intro-4.JPG var/log/ttylog/alltty.intro var/log/ttylog/cli.intro.csv var/log/ttylog/ttylog.intro.1
+INPUT|usc430ac-intro-157|U |000000000|usc430ac|intro:echo */*/*/*intro*.jpg|users/usc430ac/top_secret/136intro-3.jpg
+INPUT|usc430ac-intro-158|U |000000000|usc430ac|intro:echo */*/*/*intro*.JPEG|users/usc430ac/top_secret/136intro-2jjaj.JPEG
+INPUT|usc430ac-intro-159|U |000000000|usc430ac|intro:echo */*/*/*intro*.JPEG|
+INPUT|usc430ac-intro-160|U |1549522368|usc430ac|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ac-intro-161|U |000000000|usc430ac|intro:cd usr|
+INPUT|usc430ac-intro-162|U |000000000|usc430ac|intro:echo */*/*intro|*/*/*intro*
+INPUT|usc430ac-intro-163|U |000000000|usc430ac|intro:echo */|*/*intro*
+INPUT|usc430ac-intro-164|U |000000000|usc430ac|intro:echo */*/*/|share/man/man1/intro.1.gz share/man/man2/intro.2.gz share/man/man3/intro.3.gz share/man/man4/intro.4.gz share/man/man5/intro.5.gz share/man/man6/intro.6.gz share/man/man7/intro.7.gz share/man/man8/intro.8.gz
+INPUT|usc430ac-intro-165|U |000000000|usc430ac|intro:echo */*/*/*intro*.jpg|*/*/*/*intro*.jpg
+INPUT|usc430ac-intro-166|U |000000000|usc430ac|intro:cd //|
+INPUT|usc430ac-intro-167|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-168|U |000000000|usc430ac|intro:cd ~/../..|
+INPUT|usc430ac-intro-169|U |1549522477|usc430ac|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ac-intro-170|U |1549522485|usc430ac|intro:ls -a|.     etc   initrd.img.old  media  root srv    var
+..    groups   lib    mnt  run sys    vmlinuz
+bin   .hidden   lib64    opt  sbin tmp    vmlinuz.old
+boot  home   local    proc  share users
+dev   initrd.img  lost+found   proj  snap usr
+INPUT|usc430ac-intro-171|U |000000000|usc430ac|intro:cd .hidden|
+INPUT|usc430ac-intro-172|U |1549522495|usc430ac|intro:ls|asdf136Intro-5kqlw.jpeg
+INPUT|usc430ac-intro-173|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-174|U |000000000|usc430ac|intro:echo .*/*intro|.*/*intro*
+INPUT|usc430ac-intro-175|U |000000000|usc430ac|intro:echo .*/*I|.hidden/asdf136Intro-5kqlw.jpeg
+INPUT|usc430ac-intro-176|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-177|U |000000000|usc430ac|intro:echo|*/*Intro*
+INPUT|usc430ac-intro-178|U |000000000|usc430ac|intro:echo */*/|*/*/*Intro*
+INPUT|usc430ac-intro-179|U |000000000|usc430ac|intro:echo */*/*/|*/*/*/*Intro*
+INPUT|usc430ac-intro-180|U |000000000|usc430ac|intro:echo */*/*INTRO|*/*/*INTRO*
+INPUT|usc430ac-intro-181|U |000000000|usc430ac|intro:echo */.*intro|*/.*intro*
+INPUT|usc430ac-intro-182|U |000000000|usc430ac|intro:echo */.|*/.intro*
+INPUT|usc430ac-intro-183|U |000000000|usc430ac|intro:echo */*/|*/*/.*intro*
+INPUT|usc430ac-intro-184|U |1549522642|usc430ac|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ac-intro-185|U |1549522649|usc430ac|intro:ls -a|.     etc   initrd.img.old  media  root srv    var
+..    groups   lib    mnt  run sys    vmlinuz
+bin   .hidden   lib64    opt  sbin tmp    vmlinuz.old
+boot  home   local    proc  share users
+dev   initrd.img  lost+found   proj  snap usr
+INPUT|usc430ac-intro-186|U |000000000|usc430ac|intro:cd initrd.img|bash: cd: initrd.img: Not a directory
+INPUT|usc430ac-intro-187|U |1549522673|usc430ac|intro:ls -l initrd.img|lrwxrwxrwx 1 root root 32 Jul 20  2017 initrd.img -> boot/initrd.img-4.4.0-83-generic
+INPUT|usc430ac-intro-188|U |000000000|usc430ac|intro:echo */*intro|dev/136intro-2jjaj.JPEG etc/wuer136intro-4.JPG proj/intro.createimage.Share
+INPUT|usc430ac-intro-189|U |000000000|usc430ac|intro:cd proj/intro.createimage.Share|
+INPUT|usc430ac-intro-190|U |1549522712|usc430ac|intro:ls|exp
+INPUT|usc430ac-intro-191|U |000000000|usc430ac|intro:ce exp|ce: command not found
+INPUT|usc430ac-intro-192|U |000000000|usc430ac|intro:cd exp|
+INPUT|usc430ac-intro-193|U |1549522723|usc430ac|intro:ls|count. logs
+INPUT|usc430ac-intro-194|U |000000000|usc430ac|intro:cd logs|
+INPUT|usc430ac-intro-195|U |1549522733|usc430ac|intro:ls|ttylog..0
+INPUT|usc430ac-intro-196|U |000000000|usc430ac|intro:echo */*intro*|*/*intro*
+INPUT|usc430ac-intro-197|U |000000000|usc430ac|intro:echo */*/|*/*/*intro*
+INPUT|usc430ac-intro-198|U |000000000|usc430ac|intro:cd ../../..|
+INPUT|usc430ac-intro-199|U |000000000|usc430ac|intro:cd //|
+INPUT|usc430ac-intro-200|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-201|U |000000000|usc430ac|intro:cd ~/../..|
+INPUT|usc430ac-intro-202|U |1549522783|usc430ac|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ac-intro-203|U |000000000|usc430ac|intro:echo */.*/*intro*|dev/./136intro-2jjaj.JPEG etc/./wuer136intro-4.JPG proj/./intro.createimage.Share
+INPUT|usc430ac-intro-204|U |000000000|usc430ac|intro:echo */*/|dev/block/../136intro-2jjaj.JPEG dev/bsg/../136intro-2jjaj.JPEG dev/bus/../136intro-2jjaj.JPEG dev/char/../136intro-2jjaj.JPEG dev/cpu/../136intro-2jjaj.JPEG dev/disk/../136intro-2jjaj.JPEG dev/dri/../136intro-2jjaj.JPEG dev/hugepages/../136intro-2jjaj.JPEG dev/input/../136intro-2jjaj.JPEG dev/lightnvm/../136intro-2jjaj.JPEG dev/mapper/../136intro-2jjaj.JPEG dev/mqueue/../136intro-2jjaj.JPEG dev/net/../136intro-2jjaj.JPEG dev/pts/../136intro-2jjaj.JPEG dev/shm/../136intro-2jjaj.JPEG dev/snd/../136intro-2jjaj.JPEG dev/vfio/../136intro-2jjaj.JPEG etc/acpi/../wuer136intro-4.JPG etc/alternatives/../wuer136intro-4.JPG etc/ansible/../wuer136intro-4.JPG etc/apache2/../wuer136intro-4.JPG etc/apm/../wuer136intro-4.JPG etc/apparmor.d/../wuer136intro-4.JPG etc/apparmor/../wuer136intro-4.JPG etc/apport/../wuer136intro-4.JPG etc/apt/../wuer136intro-4.JPG etc/at-spi2/../wuer136intro-4.JPG etc/bash_completion.d/../wuer136intro-4.JPG etc/binfmt.d/../wuer136intro-4.JPG etc/byobu/../wuer136intro-4.JPG e
+INPUT|usc430ac-intro-205|U |000000000|usc430ac|intro:echo */*/.?*|dev/block/../136intro-2jjaj.JPEG dev/bsg/../136intro-2jjaj.JPEG dev/bus/../136intro-2jjaj.JPEG dev/char/../136intro-2jjaj.JPEG dev/cpu/../136intro-2jjaj.JPEG dev/disk/../136intro-2jjaj.JPEG dev/dri/../136intro-2jjaj.JPEG dev/hugepages/../136intro-2jjaj.JPEG dev/input/../136intro-2jjaj.JPEG dev/lightnvm/../136intro-2jjaj.JPEG dev/mapper/../136intro-2jjaj.JPEG dev/mqueue/../136intro-2jjaj.JPEG dev/net/../136intro-2jjaj.JPEG dev/pts/../136intro-2jjaj.JPEG dev/shm/../136intro-2jjaj.JPEG dev/snd/../136intro-2jjaj.JPEG dev/vfio/../136intro-2jjaj.JPEG etc/acpi/../wuer136intro-4.JPG etc/alternatives/../wuer136intro-4.JPG etc/ansible/../wuer136intro-4.JPG etc/apache2/../wuer136intro-4.JPG etc/apm/../wuer136intro-4.JPG etc/apparmor.d/../wuer136intro-4.JPG etc/apparmor/../wuer136intro-4.JPG etc/apport/../wuer136intro-4.JPG etc/apt/../wuer136intro-4.JPG etc/at-spi2/../wuer136intro-4.JPG etc/bash_completion.d/../wuer136intro-4.JPG etc/binfmt.d/../wuer136intro-4.JPG etc/byobu/../wuer136intro-4.JPG e
+INPUT|usc430ac-intro-206|U |000000000|usc430ac|intro:echo */*/.[a-z|*/*/.[a-z]*/*intro*
+INPUT|usc430ac-intro-207|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-208|U |1549522894|usc430ac|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ac-intro-209|U |1549522902|usc430ac|intro:ls -a|.     etc   initrd.img.old  media  root srv    var
+..    groups   lib    mnt  run sys    vmlinuz
+bin   .hidden   lib64    opt  sbin tmp    vmlinuz.old
+boot  home   local    proc  share users
+dev   initrd.img  lost+found   proj  snap usr
+INPUT|usc430ac-intro-210|U |000000000|usc430ac|intro:cd lost+found|bash: cd: lost+found: Permission denied
+INPUT|usc430ac-intro-211|U |1549522974|usc430ac|intro:cd lost+found|sudo: cd: command not found
+INPUT|usc430ac-intro-212|M2 |000000000|usc430ac|intro:find . -name \*intro|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+./var/log/ttylog/alltty.intro
+./var/log/ttylog/ttylog.intro.1
+./var/log/ttylog/cli.intro.csv
+find: './var/log/unattended-upgrades': Permission denied
+./var/log/136intro-3.jpg
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns
+INPUT|usc430ac-intro-213|M2 |000000000|usc430ac|intro:find . -name \*intro*.jpg|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+find: './var/log/unattended-upgrades': Permission denied
+./var/log/136intro-3.jpg
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo
+INPUT|usc430ac-intro-214|M2 |000000000|usc430ac|intro:find .|!TRUNCATED TO 500L! .
+./sbin
+./sbin/blockdev
+./sbin/rarp
+./sbin/lvscan
+./sbin/installkernel
+./sbin/insmod
+./sbin/pam_tally2
+./sbin/iscsi_discovery
+./sbin/kbdrate
+./sbin/shadowconfig
+./sbin/cfdisk
+./sbin/e2undo
+./sbin/pam_extrausers_chkpwd
+./sbin/capsh
+./sbin/fsck.cramfs
+./sbin/mii-tool
+./sbin/mkfs.ext4
+./sbin/vconfig
+./sbin/mkfs.ntfs
+./sbin/mdadm
+./sbin/veritysetup
+./sbin/iscsi-iname
+./sbin/request-key
+./sbin/mkfs.msdos
+./sbin/sfdisk
+./sbin/ntfslabel
+./sbin/xfs_repair
+./sbin/fatlabel
+./sbin/fsck.fat
+./sbin/pvcreate
+./sbin/fsck.vfat
+./sbin/fsck
+./sbin/dumpe2fs
+./sbin/mount.ntfs-3g
+./sbin/pvremove
+./sbin/tipc
+./sbin/mkfs.xfs
+./sbin/depmod
+./sbin/vgcfgbackup
+./sbin/cryptsetup-reencrypt
+./sbin/lvmchange
+./sbin/findfs
+./sbin/lvremove
+./sbin/dosfsck
+./sbin/mkfs.cramfs
+./sbin/lsmod
+./sbin/fsck.ext4dev
+./sbin/mount.fuse
+./sbin/vgchange
+./sbin/ntf
+INPUT|usc430ac-intro-215|A1 A0 A2 A4 A3 |1549523167|usc430ac|intro:man find|%=
+FIND(1)                     General Commands Manual                    FIND(1)
+
+NAME
+       find - search for files in a directory hierarchy
+
+SYNOPSIS
+       find  [-H]  [-L]  [-P]  [-D  debugopts]  [-Olevel]  [starting-point...]
+       [expression]
+
+DESCRIPTION
+       This manual page documents the GNU version of find.  GNU find  searches
+       the  directory  tree  rooted at each given starting-point by evaluating
+       the given expression from left to right%%  according  to  the  rules  of
+       precedence  (see  section  OPERATORS)%%  until the outcome is known (the
+       left hand side is false for and operations%%  true  for  or)%%  at  which
+       point  find  moves  on  to the next file name.  If no starting-point is
+       specified%% `.' is assumed.
+
+       If you are using find in an environment  where  security  is  important
+       (for  example  if  you  are  using  it  to  search directories that are<NL
+INPUT|usc430ac-intro-216|M2 |000000000|usc430ac|intro:find . \*intro-1*.jpg -exec echo {} \;|!TRUNCATED TO 500L! .
+./sbin
+./sbin/blockdev
+./sbin/rarp
+./sbin/lvscan
+./sbin/installkernel
+./sbin/insmod
+./sbin/pam_tally2
+./sbin/iscsi_discovery
+./sbin/kbdrate
+./sbin/shadowconfig
+./sbin/cfdisk
+./sbin/e2undo
+./sbin/pam_extrausers_chkpwd
+./sbin/capsh
+./sbin/fsck.cramfs
+./sbin/mii-tool
+./sbin/mkfs.ext4
+./sbin/vconfig
+./sbin/mkfs.ntfs
+./sbin/mdadm
+./sbin/veritysetup
+./sbin/iscsi-iname
+./sbin/request-key
+./sbin/mkfs.msdos
+./sbin/sfdisk
+./sbin/ntfslabel
+./sbin/xfs_repair
+./sbin/fatlabel
+./sbin/fsck.fat
+./sbin/pvcreate
+./sbin/fsck.vfat
+./sbin/fsck
+./sbin/dumpe2fs
+./sbin/mount.ntfs-3g
+./sbin/pvremove
+./sbin/tipc
+./sbin/mkfs.xfs
+./sbin/depmod
+./sbin/vgcfgbackup
+./sbin/cryptsetup-reencrypt
+./sbin/lvmchange
+./sbin/findfs
+./sbin/lvremove
+./sbin/dosfsck
+./sbin/mkfs.cramfs
+./sbin/lsmod
+./sbin/fsck.ext4dev
+./sbin/mount.fuse
+./sbin/vgchange
+./sbin/ntf
+INPUT|usc430ac-intro-217|A4 A3 A1 A2 A0 |000000000|usc430ac|intro:find . \*intro-1*.jpg -exec echo {} \;|
+INPUT|usc430ac-intro-218|A1 A2 A0 A4 A3 |000000000|usc430ac|intro:find . -name \*intro-1|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+find: './var/log/unattended-upgrades': Permission denied
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find
+INPUT|usc430ac-intro-219|M2 |000000000|usc430ac|intro:find . -name \*intro|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+./var/log/ttylog/alltty.intro
+./var/log/ttylog/alltty.intro
+./var/log/ttylog/ttylog.intro.1
+./var/log/ttylog/ttylog.intro.1
+./var/log/ttylog/cli.intro.csv
+./var/log/ttylog/cli.intro.csv
+find: './var/log/unattended-upgrades': Permission denied
+./var/log/136intro-3.jpg
+./var/log/136intro-3.jpg
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Perm
+INPUT|usc430ac-intro-220|M2 |000000000|usc430ac|intro:find . -name \*intro*.jpg|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+find: './var/log/unattended-upgrades': Permission denied
+./var/log/136intro-3.jpg
+./var/log/136intro-3.jpg
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+f
+INPUT|usc430ac-intro-221|A4 A3 A1 A0 A2 |000000000|usc430ac|intro:find . -name \*intro*.jpe|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+find: './var/log/unattended-upgrades': Permission denied
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find
+INPUT|usc430ac-intro-222|A2 A0 A1 A3 A4 |000000000|usc430ac|intro:find . -name \*I|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+find: './var/log/unattended-upgrades': Permission denied
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find
+INPUT|usc430ac-intro-223|A1 A2 A0 A4 A3 |000000000|usc430ac|intro:find . -name \*t|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+find: './var/log/unattended-upgrades': Permission denied
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find
+INPUT|usc430ac-intro-224|A1 A2 A0 A4 A3 |000000000|usc430ac|intro:find . -name \*tro-2*.jp|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+find: './var/log/unattended-upgrades': Permission denied
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find
+INPUT|usc430ac-intro-225|A1 A2 A0 A4 A3 |000000000|usc430ac|intro:find . -name \*tro-1*.jpe|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+find: './var/log/unattended-upgrades': Permission denied
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find
+INPUT|usc430ac-intro-226|A3 A4 A2 A0 A1 |000000000|usc430ac|intro:find . -name \*tro-1*.JPG|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+find: './var/log/unattended-upgrades': Permission denied
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find
+INPUT|usc430ac-intro-227|M3 M2 M1 |000000000|usc430ac|intro:find / -name ar*intro|/var/log/ttylog/alltty.intro
+/var/log/ttylog/ttylog.intro.1
+/var/log/ttylog/cli.intro.csv
+/var/log/136intro-3.jpg
+/users/usc430ac/top_secret/136intro-2jjaj.JPEG
+/users/usc430ac/top_secret/wuer136intro-4.JPG
+/users/usc430ac/top_secret/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/proj/intro.createimage.Share
+/proj/share/exp/createimage/logs/cli.intro.csv.1535412403
+/proj/share/exp/createimage/logs/ttylog.intro.0
+/proj/share/exp/createimage/logs/alltty.intro
+/proj/share/exp/createimage/logs/cli.intro.csv
+/proj/share/exp/createimage/count.intro
+/proj/USC430/logs/runlog-mjoseph-Homework1.intro.xUiMEB
+/proj/USC430/logs/edumodel.snoopy.intro.1521748498
+/proj/USC430/logs/edumodel.snoopy.intro.1521760450
+/proj/USC430/logs/edumodel.snoopy.intro.1521761327
+/proj/USC430/logs/edumodel.snoopy.intro.1521762323
+/proj/USC430/logs/tedu.snoopy.intro.1521766507
+/proj/USC430/logs/tedu.snoopy.intro
+INPUT|usc430ac-intro-228|M2 |000000000|usc430ac|intro:find / -name *introro*.jpg|/var/log/136intro-3.jpg
+/users/usc430ac/top_secret/136intro-3.jpg
+INPUT|usc430ac-intro-229|A3 A4 A0 A2 A1 |000000000|usc430ac|intro:find / -name *intro*.-1|
+INPUT|usc430ac-intro-230|M0 |000000000|usc430ac|intro:find / -name *inINTRO|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430ac-intro-231|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-232|U |000000000|usc430ac|intro:cd ~/top_secret|
+INPUT|usc430ac-intro-233|U |1549523730|usc430ac|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  wuer136intro-4.JPG
+INPUT|usc430ac-intro-234|U |000000000|usc430ac|intro:cp .hidden/asdf136Intro-5kqlw.jpeg .hidden/asdf136I|ntro-5kqlw.jpeg<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ac-intro-235|U |000000000|usc430ac|intro:cp .hidden/asdf136Intro-5kqlw.jpeg .hiddenasdf136Intsc430ac@intro:~/top_secret$ cp .hidden/asdf136Intro-5kqlw.jpeg .hiddeasdf136Intrsc430ac@intro:~/top_secret$ cp .hidden/asdf136Intro-5kqlw.jpeg .hiddasdf136Introsc430ac@intro:~/top_secret$ cp .hidden/asdf136Intro-5kqlw.jpeg .hidasdf136Intro-sc430ac@intro:~/top_secret$ cp .hidden/asdf136Intro-5kqlw.jpeg .hiasdf136Intro-5sc430ac@intro:~/top_secret$ cp .hidden/asdf136Intro-5kqlw.jpeg .hasdf136Intro-5ksc430ac@intro:~/top_secret$ cp .hidden/asdf136Intro-5kqlw.jpeg .asdf136Intro-5kqsc430ac@intro:~/top_secret$ cp .hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5kqlsc430ac@intro:~/top_secret$ cp .hidden/asdf136Intro-5kqlw.jpeg|
+
+cp: cannot stat '.hidden/asdf136Intro-5kqlw.jpeg': No such file or directory
+INPUT|usc430ac-intro-236|U |000000000|usc430ac|intro:cp .hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5kql|lw.jpeg<BS><BS><BS><BS><BS><BS>
+INPUT|usc430ac-intro-237|U |000000000|usc430ac|intro:cp ~.hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5kqlc430ac@intro:~/top_secret$ cp ~/.hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5kqc430ac@intro:~/top_secret$ cp ~/..hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5kc430ac@intro:~/top_secret$ cp ~/...hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-5c430ac@intro:~/top_secret$ cp ~/../.hidden/asdf136Intro-5kqlw.jpeg asdf136Intro-c430ac@intro:~/top_secret$ cp ~/../..hidden/asdf136Intro-5kqlw.jpeg asdf136Introc430ac@intro:~/top_secret$ cp ~/../...hidden/asdf136Intro-5kqlw.jpeg asdf136Intrc430ac@intro:~/top_secret$ cp ~/../../.hidden/asdf136Intro-5kqlw.jpeg asdf136Intc430ac@intro:~/top_secret$ cp ~/../../|
+
+INPUT|usc430ac-intro-238|U |000000000|usc430ac|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /usr/share|/pixmaps/xbzf136INTRO-1.jpg<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<BS><ESC>[1P<ESC>[1P<BS><BS><ESC>[1P<BS><ESC>[1P
+INPUT|usc430ac-intro-239|U |000000000|usc430ac|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /usr/sharxbsc430ac@intro:~/top_secret$ cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /usr/shaxbzsc430ac@intro:~/top_secret$ cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /usr/shxbzfsc430ac@intro:~/top_secret$ cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /usr/sxbzf1sc430ac@intro:~/top_secret$ cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /usr/xbzf13sc430ac@intro:~/top_secret$ cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /usrxbzf136sc430ac@intro:~/top_secret$ cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /usxbzf136Isc430ac@intro:~/top_secret$ cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /uxbzf136INsc430ac@intro:~/top_secret$ cp /usr/share/pixmaps/xbzf136INTRO-1.jpg /xbzf136INTsc430ac@intro:~/top_secret$ cp /usr/share/pixmaps/xbzf136INTRO-1.jpg xbzf136INTRsc430ac@intro:~/top_secret$ cp ~/usr/share/pixmaps/xbzf136INTRO-1.jpg xbzf136INTRc430ac@intro:~/top_secret$ cp ~//usr/share/pixmaps/xbzf136INTRO-1.jpg xbzf136INTc430ac@intro:~/top_secret$ cp ~/./usr/share/pixmaps/xbzf136INTRO-1.jpg xbzf136INc430ac@intro:~/top_secret$ cp ~/../usr/share/pixmaps/xbzf136INTRO-1.jpg xbzf136Ic430ac@intro:~/top_secret$ cp ~/..//usr/share/pixmaps/xbzf136INTRO-1.jpg xbzf136c430ac@intro:~/top_secret$ cp ~/.././usr/share/pixmaps/xbzf136INTRO-1.jpg xbzf13c430ac@intro:~/top_secret$ cp ~/../../usr/share/pixmaps/xbzf136INTRO-1.jpg xbzf1c430ac@intro:~/top_secret$ cp ~/../..|
+
+INPUT|usc430ac-intro-240|U |1549523802|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      wuer136intro-4.JPG
+INPUT|usc430ac-intro-241|U |1549524238|usc430ac|intro:man scp|%=
+SCP(1)                    BSD General Commands Manual                   SCP(1)
+
+NAME
+     scp -- secure copy (remote file copy program)
+
+SYNOPSIS
+     scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+         [-l limit] [-o ssh_option] [-P port] [-S program]
+         [[user@]host1:]file1 ... [[user@]host2:]file2
+
+DESCRIPTION
+     scp copies files between hosts on a network.  It uses ssh(1) for data
+     transfer%% and uses the same authentication and provides the same security
+     as ssh(1).  scp will ask for passwords or passphrases if they are needed
+     for authentication.
+
+     File names may contain a user and host specification to indicate that the
+     file is to be copied to/from that host.  Local file names can be made
+     explicit using absolute or relative pathnames to avoid scp treating file
+     names containing ':' as host specifiers.  Copies between two remote hosts
+     are also permit
+INPUT|usc430ac-intro-242|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-243|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-244|U |1549526825|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      wuer136intro-4.JPG
+INPUT|usc430ac-intro-245|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-246|U |1549526991|usc430ac|intro:mkdir test|
+INPUT|usc430ac-intro-247|U |1549526992|usc430ac|intro:ls|test  top_secret
+INPUT|usc430ac-intro-248|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-249|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-250|U |000000000|usc430ac|intro:cd ~|
+INPUT|usc430ac-intro-251|U |000000000|usc430ac|intro:pwd|/users/usc430ac
+INPUT|usc430ac-intro-252|U |1549560040|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      wuer136intro-4.JPG
+INPUT|usc430ac-intro-253|U |000000000|usc430ac|intro:cd ~/../..|
+INPUT|usc430ac-intro-254|U |000000000|usc430ac|intro:cd var|
+INPUT|usc430ac-intro-255|U |1549560055|usc430ac|intro:ls|backups  crash  lib lock  mail  run   spool
+cache  emulab  local log   opt   snap  tmp
+INPUT|usc430ac-intro-256|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-257|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-258|U |000000000|usc430ac|intro:cd dev|
+INPUT|usc430ac-intro-259|U |1549560100|usc430ac|intro:ls|136intro-2jjaj.JPEG  loop6   tty14 tty5    ttyS26
+autofs       loop7   tty15 tty50    ttyS27
+block       loop-control  tty16 tty51    ttyS28
+bsg       mapper   tty17 tty52    ttyS29
+btrfs-control      mcelog   tty18 tty53    ttyS3
+bus       mem   tty19 tty54    ttyS30
+char       memory_bandwidth  tty2 tty55    ttyS31
+console       mqueue   tty20 tty56    ttyS4
+core       net   tty21 tty57    ttyS5
+cpu       network_latency  tty22 tty58    ttyS6
+cpu_dma_latency      network_throughput  tty23 tty59    ttyS7
+cuse       null   tty24 tty6    ttyS8
+disk       port   tty25 tty60    ttyS9
+dri       ppp   tty26 tty61    uhid
+ecryptfs      psaux   tty27 tty62    uinput
+fb0       ptmx   tty28 tty63    
+INPUT|usc430ac-intro-260|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-261|U |1549560117|usc430ac|intro:ls -l dev|%total 48
+-rw-r--r-- 1 root root       45909 Feb  7 09:03 136intro-2jjaj.JPEG
+crw------- 1 root root     10%% 235 Feb  7 09:03 autofs
+drwxr-xr-x 2 root root         280 Feb  7 09:02 block
+drwxr-xr-x 2 root root          60 Feb  7 09:02 bsg
+crw-rw---- 1 root disk     10%% 234 Feb  7 09:03 btrfs-control
+drwxr-xr-x 3 root root          60 Feb  7 09:02 bus
+drwxr-xr-x 2 root root        3360 Feb  7 09:03 char
+crw------- 1 root root      5%%   1 Feb  7 09:14 console
+lrwxrwxrwx 1 root root          11 Feb  7 09:02 core -> /proc/kcore
+drwxr-xr-x 2 root root          60 Feb  7 09:02 cpu
+crw------- 1 root root     10%%  59 Feb  7 09:03 cpu_dma_latency
+crw------- 1 root root     10%% 203 Feb  7 09:03 cuse
+drwxr-xr-x 6 root root         120 Feb  7 09:02 disk
+drwxr-xr-x 2 root root         100 Feb  7 09:02 dri
+crw------- 1 root root     10%%  61 Feb  7 09:03 ecryptfs
+crw-rw---- 1 root video    29%%   0 Feb  7 09:03 fb0
+lrwxrwxrwx 1 root root       
+INPUT|usc430ac-intro-262|M5 |1549560282|usc430ac|intro:less /proc/cpuinfo|=
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 15
+model name      : Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping        : 11
+microcode       : 0xb3
+cpu MHz         : 2133.338
+cache size      : 4096 KB
+physical id     : 0
+siblings        : 4
+core id         : 0
+cpu cores       : 4
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 10
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm tpr_shadow vnmi flexpriority dtherm
+/proc/cpuinfo
+:
+INPUT|usc430ac-intro-263|M6 |1549560384|usc430ac|intro:df -h|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              2.0G   48K  2.0G   1%% /dev
+tmpfs                                             396M   14M  382M   4%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                             2.0G     0  2.0G   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             2.0G     0  2.0G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ac  1.9T  1.3T  500G  72%% /users/usc430ac
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  880G  1.7T  34%% /proj/USC430
+tmpfs                                             396M     0  396M   0%% /run/user/14166%
+INPUT|usc430ac-intro-264|M6 |1549560411|usc430ac|intro:df -h|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              2.0G   48K  2.0G   1%% /dev
+tmpfs                                             396M   14M  382M   4%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                             2.0G     0  2.0G   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             2.0G     0  2.0G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ac  1.9T  1.3T  500G  72%% /users/usc430ac
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  880G  1.7T  34%% /proj/USC430
+tmpfs                                             396M     0  396M   0%% /run/user/14166%
+INPUT|usc430ac-intro-265|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-266|U |1549561764|usc430ac|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ac-intro-267|U |000000000|usc430ac|intro:cd ..|
+INPUT|usc430ac-intro-268|M6 |1549661853|usc430ac|intro:df -h|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              980M   48K  980M   1%% /dev
+tmpfs                                             200M   11M  190M   6%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                            1000M     0 1000M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                            1000M     0 1000M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ac  1.9T  1.3T  466G  74%% /users/usc430ac
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/USC430
+tmpfs                                             200M     0  200M   0%% /run/user/14166%
+INPUT|usc430ac-intro-269|M5 |1549661879|usc430ac|intro:less proc/cpuinfo|=
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping        : 3
+microcode       : 0x5
+cpu MHz         : 2992.690
+cache size      : 2048 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr
+bugs            :
+proc/cpuinfo
+:
+INPUT|usc430ac-intro-270|U |000000000|usc430ac|intro:cd ~/topsecret|bash: cd: /users/usc430ac/topsecret: No such file or directory
+INPUT|usc430ac-intro-271|U |000000000|usc430ac|intro:cd ~|
+INPUT|usc430ac-intro-272|U |1549662289|usc430ac|intro:ls|test  top_secret
+INPUT|usc430ac-intro-273|U |000000000|usc430ac|intro:cd top_secret|
+INPUT|usc430ac-intro-274|U |1549662295|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt.txt
+answer.txt      wuer136intro-4.JPG
+INPUT|usc430ac-intro-275|U |1549662356|usc430ac|intro:cp diskfree.txt.txt diskfree.txt|
+INPUT|usc430ac-intro-276|U |000000000|usc430ac|intro:re diskfree.txt.txt|The program 're' is currently not installed. To run 're' please ask your administrator to install the package 're'
+INPUT|usc430ac-intro-277|U |000000000|usc430ac|intro:rm|
+INPUT|usc430ac-intro-278|U |1549662372|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg      diskfree.txt
+answer.txt      wuer136intro-4.JPG
+INPUT|usc430ac-intro-279|U |1549663608|usc430ac|intro:ssh attacker.dos3.USC430|ssh: connect to host attacker.dos3.usc430 port 22: No route to host
+
+INPUT|usc430ac-intro-280|U |1549663630|usc430ac|intro:ssh attacker.dos3.USC430|ssh: connect to host attacker.dos3.usc430 port 22: No route to host
+
+INPUT|usc430ac-intro-281|U |1549665232|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg      client.py        wuer136intro-4.JPG
+answer.txt      diskfree.txt       xbzf136INTRO-1.jpg
+INPUT|usc430ac-intro-282|U |1549665242|usc430ac|intro:python server.py|%starting up on localhost port 10001
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 18%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430ac-intro-283|U |1549668303|usc430ac|intro:python server.py|%starting up on localhost port 10001
+waiting for a connection
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 18%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430ac-intro-284|U |1549668467|usc430ac|intro:ifconfig|eth4      Link encap:Ethernet  HWaddr 00:13:72:4e:cd:d1  
+          inet addr:192.168.1.161  Bcast:192.168.3.255  Mask:255.255.252.0
+          inet6 addr: fe80::213:72ff:fe4e:cdd1/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:8023 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3623 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7461390 (7.4 MB)  TX bytes:886568 (886.5 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:77 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:77 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:12140 (12.1 KB)  TX bytes:12140 (12.1 KB)
+
+INPUT|usc430ac-intro-285|U |000000000|usc430ac|intro:q|
+The program 'q' can be found in the following packages:
+ * python-q-text-as-data
+ * python3-q-text-as-data
+Ask your administrator to install one of them
+INPUT|usc430ac-intro-286|A1 A2 A0 A4 A3 |000000000|usc430ac|intro:sudo|%starting up on localhost port 10001
+waiting for a connection
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 18%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430ac-intro-287|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-288|U |1549670232|usc430ac|intro:ls|136intro-2jjaj.JPEG  client.py  server.py
+136intro-3.jpg   diskfree.txt  wuer136intro-4.JPG
+answer.txt   echo_client.py  xbzf136INTRO-1.jpg
+asdf136Intro-5kqlw.jpeg  echo_server.py
+INPUT|usc430ac-intro-289|U |1549670250|usc430ac|intro:python echo_server|python: can't open file 'echo_server': [Errno 2] No such file or directory
+INPUT|usc430ac-intro-290|U |1549670254|usc430ac|intro:python echo_server.py|%starting up on localhost port 10000
+waiting for a connection
+screen
+^CTraceback (most recent call last):
+  File \"echo_server.py\"%% line 16%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430ac-intro-291|U |1549670263|usc430ac|intro:python echo_server.py|%starting up on localhost port 10000
+waiting for a connection
+connection from ('127.0.0.1'%% 43194)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('127.0.0.1'%% 43194)
+waiting for a connection%
+INPUT|usc430ac-intro-292|U |1549668270|usc430ac|intro:python client.py|%connecting to localhost port 10001
+Traceback (most recent call last):
+  File \"client.py\"%% line 10%% in <module>
+    sock.connect(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 111] Connection refused%
+INPUT|usc430ac-intro-293|A3 A4 A0 A2 A1 |000000000|usc430ac|intro:sudo|%connecting to localhost port 10001
+Traceback (most recent call last):
+  File \"client.py\"%% line 10%% in <module>
+    sock.connect(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 111] Connection refused%
+INPUT|usc430ac-intro-294|U |1549668283|usc430ac|intro:python client.py|%connecting to localhost port 10001
+sending \"This is the message.  It will be repeated.\"
+^Cclosing socket
+Traceback (most recent call last):
+  File \"client.py\"%% line 22%% in <module>
+    data = sock.recv(16)
+KeyboardInterrupt%
+INPUT|usc430ac-intro-295|U |1549668360|usc430ac|intro:ifconfig|eth4      Link encap:Ethernet  HWaddr 00:13:72:4e:cd:d1  
+          inet addr:192.168.1.161  Bcast:192.168.3.255  Mask:255.255.252.0
+          inet6 addr: fe80::213:72ff:fe4e:cdd1/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:7668 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3295 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7417205 (7.4 MB)  TX bytes:794424 (794.4 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:76 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:76 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:12088 (12.0 KB)  TX bytes:12088 (12.0 KB)
+
+INPUT|usc430ac-intro-296|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-297|U |000000000|usc430ac|intro:vim|136intro-2jjaj.JPEG      asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg           client.py                wuer136intro-4.JPG
+answer.txt               diskfree.txt             xbzf136INTRO-1.jpg
+INPUT|usc430ac-intro-298|U |1549668411|usc430ac|intro:vim client.py|%=<C2><BD>  ]11;?"client.py" [noeol][dos] 28L%% 744Cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Connect the socket to the port where the server is listening
+server_address = ('localhost'%% 10001)
+print('connecting to %%s port %%s' %% server_address)
+sock.connect(server_address)
+
+try:
+    # Send data
+    message = 'This is the message.  It will be repeated.'
+    print('sending "%%s"' %% message)
+    sock.sendall(message.encode('utf-8'))amount_received = 0
+    amount_expected = len(message)while amount_received < amount_expected:data = sock.recv(16)amount_received += len(data)1%%1Top23%%0-14%%1  56%%0-17%%1  8910%%11%%0-12%%1  34567%%0-18%%1  920123
+print('received "%%s"' %% data)24%%120%%
+25%%0-140%%
+finally:26%%160%%
+print('closing socket')27%%180%%
+sock.close()28%%1Bot765%%0-14%%1  32101987%%0-16%%1  54321%%0-10%%1  9%%1 876%%0-1sock = socket.socket(socket
+INPUT|usc430ac-intro-299|U |1549668456|usc430ac|intro:vim client.py|%=<C2><BD>  ]11;?"client.py" [dos] 28L%% 746Cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Connect the socket to the port where the server is listening
+server_address = ('localhost'%% 10001)
+print('connecting to %%s port %%s' %% server_address)
+sock.connect(server_address)
+
+try:
+    # Send data
+    message = 'This is the message.  It will be repeated.'
+    print('sending "%%s"' %% message)
+    sock.sendall(message.encode('utf-8'))amount_received = 0
+    amount_expected = len(message)while amount_received < amount_expected:data = sock.recv(16)amount_received += len(data)1%%1Top23%%0-14%%1  56%%0-17%%1  /q
+search hit BOTTOM%% continuing at TOP
+E486: Pattern not found: q7%%1Top/7%%1Top/ 7%%1Top:wq
+"client.py" [dos] 28L%% 746C written
+
+%
+INPUT|usc430ac-intro-300|U |1549668530|usc430ac|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg      client.py        wuer136intro-4.JPG
+answer.txt      diskfree.txt       xbzf136INTRO-1.jpg
+INPUT|usc430ac-intro-301|U |000000000|usc430ac|intro:flooder --dst 10.1.2.2 --highrate 1000000|
+INPUT|usc430ac-intro-302|U |1549668555|usc430ac|intro:python client.py|%connecting to localhost port 10001
+sending \"This is the message.  It will be repeated.\"
+^Cclosing socket
+Traceback (most recent call last):
+  File \"client.py\"%% line 22%% in <module>
+    data = sock.recv(16)
+KeyboardInterrupt%
+INPUT|usc430ac-intro-303|U |1549670029|usc430ac|intro:python -v|%# installing zipimport hook
+import zipimport # builtin
+# installed zipimport hook
+# /usr/lib/python2.7/site.pyc matches /usr/lib/python2.7/site.py
+import site # precompiled from /usr/lib/python2.7/site.pyc
+# /usr/lib/python2.7/os.pyc matches /usr/lib/python2.7/os.py
+import os # precompiled from /usr/lib/python2.7/os.pyc
+import errno # builtin
+import posix # builtin
+# /usr/lib/python2.7/posixpath.pyc matches /usr/lib/python2.7/posixpath.py
+import posixpath # precompiled from /usr/lib/python2.7/posixpath.pyc
+# /usr/lib/python2.7/stat.pyc matches /usr/lib/python2.7/stat.py
+import stat # precompiled from /usr/lib/python2.7/stat.pyc
+# /usr/lib/python2.7/genericpath.pyc matches /usr/lib/python2.7/genericpath.py
+import genericpath # precompiled from /usr/lib/python2.7/genericpath.pyc
+# /usr/lib/python2.7/warnings.pyc matches /usr/lib/python2.7/warnings.py
+import warnings # precompiled from /usr/lib/python2.7/warnings.pyc
+# /usr/lib/python2.7
+INPUT|usc430ac-intro-304|U |000000000|usc430ac|intro:^C|
+INPUT|usc430ac-intro-305|U |1549670284|usc430ac|intro:python echo_client.py|connecting to localhost port 10000
+sending \"This is the message.  It will be repeated.\"
+received \"This is the mess\"
+received \"age.  It will be\"
+received \" repeated.\"
+closing socket

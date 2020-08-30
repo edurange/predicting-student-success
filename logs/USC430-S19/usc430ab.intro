@@ -1,0 +1,87 @@
+User usc430ab start time 1548706268 end 1549309035
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ab-intro-0|U |1548706268|usc430ab|intro:ls|hw1pt1 id_rsa_old.pub test
+INPUT|usc430ab-intro-1|U |000000000|usc430ab|:|
+INPUT|usc430ab-intro-2|U |000000000|usc430ab|:|
+INPUT|usc430ab-intro-3|A4 A3 A1 A0 A2 |000000000|usc430ab|intro:find / -name \"*Intro*.jpg\"|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430ab-intro-4|A4 A3 A1 A2 A0 |000000000|usc430ab|intro:find / -name \"*Intro*.jpge|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430ab-intro-5|U |000000000|usc430ab|intro:fisudo|^C
+INPUT|usc430ab-intro-6|M2 |000000000|usc430ab|intro:find / -name \"*Ii|/var/log/136intro-3.jpg
+INPUT|usc430ab-intro-7|U |000000000|usc430ab|intro:suls|hw1pt1 id_rsa_old.pub test
+INPUT|usc430ab-intro-8|U |000000000|usc430ab|intro:cp /var/log/136intro-3.jpg  hw1pt1/|
+INPUT|usc430ab-intro-9|U |1548706471|usc430ab|intro:ls|hw1pt1 id_rsa_old.pub test
+INPUT|usc430ab-intro-10|U |000000000|usc430ab|intro:cd hw1pt1/|
+INPUT|usc430ab-intro-11|U |1548706511|usc430ab|intro:ls|136intro-3.jpg
+INPUT|usc430ab-intro-12|U |000000000|usc430ab|intro:cp /var/log/136intro-3.jpg  hw1pt1/|
+INPUT|usc430ab-intro-13|U |000000000|usc430ab|intro:cp /var/log/136intro-3.jpg  hw1pt1/|
+INPUT|usc430ab-intro-14|A3 A4 A0 A2 A1 |000000000|usc430ab|intro:find / -name "*Intro*.jpeg"|
+INPUT|usc430ab-intro-15|U |000000000|usc430ab|intro:ssh -vvv  intro.USC430-AVB-HW-p1.USC430|
+INPUT|usc430ab-intro-16|U |000000000|usc430ab|intro:ssh intro.USC430-AVB-HW-p1.USC430|
+INPUT|usc430ab-intro-17|A1 A2 A0 A4 A3 |000000000|usc430ab|intro:find / -name "*Intro*.jpeg"|
+INPUT|usc430ab-intro-18|A1 A2 A0 A4 A3 |000000000|usc430ab|intro:find / -name "*intro*.jpg"|
+INPUT|usc430ab-intro-19|U |000000000|usc430ab|intro:cp /var/log/136intro-3.jpg  hw1pt1/|
+INPUT|usc430ab-intro-20|A4 A3 A1 A2 A0 |000000000|usc430ab|intro:find / -name \"\*intro*.jpeg|
+INPUT|usc430ab-intro-21|A2 A0 A1 A3 A4 |000000000|usc430ab|intro:find / -name \"*intro*.jpeg\"|
+INPUT|usc430ab-intro-22|A4 A3 A1 A0 A2 |000000000|usc430ab|intro:find / -name \"*iIntro*.jpe|
+INPUT|usc430ab-intro-23|M0 |000000000|usc430ab|intro:find / -name \"*InNTRO|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430ab-intro-24|U |1549309035|usc430ab|intro:-s|%root@intro:~# ls -a
+.  ..  .bash_history  .cache  .forward hw1pt1 id_rsa_old.pub .ssh  .ssl  test  .vim .viminfo
+root@intro:~# 
+root@intro:~# 
+root@intro:~# find / -name \"*intro*\"\
+/var/log/ttylog/ttylog.intro.3
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/cli.intro.csv
+/var/log/136intro-3.jpg
+/users/usc430ab/hw1pt1/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/proj/intro.createimage.Share
+/proj/share/exp/createimage/logs/cli.intro.csv.1535412403
+/proj/share/exp/createimage/logs/ttylog.intro.0
+/proj/share/exp/createimage/logs/alltty.intro
+/proj/share/exp/createimage/logs/cli.intro.csv
+/proj/share/exp/createimage/count.intro
+/proj/USC430/logs/runlog-mjoseph-Homework1.intro.xUiMEB
+/proj/USC430/logs/edumodel.snoopy.intro.1521748498
+/proj/USC430/logs/edumodel.snoopy.intro.1521760450
+/proj/USC430/logs/edumodel.snoopy.intro.1521761327
+/proj/USC430/logs/edumodel.snoo

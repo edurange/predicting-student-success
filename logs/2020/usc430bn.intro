@@ -1,0 +1,478 @@
+User usc430bn start time 1580799903 end 1580881893
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430bn-intro-0|U |000000000|usc430bn|:|
+INPUT|usc430bn-intro-1|U |000000000|usc430bn|:|
+INPUT|usc430bn-intro-2|U |1580799903|usc430bn|intro:ls|
+INPUT|usc430bn-intro-3|A1 A4 A0 A2 A3 |1580800126|usc430bn|intro:find . -name "*intro" | head -n 5|
+INPUT|usc430bn-intro-4|A1 A4 A2 A3 A0 |1580800170|usc430bn|intro:find . -name "*.JPEG" | head -n 5|
+INPUT|usc430bn-intro-5|A4 A1 A0 A2 A3 |1580800435|usc430bn|intro:find . -name "intro" | head -n 5|
+INPUT|usc430bn-intro-6|A4 A1 A3 A2 A0 |1580800440|usc430bn|intro:find . -name "*intro" | head -n 5|
+INPUT|usc430bn-intro-7|U |1580800502|usc430bn|intro:LS|;1580800502
+Command 'LS' not found but can be installed with:
+
+apt install sl
+Please ask your administrator.
+
+
+INPUT|usc430bn-intro-8|U |1580800506|usc430bn|intro:ls|
+INPUT|usc430bn-intro-9|U |1580800511|usc430bn|intro:cd |
+INPUT|usc430bn-intro-10|U |1580800513|usc430bn|intro:cd //|
+INPUT|usc430bn-intro-11|U |1580800515|usc430bn|intro:cd ..|
+INPUT|usc430bn-intro-12|U |1580800520|usc430bn|intro:ls|bin   initrd.img      lost+found  proj	 snap	usr
+boot  initrd.img.old  media	  root	 srv	var
+dev   lib	      mnt	  run	 sys	vmlinuz
+etc   lib64	      opt	  sbin	 tmp	vmlinuz.old
+home  local	      proc	  share  users
+
+INPUT|usc430bn-intro-13|A0 A2 A3 A1 A4 |1580800532|usc430bn|intro:find . -name "*intro" | head -n 5|^C;1580800540
+
+INPUT|usc430bn-intro-14|U |1580800551|usc430bn|intro:cd ..|
+INPUT|usc430bn-intro-15|U |1580800555|usc430bn|intro:cd..|cd..: command not found
+
+INPUT|usc430bn-intro-16|U |1580800558|usc430bn|intro:cd ..|
+INPUT|usc430bn-intro-17|U |1580800594|usc430bn|intro:cd aa|bash: cd: aa: No such file or directory
+
+INPUT|usc430bn-intro-18|U |1580800596|usc430bn|intro:quit|;1580800596
+Command 'quit' not found did you mean:
+
+  command 'quiz' from deb bsdgames
+  command 'qgit' from deb qgit
+  command 'luit' from deb x11-utils
+  command 'quot' from deb quota
+  command 'quilt' from deb quilt
+
+Try: apt install <deb name>
+
+
+INPUT|usc430bn-intro-19|U |1580845890|usc430bn|intro:ls|
+INPUT|usc430bn-intro-20|A0 A2 A3 A1 A4 |1580845924|usc430bn|intro:find . -name "*intro*" | head -n 5|
+INPUT|usc430bn-intro-21|U |1580848190|usc430bn|intro:ls|
+INPUT|usc430bn-intro-22|U |1580848196|usc430bn|intro:pwd|/users/usc430bn
+
+INPUT|usc430bn-intro-23|U |1580848218|usc430bn|intro:cd /|
+INPUT|usc430bn-intro-24|U |1580848220|usc430bn|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430bn-intro-25|U |1580848228|usc430bn|intro:cd users/|
+INPUT|usc430bn-intro-26|U |1580848230|usc430bn|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430bn
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430bn-intro-27|U |1580848242|usc430bn|intro:cd |
+INPUT|usc430bn-intro-28|U |1580848244|usc430bn|intro:ls|
+INPUT|usc430bn-intro-29|A2 A3 A0 A1 A4 |1580848345|usc430bn|intro:find / -name "*intro"|^C;1580848358
+
+INPUT|usc430bn-intro-30|A4 A1 A0 A2 A3 |1580848381|usc430bn|intro:find / -name *intro |^C;1580848386
+
+INPUT|usc430bn-intro-31|A1 A4 A0 A2 A3 |1580848413|usc430bn|intro:find / -name *intro*|/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+^C;1580848424
+
+INPUT|usc430bn-intro-32|A4 A1 A2 A3 A0 |1580848462|usc430bn|intro:find / -iname *intro* > output.txt|
+INPUT|usc430bn-intro-33|U |1580848494|usc430bn|intro:ls|output.txt
+
+INPUT|usc430bn-intro-34|U |1580848502|usc430bn|intro:pwd|/users/usc430bn
+
+INPUT|usc430bn-intro-35|U |1580848506|usc430bn|intro:ls|output.txt
+
+INPUT|usc430bn-intro-36|U |1580848516|usc430bn|intro:vim output.txt |"output.txt" 176L 9429C6n  >c/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpythonn-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/loca
+INPUT|usc430bn-intro-37|U |1580848622|usc430bn|intro:vim output.txt |"output.txt" 176L 9429C6n  >c/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430bn.hw1-usc430bn.intro.csv
+/var/log/ttylog/usc430bn.hw1-usc430bn.intro.log
+/etc/wuer1
+INPUT|usc430bn-intro-38|U |1580848669|usc430bn|intro:cat  output.txt | grep jpg|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430bn-intro-39|U |1580848678|usc430bn|intro:cat  output.txt | grep jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430bn-intro-40|U |1580848717|usc430bn|intro:cat  output.txt | grep -i jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bn-intro-41|U |1580848729|usc430bn|intro:cat  output.txt | grep -i jpg|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430bn-intro-42|U |1580848804|usc430bn|intro:cd /var|
+INPUT|usc430bn-intro-43|U |1580848805|usc430bn|intro:ls|backups  cache	crash  emulab  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+
+INPUT|usc430bn-intro-44|U |1580849218|usc430bn|intro:cd|
+INPUT|usc430bn-intro-45|U |1580849234|usc430bn|intro:cd /tmp|
+INPUT|usc430bn-intro-46|U |1580849235|usc430bn|intro:ls|systemd-private-cb35700e32054e3cbb922652c4f5ee43-systemd-resolved.service-pbQ7iR  systemd-private-cb35700e32054e3cbb922652c4f5ee43-systemd-timesyncd.service-WEeWRI
+
+INPUT|usc430bn-intro-47|U |1580875807|usc430bn|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430bn-intro-48|U |1580875832|usc430bn|intro:cd|
+INPUT|usc430bn-intro-49|A0 A2 A3 A1 A4 |1580875854|usc430bn|intro:find / -iname *intro* > output.txt|^C;1580875885
+
+INPUT|usc430bn-intro-50|U |1580875904|usc430bn|intro:ls|output.txt
+
+INPUT|usc430bn-intro-51|U |1580875932|usc430bn|intro:cat output.txt | grep -i jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bn-intro-52|U |1580876120|usc430bn|intro:mkdir top_secret|
+INPUT|usc430bn-intro-53|U |1580876123|usc430bn|intro:ls|output.txt  top_secret
+
+INPUT|usc430bn-intro-54|U |1580876192|usc430bn|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg top_Secret|mv: cannot remove '/.hidden/asdf136Intro-5kqlw.jpeg': Permission denied
+
+INPUT|usc430bn-intro-55|U |1580876204|usc430bn|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg top_Secret|
+INPUT|usc430bn-intro-56|U |1580876250|usc430bn|intro:ls|output.txt  top_secret	top_Secret
+
+INPUT|usc430bn-intro-57|U |1580876267|usc430bn|intro:cd top_Secret|bash: cd: top_Secret: Not a directory
+
+INPUT|usc430bn-intro-58|U |1580876280|usc430bn|intro:cd top_secret|
+INPUT|usc430bn-intro-59|U |1580876282|usc430bn|intro:ls|
+INPUT|usc430bn-intro-60|U |1580876285|usc430bn|intro:cd|
+INPUT|usc430bn-intro-61|U |1580876291|usc430bn|intro:ls|output.txt  top_secret	top_Secret
+
+INPUT|usc430bn-intro-62|U |1580876296|usc430bn|intro:cd top_Secret|bash: cd: top_Secret: Not a directory
+
+INPUT|usc430bn-intro-63|U |1580876310|usc430bn|intro:cat output.txt | grep -i jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bn-intro-64|U |1580876319|usc430bn|intro:mv 32@/.hidden/asdf136Intro-5kqlw.jpeg top_secret|mv: cannot stat '/.hidden/asdf136Intro-5kqlw.jpeg': No such file or directory
+
+INPUT|usc430bn-intro-65|U |1580876339|usc430bn|intro:mv /top_Secret/asdf136Intro-5kqlw.jpeg top_secret|mv: cannot stat '/top_Secret/asdf136Intro-5kqlw.jpeg': No such file or directory
+
+INPUT|usc430bn-intro-66|U |1580876347|usc430bn|intro:ls|output.txt  top_secret	top_Secret
+
+INPUT|usc430bn-intro-67|U |1580876353|usc430bn|intro:cd top_Secret|sudo: cd: command not found
+
+INPUT|usc430bn-intro-68|U |1580876362|usc430bn|intro:cd top_Secret|bash: cd: top_Secret: Not a directory
+
+INPUT|usc430bn-intro-69|U |1580876371|usc430bn|intro:cd /|
+INPUT|usc430bn-intro-70|U |1580876373|usc430bn|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430bn-intro-71|U |1580876378|usc430bn|intro:cd|
+INPUT|usc430bn-intro-72|A1 A4 A0 A2 A3 |1580876404|usc430bn|intro:find / -iname *intro* > output.txt|^C;1580876413
+
+INPUT|usc430bn-intro-73|U |1580876418|usc430bn|intro:cat output.txt | grep -i jpeg|
+INPUT|usc430bn-intro-74|U |1580876450|usc430bn|intro:ls|output.txt  top_secret	top_Secret
+
+INPUT|usc430bn-intro-75|U |1580876464|usc430bn|intro:mkdir top_Secret|mkdir: cannot create directory 'top_Secret': File exists
+
+INPUT|usc430bn-intro-76|U |1580876475|usc430bn|intro:cd /top_Secret|bash: cd: /top_Secret: No such file or directory
+
+INPUT|usc430bn-intro-77|U |1580876480|usc430bn|intro:cd top_Secret|bash: cd: top_Secret: Not a directory
+
+INPUT|usc430bn-intro-78|U |1580876488|usc430bn|intro:cd top_secret|
+INPUT|usc430bn-intro-79|U |1580876490|usc430bn|intro:ls|
+INPUT|usc430bn-intro-80|U |1580876493|usc430bn|intro:cd|
+INPUT|usc430bn-intro-81|U |1580876504|usc430bn|intro:vim top_Secret|"top_Secret" [readonly][noeol] 177L 45909C6n  >c^@^PJFIF^@^A^B^A^@H^@H^@^@^A6Exif^@^@MM^@*^@^@^@^H^@^G^A^R^@^C^@^@^@^^A^@^A^@^@^A^Z^@^E^@^@^@^A^@^@^@b^A^[^@^E^@^@^@^A^@^@^@j^A(^@^C^@^@^@^A^@^B^^@^@^A1^@^B^@^@^@^[^@^@^@r^A2^@^B^@^@^@^T^@^@^@~M~Gi^@^D^@^@^@^A^@^@^@^@^@^^@^@^@^@H^@^@^@^A^@^@^@H^@^@^@^AAdobe Photoshop CS Windows^@2004:09:23 12:226:39^@^@^@^@^@^C| ^A^@^C^@^@^@^A^@^A^@^@| ^B^@^D^@^@^@^A^@^@^A'| ^C^@^D^@^@@^@^A^@^@^A^@^@^@^@^@^@^@^F^A^C^@^C^@^@^@^A^@^F^@^@^A^Z^@^E^@^@^@^A^@^@^A^^^^A^[^@^E^@^@^@^A^@^@^A&^A(^@^C^@^@^@^A^@^B^@^@^B^A^@^D^@^@^@^A^@^@^A.^B^B^@@^D^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@H^@^@^@^A^@^@^@H^@^@^@^A^EPhotoshop 3.0^^@8BIM^D^D^@^@^@^@^@^G^\^B^@^@^B^@^B^@8BIM^D%%^@^@^@^@^@^PF^L~I&Vڰ~\^A~~Pw8BIM^C^@^@^@^@^@^P^@H^@^@^@^A^@^A^@H^@^@^@^A^@^A8BIM^D&^@^@^@^@^@^N^@^@^^@^@^@^@^@^@^@^@?~@^@^@8BIM^D^M^@^@^@^@^@^D^@^@^@x8BIM^D^Y^@^@^@^@^@^D^@^@^@@^^8BIM^C^@^@^@^@^@    ^@^@^@^@^@^@^@^@^A^@8BIM^D
+^@^@^@^@^@^A^@^@8BIM'^P^@^@^@^@^@
+^@^A^@^@^@^@^@^@^@^B8BIM^C^@^@^@^@^@H^@/ff^@^A^@lf
+INPUT|usc430bn-intro-82|U |1580876615|usc430bn|intro:vim top_secret|"top_secret" is a directory6n  >c" =========================================================================" Netrw Directory Listing                                        (netrw v15"   /users/usc430bn/top_secret
+"   Sorted by      name
+"   Sort sequence: [\/]$\<core\%%(\.\d\+\)\=\>\.h$\.c$\.cpp$\~\=\*$*\"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:sp" =========================================================================../                                                                        ./
+
+
+INPUT|usc430bn-intro-83|U |1580876750|usc430bn|intro:cd /.hidden/asdf136Intro-5kqlw.jpeg|bash: cd: /.hidden/asdf136Intro-5kqlw.jpeg: No such file or directory
+
+INPUT|usc430bn-intro-84|U |1580877561|usc430bn|intro:pwd|/users/usc430bn
+
+INPUT|usc430bn-intro-85|A3 A2 A0 A4 A1 |1580877576|usc430bn|intro:find / -iname *intro* > output.txt|
+INPUT|usc430bn-intro-86|U |1580877652|usc430bn|intro:cat output.txt | grep -i jpg|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430bn-intro-87|U |1580877656|usc430bn|intro:cat output.txt | grep -i jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bn-intro-88|U |1580877674|usc430bn|intro:ls|output.txt  top_secret	top_Secret
+
+INPUT|usc430bn-intro-89|U |1580877694|usc430bn|intro:cd top_Secret|bash: cd: top_Secret: Not a directory
+
+INPUT|usc430bn-intro-90|U |1580877703|usc430bn|intro:cd top_secret|
+INPUT|usc430bn-intro-91|U |1580877704|usc430bn|intro:ls|
+INPUT|usc430bn-intro-92|U |1580877706|usc430bn|intro:cd|cret30bn@intro:~$ mv /.hidden/asdf136Intro-5kqlw.jpeg top_se ;1580877745
+mv: cannot remove '/.hidden/asdf136Intro-5kqlw.jpeg': Permission denied
+A
+
+INPUT|usc430bn-intro-93|U |1580877756|usc430bn|intro:smv /.hidden/asdf136Intro-5kqlw.jpeg top_secAc430bn@intro:~$ sumv /.hidden/asdf136Intro-5kqlw.jpeg top_seAc430bn@intro:~$ sudmv /.hidden/asdf136Intro-5kqlw.jpeg top_sAc430bn@intro:~$ sudomv /.hidden/asdf136Intro-5kqlw.jpeg top_Ac430bn@intro:~$ sudo mv /.hidden/asdf136Intro-5kqlw.jpeg topAc430bn@intro:~$ sudo |
+
+INPUT|usc430bn-intro-94|U |1580877763|usc430bn|intro:cd top_secret|
+INPUT|usc430bn-intro-95|U |1580877764|usc430bn|intro:ls|asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430bn-intro-96|U |1580877768|usc430bn|intro:cd|A
+
+INPUT|usc430bn-intro-97|U |1580877813|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg
+A
+
+INPUT|usc430bn-intro-98|U |1580877861|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  top_secret
+
+INPUT|usc430bn-intro-99|U |1580877885|usc430bn|intro:cd top_secret|bash: cd: top_secret: Not a directory
+
+INPUT|usc430bn-intro-100|U |1580877888|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  top_secret
+
+INPUT|usc430bn-intro-101|U |1580877902|usc430bn|intro:cd|A
+
+INPUT|usc430bn-intro-102|U |1580877931|usc430bn|intro:cd top_secret|
+INPUT|usc430bn-intro-103|U |1580877935|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  top_secret
+
+INPUT|usc430bn-intro-104|U |1580877938|usc430bn|intro:top_secret|top_secret: command not found
+
+INPUT|usc430bn-intro-105|U |1580877944|usc430bn|intro:cd top_secret|bash: cd: top_secret: Not a directory
+
+INPUT|usc430bn-intro-106|U |1580878113|usc430bn|intro:pwd|/users/usc430bn
+
+INPUT|usc430bn-intro-107|U |1580878116|usc430bn|intro:ls|output.txt  top_secret	top_Secret
+
+INPUT|usc430bn-intro-108|U |1580878120|usc430bn|intro:cd top_secret|
+INPUT|usc430bn-intro-109|U |1580878121|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  top_secret
+
+INPUT|usc430bn-intro-110|U |1580878130|usc430bn|intro:vim top_secret|"top_secret" [readonly][noeol] 153L 48645C6n  >c^@^PJFIF^@^A^A^A^A^A^@^@^@C^@^H^F^F^G^F^E^H^G^G^G
+^L^T^M^L^K^K^L^Y^R^S^O^T^]^Z^_^^^]^Z^\^\ $.' "#^\^\(7)01444^_'9=82<.342^@C^AA 11C^L^K^L^X^M^M^X2!^\!222222222222222222222222222222222222222222222222222^@^Q^H^Ar^A^C^A"^@^B^Q^A^C^Q^A^@^_^@^@^A^E^A^A^A^A^A^A^@^@^@^@^@^@^@^@^A^BB^C^D^E^F^G^H
+^K^@^P^@^B^A^C^C^B^D^C^E^E^D^D^@^@^A}^A^B^C^@^D^Q^E^R!1A^F^SQa^G"q^T2~A~Q^H##B^UR$3br~B
+^V^W^X^Y^Z%%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz~C~D~E~F~G~H~I~J~R~S~T~U~~V~W~X~Y~Z^@^_^A^@^C^A^^A^A^A^A^A^A^A^A^@^@^@^@^@^@^A^B^C^D^E^F^G^H
+^K^@^Q^@^B^A^B^D^D^C^D^G^E^D^D^@^A^Bw^@^A^B^C^Q^D^E!1^F^RAQ^Gaq^S"2~A^H^TB~Q  #3R^Ubr
+^V$4%%^W^X^Y^Z&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz~B~C~D~E~F~G~H~I~J~R~SS~T~U~V~W~X~Y~Z^@^L^C^A^@@^B^Q^C^Q^@?^@?
+<~SKG~VWi${H;%%~IQ~Rs^^^S| ^O^E~\^O~K^@A^U~AN~Zز9^Y"]B~MYI^T~~Qʡea~Sʶk~T~Dq^N^GGN  ~O^V?^\
+~]NS~߭~N~]@sLa^RE^O^W^Y?~EbxY}^SG e[~Y[dX^Yǩ^_O\~^H4;^]X~~YgyOQ~Q~O~\Xtp΢M~Q~I^P^H~I~D^@^N1~A5?~Lt$~Je~W̵^@Y7^ANN<_ad^Z#O)
+INPUT|usc430bn-intro-111|U |1580878146|usc430bn|intro:vim top_secret|"top_secret" [readonly][noeol] 153L 48645C6n  >c^@^PJFIF^@^A^A^A^A^A^@^@^@C^@^H^F^F^G^F^E^H^G^G^G
+^L^T^M^L^K^K^L^Y^R^S^O^T^]^Z^_^^^]^Z^\^\ $.' "#^\^\(7)01444^_'9=82<.342^@C^AA 11C^L^K^L^X^M^M^X2!^\!222222222222222222222222222222222222222222222222222^@^Q^H^Ar^A^C^A"^@^B^Q^A^C^Q^A^@^_^@^@^A^E^A^A^A^A^A^A^@^@^@^@^@^@^@^@^A^BB^C^D^E^F^G^H
+^K^@^P^@^B^A^C^C^B^D^C^E^E^D^D^@^@^A}^A^B^C^@^D^Q^E^R!1A^F^SQa^G"q^T2~A~Q^H##B^UR$3br~B
+^V^W^X^Y^Z%%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz~C~D~E~F~G~H~I~J~R~S~T~U~~V~W~X~Y~Z^@^_^A^@^C^A^^A^A^A^A^A^A^A^A^@^@^@^@^@^@^A^B^C^D^E^F^G^H
+^K^@^Q^@^B^A^B^D^D^C^D^G^E^D^D^@^A^Bw^@^A^B^C^Q^D^E!1^F^RAQ^Gaq^S"2~A^H^TB~Q  #3R^Ubr
+^V$4%%^W^X^Y^Z&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz~B~C~D~E~F~G~H~I~J~R~SS~T~U~V~W~X~Y~Z^@^L^C^A^@@^B^Q^C^Q^@?^@?
+<~SKG~VWi${H;%%~IQ~Rs^^^S| ^O^E~\^O~K^@A^U~AN~Zز9^Y"]B~MYI^T~~Qʡea~Sʶk~T~Dq^N^GGN  ~O^V?^\
+~]NS~߭~N~]@sLa^RE^O^W^Y?~EbxY}^SG e[~Y[dX^Yǩ^_O\~^H4;^]X~~YgyOQ~Q~O~\Xtp΢M~Q~I^P^H~I~D^@^N1~A5?~Lt$~Je~W̵^@Y7^ANN<_ad^Z#O)
+INPUT|usc430bn-intro-112|U |1580878160|usc430bn|intro:cd|
+INPUT|usc430bn-intro-113|U |1580878161|usc430bn|intro:ls|output.txt  top_secret	top_Secret
+
+INPUT|usc430bn-intro-114|U |1580878172|usc430bn|intro:cat output.txt | grep -i jpg|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430bn-intro-115|U |1580878179|usc430bn|intro:cd /usr/share/pixmaps/xbzf136INTRO-1.jpg|bash: cd: /usr/share/pixmaps/xbzf136INTRO-1.jpg: No such file or directory
+
+INPUT|usc430bn-intro-116|U |1580878653|usc430bn|intro:ls|output.txt  top_secret	top_Secret
+
+INPUT|usc430bn-intro-117|U |1580878662|usc430bn|intro:cd top_secret|
+INPUT|usc430bn-intro-118|U |1580878693|usc430bn|intro:ls|output.txt  top_secret	top_Secret
+
+INPUT|usc430bn-intro-119|A4 A1 A3 A2 A0 |1580878707|usc430bn|intro:find / -iname *intro* > output.txt|
+INPUT|usc430bn-intro-120|U |1580878734|usc430bn|intro:cat output.txt |grep -i jpeg|/users/usc430bn/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430bn/top_secret/136intro-2jjaj.JPEG
+
+INPUT|usc430bn-intro-121|U |1580878741|usc430bn|intro:cat output.txt |grep -i jpg |
+INPUT|usc430bn-intro-122|U |1580878747|usc430bn|intro:cat output.txt | grep -i jpg|
+INPUT|usc430bn-intro-123|U |1580878762|usc430bn|intro:cd top_secret|
+INPUT|usc430bn-intro-124|U |1580878763|usc430bn|intro:ld|ld: no input files
+
+INPUT|usc430bn-intro-125|U |1580878765|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  top_secret
+
+INPUT|usc430bn-intro-126|U |1580878790|usc430bn|intro:cd top_secret|bash: cd: top_secret: Not a directory
+
+INPUT|usc430bn-intro-127|U |1580879551|usc430bn|intro:ls|output.txt  top_secret	top_Secret
+
+INPUT|usc430bn-intro-128|U |1580879567|usc430bn|intro:rmdir top_Secret|rmdir: failed to remove 'top_Secret': Not a directory
+
+INPUT|usc430bn-intro-129|U |1580879578|usc430bn|intro:rm top_Secret|rm: remove write-protected regular file 'top_Secret'? y;1580879582
+
+INPUT|usc430bn-intro-130|U |1580879584|usc430bn|intro:ls|output.txt  top_secret
+
+INPUT|usc430bn-intro-131|U |1580879591|usc430bn|intro:rm output.txt|
+INPUT|usc430bn-intro-132|U |1580879593|usc430bn|intro:ls|top_secret
+
+INPUT|usc430bn-intro-133|U |1580879600|usc430bn|intro:rmdir top_secret|rmdir: failed to remove 'top_secret': Directory not empty
+
+INPUT|usc430bn-intro-134|U |1580879603|usc430bn|intro:y|y: command not found
+
+INPUT|usc430bn-intro-135|U |1580879606|usc430bn|intro:ls|top_secret
+
+INPUT|usc430bn-intro-136|U |1580879621|usc430bn|intro:cd top_secret|
+INPUT|usc430bn-intro-137|U |1580879622|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  top_secret
+
+INPUT|usc430bn-intro-138|U |1580879626|usc430bn|intro:rm top_secret|rm: remove write-protected regular file 'top_secret'? y;1580879628
+
+INPUT|usc430bn-intro-139|U |1580879632|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430bn-intro-140|U |1580879634|usc430bn|intro:cd|
+INPUT|usc430bn-intro-141|U |1580879636|usc430bn|intro:ls|top_secret
+
+INPUT|usc430bn-intro-142|A0 A2 A3 A4 A1 |1580879654|usc430bn|intro:find / -iname *intro* > output.txt|
+INPUT|usc430bn-intro-143|U |1580879704|usc430bn|intro:cat output.txt |grep -i jpg|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+
+INPUT|usc430bn-intro-144|U |1580879725|usc430bn|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg top_secret|mv: cannot remove '/usr/share/pixmaps/xbzf136INTRO-1.jpg': Permission denied
+
+INPUT|usc430bn-intro-145|U |1580879738|usc430bn|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg top_secret|
+INPUT|usc430bn-intro-146|U |1580879743|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430bn-intro-147|U |1580879746|usc430bn|intro:cd|
+INPUT|usc430bn-intro-148|U |1580879766|usc430bn|intro:cd top_secret|
+INPUT|usc430bn-intro-149|U |1580879767|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg
+136intro-3.jpg	     xbzf136INTRO-1.jpg
+
+INPUT|usc430bn-intro-150|U |1580879769|usc430bn|intro:cd|
+INPUT|usc430bn-intro-151|U |1580879784|usc430bn|intro:cd top_secret/|
+INPUT|usc430bn-intro-152|U |1580879785|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430bn-intro-153|U |1580879877|usc430bn|intro:scp usc430bn@users.deterlab.net:intro.jpeg .|ç^C
+
+INPUT|usc430bn-intro-154|U |1580879936|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430bn-intro-155|U |1580880190|usc430bn|intro:pwd|/users/usc430bn/top_secret
+
+INPUT|usc430bn-intro-156|U |1580880730|usc430bn|intro:vim answers.txt|
+
+INPUT|usc430bn-intro-157|U |1580880747|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430bn-intro-158|U |1580880762|usc430bn|intro:vim answers.txt|"answers.txt" [New] 0L 0C written                                                                            ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~          
+INPUT|usc430bn-intro-159|U |1580880768|usc430bn|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430bn-intro-160|U |1580880773|usc430bn|intro:vim answers.txt|"answers.txt" 0L 0C6n  >c~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~              
+INPUT|usc430bn-intro-161|U |1580881040|usc430bn|intro:cd|
+INPUT|usc430bn-intro-162|U |1580881043|usc430bn|intro:cat output.txt |grep -i jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+/users/usc430bn/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc430bn/top_secret/136intro-2jjaj.JPEG
+/dev/136intro-2jjaj.JPEG
+
+INPUT|usc430bn-intro-163|U |1580881069|usc430bn|intro:cd top_secret/|
+INPUT|usc430bn-intro-164|U |1580881071|usc430bn|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430bn-intro-165|U |1580881074|usc430bn|intro:vim answers.txt |"answers.txt" 5L 170C6n  >c136intro-2jjaj.JPEG  Godzilla
+asdf136Intro-5kqlw.jpeg 2001 a space odyssey
+xbzf136INTRO-1.jpg forbidden planet
+136intro-3.jpg  3 Dimension
+ wuer136intro-4.JPG The Fly
+"answers.txt" 5L 314C written                                                  ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~      
+INPUT|usc430bn-intro-166|U |1580881190|usc430bn|intro:cd|
+INPUT|usc430bn-intro-167|M5 |1580881200|usc430bn|intro:less /proc/cpuinfo|processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping        : 3
+microcode       : 0x5
+cpu MHz         : 2992.673
+cache size      : 2048 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+
+
+INPUT|usc430bn-intro-168|U |1580881225|usc430bn|intro:top|(Btop - 21:40:25 up 30 min  1 user  load average: 0.00 0.00 0.00(B(B
+Tasks:(B 137 (Btotal(B   1 (Brunning(B  83 (Bsleeping(B   0 (Bstopped(B   0 (Bzombie(B(B
+%%Cpu(s):(B  0.5 (Bus(B  0.4 (Bsy(B  0.1 (Bni(B 98.0 (Bid(B  1.0 (Bwa(B  0.0 (Bhi(B  0.0 (Bsi(B  0.0 (Bst(B(B
+KiB Mem :(B  2040332 (Btotal(B  1092432 (Bfree(B   172692 (Bused(B   775208 (Bbuff/cache(B(B
+KiB Swap:(B  4478972 (Btotal(B  4478972 (Bfree(B        0 (Bused.(B  1673672 (Bavail Mem (B(B
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %%CPU %%MEM     TIME+ COMMAND     (B
+(B 2678 usc430bn  20   0   43088   3752   3156 R   5.9  0.2   0:00.02 top         (B
+(B    1 root      20   0  225468   9212   6692 S   0.0  0.5   0:04.73 systemd     (B
+(B    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B
+(B    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B
+(B    6 root       0 -20       0      0      0 I   0.0  
+INPUT|usc430bn-intro-169|M6 |1580881277|usc430bn|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  6.0M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430bn  1.9T  1.1T  734G  59%% /users/usc430bn
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             200M     0  200M   0%% /run/user/15288
+
+INPUT|usc430bn-intro-170|U |1580881340|usc430bn|intro:cd top_secret/|
+INPUT|usc430bn-intro-171|U |1580881401|usc430bn|intro:vim answers.txt |"answers.txt" 5L 314C6n  >c136intro-2jjaj.JPEG  Godzilla  /dev/136intro-2jjaj.JPEG
+asdf136Intro-5kqlw.jpeg 2001 a space odyssey  /.hidden/asdf136Intro-5kqlw.jpeg
+xbzf136INTRO-1.jpg forbidden planet /usr/share/pixmaps/xbzf136INTRO-1.jpg
+136intro-3.jpg  3 Dimension    /var/log/136intro-3.jpg
+wuer136intro-4.JPG The Fly /etc/wuer136intro-4.JPG
+"answers.txt" 13L 624C writtenntel1  4vendor_id |  |  |  : GenuineIntel2.vendor_id |  |  |  : GenuineIntel34567891012345-166-177-188-209-2120-221-242-2: GenuineIntel1-: GenuineIntel0-2: GenuineIntel19-2: GenuineIntel8-: GenuineIntel7-1: GenuineIntel6-1: GenuineIntel5-: GenuineIntel4  : GenuineIntel: GenuineIntel2912 8761 5124321109 87654321T136intro-2jjaj.JPEG  Godzilla  /dev/136intro-2jjaj.JPEG2r136intro-2jjaj.JPEG  Godzilla  /dev/136intro-2jjaj.JPEG3e136intro-2jjaj.JPEG  Godzilla  /dev/136intro-2jjaj.JPEG4a136intro-2jjaj.JPEG  Godzilla  /dev/136intro-2jjaj.JPEG5s136intro-2jjaj.JPEG  Godzilla  /dev/136intro-2jjaj.JPEG6u136intro-2jjaj.JPEG  Godzilla 
+INPUT|usc430bn-intro-172|U |1580881510|usc430bn|intro:vim diskfree.txt|"diskfree.txt" [New File]6n  >c~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~        
+INPUT|usc430bn-intro-173|U |1580881840|usc430bn|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430bn-intro-174|U |1580881893|usc430bn|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+

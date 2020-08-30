@@ -1,0 +1,474 @@
+User usc430aa start time 1581401413 end 1582007164
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430aa-intro-0|U |000000000|usc430aa|:|
+INPUT|usc430aa-intro-1|U |000000000|usc430aa|:|
+INPUT|usc430aa-intro-2|U |1581401413|usc430aa|intro:cd ..//|
+INPUT|usc430aa-intro-3|U |1581401415|usc430aa|intro:cd ../|
+INPUT|usc430aa-intro-4|U |1581401416|usc430aa|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430aa-intro-5|U |1581401418|usc430aa|intro:cd ../|
+INPUT|usc430aa-intro-6|A4 A1 A0 A2 A3 |1581401426|usc430aa|intro:find . -f "*intro*"|find: unknown predicate `-f'
+
+INPUT|usc430aa-intro-7|M3 M2 M1 |1581401435|usc430aa|intro:find . f -name "*intro*"|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-timesyncd.service-KrFJtg': Permission denied
+find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-resolved.service-yhaIy
+INPUT|usc430aa-intro-8|A2 A3 A0 A4 A1 |1581401483|usc430aa|intro:find . f -name "*intro*.jpeg"|find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-timesyncd.service-KrFJtg': Permission denied
+find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-resolved.service-yhaIyi': Permission denied;1581401484
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission de
+INPUT|usc430aa-intro-9|A0 A2 A3 A1 A4 |1581401504|usc430aa|intro:find . f -name "*intro*jpeg"|find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-timesyncd.service-KrFJtg': Permission denied
+find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-resolved.service-yhaIyi': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430aa-intro-10|A2 A3 A0 A4 A1 |1581401512|usc430aa|intro:find . f -name "*intro*jpeg"|Hint - You can use "sudo" before a command to gain superuser priviliges
+
+INPUT|usc430aa-intro-11|M4 |1581401523|usc430aa|intro:find . f -name "*jpeg"|./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/s5p-jpeg
+find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-timesyncd.service-KrFJtg': Permission denied
+find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-resolved.service-yhaIyi': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/t
+INPUT|usc430aa-intro-12|A1 A4 A0 A2 A3 |1581401555|usc430aa|intro:find . f -name "*intro*jpeg"|find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-timesyncd.service-KrFJtg': Permission denied
+find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-resolved.service-yhaIyi': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430aa-intro-13|U |1581401569|usc430aa|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430aa-intro-14|U |1581401572|usc430aa|intro:cd users|
+INPUT|usc430aa-intro-15|U |1581401573|usc430aa|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430aa
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430aa-intro-16|A4 A1 A0 A2 A3 |1581401577|usc430aa|intro:find . f -name "*intro*jpeg"|find: 'f': No such file or directory
+
+INPUT|usc430aa-intro-17|A3 A2 A0 A4 A1 |1581401588|usc430aa|intro:find . f -name "*intro*jpeg"|find: 'f': No such file or directory
+
+INPUT|usc430aa-intro-18|A1 A4 A0 A2 A3 |1581401597|usc430aa|intro:find .  -name "*intro*jpeg"|
+INPUT|usc430aa-intro-19|A3 A2 A0 A1 A4 |1581401619|usc430aa|intro:find . f -name "*intro*jpeg"|find: 'f': No such file or directory
+
+INPUT|usc430aa-intro-20|U |1581401623|usc430aa|intro:cd ../|
+INPUT|usc430aa-intro-21|U |1581401624|usc430aa|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430aa-intro-22|M1 |1581401639|usc430aa|intro:find . f -name "*intro*JPEG"|find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-timesyncd.service-KrFJtg': Permission denied
+find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-resolved.service-yhaIyi': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430aa-intro-23|M1 |1581401653|usc430aa|intro:find . f -name "*intro*.JPEG"|find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-timesyncd.service-KrFJtg': Permission denied
+find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-resolved.service-yhaIyi': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied;158140
+INPUT|usc430aa-intro-24|M1 |1581401670|usc430aa|intro:find . f -name "*intro-*.JPEG"|find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-timesyncd.service-KrFJtg': Permission denied
+find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-resolved.service-yhaIyi': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430aa-intro-25|M1 |1581401732|usc430aa|intro:find . f -name "*intro*.JPEG"|find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-timesyncd.service-KrFJtg': Permission denied
+find: './tmp/systemd-private-a609849a426c4077b32aeeec1eb44330-systemd-resolved.service-yhaIyi': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430aa-intro-26|U |1581401761|usc430aa|intro:cd dev|
+INPUT|usc430aa-intro-27|A0 A2 A3 A4 A1 |1581401763|usc430aa|intro:find . f -name "*intro*.JPEG"|./136intro-2jjaj.JPEG
+find: 'f': No such file or directory
+
+INPUT|usc430aa-intro-28|U |1581401772|usc430aa|intro:cd ../|
+INPUT|usc430aa-intro-29|U |1581401773|usc430aa|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430aa-intro-30|U |1582006119|usc430aa|intro:ls|thomas.png
+
+INPUT|usc430aa-intro-31|U |1582006198|usc430aa|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430aa
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430aa-intro-32|U |1582006203|usc430aa|intro:cd usc430aa|
+INPUT|usc430aa-intro-33|U |1582006204|usc430aa|intro:ls|thomas.png
+
+INPUT|usc430aa-intro-34|U |1582006218|usc430aa|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430aa
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430aa-intro-35|U |1582006219|usc430aa|intro:cd ../|
+INPUT|usc430aa-intro-36|U |1582006220|usc430aa|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430aa-intro-37|U |1582006226|usc430aa|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430aa-intro-38|U |1582006228|usc430aa|intro:cd home|
+INPUT|usc430aa-intro-39|U |1582006229|usc430aa|intro:ls|deter
+
+INPUT|usc430aa-intro-40|U |1582006231|usc430aa|intro:ls|
+INPUT|usc430aa-intro-41|U |1582006234|usc430aa|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430aa-intro-42|U |1582006237|usc430aa|intro:cd media|
+INPUT|usc430aa-intro-43|U |1582006238|usc430aa|intro:ls|cdrom  floppy  floppy0
+
+INPUT|usc430aa-intro-44|U |1582006241|usc430aa|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430aa-intro-45|M1 |1582006265|usc430aa|intro:find . -type f -name "*intro*JPEG"|find: './tmp/systemd-private-fa97ecad564a47aeb34dec992a16dfd5-systemd-resolved.service-eUBpVf': Permission denied
+find: './tmp/systemd-private-fa97ecad564a47aeb34dec992a16dfd5-systemd-timesyncd.service-AgGlYG': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430aa-intro-46|A0 A2 A3 A4 A1 |1582006362|usc430aa|intro:find . -type f -name "*intro*jpeg"|find: './tmp/systemd-private-fa97ecad564a47aeb34dec992a16dfd5-systemd-resolved.service-eUBpVf': Permission denied
+find: './tmp/systemd-private-fa97ecad564a47aeb34dec992a16dfd5-systemd-timesyncd.service-AgGlYG': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430aa-intro-47|M1 |1582006396|usc430aa|intro:find . -type f -name "*intro*JPEG"|./dev/136intro-2jjaj.JPEG
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG
+
+INPUT|usc430aa-intro-48|A4 A1 A0 A2 A3 |1582006446|usc430aa|intro:find . -type f -name "*intro*jpeg"|
+INPUT|usc430aa-intro-49|A0 A2 A3 A1 A4 |1582006478|usc430aa|intro:find . -type f -name "*INTRO*JPEG"|
+INPUT|usc430aa-intro-50|A0 A2 A3 A4 A1 |1582006599|usc430aa|intro:locate *intro.JPEG|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430aa-intro-51|A4 A1 A0 A2 A3 |1582006604|usc430aa|intro:locate *intro*JPEG|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430aa-intro-52|U |1582006623|usc430aa|intro:LS|;1582006623
+Command 'LS' not found but can be installed with:
+
+apt install sl
+Please ask your administrator.
+
+
+INPUT|usc430aa-intro-53|U |1582006625|usc430aa|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430aa-intro-54|U |1582006627|usc430aa|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430aa-intro-55|A0 A2 A3 A4 A1 |1582006647|usc430aa|intro:find . -type f -name "*intro*jpeg*"|
+INPUT|usc430aa-intro-56|M2 |1582006671|usc430aa|intro:find . -type f -name "*intro*jpg*"|./var/log/136intro-3.jpg
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+
+INPUT|usc430aa-intro-57|M3 |1582006685|usc430aa|intro:find . -type f -name "*intro*JPG*"|./etc/wuer136intro-4.JPG
+./proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+
+INPUT|usc430aa-intro-58|A4 A1 A2 A3 A0 |1582006789|usc430aa|intro:find . -type f -name "*intro*jpeg*"|
+INPUT|usc430aa-intro-59|U |1582006823|usc430aa|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430aa-intro-60|U |1582006842|usc430aa|intro:cd ../|
+INPUT|usc430aa-intro-61|U |1582006843|usc430aa|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430aa-intro-62|U |1582006849|usc430aa|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430aa
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430aa-intro-63|U |1582006857|usc430aa|intro:cd usc430aa|
+INPUT|usc430aa-intro-64|U |1582006858|usc430aa|intro:ls|thomas.png
+
+INPUT|usc430aa-intro-65|A1 A4 A3 A2 A0 |1582006864|usc430aa|intro:find . -type f -name "*intro*jpeg*"|
+INPUT|usc430aa-intro-66|U |1582006867|usc430aa|intro:cd ../|
+INPUT|usc430aa-intro-67|U |1582006868|usc430aa|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430aa
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430aa-intro-68|U |1582006891|usc430aa|intro:cd ./proj/USC430|bash: cd: ./proj/USC430: No such file or directory
+
+INPUT|usc430aa-intro-69|U |1582006892|usc430aa|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430aa
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430aa-intro-70|U |1582006895|usc430aa|intro:cd /|
+INPUT|usc430aa-intro-71|U |1582006900|usc430aa|intro:cd ./proj/USC430|
+INPUT|usc430aa-intro-72|U |1582006901|usc430aa|intro:ls| 11		 gethashes.pl			    milestones	   startips	 team2-pass~
+ 292		 groups				    newdir	   startnc	 team3.hash
+ 65		 host.conf			    nmap.ns	   start.pl	 team3-pass
+ bd.cron	 images				    pulllogs.pl    start.sh	 team3.stats
+ cctf2.ns	 intro.ns			    RED2	   tarfiles	 team4-pass
+ cctf.ns	 intro.ns~			    REDTEAM.info   team1.hash	 team5-pass
+ CTF2		 intro.sh			    rpms	   team1-pass	 team6-pass
+ CTF_Bank	 john-1.8.0.9-jumbo-macosx_v3.zip   score	   team1-pass~	 templates
+ deltas		'login?user=realuser'		    scoreCTF2	   team1.stats	 tiplogs
+ exp		'login?user=username'		    scorer.conf    team2.hash	 webserver.c
+ fixresolve.sh	 logs				    server	   team2-pass
+
+INPUT|usc430aa-intro-73|U |1582006915|usc430aa|intro:ls| 11		 gethashes.pl			    milestones	   startips	 team2-pass~
+ 292		 groups				    newdir	   startnc	 team3.hash
+ 65		 host.conf			    nmap.ns	   start.pl	 team3-pass
+ bd.cron	 images				    pulllogs.pl    start.sh	 team3.stats
+ cctf2.ns	 intro.ns			    RED2	   tarfiles	 team4-pass
+ cctf.ns	 intro.ns~			    REDTEAM.info   team1.hash	 team5-pass
+ CTF2		 intro.sh			    rpms	   team1-pass	 team6-pass
+ CTF_Bank	 john-1.8.0.9-jumbo-macosx_v3.zip   score	   team1-pass~	 templates
+ deltas		'login?user=realuser'		    scoreCTF2	   team1.stats	 tiplogs
+ exp		'login?user=username'		    scorer.conf    team2.hash	 webserver.c
+ fixresolve.sh	 logs				    server	   team2-pass
+
+INPUT|usc430aa-intro-74|U |1582006920|usc430aa|intro:ls|asdf		     hw1-pt3-usc430ad	  hw1-usc430aq	      hw1-usc430bl
+bank1		     hw1-Q3		  hw1-usc430ar	      hw1-usc430bm
+bank2		     hw1-server-usc430bl  hw1-usc430ar-q3     hw1-usc430bn
+bank3		     hw1-tcp-usc430ao	  hw1-usc430as	      hw1-USC430bo
+bank4		     hw1-usc430aa	  hw1-usc430au	      hw1-USC430bo-q3
+calc		     hw1-usc430ab	  hw1-usc430av	      hw3
+clientServer	     hw1-usc430ab-p3	  hw1-usc430av-p3     hw-usc430bj-p3
+clientserv-usc430bf  hw1-usc430ac	  hw1-usc430aw	      jelenaavb
+cookies		     hw1-usc430ad	  hw1-usc430aw-tcp    jexploits
+ctfggalaxy	     hw1-usc430ae	  hw1-usc430ax	      jtrydns
+dos1		     hw1-usc430ae-q3	  hw1-usc430ay	      modeling
+dos2		     hw1-usc430af	  hw1-usc430az	      nmap
+dos3		     hw1-usc430af-part3   hw1-usc430az-p3     pl
+exp		     hw1-usc430ag	  hw1-usc430ba	      q3-hw1-usc430ac
+hash		     hw1-usc430ag-q3	  hw1-usc430bb	      ServerClient
+hierlCCTF	     hw1-usc430ah	  hw1-usc430bd	      sunshine-intro
+hw1		     hw1-usc430ai	  hw1-usc430bd-part3 
+INPUT|usc430aa-intro-75|U |1582006934|usc430aa|intro:ls|archive  bin  containers  count.intro  datastore  logs	swapinfo  tbdata  tftpboot  tmp
+
+INPUT|usc430aa-intro-76|U |1582006949|usc430aa|intro:cd count.intro|bash: cd: count.intro: Not a directory
+
+INPUT|usc430aa-intro-77|A1 A4 A3 A2 A0 |1582006962|usc430aa|intro:find . -type f -name "*intro*jpeg*"|
+INPUT|usc430aa-intro-78|A0 A2 A3 A4 A1 |1582006979|usc430aa|intro:find . -type f -name "*intro*JPEG*"|
+INPUT|usc430aa-intro-79|U |1582006991|usc430aa|intro:cd ../|
+INPUT|usc430aa-intro-80|U |1582006994|usc430aa|intro:ls|asdf		     hw1-pt3-usc430ad	  hw1-usc430aq	      hw1-usc430bl
+bank1		     hw1-Q3		  hw1-usc430ar	      hw1-usc430bm
+bank2		     hw1-server-usc430bl  hw1-usc430ar-q3     hw1-usc430bn
+bank3		     hw1-tcp-usc430ao	  hw1-usc430as	      hw1-USC430bo
+bank4		     hw1-usc430aa	  hw1-usc430au	      hw1-USC430bo-q3
+calc		     hw1-usc430ab	  hw1-usc430av	      hw3
+clientServer	     hw1-usc430ab-p3	  hw1-usc430av-p3     hw-usc430bj-p3
+clientserv-usc430bf  hw1-usc430ac	  hw1-usc430aw	      jelenaavb
+cookies		     hw1-usc430ad	  hw1-usc430aw-tcp    jexploits
+ctfggalaxy	     hw1-usc430ae	  hw1-usc430ax	      jtrydns
+dos1		     hw1-usc430ae-q3	  hw1-usc430ay	      modeling
+dos2		     hw1-usc430af	  hw1-usc430az	      nmap
+dos3		     hw1-usc430af-part3   hw1-usc430az-p3     pl
+exp		     hw1-usc430ag	  hw1-usc430ba	      q3-hw1-usc430ac
+hash		     hw1-usc430ag-q3	  hw1-usc430bb	      ServerClient
+hierlCCTF	     hw1-usc430ah	  hw1-usc430bd	      sunshine-intro
+hw1		     hw1-usc430ai	  hw1-usc430bd-part3 
+INPUT|usc430aa-intro-81|U |1582006996|usc430aa|intro:ls|asdf		     hw1-pt3-usc430ad	  hw1-usc430aq	      hw1-usc430bl
+bank1		     hw1-Q3		  hw1-usc430ar	      hw1-usc430bm
+bank2		     hw1-server-usc430bl  hw1-usc430ar-q3     hw1-usc430bn
+bank3		     hw1-tcp-usc430ao	  hw1-usc430as	      hw1-USC430bo
+bank4		     hw1-usc430aa	  hw1-usc430au	      hw1-USC430bo-q3
+calc		     hw1-usc430ab	  hw1-usc430av	      hw3
+clientServer	     hw1-usc430ab-p3	  hw1-usc430av-p3     hw-usc430bj-p3
+clientserv-usc430bf  hw1-usc430ac	  hw1-usc430aw	      jelenaavb
+cookies		     hw1-usc430ad	  hw1-usc430aw-tcp    jexploits
+ctfggalaxy	     hw1-usc430ae	  hw1-usc430ax	      jtrydns
+dos1		     hw1-usc430ae-q3	  hw1-usc430ay	      modeling
+dos2		     hw1-usc430af	  hw1-usc430az	      nmap
+dos3		     hw1-usc430af-part3   hw1-usc430az-p3     pl
+exp		     hw1-usc430ag	  hw1-usc430ba	      q3-hw1-usc430ac
+hash		     hw1-usc430ag-q3	  hw1-usc430bb	      ServerClient
+hierlCCTF	     hw1-usc430ah	  hw1-usc430bd	      sunshine-intro
+hw1		     hw1-usc430ai	  hw1-usc430bd-part3 
+INPUT|usc430aa-intro-82|U |1582007005|usc430aa|intro:cd exp|bash: cd: exp: No such file or directory
+
+INPUT|usc430aa-intro-83|A0 A2 A3 A4 A1 |1582007024|usc430aa|intro:find . -type f -name "*intro*.J*"|./hw1-usc430bf/top_secret/136intro-2jjaj.JPEG
+./hw1-usc430bf/top_secret/wuer136intro-4.JPG
+
+INPUT|usc430aa-intro-84|A1 A4 A2 A3 A0 |1582007031|usc430aa|intro:find . -type f -name "*intro*.j*"|./hw1-usc430bf/top_secret/136intro-3.jpg
+
+INPUT|usc430aa-intro-85|U |1582007046|usc430aa|intro:cd /|
+INPUT|usc430aa-intro-86|M3 M1 |1582007049|usc430aa|intro:find . -type f -name "*intro*.J*"|./etc/wuer136intro-4.JPG
+./dev/136intro-2jjaj.JPEG
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-2jjaj.JPEG
+./proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+
+INPUT|usc430aa-intro-87|M2 |1582007060|usc430aa|intro:find . -type f -name "*intro*.j*"|./var/log/136intro-3.jpg
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+
+INPUT|usc430aa-intro-88|U |1582007144|usc430aa|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430aa-intro-89|U |1582007159|usc430aa|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430aa
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430aa-intro-90|U |1582007164|usc430aa|intro:ls|thomas.png
+

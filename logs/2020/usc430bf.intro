@@ -1,0 +1,857 @@
+User usc430bf start time 1580892529 end 1581405788
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430bf-intro-0|U |000000000|usc430bf|:|
+INPUT|usc430bf-intro-1|U |000000000|usc430bf|:|
+INPUT|usc430bf-intro-2|U |1580892529|usc430bf|intro:ls|file.txt  usc430bf.txt
+
+INPUT|usc430bf-intro-3|U |1580893751|usc430bf|intro:cd intro|bash: cd: intro: No such file or directory
+
+INPUT|usc430bf-intro-4|U |1580893796|usc430bf|intro:open .|Couldn't get a file descriptor referring to the console
+
+INPUT|usc430bf-intro-5|U |1580893905|usc430bf|intro:ls|file.txt  usc430bf.txt
+
+INPUT|usc430bf-intro-6|U |1580893936|usc430bf|intro:ssh intro.hw1-usc430bf.USC430.isi.deterlab.net|Warning: Permanently added the RSA host key for IP address '192.168.1.186' to the list of known hosts.
+
+INPUT|usc430bf-intro-7|U |1580893940|usc430bf|intro:ls|file.txt  usc430bf.txt
+
+INPUT|usc430bf-intro-8|U |1580893947|usc430bf|intro:cat file.txt|
+INPUT|usc430bf-intro-9|U |1580893957|usc430bf|intro:cat usc430bf.txt|
+INPUT|usc430bf-intro-10|U |1580894113|usc430bf|intro:cd USC430/hw1-usc430bf|bash: cd: USC430/hw1-usc430bf: No such file or directory
+
+INPUT|usc430bf-intro-11|U |1580894121|usc430bf|intro:cd usc430|bash: cd: usc430: No such file or directory
+
+INPUT|usc430bf-intro-12|U |1580894131|usc430bf|intro:cat USC430/hw1-usc430bf|cat: USC430/hw1-usc430bf: No such file or directory
+
+INPUT|usc430bf-intro-13|U |1580894176|usc430bf|intro:cd /proj/USC430/exp/hw1-usc430bf|
+INPUT|usc430bf-intro-14|U |1580894179|usc430bf|intro:ls|archive  bin  containers  count.intro  datastore  logs	swapinfo  tbdata  tftpboot  tmp
+
+INPUT|usc430bf-intro-15|U |1580894194|usc430bf|intro:ls archive|
+INPUT|usc430bf-intro-16|U |1580894196|usc430bf|intro:cd|
+INPUT|usc430bf-intro-17|U |1580894205|usc430bf|intro:cd /proj/USC430/exp/hw1-usc430bf|
+INPUT|usc430bf-intro-18|U |1580894208|usc430bf|intro:cd archive|
+INPUT|usc430bf-intro-19|U |1580894210|usc430bf|intro:ls|
+INPUT|usc430bf-intro-20|U |1580894212|usc430bf|intro:cd ..|
+INPUT|usc430bf-intro-21|U |1580894218|usc430bf|intro:cd containers|
+INPUT|usc430bf-intro-22|U |1580894219|usc430bf|intro:ls|
+INPUT|usc430bf-intro-23|U |1580894221|usc430bf|intro:ls|
+INPUT|usc430bf-intro-24|U |1580894225|usc430bf|intro:cd ..|
+INPUT|usc430bf-intro-25|U |1580894227|usc430bf|intro:ls|archive  bin  containers  count.intro  datastore  logs	swapinfo  tbdata  tftpboot  tmp
+
+INPUT|usc430bf-intro-26|U |1580894235|usc430bf|intro:ls swapinfo|
+INPUT|usc430bf-intro-27|U |1580894239|usc430bf|intro:cd datastore|
+INPUT|usc430bf-intro-28|U |1580894240|usc430bf|intro:ls|
+INPUT|usc430bf-intro-29|U |1580894245|usc430bf|intro:cd ..|
+INPUT|usc430bf-intro-30|U |1580894249|usc430bf|intro:cd tmp|
+INPUT|usc430bf-intro-31|U |1580894250|usc430bf|intro:ls|
+INPUT|usc430bf-intro-32|U |1580894254|usc430bf|intro:cd ..|
+INPUT|usc430bf-intro-33|U |1580894340|usc430bf|intro:cd count.intro|bash: cd: count.intro: Not a directory
+
+INPUT|usc430bf-intro-34|U |1580894348|usc430bf|intro:cat count.intro|1
+
+INPUT|usc430bf-intro-35|U |1580894465|usc430bf|intro:help|GNU bash version 4.4.19(1)-release (x86_64-pc-linux-gnu)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                                   history [-c] [-d offset] [n] or history -an>
+ (( expression ))                               if COMMANDS; then COMMANDS; [ elif COMMANDS>
+ . filename [arguments]                         jobs [-lnprs] [jobspec ...] or jobs -x comm>
+ :                                              kill [-s sigspec | -n signum | -sigspec] pi>
+ [ arg... ]                                     let arg [arg ...]
+ [[ expression ]]                               local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]                 logout [n]
+ bg [job_spec ...]             
+INPUT|usc430bf-intro-36|U |1580894481|usc430bf|intro:ls|archive  bin  containers  count.intro  datastore  logs	swapinfo  tbdata  tftpboot  tmp
+
+INPUT|usc430bf-intro-37|U |1580894683|usc430bf|intro:scp count.intro usc430bf@users.deterlab.net:. |;1580894695
+^C
+c430bf@users.deterlab.net:. exp/hw1-usc430bf$ scp /proj/USC430/exp/hw1-usc430bf/count.intro usc;1580894760
+^C
+
+INPUT|usc430bf-intro-38|U |1580894869|usc430bf|intro:ls|archive  bin  containers  count.intro  datastore  logs	swapinfo  tbdata  tftpboot  tmp
+
+INPUT|usc430bf-intro-39|U |1580894876|usc430bf|intro:ls datastore|
+INPUT|usc430bf-intro-40|U |1580894880|usc430bf|intro:ls archive|
+INPUT|usc430bf-intro-41|U |1580894882|usc430bf|intro:ls bin|
+INPUT|usc430bf-intro-42|U |1580894886|usc430bf|intro:ls containers|
+INPUT|usc430bf-intro-43|U |1580894894|usc430bf|intro:ls count.intro|count.intro
+
+INPUT|usc430bf-intro-44|U |1580894953|usc430bf|intro:ls -l|total 40
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 archive
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 bin
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 containers
+-rw-rw-rw- 1 root     USC430   2 Feb  5 01:12 count.intro
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 datastore
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:41 logs
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 swapinfo
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:41 tbdata
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 tftpboot
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 tmp
+
+INPUT|usc430bf-intro-45|U |1580894967|usc430bf|intro:ls -a|.   archive  containers   datastore  swapinfo  tftpboot
+..  bin      count.intro  logs	     tbdata    tmp
+
+INPUT|usc430bf-intro-46|U |1580894984|usc430bf|intro:ls tftpboot|
+INPUT|usc430bf-intro-47|U |1580894987|usc430bf|intro:ls tmp|
+INPUT|usc430bf-intro-48|U |1580894992|usc430bf|intro:ls tbdata|activity.log  eventkey		ltmap	  ltpmap.gz	topomap
+assign.log    hw1-usc430bf.ns	ltmap.gz  nsfile.ns	topomap.gz
+environment   hw1-usc430bf.png	ltpmap	  startexp.log	webkey
+
+INPUT|usc430bf-intro-49|U |1580895020|usc430bf|intro:ls datastore|
+INPUT|usc430bf-intro-50|U |1580895023|usc430bf|intro:ls logs|event-sched.log  feedback.log
+
+INPUT|usc430bf-intro-51|U |1580895033|usc430bf|intro:ls|archive  bin  containers  count.intro  datastore  logs	swapinfo  tbdata  tftpboot  tmp
+
+INPUT|usc430bf-intro-52|U |1580895036|usc430bf|intro:ls -l|total 40
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 archive
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 bin
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 containers
+-rw-rw-rw- 1 root     USC430   2 Feb  5 01:12 count.intro
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 datastore
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:41 logs
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 swapinfo
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:41 tbdata
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 tftpboot
+drwxrwx--- 2 usc430bf USC430 512 Feb  5 00:33 tmp
+
+INPUT|usc430bf-intro-53|U |1580895071|usc430bf|intro:ls -la|total 52
+drwxrwx--- 11 usc430bf USC430  512 Feb  5 00:48 .
+drwxrwx--- 68    10091 USC430 6656 Feb  5 00:33 ..
+drwxrwx---  2 usc430bf USC430  512 Feb  5 00:33 archive
+drwxrwx---  2 usc430bf USC430  512 Feb  5 00:33 bin
+drwxrwx---  2 usc430bf USC430  512 Feb  5 00:33 containers
+-rw-rw-rw-  1 root     USC430    2 Feb  5 01:12 count.intro
+drwxrwx---  2 usc430bf USC430  512 Feb  5 00:33 datastore
+drwxrwx---  2 usc430bf USC430  512 Feb  5 00:41 logs
+drwxrwx---  2 usc430bf USC430  512 Feb  5 00:33 swapinfo
+drwxrwx---  2 usc430bf USC430  512 Feb  5 00:41 tbdata
+drwxrwx---  2 usc430bf USC430  512 Feb  5 00:33 tftpboot
+drwxrwx---  2 usc430bf USC430  512 Feb  5 00:33 tmp
+
+INPUT|usc430bf-intro-54|U |1580895085|usc430bf|intro:ls ..|asdf	    hw1			 hw1-usc430ah	  hw1-usc430bd	      jelenaavb
+bank1	    hw1bh-client-server  hw1-usc430ai	  hw1-usc430bd-part3  jexploits
+bank2	    hw1-ClientServer	 hw1-usc430ak	  hw1-usc430be	      jtrydns
+bank3	    HW1-part4		 hw1-usc430ao	  hw1-usc430bf	      modeling
+bank4	    hw1-pt3-usc430ad	 hw1-usc430aq	  hw1-usc430bg	      nmap
+calc	    hw1-server-usc430bl  hw1-usc430ar	  hw1-usc430bh	      pl
+cookies     hw1-usc430ab	 hw1-usc430ar-q3  hw1-usc430bi	      ServerClient
+ctfggalaxy  hw1-usc430ab-p3	 hw1-usc430au	  hw1-usc430bi-p3     sunshine-intro
+dos1	    hw1-usc430ac	 hw1-usc430av	  hw1-usc430bj	      synf
+dos2	    hw1-usc430ad	 hw1-usc430ax	  hw1-usc430bl	      test
+dos3	    hw1-usc430ae	 hw1-usc430az	  hw1-usc430bm	      test2
+exp	    hw1-usc430af	 hw1-usc430az-p3  hw1-usc430bn	      testhij
+hash	    hw1-usc430ag	 hw1-usc430ba	  hw1-USC430bo	      usc430aq-serverclie
+hierlCCTF   hw1-usc430ag-q3	 hw1-usc430bb	  hw3
+
+INPUT|usc430bf-intro-55|U |1580895105|usc430bf|intro:ls *|count.intro
+
+archive:
+;1580895105
+bin:
+;1580895105
+containers:
+;1580895105
+datastore:
+;1580895105
+logs:
+event-sched.log  feedback.log
+;1580895105
+swapinfo:
+;1580895105
+tbdata:
+activity.log  eventkey		ltmap	  ltpmap.gz	topomap
+assign.log    hw1-usc430bf.ns	ltmap.gz  nsfile.ns	topomap.gz
+environment   hw1-usc430bf.png	ltpmap	  startexp.log	webkey
+;1580895105
+tftpboot:
+;1580895105
+tmp:
+
+INPUT|usc430bf-intro-56|U |1580895134|usc430bf|intro:cd tbdata|
+INPUT|usc430bf-intro-57|U |1580895137|usc430bf|intro:ls *|activity.log  eventkey		ltmap	  ltpmap.gz	topomap
+assign.log    hw1-usc430bf.ns	ltmap.gz  nsfile.ns	topomap.gz
+environment   hw1-usc430bf.png	ltpmap	  startexp.log	webkey
+
+INPUT|usc430bf-intro-58|U |1580895144|usc430bf|intro:cd ..|
+INPUT|usc430bf-intro-59|U |1580895170|usc430bf|intro:ls -d $PWD/*|/proj/USC430/exp/hw1-usc430bf/archive	   /proj/USC430/exp/hw1-usc430bf/logs
+/proj/USC430/exp/hw1-usc430bf/bin	   /proj/USC430/exp/hw1-usc430bf/swapinfo
+/proj/USC430/exp/hw1-usc430bf/containers   /proj/USC430/exp/hw1-usc430bf/tbdata
+/proj/USC430/exp/hw1-usc430bf/count.intro  /proj/USC430/exp/hw1-usc430bf/tftpboot
+/proj/USC430/exp/hw1-usc430bf/datastore    /proj/USC430/exp/hw1-usc430bf/tmp
+
+INPUT|usc430bf-intro-60|A1 A4 A0 A2 A3 |1580895285|usc430bf|intro:locate *intro|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bf-intro-61|A3 A2 A0 A4 A1 |1580895294|usc430bf|intro:locate *intro*|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bf-intro-62|A2 A3 A0 A1 A4 |1580895354|usc430bf|intro:locate .JPEG|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory;1580895354
+
+INPUT|usc430bf-intro-63|A3 A2 A0 A1 A4 |1580895373|usc430bf|intro:locate *.JPEG|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bf-intro-64|A4 A1 A0 A2 A3 |1580895392|usc430bf|intro:locate *.png|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bf-intro-65|U |1580895552|usc430bf|intro:updatedb|
+INPUT|usc430bf-intro-66|A0 A2 A3 A4 A1 |1580895578|usc430bf|intro:locate .JPEG|
+INPUT|usc430bf-intro-67|A0 A2 A3 A4 A1 |1580895622|usc430bf|intro:locate *.JPEG|
+INPUT|usc430bf-intro-68|A1 A4 A0 A2 A3 |1580895634|usc430bf|intro:locate *intro|
+INPUT|usc430bf-intro-69|U |1580895665|usc430bf|intro:$ find . -name "*intro" | head -n 5|$: command not found
+
+INPUT|usc430bf-intro-70|A1 A4 A0 A2 A3 |1580895680|usc430bf|intro:find . -name "*intro" | head -n 5|./count.intro
+
+INPUT|usc430bf-intro-71|A4 A1 A0 A2 A3 |1580895696|usc430bf|intro:find . -name "*intro*" | head -n 5|./count.intro
+
+INPUT|usc430bf-intro-72|A1 A4 A0 A2 A3 |1580895708|usc430bf|intro:find . -name "*ntro*" | head -n 5|./count.intro
+
+INPUT|usc430bf-intro-73|A0 A2 A3 A1 A4 |1580895719|usc430bf|intro:find . -name "*jpeg" | head -n 5|
+INPUT|usc430bf-intro-74|A0 A2 A3 A4 A1 |1580895732|usc430bf|intro:find . -name "*.JPEG" | head -n 5|
+INPUT|usc430bf-intro-75|A2 A3 A0 A4 A1 |1580895794|usc430bf|intro:find . -name "*.JPG" | head -n 5|
+INPUT|usc430bf-intro-76|A1 A4 A0 A2 A3 |1580895795|usc430bf|intro:find . -name "*.JPG" | head -n 5|
+INPUT|usc430bf-intro-77|A0 A2 A3 A4 A1 |1580895803|usc430bf|intro:find . -name "*.jpg" | head -n 5|
+INPUT|usc430bf-intro-78|U |1580895850|usc430bf|intro:ls|archive  bin  containers  count.intro  datastore  logs	swapinfo  tbdata  tftpboot  tmp
+
+INPUT|usc430bf-intro-79|U |1580895854|usc430bf|intro:ls *|count.intro
+
+archive:
+;1580895854
+bin:
+;1580895854
+containers:
+;1580895854
+datastore:
+;1580895854
+logs:
+event-sched.log  feedback.log
+;1580895854
+swapinfo:
+;1580895854
+tbdata:
+activity.log  eventkey		ltmap	  ltpmap.gz	topomap
+assign.log    hw1-usc430bf.ns	ltmap.gz  nsfile.ns	topomap.gz
+environment   hw1-usc430bf.png	ltpmap	  startexp.log	webkey
+;1580895854
+tftpboot:
+;1580895854
+tmp:
+
+INPUT|usc430bf-intro-80|A4 A1 A0 A2 A3 |1580895940|usc430bf|intro:find . -name "*" |.
+./tbdata
+./tbdata/eventkey
+./tbdata/webkey
+./tbdata/topomap
+./tbdata/topomap.gz
+./tbdata/ltmap
+./tbdata/ltmap.gz
+./tbdata/environment
+./tbdata/ltpmap
+./tbdata/ltpmap.gz
+./tbdata/hw1-usc430bf.ns
+./tbdata/nsfile.ns
+./tbdata/startexp.log
+./tbdata/hw1-usc430bf.png
+./tbdata/assign.log
+./tbdata/activity.log
+./bin
+./tmp
+./logs
+./logs/feedback.log
+./logs/event-sched.log
+./archive
+./datastore
+./tftpboot
+./swapinfo
+./containers
+./count.intro
+
+INPUT|usc430bf-intro-81|A0 A2 A3 A1 A4 |1580896026|usc430bf|intro:locate *|/bin
+/sbin
+/tmp
+/bin/bash
+/bin/btrfs
+/bin/btrfs-debug-tree
+/bin/btrfs-find-root
+/bin/btrfs-image
+/bin/btrfs-map-logical
+/bin/btrfs-select-super
+/bin/btrfs-zero-log
+/bin/btrfsck
+/bin/btrfstune
+/bin/bunzip2
+/bin/busybox
+/bin/bzcat
+/bin/bzcmp
+/bin/bzdiff
+/bin/bzegrep
+/bin/bzexe
+/bin/bzfgrep
+/bin/bzgrep
+/bin/bzip2
+/bin/bzip2recover
+/bin/bzless
+/bin/bzmore
+/bin/cat
+/bin/chacl
+/bin/chgrp
+/bin/chmod
+/bin/chown
+/bin/chvt
+/bin/cp
+/bin/cpio
+/bin/csh
+/bin/dash
+/bin/date
+/bin/dd
+/bin/df
+/bin/dir
+/bin/dmesg
+/bin/dnsdomainname
+/bin/domainname
+/bin/dumpkeys
+/bin/echo
+/bin/ed
+/bin/egrep
+/bin/false
+/bin/fgconsole
+/bin/fgrep
+/bin/findmnt
+/bin/fsck.btrfs
+/bin/fuser
+/bin/fusermount
+/bin/getfacl
+/bin/grep
+/bin/gunzip
+/bin/gzexe
+/bin/gzip
+/bin/hostname
+/bin/ip
+/bin/journalctl
+/bin/kbd_mode
+/bin/keyctl
+/bin/kill
+/bin/kmod
+/bin/less
+/bin/lessecho
+/bin/lessfile
+/bin/lesskey
+/bin/lesspipe
+/bin/ln
+/bin/loadkeys
+/bin/login
+/bin/loginctl
+/bin/lowntfs-3g
+/bin/ls
+/bin/lsblk
+/bin/lsmod
+/bin/mkdir
+/bin/mkfs.btrfs
+/bin
+INPUT|usc430bf-intro-82|M4 |1580896118|usc430bf|intro:locate *jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+/usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+/usr/src/linux-headers-4.15.0-43/drivers/media/platform/mtk-jpeg
+/usr/src/linux-headers-4.15.0-43/drivers/media/platform/s5p-jpeg
+
+INPUT|usc430bf-intro-83|M2 M0 |1580896138|usc430bf|intro:locate *jpg|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430bf-intro-84|U |1580941273|usc430bf|intro:cd /proj/USC430/exp/hw1-usc430bf|
+INPUT|usc430bf-intro-85|A4 A1 A0 A2 A3 |1580941296|usc430bf|intro:locate *~ *.swp|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bf-intro-86|A4 A1 A0 A2 A3 |1580941311|usc430bf|intro:locate *~|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430bf-intro-87|A2 A3 A0 A4 A1 |1580941362|usc430bf|intro:find / -iname "*.jpg"-o "*jpeg"|find: paths must precede expression: `*jpeg'
+
+INPUT|usc430bf-intro-88|M4 M3 M2 M1 M0 |1580941373|usc430bf|intro:find / -iname "*.jpg" -o "*jpeg"|find: paths must precede expression: `*jpeg'
+"Asc430bf@intro:/proj/USC430/exp/hw1-usc430bf$ find / -iname "*.jpg" -o -ina"*jpeg"Ac430bf@intro:/proj/USC430/exp/hw1-usc430bf$ find / -iname "*.jpg" -o -inam"*jpeg"A430bf@intro:/proj/USC430/exp/hw1-usc430bf$ find / -iname "*.jpg" -o -iname"*jpeAc430bf@intro:/proj/USC430/exp/hw1-usc430bf$ find / -iname "*.jpg" -o -iname "*jpAc430bf@intro:/proj/USC430/exp/hw1-usc430bf$ find / -iname "*.jpg" -o -iname ;1580941391
+
+/.hidden/asdf136Intro-5kqlw.jpeg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+/usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+/usr/src/linux-headers-4.15.0-43/drivers/media/platform/mtk-jpeg
+/usr/src/linux-headers-4.15.0-43/drivers/media/platform/s5p-jpeg
+find: '/tmp/systemd-private-129ec3b3ba2343c79b76d01fb0ad19b3-systemd-timesyncd.service-w1jiHJ': Permission denied
+find: '/tmp/systemd-private-129ec3b3ba2343c79b76d01fb0ad19b3-systemd-resolved.service-uLmmjy':
+INPUT|usc430bf-intro-89|U |1580941492|usc430bf|intro:ls top_secret|136intro-3.jpg	asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+cret30bf@intro:/proj/USC430/exp/hw1-usc430bf$ cp /dev/136intro-2jjaj.JPEG top_se ;1580941507
+cretA30bf@intro:/proj/USC430/exp/hw1-usc430bf$ ls top_secret
+A
+
+INPUT|usc430bf-intro-90|U |1580941511|usc430bf|intro:ls top_secret|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430bf-intro-91|U |1580941518|usc430bf|intro:cd top_secret|
+INPUT|usc430bf-intro-92|U |1580941623|usc430bf|intro:touch answers.txt|
+INPUT|usc430bf-intro-93|U |1580941630|usc430bf|intro:open answers.txt|Couldn't get a file descriptor referring to the console
+
+INPUT|usc430bf-intro-94|U |1580941712|usc430bf|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430bf-intro-95|U |1580942681|usc430bf|intro:answers.txt|answers.txt: command not found
+
+INPUT|usc430bf-intro-96|U |1580942687|usc430bf|intro:cat answers.txt|
+INPUT|usc430bf-intro-97|U |1580942778|usc430bf|intro:filepath answers.txt|filepath: command not found
+
+INPUT|usc430bf-intro-98|U |1580942884|usc430bf|intro:help|GNU bash version 4.4.19(1)-release (x86_64-pc-linux-gnu)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                            history [-c] [-d offset] [n] or hist>
+ (( expression ))                        if COMMANDS; then COMMANDS; [ elif C>
+ . filename [arguments]                  jobs [-lnprs] [jobspec ...] or jobs >
+ :                                       kill [-s sigspec | -n signum | -sigs>
+ [ arg... ]                              let arg [arg ...]
+ [[ expression ]]                        local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]          logout [n]
+ bg [job_spec ...]                       mapfile [-d delim] [-n count] [-O or>
+ bind [-lpsvPSVX] [-m keymap]
+INPUT|usc430bf-intro-99|M6 |1580942907|usc430bf|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1988984         48    1988936   1%% /dev
+tmpfs                                                403952       6340     397612   2%% /run
+/dev/sda1                                          15681948    3252424   11629576  22%% /
+tmpfs                                               2019748          0    2019748   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               2019748          0    2019748   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374049408 1362718976  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430bf 2031313280 1100254592  768553600  59%% /users/usc430bf
+tmpfs                                                403948          0     403948   0%% /run/user/15216
+
+INPUT|usc430bf-intro-100|A6 |1580942982|usc430bf|intro:df > diskfree.txt|
+INPUT|usc430bf-intro-101|U |1580942984|usc430bf|intro:ls|136intro-2jjaj.JPEG  answers.txt	      diskfree.txt	  xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+
+INPUT|usc430bf-intro-102|U |1580942989|usc430bf|intro:cat diskfree.txt|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1988984         48    1988936   1%% /dev
+tmpfs                                                403952       6340     397612   2%% /run
+/dev/sda1                                          15681948    3252444   11629556  22%% /
+tmpfs                                               2019748          0    2019748   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               2019748          0    2019748   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374049408 1362718976  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430bf 2031313280 1100250112  768558080  59%% /users/usc430bf
+tmpfs                                                403948          0     403948   0%% /run/user/15216
+
+INPUT|usc430bf-intro-103|U |1580943655|usc430bf|intro:ls /dev|136intro-2jjaj.JPEG  ecryptfs	input	  loop-control	      pts	stdin	tty19  tty31  tty44  tty57	ttyS10	ttyS23	ttyS8	 vcsa
+autofs		     fb0	ipmi0	  mapper	      random	stdout	tty2   tty32  tty45  tty58	ttyS11	ttyS24	ttyS9	 vcsa1
+block		     fd		kmsg	  mcelog	      rfkill	tty	tty20  tty33  tty46  tty59	ttyS12	ttyS25	uhid	 vcsa2
+bsg		     full	kvm	  mem		      rtc	tty0	tty21  tty34  tty47  tty6	ttyS13	ttyS26	uinput	 vcsa3
+btrfs-control	     fuse	lightnvm  memory_bandwidth    rtc0	tty1	tty22  tty35  tty48  tty60	ttyS14	ttyS27	urandom  vcsa4
+bus		     hpet	log	  mqueue	      sda	tty10	tty23  tty36  tty49  tty61	ttyS15	ttyS28	userio	 vcsa5
+char		     hugepages	loop0	  net		      sda1	tty11	tty24  tty37  tty5   tty62	ttyS16	ttyS29	vcs	 vcsa6
+console		     hwrng	loop1	  network_latency     sda2	tty12	tty25  tty38  tty50  tty63	ttyS17	ttyS3	vcs1	 vcsa7
+core		     i2c-0	loop2	  network_throughput  sda3	tty13	tty26  tty39  tty51  tty7	ttyS18	ttyS30	vcs2	 vfio
+cpu		     i2c-1	loop3	  null		      sg0
+INPUT|usc430bf-intro-104|U |1581101276|usc430bf|intro:cd /proj/USC430/exp/hw1-usc430bf|
+INPUT|usc430bf-intro-105|A5 |1581101803|usc430bf|intro:proc/cpuinfo|bash: proc/cpuinfo: No such file or directory
+
+INPUT|usc430bf-intro-106|A5 |1581101805|usc430bf|intro:/proc/cpuinfo|bash: /proc/cpuinfo: Permission denied
+
+INPUT|usc430bf-intro-107|M5 |1581101812|usc430bf|intro:cat /proc/cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microcode	: 0xba
+cpu MHz		: 1777.053
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm lahf_lm pti tpr_shadow vnmi flexpriority dtherm
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 4266.50
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 15
+model name	: Intel(R) Xeon(R) CPU           X3210  @ 2.13GHz
+stepping	: 11
+microco
+INPUT|usc430bf-intro-108|U |1581102514|usc430bf|intro:ls|archive  containers   datastore  swapinfo  tftpboot  top_secret
+bin	 count.intro  logs	 tbdata    tmp	     wuer136intro-4.JPG
+
+INPUT|usc430bf-intro-109|U |1581394149|usc430bf|intro:cd /proj/USC430/exp/hw1-usc430bf|
+INPUT|usc430bf-intro-110|U |1581394160|usc430bf|intro:ls|archive  containers   datastore  swapinfo  tftpboot  top_secret
+bin	 count.intro  logs	 tbdata    tmp
+
+INPUT|usc430bf-intro-111|U |1581394168|usc430bf|intro:cd top_secret|
+INPUT|usc430bf-intro-112|U |1581394272|usc430bf|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430bf-intro-113|U |1581394277|usc430bf|intro:cat answers.txt|
+INPUT|usc430bf-intro-114|A5 |1581394442|usc430bf|intro:cat /proc/cpuinf|cat: /proc/cpuinf: No such file or directory
+
+INPUT|usc430bf-intro-115|M5 |1581394449|usc430bf|intro:cat /proc/cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.820
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5985.64
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.820
+cache size	: 2048 KB
+physical id	: 3
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 6
+initial apicid	: 
+INPUT|usc430bf-intro-116|U |1581404865|usc430bf|intro:echo "hi"|hi
+
+INPUT|usc430bf-intro-117|U |1581404899|usc430bf|intro:cd /proj/USC430/exp/hw1-usc430bf|
+INPUT|usc430bf-intro-118|U |1581404906|usc430bf|intro:ls|archive  containers   datastore  swapinfo  tftpboot  top_secret
+bin	 count.intro  logs	 tbdata    tmp
+
+INPUT|usc430bf-intro-119|U |1581404911|usc430bf|intro:cd top_secret|
+INPUT|usc430bf-intro-120|U |1581404912|usc430bf|intro:ls|answers.txt  diskfree.txt
+136INTRO-1.jpg:/proj/USC430/exp/hw1-usc430bf/top_secret$ /usr/share/pixmaps/xbzf1;1581404927
+bash: /usr/share/pixmaps/xbzf136INTRO-1.jpg: Permission denied
+aps/xbzf136INTRO-1.jpg .430/exp/hw1-usc430bf/top_secret$ sudo cp /usr/share/pixma;1581404934
+
+INPUT|usc430bf-intro-121|U |1581404936|usc430bf|intro:ls|answers.txt  diskfree.txt  xbzf136INTRO-1.jpg
+jjaj.JPEG .tro:/proj/USC430/exp/hw1-usc430bf/top_secret$ sudo cp /dev/136intro-2j;1581404944
+jjaj.JPEG .Atro:/proj/USC430/exp/hw1-usc430bf/top_secret$ 
+A
+ro-4.JPG .ntro:/proj/USC430/exp/hw1-usc430bf/top_secret$ sudo cp /etc/wuer136intr;1581404954
+
+INPUT|usc430bf-intro-122|U |1581404959|usc430bf|intro:ls|136intro-2jjaj.JPEG  diskfree.txt	 xbzf136INTRO-1.jpg
+answers.txt	     wuer136intro-4.JPG
+ro-3.jpg .ntro:/proj/USC430/exp/hw1-usc430bf/top_secret$ sudo cp /var/log/136intr;1581404973
+
+INPUT|usc430bf-intro-123|U |1581404975|usc430bf|intro:ls|136intro-2jjaj.JPEG  answers.txt   wuer136intro-4.JPG
+136intro-3.jpg	     diskfree.txt  xbzf136INTRO-1.jpg
+6Intro-5kqlw.jpeg .j/USC430/exp/hw1-usc430bf/top_secret$ sudo cp /.hidden/asdf136;1581404984
+
+INPUT|usc430bf-intro-124|U |1581404990|usc430bf|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+
+INPUT|usc430bf-intro-125|U |1581404998|usc430bf|intro:cat diskfree.txt|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1988984         48    1988936   1%% /dev
+tmpfs                                                403952       6340     397612   2%% /run
+/dev/sda1                                          15681948    3252444   11629556  22%% /
+tmpfs                                               2019748          0    2019748   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               2019748          0    2019748   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374049408 1362718976  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430bf 2031313280 1100250112  768558080  59%% /users/usc430bf
+tmpfs                                                403948          0     403948   0%% /run/user/15216
+
+INPUT|usc430bf-intro-126|U |1581405005|usc430bf|intro:cat answers.txt|answers.txt;1581405048
+
+INPUT|usc430bf-intro-127|U |1581405052|usc430bf|intro:cat answers.txt|Zoe Vogelsang
+A
+
+INPUT|usc430bf-intro-128|U |1581405067|usc430bf|intro:cat answers.txt|Zoe Vogelsang
+zvogelsa@usc.edu
+
+INPUT|usc430bf-intro-129|U |1581405090|usc430bf|intro:echo "" >>answers.txt|
+INPUT|usc430bf-intro-130|U |1581405091|usc430bf|intro:echo "" >>answers.txt|
+INPUT|usc430bf-intro-131|U |1581405093|usc430bf|intro:cat answers.txt|Zoe Vogelsang
+zvogelsa@usc.edu
+
+
+" >>answers.txt/proj/USC430/exp/hw1-usc430bf/top_secret$ echo "1. Treasure Hunt:";1581405101
+" >>answers.txtA/proj/USC430/exp/hw1-usc430bf/top_secret$ cat answers.txt
+A
+
+INPUT|usc430bf-intro-132|U |1581405107|usc430bf|intro:echo "" >>answers.txt|
+INPUT|usc430bf-intro-133|U |1581405132|usc430bf|intro:echo "h\ne"|h\
+e
+
+INPUT|usc430bf-intro-134|U |1581405155|usc430bf|intro:echo -e "h\ne"|h
+e
+
+INPUT|usc430bf-intro-135|U |1581405169|usc430bf|intro:cat answers.txt|Zoe Vogelsang
+zvogelsa@usc.edu
+
+
+1. Treasure Hunt:
+
+s/xbzf136INTRO-1.jpg\USC430/exp/hw1-usc430bf/top_secret$ echo "/usr/share/pixmaps
+Forbidden Planet\
+\
+/dev/136intro-2jjaj.JPEG\
+answers.txt>a;1581405230
+s/xbzf136INTRO-1.jpg\USC430/exp/hw1-usc430bf/top_secret$ echo "/usr/share/pixmaps
+Forbidden Planet\
+\
+/dev/136intro-2jjaj.JPEG\
+answers.txtAAtro:/proj/USC430/exp/hw1-usc430bf/top_secret$ cat answers.txt
+
+AA
+
+INPUT|usc430bf-intro-136|U |1581405232|usc430bf|intro:cat answers.txt|Zoe Vogelsang
+zvogelsa@usc.edu
+
+
+1. Treasure Hunt:
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg\
+Forbidden Planet\
+\
+/dev/136intro-2jjaj.JPEG\
+Godzilla
+
+INPUT|usc430bf-intro-137|U |1581405275|usc430bf|intro:sed '$d' answers.txt|Zoe Vogelsang
+zvogelsa@usc.edu
+
+
+1. Treasure Hunt:
+
+ixmaps/xbzf136INTRO-1.jpg30/exp/hw1-usc430bf/top_secret$ echo -e “/usr/share/pi
+Forbidden Planet
+/dev/136intro-2jjaj.JPEG
+a" >>answers.txt;1581405287
+> echo -e “/usr/share/pixmaps/xbzf136INTRO-1.jpg
+Forbidden Planet
+intro-2jjaj.JPEG
+> 
+A> echo -e “/usr/share/pixmaps/xbzf136INTRO-1.jpg
+Forbidden Planet
+intro-2jjaj.JPEG
+Godzilla" >>answers.txt;1581405296
+ixmaps/xbzf136INTRO-1.jpg30/exp/hw1-usc430bf/top_secret$ echo -e “/usr/share/pi
+Forbidden Planet
+/dev/136intro-2jjaj.JPEG
+a" >>answers.txt
+echo -e “/usr/share/pixmaps/xbzf136INTRO-1.jpg
+Forbidden Planet
+tro-2jjaj.JPEG
+Godzilla" >>answers.txtAAAA430bf/top_secret$ 
+
+
+
+AAAA
+ixmaps/xbzf136INTRO-1.jpg30/exp/hw1-usc430bf/top_secret$ echo -e “/usr/share/pi
+Forbidden Planet
+/dev/136intro-2jjaj.JPEG
+a" >>answers.txt
+echo -e “/usr/share/pixmaps/xbzf136INTRO-1.jpg
+Forbidden Planet
+tro-2jjaj.JPEG
+Godzilla" >>answers.txt^C
+ixmaps/xbzf136INTRO-1.jpg30/exp/hw1-usc430bf/top_secret$ echo -
+INPUT|usc430bf-intro-138|U |1581405306|usc430bf|intro:cat answers.txt|Zoe Vogelsang
+zvogelsa@usc.edu
+
+
+1. Treasure Hunt:
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+Forbidden Planet
+/dev/136intro-2jjaj.JPEG
+Godzilla
+“/usr/share/pixmaps/xbzf136INTRO-1.jpgnForbidden Planetnn/dev/136intro-2jjaj.JPEGnGodzilla >>answers.txt
+echo -e “/usr/share/pixmaps/xbzf136INTRO-1.jpg
+Forbidden Planet
+
+/dev/136intro-2jjaj.JPEG
+Godzilla
+
+INPUT|usc430bf-intro-139|U |1581405329|usc430bf|intro:cat answers.txt|Zoe Vogelsang
+zvogelsa@usc.edu
+
+
+1. Treasure Hunt:
+
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+Forbidden Planet
+/dev/136intro-2jjaj.JPEG
+Godzilla
+“/usr/share/pixmaps/xbzf136INTRO-1.jpgnForbidden Planetnn/dev/136intro-2jjaj.JPEGnGodzilla >>answers.txt
+echo -e “/usr/share/pixmaps/xbzf136INTRO-1.jpg
+Forbidden Planet
+
+/dev/136intro-2jjaj.JPEG
+Godzilla
+
+INPUT|usc430bf-intro-140|U |1581405346|usc430bf|intro:rm answers.txt|
+INPUT|usc430bf-intro-141|U |1581405350|usc430bf|intro:touch answers.txt|
+INPUT|usc430bf-intro-142|U |1581405353|usc430bf|intro:cat answers.txt|gsc430bf@intro:/proj/USC430/exp/hw1-usc430bf/top_secret$ echo -e “Zoe Vogelsang
+zvogelsa@usc.edu
+usc430bf
+1. Treasure Hunt:\
+\
+36INTRO-1.jpg\maps/xbzf13
+Forbidden Planet\
+\
+/dev/136intro-2jjaj.JPEG\
+Godzilla\
+\
+g/136intro-3.jpg\
+It came from outer space\
+\
+/etc/wuer136intro-4.JPG\
+The Fly\
+\
+/.hidden/asdf136Intro-5kqlw.jpeg\
+2001 a space odyssey\
+\
+\. Information Hunt:\
+e course of its operation.\ins files to which the system writes data during the
+\
+files for all the devices.\ins the special device f
+\
+4. vendor_id: GenuineIntel" >>answers.txt;1581405554
+> ^C
+gsc430bf@intro:/proj/USC430/exp/hw1-usc430bf/top_secret$ echo -e “Zoe Vogelsang
+zvogelsa@usc.edu
+usc430bf
+1. Treasure Hunt:
+36INTRO-1.jpgxmaps/xbzf13
+Forbidden Planet
+/dev/136intro-2jjaj.JPEG
+Godzilla
+g/136intro-3.jpg
+It came from outer space
+/etc/wuer136intro-4.JPG
+The Fly
+\
+/.hidden/asdf136Intro-5kqlw.jpeg
+2001 a space odyssey
+2. Information Hunt:\
+e course of its operation.ains files to which the system writes data during 
+INPUT|usc430bf-intro-143|U |1581405563|usc430bf|intro:cat answers.txt|gsc430bf@intro:/proj/USC430/exp/hw1-usc430bf/top_secret$ echo -e “Zoe Vogelsang
+zvogelsa@usc.edu
+usc430bf
+1. Treasure Hunt:\
+\
+36INTRO-1.jpg\maps/xbzf13
+Forbidden Planet\
+\
+/dev/136intro-2jjaj.JPEG\
+Godzilla\
+\
+g/136intro-3.jpg\
+It came from outer space\
+\
+/etc/wuer136intro-4.JPG\
+The Fly\
+\
+/.hidden/asdf136Intro-5kqlw.jpeg\
+2001 a space odyssey\
+\
+\. Information Hunt:\
+e course of its operation.\ins files to which the system writes data during the
+\
+files for all the devices.\ins the special device f
+\
+4. vendor_id: GenuineIntel" >> answers.txt;1581405575
+> ;1581405576
+> ;1581405577
+>  ;1581405579
+> /;1581405580
+> ^C
+gsc430bf@intro:/proj/USC430/exp/hw1-usc430bf/top_secret$ echo -e “Zoe Vogelsang
+zvogelsa@usc.edu
+usc430bf
+1. Treasure Hunt:
+36INTRO-1.jpgxmaps/xbzf13
+Forbidden Planet
+/dev/136intro-2jjaj.JPEG
+Godzilla
+g/136intro-3.jpg
+It came from outer space
+/etc/wuer136intro-4.JPG
+The Fly
+\
+/.hidden/asdf136Intro-5kqlw.jpeg
+2001 a space odyssey
+2. Information Hunt:\
+e course of its o
+INPUT|usc430bf-intro-144|U |1581405586|usc430bf|intro:cat answers.txt|g" >>answers.txt" >>answers.txt/hw1-usc430bf/top_secret$ echo -e “Zoe Vogelsang
+.edu" >>answers.txtj/USC430/exp/hw1-usc430bf/top_secret$ echo -e “zvogelsa@usc.
+> echo -e “usc430bf" >>answers.txt
+txt430bf@intro:/proj/USC430/exp/hw1-usc430bf/top_secret$ echo -e “" >>answers.t
+> echo -e “" >>answers.txt
+Hunt:" >>answers.txt/USC430/exp/hw1-usc430bf/top_secret$ echo -e “1. Treasure H
+> echo -e “" >>answers.txt
+ixmaps/xbzf136INTRO-1.jpg" >>answers.txt30bf/top_secret$ echo -e “/usr/share/pi
+> echo -e “Forbidden Planet" >>answers.txt
+txt430bf@intro:/proj/USC430/exp/hw1-usc430bf/top_secret$ echo -e “" >>answers.t
+> echo -e “/dev/136intro-2jjaj.JPEG" >>answers.txt
+answers.txttro:/proj/USC430/exp/hw1-usc430bf/top_secret$ echo -e “Godzilla" >>a
+> echo -e “" >>answers.txt
+intro-3.jpg" >>answers.txt0/exp/hw1-usc430bf/top_secret$ echo -e “/var/log/136i
+> echo -e “It came from outer space" >>answers.txt
+txt430bf@intro:/proj/USC430/exp/hw1-usc430bf/top_secret$ echo -e “"
+INPUT|usc430bf-intro-145|U |1581405732|usc430bf|intro:cat answers.txt|“Zoe Vogelsang >>answers.txt
+“zvogelsa@usc.edu >>answers.txt
+echo -e “usc430bf
+“ >>answers.txt
+echo -e “
+“1. Treasure Hunt: >>answers.txt
+echo -e “
+“/usr/share/pixmaps/xbzf136INTRO-1.jpg >>answers.txt
+echo -e “Forbidden Planet
+“ >>answers.txt
+echo -e “/dev/136intro-2jjaj.JPEG
+“Godzilla >>answers.txt
+echo -e “
+“/var/log/136intro-3.jpg >>answers.txt
+echo -e “It came from outer space
+“ >>answers.txt
+echo -e “/etc/wuer136intro-4.JPG
+“The Fly >>answers.txt
+echo -e “
+“/.hidden/asdf136Intro-5kqlw.jpeg >>answers.txt
+echo -e “2001 a space odyssey
+“ >>answers.txt
+echo -e “2. Information Hunt:
+“1. The /var directory contains files to which the system writes data during the course of its operation. >>answers.txt
+echo -e “
+“2. The /dev directory contains the special device files for all the devices. >>answers.txt
+echo -e “
+
+INPUT|usc430bf-intro-146|U |1581405751|usc430bf|intro:rm answers.txt|
+INPUT|usc430bf-intro-147|U |1581405754|usc430bf|intro:touch answers.txt|
+INPUT|usc430bf-intro-148|U |1581405780|usc430bf|intro:cat answers.txt|“Zoe Vogelsang >>answers.txt
+echo -e “zvogelsa@usc.edu
+
+INPUT|usc430bf-intro-149|U |1581405786|usc430bf|intro:rm answers.txt|
+INPUT|usc430bf-intro-150|U |1581405788|usc430bf|intro:touch answers.txt|

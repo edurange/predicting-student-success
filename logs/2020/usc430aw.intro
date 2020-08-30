@@ -1,0 +1,800 @@
+User usc430aw start time 1581237580 end 1581330334
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430aw-intro-0|U |000000000|usc430aw|:|
+INPUT|usc430aw-intro-1|U |000000000|usc430aw|:|
+INPUT|usc430aw-intro-2|U |1581237580|usc430aw|intro:clear|
+
+INPUT|usc430aw-intro-3|U |1581237584|usc430aw|intro:ls|randoFileo.txt	randomFileTest.txt
+
+INPUT|usc430aw-intro-4|U |1581237589|usc430aw|intro:ls -al|total 56
+drwx------  7 usc430aw USC430  512 Jan 24 14:56 .
+drwxr-xr-x 27 root     root   4096 Feb  9 00:18 ..
+-rw-------  1 usc430aw USC430 2627 Jan 24 15:07 .bash_history
+drwx------  2 usc430aw USC430  512 Jan 17 13:46 .cache
+-rwx------  1 usc430aw USC430   16 Jan 17 11:14 .forward
+drwx------  3 usc430aw USC430  512 Jan 17 13:45 .gnupg
+drwxr-xr-x  3 usc430aw USC430  512 Jan 24 14:56 .local
+-rwx------  1 usc430aw USC430   30 Jan 17 14:04 randoFileo.txt
+-rwx------  1 usc430aw USC430   17 Jan 17 13:47 randomFileTest.txt
+drwx------  2 usc430aw USC430  512 Jan 17 13:45 .ssh
+drwx------  2 usc430aw USC430  512 Jan  9  2019 .ssl
+-rwx------  1 usc430aw USC430 8479 Jan 17 15:13 .viminfo
+
+INPUT|usc430aw-intro-5|U |1581237602|usc430aw|intro:rm -rf randoFileo.txt |
+INPUT|usc430aw-intro-6|U |1581237606|usc430aw|intro:rm -rf randomFileTest.txt |
+INPUT|usc430aw-intro-7|U |1581237608|usc430aw|intro:ls|
+INPUT|usc430aw-intro-8|U |1581237610|usc430aw|intro:ls -l|total 0
+
+INPUT|usc430aw-intro-9|U |1581237660|usc430aw|intro:cd ../|
+INPUT|usc430aw-intro-10|U |1581237662|usc430aw|intro:ls -l|total 100
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 aashraya
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 albpat03
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 alotero
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 barada24
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 dagny64
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 dbosch
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 garmar09
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 giotah
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 jacque
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 jmache
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 krisgado
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 massacci
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 mlocasto
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 patrickv
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 paullepe
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 penged
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 quin2
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 regste
+INPUT|usc430aw-intro-11|U |1581237672|usc430aw|intro:cd ../|
+INPUT|usc430aw-intro-12|U |1581237675|usc430aw|intro:ls -la|total 116
+drwxr-xr-x  28 root root  4096 Feb  9 00:18 .
+drwxr-xr-x  28 root root  4096 Feb  9 00:18 ..
+drwxr-xr-x   2 root root  4096 Jan  5  2019 bin
+drwxr-xr-x   3 root root  4096 Jan  5  2019 boot
+drwxr-xr-x  19 root root  4000 Feb  9 00:18 dev
+drwxr-xr-x 110 root root  4096 Feb  9 00:18 etc
+drwxr-xr-x   2 root root  4096 Feb  9 00:18 .hidden
+drwxr-xr-x   3 root root  4096 Jan  5  2019 home
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img -> boot/initrd.img-4.15.0-43-generic
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img.old -> boot/initrd.img-4.15.0-20-generic
+drwxr-xr-x  21 root root  4096 Jan  5  2019 lib
+drwxr-xr-x   2 root root  4096 Jan  5  2019 lib64
+drwxr-xr-x   3 root root  4096 Jan 22 23:42 local
+drwx------   2 root root 16384 Jan  5  2019 lost+found
+drwxr-xr-x   4 root root  4096 Jan  5  2019 media
+drwxr-xr-x   2 root root  4096 Apr 26  2018 mnt
+drwxr-xr-x   2 root root  4096 Apr 26  2018 opt
+dr-xr-xr-x 150 root root     0 Feb  9 00:17 proc
+drwxr-xr-x   4 ro
+INPUT|usc430aw-intro-13|U |1581237704|usc430aw|intro:cd ../|
+INPUT|usc430aw-intro-14|U |1581237706|usc430aw|intro:ls -la|total 116
+drwxr-xr-x  28 root root  4096 Feb  9 00:18 .
+drwxr-xr-x  28 root root  4096 Feb  9 00:18 ..
+drwxr-xr-x   2 root root  4096 Jan  5  2019 bin
+drwxr-xr-x   3 root root  4096 Jan  5  2019 boot
+drwxr-xr-x  19 root root  4000 Feb  9 00:18 dev
+drwxr-xr-x 110 root root  4096 Feb  9 00:18 etc
+drwxr-xr-x   2 root root  4096 Feb  9 00:18 .hidden
+drwxr-xr-x   3 root root  4096 Jan  5  2019 home
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img -> boot/initrd.img-4.15.0-43-generic
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img.old -> boot/initrd.img-4.15.0-20-generic
+drwxr-xr-x  21 root root  4096 Jan  5  2019 lib
+drwxr-xr-x   2 root root  4096 Jan  5  2019 lib64
+drwxr-xr-x   3 root root  4096 Jan 22 23:42 local
+drwx------   2 root root 16384 Jan  5  2019 lost+found
+drwxr-xr-x   4 root root  4096 Jan  5  2019 media
+drwxr-xr-x   2 root root  4096 Apr 26  2018 mnt
+drwxr-xr-x   2 root root  4096 Apr 26  2018 opt
+dr-xr-xr-x 150 root root     0 Feb  9 00:17 proc
+drwxr-xr-x   4 ro
+INPUT|usc430aw-intro-15|A1 A4 A0 A2 A3 |1581237780|usc430aw|intro:find . -name "*intro*"  |./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+^C;1581237793
+
+INPUT|usc430aw-intro-16|A2 A3 A0 A1 A4 |1581237815|usc430aw|intro:find . -name "*intro*.jpg" -o "*intro*.jpeg"|find: paths must precede expression: `*intro*.jpeg'
+
+INPUT|usc430aw-intro-17|M2 M0 |1581237852|usc430aw|intro:find . -name "*.jpg"                  |./usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: './tmp/systemd-private-e927d6350cf94177bbc35f25cfcecbc8-systemd-timesyncd.service-OrtBpj': Permission denied
+find: './tmp/systemd-private-e927d6350cf94177bbc35f25cfcecbc8-systemd-resolved.service-5o2Cpw': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: 
+INPUT|usc430aw-intro-18|U |1581237934|usc430aw|intro:clear|
+
+INPUT|usc430aw-intro-19|U |1581237957|usc430aw|intro:man find|FIND(1)                                     General Commands Manual                                    FIND(1)
+
+NAME
+       find - search for files in a directory hierarchy
+
+SYNOPSIS
+       find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
+
+DESCRIPTION
+       This  manual  page  documents  the GNU version of find.  GNU find searches the directory tree rooted at
+       each given starting-point by evaluating the given expression from left to right according to the rules
+       of  precedence (see section OPERATORS) until the outcome is known (the left hand side is false for and
+       operations true for or) at which point find moves on to the next file name.  If no starting-point  is
+       specified `.' is assumed.
+
+       If you are using find in an environment where security is important (for example if you are using it to
+       search directories that are writable by other users) you should  read  the  `Security  Considerations'
+       chapter  of the f
+INPUT|usc430aw-intro-20|M3 M2 M0 |1581238111|usc430aw|intro:find . -iname "*intro*.jpg"|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: './tmp/systemd-private-e927d6350cf94177bbc35f25cfcecbc8-systemd-timesyncd.service-OrtBpj': Permission denied
+find: './tmp/systemd-private-e927d6350cf94177bbc35f25cfcecbc8-systemd-resolved.service-5o2Cpw': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: 
+INPUT|usc430aw-intro-21|U |1581238281|usc430aw|intro:clear|
+
+INPUT|usc430aw-intro-22|M3 M2 M0 |1581238287|usc430aw|intro:find . -iname "*intro*.jpg" -type f|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: './tmp/systemd-private-e927d6350cf94177bbc35f25cfcecbc8-systemd-timesyncd.service-OrtBpj': Permission denied
+find: './tmp/systemd-private-e927d6350cf94177bbc35f25cfcecbc8-systemd-resolved.service-5o2Cpw': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: 
+INPUT|usc430aw-intro-23|U |1581238445|usc430aw|intro:ls -l|total 104
+drwxr-xr-x   2 root root  4096 Jan  5  2019 bin
+drwxr-xr-x   3 root root  4096 Jan  5  2019 boot
+drwxr-xr-x  19 root root  4000 Feb  9 00:18 dev
+drwxr-xr-x 110 root root  4096 Feb  9 00:18 etc
+drwxr-xr-x   3 root root  4096 Jan  5  2019 home
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img -> boot/initrd.img-4.15.0-43-generic
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img.old -> boot/initrd.img-4.15.0-20-generic
+drwxr-xr-x  21 root root  4096 Jan  5  2019 lib
+drwxr-xr-x   2 root root  4096 Jan  5  2019 lib64
+drwxr-xr-x   3 root root  4096 Jan 22 23:42 local
+drwx------   2 root root 16384 Jan  5  2019 lost+found
+drwxr-xr-x   4 root root  4096 Jan  5  2019 media
+drwxr-xr-x   2 root root  4096 Apr 26  2018 mnt
+drwxr-xr-x   2 root root  4096 Apr 26  2018 opt
+dr-xr-xr-x 150 root root     0 Feb  9 00:17 proc
+drwxr-xr-x   4 root root  4096 Feb  9 00:18 proj
+drwx------   5 root root  4096 Jan 22 23:51 root
+drwxr-xr-x  26 root root  1080 Feb  9 00:39 run
+drwxr-xr-x   2 r
+INPUT|usc430aw-intro-24|U |1581238465|usc430aw|intro:cd users/|
+INPUT|usc430aw-intro-25|U |1581238520|usc430aw|intro:clear|
+
+INPUT|usc430aw-intro-26|U |1581238522|usc430aw|intro:cd ../|
+INPUT|usc430aw-intro-27|U |1581238524|usc430aw|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430aw-intro-28|M3 M2 M0 |1581238544|usc430aw|intro:find . -iname "*intro*.jpg" -print|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: './tmp/systemd-private-e927d6350cf94177bbc35f25cfcecbc8-systemd-timesyncd.service-OrtBpj': Permission denied
+find: './tmp/systemd-private-e927d6350cf94177bbc35f25cfcecbc8-systemd-resolved.service-5o2Cpw': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: 
+INPUT|usc430aw-intro-29|A0 A2 A3 A1 A4 |1581238702|usc430aw|intro:find . -iname "*intro*.jpg" | grep 4h 4-4h 4i4h 4 "4h 4*|find: './tmp/systemd-private-e927d6350cf94177bbc35f25cfcecbc8-systemd-timesyncd.service-OrtBpj': Permission denied
+find: './tmp/systemd-private-e927d6350cf94177bbc35f25cfcecbc8-systemd-resolved.service-5o2Cpw': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430aw-intro-30|A2 A3 A0 A4 A1 |1581238730|usc430aw|intro:find . -iname "*intro*.jpg" | grep -i "*.jpg" > result.txt|bash: result.txt: Permission denied
+
+INPUT|usc430aw-intro-31|U |1581238748|usc430aw|intro:cd users/usc430aw/|
+INPUT|usc430aw-intro-32|U |1581238750|usc430aw|intro:ls|
+INPUT|usc430aw-intro-33|U |1581238752|usc430aw|intro:ls -l|total 0
+
+INPUT|usc430aw-intro-34|U |1581238756|usc430aw|intro:cd ../|
+INPUT|usc430aw-intro-35|U |1581238757|usc430aw|intro:ls -l|total 100
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 aashraya
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 albpat03
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 alotero
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 barada24
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 dagny64
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 dbosch
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 garmar09
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 giotah
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 jacque
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 jmache
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 krisgado
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 massacci
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 mlocasto
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 patrickv
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 paullepe
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 penged
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 quin2
+drwxrwx--- 2 root     root   4096 Jan 22 23:41 regste
+INPUT|usc430aw-intro-36|U |1581238760|usc430aw|intro:ls -a|.   aashraya  alotero	dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2	   rweiss    sunshine  tescjack  usc430aw
+..  albpat03  barada24	dbosch	 giotah    jmache  massacci  patrickv  penged	 regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430aw-intro-37|U |1581238880|usc430aw|intro:cd usc430aw/|
+INPUT|usc430aw-intro-38|U |1581238904|usc430aw|intro:mkdir top_secret|
+INPUT|usc430aw-intro-39|U |1581238917|usc430aw|intro:cd top_secret/|
+INPUT|usc430aw-intro-40|U |1581238931|usc430aw|intro:touch answers.txt|
+INPUT|usc430aw-intro-41|U |1581238948|usc430aw|intro:ls -l|total 0
+-rw-r--r-- 1 usc430aw USC430 0 Feb  9 01:02 answers.txt
+
+INPUT|usc430aw-intro-42|U |1581238958|usc430aw|intro:cd ../|
+INPUT|usc430aw-intro-43|U |1581238960|usc430aw|intro:cd ../|
+INPUT|usc430aw-intro-44|U |1581238961|usc430aw|intro:cd../|bash: cd../: No such file or directory
+
+INPUT|usc430aw-intro-45|U |1581238963|usc430aw|intro:cd4h 4 |
+INPUT|usc430aw-intro-46|U |1581238967|usc430aw|intro:cd ../|
+INPUT|usc430aw-intro-47|U |1581238970|usc430aw|intro:ls-l|ls-l: command not found
+
+INPUT|usc430aw-intro-48|U |1581238972|usc430aw|intro:ls4h 4 |total 104
+drwxr-xr-x   2 root root  4096 Jan  5  2019 bin
+drwxr-xr-x   3 root root  4096 Jan  5  2019 boot
+drwxr-xr-x  19 root root  4000 Feb  9 00:18 dev
+drwxr-xr-x 110 root root  4096 Feb  9 00:18 etc
+drwxr-xr-x   3 root root  4096 Jan  5  2019 home
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img -> boot/initrd.img-4.15.0-43-generic
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img.old -> boot/initrd.img-4.15.0-20-generic
+drwxr-xr-x  21 root root  4096 Jan  5  2019 lib
+drwxr-xr-x   2 root root  4096 Jan  5  2019 lib64
+drwxr-xr-x   3 root root  4096 Jan 22 23:42 local
+drwx------   2 root root 16384 Jan  5  2019 lost+found
+drwxr-xr-x   4 root root  4096 Jan  5  2019 media
+drwxr-xr-x   2 root root  4096 Apr 26  2018 mnt
+drwxr-xr-x   2 root root  4096 Apr 26  2018 opt
+dr-xr-xr-x 150 root root     0 Feb  9 00:17 proc
+drwxr-xr-x   4 root root  4096 Feb  9 00:18 proj
+drwx------   5 root root  4096 Jan 22 23:51 root
+drwxr-xr-x  26 root root  1080 Feb  9 00:39 run
+drwxr-xr-x   2 r
+INPUT|usc430aw-intro-49|U |1581238976|usc430aw|intro:ls -al|total 116
+drwxr-xr-x  28 root root  4096 Feb  9 00:18 .
+drwxr-xr-x  28 root root  4096 Feb  9 00:18 ..
+drwxr-xr-x   2 root root  4096 Jan  5  2019 bin
+drwxr-xr-x   3 root root  4096 Jan  5  2019 boot
+drwxr-xr-x  19 root root  4000 Feb  9 00:18 dev
+drwxr-xr-x 110 root root  4096 Feb  9 00:18 etc
+drwxr-xr-x   2 root root  4096 Feb  9 00:18 .hidden
+drwxr-xr-x   3 root root  4096 Jan  5  2019 home
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img -> boot/initrd.img-4.15.0-43-generic
+lrwxrwxrwx   1 root root    33 Jan  5  2019 initrd.img.old -> boot/initrd.img-4.15.0-20-generic
+drwxr-xr-x  21 root root  4096 Jan  5  2019 lib
+drwxr-xr-x   2 root root  4096 Jan  5  2019 lib64
+drwxr-xr-x   3 root root  4096 Jan 22 23:42 local
+drwx------   2 root root 16384 Jan  5  2019 lost+found
+drwxr-xr-x   4 root root  4096 Jan  5  2019 media
+drwxr-xr-x   2 root root  4096 Apr 26  2018 mnt
+drwxr-xr-x   2 root root  4096 Apr 26  2018 opt
+dr-xr-xr-x 150 root root     0 Feb  9 00:17 proc
+drwxr-xr-x   4 ro
+INPUT|usc430aw-intro-50|U |1581238996|usc430aw|intro:cd lost+found/|bash: cd: lost+found/: Permission denied
+
+INPUT|usc430aw-intro-51|U |1581239016|usc430aw|intro:cd4h4h 4s4h 4u4h 4d4h 4o4h 4 g" -print|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+./proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+./proj/USC430/exp/hw1-usc430bf/top_secret/xbzf136INTRO-1.jpg
+./proj/USC430/exp/hw1-usc430bf/wuer136intro-4.JPG
+
+INPUT|usc430aw-intro-52|U |1581239277|usc430aw|intro:updatedb|
+INPUT|usc430aw-intro-53|M4 M1 |1581239321|usc430aw|intro:find . -iname "*intro*.jp4h 4erint|./.hidden/asdf136Intro-5kqlw.jpeg
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430aw-intro-54|A1 A4 A2 A3 A0 |1581239488|usc430aw|intro:find . -iname "*intro*.jpg" -o "*intro*.jpeg" -d 4  |find: paths must precede expression: `*intro*.jpeg'
+
+INPUT|usc430aw-intro-55|A2 A3 A0 A4 A1 |1581239547|usc430aw|intro:find . -iname "*intro* 4h 44h 4\4h 4( *.jpeg" 4h 4h 44h 4 \4h 4)|find: paths must precede expression: `*intro*.jpeg'
+
+INPUT|usc430aw-intro-56|A4 A1 A0 A2 A3 |1581239581|usc430aw|intro:find 4h 4\me "*intro*.jpg" -o "*intro*.jpeg" -d 4|find: paths must precede expression: `*intro*.jpeg'
+
+INPUT|usc430aw-intro-57|A0 A2 A3 A4 A1 |1581239593|usc430aw|intro:find 4h 4/me "*intro*.jpg" -o "*intro*.jpeg" -d 4|find: paths must precede expression: `*intro*.jpeg'
+
+INPUT|usc430aw-intro-58|A4 A1 A0 A2 A3 |1581239602|usc430aw|intro:find 4h 4.ame "*intro*.jpg" -o "*intro*.jpeg" -d 4|find: paths must precede expression: `*intro*.jpeg'
+
+INPUT|usc430aw-intro-59|A2 A3 A0 A4 A1 |1581239654|usc430aw|intro:find . -iname "*intro*.jpg4h 4'*i4h 4'peg4h 4'-d 4|find: paths must precede expression: `*intro*.jpeg'
+
+INPUT|usc430aw-intro-60|A0 A2 A3 A1 A4 |1581239717|usc430aw|intro:find . -iname "*intro*.jpg" -o 4h 44h 4-4h 4i4h 4n4h 4a4h 4m4h 4e|find: warning: you have specified the -d option after a non-option argument -iname but options are not positional (-d affects tests specified before it as well as those specified after it).  Please specify options before other arguments.
+
+find: warning: the -d option is deprecated; please use -depth instead because the latter is a POSIX-compliant feature.
+find: paths must precede expression: `4'
+
+INPUT|usc430aw-intro-61|A2 A3 A0 A4 A1 |1581239724|usc430aw|intro:find . -iname "*intro*.jpg" -o -iname "*intro*.jpeg" -d4h 4e4h 4p4h 4t4h 4h|find: warning: you have specified the -depth option after a non-option argument -iname but options are not positional (-depth affects tests specified before it as well as those specified after it).  Please specify options before other arguments.
+
+find: paths must precede expression: `4'
+
+INPUT|usc430aw-intro-62|A4 A1 A0 A2 A3 |1581239762|usc430aw|intro:find . -iname "*in4h 4\4h.4h 4 -iname "*intro*.jpeg"4h 4\4h 4h 4 |find: warning: you have specified the -depth option after a non-option argument ( but options are not positional (-depth affects tests specified before it as well as those specified after it).  Please specify options before other arguments.
+
+find: paths must precede expression: `4'
+
+INPUT|usc430aw-intro-63|A1 A4 A0 A2 A3 |1581239787|usc430aw|intro:find . 4h 4-4h 4d4h 4e4h 4p4h 4t4h 4h 4h 44h 44.jpeg"            |find: paths must precede expression: `4'
+
+INPUT|usc430aw-intro-64|U |1581239864|usc430aw|intro:man find|FIND(1)                                                         General Commands Manual                                                         FIND(1)
+
+NAME
+       find - search for files in a directory hierarchy
+
+SYNOPSIS
+       find [-H] [-L] [-P] [-D debugopts] [-Olevel] [starting-point...] [expression]
+
+DESCRIPTION
+       This  manual page documents the GNU version of find.  GNU find searches the directory tree rooted at each given starting-point by evaluating the
+       given expression from left to right according to the rules of precedence (see section OPERATORS) until the outcome is  known  (the  left  hand
+       side  is  false for and operations true for or) at which point find moves on to the next file name.  If no starting-point is specified `.' is
+       assumed.
+
+       If you are using find in an environment where security is important (for example if you are using it to search directories that are writable  by
+       other users) you should read the `Security Consider
+INPUT|usc430aw-intro-65|M4 M3 M2 M1 M0 |1581239951|usc430aw|intro:find . -4h 4m4h 4a4h 4x"*intro*.jpg" -o -iname "*intro*.jpeg"|./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430aw-intro-66|A4 A1 A0 A2 A3 |1581239972|usc430aw|intro:find . -maxdepth 4 -iname "*intro*.jpg" -o -iname "*intro*.jpeg" > ./users/usc430aw/top_secret/answers.txt |
+INPUT|usc430aw-intro-67|U |1581239987|usc430aw|intro:cd users/usc430aw/top_secret/|
+INPUT|usc430aw-intro-68|U |1581239990|usc430aw|intro:vim answers.txt |"answers.txt" 5L 149C6n  >c./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+./dev/136intro-2jjaj.JPEG
+
+
+INPUT|usc430aw-intro-69|A1 A4 A0 A2 A3 |1581240176|usc430aw|intro:find . -maxdepth 4 -iname "*intro*.jpg" -o -iname "*intro*.jpeg" | xargs cp -t ~/top_secret/|cp: missing file operand
+Try 'cp --help' for more information.
+
+INPUT|usc430aw-intro-70|U |1581240305|usc430aw|intro:man xargs|XARGS(1)                                                        General Commands Manual                                                        XARGS(1)
+
+NAME
+       xargs - build and execute command lines from standard input
+
+SYNOPSIS
+       xargs [options] [command [initial-arguments]]
+
+DESCRIPTION
+       This  manual  page  documents  the GNU version of xargs.  xargs reads items from the standard input delimited by blanks (which can be protected
+       with double or single quotes or a backslash) or newlines and executes the command (default is /bin/echo) one or more times with any initial-ar-
+       guments followed by items read from standard input.  Blank lines on the standard input are ignored.
+
+       The command line for command is built up until it reaches a system-defined limit (unless the -n and -L options are used).  The specified command
+       will be invoked as many times as necessary to use up the list of input items.  In general there will be many fewer invocations of 
+INPUT|usc430aw-intro-71|U |1581240530|usc430aw|intro:man xargs|XARGS(1)                                                        General Commands Manual                                                        XARGS(1)
+
+NAME
+       xargs - build and execute command lines from standard input
+
+SYNOPSIS
+       xargs [options] [command [initial-arguments]]
+
+DESCRIPTION
+       This  manual  page  documents  the GNU version of xargs.  xargs reads items from the standard input delimited by blanks (which can be protected
+       with double or single quotes or a backslash) or newlines and executes the command (default is /bin/echo) one or more times with any initial-ar-
+       guments followed by items read from standard input.  Blank lines on the standard input are ignored.
+
+       The command line for command is built up until it reaches a system-defined limit (unless the -n and -L options are used).  The specified command
+       will be invoked as many times as necessary to use up the list of input items.  In general there will be many fewer invocations of 
+INPUT|usc430aw-intro-72|A0 A2 A3 A4 A1 |1581240614|usc430aw|intro:find . -maxdepth 4 -iname "*intro*.jpg" -o -iname "*intro*.jpeg" | xargs -I {} mv {} /users/usc430aw/top_secret/|
+INPUT|usc430aw-intro-73|U |1581240617|usc430aw|intro:ls|answers.txt
+
+INPUT|usc430aw-intro-74|U |1581240624|usc430aw|intro:ls -l|total 4
+-rw-r--r-- 1 usc430aw USC430 149 Feb  9 01:19 answers.txt
+
+INPUT|usc430aw-intro-75|U |1581240629|usc430aw|intro:cd ../|
+INPUT|usc430aw-intro-76|U |1581240631|usc430aw|intro:ls|top_secret
+
+INPUT|usc430aw-intro-77|U |1581240634|usc430aw|intro:cd top_secret/|
+INPUT|usc430aw-intro-78|A4 A1 A0 A2 A3 |1581240690|usc430aw|intro:find . -maxdepth 4 -iname "*intro*.jpg" -o -iname "*intro*.jpeg" | xargs -4h 4i 4h 4rs/usc430aw/top_secret/|
+INPUT|usc430aw-intro-79|U |1581240692|usc430aw|intro:ls|answers.txt
+
+INPUT|usc430aw-intro-80|A0 A2 A3 A4 A1 |1581240744|usc430aw|intro:find . -maxdepth 4 -iname "*intro*.jpg" -o -iname "*intro*.jpeg" | xargs mv  4h 4h 4$4h 41 /top_secret/|mv: missing destination file operand after '/users/usc430aw/top_secret/'
+Try 'mv --help' for more information.
+
+INPUT|usc430aw-intro-81|M1 |1581240766|usc430aw|intro:find 4h 4/depth 4 -iname "*intro*.jpg" -o -iname "*intro*.jpeg" | xargs mv $1 /users/usc430aw/top_secret/|mv: target '/dev/136intro-2jjaj.JPEG' is not a directory
+
+INPUT|usc430aw-intro-82|U |1581240791|usc430aw|intro:ls|answers.txt
+
+INPUT|usc430aw-intro-83|M4 M3 M2 M1 M0 |1581240867|usc430aw|intro:find / -maxdepth 4 -iname "*intro*.jpg" -o -iname "*intro*.jpeg" | xargs mv $1 4h 44h 4-4h 4t 4h 4 secret/|mv: cannot remove '/.hidden/asdf136Intro-5kqlw.jpeg': Permission denied
+mv: cannot remove '/usr/share/pixmaps/xbzf136INTRO-1.jpg': Permission denied
+mv: cannot remove '/var/log/136intro-3.jpg': Permission denied
+mv: cannot remove '/etc/wuer136intro-4.JPG': Permission denied
+mv: cannot remove '/dev/136intro-2jjaj.JPEG': Permission denied
+
+INPUT|usc430aw-intro-84|A4 A1 A0 A2 A3 |1581240880|usc430aw|intro:find / -maxdepth 4 -iname "*intro*.jpg" -o -iname "*intro*.jpeg" | xargs 4h 4c4h 4psers/usc430aw/top_secret/|cp: '/users/usc430aw/top_secret/asdf136Intro-5kqlw.jpeg' and '/users/usc430aw/top_secret/asdf136Intro-5kqlw.jpeg' are the same file
+cp: '/users/usc430aw/top_secret/xbzf136INTRO-1.jpg' and '/users/usc430aw/top_secret/xbzf136INTRO-1.jpg' are the same file
+cp: '/users/usc430aw/top_secret/136intro-3.jpg' and '/users/usc430aw/top_secret/136intro-3.jpg' are the same file
+cp: '/users/usc430aw/top_secret/wuer136intro-4.JPG' and '/users/usc430aw/top_secret/wuer136intro-4.JPG' are the same file
+cp: '/users/usc430aw/top_secret/136intro-2jjaj.JPEG' and '/users/usc430aw/top_secret/136intro-2jjaj.JPEG' are the same file
+
+INPUT|usc430aw-intro-85|U |1581240884|usc430aw|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430aw-intro-86|U |1581241490|usc430aw|intro:vim answers.txt |"answers.txt" 5L 149C6n  >c./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+./dev/136intro-2jjaj.JPEG
+"answers.txt" 5L 313C written                                                                                                                                                                              ~                                                                                                                                                                                                           ~                                                                                                                                                                                                           ~                                                                                                                                                                                                           ~        
+INPUT|usc430aw-intro-87|U |1581241709|usc430aw|intro:vim answers.txt             |"answers.txt" 5L 313C6n  >c./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg  : Forbidden Planet poster with UFO
+./var/log/136intro-3.jpg16C: 3-Dimension It Came From Outer Space poster
+./etc/wuer136intro-4.JPG16C: The Fly poster
+./dev/136intro-2jjaj.JPEG15C: Godzilla poster
+
+
+INPUT|usc430aw-intro-88|U |1581241769|usc430aw|intro:vim answers.txt |"answers.txt" 5L 313C6n  >c./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg  : Forbidden Planet poster with UFO
+./var/log/136intro-3.jpg16C: 3-Dimension It Came From Outer Space poster
+./etc/wuer136intro-4.JPG16C: The Fly poster
+./dev/136intro-2jjaj.JPEG15C: Godzilla poster
+"answers.txt" 11L 627C written                                                                                                                                                                             ~                                                                                                                                                                                                           ~                                                                                                                                                                                                           ~                                                                                         
+INPUT|usc430aw-intro-89|U |1581242254|usc430aw|intro:touch diskfree.txt|
+INPUT|usc430aw-intro-90|M6 |1581242258|usc430aw|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       6272     197764   4%% /run
+/dev/sda1                                          15681948    3257712   11624288  22%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374627968 1362140288  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430aw 2031313280 1109849344  758958848  60%% /users/usc430aw
+tmpfs                                                204032          0     204032   0%% /run/user/14186
+
+INPUT|usc430aw-intro-91|M6 |1581242286|usc430aw|intro:df -H|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              1.1G   50k  1.1G   1%% /dev
+tmpfs                                             209M  6.5M  203M   4%% /run
+/dev/sda1                                          17G  3.4G   12G  22%% /
+tmpfs                                             1.1G     0  1.1G   0%% /dev/shm
+tmpfs                                             5.3M     0  5.3M   0%% /run/lock
+tmpfs                                             1.1G     0  1.1G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  3.1T  1.5T  1.4T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430aw  2.1T  1.2T  778G  60%% /users/usc430aw
+tmpfs                                             209M     0  209M   0%% /run/user/14186
+
+INPUT|usc430aw-intro-92|A6 |1581242306|usc430aw|intro:df -H > diskfree.txt |
+INPUT|usc430aw-intro-93|U |1581242317|usc430aw|intro:vim diskfree.txt |"diskfree.txt" 10L 822C6n  >cFilesystem40CSize  Used Avail Use%% Mounted on
+udev46C1.1G   50k  1.1G   1%% /dev
+tmpfs45C209M  6.5M  203M   4%% /run
+/dev/sda142C17G  3.4G   12G  22%% /
+tmpfs45C1.1G     0  1.1G   0%% /dev/shm
+tmpfs45C5.3M     0  5.3M   0%% /run/lock
+tmpfs45C1.1G     0  1.1G   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  3.1T  1.5T  1.4T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430aw  2.1T  1.2T  778G  60%% /users/usc430aw
+tmpfs45C209M     0  209M   0%% /run/user/14186
+
+
+INPUT|usc430aw-intro-94|U |1581242335|usc430aw|intro:vim answers.txt |"answers.txt" 11L 627C6n  >c./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg  : Forbidden Planet poster with UFO
+./var/log/136intro-3.jpg16C: 3-Dimension It Came From Outer Space poster
+./etc/wuer136intro-4.JPG16C: The Fly poster
+./dev/136intro-2jjaj.JPEG15C: Godzilla poster
+
+Part 2
+
+1) /var is a standard subdirectory of the root directory in Linux and other Unix-like operating systems that contains files to which the system writes data during the course of its operation.
+
+2) The /dev directory is where the user interface to kernel device drivers and other special files are located.
+"answers.txt" 15L 657C written                                                                                                                                                                             ~                                                                                                                                                                                      
+INPUT|usc430aw-intro-95|M5 |1581242408|usc430aw|intro:less /proc/cpuinfo |processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping        : 3
+microcode       : 0x5
+cpu MHz         : 2992.808
+cache size      : 2048 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips        : 5985.61
+clflush size    : 64
+cache_alignment : 128
+address sizes   : 36 bits physical 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel
+INPUT|usc430aw-intro-96|U |1581242442|usc430aw|intro:vim answers.txt |"answers.txt" 15L 657C6n  >c./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg  : Forbidden Planet poster with UFO
+./var/log/136intro-3.jpg16C: 3-Dimension It Came From Outer Space poster
+./etc/wuer136intro-4.JPG16C: The Fly poster
+./dev/136intro-2jjaj.JPEG15C: Godzilla poster
+
+Part 2
+
+1) /var is a standard subdirectory of the root directory in Linux and other Unix-like operating systems that contains files to which the system writes data during the course of its operation.
+
+2) The /dev directory is where the user interface to kernel device drivers and other special files are located.
+
+3) Info in diskfree.txt
+
+4)
+"answers.txt" 15L 670C written                                                                                                                                                                             ~                                                                                                                                                         
+INPUT|usc430aw-intro-97|U |1581242555|usc430aw|intro:python -v|# installing zipimport hook
+import zipimport # builtin
+# installed zipimport hook
+# /usr/lib/python2.7/site.pyc matches /usr/lib/python2.7/site.py
+import site # precompiled from /usr/lib/python2.7/site.pyc
+# /usr/lib/python2.7/os.pyc matches /usr/lib/python2.7/os.py
+import os # precompiled from /usr/lib/python2.7/os.pyc
+import errno # builtin
+import posix # builtin
+# /usr/lib/python2.7/posixpath.pyc matches /usr/lib/python2.7/posixpath.py
+import posixpath # precompiled from /usr/lib/python2.7/posixpath.pyc
+# /usr/lib/python2.7/stat.pyc matches /usr/lib/python2.7/stat.py
+import stat # precompiled from /usr/lib/python2.7/stat.pyc
+# /usr/lib/python2.7/genericpath.pyc matches /usr/lib/python2.7/genericpath.py
+import genericpath # precompiled from /usr/lib/python2.7/genericpath.pyc
+# /usr/lib/python2.7/warnings.pyc matches /usr/lib/python2.7/warnings.py
+import warnings # precompiled from /usr/lib/python2.7/warnings.pyc
+# /usr/lib/python2.7/linecache.pyc matches /usr/lib/python2.7/linecache.
+INPUT|usc430aw-intro-98|U |1581242579|usc430aw|intro:clear|
+
+INPUT|usc430aw-intro-99|U |1581245725|usc430aw|intro:exit|exit
+
+INPUT|usc430aw-intro-100|U |1581329213|usc430aw|server:ls|top_secret
+
+INPUT|usc430aw-intro-101|U |1581329551|usc430aw|server:ls|client.py  server.py  top_secret
+
+INPUT|usc430aw-intro-102|U |1581329566|usc430aw|server:python server.py |starting up on localhost port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430aw-intro-103|U |1581329579|usc430aw|server:python server.py |starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430aw-intro-104|U |1581329808|usc430aw|server:vim server.py |"server.py" 36L 1021C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('localhost' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+print67>8>9s10y1s2.3s4t5d6e7r8r9201'.accept()try:print >>sys.stderr 'connection from' client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(16)print >>sys.stderr 'received "%%s"' %% dataif data:print >>sys.stderr 'sending data back to the client'connection.sendall(data)else:1111CTop~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   2~@k   30-1~@k   41  ~@k   5~@k   60-1~@k   71  ~@k   8~@k   9~@k   101i -- INSERT --10110CTop11;30rL1;31rsock.bind(server_address)11110CTop0p2r3i4n5
+sock.bind(server_address)
+
+
+INPUT|usc430aw-intro-105|U |1581329875|usc430aw|server:vim server.py |"server.py" 37L 1079C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('localhost' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+print >>sys.stderr 'servername is ' str(server_address)
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()try:print >>sys.stderr 'connection from' client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(16)print >>sys.stderr 'received "%%s"' %% dataif data:print >>sys.stderr 'sending data back to the client'connection.sendall(data)1057
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 
+    connection client_address = sock.accept()
+
+    try:
+        print >>sy
+INPUT|usc430aw-intro-106|U |1581329922|usc430aw|server:4h  sudo python server.py |starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430aw-intro-107|U |1581330070|usc430aw|server:ping client    |PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.261 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.304 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.272 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.466 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=5 ttl=64 time=0.411 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=6 ttl=64 time=0.356 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=7 ttl=64 time=0.313 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=8 ttl=64 time=0.266 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=9 ttl=64 time=0.218 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=10 ttl=64 time=0.410 ms
+^C
+--- client-link0 ping statistics ---
+10 packets transmitted 10 received 0%% packet loss time 9193ms
+rtt min/avg/max/mdev = 0.218/0.327/0.466/0.078 ms
+
+INPUT|usc430aw-intro-108|U |1581330104|usc430aw|server:11Pvim server.py |"server.py" 36L 1021C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('localhost' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+"server.py" 36L 1020C written = sock.accept()try:print >>sys.stderr 'connection from' client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(16)print >>sys.stderr 'received "%%s"' %% dataif data:print >>sys.stderr 'sending data back to the client'connection.sendall(data)else:96410CTop~@k   (15C)83~@k   (15C)729~@k   (15C)834~@k   (15C)3~@k   2~@k   1~@k   0~@k   29~@k   8~@k   7~@k   6~@k   5~@k   4~@k   3~@k   2~@k   1~@k   010i   -- INSERT --82010CTop12345678' 80)' 80)' 80)' 80)' 80)' 80)' 80)' 80)' 80)01' 80)10' 
+INPUT|usc430aw-intro-109|U |1581330137|usc430aw|server:python server.py |starting up on 10.1.1.3 port 80
+waiting for a connection
+connection from ('10.1.1.2' 48514)
+received \"GET /filename.ht\"
+sending data back to the client
+received \"ml HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 48514)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430aw-intro-110|U |1581330195|usc430aw|server:vim server.py |"server.py" 36L 1020C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('10.1.1.3' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()try:print >>sys.stderr 'connection from' client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(16)print >>sys.stderr 'received "%%s"' %% dataif data:print >>sys.stderr 'sending data back to the client'connection.sendall(data)else:82710CTopi -- INSERT --82710CTop789308;30rL1;31r8111CTops2e3r4v5e6r7_8n9a10m1e23=45s6o7c8k9e20t1.2g3e4t5h6o7s8t9n30a1m2e3(4)3(()(14C)9343(14C)210298 80)print >>sys.stderr 
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1
+INPUT|usc430aw-intro-111|U |1581330267|usc430aw|server:4h  sudo python server.py |starting up on server.hw1-usc430aw-tcp.usc430.isi.deterlab.net port 80
+waiting for a connection
+connection from ('192.168.1.200' 58344)
+received \"GET /filename.ht\"
+sending data back to the client
+received \"ml HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('192.168.1.200' 58344);1581330290
+waiting for a connection
+connection from ('192.168.1.200' 58346)
+received \"GET /filename.ht\"
+sending data back to the client
+received \"ml HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('192.168.1.200' 58346)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 19 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430aw-intro-112|U |1581330320|usc430aw|server:clear|
+
+INPUT|usc430aw-intro-113|U |1581330334|usc430aw|server:exit|exit
+

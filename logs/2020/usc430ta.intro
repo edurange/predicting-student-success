@@ -1,0 +1,136 @@
+User usc430ta start time 1580889140 end 1582522210
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ta-intro-0|U |000000000|usc430ta|:|
+INPUT|usc430ta-intro-1|U |000000000|usc430ta|:|
+INPUT|usc430ta-intro-2|U |1580889140|usc430ta|intro:-s|
+INPUT|usc430ta-intro-3|U |1580889223|usc430ta|intro:exit|exit
+
+INPUT|usc430ta-intro-4|U |1580889256|usc430ta|intro:su usc430ac|Password: ;1580889257
+;1580889258
+su: Authentication failure
+
+INPUT|usc430ta-intro-5|U |1580889267|usc430ta|intro:-s|
+INPUT|usc430ta-intro-6|M2 |1580889366|usc430ta|intro:find / -name "*intro*" -and -name "*.jpg" 2>/dev/null|;1580889369
+/users/sunshine/top_secret/136intro-3.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ta-intro-7|M4 |1580889490|usc430ta|intro:find / -iname *intro*                                |/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/groups/USC430/teachers/exp/hw1/count.intro
+/users/sunshine/.emacs.d/auto-save-list/.saves-4657-intro.intron.modeling.isi.deterlab.net~
+/users/sunshine/LEGO/._intro.tex
+/users/sunshine/LEGO/intro.log
+/users/sunshine/LEGO/intro.tex
+/users/sunshine/eduscripts/intro
+/users/sunshine/eduscripts/intro/intro.ns
+/users/sunshine/deterstats/minibed/ertops/UCLAClass-RobertWoo-Intro-44271.top
+/users/sunshine/deterstats/minibed/ertops/UCLAClass-afsheen-intro-59522.top
+/users/sunshine/deterstats/minibed/ertops/UCLAClass-crudolph-intro-81700.top
+/users/sunshine/deterstats/minibed/ertops/UCLAClass-la236be-intro-29983.top
+/users/sunshine/deterstats/minibed/ertops/UCLAClass-la236bz-Intro-15369.top
+/users/sunshine/deterstats/minibed/topsall/ColoState356-Intro-55810.top
+/user
+INPUT|usc430ta-intro-8|M2 |1580889602|usc430ta|intro:find / -name "*intro*" -and -name "*.jpg"            |/users/sunshine/top_secret/136intro-3.jpg
+/users/sunshine/usc430bc/top_secret/136intro-3.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ta-intro-9|M2 |1580889740|usc430ta|intro:find / -name "*intro*" -and -name "*.jpg" 2>/dev/null|/users/sunshine/top_secret/136intro-3.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ta-intro-10|M2 |1580889783|usc430ta|intro:find / -name "*intro*" -and -name "*.jpg"            |find: '/groups/USC430/teachers/assignments/jets': Permission denied
+find: '/users/usc430tb': Permission denied
+find: '/users/sunshine/.abac': Permission denied
+find: '/users/sunshine/.aptitude': Permission denied
+find: '/users/sunshine/.cache': Permission denied
+find: '/users/sunshine/.config': Permission denied
+find: '/users/sunshine/.debtags': Permission denied
+find: '/users/sunshine/.emacs.d': Permission denied
+find: '/users/sunshine/.java': Permission denied
+find: '/users/sunshine/.libs': Permission denied
+find: '/users/sunshine/.msf3': Permission denied
+find: '/users/sunshine/.msf4': Permission denied
+find: '/users/sunshine/.python-eggs': Permission denied
+find: '/users/sunshine/.qt': Permission denied
+find: '/users/sunshine/.rpmdb': Permission denied
+find: '/users/sunshine/.saves': Permission denied
+find: '/users/sunshine/.ssh': Permission denied
+find: '/users/sunshine/.ssl': Permission denied
+find: '/users/sunshine/.subversion': Permission denied
+find: '/users/sunshine/.var': Pe
+INPUT|usc430ta-intro-11|M4 |1580889963|usc430ta|intro:find / -iname *intro*|/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/groups/USC430/teachers/exp/hw1/count.intro
+/users/sunshine/.emacs.d/auto-save-list/.saves-4657-intro.intron.modeling.isi.deterlab.net~
+^C;1580889966
+
+INPUT|usc430ta-intro-12|M4 |1580889975|usc430ta|intro:find / -iname *intro*|/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/groups/USC430/teachers/exp/hw1/count.intro
+^[OB/users/sunshine/.emacs.d/auto-save-list/.saves-4657-intro.intron.modeling.isi.deterlab.net~
+^C;1580889979
+
+INPUT|usc430ta-intro-13|M2 |1580889982|usc430ta|intro:find / -name "*intro*" -and -name "*.jpg" 2>/dev/null|/users/sunshine/top_secret/136intro-3.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ta-intro-14|U |1580890226|usc430ta|intro:cd /proj/USC430/exp/hw1-usc430ac|
+INPUT|usc430ta-intro-15|U |1580890228|usc430ta|intro:ls|archive  bin  containers  count.intro  datastore  logs	swapinfo  tbdata  tftpboot  tmp
+
+INPUT|usc430ta-intro-16|M2 |1580890236|usc430ta|intro:find / -name "*intro*" -and -name "*.jpg" 2>/dev/null|/users/sunshine/top_secret/136intro-3.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ta-intro-17|U |1580890348|usc430ta|intro:cd|
+INPUT|usc430ta-intro-18|U |1580890349|usc430ta|intro:ls|
+INPUT|usc430ta-intro-19|M4 M3 M2 M1 M0 |1580936496|usc430ta|intro:find / -iname "*intro*" -and -iname "*.jp*" 2>/dev/null|/.hidden/asdf136Intro-5kqlw.jpeg
+/users/sunshine/top_secret/136intro-3.jpg
+/users/sunshine/top_secret/wuer136intro-4.JPG
+/users/sunshine/top_secret/asdf136Intro-5kqlw.jpeg
+/users/sunshine/top_secret/136intro-2jjaj.JPEG
+/users/sunshine/top_secret/xbzf136INTRO-1.jpg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+/proj/USC430/exp/hw1-usc430bf/asdf136Intro-5kqlw.jpeg
+/proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+/proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+/proj/USC430/exp/hw1-usc430bf/top_secret/asdf136Intro-5kqlw.jpeg
+/proj/USC430/exp/hw1-usc430bf/top_secret/xbzf136INTRO-1.jpg
+/proj/USC430/exp/hw1-usc430bf/wuer136intro-4.JPG
+
+INPUT|usc430ta-intro-20|A0 A2 A3 A1 A4 |1580936626|usc430ta|intro:find / -iname "*intro*" -and -iname "*.jpeg" -and -iname "*.jpg"  2>/dev/null|
+INPUT|usc430ta-intro-21|M4 M3 M2 M1 M0 |1580936676|usc430ta|intro:find / -iname "*intro*" -and -iname "*.jp*"  2>/dev/null|/.hidden/asdf136Intro-5kqlw.jpeg
+/users/sunshine/top_secret/136intro-3.jpg
+/users/sunshine/top_secret/wuer136intro-4.JPG
+/users/sunshine/top_secret/asdf136Intro-5kqlw.jpeg
+/users/sunshine/top_secret/136intro-2jjaj.JPEG
+/users/sunshine/top_secret/xbzf136INTRO-1.jpg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/dev/136intro-2jjaj.JPEG
+/proj/USC430/exp/hw1-usc430bf/asdf136Intro-5kqlw.jpeg
+/proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+/proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+/proj/USC430/exp/hw1-usc430bf/top_secret/asdf136Intro-5kqlw.jpeg
+/proj/USC430/exp/hw1-usc430bf/top_secret/xbzf136INTRO-1.jpg
+/proj/USC430/exp/hw1-usc430bf/wuer136intro-4.JPG
+
+INPUT|usc430ta-intro-22|U |1581133800|usc430ta|intro:-s|
+INPUT|usc430ta-intro-23|U |1582521673|usc430ta|intro:-s|
+INPUT|usc430ta-intro-24|U |1582522210|usc430ta|intro:exit|exit
+

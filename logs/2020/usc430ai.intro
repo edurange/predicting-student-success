@@ -1,0 +1,227 @@
+User usc430ai start time 1580780810 end 1581026899
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ai-intro-0|U |000000000|usc430ai|:|
+INPUT|usc430ai-intro-1|U |000000000|usc430ai|:|
+INPUT|usc430ai-intro-2|U |1580780810|usc430ai|intro:ls|test.txt  thomas.png
+
+INPUT|usc430ai-intro-3|U |1580780863|usc430ai|intro:cd ..|
+INPUT|usc430ai-intro-4|U |1580780864|usc430ai|intro:cd .|
+INPUT|usc430ai-intro-5|U |1580780866|usc430ai|intro:cd ..|
+INPUT|usc430ai-intro-6|U |1580780868|usc430ai|intro:cd ..|
+INPUT|usc430ai-intro-7|M3 M2 M1 |1580780945|usc430ai|intro:find . -name *intro*|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: './tmp/systemd-private-936e6ddbfd6d4507b46e82fcc45d9792-systemd-resolved.service-Mh6VOd': Permission denied
+find: './tmp/systemd-private-936e6ddbfd6d4507b46e82fcc45d9792-systemd-timesyncd.service-DLeb0
+INPUT|usc430ai-intro-8|M2 |1580780985|usc430ai|intro:find . -name *intro*.jpg|find: './tmp/systemd-private-936e6ddbfd6d4507b46e82fcc45d9792-systemd-resolved.service-Mh6VOd': Permission denied
+find: './tmp/systemd-private-936e6ddbfd6d4507b46e82fcc45d9792-systemd-timesyncd.service-DLeb0g': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430ai-intro-9|M2 M0 |1580781023|usc430ai|intro:find . -name *.jpg|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: './tmp/systemd-private-936e6ddbfd6d4507b46e82fcc45d9792-systemd-resolved.service-Mh6VOd': Permission denied
+find: './tmp/systemd-private-936e6ddbfd6d4507b46e82fcc45d9792-systemd-timesyncd.service-DLeb0g': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: 
+INPUT|usc430ai-intro-10|M2 M0 |1580781066|usc430ai|intro:find . -name *.jpg|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+
+INPUT|usc430ai-intro-11|M4 |1580781092|usc430ai|intro:find . -name *.jpeg|./.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ai-intro-12|A1 A4 A3 A2 A0 |1580781123|usc430ai|intro:find . -name *.png |./users/usc430ai/thomas.png
+./usr/share/emacs/25.2/etc/images/tree-widget/folder/empty.png
+./usr/share/emacs/25.2/etc/images/tree-widget/folder/end-guide.png
+./usr/share/emacs/25.2/etc/images/tree-widget/folder/open.png
+./usr/share/emacs/25.2/etc/images/tree-widget/folder/leaf.png
+./usr/share/emacs/25.2/etc/images/tree-widget/folder/close.png
+./usr/share/emacs/25.2/etc/images/tree-widget/folder/no-guide.png
+./usr/share/emacs/25.2/etc/images/tree-widget/folder/guide.png
+./usr/share/emacs/25.2/etc/images/tree-widget/folder/handle.png
+./usr/share/emacs/25.2/etc/images/tree-widget/folder/no-handle.png
+./usr/share/emacs/25.2/etc/images/tree-widget/default/empty.png
+./usr/share/emacs/25.2/etc/images/tree-widget/default/end-guide.png
+./usr/share/emacs/25.2/etc/images/tree-widget/default/open.png
+./usr/share/emacs/25.2/etc/images/tree-widget/default/leaf.png
+./usr/share/emacs/25.2/etc/images/tree-widget/default/close.png
+./usr/share/emacs/25.2/etc/images/tree-widget/default/no-guide.png
+./usr/
+INPUT|usc430ai-intro-13|M2 M0 |1580781135|usc430ai|intro:find . -name *.jpg|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+
+INPUT|usc430ai-intro-14|M4 |1580781143|usc430ai|intro:find . -name *.jpeg|./.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ai-intro-15|A1 A4 A3 A2 A0 |1580781310|usc430ai|intro:find . -iname intro|^Z;1580781316
+[1]+  Stopped                 sudo find . -iname intro
+
+INPUT|usc430ai-intro-16|M4 M3 M2 M1 M0 |1580781325|usc430ai|intro:find . -iname *intro*|./.hidden/asdf136Intro-5kqlw.jpeg
+./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/doc/bash/INTRO.gz
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430ai.hw1-usc430ai.intro.csv
+./var/log/ttylog/usc430ai.hw1-
+INPUT|usc430ai-intro-17|U |1580781408|usc430ai|intro:cd users|
+INPUT|usc430ai-intro-18|U |1580781415|usc430ai|intro:cd usc430ai|
+INPUT|usc430ai-intro-19|U |1580781416|usc430ai|intro:ls|test.txt  thomas.png
+
+INPUT|usc430ai-intro-20|U |1580781444|usc430ai|intro:mkdir top_secret|
+INPUT|usc430ai-intro-21|U |1580781454|usc430ai|intro:cd top_secret|
+INPUT|usc430ai-intro-22|U |1580781491|usc430ai|intro:cp /dev/136intro-2jjaj.JPEG .|
+INPUT|usc430ai-intro-23|U |1580781492|usc430ai|intro:ls|136intro-2jjaj.JPEG
+
+INPUT|usc430ai-intro-24|U |1580781525|usc430ai|intro:cp /etc/wuer136intro-4.JPG .                 |
+INPUT|usc430ai-intro-25|U |1580781540|usc430ai|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg |cp: missing destination file operand after '/usr/share/pixmaps/xbzf136INTRO-1.jpg'
+Try 'cp --help' for more information.
+
+INPUT|usc430ai-intro-26|U |1580781543|usc430ai|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg .|
+INPUT|usc430ai-intro-27|U |1580781564|usc430ai|intro:cp /var/log/136intro-3.jpg |cp: missing destination file operand after '/var/log/136intro-3.jpg'
+Try 'cp --help' for more information.
+
+INPUT|usc430ai-intro-28|U |1580781566|usc430ai|intro:cp /var/log/136intro-3.jpg  .|
+INPUT|usc430ai-intro-29|U |1580781576|usc430ai|intro:cp /.hidden/asdf136Intro-5kqlw.jpeg |cp: missing destination file operand after '/.hidden/asdf136Intro-5kqlw.jpeg'
+Try 'cp --help' for more information.
+
+INPUT|usc430ai-intro-30|U |1580781578|usc430ai|intro:cp /.hidden/asdf136Intro-5kqlw.jpeg  .|
+INPUT|usc430ai-intro-31|U |1580781580|usc430ai|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ai-intro-32|U |1580781582|usc430ai|intro:cd ..|
+INPUT|usc430ai-intro-33|U |1580781667|usc430ai|intro:scp -r top_secret/ usc430ai@users.deterlab.net:/|;1580781739
+^Z
+[2]+  Stopped                 scp -r top_secret/ usc430ai@users.deterlab.net:/
+
+INPUT|usc430ai-intro-34|U |1580781766|usc430ai|intro:scp -r top_secret/ usc430ai@users.deterlab.net:~|^C
+
+INPUT|usc430ai-intro-35|M5 |1580782335|usc430ai|intro:cat /proc/cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.782
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5985.56
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.782
+cache size	: 2048 KB
+physical id	: 3
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 6
+initial apicid	: 
+INPUT|usc430ai-intro-36|M6 |1580782505|usc430ai|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       6056     197980   3%% /run
+/dev/sda1                                          15681948    3253124   11628876  22%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1372855424 1363912832  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ai 2031313280 1110576128  758232064  60%% /users/usc430ai
+tmpfs                                                204032          0     204032   0%% /run/user/14172
+
+INPUT|usc430ai-intro-37|A6 |1580782577|usc430ai|intro:df > diskfree.txt|
+INPUT|usc430ai-intro-38|U |1580782581|usc430ai|intro:cat diskfree.txt |Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       6056     197980   3%% /run
+/dev/sda1                                          15681948    3253132   11628868  22%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1372855424 1363912832  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430ai 2031313280 1110576128  758232064  60%% /users/usc430ai
+tmpfs                                                204032          0     204032   0%% /run/user/14172
+
+INPUT|usc430ai-intro-39|U |1580782619|usc430ai|intro:scp diskfree.txt usc430ai@users.deterlab.net:~|^C
+
+INPUT|usc430ai-intro-40|U |1581026899|usc430ai|intro:ls|diskfree.txt  test.txt	thomas.png  top_secret
+

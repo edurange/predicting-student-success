@@ -1,0 +1,2784 @@
+User usc430az start time 1579997968 end 1580863744
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430az-intro-0|U |000000000|usc430az|:|
+INPUT|usc430az-intro-1|U |000000000|usc430az|:|
+INPUT|usc430az-intro-2|U |1579997968|usc430az|intro:ls|fileaz.txt  file.txt  usc430az.txt  userfile.txt
+
+INPUT|usc430az-intro-3|U |1579998077|usc430az|intro:ls -d */|ls: cannot access '*/': No such file or directory
+
+INPUT|usc430az-intro-4|A4 A1 A3 A2 A0 |1579998180|usc430az|intro:find . -name "intro" | head -n 5|
+INPUT|usc430az-intro-5|U |1579998202|usc430az|intro:pwd|/users/usc430az
+
+INPUT|usc430az-intro-6|U |1579998211|usc430az|intro:cd|
+INPUT|usc430az-intro-7|U |1579998215|usc430az|intro:pwd|/users/usc430az
+
+INPUT|usc430az-intro-8|U |1579998218|usc430az|intro:ls|fileaz.txt  file.txt  usc430az.txt  userfile.txt
+
+INPUT|usc430az-intro-9|A0 A2 A3 A1 A4 |1579998298|usc430az|intro:find . -name "*.JPEG" | head -n 5|
+INPUT|usc430az-intro-10|A4 A1 A3 A2 A0 |1579998304|usc430az|intro:find . -name "*.JPEG"            |
+INPUT|usc430az-intro-11|A1 A4 A2 A3 A0 |1579998368|usc430az|intro:find . -name "*.JPEG" | head -n 5|
+INPUT|usc430az-intro-12|U |1579998500|usc430az|intro:--h|--h: command not found
+
+INPUT|usc430az-intro-13|U |1579998515|usc430az|intro:-help|;1579998515
+Command '-help' not found did you mean:
+
+  command 'dhelp' from deb dhelp
+
+Try: apt install <deb name>
+
+
+INPUT|usc430az-intro-14|U |1579998525|usc430az|intro:man|What manual page do you want?
+
+INPUT|usc430az-intro-15|U |1579998593|usc430az|intro:ls -a|.   .bash_history  fileaz.txt  .forward  .ssh  usc430az.txt
+..  .cache	   file.txt    .gnupg	 .ssl  userfile.txt
+
+INPUT|usc430az-intro-16|U |1579998639|usc430az|intro:pwd|/users/usc430az
+
+INPUT|usc430az-intro-17|U |1579998683|usc430az|intro:cd|
+INPUT|usc430az-intro-18|U |1579998685|usc430az|intro:ls|fileaz.txt  file.txt  usc430az.txt  userfile.txt
+
+INPUT|usc430az-intro-19|U |1579998797|usc430az|intro:cd usr|bash: cd: usr: No such file or directory
+
+INPUT|usc430az-intro-20|U |1579999120|usc430az|intro:man locate |locate(1)                   General Commands Manual                  locate(1)
+
+NAME
+       locate - find files by name
+
+SYNOPSIS
+       locate [OPTION]... PATTERN...
+
+DESCRIPTION
+       locate  reads  one or more databases prepared by updatedb(8) and writes
+       file names matching at least one of the PATTERNs  to  standard  output
+       one per line.
+
+       If  --regex is not specified PATTERNs can contain globbing characters.
+       If any PATTERN contains no globbing characters locate  behaves  as  if
+       the pattern were *PATTERN*.
+
+       By default locate does not check whether files found in database still
+       exist (but it does require all parent directories to exist if the data-
+       base  was built with --require-visibility no).  locate can never report
+       files created after the most recent update of the relevant database.
+
+EXIT STATUS
+
+
+INPUT|usc430az-intro-21|U |1579999290|usc430az|intro:man grep|GREP(1)                          User Commands                         GREP(1)
+
+NAME
+       grep egrep fgrep rgrep - print lines matching a pattern
+
+SYNOPSIS
+       grep [OPTIONS] PATTERN [FILE...]
+       grep [OPTIONS] -e PATTERN ... [FILE...]
+       grep [OPTIONS] -f FILE ... [FILE...]
+
+DESCRIPTION
+       grep  searches  for  PATTERN  in  each  FILE.  A FILE of "-" stands for
+       standard input.  If no FILE is given recursive  searches  examine  the
+       working  directory  and nonrecursive searches read standard input.  By
+       default grep prints the matching lines.
+
+       In addition the variant programs egrep fgrep and rgrep are  the  same
+       as  grep -E  grep -F  and  grep -r respectively.  These variants are
+       deprecated but are provided for backward compatibility.
+
+OPTIONS
+   Generic Program Information
+       --help Output a usage message and exit.
+
+
+INPUT|usc430az-intro-22|U |1579999303|usc430az|intro:grep intro *|
+INPUT|usc430az-intro-23|U |1579999333|usc430az|intro:grep -w intro *|
+INPUT|usc430az-intro-24|U |1579999355|usc430az|intro:grep -r intro *|
+INPUT|usc430az-intro-25|U |1579999379|usc430az|intro:pwd|/users/usc430az
+
+INPUT|usc430az-intro-26|U |1579999392|usc430az|intro:cd users|bash: cd: users: No such file or directory
+
+INPUT|usc430az-intro-27|U |1579999435|usc430az|intro:ls -a   |.   .bash_history  fileaz.txt  .forward  .ssh  usc430az.txt
+..  .cache	   file.txt    .gnupg	 .ssl  userfile.txt
+
+INPUT|usc430az-intro-28|U |1579999458|usc430az|intro:cd bash_history|bash: cd: bash_history: No such file or directory
+
+INPUT|usc430az-intro-29|U |1580011549|usc430az|intro:ls|fileaz.txt  file.txt  usc430az.txt  userfile.txt
+
+INPUT|usc430az-intro-30|U |1580011556|usc430az|intro:ls -r|userfile.txt  usc430az.txt  file.txt  fileaz.txt
+
+INPUT|usc430az-intro-31|U |1580011568|usc430az|intro:ls -r -a|userfile.txt  .ssl  .gnupg    file.txt	  .cache	 ..
+usc430az.txt  .ssh  .forward  fileaz.txt  .bash_history  .
+
+INPUT|usc430az-intro-32|U |1580011579|usc430az|intro:/usr|bash: /usr: Is a directory
+
+INPUT|usc430az-intro-33|U |1580011606|usc430az|intro:pwd|/users/usc430az
+
+INPUT|usc430az-intro-34|U |1580011658|usc430az|intro:/proj|bash: /proj: Is a directory
+
+INPUT|usc430az-intro-35|U |1580011681|usc430az|intro:/intro|bash: /intro: No such file or directory
+
+INPUT|usc430az-intro-36|U |1580011690|usc430az|intro:ls /proj|Modeling  USC430
+
+INPUT|usc430az-intro-37|U |1580011704|usc430az|intro:/USC430|bash: /USC430: No such file or directory
+
+INPUT|usc430az-intro-38|U |1580011714|usc430az|intro:ls /USC430|ls: cannot access '/USC430': No such file or directory
+
+INPUT|usc430az-intro-39|U |1580011728|usc430az|intro:ls /proj/USC430| 11		 images				    score	  team2-pass
+ 292		 intro.ns			    scoreCTF2	  team2-pass~
+ 65		 intro.sh			    scorer.conf   team3.hash
+ bd.cron	 john-1.8.0.9-jumbo-macosx_v3.zip   server	  team3-pass
+ cctf2.ns	'login?user=realuser'		    startips	  team3.stats
+ cctf.ns	'login?user=username'		    startnc	  team4-pass
+ CTF2		 logs				    start.pl	  team5-pass
+ CTF_Bank	 milestones			    start.sh	  team6-pass
+ deltas		 newdir				    tarfiles	  templates
+ exp		 nmap.ns			    team1.hash	  tiplogs
+ fixresolve.sh	 pulllogs.pl			    team1-pass	  webserver.c
+ gethashes.pl	 RED2				    team1-pass~
+ groups		 REDTEAM.info			    team1.stats
+ host.conf	 rpms				    team2.hash
+
+INPUT|usc430az-intro-40|U |1580011750|usc430az|intro:/images|bash: /images: No such file or directory
+
+INPUT|usc430az-intro-41|U |1580011754|usc430az|intro:ls /images|ls: cannot access '/images': No such file or directory
+
+INPUT|usc430az-intro-42|U |1580011769|usc430az|intro:cd images|bash: cd: images: No such file or directory
+
+INPUT|usc430az-intro-43|U |1580011773|usc430az|intro:cd /images|bash: cd: /images: No such file or directory
+
+INPUT|usc430az-intro-44|U |1580011813|usc430az|intro:ls/proj/USC430/images|bash: ls/proj/USC430/images: No such file or directory
+
+INPUT|usc430az-intro-45|U |1580011840|usc430az|intro:pwd|/users/usc430az
+
+INPUT|usc430az-intro-46|U |1580011861|usc430az|intro:ls/proj/USC430       |bash: ls/proj/USC430: No such file or directory
+
+INPUT|usc430az-intro-47|U |1580011871|usc430az|intro:/proj/USC430|bash: /proj/USC430: Is a directory
+
+INPUT|usc430az-intro-48|U |1580011875|usc430az|intro:pwd|/users/usc430az
+
+INPUT|usc430az-intro-49|U |1580011942|usc430az|intro:ls /images|ls: cannot access '/images': No such file or directory
+
+INPUT|usc430az-intro-50|U |1580011947|usc430az|intro:ls images|ls: cannot access 'images': No such file or directory
+
+INPUT|usc430az-intro-51|U |1580011953|usc430az|intro:cd /images|bash: cd: /images: No such file or directory
+
+INPUT|usc430az-intro-52|U |1580011964|usc430az|intro:ls -a|.  ..  .bash_history  .cache  fileaz.txt  file.txt  .forward  .gnupg  .ssh  .ssl  usc430az.txt	userfile.txt
+
+INPUT|usc430az-intro-53|U |1580012015|usc430az|intro:cd /proj/USC430|
+INPUT|usc430az-intro-54|U |1580012018|usc430az|intro:ls| 11	    CTF_Bank	    images			       milestones     score	    start.sh	  team2-pass    team6-pass
+ 292	    deltas	    intro.ns			       newdir	      scoreCTF2     tarfiles	  team2-pass~   templates
+ 65	    exp		    intro.sh			       nmap.ns	      scorer.conf   team1.hash	  team3.hash    tiplogs
+ bd.cron    fixresolve.sh   john-1.8.0.9-jumbo-macosx_v3.zip   pulllogs.pl    server	    team1-pass	  team3-pass    webserver.c
+ cctf2.ns   gethashes.pl   'login?user=realuser'	       RED2	      startips	    team1-pass~   team3.stats
+ cctf.ns    groups	   'login?user=username'	       REDTEAM.info   startnc	    team1.stats   team4-pass
+ CTF2	    host.conf	    logs			       rpms	      start.pl	    team2.hash	  team5-pass
+
+INPUT|usc430az-intro-55|U |1580012030|usc430az|intro:/images|bash: /images: No such file or directory
+
+INPUT|usc430az-intro-56|U |1580012035|usc430az|intro:cd /images|bash: cd: /images: No such file or directory
+
+INPUT|usc430az-intro-57|U |1580012084|usc430az|intro:images    |;1580012084
+Command 'images' not found did you mean:
+
+  command 'imagej' from deb imagej
+  command 'imagen' from deb hevea
+
+Try: apt install <deb name>
+
+
+INPUT|usc430az-intro-58|U |1580012097|usc430az|intro:cd /images|bash: cd: /images: No such file or directory
+
+INPUT|usc430az-intro-59|U |1580012103|usc430az|intro:ls /images|ls: cannot access '/images': No such file or directory
+
+INPUT|usc430az-intro-60|U |1580012116|usc430az|intro:ls -r| webserver.c   team3.stats   team1.stats   start.pl	 score	        newdir				   intro.sh	  fixresolve.sh   cctf2.ns
+ tiplogs       team3-pass    team1-pass~   startnc	 rpms	        milestones			   intro.ns	  exp		  bd.cron
+ templates     team3.hash    team1-pass    startips	 REDTEAM.info   logs				   images	  deltas	  65
+ team6-pass    team2-pass~   team1.hash    server	 RED2	       'login?user=username'		   host.conf	  CTF_Bank	  292
+ team5-pass    team2-pass    tarfiles	   scorer.conf	 pulllogs.pl   'login?user=realuser'		   groups	  CTF2		  11
+ team4-pass    team2.hash    start.sh	   scoreCTF2	 nmap.ns        john-1.8.0.9-jumbo-macosx_v3.zip   gethashes.pl   cctf.ns
+
+INPUT|usc430az-intro-61|U |1580012155|usc430az|intro:cd  |
+INPUT|usc430az-intro-62|U |1580012169|usc430az|intro:/proj/USC430/images|bash: /proj/USC430/images: Is a directory
+
+INPUT|usc430az-intro-63|U |1580012175|usc430az|intro:cd /proj/USC430/images|
+INPUT|usc430az-intro-64|U |1580012179|usc430az|intro:ls|intro.ndz  mjoseph-intro.ndz  sigs  Ubuntu-INT.ndz
+
+INPUT|usc430az-intro-65|U |1580012197|usc430az|intro:ls -a|.  ..  intro.ndz  mjoseph-intro.ndz  sigs  Ubuntu-INT.ndz
+
+INPUT|usc430az-intro-66|U |1580012217|usc430az|intro:cd|
+INPUT|usc430az-intro-67|U |1580012223|usc430az|intro:intro|intro: command not found
+
+INPUT|usc430az-intro-68|M1 |1580078939|usc430az|intro:find / -name "*.JPEG" | head -n 5|find: '/tmp/systemd-private-864e304dab7049c587824e9692f40b9e-systemd-resolved.service-qZrrj0': Permission denied
+find: '/tmp/systemd-private-864e304dab7049c587824e9692f40b9e-systemd-timesyncd.service-l2yd3D': Permission denied;1580078962
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/3
+INPUT|usc430az-intro-69|U |1580079040|usc430az|intro:cd /dev|
+INPUT|usc430az-intro-70|U |1580079041|usc430az|intro:ls|136intro-2jjaj.JPEG  fd0	loop1		    port    snapshot  tty18  tty33  tty49  tty7       ttyS20  ttyS8    vcsa3
+autofs		     full	loop2		    ppp     snd       tty19  tty34  tty5   tty8       ttyS21  ttyS9    vcsa4
+block		     fuse	loop3		    psaux   sr0       tty2   tty35  tty50  tty9       ttyS22  uhid     vcsa5
+bsg		     hpet	loop4		    ptmx    stderr    tty20  tty36  tty51  ttyprintk  ttyS23  uinput   vcsa6
+btrfs-control	     hugepages	loop5		    pts     stdin     tty21  tty37  tty52  ttyS0      ttyS24  urandom  vcsa7
+bus		     hwrng	loop6		    random  stdout    tty22  tty38  tty53  ttyS1      ttyS25  userio   vfio
+cdrom		     i2c-0	loop7		    rfkill  tty       tty23  tty39  tty54  ttyS10     ttyS26  vcs      vga_arbiter
+char		     i2c-1	loop-control	    rtc     tty0      tty24  tty4   tty55  ttyS11     ttyS27  vcs1     vhci
+console		     i2c-2	mapper		    rtc0    tty1      tty25  tty40  tty56  ttyS12     ttyS28  vcs2     vhost-net
+core		     i2c-3	mcelog		    sda     tty10     tty26  
+INPUT|usc430az-intro-71|U |1580079118|usc430az|intro:cd|
+INPUT|usc430az-intro-72|A3 A2 A0 A1 A4 |1580079144|usc430az|intro:locate *.JPEG|locate: can not stat () `/var/lib/mlocate/mlocate.db': No such file or directory
+
+INPUT|usc430az-intro-73|U |1580079370|usc430az|intro:/ grep intro *|bash: /: Is a directory
+
+INPUT|usc430az-intro-74|U |1580079437|usc430az|intro:grep intro * /|grep: /: Is a directory
+
+INPUT|usc430az-intro-75|U |1580079494|usc430az|intro:grep -r intro * /|/local/logs/intro_startcmd.status.10:NAME=intro_startcmd
+/local/logs/intro_startcmd.status.10:COMMAND=(sudo /proj/USC430/intro.sh >& /tmp/labinstall.log ; /usr/local/etc/emulab/startcmddone $?)
+/users/usc430az/.ssh/known_hosts:intro.hw1-usc430az.usc430 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAs2hwRkSsGpHiteOhs0ybgckgHndr9z26E7RMPaB0k+Lx7fHyRl2qHGBaLWv943b3QQ5hX6fNG1IXPAiFNcxAlUT6wqYpVZHrE960aqoSGgMTW1F4Oiz46XiaCHbeXbs55uD1oWseye2uYv1A767T/h8XgV4fTseDVbdaecgxeH0=
+/users/usc430az/.bash_history:ssh intro.hw1-usc430az.USC430.isi.deterlab.net
+/users/usc430az/.bash_history:ssh intro.hw1-usc430az.USC430.isi.deterlab.net
+/users/usc430az/.bash_history:find . -name "intro" | head -n 5
+/users/usc430az/.bash_history:grep intro *
+/users/usc430az/.bash_history:grep -w intro *
+/users/usc430az/.bash_history:grep -r intro *
+/users/usc430az/.bash_history:ssh intro.hw1-usc430az.USC430
+/users/usc430az/.bash_history:/intro
+/users/usc430az/.bash_history:intro
+/users/usc430az/.bash_history:intro.hw1-usc430az.USC4
+INPUT|usc430az-intro-76|U |1580095658|usc430az|intro:quota -v|;1580095658
+Command 'quota' not found but can be installed with:
+
+apt install quota
+Please ask your administrator.
+
+
+INPUT|usc430az-intro-77|A6 |1580095667|usc430az|intro:df .|Filesystem                                        1K-blocks       Used Available Use%% Mounted on
+users.isi.deterlab.net:/mnt/other/users/usc430az 2031313280 1163438976 705369216  63%% /users/usc430az
+
+INPUT|usc430az-intro-78|A6 |1580095816|usc430az|intro:df . > top_secret/diskfree.txt|
+INPUT|usc430az-intro-79|M6 |1580096126|usc430az|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  5.7M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430az  1.9T  1.1T  673G  63%% /users/usc430az
+tmpfs                                             200M     0  200M   0%% /run/user/14193
+
+INPUT|usc430az-intro-80|M6 |1580096338|usc430az|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       5832     198204   3%% /run
+/dev/sda1                                          15681948    3252844   11629156  22%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1380083968 1356684416  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430az 2031313280 1163438976  705369216  63%% /users/usc430az
+tmpfs                                                204032          0     204032   0%% /run/user/14193
+
+INPUT|usc430az-intro-81|U |1580096490|usc430az|intro:/var|bash: /var: Is a directory
+
+INPUT|usc430az-intro-82|U |1580096493|usc430az|intro:cd /var|
+INPUT|usc430az-intro-83|U |1580096495|usc430az|intro:ls|backups  cache	crash  emulab  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+
+INPUT|usc430az-intro-84|U |1580096614|usc430az|intro:cd /lib|
+INPUT|usc430az-intro-85|U |1580096616|usc430az|intro:ls|apparmor       cryptsetup  init					 lsb		 open-iscsi	udev
+console-setup  ebtables    klibc-wBFLvVtxy4xJqEadIBJMa78iJz8.so  modprobe.d	 recovery-mode	ufw
+cpp	       firmware    libhandle.so.1			 modules	 systemd	x86_64-linux-gnu
+crda	       hdparm	   libhandle.so.1.0.3			 modules-load.d  terminfo
+
+INPUT|usc430az-intro-86|U |1580096825|usc430az|intro:cd /firmware|bash: cd: /firmware: No such file or directory
+
+INPUT|usc430az-intro-87|U |1580096921|usc430az|intro:cd|
+INPUT|usc430az-intro-88|U |1580096928|usc430az|intro:/dir|bash: /dir: No such file or directory
+
+INPUT|usc430az-intro-89|U |1580096931|usc430az|intro:cd /dir|bash: cd: /dir: No such file or directory
+
+INPUT|usc430az-intro-90|U |1580096945|usc430az|intro:cd /dev|
+INPUT|usc430az-intro-91|U |1580096946|usc430az|intro:ls|136intro-2jjaj.JPEG  hpet	loop7		    sda       tty13  tty31  tty5       ttyS0   ttyS27	vcs4
+autofs		     hugepages	loop-control	    sda1      tty14  tty32  tty50      ttyS1   ttyS28	vcs5
+block		     hwrng	mapper		    sda2      tty15  tty33  tty51      ttyS10  ttyS29	vcs6
+bsg		     i2c-0	mcelog		    sda3      tty16  tty34  tty52      ttyS11  ttyS3	vcs7
+btrfs-control	     i2c-1	mem		    sg0       tty17  tty35  tty53      ttyS12  ttyS30	vcsa
+bus		     i2c-2	memory_bandwidth    sg1       tty18  tty36  tty54      ttyS13  ttyS31	vcsa1
+cdrom		     i2c-3	mqueue		    sg2       tty19  tty37  tty55      ttyS14  ttyS4	vcsa2
+char		     initctl	net		    shm       tty2   tty38  tty56      ttyS15  ttyS5	vcsa3
+console		     input	network_latency     snapshot  tty20  tty39  tty57      ttyS16  ttyS6	vcsa4
+core		     ipmi0	network_throughput  snd       tty21  tty4   tty58      ttyS17  ttyS7	vcsa5
+cpu		     kmsg	null		    sr0       tty22  tty40  tty59      ttyS18  ttyS8	vcsa6
+cpu_dma_latency      lightnvm	
+INPUT|usc430az-intro-92|U |1580097232|usc430az|intro:cd|
+INPUT|usc430az-intro-93|M6 |1580097241|usc430az|intro:df /|Filesystem     1K-blocks    Used Available Use%% Mounted on
+/dev/sda1       15681948 3252592  11629408  22%% /
+
+INPUT|usc430az-intro-94|M6 |1580097662|usc430az|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  5.8M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430az  1.9T  1.1T  673G  63%% /users/usc430az
+tmpfs                                             200M     0  200M   0%% /run/user/14193
+
+INPUT|usc430az-intro-95|A6 |1580097954|usc430az|intro:df -h > top_secret/diskfree.txt|
+INPUT|usc430az-intro-96|U |1580098053|usc430az|intro:/dev|bash: /dev: Is a directory
+
+INPUT|usc430az-intro-97|U |1580098057|usc430az|intro:cd /dev|
+INPUT|usc430az-intro-98|U |1580098058|usc430az|intro:ls|136intro-2jjaj.JPEG  hpet	loop7		    sda       tty13  tty31  tty5       ttyS0   ttyS27	vcs4
+autofs		     hugepages	loop-control	    sda1      tty14  tty32  tty50      ttyS1   ttyS28	vcs5
+block		     hwrng	mapper		    sda2      tty15  tty33  tty51      ttyS10  ttyS29	vcs6
+bsg		     i2c-0	mcelog		    sda3      tty16  tty34  tty52      ttyS11  ttyS3	vcs7
+btrfs-control	     i2c-1	mem		    sg0       tty17  tty35  tty53      ttyS12  ttyS30	vcsa
+bus		     i2c-2	memory_bandwidth    sg1       tty18  tty36  tty54      ttyS13  ttyS31	vcsa1
+cdrom		     i2c-3	mqueue		    sg2       tty19  tty37  tty55      ttyS14  ttyS4	vcsa2
+char		     initctl	net		    shm       tty2   tty38  tty56      ttyS15  ttyS5	vcsa3
+console		     input	network_latency     snapshot  tty20  tty39  tty57      ttyS16  ttyS6	vcsa4
+core		     ipmi0	network_throughput  snd       tty21  tty4   tty58      ttyS17  ttyS7	vcsa5
+cpu		     kmsg	null		    sr0       tty22  tty40  tty59      ttyS18  ttyS8	vcsa6
+cpu_dma_latency      lightnvm	
+INPUT|usc430az-intro-99|A5 |1580098062|usc430az|intro:cpu|;1580098062
+Command 'cpu' not found but can be installed with:
+
+apt install cpu
+Please ask your administrator.
+
+
+INPUT|usc430az-intro-100|A5 |1580098071|usc430az|intro:cd /cpu|bash: cd: /cpu: No such file or directory
+
+INPUT|usc430az-intro-101|A5 |1580098156|usc430az|intro:cat cpu|cat: cpu: Is a directory
+
+INPUT|usc430az-intro-102|A5 |1580098164|usc430az|intro:cd /cpu|bash: cd: /cpu: No such file or directory
+
+INPUT|usc430az-intro-103|A5 |1580098222|usc430az|intro:/cpu|bash: /cpu: No such file or directory
+
+INPUT|usc430az-intro-104|A5 |1580098226|usc430az|intro:cd cpu|
+INPUT|usc430az-intro-105|U |1580098231|usc430az|intro:ls|microcode
+
+INPUT|usc430az-intro-106|U |1580098246|usc430az|intro:cd microcode|bash: cd: microcode: Not a directory
+
+INPUT|usc430az-intro-107|U |1580098263|usc430az|intro:cd  |
+INPUT|usc430az-intro-108|A5 |1580098270|usc430az|intro:/dev/cpu_dma_latency|bash: /dev/cpu_dma_latency: Permission denied
+
+INPUT|usc430az-intro-109|A5 |1580098288|usc430az|intro:cd dev/cpu_dma_latency|bash: cd: dev/cpu_dma_latency: No such file or directory
+
+INPUT|usc430az-intro-110|U |1580098295|usc430az|intro:cd /dev|
+INPUT|usc430az-intro-111|U |1580098297|usc430az|intro:ls|136intro-2jjaj.JPEG  hpet	loop7		    sda       tty13  tty31  tty5       ttyS0   ttyS27	vcs4
+autofs		     hugepages	loop-control	    sda1      tty14  tty32  tty50      ttyS1   ttyS28	vcs5
+block		     hwrng	mapper		    sda2      tty15  tty33  tty51      ttyS10  ttyS29	vcs6
+bsg		     i2c-0	mcelog		    sda3      tty16  tty34  tty52      ttyS11  ttyS3	vcs7
+btrfs-control	     i2c-1	mem		    sg0       tty17  tty35  tty53      ttyS12  ttyS30	vcsa
+bus		     i2c-2	memory_bandwidth    sg1       tty18  tty36  tty54      ttyS13  ttyS31	vcsa1
+cdrom		     i2c-3	mqueue		    sg2       tty19  tty37  tty55      ttyS14  ttyS4	vcsa2
+char		     initctl	net		    shm       tty2   tty38  tty56      ttyS15  ttyS5	vcsa3
+console		     input	network_latency     snapshot  tty20  tty39  tty57      ttyS16  ttyS6	vcsa4
+core		     ipmi0	network_throughput  snd       tty21  tty4   tty58      ttyS17  ttyS7	vcsa5
+cpu		     kmsg	null		    sr0       tty22  tty40  tty59      ttyS18  ttyS8	vcsa6
+cpu_dma_latency      lightnvm	
+INPUT|usc430az-intro-112|A5 |1580098305|usc430az|intro:cd cpu_dma_latency |bash: cd: cpu_dma_latency: Not a directory
+
+INPUT|usc430az-intro-113|U |1580098398|usc430az|intro:cd|
+INPUT|usc430az-intro-114|U |1580098400|usc430az|intro:/|bash: /: Is a directory
+
+INPUT|usc430az-intro-115|U |1580098408|usc430az|intro:ls /|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430az-intro-116|U |1580098420|usc430az|intro:cd proc|bash: cd: proc: No such file or directory
+
+INPUT|usc430az-intro-117|U |1580098425|usc430az|intro:cd /proc|
+INPUT|usc430az-intro-118|U |1580098426|usc430az|intro:ls|1     1139  1714  2076	216   27   39	440  617  98	       fb	    kpageflags	  scsi		     vmallocinfo
+10    1151  1716  2078	2163  28   4	45   634  99	       filesystems  loadavg	  self		     vmstat
+100   119   1728  2080	218   30   40	453  7	  acpi	       fs	    locks	  slabinfo	     zoneinfo
+1009  12    1734  2094	219   303  41	459  747  buddyinfo    interrupts   mdstat	  softirqs
+101   13    18	  2095	22    31   413	46   8	  bus	       iomem	    meminfo	  stat
+1016  136   19	  2096	220   32   419	47   820  cgroups      ioports	    misc	  swaps
+1019  14    1906  2099	223   33   42	48   836  cmdline      ipmi	    modules	  sys
+102   1492  1915  21	2253  336  420	49   845  consoles     irq	    mounts	  sysrq-trigger
+1021  15    1922  2100	2316  34   421	50   873  cpuinfo      kallsyms     mpt		  sysvipc
+1049  1528  2	  2102	24    35   428	501  9	  crypto       kcore	    mtrr	  thread-self
+105   1532  20	  2105	25    36   43	51   905  devices      keys	    net		  timer_list
+1063  1540  20
+INPUT|usc430az-intro-119|M5 |1580098444|usc430az|intro:cat cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.795
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5985.59
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.795
+cache size	: 2048 KB
+physical id	: 3
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 6
+initial apicid	: 
+INPUT|usc430az-intro-120|U |1580098529|usc430az|intro:cd               |
+INPUT|usc430az-intro-121|M5 |1580098532|usc430az|intro:cat /proc/cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.795
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5985.59
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.795
+cache size	: 2048 KB
+physical id	: 3
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 6
+initial apicid	: 
+INPUT|usc430az-intro-122|U |1580663302|usc430az|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.573 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.194 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.305 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.241 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=5 ttl=64 time=0.378 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=6 ttl=64 time=0.282 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=7 ttl=64 time=0.432 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=8 ttl=64 time=0.319 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=9 ttl=64 time=0.469 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=10 ttl=64 time=0.351 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=11 ttl=64 time=0.513 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=12 ttl=64 time=0.141 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=13 ttl=64 time=0.331 ms
+64 bytes from client-l
+INPUT|usc430az-intro-123|U |1580664809|usc430az|server:scp server.py usc430az@users.deterlab.net:server.py|^C
+
+INPUT|usc430az-intro-124|U |1580665595|usc430az|server:18Ppython server.py           |python: can't open file 'server.py': [Errno 2] No such file or directory
+
+INPUT|usc430az-intro-125|U |1580665609|usc430az|server:python ./server.py|python: can't open file './server.py': [Errno 2] No such file or directory
+
+INPUT|usc430az-intro-126|U |1580665613|usc430az|server:ls|client.py  fileaz.txt  file.txt  top_secret  usc430az.txt  userfile.txt
+
+INPUT|usc430az-intro-127|U |1580665731|usc430az|server:scp server.py usc430az@users.deterlab.net:server.py|^C
+
+INPUT|usc430az-intro-128|U |1580665789|usc430az|server:ls|client.py  fileaz.txt  file.txt  server.py  top_secret	usc430az.txt  userfile.txt
+
+INPUT|usc430az-intro-129|U |1580665802|usc430az|server:python server.py|  File \"server.py\" line 8
+SyntaxError: Non-ASCII character '\â' in file server.py on line 8 but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+INPUT|usc430az-intro-130|U |1580665814|usc430az|server:python ./server.py|  File \"./server.py\" line 8
+SyntaxError: Non-ASCII character '\â' in file ./server.py on line 8 but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+INPUT|usc430az-intro-131|U |1580666002|usc430az|server:python server.py|  File \"server.py\" line 24
+    while True:
+    ^
+IndentationError: unexpected indent
+
+INPUT|usc430az-intro-132|U |1580666239|usc430az|server:python server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430az-intro-133|U |1580666252|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-134|U |1580666745|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt;1580666839
+
+INPUT|usc430az-intro-135|U |1580666914|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-136|U |1580667392|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-137|U |1580667521|usc430az|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.516 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.315 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.453 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.365 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=5 ttl=64 time=0.526 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=6 ttl=64 time=0.160 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=7 ttl=64 time=0.295 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=8 ttl=64 time=0.202 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=9 ttl=64 time=0.357 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=10 ttl=64 time=0.250 ms
+^C
+--- client-link0 ping statistics ---
+10 packets transmitted 10 received 0%% packet loss time 9199ms
+rtt min/avg/max/mdev = 0.160/0.343/0.526/0.121 ms
+
+INPUT|usc430az-intro-138|U |1580667782|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+waiting for a connection        
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-139|U |1580668044|usc430az|server:ls|client.py  fileaz.txt  file.txt  server.py  top_secret	usc430az.txt  userfile.txt
+
+INPUT|usc430az-intro-140|U |1580668051|usc430az|server:python server.py|  File \"server.py\" line 34
+    finally:
+    ^
+IndentationError: unexpected unindent
+
+INPUT|usc430az-intro-141|U |1580668140|usc430az|server:python server.py|  File \"server.py\" line 35
+    connection.close()
+             ^
+IndentationError: expected an indented block
+
+INPUT|usc430az-intro-142|U |1580668229|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 44922)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 44922)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-143|U |1580678560|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 58578)
+received \"\"
+no more data from ('10.1.1.2' 58578)
+waiting for a connection
+connection from ('10.1.1.2' 58580)
+received \"\"
+no more data from ('10.1.1.2' 58580)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+yAsc430az@server:~$ s40Pudo python server.py0az@users.deterlab.net:test_cilent.py
+A
+
+INPUT|usc430az-intro-144|U |1580679381|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 58590)
+received \"\"
+no more data from ('10.1.1.2' 58590)
+waiting for a connection
+connection from ('10.1.1.2' 58592)
+received \"\"
+no more data from ('10.1.1.2' 58592)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-145|U |1580680586|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 58610)
+received \"\"
+no more data from ('10.1.1.2' 58610)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt;1580680717
+
+INPUT|usc430az-intro-146|U |1580680741|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 58612)
+received \"\"
+no more data from ('10.1.1.2' 58612)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt;1580680946
+
+INPUT|usc430az-intro-147|U |1580680963|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 58614)
+received \"GET filename.htm\"
+sending data back to the client
+received \"l HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 58614)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-148|U |1580682304|usc430az|server:python test_server.py|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-149|U |1580682349|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 58636)
+received \"GET filename.htm\"
+sending data back to the client
+received \"l HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2' 58636)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-150|U |1580682493|usc430az|server:python server.py|starting up on server port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-151|U |1580682501|usc430az|server:python test_server.py|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-152|U |1580682715|usc430az|server:python test_server.py|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-153|U |1580682888|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 58650);1580682899
+received \"GET filename.htm\";1580682907
+['GET' 'filename.htm']
+sending data back to the client
+received \"l HTTP/1.1\"
+['l' 'HTTP/1.1']
+sending data back to the client
+received \"\";1580682907
+[]
+no more data from ('10.1.1.2' 58650)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-154|U |1580683049|usc430az|server:ls|client.py   file.txt   test_client.py  top_secret    userfile.txt
+fileaz.txt  server.py  test_server.py  usc430az.txt
+
+INPUT|usc430az-intro-155|U |1580683057|usc430az|server:cat test_server.py|import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()
+
+    try:
+        print >>sys.stderr 'connection from' client_address
+        
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv()
+            print >>sys.stderr 'received \"%%s\"' %% data
+            print(data.split())
+            if data:
+                print >>sys.stderr 'sending data back to the client'
+                connection.sendall(data)
+            else:
+                print >>sys.stderr 'no more data from' client_address
+                break
+    finally:
+        # 
+INPUT|usc430az-intro-156|U |1580683069|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 58652)
+Traceback (most recent call last):
+  File \"test_server.py\" line 25 in <module>
+    data = connection.recv()
+TypeError: recv() takes at least 1 argument (0 given)
+
+INPUT|usc430az-intro-157|U |1580683290|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 58654)
+received \"GET filename.html HTTP/1.1\"
+['GET' 'filename.html' 'HTTP/1.1']
+sending data back to the client
+received \"\"
+[]
+no more data from ('10.1.1.2' 58654)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-158|U |1580683417|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 58656)
+received \"GET filename.html HTTP/1.1\"
+['GET' 'filename.html' 'HTTP/1.1']
+sending data back to the client
+received \"\"
+[]
+no more data from ('10.1.1.2' 58656)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-159|U |1580683560|usc430az|server:ls|client.py   file.txt   test_client.py  top_secret    userfile.txt
+fileaz.txt  server.py  test_server.py  usc430az.txt
+
+INPUT|usc430az-intro-160|U |1580683567|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 58666)
+received \"GET filename.html HTTP/1.1\"
+['GET' 'filename.html' 'HTTP/1.1']
+sending data back to the client
+received \"\"
+[]
+no more data from ('10.1.1.2' 58666)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-161|U |1580688252|usc430az|server:python test_server.py |starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47174)
+received \"GET filename.html HTTP/1.1\"
+['GET' 'filename.html' 'HTTP/1.1']
+('Client request ' 'filename.html')
+sending data back to the client
+received \"\"
+[]
+Traceback (most recent call last):
+  File \"test_server.py\" line 29 in <module>
+    print('Client request ' received_data[1])
+IndexError: list index out of range
+
+INPUT|usc430az-intro-162|U |1580689433|usc430az|server:python test_server.py |  File \"test_server.py\" line 45
+    if(received_data.endswith(\".html\"));
+                                       ^
+SyntaxError: invalid syntax
+
+INPUT|usc430az-intro-163|U |1580689482|usc430az|server:python test_server.py |  File \"test_server.py\" line 52
+    response = '<html>
+                     ^
+SyntaxError: EOL while scanning string literal
+
+INPUT|usc430az-intro-164|U |1580689536|usc430az|server:python test_server.py |  File \"test_server.py\" line 52
+    response = '<html>
+                     ^
+SyntaxError: EOL while scanning string literal
+
+INPUT|usc430az-intro-165|U |1580689549|usc430az|server:ls|client.py   file.txt   test_client.py  top_secret    userfile.txt
+fileaz.txt  server.py  test_server.py  usc430az.txt
+
+INPUT|usc430az-intro-166|U |1580689562|usc430az|server:rm test_server.py|
+INPUT|usc430az-intro-167|U |1580689564|usc430az|server:ls|client.py   file.txt   test_client.py  usc430az.txt
+fileaz.txt  server.py  top_secret      userfile.txt
+
+INPUT|usc430az-intro-168|U |1580689604|usc430az|server:python test_server.py |  File \"test_server.py\" line 52
+    response = '<html>
+                     ^
+SyntaxError: EOL while scanning string literal
+
+INPUT|usc430az-intro-169|U |1580689696|usc430az|server:python test_server.py |  File \"test_server.py\" line 59
+    
+    ^
+IndentationError: unexpected unindent
+
+INPUT|usc430az-intro-170|U |1580689730|usc430az|server:python test_server.py |  File \"test_server.py\" line 57
+    
+                                  ^
+IndentationError: unexpected unindent
+
+INPUT|usc430az-intro-171|U |1580689764|usc430az|server:python test_server.py |  File \"test_server.py\" line 57
+    
+                                  ^
+IndentationError: unexpected unindent
+
+INPUT|usc430az-intro-172|U |1580689774|usc430az|server:cat test_server.py|import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()
+
+    try:
+        print >>sys.stderr 'connection from' client_address
+        
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv(1024) #changed from 16
+            print >>sys.stderr 'received \"%%s\"' %% data
+            received_data = data.split()
+            print(received_data)
+            print('Client request ' received_data[1])
+                # if data:
+                #  print >>sys.stderr 'sending data back to the client'
+                # connection.sendall(data)
+     
+INPUT|usc430az-intro-173|U |1580689835|usc430az|server:ls|client.py   file.txt   test_client.py  top_secret    userfile.txt
+fileaz.txt  server.py  test_server.py  usc430az.txt
+
+INPUT|usc430az-intro-174|U |1580689918|usc430az|server:python test_server.py |  File \"test_server.py\" line 57
+    
+                                  ^
+IndentationError: unexpected unindent
+
+INPUT|usc430az-intro-175|U |1580689999|usc430az|server:python test_server.py|  File \"test_server.py\" line 56
+    connection.close()
+             ^
+SyntaxError: invalid syntax
+
+INPUT|usc430az-intro-176|U |1580690095|usc430az|server:python test_server.py|  File \"test_server.py\" line 57
+    
+                              ^
+IndentationError: unexpected unindent
+
+INPUT|usc430az-intro-177|U |1580690331|usc430az|server:python test_server.py|  File \"test_server.py\" line 56
+    connection.close()
+    ^
+IndentationError: unexpected unindent
+
+INPUT|usc430az-intro-178|U |1580690349|usc430az|server:cat test_server.py|import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()
+
+    try:
+        print >>sys.stderr 'connection from' client_address
+        
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv(1024) #changed from 16
+            print >>sys.stderr 'received \"%%s\"' %% data
+            received_data = data.split()
+            print(received_data)
+            print('Client request ' received_data[1])
+                # if data:
+                #  print >>sys.stderr 'sending data back to the client'
+                # connection.sendall(data)
+     
+INPUT|usc430az-intro-179|U |1580690421|usc430az|server:python test_server.py|  File \"test_server.py\" line 57
+    
+                              ^
+IndentationError: unexpected unindent
+
+INPUT|usc430az-intro-180|U |1580690523|usc430az|server:python test_server.py|  File \"test_server.py\" line 57
+    finally:
+          ^
+SyntaxError: invalid syntax
+
+INPUT|usc430az-intro-181|U |1580690584|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47200)
+received \"GET filename.html HTTP/1.1\"
+['GET' 'filename.html' 'HTTP/1.1']
+('Client request ' 'filename.html')
+received \"\"
+[]
+Traceback (most recent call last):
+  File \"test_server.py\" line 29 in <module>
+    print('Client request ' received_data[1])
+IndexError: list index out of range
+
+INPUT|usc430az-intro-182|U |1580691144|usc430az|server:cd /temp|bash: cd: /temp: No such file or directory
+
+INPUT|usc430az-intro-183|U |1580691149|usc430az|server:cd /tmp|
+INPUT|usc430az-intro-184|U |1580691151|usc430az|server:ls|systemd-private-18250a7b13c140dd8a8036e8be2fbb1a-systemd-resolved.service-DsBUhk
+systemd-private-18250a7b13c140dd8a8036e8be2fbb1a-systemd-timesyncd.service-BuErgU
+
+INPUT|usc430az-intro-185|U |1580691471|usc430az|server:cdd|;1580691471
+Command 'cdd' not found did you mean:
+
+  command 'cdw' from deb cdw
+  command 'cdv' from deb codeville
+  command 'cde' from deb cde
+  command 'cdp' from deb irpas
+  command 'tdd' from deb devtodo
+  command 'cdo' from deb cdo
+  command 'cdde' from deb cdde
+  command 'cdb' from deb tinycdb
+  command 'cdi' from deb cdo
+  command 'cdcd' from deb cdcd
+  command 'dd' from deb coreutils
+  command 'ddd' from deb ddd
+  command 'cd5' from deb cd5
+  command 'ldd' from deb libc-bin
+  command 'pdd' from deb pdd
+
+Try: apt install <deb name>
+
+
+INPUT|usc430az-intro-186|U |1580691473|usc430az|server:cd|
+INPUT|usc430az-intro-187|U |1580691478|usc430az|server:python test_server.py|  File \"test_server.py\" line 30
+    if not data: break
+    ^
+IndentationError: unexpected indent
+
+INPUT|usc430az-intro-188|U |1580691527|usc430az|server:python test_server.py|  File \"test_server.py\" line 30
+    if not data:
+    ^
+IndentationError: unexpected indent
+
+INPUT|usc430az-intro-189|U |1580691579|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47212)
+received \"GET filename.html HTTP/1.1\"
+['GET' 'filename.html' 'HTTP/1.1']
+('Client request ' 'filename.html')
+received \"\"
+[]
+Traceback (most recent call last):
+  File \"test_server.py\" line 29 in <module>
+    print('Client request ' received_data[1])
+IndexError: list index out of range
+
+INPUT|usc430az-intro-190|U |1580691861|usc430az|server:python test_server.py|  File \"test_server.py\" line 25
+    data = connection.recv(1024) #changed from 16
+    ^
+IndentationError: unexpected indent
+
+INPUT|usc430az-intro-191|U |1580691904|usc430az|server:python test_server.py|  File \"test_server.py\" line 40
+    try:
+    ^
+IndentationError: unexpected indent
+
+INPUT|usc430az-intro-192|U |1580691927|usc430az|server:python test_server.py|  File \"test_server.py\" line 57
+    finally:
+    ^
+IndentationError: unexpected unindent
+
+INPUT|usc430az-intro-193|U |1580691975|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 47222)
+received \"GET filename.html HTTP/1.1\"
+['GET' 'filename.html' 'HTTP/1.1']
+('Client request ' 'filename.html')
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-194|U |1580774373|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42168)
+received \"GET filename.html HTTP/1.1\"
+['GET' 'filename.html' 'HTTP/1.1'];1580774416
+('Client request ' 'filename.html')
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-195|U |1580774865|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42178)
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 25 in <module>
+    data = connection.recv(1024) #changed from 16
+KeyboardInterrupt
+
+INPUT|usc430az-intro-196|U |1580775001|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-197|U |1580775008|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-198|U |1580775018|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-199|U |1580775032|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-200|U |1580775035|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-201|U |1580775044|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-202|U |1580775057|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-203|U |1580775072|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-204|U |1580775106|usc430az|server:ls lsof -i tcp:80|ls: cannot access 'lsof': No such file or directory
+ls: cannot access 'tcp:80': No such file or directory
+
+INPUT|usc430az-intro-205|U |1580775118|usc430az|server:lsof -i tcp:80|
+INPUT|usc430az-intro-206|U |1580775128|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42180)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-207|U |1580775189|usc430az|server:ls|client.py   file.txt   test_client.py  top_secret    userfile.txt
+fileaz.txt  server.py  test_server.py  usc430az.txt
+
+INPUT|usc430az-intro-208|U |1580775197|usc430az|server:vim test_server.py |"test_server.py" 60L 1923C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+# Receive the data in small chunks and retransmit it# while True:data = connection.recv(1024) #changed from 16print >>sys.stderr 'received "%%s"' %% datareceived
+INPUT|usc430az-intro-209|U |1580775240|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42182)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-210|U |1580775275|usc430az|server:vim test_server.py |"test_server.py" 61L 1949C½6n  >c# if data:#  print >>sys.stderr 'sending data back to the client'# connection.sendall(data)#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")file = open(received_data[1] 'rb')response = file.read()file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+# if data:#  print >>sys.stderr 'sending data back to the client'# connection.sendall(data)#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")file = open(received_data[1] 'rb')response = file.read()file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Excep
+INPUT|usc430az-intro-211|U |1580775350|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42192)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-212|U |1580775384|usc430az|server:vim test_server.py |"test_server.py" 61L 1956C½6n  >c# connection.sendall(data)#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")file = open("/tmp"+received_data[1] 'rb')response = file.read()file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+# connection.sendall(data)#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")file = open("/tmp"+received_data[1] 'rb')response = file.read()file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 62L 1984C written@k  ()424~@k   ()331~@k   2~@k   ()3~@k
+INPUT|usc430az-intro-213|U |1580775404|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-214|U |1580775411|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-215|U |1580775418|usc430az|server:ls lsof -i tcp:80|ls: cannot access 'lsof': No such file or directory
+ls: cannot access 'tcp:80': No such file or directory
+
+INPUT|usc430az-intro-216|U |1580775428|usc430az|server:lsof -i tcp:80|
+INPUT|usc430az-intro-217|U |1580775434|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42194)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-218|U |1580775467|usc430az|server:vim test_server.py |"test_server.py" 62L 1984C½6n  >c#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")file = open("/tmp"+received_data[1] 'rb')response = file.read()print(response)file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")file = open("/tmp"+received_data[1] 'rb')response = file.read()print(response)file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 62L 1985C written3>Error)()524~@k   ()6~@k   7~@k   6~@k  ()5~@k   ()4~@k   3~
+INPUT|usc430az-intro-219|U |1580775518|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42196)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-220|U |1580775548|usc430az|server:vim test_server.py |"test_server.py" 62L 1985C½6n  >c#  print >>sys.stderr 'sending data back to the client'# connection.sendall(data)#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")file = open("/tmp/"+received_data[1] 'rb')response = file.read()print(response)file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+#  print >>sys.stderr 'sending data back to the client'# connection.sendall(data)#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")file = open("/tmp/"+received_data[1] 'rb')response = file.read()print(response)file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE N
+INPUT|usc430az-intro-221|U |1580775611|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42198)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-222|U |1580775666|usc430az|server:vim test_server.py |"test_server.py" 64L 2041C½6n  >c#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)file = open(path 'rb')response = file.read()print(response)file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)file = open(path 'rb')response = file.read()print(response)file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 64L 2041C~@k   5
+INPUT|usc430az-intro-223|U |1580775925|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42200)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-224|U |1580775948|usc430az|server:vim test_server.py |"test_server.py" 64L 2069C½6n  >c#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)file = open(path 'rb')response = file.read()print(" Contents are : " + response + "
+")file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)file = open(path 'rb')response = file.read()print(" Contents are : " + response + "
+")file.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 64L 2069C~@k   (36C)()724~@k   ()6~@k   5~@k   3~@k   2~@k   4~@k   1~@k   0~@k   19~@k   
+INPUT|usc430az-intro-225|U |1580776013|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42210)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+waiting for a connection
+;1580776032
+;1580776032
+;1580776033
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-226|U |1580776036|usc430az|server:vim test_server.py |"test_server.py" 65L 2106C½6n  >c# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)#file = open(path 'rb')with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")f.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)#file = open(path 'rb')with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")f.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 65L 2106C~@k   7~@k   6~@k   5~@k   4~@k   3~@k   4~@k   4~@k   5~@k   4i -- INSERT --4(path)6
+INPUT|usc430az-intro-227|U |1580776104|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42212)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-228|U |1580776121|usc430az|server:vim test_server.py |"test_server.py" 66L 2141C½6n  >c# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)#file = open(path 'rb')with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)#file = open(path 'rb')with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.st
+INPUT|usc430az-intro-229|U |1580776169|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-230|U |1580776175|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42214)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-231|U |1580776194|usc430az|server:vim test_server.py |"test_server.py" 65L 2104C½6n  >cprint("Here")path = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+print("Here")path = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+
+
+INPUT|usc430az-intro-232|U |1580776232|usc430az|server:vim /tmp/index.html|
+
+INPUT|usc430az-intro-233|U |1580776238|usc430az|server:vim /tmp/index.html|
+
+INPUT|usc430az-intro-234|U |1580776248|usc430az|server:vim /tmp/index.html|"/tmp/index.html" [New] 4L 65C written --0111CAlla12d3g4s5jdhs9f10h1d2k3f421 d2h3s4h5df7k8d9s10j1f2l3j4k5d6s7f8j9s20d1l2j3k4g531 a2d3h4s5h6f7jl9k10d1j2f341 h2s3d4j5f6h7s8k9f10h1k2d3^[  41210CAll::wq
+
+
+INPUT|usc430az-intro-235|U |1580776259|usc430az|server:ls|client.py   file.txt   test_client.py  top_secret    userfile.txt
+fileaz.txt  server.py  test_server.py  usc430az.txt
+
+INPUT|usc430az-intro-236|U |1580776264|usc430az|server:vim /tmp/index.html|"/tmp/index.html" 4L 65C½6n  >cadgsjdhsfhdkf
+dhshdfkdsjfljkdsfjsdljkg
+adhshfjlkdjf
+hsdjfhskfhkd
+adgsjdhsfhdkf
+dhshdfkdsjfljkdsfjsdljkg
+adhshfjlkdjf
+hsdjfhskfhkd
+
+
+INPUT|usc430az-intro-237|U |1580776272|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42216)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+ Contents are : adgsjdhsfhdkf
+dhshdfkdsjfljkdsfjsdljkg
+adhshfjlkdjf
+hsdjfhskfhkd
+
+
+ iHere1  
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-238|U |1580776309|usc430az|server:vim test_server.py |"test_server.py" 65L 2104C½6n  >cpath = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+path = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'if(received_data.endswith(".html")):_type = 'text/html'header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 65L 2104C~@k   41  ~@k   5~@k   6~@k   7~@k   8~@k   7~@k   6~@k   5~@k   4~@k   5~@k   6~@k   7~@k   8~@k   1;23rcode('utf-8')final_response += responseconnection.send(final_response)finally:# Clean up the connection530-1
+import sock
+INPUT|usc430az-intro-239|U |1580776536|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 42218)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html');1580776545
+Here
+/tmp/index.html
+ Contents are : adgsjdhsfhdkf
+dhshdfkdsjfljkdsfjsdljkg
+adhshfjlkdjf
+hsdjfhskfhkd
+
+
+ iHere1  
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-240|U |1580776679|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-241|U |1580776785|usc430az|server:vim test_server.py |"test_server.py" 65L 2120C½6n  >cprint("Here")path = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+print("Here")path = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 65L 2120C~@k   1~@k   0~@k   49~@k   87~@k   6~@k   1;23rL1;24rtry:4513
+1;24r#    print >>sys.stderr 'no more data from' client_address2913
+1;24r#   break3013
+1;24r#finally:3113
+1;24r# Clean up 
+INPUT|usc430az-intro-242|U |1580779803|usc430az|server:python test_client.py|Traceback (most recent call last):
+  File \"test_client.py\" line 9 in <module>
+    server_address = (sys.argv[1] 80)
+IndexError: list index out of range
+
+INPUT|usc430az-intro-243|U |1580779814|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 36176)
+received \"GET filename.html HTTP/1.1\"
+['GET' 'filename.html' 'HTTP/1.1']
+('Client request ' 'filename.html')
+Here
+/tmp/filename.html
+waiting for a connection
+connection from ('10.1.1.2' 36178)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-244|U |1580779912|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-245|U |1580779957|usc430az|server:lsof -i tcp:80|
+INPUT|usc430az-intro-246|U |1580779965|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 36180)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-247|U |1580780019|usc430az|server:vim test_server.py |"test_server.py" 65L 2120C½6n  >cwith open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 65L 2120C~@k   41  ~@k   3~@k   2~@k   10-1~@k   01  ~@k   59~@k   8~@k   7~@k   6~@k   5~@k   4~@k   30-1~@k   21  ~@k   1~@k   0~@k   49~@k   1;23rL1;24rprint(path)48110C97%%~@k   1;23rL1;24rpath = "/tmp/"+received_data[1].strip()47110C95%%~@k   1;23rL1;24rprint("Here")46110C93%%~@k   1;23rL1;24rtry:45110C90%%~@k   1
+INPUT|usc430az-intro-248|U |1580780080|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 36182)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-249|U |1580780102|usc430az|server:vim test_server.py |"test_server.py" 65L 2120C½6n  >cwith open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 65L 2120C~@k   41  ~@k   3~@k   2~@k   10-1~@k   01  ~@k   59~@k   8~@k   7~@k   6~@k   5~@k   4~@k   30-1~@k   21  ~@k   1~@k   0~@k   49~@k   1;23rL1;24rprint(path)48110C97%%~@k   1;23rL1;24rpath = "/tmp/"+received_data[1].strip()47110C95%%~@k   1;23rL1;24rprint("Here")46110C93%%~@k   1;23rL1;24rtry:45110C90%%~@k   1
+INPUT|usc430az-intro-250|U |1580780251|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 36184)
+received \"GET file1.html HTTP/1.1\"
+['GET' 'file1.html' 'HTTP/1.1']
+('Client request ' 'file1.html')
+Here
+/tmp/file1.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-251|U |1580780351|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 36194)
+received \"GET file1.html HTTP/1.1\"
+['GET' 'file1.html' 'HTTP/1.1']
+('Client request ' 'file1.html')
+Here
+/tmp/file1.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-252|U |1580780419|usc430az|server:python test_server.py|starting up on server port 80
+Traceback (most recent call last):
+  File \"test_server.py\" line 10 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 98] Address already in use
+
+INPUT|usc430az-intro-253|U |1580780428|usc430az|server:12Plsof -i tcp:80server.py|
+INPUT|usc430az-intro-254|U |1580780432|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-255|U |1580780439|usc430az|server:vim test_server.py .py|"test_server.py" 65L 2120C½6n  >cwith open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 65L 2120C~@k   41  ~@k   3~@k   210-1~@k   01  59~@k   87~@k   65~@k   4~@k   30-1~@k   21  ~@k   1~@k   0~@k   49~@k   1;23rL1;24rprint(path)48110C97%%~@k   1;23rL1;24rpath = "/tmp/"+received_data[1].strip()47110C95%%~@k   1;23rL1;24rprint("Here")46110C93%%~@k   1;23rL1;24rtry:45110C90%%~@k   1;23rL1;24r44110C88%%1;23
+INPUT|usc430az-intro-256|U |1580780576|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 36196)
+received \"GET file1.html HTTP/1.1\"
+['GET' 'file1.html' 'HTTP/1.1']
+('Client request ' 'file1.html')
+Here
+/tmp/file1.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-257|U |1580789195|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56400)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-258|U |1580789684|usc430az|server:vim test_server.py|"test_server.py" 65L 2120C½6n  >cwith open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 65L 2120C35C650-1
+1;24rfinal_response = header.encode('utf-8')5417
+1;24rfinal_response += response5517
+1;24rconnection.send(final_response)5617
+1;24r# Clean up the connection5817
+1;24rconnection.close()5917
+1;24r6017
+1;24rwith open(path) as f:390-1
+1;24rresponse = f.read()4012
+1;24rprint(" Contents are : " + response +
+INPUT|usc430az-intro-259|U |1580789806|usc430az|server:vim test_server.py|"test_server.py" 65L 2120C½6n  >cwith open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 65L 2120C~@k   41  ~@k   3~@k   2~@k   10-1~@k   01  ~@k   59~@k   8~@k   7~@k   6~@k   5~@k   4~@k   30-1~@k   21  ~@k   1~@k   0~@k   49~@k   1;23rL1;24rprint(path)48110C97%%~@k   1;23rL1;24rpath = "/tmp/"+received_data[1].strip()47110C95%%~@k   1;23rL1;24rprint("Here")46110C93%%~@k   1;23rL1;24rtry:45110C90%%~@k   1
+INPUT|usc430az-intro-260|U |1580790205|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56410)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-261|U |1580790242|usc430az|server:ls|client.py   file.txt   test_client.py  top_secret    userfile.txt
+fileaz.txt  server.py  test_server.py  usc430az.txt
+
+INPUT|usc430az-intro-262|U |1580790263|usc430az|server:cat server.py|import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()
+
+    try:
+        print >>sys.stderr 'connection from' client_address
+        
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv(16)
+            print >>sys.stderr 'received \"%%s\"' %% data
+            if data:
+                print >>sys.stderr 'sending data back to the client'
+                connection.sendall(data)
+            else:
+                print >>sys.stderr 'no more data from' client_address
+                break
+    finally:
+        # Clean up the connection
+      
+INPUT|usc430az-intro-263|U |1580790278|usc430az|server:cd /tmp/|
+INPUT|usc430az-intro-264|U |1580790368|usc430az|server:vi index.html|test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+test file
+
+"index.html" [New] 2L 11C written1         All^[  ^[  ^[  ^[  ^M  ^[  ^[  ::Wwq
+
+
+INPUT|usc430az-intro-265|U |1580790537|usc430az|server:python test_server.py|python: can't open file 'test_server.py': [Errno 2] No such file or directory
+
+INPUT|usc430az-intro-266|U |1580790541|usc430az|server:cd|
+INPUT|usc430az-intro-267|U |1580790544|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56420)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : test file
+
+
+;1580790551
+ iHere1  
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-268|U |1580790659|usc430az|server:cd /tmp/|
+INPUT|usc430az-intro-269|U |1580790665|usc430az|server:cat index.html|test file
+
+
+INPUT|usc430az-intro-270|U |1580790675|usc430az|server:cat file1.html|cat: file1.html: No such file or directory
+
+INPUT|usc430az-intro-271|U |1580790828|usc430az|server:ls | grep file|
+INPUT|usc430az-intro-272|U |1580790832|usc430az|server:ls|index.html
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-resolved.service-hOconr
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-timesyncd.service-gBKFZ7
+
+INPUT|usc430az-intro-273|U |1580790845|usc430az|server:cd|
+INPUT|usc430az-intro-274|U |1580790847|usc430az|server:ls|client.py   file.txt   test_client.py  top_secret    userfile.txt
+fileaz.txt  server.py  test_server.py  usc430az.txt
+
+INPUT|usc430az-intro-275|U |1580790856|usc430az|server:cd /|
+INPUT|usc430az-intro-276|U |1580790857|usc430az|server:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430az-intro-277|U |1580790938|usc430az|server:cd /tmp/|
+INPUT|usc430az-intro-278|U |1580790941|usc430az|server:ls|index.html
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-resolved.service-hOconr
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-timesyncd.service-gBKFZ7
+
+INPUT|usc430az-intro-279|U |1580790954|usc430az|server:cat index.html|test file
+
+
+INPUT|usc430az-intro-280|U |1580791137|usc430az|server:ls|index.html
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-resolved.service-hOconr
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-timesyncd.service-gBKFZ7
+
+INPUT|usc430az-intro-281|U |1580791170|usc430az|server:cd|
+INPUT|usc430az-intro-282|U |1580791172|usc430az|server:cd|
+INPUT|usc430az-intro-283|U |1580791174|usc430az|server:ls|client.py   file.txt   test_client.py  top_secret    userfile.txt
+fileaz.txt  server.py  test_server.py  usc430az.txt
+
+INPUT|usc430az-intro-284|U |1580791189|usc430az|server:cd /|
+INPUT|usc430az-intro-285|U |1580791192|usc430az|server:cd tmp|
+INPUT|usc430az-intro-286|U |1580791194|usc430az|server:ls|index.html
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-resolved.service-hOconr
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-timesyncd.service-gBKFZ7
+
+INPUT|usc430az-intro-287|U |1580791251|usc430az|server:cat index.html|test file
+
+
+INPUT|usc430az-intro-288|U |1580791258|usc430az|server:vi index.html|"index.html" 2L 11C½6n  >ctest file
+
+test file
+
+
+INPUT|usc430az-intro-289|U |1580791583|usc430az|server:/tmp/|bash: /tmp/: Is a directory
+
+INPUT|usc430az-intro-290|U |1580791588|usc430az|server:cd /tmp/|
+INPUT|usc430az-intro-291|U |1580791589|usc430az|server:ls|index.html
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-resolved.service-hOconr
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-timesyncd.service-gBKFZ7
+
+INPUT|usc430az-intro-292|U |1580791606|usc430az|server:vi index.html|E325: ATTENTION
+Found a swap file by the name ".index.html.swp"
+10Cowned by: usc430az   dated: Mon Feb  3 20:45:33 2020
+
+10Cmodified: YES
+
+er
+
+While opening file "index.html"
+13Cdated: Mon Feb  3 20:28:46 2020
+
+(1) Another program may be editing the same file.  If this is the case
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case use ":recover" or "vim -r index.html"
+    to recover the changes (see ":help recovery").
+    If you did this already delete the swap file ".index.html.swp"
+    to avoid this message.
+
+Swap file ".index.html.swp" already exists!
+[O]pen Read-Only (E)dit anyway (R)ecover (D)elete it (Q)uit (A)bort: "index.html" 2L 11C½6n  >ctest file
+
+test file
+
+
+INPUT|usc430az-intro-293|U |1580791909|usc430az|server:ls|client.py   file.txt   test_client.py  top_secret    userfile.txt
+fileaz.txt  server.py  test_server.py  usc430az.txt
+
+INPUT|usc430az-intro-294|U |1580791915|usc430az|server:cd /tmp/|
+INPUT|usc430az-intro-295|U |1580791918|usc430az|server:ls|index.html
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-resolved.service-hOconr
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-timesyncd.service-gBKFZ7
+
+INPUT|usc430az-intro-296|U |1580792005|usc430az|server:ls | grep html|index.html
+
+INPUT|usc430az-intro-297|U |1580792016|usc430az|server:cd|
+INPUT|usc430az-intro-298|U |1580792049|usc430az|server:python test_server.py  |starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56438)
+received \"GET file1.html HTTP/1.1\"
+['GET' 'file1.html' 'HTTP/1.1']
+('Client request ' 'file1.html')
+Here
+/tmp/file1.html
+waiting for a connection
+connection from ('10.1.1.2' 56440)
+received \"GET index.html HTTP/1.1\";1580792092
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : test file
+
+
+
+ iHere1  
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-299|U |1580792163|usc430az|server:vi index.html|"index.html" [New File]~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ^[  ^[  ^[  ^[  q:  :index.html                                                    00-1          All:q:0:e:W:wq::~
+[Command Line]                                                60-1          All:q~@k     ~@k   51   ~@k   4~@k   3~@k   2~@k   1~@k   ^M  
+
+INPUT|usc430az-intro-300|U |1580792202|usc430az|server:ls|client.py   file.txt   test_client.py  top_secret    userfile.txt
+fileaz.txt  server.py  test_server.py  usc430az.txt
+
+INPUT|usc430az-intro-301|U |1580792219|usc430az|server:cd /tmp/|
+INPUT|usc430az-intro-302|U |1580792220|usc430az|server:ls|index.html
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-resolved.service-hOconr
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-timesyncd.service-gBKFZ7
+
+INPUT|usc430az-intro-303|U |1580792225|usc430az|server:vi index.html|E325: ATTENTION
+Found a swap file by the name ".index.html.swp"
+10Cowned by: usc430az   dated: Mon Feb  3 20:47:43 2020
+
+10Cmodified: YES
+
+er
+
+While opening file "index.html"
+13Cdated: Mon Feb  3 20:28:46 2020
+
+(1) Another program may be editing the same file.  If this is the case
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case use ":recover" or "vim -r index.html"
+    to recover the changes (see ":help recovery").
+    If you did this already delete the swap file ".index.html.swp"
+    to avoid this message.
+
+Swap file ".index.html.swp" already exists!
+[O]pen Read-Only (E)dit anyway (R)ecover (D)elete it (Q)uit (A)bort: 
+Swap file ".index.html.swp" already exists!
+test file
+
+test file
+
+"index.html" 2L 11C writtennge (add ! to override)20-1         All::wq
+
+
+INPUT|usc430az-intro-304|U |1580792322|usc430az|server:rm index.html|
+INPUT|usc430az-intro-305|U |1580792324|usc430az|server:ls|systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-resolved.service-hOconr
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-timesyncd.service-gBKFZ7
+
+INPUT|usc430az-intro-306|U |1580792338|usc430az|server:vi index.html|<<!
+<html>3D4O5C6T7Y8P9DOCTYPE
+<html10 1h2t3m4l5>
+<html> 6
+<h
+    <b
+    </b
+"index.html" [New] 6L 57C written
+
+
+INPUT|usc430az-intro-307|U |1580792468|usc430az|server:ls|index.html
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-resolved.service-hOconr
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-timesyncd.service-gBKFZ7
+
+INPUT|usc430az-intro-308|U |1580792472|usc430az|server:cat index.html|<!DOCTYPE html>
+<html>
+	<body>
+	Testing
+	</body>
+</html>
+
+INPUT|usc430az-intro-309|U |1580792480|usc430az|server:cd|
+INPUT|usc430az-intro-310|U |1580792499|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 56452)
+received \"GET filename.txt HTTP/1.1\"
+['GET' 'filename.txt' 'HTTP/1.1']
+('Client request ' 'filename.txt')
+Here
+/tmp/filename.txt
+waiting for a connection
+connection from ('10.1.1.2' 56454)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : <!DOCTYPE html>
+<html>
+	<body>
+	Testing
+	</body>
+</html>
+
+
+ iHere1  
+waiting for a connection
+Ã^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-311|U |1580792667|usc430az|server:echo $PATH|/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+INPUT|usc430az-intro-312|U |1580792740|usc430az|server:pwd|/users/usc430az
+
+INPUT|usc430az-intro-313|U |1580792759|usc430az|server:cd /|
+INPUT|usc430az-intro-314|U |1580792761|usc430az|server:pwd|/
+
+INPUT|usc430az-intro-315|U |1580792775|usc430az|server:cd tmp|
+INPUT|usc430az-intro-316|U |1580792777|usc430az|server:ls|index.html
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-resolved.service-hOconr
+systemd-private-a631c45bcf1b4d988222c09cb1668255-systemd-timesyncd.service-gBKFZ7
+
+INPUT|usc430az-intro-317|U |1580832505|usc430az|server:/proj|bash: /proj: Is a directory
+
+INPUT|usc430az-intro-318|U |1580832508|usc430az|server:cd proj|bash: cd: proj: No such file or directory
+
+INPUT|usc430az-intro-319|U |1580832661|usc430az|server:ls|client.py   file.txt	     server.py	     test_server.py  usc430az.txt
+fileaz.txt  large_file.html  test_client.py  top_secret      userfile.txt
+
+INPUT|usc430az-intro-320|U |1580832664|usc430az|server:cd /|
+INPUT|usc430az-intro-321|U |1580832666|usc430az|server:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430az-intro-322|U |1580832675|usc430az|server:cd share|
+INPUT|usc430az-intro-323|U |1580832677|usc430az|server:ls|530stats		      containers_v1.0.0  LegoTG		    safer
+alice.ns		      containers_v1.1	 linux		    seer
+benito			      containers_v1.1.0  lost+found	    shared
+benito-dev		      contrib		 magi		    spidev
+benito-dev.orig		      cxa		 manuals	    t1t2
+bsd10-deploy		      cygwin		 meta-release.note  tagger
+centos			      deterdash		 mimic		    tapia
+chef			      deterstats	 mirrors	    tarballs
+config_server		      education		 mkextrafs	    tmp
+containers		      education-old	 montage	    ubuntu
+containers_config_server      fedkit		 netbsd		    unelvin
+containers_config_server-OLD  freebsd		 one.ns		    utils
+containers-dev		      git		 ops		    windows
+containers-openvz	      gitlab		 paws.tgz	    workbench
+containers_seer		      images		 rvn
+
+INPUT|usc430az-intro-324|U |1580832695|usc430az|server:cd|
+INPUT|usc430az-intro-325|U |1580832697|usc430az|server:cd proj|bash: cd: proj: No such file or directory
+
+INPUT|usc430az-intro-326|U |1580832704|usc430az|server:ls|client.py   file.txt	     server.py	     test_server.py  usc430az.txt
+fileaz.txt  large_file.html  test_client.py  top_secret      userfile.txt
+
+INPUT|usc430az-intro-327|U |1580832707|usc430az|server:cd /|
+INPUT|usc430az-intro-328|U |1580832710|usc430az|server:cd proj|
+INPUT|usc430az-intro-329|U |1580832711|usc430az|server:ls|DeterTest  Modeling  USC430
+
+INPUT|usc430az-intro-330|U |1580832716|usc430az|server:cd|
+INPUT|usc430az-intro-331|U |1580832755|usc430az|server:cd shared|bash: cd: shared: No such file or directory
+
+INPUT|usc430az-intro-332|U |1580832759|usc430az|server:cd share|bash: cd: share: No such file or directory
+
+INPUT|usc430az-intro-333|U |1580832762|usc430az|server:cd /|
+INPUT|usc430az-intro-334|U |1580832765|usc430az|server:cd shared|bash: cd: shared: No such file or directory
+
+INPUT|usc430az-intro-335|U |1580832769|usc430az|server:cd share|
+INPUT|usc430az-intro-336|U |1580832771|usc430az|server:ls|530stats		      containers_v1.0.0  LegoTG		    safer
+alice.ns		      containers_v1.1	 linux		    seer
+benito			      containers_v1.1.0  lost+found	    shared
+benito-dev		      contrib		 magi		    spidev
+benito-dev.orig		      cxa		 manuals	    t1t2
+bsd10-deploy		      cygwin		 meta-release.note  tagger
+centos			      deterdash		 mimic		    tapia
+chef			      deterstats	 mirrors	    tarballs
+config_server		      education		 mkextrafs	    tmp
+containers		      education-old	 montage	    ubuntu
+containers_config_server      fedkit		 netbsd		    unelvin
+containers_config_server-OLD  freebsd		 one.ns		    utils
+containers-dev		      git		 ops		    windows
+containers-openvz	      gitlab		 paws.tgz	    workbench
+containers_seer		      images		 rvn
+
+INPUT|usc430az-intro-337|U |1580832777|usc430az|server:cd shared|
+INPUT|usc430az-intro-338|U |1580832778|usc430az|server:ls|BGPhijacking
+BotnetsandNetworkAnalysis
+BufferOverflows-Old-UCLA
+BufferOverflows-UCLA
+ComparingUNIXenvironments
+Computerforensics
+DNSmaninthemiddleattack
+DNSmaninthemiddleattack-containerized
+Firewalls-UCLA
+GREPSEC
+Internetworking
+Intro-Lab-UKY
+Intro-Lab-UKY1
+IPSec
+IPv6Internetworking
+LegoTG-ExperimentConfigurationsfor2015CNERTworkshoppaper
+LinuxandDeterLabintro
+Maninthemiddleattack-UCLA
+Maninthemiddleattack-UCLA-containerized
+Maninthemiddleattack-USC
+Maninthemiddleattack-USC-containerized
+Networkintrusiondetectionsystem
+OShardening
+Passwordcracking
+PathnameAttacks-UCLA
+PermissionsandFirewalls
+PermissionsandFirewalls-containerizedversion
+POSIXPermissions
+ResilientserverCCTF
+ResilientServerCCTFPre-Set
+SecuringlegacysystemswithSnort
+Softwareexploitsexercise
+SQLinjection
+SQLInjection-UCLA
+TCPSYNFloodexercise
+test
+Wormdetectionexercise
+Wormdetectionexercise-containerizedversion
+Wormmodelingexercise
+
+INPUT|usc430az-intro-339|U |1580832960|usc430az|server:cd|
+INPUT|usc430az-intro-340|U |1580832962|usc430az|server:ls|client.py   file.txt	     server.py	     test_server.py  usc430az.txt
+fileaz.txt  large_file.html  test_client.py  top_secret      userfile.txt
+
+INPUT|usc430az-intro-341|U |1580832969|usc430az|server:cd tmp|bash: cd: tmp: No such file or directory
+
+INPUT|usc430az-intro-342|U |1580832973|usc430az|server:cd tmp|bash: cd: tmp: No such file or directory
+
+INPUT|usc430az-intro-343|U |1580832992|usc430az|server:cd /tmp/|
+INPUT|usc430az-intro-344|U |1580832993|usc430az|server:ls|systemd-private-0a6d492dc28b4f33a1821911d079ac21-systemd-resolved.service-VdoWyu
+systemd-private-0a6d492dc28b4f33a1821911d079ac21-systemd-timesyncd.service-D1lrGG
+
+INPUT|usc430az-intro-345|U |1580833036|usc430az|server:touch index.html|
+INPUT|usc430az-intro-346|U |1580833038|usc430az|server:ls|index.html
+systemd-private-0a6d492dc28b4f33a1821911d079ac21-systemd-resolved.service-VdoWyu
+systemd-private-0a6d492dc28b4f33a1821911d079ac21-systemd-timesyncd.service-D1lrGG
+
+INPUT|usc430az-intro-347|U |1580833087|usc430az|server:vi index.html|"index.html" 0L 0C-- INSERT --0111CAllWhat is cybersecurity all about? A successful cybersecurity approach has multiple layyers of protection spread across the computers networks programs or data that one iintends to keep safe. In an organization the people processes and technology must aall complement one another to create an effective defense from cyber attacks. A unifieed threat management system can automate integrations across select Cisco Security prooducts and accelerate key security operations functions: detection investigation andd remediation. People Users must understand and comply with basic data security princiiples like choosing strong passwords being wary of attachments in email and backing  up data. Learn more about basic cybersecurity principles. Processes Organizations musst have a framework for how they deal with both attempted and successful cyber attackss. One well-respected framework can guide you. It explains how you can identify attackks protect systems detect a
+INPUT|usc430az-intro-348|U |1580833130|usc430az|server:cat index.html|What is cybersecurity all about? A successful cybersecurity approach has multiple layers of protection spread across the computers networks programs or data that one intends to keep safe. In an organization the people processes and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate key security operations functions: detection investigation and remediation. People Users must understand and comply with basic data security principles like choosing strong passwords being wary of attachments in email and backing up data. Learn more about basic cybersecurity principles. Processes Organizations must have a framework for how they deal with both attempted and successful cyber attacks. One well-respected framework can guide you. It explains how you can identify attacks protect systems detect and respond to threats and recover from successful
+INPUT|usc430az-intro-349|U |1580833170|usc430az|server:cd|
+INPUT|usc430az-intro-350|U |1580833180|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 60156)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : What is cybersecurity all about? A successful cybersecurity approach has multiple layers of protection spread across the computers networks programs or data that one intends to keep safe. In an organization the people processes and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate key security operations functions: detection investigation and remediation. People Users must understand and comply with basic data security principles like choosing strong passwords being wary of attachments in email and backing up data. Learn more about basic cybersecurity principles. Processes Organizations must have a 
+INPUT|usc430az-intro-351|U |1580833385|usc430az|server:vi test_server.py|"test_server.py" 65L 2151C½6n  >cpath = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+path = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 65L 2151C~@k   4~@k   3~@k   20-1~@k   11  ~@k   0~@k   59~@k   8~@k   7~@k   6~@k   5~@k   40-1~@k   31  ~@k   2~@k   1~@k   0~@k   49~@k   8~@k   7~@k   1;24rL1;25rprint("Here")46110C97%%~
+INPUT|usc430az-intro-352|U |1580833505|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 60158)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+received \"\"
+[]
+Traceback (most recent call last):
+  File \"test_server.py\" line 29 in <module>
+    print('Client request ' received_data[1])
+IndexError: list index out of range
+
+INPUT|usc430az-intro-353|U |1580833577|usc430az|server:vi test_server.py|"test_server.py" 65L 2169C½6n  >cprint(received_data)print('Client request ' received_data[1])# if data:#  print >>sys.stderr 'sending data back to the client'# connection.sendall(data)#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+print(received_data)print('Client request ' received_data[1])# if data:#  print >>sys.stderr 'sending data back to the client'# connection.sendall(data)#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.cl
+INPUT|usc430az-intro-354|U |1580833874|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 60168)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : What is cybersecurity all about? A successful cybersecurity approach has multiple layers of protection spread across the computers networks programs or data that one intends to keep safe. In an organization the people processes and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate key security operations functions: detection investigation and remediation. People Users must understand and comply with basic data security principles like choosing strong passwords being wary of attachments in email and backing up data. Learn more about basic cybersecurity principles. Processes Organizations must have a 
+INPUT|usc430az-intro-355|U |1580833896|usc430az|server:vi test_server.py|"test_server.py" 65L 2150C½6n  >cprint(received_data)print('Client request ' received_data[1])# if data:#  print >>sys.stderr 'sending data back to the client'# connection.sendall(data)#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+print(received_data)print('Client request ' received_data[1])# if data:#  print >>sys.stderr 'sending data back to the client'# connection.sendall(data)#else:#    print >>sys.stderr 'no more data from' client_address#   break#finally:# Clean up the connection
+#   connection.close()try:print("Here")path = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.cl
+INPUT|usc430az-intro-356|U |1580834114|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 60170)
+received \"GET index.hmtl HTTP/1.1\"
+['GET' 'index.hmtl' 'HTTP/1.1']
+('Client request ' 'index.hmtl')
+Here
+/tmp/index.hmtl
+waiting for a connection
+connection from ('10.1.1.2' 60172)
+received \"GET index.html HTTP/1.1\";1580834131
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : What is cybersecurity all about? A successful cybersecurity approach has multiple layers of protection spread across the computers networks programs or data that one intends to keep safe. In an organization the people processes and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate key security operations functions: detection investigation and remediation. People Users must understand and comply with basic dat
+INPUT|usc430az-intro-357|U |1580834230|usc430az|server:vi test_server.py|"test_server.py" 65L 2150C½6n  >cpath = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+path = "/tmp/"+received_data[1].strip()print(path)with open(path) as f:print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 65L 2150Ci ter><h3>Error 404: File not found</h></center></body></html>'.encode('utf-8')final_response = header.encode('utf-8')final_response += responseconnection.send(final_response)finall
+INPUT|usc430az-intro-358|U |1580834353|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 60182)
+received "GET index.html HTTP/1.1"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : What is cybersecurity all about? A successful cybersecurity approach has multiple layers of protection spread across the computers networks programs or data that one intends to keep safe. In an organization the people processes and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate key security operations functions: detection investigation and remediation. People Users must understand and comply with basic data security principles like choosing strong passwords being wary of attachments in email and backing up data. Learn more about basic cybersecurity principles. Processes Organizations must have a fr
+INPUT|usc430az-intro-359|U |1580834379|usc430az|server:vi test_server.py|"test_server.py" 66L 2184C½6n  >cprint(path)with open(path) as f:print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+print(path)with open(path) as f:print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+"test_server.py" 66L 2184Ci -- INSERT --6129::1::::5T:6r:7True:9201;24r
+1;25r19;24rL1;25r6213
+1;25r21;24rL1;25r6513
+"test_server.py" 68L 2247C written                                                                                                                                6417
+
+
+INPUT|usc430az-intro-360|U |1580834481|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 60184)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : What is cybersecurity all about? A successful cybersecurity approach has multiple layers of protection spread across the computers networks programs or data that one intends to keep safe. In an organization the people processes and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate key security operations functions: detection investigation and remediation. People Users must understand and comply with basic data security principles like choosing strong passwords being wary of attachments in email and backing up data. Learn more about basic cybersecurity principles. Processes Organizations must have a 
+INPUT|usc430az-intro-361|U |1580834510|usc430az|server:vi test_server.py|"test_server.py" 68L 2247C½6n  >cprint("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+'response = '<html><body><center><h3>Error 404: File not found</h></center></body></html>'.encode('utf-8')final_response = header.encode('utf-8')final_response += responsewhile True:if final_reponse:connection.send(final_response)else:break
+print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+'response = '<html><body><center><h3>Error 404: File not found</h></center></body></html>'.encode('utf-8')fi
+INPUT|usc430az-intro-362|U |1580834569|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 60186)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : What is cybersecurity all about? A successful cybersecurity approach has multiple layers of protection spread across the computers networks programs or data that one intends to keep safe. In an organization the people processes and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate key security operations functions: detection investigation and remediation. People Users must understand and comply with basic data security principles like choosing strong passwords being wary of attachments in email and backing up data. Learn more about basic cybersecurity principles. Processes Organizations must have a 
+INPUT|usc430az-intro-363|U |1580834594|usc430az|server:vi test_server.py|"test_server.py" 68L 2248C½6n  >cprint("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+'response = '<html><body><center><h3>Error 404: File not found</h></center></body></html>'.encode('utf-8')final_response = header.encode('utf-8')final_response += responsewhile True:if final_response:connection.send(final_response)else:break
+print("hereee")response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+'response = '<html><body><center><h3>Error 404: File not found</h></center></body></html>'.encode('utf-8')f
+INPUT|usc430az-intro-364|U |1580834669|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 60188)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : What is cybersecurity all about? A successful cybersecurity approach has multiple layers of protection spread across the computers networks programs or data that one intends to keep safe. In an organization the people processes and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate key security operations functions: detection investigation and remediation. People Users must understand and comply with basic data security principles like choosing strong passwords being wary of attachments in email and backing up data. Learn more about basic cybersecurity principles. Processes Organizations must have a 
+INPUT|usc430az-intro-365|U |1580834711|usc430az|server:vi test_server.py|"test_server.py" 69L 2299C½6n  >cresponse = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+'response = '<html><body><center><h3>Error 404: File not found</h></center></body></html>'.encode('utf-8')final_response = header.encode('utf-8')final_response += responseprint("final is " + final_response + "
+")while True:if final_response:connection.send(final_response)else:break
+response = f.read()print(" Contents are : " + response + "
+")print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+'response = '<html><body><center><h3>Error 404: File not found</h></center></body></html>'.encod
+INPUT|usc430az-intro-366|U |1580835271|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 60198)
+received \"GET index.html HTTP/1.1\";1580835312
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : What is cybersecurity all about? A successful cybersecurity approach has multiple layers of protection spread across the computers networks programs or data that one intends to keep safe. In an organization the people processes and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate key security operations functions: detection investigation and remediation. People Users must understand and comply with basic data security principles like choosing strong passwords being wary of attachments in email and backing up data. Learn more about basic cybersecurity principles. Processes Organizations m
+INPUT|usc430az-intro-367|U |1580856623|usc430az|server:s24Pudo python test_server.pyC430.isi.deterlab.net|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 57644)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+final is HTTP/1.1 404 Not Found
+
+<html><body><center><h3>Error 404: File not found</h></center></body></html>
+
+Traceback (most recent call last):
+  File \"test_server.py\" line 64 in <module>
+    connection.send(final_response)
+socket.error: [Errno 104] Connection reset by peer
+
+INPUT|usc430az-intro-368|U |1580856987|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 57654)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+final is HTTP/1.1 404 Not Found
+
+<html><body><center><h3>Error 404: File not found</h></center></body></html>
+
+Traceback (most recent call last):
+  File \"test_server.py\" line 64 in <module>
+    connection.send(final_response)
+socket.error: [Errno 104] Connection reset by peer
+
+INPUT|usc430az-intro-369|U |1580857128|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 57656)
+received \"GET index.html HTTP/1.1\";1580857134
+['GET' 'index.html' 'HTTP/1.1'];1580857134
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+final is HTTP/1.1 404 Not Found
+
+<html><body><center><h3>Error 404: File not found</h></center></body></html>
+
+Traceback (most recent call last):
+  File \"test_server.py\" line 64 in <module>
+    connection.send(final_response)
+socket.error: [Errno 104] Connection reset by peer
+
+INPUT|usc430az-intro-370|U |1580857175|usc430az|server:ls|client.py   file.txt	     server.py	     test_server.py  usc430az.txt
+fileaz.txt  large_file.html  test_client.py  top_secret      userfile.txt
+
+INPUT|usc430az-intro-371|U |1580857181|usc430az|server:cd /tmp/|
+INPUT|usc430az-intro-372|U |1580857183|usc430az|server:ls|systemd-private-802cbfedf5b14a8e937dad3fc31196e6-systemd-resolved.service-GksoHa
+systemd-private-802cbfedf5b14a8e937dad3fc31196e6-systemd-timesyncd.service-hqoYM3
+
+INPUT|usc430az-intro-373|U |1580857206|usc430az|server:touch index.html|
+INPUT|usc430az-intro-374|U |1580857231|usc430az|server:vi index.html|"index.html" 0L 0C-- INSERT --0111CAllWhat is cybersecurity all about? A successful cybersecurity approach has multiplle layers of protection spread across the computers networks programs or data  that one intends to keep safe. In an organization the people processes and teechnology must all complement one another to create an effective defense from cybber attacks. A unified threat management system can automate integrations across  select Cisco Security products and accelerate key security operations functions:: detection investigation and remediation. People Users must understand and commply with basic data security principles like choosing strong passwords being waary of attachments in email and backing up data. Learn more about basic cyberseccurity principles. Processes Organizations must have a framework for how they deaal with both attempted and successful cyber attacks. One well-respected frameworkk can guide you. It explains how you can identify attacks protect systems detecct 
+INPUT|usc430az-intro-375|U |1580857240|usc430az|server:ls|index.html
+systemd-private-802cbfedf5b14a8e937dad3fc31196e6-systemd-resolved.service-GksoHa
+systemd-private-802cbfedf5b14a8e937dad3fc31196e6-systemd-timesyncd.service-hqoYM3
+
+INPUT|usc430az-intro-376|U |1580857253|usc430az|server:touch file.html|
+INPUT|usc430az-intro-377|U |1580857260|usc430az|server:vi file.html|"file.html" 3L 41C writtenINSERT --0111CAllo12m3e4321t2e3s4t5i6n7g89t10e1s2t3i4n5g67t8e9s20t1i2n3g4521 f2g3f4321T2e3s4t5i6n7g831T2e3s4t5i6n7g8^[  3711CAll::wq
+
+
+INPUT|usc430az-intro-378|U |1580857284|usc430az|server:cd|
+INPUT|usc430az-intro-379|U |1580857291|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 57658)
+received \"GET file.html HTTP/1.1\"
+['GET' 'file.html' 'HTTP/1.1']
+('Client request ' 'file.html')
+Here
+/tmp/file.html
+hereee
+ Contents are : testing testing testing 
+Testing
+Testing
+
+
+ iHere1  
+final is HTTP/1/1 200 OK
+testing testing testing 
+Testing
+Testing
+
+
+Traceback (most recent call last):
+  File \"test_server.py\" line 64 in <module>
+    connection.send(final_response)
+socket.error: [Errno 104] Connection reset by peer
+
+INPUT|usc430az-intro-380|U |1580857388|usc430az|server:vim test_client.py        |E325: ATTENTION
+Found a swap file by the name ".test_client.py.swp"
+10Cowned by: usc430az   dated: Tue Feb  4 15:02:16 2020
+
+10Cmodified: no
+
+er
+
+While opening file "test_client.py"
+13Cdated: Tue Feb  4 14:58:25 2020
+
+(1) Another program may be editing the same file.  If this is the case
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case use ":recover" or "vim -r test_client.py"
+    to recover the changes (see ":help recovery").
+    If you did this already delete the swap file ".test_client.py.swp"
+    to avoid this message.
+
+Swap file ".test_client.py.swp" already exists!
+[O]pen Read-Only (E)dit anyway (R)ecover (D)elete it (Q)uit (A)bort: "test_client.py" 36L 933C½6n  >ctry:
+    #send
+    m = raw_input("please enter the filename: ")
+    message = 'GET ' + m +' HTTP/1.1'#message = 'This is the message.  It will be repeated.'#b = bytes(user
+INPUT|usc430az-intro-381|U |1580857428|usc430az|server:vim test_server.py|"test_server.py" 69L 2299C½6n  >cprint(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+'response = '<html><body><center><h3>Error 404: File not found</h></ccenter></body></html>'.encode('utf-8')final_response = header.encode('utf-8')final_response += responseprint("final is " + final_response + "
+")while True:if final_response:connection.send(final_response)else:break
+print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+'response = '<html><body><center><h3>Error 404: File not found</h></ccenter></body></html>'.encode('utf-8')final_response = header.encode('utf-8')final_response += responseprint("final is " + final_response + "
+")whil
+INPUT|usc430az-intro-382|U |1580857558|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 57660)
+received \"GET file.html HTTP/1.1\"
+['GET' 'file.html' 'HTTP/1.1']
+('Client request ' 'file.html')
+Here
+/tmp/file.html
+hereee
+ Contents are : testing testing testing 
+Testing
+Testing
+
+
+ iHere1  
+final is HTTP/1/1 200 OK
+testing testing testing 
+Testing
+Testing
+
+
+waiting for a connection
+connection from ('10.1.1.2' 57662)
+received \"GET index.html HTTP/1.1\"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+Here
+/tmp/index.html
+hereee
+ Contents are : What is cybersecurity all about? A successful cybersecurity approach has multiple layers of protection spread across the computers networks programs or data that one intends to keep safe. In an organization the people processes and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate k
+INPUT|usc430az-intro-383|U |1580857726|usc430az|server:vim test_server.py|"test_server.py" 69L 2288C½6n  >cprint(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+'response = '<html><body><center><h3>Error 404: File not found</h></ccenter></body></html>'.encode('utf-8')final_response = header.encode('utf-8')final_response += responseprint("final is " + final_response + "
+")#while True:#final_response:connection.send(final_response)# else:#  break
+print(" iHere1  ")f.close()header = 'HTTP/1/1 200 OK
+'#if(received_data.endswith(".html")):#    _type = 'text/html'#header += 'Content-Type: '+str(_type)+'
+'#FILE NOT FOUND ERRORexcept Exception as e:header = 'HTTP/1.1 404 Not Found
+'response = '<html><body><center><h3>Error 404: File not found</h></ccenter></body></html>'.encode('utf-8')final_response = header.encode('utf-8')final_response += responseprint("final is " + final_response + "
+")
+INPUT|usc430az-intro-384|U |1580858017|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 57672)
+received \"GET file1.html HTTP/1.1\"
+['GET' 'file1.html' 'HTTP/1.1']
+('Client request ' 'file1.html')
+final is HTTP/1.1 404 Not Found
+
+<html><body><center><h3>Error 404: File not found</h></center></body></html>
+
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"test_server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430az-intro-385|U |1580858058|usc430az|server:vim test_server.py|"test_server.py" 49L 1516C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+response = ""
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server' 80)
+print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+response = ""
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+"test_server.py" 49L 1516Ci -- INSERT --83110CTop(12C)73061 730(12C)831(12C)9(14C)1026(14C)11 23(()41451262873181;23r
+1;24rdata = conne
+INPUT|usc430az-intro-386|U |1580858106|usc430az|server:python test_server.py|starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2' 57674)
+;1580858125
+received \"GET file1.html HTTP/1.1\"
+['GET' 'file1.html' 'HTTP/1.1']
+('Client request ' 'file1.html')
+Sending HTTP/1.1 404 Not Found
+
+<html><body><center><h3>Error 404: File not found</h></center></body></html>
+
+waiting for a connection
+connection from ('10.1.1.2' 57676)
+received "GET index.html HTTP/1.1"
+['GET' 'index.html' 'HTTP/1.1']
+('Client request ' 'index.html')
+ Contents are : What is cybersecurity all about? A successful cybersecurity approach has multiple layers of protection spread across the computers networks programs or data that one intends to keep safe. In an organization the people processes and technology must all complement one another to create an effective defense from cyber attacks. A unified threat management system can automate integrations across select Cisco Security products and accelerate key security operations functions: detection investigation and remedia
+INPUT|usc430az-intro-387|U |1580858212|usc430az|server:vim test_server.py|"test_server.py" 49L 1515C½6n  >cwhile True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()try:print >>sys.stderr 'connection from' client_address# Receive the data data = connection.recv(1024)print >>sys.stderr 'received "%%s"' %% datareceived_data = data.split()print(received_data)print('Client request ' received_data[1])try:path = "/tmp/"+received_data[1].strip()with open(path) as f:response = f.read()print(" Contents are : " + response + "
+")f.close()header = 'HTTP/1/1 200 OK
+while True:
+    # Wait for a connection
+    print >>sys.stderr 'waiting for a connection'
+    connection client_address = sock.accept()try:print >>sys.stderr 'connection from' client_address# Receive the data data = connection.recv(1024)print >>sys.stderr 'received "%%s"' %% datareceived_data = data.split()print(received_data)print('Client request ' received_data[1])try:path = "/tmp/"+received_data[1].strip()with open(path) as f:respo
+INPUT|usc430az-intro-388|U |1580863738|usc430az|server:python server.py|python: can't open file 'server.py': [Errno 2] No such file or directory
+
+INPUT|usc430az-intro-389|U |1580863744|usc430az|server:ls|fileaz.txt  file.txt  large_file.html  top_secret  usc430az.txt  userfile.txt
+

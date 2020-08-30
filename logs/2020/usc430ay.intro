@@ -1,0 +1,812 @@
+User usc430ay start time 1580943561 end 1581889118
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ay-intro-0|U |000000000|usc430ay|:|
+INPUT|usc430ay-intro-1|U |000000000|usc430ay|:|
+INPUT|usc430ay-intro-2|U |1580943561|usc430ay|intro:ls|thomas.png  usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-3|U |1580943579|usc430ay|intro:cd top_secret|bash: cd: top_secret: No such file or directory
+
+INPUT|usc430ay-intro-4|U |1580943614|usc430ay|intro:mkdir top_secret|
+INPUT|usc430ay-intro-5|U |1580943615|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-6|A1 A4 A3 A2 A0 |1580943691|usc430ay|intro:find . -name "*.jpg"|
+INPUT|usc430ay-intro-7|U |1581228013|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-8|U |1581228025|usc430ay|intro:updatedb|updatedb: can not open a temporary file for `/var/lib/mlocate/mlocate.db'
+
+INPUT|usc430ay-intro-9|U |1581228041|usc430ay|intro:updatedb|
+INPUT|usc430ay-intro-10|U |1581228062|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-11|U |1581228118|usc430ay|intro:man locate|locate(1)                                General Commands Manual                                locate(1)
+
+NAME
+       locate - find files by name
+
+SYNOPSIS
+       locate [OPTION]... PATTERN...
+
+DESCRIPTION
+       locate reads one or more databases prepared by updatedb(8) and writes file names matching at least
+       one of the PATTERNs to standard output one per line.
+
+       If --regex is not specified PATTERNs can contain globbing characters.  If any PATTERN contains no
+       globbing characters locate behaves as if the pattern were *PATTERN*.
+
+       By default locate does not check whether files found in database still exist (but it does require
+       all parent directories to exist if the database was built with --require-visibility  no).   locate
+       can never report files created after the most recent update of the relevant database.
+
+EXIT STATUS
+       locate exits with status 0 if any match was found or if locate was invoked with one of the --limit
+       0 --help --sta
+INPUT|usc430ay-intro-12|A0 A2 A3 A4 A1 |1581228286|usc430ay|intro:find .  -name "*intro*" -print|
+INPUT|usc430ay-intro-13|A4 A1 A2 A3 A0 |1581228320|usc430ay|intro:find . -R  -name "*intro*" -print|find: unknown predicate `-R'
+
+INPUT|usc430ay-intro-14|A3 A2 A0 A4 A1 |1581228367|usc430ay|intro:find . -name "intro" -print|
+INPUT|usc430ay-intro-15|A1 A4 A0 A2 A3 |1581228375|usc430ay|intro:find . -name "intro" -i  -print|find: unknown predicate `-i'
+
+INPUT|usc430ay-intro-16|A4 A1 A3 A2 A0 |1581228423|usc430ay|intro:locate .jpg|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+
+INPUT|usc430ay-intro-17|A0 A2 A3 A1 A4 |1581228429|usc430ay|intro:locate .jpg|
+INPUT|usc430ay-intro-18|U |1581228438|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-19|A1 A4 A0 A2 A3 |1581228444|usc430ay|intro:locate .txt|/boot/grub/gfxblacklist.txt
+/etc/X11/rgb.txt
+/lib/firmware/ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA6174/hw2.1/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
+/lib/firmware/ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
+/lib/firmware/ath10k/QCA9377/hw1.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
+/lib/firmware/ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
+/lib/firmware/ath10k/QCA99X0/hw2.0/notice_ath10k_firmware-5.txt
+/lib/firmware/carl9170fw/CMakeLists.txt
+/lib/firmware/carl9170fw/carlfw/CMakeLists.txt
+/lib/firmware/carl9170fw/config/CMakeLists.txt
+/lib/firmware/carl9170fw/minifw/CMakeLists.txt
+/lib/firmware/carl9170fw/tools/CMakeLists.txt
+/lib/firmware/carl9170fw
+INPUT|usc430ay-intro-20|U |1581228464|usc430ay|intro:clear|
+
+INPUT|usc430ay-intro-21|A0 A2 A3 A4 A1 |1581228467|usc430ay|intro:locate intro|/etc/apparmor.d/abstractions/apparmor_api/introspect
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/ttylog/usc430ay.hw1-usc430ay.intro.csv
+/var/log/ttylog/usc430ay.hw1-usc430ay.intro.log
+
+INPUT|usc430ay-intro-22|U |1581229655|usc430ay|intro:clear|
+
+INPUT|usc430ay-intro-23|U |1581229656|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-24|U |1581229685|usc430ay|intro:/usr/testbed/bin/node_list|bash: /usr/testbed/bin/node_list: No such file or directory
+
+INPUT|usc430ay-intro-25|U |1581229695|usc430ay|intro:ls |thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-26|U |1581229699|usc430ay|intro:cd /us|users/ usr/   
+
+INPUT|usc430ay-intro-27|U |1581229705|usc430ay|intro:ls     |thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-28|U |1581229721|usc430ay|intro:cd /usr/testbed/bin/|
+INPUT|usc430ay-intro-29|U |1581229722|usc430ay|intro:ls|emulab-sync  mkextrafs.pl  tevc
+
+INPUT|usc430ay-intro-30|U |1581229731|usc430ay|intro:cd|
+INPUT|usc430ay-intro-31|U |1581229735|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-32|U |1581230252|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-33|A3 A2 A0 A1 A4 |1581230377|usc430ay|intro:find / -name "*.jpg"|find: '/tmp/systemd-private-cd924a2e0b78470db2f5abcbf0d94bbe-systemd-resolved.service-AR5niF': Permission denied
+find: '/tmp/systemd-private-cd924a2e0b78470db2f5abcbf0d94bbe-systemd-timesyncd.service-WBxdYS': Permission denied
+/share/chef/chef-packages/old/click/examples/imagepipe/example01.jpg
+/share/chef/chef-packages/old/click/examples/imagepipe/example02.jpg
+/share/education/MITMARPPoisoning_USC/html/images/arpspoof-net.jpg
+/share/education/MITMARPPoisoning_USC/html/images/eth-what.jpg
+/share/education/MITMARPPoisoning_USC/html/images/firefox-altered.jpg
+/share/education/MITMARPPoisoning_USC/html/images/firefox-unaltered.jpg
+/share/education/MITMARPPoisoning_USC/html/images/lynx-altered.jpg
+/share/education/MITMARPPoisoning_USC/html/images/lynx-unaltered.jpg
+/share/education/SecureCommunication_USC/html/intel-sponsor.jpg
+/share/education/SecureServer_USC/html/intel-sponsor.jpg
+/share/education/UMD_XSS/html/forum/images/sunglasses_sloth_left.jpg
+/share/education/UMD_XSS/html/forum/i
+INPUT|usc430ay-intro-34|U |1581230468|usc430ay|intro:updatedb|updatedb: can not open a temporary file for `/var/lib/mlocate/mlocate.db'
+
+INPUT|usc430ay-intro-35|U |1581230472|usc430ay|intro:update db|sudo: update: command not found
+
+INPUT|usc430ay-intro-36|U |1581230478|usc430ay|intro:updatedb|
+INPUT|usc430ay-intro-37|U |1581230482|usc430ay|intro:clear|
+
+INPUT|usc430ay-intro-38|A0 A2 A3 A4 A1 |1581230503|usc430ay|intro:find / -name "*intro*" -print|/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: '/tmp/systemd-private-cd924a2e0b78470db2f5abcbf0d94bbe-systemd-resolved.service-AR5niF': Permission denied
+find: '/tmp/systemd-private-cd924a2e0b78470db2f5abcbf0d94bbe-systemd-timesyncd.service-WBxdYS': Permission denied
+/share/chef/chef-packages/old/click/docs/_templates/sidebarintro.html
+/share/chef/chef-packages/old/flask/docs/_templates/sidebarintro.html
+/share/chef/chef-packages/old/flask/docs/tutorial/introducti
+INPUT|usc430ay-intro-39|U |1581279917|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-40|A4 A1 A0 A2 A3 |1581279948|usc430ay|intro:find / -maxdepth 1 -iname "*intro*" -print|
+INPUT|usc430ay-intro-41|A0 A2 A3 A4 A1 |1581279957|usc430ay|intro:find / -iname |find: missing argument to `-iname'
+
+INPUT|usc430ay-intro-42|M4 M3 M2 M1 M0 |1581279968|usc430ay|intro:find / -iname "*intro*" -print|/.hidden/asdf136Intro-5kqlw.jpeg
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: '/tmp/systemd-private-f368e14bdac9448fb75ccdc8330f1ec6-systemd-timesyncd.service-wvPyfJ': Permission denied
+find: '/tmp/
+INPUT|usc430ay-intro-43|U |1581280345|usc430ay|intro:clear|
+
+INPUT|usc430ay-intro-44|U |1581280355|usc430ay|intro:/.hidden/     |bash: /.hidden/: Is a directory
+
+INPUT|usc430ay-intro-45|U |1581280364|usc430ay|intro:ls|asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ay-intro-46|U |1581280636|usc430ay|intro:ls  |asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ay-intro-47|U |1581280650|usc430ay|intro:mv asdf136Intro-5kqlw.jpeg ~/|mv: cannot remove 'asdf136Intro-5kqlw.jpeg': Permission denied
+
+INPUT|usc430ay-intro-48|U |1581280746|usc430ay|intro:cp asdf136Intro-5kqlw.jpeg ~/|
+INPUT|usc430ay-intro-49|U |1581280752|usc430ay|intro:cd|
+INPUT|usc430ay-intro-50|U |1581280753|usc430ay|intro:ls|asdf136Intro-5kqlw.jpeg  thomas.png  top_secret  usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-51|U |1581280782|usc430ay|intro:mv asdf136Intro-5kqlw.jpeg  top_secret/|
+INPUT|usc430ay-intro-52|U |1581280783|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-53|U |1581280794|usc430ay|intro:ls top_secret/|asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ay-intro-54|U |1581280820|usc430ay|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg top_secret/|
+INPUT|usc430ay-intro-55|U |1581280836|usc430ay|intro:cp /var/log/136intro-3.jpg top_secret/|
+INPUT|usc430ay-intro-56|U |1581280847|usc430ay|intro:cp /etc/wuer136intro-4.JPG top_secret/|
+INPUT|usc430ay-intro-57|U |1581280857|usc430ay|intro:cp /dev/136intro-2jjaj.JPEG top_secret/|
+INPUT|usc430ay-intro-58|U |1581280859|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-59|U |1581280861|usc430ay|intro:clear|
+
+INPUT|usc430ay-intro-60|U |1581280862|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-61|U |1581280866|usc430ay|intro:cd top_secret/|
+INPUT|usc430ay-intro-62|U |1581280868|usc430ay|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430ay-intro-63|U |1581280869|usc430ay|intro:cd ..|
+INPUT|usc430ay-intro-64|U |1581280871|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-65|U |1581280873|usc430ay|intro:ls top_secret/|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430ay-intro-66|U |1581280881|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-67|U |1581280884|usc430ay|intro:rm top_secret/|rm: cannot remove 'top_secret/': Is a directory
+
+INPUT|usc430ay-intro-68|U |1581280889|usc430ay|intro:ls|thomas.png  top_secret	usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-69|U |1581280893|usc430ay|intro:rm thomas.png |
+INPUT|usc430ay-intro-70|U |1581280894|usc430ay|intro:ls|top_secret  usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-71|U |1581280910|usc430ay|intro:ls|top_secret  usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-72|U |1581280912|usc430ay|intro:cd top_secret/|
+INPUT|usc430ay-intro-73|U |1581280915|usc430ay|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430ay-intro-74|U |1581281050|usc430ay|intro:cd ..|
+INPUT|usc430ay-intro-75|U |1581281051|usc430ay|intro:ls|top_secret  usc430ay-file.txt  usc430ayfile.txt  usc430ay.txt
+
+INPUT|usc430ay-intro-76|U |1581281078|usc430ay|intro:ls|top_secret
+
+INPUT|usc430ay-intro-77|U |1581281135|usc430ay|intro:ls|top_secret
+
+INPUT|usc430ay-intro-78|U |1581281144|usc430ay|intro:touch usc430ay.txt|
+INPUT|usc430ay-intro-79|U |1581281145|usc430ay|intro:ls|top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-80|U |1581281543|usc430ay|intro:ls|top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-81|U |1581281684|usc430ay|intro:ls|top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-82|U |1581281688|usc430ay|intro:cd top_secret/|
+INPUT|usc430ay-intro-83|U |1581281690|usc430ay|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430ay-intro-84|U |1581282148|usc430ay|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430ay-intro-85|U |1581282149|usc430ay|intro:clear|
+
+INPUT|usc430ay-intro-86|U |1581282362|usc430ay|intro:emacs -nw|30d-111:----F1  *scratch*      All L1     (Fundamental) -------------------------------------------------------
+A2d31dLoading 00debian-vars...done
+/etc/emacs/site-start.d/50autoconf.el (source)...
+done
+tcsh.el (source)...
+done
+>0c31dLoading /etc/emacs/site-start.d/50tcsh.el (source)...doneFile Edit Options Buffers Tools Lisp-Interaction Help                                                       
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  *scratch*      All L1     (Lisp Interaction) --------------------------------------------------
+A2d31dFor information about GNU Emacs and the GNU system type C-h C-a.
+31dFor information about GNU Emacs and the GNU system type C-h C-a.File Edit Options Buffers Tools Help                                                                        
+A
+Welcome to GNU Emacs one component of the GNU/Linux operating system.
+
+Get help           C-h  (Hold down CTRL and press h)
+Emacs manual       C-h r        Browse manuals     C-h i
+Emacs tutorial     C-h t        
+INPUT|usc430ay-intro-87|U |1581282849|usc430ay|intro:myfile|myfile: command not found
+
+INPUT|usc430ay-intro-88|U |1581282985|usc430ay|intro:touch answers.txt|
+INPUT|usc430ay-intro-89|U |1581282986|usc430ay|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430ay-intro-90|U |1581282997|usc430ay|intro:code answers.txt|;1581282997
+Command 'code' not found but can be installed with:
+
+snap install vscode
+Please ask your administrator.
+
+
+INPUT|usc430ay-intro-91|U |1581283009|usc430ay|intro:vim answers.txt |"answers.txt" 0L 0C6n  >c~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~                                                                                                           ~  
+INPUT|usc430ay-intro-92|U |1581283037|usc430ay|intro:emacs answers.txt|30d-111:----F1  *scratch*      All L1     (Fundamental) -------------------------------------------------------
+A2d31dLoading 00debian-vars...done
+/etc/emacs/site-start.d/50autoconf.el (source)...
+done
+tcsh.el (source)...
+done
+>0c31dLoading /etc/emacs/site-start.d/50tcsh.el (source)...doneFile Edit Options Buffers Tools Lisp-Interaction Help                                                       
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  *scratch*      All L1     (Lisp Interaction) --------------------------------------------------
+A2d31dFor information about GNU Emacs and the GNU system type C-h C-a.
+31dFile Edit Options Buffers Tools Text Help                                                                   
+A
+s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:**--F1  answers.txt    All L1     (Text) --------------------------------------------------------------
+this
+Type C-h for help.
+Type C-h for help.
+Type C-h for help.
+Type C-h for help.
+Type C-h for help.
+Type C-h for help.
+Type C-h for help.
+T
+INPUT|usc430ay-intro-93|U |1581283101|usc430ay|intro:emacs answers.txt|30d-111:----F1  *scratch*      All L1     (Fundamental) -------------------------------------------------------
+A2d31dLoading 00debian-vars...done
+/etc/emacs/site-start.d/50autoconf.el (source)...
+done
+tcsh.el (source)...
+done
+>0c31dLoading /etc/emacs/site-start.d/50tcsh.el (source)...doneFile Edit Options Buffers Tools Lisp-Interaction Help                                                       
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  *scratch*      All L1     (Lisp Interaction) --------------------------------------------------
+A2d31dFor information about GNU Emacs and the GNU system type C-h C-a.
+31dFor information about GNU Emacs and the GNU system type C-h C-a.File Edit Options Buffers Tools Text Help                                                                   
+A
+this is my file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-11-:----F1  answers.txt    All L1     (Text) --------------------------------------------------------------
+31dBeginning of buffer
+31dAuto-saving...
+31dBeginning of buff
+INPUT|usc430ay-intro-94|U |1581283414|usc430ay|intro:ls|136intro-2jjaj.JPEG  answers.txt   asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     answers.txt~  wuer136intro-4.JPG
+
+INPUT|usc430ay-intro-95|U |1581283481|usc430ay|intro:rm answers.txt~|
+INPUT|usc430ay-intro-96|U |1581283482|usc430ay|intro:ls|136intro-2jjaj.JPEG  answers.txt	      wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+
+INPUT|usc430ay-intro-97|U |1581285607|usc430ay|intro:cd ..|
+INPUT|usc430ay-intro-98|U |1581285608|usc430ay|intro:ls|top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-99|U |1581285611|usc430ay|intro:clera|;1581285611
+Command 'clera' not found did you mean:
+
+  command 'clear' from deb ncurses-bin
+
+Try: apt install <deb name>
+
+
+INPUT|usc430ay-intro-100|U |1581285612|usc430ay|intro:clear|
+
+INPUT|usc430ay-intro-101|U |1581292616|usc430ay|intro:node_list|node_list: command not found
+
+INPUT|usc430ay-intro-102|A6 |1581292841|usc430ay|intro:df command|df: command: No such file or directory
+
+INPUT|usc430ay-intro-103|M6 |1581292845|usc430ay|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989776         48     989728   1%% /dev
+tmpfs                                                204108       6120     197988   3%% /run
+/dev/sda1                                          15681948    3254140   11627860  22%% /
+tmpfs                                               1020540          0    1020540   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020540          0    1020540   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ay 2031313280 1109561216  759246976  60%% /users/usc430ay
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374722688 1362045696  51%% /proj/USC430
+tmpfs                                                204108          0     204108   0%% /run/user/14188
+
+INPUT|usc430ay-intro-104|U |1581293007|usc430ay|intro:ls|top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-105|A6 |1581293017|usc430ay|intro:df > top_secret/diskfree.txt|
+INPUT|usc430ay-intro-106|U |1581293018|usc430ay|intro:ls|top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-107|U |1581293021|usc430ay|intro:cd top_secret/|
+INPUT|usc430ay-intro-108|U |1581293022|usc430ay|intro:ls|136intro-2jjaj.JPEG  answers.txt	      diskfree.txt	  xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+
+INPUT|usc430ay-intro-109|U |1581293555|usc430ay|intro:cd ..|
+INPUT|usc430ay-intro-110|U |1581293559|usc430ay|intro:usb-devices|;1581293559
+T:  Bus=01 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=480 MxCh= 6
+D:  Ver= 2.00 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=1d6b ProdID=0002 Rev=04.15
+S:  Manufacturer=Linux 4.15.0-43-generic ehci_hcd
+S:  Product=EHCI Host Controller
+S:  SerialNumber=0000:00:1d.7
+C:  #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=0mA
+I:  If#= 0 Alt= 0 #EPs= 1 Cls=09(hub  ) Sub=00 Prot=00 Driver=hub
+;1581293559
+T:  Bus=01 Lev=01 Prnt=01 Port=02 Cnt=01 Dev#=  2 Spd=480 MxCh= 2
+D:  Ver= 2.00 Cls=09(hub  ) Sub=00 Prot=02 MxPS=64 #Cfgs=  1
+P:  Vendor=413c ProdID=a001 Rev=00.00
+C:  #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=100mA
+I:  If#= 0 Alt= 1 #EPs= 1 Cls=09(hub  ) Sub=00 Prot=02 Driver=hub
+;1581293559
+T:  Bus=02 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=12  MxCh= 2
+D:  Ver= 1.10 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=1d6b ProdID=0001 Rev=04.15
+S:  Manufacturer=Linux 4.15.0-43-generic uhci_hcd
+S:  Product=UHCI Host Controller
+S:  SerialNumber=0000:00:1d.0
+C:  #Ifs= 1 Cfg#= 1 Atr=e0 MxPwr=0m
+INPUT|usc430ay-intro-111|U |1581294088|usc430ay|intro:clear|
+
+INPUT|usc430ay-intro-112|U |1581294089|usc430ay|intro:ls|top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-113|A5 |1581294102|usc430ay|intro:cpuinfo|cpuinfo: command not found
+
+INPUT|usc430ay-intro-114|U |1581294117|usc430ay|intro:cd /proc/|
+INPUT|usc430ay-intro-115|U |1581294118|usc430ay|intro:ls|1     13    2	  2555	2787  37   452	662  990	  interrupts   misc	     sysrq-trigger
+10    135   20	  26	2789  38   453	687  acpi	  iomem        modules	     sysvipc
+100   14    207   2651	2790  39   454	7    buddyinfo	  ioports      mounts	     thread-self
+101   15    208   2653	2791  399  456	787  bus	  ipmi	       mpt	     timer_list
+102   1546  209   2655	2792  4    46	8    cgroups	  irq	       mtrr	     tty
+1080  1582  21	  2656	28    40   460	865  cmdline	  kallsyms     net	     uptime
+109   1586  211   27	2805  41   462	872  consoles	  kcore        pagetypeinfo  version
+1090  1594  212   2731	295   42   47	881  cpuinfo	  keys	       partitions    version_signature
+11    16    213   2732	30    43   48	891  crypto	  key-users    sched_debug   vmallocinfo
+1123  1651  215   2733	31    434  49	895  devices	  kmsg	       schedstat     vmstat
+1129  1761  217   2763	32    435  493	9    diskstats	  kpagecgroup  scsi	     zoneinfo
+1136  1768  22	  2766	33    44   50	933  dma	  kpagecount  
+INPUT|usc430ay-intro-116|A5 |1581294132|usc430ay|intro:print cpuinfo |Error: no "print" mailcap rules found for type "inode/x-empty"
+
+INPUT|usc430ay-intro-117|U |1581294176|usc430ay|intro:ls|1     13    2	  2555	2787  37   452	662  990	  interrupts   misc	     sysrq-trigger
+10    135   20	  26	2789  38   453	687  acpi	  iomem        modules	     sysvipc
+100   14    207   2651	2790  39   454	7    buddyinfo	  ioports      mounts	     thread-self
+101   15    208   2653	2791  399  456	787  bus	  ipmi	       mpt	     timer_list
+102   1546  209   2655	2792  4    46	8    cgroups	  irq	       mtrr	     tty
+1080  1582  21	  2656	28    40   460	865  cmdline	  kallsyms     net	     uptime
+109   1586  211   27	2817  41   462	872  consoles	  kcore        pagetypeinfo  version
+1090  1594  212   2731	295   42   47	881  cpuinfo	  keys	       partitions    version_signature
+11    16    213   2732	30    43   48	891  crypto	  key-users    sched_debug   vmallocinfo
+1123  1651  215   2733	31    434  49	895  devices	  kmsg	       schedstat     vmstat
+1129  1761  217   2763	32    435  493	9    diskstats	  kpagecgroup  scsi	     zoneinfo
+1136  1768  22	  2766	33    44   50	933  dma	  kpagecount  
+INPUT|usc430ay-intro-118|M5 |1581294180|usc430ay|intro:cat cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 1
+microcode	: 0x17
+cpu MHz		: 2992.774
+cache size	: 1024 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5985.54
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 1
+microcode	: 0x17
+cpu MHz		: 2992.774
+cache size	: 1024 KB
+physical id	: 3
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 6
+initial apicid	
+INPUT|usc430ay-intro-119|U |1581294252|usc430ay|intro:ls|1     13    2	  2555	2787  37   452	662  990	  interrupts   misc	     sysrq-trigger
+10    135   20	  26	2789  38   453	687  acpi	  iomem        modules	     sysvipc
+100   14    207   2651	2790  39   454	7    buddyinfo	  ioports      mounts	     thread-self
+101   15    208   2653	2791  399  456	787  bus	  ipmi	       mpt	     timer_list
+102   1546  209   2655	2792  4    46	8    cgroups	  irq	       mtrr	     tty
+1080  1582  21	  2656	28    40   460	865  cmdline	  kallsyms     net	     uptime
+109   1586  211   27	2828  41   462	872  consoles	  kcore        pagetypeinfo  version
+1090  1594  212   2731	295   42   47	881  cpuinfo	  keys	       partitions    version_signature
+11    16    213   2732	30    43   48	891  crypto	  key-users    sched_debug   vmallocinfo
+1123  1651  215   2733	31    434  49	895  devices	  kmsg	       schedstat     vmstat
+1129  1761  217   2763	32    435  493	9    diskstats	  kpagecgroup  scsi	     zoneinfo
+1136  1768  22	  2766	33    44   50	933  dma	  kpagecount  
+INPUT|usc430ay-intro-120|U |1581294256|usc430ay|intro:cd ..|
+INPUT|usc430ay-intro-121|U |1581294257|usc430ay|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430ay-intro-122|U |1581294267|usc430ay|intro:cd ..|
+INPUT|usc430ay-intro-123|U |1581294268|usc430ay|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430ay-intro-124|U |1581294270|usc430ay|intro:cd|
+INPUT|usc430ay-intro-125|U |1581294273|usc430ay|intro:ls|top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-126|U |1581294282|usc430ay|intro:cd /$|bash: cd: /$: No such file or directory
+
+INPUT|usc430ay-intro-127|U |1581294286|usc430ay|intro:ls|top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-128|U |1581294290|usc430ay|intro:cd $|bash: cd: $: No such file or directory
+
+INPUT|usc430ay-intro-129|U |1581294297|usc430ay|intro:cd /|
+INPUT|usc430ay-intro-130|U |1581294298|usc430ay|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430ay-intro-131|U |1581294302|usc430ay|intro:cd var|
+INPUT|usc430ay-intro-132|U |1581294303|usc430ay|intro:ls|backups  cache	crash  emulab  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+
+INPUT|usc430ay-intro-133|U |1581294319|usc430ay|intro:cd ..|
+INPUT|usc430ay-intro-134|U |1581294320|usc430ay|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430ay-intro-135|U |1581294324|usc430ay|intro:ls|136intro-2jjaj.JPEG  i2c-2		 null	   tty0   tty31  tty54	    ttyS18   userio
+autofs		     i2c-3		 port	   tty1   tty32  tty55	    ttyS19   vcs
+block		     initctl		 ppp	   tty10  tty33  tty56	    ttyS2    vcs1
+bsg		     input		 psaux	   tty11  tty34  tty57	    ttyS20   vcs2
+btrfs-control	     ipmi0		 ptmx	   tty12  tty35  tty58	    ttyS21   vcs3
+bus		     kmsg		 pts	   tty13  tty36  tty59	    ttyS22   vcs4
+cdrom		     lightnvm		 random    tty14  tty37  tty6	    ttyS23   vcs5
+char		     log		 rfkill    tty15  tty38  tty60	    ttyS24   vcs6
+console		     loop0		 rtc	   tty16  tty39  tty61	    ttyS25   vcs7
+core		     loop1		 rtc0	   tty17  tty4	 tty62	    ttyS26   vcsa
+cpu		     loop2		 sda	   tty18  tty40  tty63	    ttyS27   vcsa1
+cpu_dma_latency      loop3		 sda1	   tty19  tty41  tty7	    ttyS28   vcsa2
+cuse		     loop4		 sda2	   tty2   tty42  tty8	    ttyS29   vcsa3
+disk		     loop5		 sda3	   tty20  tty43  tty9	    ttyS3    vcsa4
+dri		     loop6		 sg0	   tty21  tty44  ttyprintk  ttyS3
+INPUT|usc430ay-intro-136|A5 |1581294333|usc430ay|intro:cat cpu|cat: cpu: Is a directory
+
+INPUT|usc430ay-intro-137|A5 |1581294336|usc430ay|intro:cd cpu|
+INPUT|usc430ay-intro-138|U |1581294338|usc430ay|intro:ls|microcode
+
+INPUT|usc430ay-intro-139|U |1581294345|usc430ay|intro:ls microcode |microcode
+
+INPUT|usc430ay-intro-140|U |1581294348|usc430ay|intro:cd ..|
+INPUT|usc430ay-intro-141|U |1581294349|usc430ay|intro:ls|136intro-2jjaj.JPEG  i2c-2		 null	   tty0   tty31  tty54	    ttyS18   userio
+autofs		     i2c-3		 port	   tty1   tty32  tty55	    ttyS19   vcs
+block		     initctl		 ppp	   tty10  tty33  tty56	    ttyS2    vcs1
+bsg		     input		 psaux	   tty11  tty34  tty57	    ttyS20   vcs2
+btrfs-control	     ipmi0		 ptmx	   tty12  tty35  tty58	    ttyS21   vcs3
+bus		     kmsg		 pts	   tty13  tty36  tty59	    ttyS22   vcs4
+cdrom		     lightnvm		 random    tty14  tty37  tty6	    ttyS23   vcs5
+char		     log		 rfkill    tty15  tty38  tty60	    ttyS24   vcs6
+console		     loop0		 rtc	   tty16  tty39  tty61	    ttyS25   vcs7
+core		     loop1		 rtc0	   tty17  tty4	 tty62	    ttyS26   vcsa
+cpu		     loop2		 sda	   tty18  tty40  tty63	    ttyS27   vcsa1
+cpu_dma_latency      loop3		 sda1	   tty19  tty41  tty7	    ttyS28   vcsa2
+cuse		     loop4		 sda2	   tty2   tty42  tty8	    ttyS29   vcsa3
+disk		     loop5		 sda3	   tty20  tty43  tty9	    ttyS3    vcsa4
+dri		     loop6		 sg0	   tty21  tty44  ttyprintk  ttyS3
+INPUT|usc430ay-intro-142|U |1581294360|usc430ay|intro:cd ..|
+INPUT|usc430ay-intro-143|U |1581294361|usc430ay|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430ay-intro-144|U |1581886399|usc430ay|intro:ls|client.py  server.py  server.py~  top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-145|U |1581886415|usc430ay|intro:python ./server.py|starting up on localhost port 80
+Traceback (most recent call last):
+  File "./server.py" line 10 in <module>
+    sock.bind(server_address)
+  File "/usr/lib/python2.7/socket.py" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ay-intro-146|U |1581886501|usc430ay|intro:python ./server.py|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File "./server.py" line 18 in <module>
+    connection client_address = sock.accept()
+  File "/usr/lib/python2.7/socket.py" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ay-intro-147|U |1581886889|usc430ay|intro:clear|
+
+INPUT|usc430ay-intro-148|U |1581886898|usc430ay|intro:python ./server.py|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File "./server.py" line 18 in <module>
+    # Wait for a connection
+  File "/usr/lib/python2.7/socket.py" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ay-intro-149|U |1581888595|usc430ay|intro:ls|client.py  client.py~  server.py  server.py~  top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-150|U |1581888732|usc430ay|intro:ls top_secret/|136intro-2jjaj.JPEG  answers.txt   asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+136intro-3.jpg	     answers.txt~  client.py		    server.py	  xbzf136INTRO-1.jpg
+
+INPUT|usc430ay-intro-151|U |1581888760|usc430ay|intro:cd top_secret/|
+INPUT|usc430ay-intro-152|U |1581888764|usc430ay|intro:emacs answers.txt|32d-111:----F1  *scratch*      All L1     (Fundamental) --------------------------------------------------------------------------
+A2d33dLoading 00debian-vars...done
+/etc/emacs/site-start.d/50autoconf.el (source)...
+done
+tcsh.el (source)...
+done
+>0c33dLoading /etc/emacs/site-start.d/50tcsh.el (source)...doneFile Edit Options Buffers Tools Lisp-Interaction Help                                                                          
+A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-111:----F1  *scratch*      All L1     (Lisp Interaction) ---------------------------------------------------------------------
+A2d33dFor information about GNU Emacs and the GNU system type C-h C-a.
+33dFor information about GNU Emacs and the GNU system type C-h C-a.File Edit Options Buffers Tools Text Help                                                                                      
+A
+1. Treasure Hunt
+
+  /usr/share/pixmaps/xbzf136INTRO-1.jpg - "Forbidden Planet"
+  /dev/136intro-2jjaj.JPEG - Godzilla poster
+  /var/log/
+INPUT|usc430ay-intro-153|U |1581888821|usc430ay|intro:tar cvzf michael-peart-intro.tar.gz top_secret|tar: top_secret: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+INPUT|usc430ay-intro-154|U |1581888823|usc430ay|intro:cd..|cd..: command not found
+
+INPUT|usc430ay-intro-155|U |1581888825|usc430ay|intro:ls|136intro-2jjaj.JPEG  answers.txt   asdf136Intro-5kqlw.jpeg  diskfree.txt		server.py	    xbzf136INTRO-1.jpg
+136intro-3.jpg	     answers.txt~  client.py		    michael-peart-intro.tar.gz	wuer136intro-4.JPG
+
+INPUT|usc430ay-intro-156|U |1581888826|usc430ay|intro:cd|
+INPUT|usc430ay-intro-157|U |1581888827|usc430ay|intro:ls|client.py  client.py~  server.py  server.py~  top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-158|U |1581888834|usc430ay|intro:tar cvzf michael-peart-intro.tar.gz top_secret|top_secret/
+top_secret/asdf136Intro-5kqlw.jpeg
+top_secret/xbzf136INTRO-1.jpg
+top_secret/136intro-3.jpg
+top_secret/wuer136intro-4.JPG
+top_secret/136intro-2jjaj.JPEG
+top_secret/answers.txt
+top_secret/diskfree.txt
+top_secret/client.py
+top_secret/answers.txt~
+top_secret/server.py
+top_secret/michael-peart-intro.tar.gz
+
+INPUT|usc430ay-intro-159|U |1581888921|usc430ay|intro:scp usc430ay@users.deterlab.net:michael-peart-intro.tar.gz |usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430ay-intro-160|U |1581888994|usc430ay|intro:ls|client.py  client.py~  michael-peart-intro.tar.gz  server.py  server.py~  top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-161|U |1581889037|usc430ay|intro:scp usc430ay@users.deterlab.net:michael-peart-intro.tar.gz -i|^C
+
+INPUT|usc430ay-intro-162|U |1581889094|usc430ay|intro:scp usc430ay@users.deterlab.net:michael-peart-intro.tar.gz . |^C
+
+INPUT|usc430ay-intro-163|U |1581889105|usc430ay|intro:ls|client.py  client.py~  michael-peart-intro.tar.gz  server.py  server.py~  top_secret  usc430ay.txt
+
+INPUT|usc430ay-intro-164|U |1581889107|usc430ay|intro:clear|
+
+INPUT|usc430ay-intro-165|U |1581889118|usc430ay|intro:scp usc430ay@users.deterlab.net:michael-peart-intro.tar.gz .|^C
+

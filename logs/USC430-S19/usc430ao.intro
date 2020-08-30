@@ -1,0 +1,1071 @@
+User usc430ao start time 1549655165 end 1549683084
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ao-intro-0|U |000000000|usc430ao|:|
+INPUT|usc430ao-intro-1|U |000000000|usc430ao|:|
+INPUT|usc430ao-intro-2|U |000000000|usc430ao|intro:%        print >>sys.stderr| 'connection from'
+INPUT|usc430ao-intro-3|U |000000000|usc430ao|intro:# Receive the data in small chunks and retransmit it|
+INPUT|usc430ao-intro-4|U |000000000|usc430ao|intro:while True:|>             data = connection.recv(16)
+bash: syntax error near unexpected token `('
+INPUT|usc430ao-intro-5|U |000000000|usc430ao|intro:%            print >>sys.stderr| 'received \"%%s\"' %% data%
+INPUT|usc430ao-intro-6|U |000000000|usc430ao|intro:if data:|%>                 print >>sys.stderr%% 'sending data back to the client'
+>                 connection.sendall(data)
+bash: syntax error near unexpected token `data'%
+INPUT|usc430ao-intro-7|U |000000000|usc430ao|intro:else:|else:: command not found
+INPUT|usc430ao-intro-8|U |000000000|usc430ao|intro:%                print >>sys.stderr| 'no more data from'
+INPUT|usc430ao-intro-9|U |000000000|usc430ao|intro:break|%bash: break: only meaningful in a `for'%% `while'%% or `until' loop%
+INPUT|usc430ao-intro-10|U |000000000|usc430ao|intro:|
+INPUT|usc430ao-intro-11|U |000000000|usc430ao|intro:finally:|finally:: command not found
+INPUT|usc430ao-intro-12|U |000000000|usc430ao|intro:# Clean up the connection|
+INPUT|usc430ao-intro-13|M5 |1549663128|usc430ao|intro:less /proc/cpuinfo|%=
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping        : 1
+microcode       : 0x9
+cpu MHz         : 2992.938
+cache size      : 1024 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr
+bugs            :
+/proc/cpuinfo
+ ESCOA
+
+:
+ ESCOA
+
+:
+ ESCOA
+
+:
+ ESCOA
+
+:
+ ESCOA
+
+:
+ ESCOB
+bogomips        : 5985.87
+:
+ ESCOB
+clflush size    : 64
+:
+ ESCOB
+cache_alignment : 128
+:
+ ESCOB
+address 
+INPUT|usc430ao-intro-14|A2 A0 A1 A3 A4 |000000000|usc430ao|intro:find . -name \"*.JPEG\"|
+INPUT|usc430ao-intro-15|U |1549655165|usc430ao|intro:ls|homework1topo.txt  tmp
+INPUT|usc430ao-intro-16|U |000000000|usc430ao|intro:cd homework1topo.txt|bash: cd: homework1topo.txt: Not a directory
+INPUT|usc430ao-intro-17|U |1549655177|usc430ao|intro:cat homework1topo.txt|set ns [new Simulator]
+source tb_compat.tcl
+
+set client [$ns node]
+set server [$ns node]
+
+set link0 [$ns duplex_link client server 1Gb 0ms DropTail]
+
+$ns rtproto Static
+
+INPUT|usc430ao-intro-18|U |000000000|usc430ao|intro:s runusc430ao@intro:~$|
+INPUT|usc430ao-intro-19|U |1549655296|usc430ao|intro:ls|homework1topo.txt  tmp
+INPUT|usc430ao-intro-20|U |000000000|usc430ao|intro:cd tmp|
+INPUT|usc430ao-intro-21|U |000000000|usc430ao|intro:cd ..|
+INPUT|usc430ao-intro-22|U |000000000|usc430ao|intro:cat homework1topo.txt|
+INPUT|usc430ao-intro-23|U |000000000|usc430ao|intro:cd homework1topo.txt|
+INPUT|usc430ao-intro-24|A4 A3 A1 A0 A2 |000000000|usc430ao|intro:find . -name "*.jpeg|
+INPUT|usc430ao-intro-25|A4 A3 A1 A0 A2 |1549655382|usc430ao|intro:find . -name \"*.txt\" | head -n 5|./homework1topo.txt
+./tmp/test.txt
+INPUT|usc430ao-intro-26|A0 A2 A1 A3 A4 |000000000|usc430ao|intro:find . -name \"*.tjpeg|
+INPUT|usc430ao-intro-27|A0 A2 A1 A3 A4 |000000000|usc430ao|intro:find . -name \"*.jJPEG|
+INPUT|usc430ao-intro-28|A4 A3 A1 A0 A2 |000000000|usc430ao|intro:find . -name \"**intro*|
+INPUT|usc430ao-intro-29|M2 |000000000|usc430ao|intro:find / -iname \"**intro*|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+/var/log/ttylog/ttylog.intro.0
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/cli.intro.csv
+find: '/var/log/unattended-upgrades': Permission denied
+/var/log/136intro-3.jpg
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied<
+INPUT|usc430ao-intro-30|A1 A0 A2 A4 A3 |000000000|usc430ao|intro:find / .|
+INPUT|usc430ao-intro-31|U |000000000|usc430ao|intro:finpwd|/users/usc430ao
+INPUT|usc430ao-intro-32|U |1549655961|usc430ao|intro:ls|homework1topo.txt  tmp
+INPUT|usc430ao-intro-33|U |1549655974|usc430ao|intro:mkdir top_secret|
+INPUT|usc430ao-intro-34|U |000000000|usc430ao|intro:cd top_secret/|
+INPUT|usc430ao-intro-35|U |1549655988|usc430ao|intro:touch diskfree.txt|
+INPUT|usc430ao-intro-36|U |1549655992|usc430ao|intro:vim diskfree.txt|%=<C2><BD>  ]11;?"diskfree.txt" 0L%% 0C~                                                                                 ~                                                                                 ~                                                                                 ~                                                                                 ~                                                                                 ~                                                                                 ~                                                                                 ~                                                                                 ~                                                                                 ~                                                                                 ~                                                                                 ~                                                          
+INPUT|usc430ao-intro-37|M6 |1549656316|usc430ao|intro:df|%Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1003696         48    1003648   1%% /dev
+tmpfs                                                204776      11068     193708   6%% /run
+/dev/sda1                                          15616412    2905108   11911356  20%% /
+tmpfs                                               1023868          0    1023868   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1023868          0    1023868   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ao 2031313280 1380297472  488510720  74%% /users/usc430ao
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  920738560 1816029696  34%% /proj/USC430
+tmpfs                                                204776          0     204776   0%% /run/u
+INPUT|usc430ao-intro-38|M6 |1549656705|usc430ao|intro:df -h|%Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              981M   48K  981M   1%% /dev
+tmpfs                                             200M   11M  190M   6%% /run
+/dev/sda1                                          15G  2.8G   12G  20%% /
+tmpfs                                            1000M     0 1000M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                            1000M     0 1000M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ao  1.9T  1.3T  466G  74%% /users/usc430ao
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  879G  1.7T  34%% /proj/USC430
+tmpfs                                             200M     0  200M   0%% /run/user/14178%
+INPUT|usc430ao-intro-39|A2 A0 A1 A3 A4 |000000000|usc430ao|intro:find .d .. -iname \"*.jpeg|
+INPUT|usc430ao-intro-40|U |000000000|usc430ao|intro:cd|
+INPUT|usc430ao-intro-41|A4 A3 A1 A0 A2 |000000000|usc430ao|intro:find . /|!TRUNCATED TO 500L! find: '/var/cache/apt/archives/partial': Permission denied
+find: '/var/cache/ldconfig': Permission denied
+find: '/var/spool/cron/atjobs': Permission denied
+find: '/var/spool/cron/atspool': Permission denied
+find: '/var/spool/cron/crontabs': Permission denied
+find: '/var/spool/rsyslog': Permission denied
+find: '/var/log/unattended-upgrades': Permission denied
+find: '/var/lib/apt/lists/partial': Permission denied
+find: '/var/lib/polkit-1': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/n
+INPUT|usc430ao-intro-42|A3 A4 A2 A0 A1 |000000000|usc430ao|intro:sudo|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430ao-intro-43|M3 M2 |000000000|usc430ao|intro:find / -iname \"*..intro*|/var/log/ttylog/ttylog.intro.0
+/var/log/ttylog/alltty.intro
+/var/log/ttylog/cli.intro.csv
+/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/proj/intro.createimage.Share
+/proj/share/exp/createimage/logs/cli.intro.csv.1535412403
+/proj/share/exp/createimage/logs/ttylog.intro.0
+/proj/share/exp/createimage/logs/alltty.intro
+/proj/share/exp/createimage/logs/cli.intro.csv
+/proj/share/exp/createimage/count.intro
+/proj/USC430/logs/runlog-mjoseph-Homework1.intro.xUiMEB
+/proj/USC430/logs/edumodel.snoopy.intro.1521748498
+/proj/USC430/logs/edumodel.snoopy.intro.1521760450
+/proj/USC430/logs/edumodel.snoopy.intro.1521761327
+/proj/USC430/logs/edumodel.snoopy.intro.1521762323
+/proj/USC430/logs/tedu.snoopy.intro.1521766507
+/proj/USC430/logs/tedu.snoopy.intro.1521769869
+/proj/USC430/logs/tedu.snoopy.intro.1521774922
+/proj/USC430/logs/tedu.snoopy.intro.1522352032
+/proj/USC430/logs/tedu.snoopy
+INPUT|usc430ao-intro-44|M3 M2 M0 |000000000|usc430ao|intro:find / -iname \"*intro*\|/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430ao-intro-45|U |1549657043|usc430ao|intro:ls|homework1topo.txt  tmp top_secret
+INPUT|usc430ao-intro-46|U |000000000|usc430ao|intro:cd tmp|
+INPUT|usc430ao-intro-47|U |1549657047|usc430ao|intro:ls|test.txt
+INPUT|usc430ao-intro-48|U |000000000|usc430ao|intro:cd ..|
+INPUT|usc430ao-intro-49|M3 M2 M0 |000000000|usc430ao|intro:find / -iname "*intro*.jpg"|/var/log/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430ao-intro-50|U |000000000|usc430ao|intro:pwd|/users/usc430ao
+INPUT|usc430ao-intro-51|U |1549657242|usc430ao|intro:ls|homework1topo.txt  tmp top_secret
+INPUT|usc430ao-intro-52|U |000000000|usc430ao|intro:cd top_secret/|
+INPUT|usc430ao-intro-53|U |1549657245|usc430ao|intro:ls|diskfree.txt
+INPUT|usc430ao-intro-54|U |000000000|usc430ao|intro:move /var/log/136intro-3.jpg .|%No command 'move' found%% did you mean:
+ Command 'love' from package 'love' (universe)
+ Command 'lmove' from package 'suck' (universe)
+ Command 'mmove' from package 'mtools' (main)
+ Command 'jove' from package 'jove' (universe)
+ Command 'fmove' from package 'embassy-phylip' (multiverse)
+ Command 'qmove' from package 'torque-client' (universe)
+ Command 'qmove' from package 'torque-client-x11' (universe)
+ Command 'more' from package 'util-linux' (main)
+ Command 'mova' from package 'mova' (universe)
+move: command not found%
+INPUT|usc430ao-intro-55|U |1549657259|usc430ao|intro:mv /var/log/136intro-3.jpg ./|mv: cannot remove '/var/log/136intro-3.jpg': Permission denied
+INPUT|usc430ao-intro-56|U |1549657266|usc430ao|intro:/var/log/136intro-3.jpg ./|sudo: /var/log/136intro-3.jpg: command not found
+INPUT|usc430ao-intro-57|U |1549657277|usc430ao|intro:mv /var/log/136intro-3.jpg ./|
+INPUT|usc430ao-intro-58|U |1549657278|usc430ao|intro:ls|136intro-3.jpg diskfree.txt
+INPUT|usc430ao-intro-59|U |000000000|usc430ao|intro:/var/log/136intro-3.jpg ./|
+INPUT|usc430ao-intro-60|M3 M0 |000000000|usc430ao|intro:find / -iname "*intro*.jpg"|/users/usc430ao/top_secret/136intro-3.jpg
+/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+INPUT|usc430ao-intro-61|A4 A3 A1 A0 A2 |000000000|usc430ao|intro:find / -iname \"*intro*.jpg\"|
+INPUT|usc430ao-intro-62|U |000000000|usc430ao|intro:mv /var/log/136intro-3.jpg ./|
+INPUT|usc430ao-intro-63|A0 A2 A1 A3 A4 |000000000|usc430ao|intro:find / -iname "*intro*.jpg"|
+INPUT|usc430ao-intro-64|U |1549657305|usc430ao|intro:mv /etc/wuer136intro-4.JPG ./|
+INPUT|usc430ao-intro-65|U |1549657312|usc430ao|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg ./|
+INPUT|usc430ao-intro-66|U |1549657313|usc430ao|intro:ls|136intro-3.jpg diskfree.txt  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430ao-intro-67|A2 A0 A1 A3 A4 |000000000|usc430ao|intro:find / -iname "*intro*.jpg"|
+INPUT|usc430ao-intro-68|U |000000000|usc430ao|intro:mv /var/log/136intro-3.jpg ./|
+INPUT|usc430ao-intro-69|M4 M1 |000000000|usc430ao|intro:find / -iname "*intro*.jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+/dev/136intro-2jjaj.JPEG
+INPUT|usc430ao-intro-70|U |1549657339|usc430ao|intro:/.hidden/asdf136Intro-5kqlw.jpeg ./|sudo: /.hidden/asdf136Intro-5kqlw.jpeg: command not found
+INPUT|usc430ao-intro-71|U |1549657347|usc430ao|intro:mv /.hidden/asdf136Intro-5kqlw.jpeg ./|
+INPUT|usc430ao-intro-72|U |1549657352|usc430ao|intro:mv /dev/136intro-2jjaj.JPEG ./|
+INPUT|usc430ao-intro-73|U |1549657353|usc430ao|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+136intro-3.jpg      diskfree.txt       xbzf136INTRO-1.jpg
+INPUT|usc430ao-intro-74|U |000000000|usc430ao|intro:cd ..|
+INPUT|usc430ao-intro-75|U |1549657369|usc430ao|intro:ls|homework1topo.txt  tmp top_secret
+INPUT|usc430ao-intro-76|U |1549657560|usc430ao|intro:ls|homework1topo.txt  tmp top_secret
+INPUT|usc430ao-intro-77|U |000000000|usc430ao|intro:cd tmp|
+INPUT|usc430ao-intro-78|U |1549657610|usc430ao|intro:ls|test.txt
+INPUT|usc430ao-intro-79|U |1549657757|usc430ao|intro:ls|test.txt
+INPUT|usc430ao-intro-80|U |000000000|usc430ao|intro:cd ..|
+INPUT|usc430ao-intro-81|U |1549657759|usc430ao|intro:ls|homework1topo.txt  tmp top_secret
+INPUT|usc430ao-intro-82|U |000000000|usc430ao|intro:cd top_secret/|
+INPUT|usc430ao-intro-83|U |1549657764|usc430ao|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+136intro-3.jpg      diskfree.txt       xbzf136INTRO-1.jpg
+INPUT|usc430ao-intro-84|U |1549657981|usc430ao|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+136intro-3.jpg      diskfree.txt       xbzf136INTRO-1.jpg
+INPUT|usc430ao-intro-85|U |000000000|usc430ao|intro:ls|
+INPUT|usc430ao-intro-86|U |000000000|usc430ao|server:^C|
+INPUT|usc430ao-intro-87|U |000000000|usc430ao|server:^C|
+INPUT|usc430ao-intro-88|U |1549671370|usc430ao|server:ifconfig|eth0      Link encap:Ethernet  HWaddr 00:0e:0c:65:df:10  
+          inet addr:10.1.1.3  Bcast:10.1.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::20e:cff:fe65:df10/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:1 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:14 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:342 (342.0 B)  TX bytes:1408 (1.4 KB)
+
+eth3      Link encap:Ethernet  HWaddr 00:11:43:d6:d6:b5  
+          inet addr:192.168.1.78  Bcast:192.168.3.255  Mask:255.255.252.0
+          inet6 addr: fe80::211:43ff:fed6:d6b5/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5507 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1368 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:6845219 (6.8 MB)  TX bytes:191371 (191.3
+INPUT|usc430ao-intro-89|U |1549671377|usc430ao|server:vim server.py|%=<C2><BD>  ]11;?"server.py" [noeol] 36L%% 1035Cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('localhost'%% 10000)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()try:print >>sys.stderr%% 'connection from'%% client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(16)print >>sys.stderr%% 'received "%%s"' %% dataif data:print >>sys.stderr%% 'sending data back to the client'connection.sendall(data)else:print >>sys.stderr%% 'no more data from'%% client_addressbreakfinally:# Clean up the connectionconnection.close()
+~                                   
+INPUT|usc430ao-intro-90|A2 A0 A1 A3 A4 |000000000|usc430ao|server:sudo|%starting up on 10.1.1.3 port 80
+waiting for a connection
+connection from ('10.1.1.2'%% 50386)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2'%% 50386)
+waiting for a connection
+connection from ('10.1.1.2'%% 50388)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2'%% 50388)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 18%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430ao-intro-91|U |1549671407|usc430ao|server:python server.py|
+INPUT|usc430ao-intro-92|U |1549671625|usc430ao|server:vim server.py|%=<C2><BD>  ]11;?"server.py" 36L%% 1032Cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('10.1.1.3'%% 80)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()try:print >>sys.stderr%% 'connection from'%% client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(16)print >>sys.stderr%% 'received "%%s"' %% dataif data:print >>sys.stderr%% 'sending data back to the client'connection.sendall(data)else:print >>sys.stderr%% 'no more data from'%% client_addressbreakfinally:# Clean up the connectionconnection.close()
+~                                               
+INPUT|usc430ao-intro-93|U |1549671711|usc430ao|server:python server.py|%starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2'%% 50398)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2'%% 50398)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 18%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430ao-intro-94|U |000000000|usc430ao|server:^C|
+INPUT|usc430ao-intro-95|U |000000000|usc430ao|server:^C|
+INPUT|usc430ao-intro-96|U |000000000|usc430ao|server:python server.py|
+INPUT|usc430ao-intro-97|U |1549671861|usc430ao|server:vim server.py|%=<C2><BD>  ]11;?"server.py" 36L%% 1030Cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()try:print >>sys.stderr%% 'connection from'%% client_address# Receive the data in small chunks and retransmit it1%%1Topimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connectio
+INPUT|usc430ao-intro-98|U |1549675153|usc430ao|server:clear|
+INPUT|usc430ao-intro-99|U |1549675176|usc430ao|server:python server.py|%starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2'%% 50434)
+received \"This is the mess\"
+sending data back to the client
+received \"age.  It will be\"
+sending data back to the client
+received \" repeated.\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2'%% 50434)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 18%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430ao-intro-100|U |1549675191|usc430ao|server:clear|
+INPUT|usc430ao-intro-101|U |1549675197|usc430ao|server:vim server.py|%=<C2><BD>  ]11;?"server.py" 36L%% 1030Cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()try:print >>sys.stderr%% 'connection from'%% client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(16)print >>sys.stderr%% 'received "%%s"' %% dataif data:print >>sys.stderr%% 'sending data back to the client'connection.sendall(data)else:print >>sys.stderr%% 'no more data from'%% client_addressbreakfinally:# Clean up the connectionconnection.close()
+~                                                 
+INPUT|usc430ao-intro-102|U |1549675497|usc430ao|server:python server.py|%starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2'%% 50444)
+received \"GET index.htmlHTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2'%% 50444)
+waiting for a connection
+connection from ('10.1.1.2'%% 50446)
+received \"GET index.html HTTP/1.1\"
+sending data back to the client
+received \"\"
+no more data from ('10.1.1.2'%% 50446)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 18%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430ao-intro-103|U |1549675716|usc430ao|server:python server.py|
+INPUT|usc430ao-intro-104|U |1549675723|usc430ao|server:vim server.py|%=<C2><BD>  ]11;?"server.py" 36L%% 1030Cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()try:print >>sys.stderr%% 'connection from'%% client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(32)print >>sys.stderr%% 'received "%%s"' %% dataif data:print >>sys.stderr%% 'sending data back to the client'connection.sendall(data)else:print >>sys.stderr%% 'no more data from'%% client_addressbreakfinally:# Clean up the connectionconnection.close()
+~                                                 
+INPUT|usc430ao-intro-105|U |1549675751|usc430ao|server:python server.py|%  File \"server.py\"%% line 28
+    print >>sys.stderr%% 'received \"%%s\"' %% data
+    ^
+IndentationError: unexpected indent%
+INPUT|usc430ao-intro-106|U |1549675785|usc430ao|server:python server.py|
+INPUT|usc430ao-intro-107|U |1549675792|usc430ao|server:vim server.py|%=<C2><BD>  ]11;?"server.py" 39L%% 1092Cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()try:print >>sys.stderr%% 'connection from'%% client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(32)# parse dataprint >>sys.stderr%% 'received "%%s"' %% dataif data:print >>sys.stderr%% 'sending data back to the client'connection.sendall('HTTP/1.1 200 OK
+
+contents of the file')else:print >>sys.stderr%% 'no more data from'%% client_addressbreakfinally:# Clean up the connectionconnection.close()<
+INPUT|usc430ao-intro-108|U |1549675820|usc430ao|server:python server.py|%  File \"server.py\"%% line 27
+    print >>sys.stderr%% 'received \"%%s\"' %% data
+    ^
+IndentationError: unexpected indent%
+INPUT|usc430ao-intro-109|U |1549675839|usc430ao|server:python server.py|
+INPUT|usc430ao-intro-110|U |1549675861|usc430ao|server:vim server.py|%=<C2><BD>  ]11;?"server.py" 37L%% 1077Cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()try:print >>sys.stderr%% 'connection from'%% client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(32)# parse dataprint >>sys.stderr%% 'received "%%s"' %% dataif data:print >>sys.stderr%% 'sending data back to the client'connection.sendall('HTTP/1.1 200 OK
+
+contents of the file')else:print >>sys.stderr%% 'no more data from'%% client_addressbreakfinally:# Clean up the connectionconnection.close()<
+INPUT|usc430ao-intro-111|U |000000000|usc430ao|server:python server.py|%  File \"server.py\"%% line 27
+    print >>sys.stderr%% 'received \"%%s\"' %% data
+    ^
+IndentationError: unexpected indent%
+INPUT|usc430ao-intro-112|U |000000000|usc430ao|server:python server.py|
+INPUT|usc430ao-intro-113|U |1549675895|usc430ao|server:vim server.py|%=<C2><BD>  ]11;?"server.py" 37L%% 1077Cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()try:print >>sys.stderr%% 'connection from'%% client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(32)# parse dataprint >>sys.stderr%% 'received "%%s"' %% dataif data:print >>sys.stderr%% 'sending data back to the client'connection.sendall('HTTP/1.1 200 OK
+
+contents of the file')else:print >>sys.stderr%% 'no more data from'%% client_addressbreakfinally:# Clean up the connectionconnection.close()<
+INPUT|usc430ao-intro-114|U |000000000|usc430ao|server:python server.py|%  File \"server.py\"%% line 26
+    print >>sys.stderr%% 'received \"%%s\"' %% data
+    ^
+IndentationError: unexpected unindent%
+INPUT|usc430ao-intro-115|U |000000000|usc430ao|server:python server.py|
+INPUT|usc430ao-intro-116|U |000000000|usc430ao|server:vim server.py|%<ESC>[?1049h<ESC>[?1h<ESC>=<ESC>[2;1H<C2><BD><ESC>[6n<ESC>[2;1H  <ESC>[1;1H<ESC>]11;?<BEL><ESC>[1;55r<ESC>[?12;25h<ESC>[?12l<ESC>[?25h<ESC>[27m<ESC>[23m<ESC>[m<ESC>[H<ESC>[2J<ESC>[?25l<ESC>[55;1H"server.py" 36L%% 1049C<ESC>[>c<ESC>[1;1H<ESC>[35mimport<ESC>[m socket
+<ESC>[35mimport<ESC>[m sys
+
+<ESC>[34m# Create a TCP/IP socket<ESC>[m
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+<ESC>[34m# Bind the socket to the port<ESC>[m
+server_address = (<ESC>[31m'server'<ESC>[m%% <ESC>[31m80<ESC>[m)
+<ESC>[36mprint<ESC>[m >>sys.stderr%% <ESC>[31m'starting up on %%s port %%s'<ESC>[m %% server_address
+sock.bind(server_address)
+
+<ESC>[34m# Listen for incoming connections<ESC>[m
+sock.listen(<ESC>[31m1<ESC>[m)
+
+<ESC>[38;5;130mwhile<ESC>[m <ESC>[36mTrue<ESC>[m:
+    <ESC>[34m# Wait for a connection<ESC>[m
+    <ESC>[36mprint<ESC>[m >>sys.stderr%% <ESC>[31m'waiting for a connection'<ESC>[m
+    connection%% client_address = sock.accept()<ESC>[20
+INPUT|usc430ao-intro-117|U |000000000|usc430ao|server:python server.py|%  File \"server.py\"%% line 26
+    print >>sys.stderr%% 'received \"%%s\"' %% data
+    ^
+IndentationError: unexpected indent%
+INPUT|usc430ao-intro-118|U |000000000|usc430ao|server:python server.py|
+INPUT|usc430ao-intro-119|U |000000000|usc430ao|server:cat|%import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()
+
+    try:
+        print >>sys.stderr%% 'connection from'%% client_address
+
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv(32)
+   print >>sys.stderr%% 'received \"%%s\"' %% data
+            if data:
+          print >>sys.stderr%% 'sending data back to the client'
+                connection.sendall('HTTP/1.1 200 OK\
+\
+contents of the file')
+            else:
+ 
+INPUT|usc430ao-intro-120|U |000000000|usc430ao|server:python server.py|
+INPUT|usc430ao-intro-121|U |000000000|usc430ao|server:vim server.py|%<ESC>[?1049h<ESC>[?1h<ESC>=<ESC>[2;1H<C2><BD><ESC>[6n<ESC>[2;1H  <ESC>[1;1H<ESC>]11;?<BEL><ESC>[1;55r<ESC>[?12;25h<ESC>[?12l<ESC>[?25h<ESC>[27m<ESC>[23m<ESC>[m<ESC>[H<ESC>[2J<ESC>[?25l<ESC>[55;1H"server.py" 36L%% 1052C<ESC>[>c<ESC>[1;1H<ESC>[35mimport<ESC>[m socket
+<ESC>[35mimport<ESC>[m sys
+
+<ESC>[34m# Create a TCP/IP socket<ESC>[m
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+<ESC>[34m# Bind the socket to the port<ESC>[m
+server_address = (<ESC>[31m'server'<ESC>[m%% <ESC>[31m80<ESC>[m)
+<ESC>[36mprint<ESC>[m >>sys.stderr%% <ESC>[31m'starting up on %%s port %%s'<ESC>[m %% server_address
+sock.bind(server_address)
+
+<ESC>[34m# Listen for incoming connections<ESC>[m
+sock.listen(<ESC>[31m1<ESC>[m)
+
+<ESC>[38;5;130mwhile<ESC>[m <ESC>[36mTrue<ESC>[m:
+    <ESC>[34m# Wait for a connection<ESC>[m
+    <ESC>[36mprint<ESC>[m >>sys.stderr%% <ESC>[31m'waiting for a connection'<ESC>[m
+    connection%% client_address = sock.accept()<ESC>[20
+INPUT|usc430ao-intro-122|U |1549675908|usc430ao|server:cat server.py|%import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()
+
+    try:
+        print >>sys.stderr%% 'connection from'%% client_address
+
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv(32)
+  print >>sys.stderr%% 'received \"%%s\"' %% data
+            if data:
+         print >>sys.stderr%% 'sending data back to the client'
+                connection.sendall('HTTP/1.1 200 OK\
+\
+contents of the file')
+            else:
+         
+INPUT|usc430ao-intro-123|U |000000000|usc430ao|server:vim server.py|%<ESC>[?1049h<ESC>[?1h<ESC>=<ESC>[2;1H<C2><BD><ESC>[6n<ESC>[2;1H  <ESC>[1;1H<ESC>]11;?<BEL><ESC>[1;55r<ESC>[?12;25h<ESC>[?12l<ESC>[?25h<ESC>[27m<ESC>[23m<ESC>[m<ESC>[H<ESC>[2J<ESC>[?25l<ESC>[55;1H"server.py" 36L%% 1050C<ESC>[>c<ESC>[1;1H<ESC>[35mimport<ESC>[m socket
+<ESC>[35mimport<ESC>[m sys
+
+<ESC>[34m# Create a TCP/IP socket<ESC>[m
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+<ESC>[34m# Bind the socket to the port<ESC>[m
+server_address = (<ESC>[31m'server'<ESC>[m%% <ESC>[31m80<ESC>[m)
+<ESC>[36mprint<ESC>[m >>sys.stderr%% <ESC>[31m'starting up on %%s port %%s'<ESC>[m %% server_address
+sock.bind(server_address)
+
+<ESC>[34m# Listen for incoming connections<ESC>[m
+sock.listen(<ESC>[31m1<ESC>[m)
+
+<ESC>[38;5;130mwhile<ESC>[m <ESC>[36mTrue<ESC>[m:
+    <ESC>[34m# Wait for a connection<ESC>[m
+    <ESC>[36mprint<ESC>[m >>sys.stderr%% <ESC>[31m'waiting for a connection'<ESC>[m
+    connection%% client_address = sock.accept()<ESC>[20
+INPUT|usc430ao-intro-124|U |000000000|usc430ao|server:cat server.py|%import socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80)
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()
+
+    try:
+        print >>sys.stderr%% 'connection from'%% client_address
+
+        # Receive the data in small chunks and retransmit it
+        while True:
+            data = connection.recv(32)
+ print >>sys.stderr%% 'received \"%%s\"' %% data
+            if data:
+         print >>sys.stderr%% 'sending data back to the client'
+                connection.sendall('HTTP/1.1 200 OK\
+\
+contents of the file')
+            else:
+             
+INPUT|usc430ao-intro-125|U |000000000|usc430ao|server:cd top_secret/|
+INPUT|usc430ao-intro-126|U |000000000|usc430ao|server:ckear'|> k^C
+INPUT|usc430ao-intro-127|U |1549680490|usc430ao|server:clear|
+INPUT|usc430ao-intro-128|U |1549680491|usc430ao|server:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+INPUT|usc430ao-intro-129|U |1549680508|usc430ao|server:cat answers.txt|%Task 1:
+
+Original locations:
+ /var/log/136intro-3.jpg
+ /etc/wuer136intro-4.JPG
+ /usr/share/pixmaps/xbzf136INTRO-1.jpg
+ /.hidden/asdf136Intro-5kqlw.jpeg
+ /dev/136intro-2jjaj.JPEG
+
+Discription for each:
+ 136intro-3.jpg: \"Fantastic sights leaps at you\"&\"IT CAME FROM OUTER SPACE\"
+ wuer136intro-4.JPG: \"SHE HAD TO KILL THE THING...\"
+ xbzf136INTRO-1.jpg: \"FORBIDDEN PLANET\"
+ asdf136Intro-5kqlw.jpeg: \"2001 A space odyssey\"
+ 136intro-2jjaj.JPEG: \"GODZILLA\"
+
+
+Task 2:
+
+1. /var contains things that are prone to change%% such as websites%% temporary files (/var/tmp) and databases.
+2. The /dev directory contains the special device files for all the devices.
+3. see \"diskfree.txt\"
+4. GenuineIntel
+
+Taks 3:%
+INPUT|usc430ao-intro-130|U |1549680514|usc430ao|server:cat diskfree.txt|%Filesystem           Size    Used   Avail Capacity  Mounted on
+/dev/gpt/root         15G    524M     14G     4%%    /
+devfs                1.0K    1.0K      0B   100%%    /dev
+/dev/gpt/var          62G     14G     43G    25%%    /var
+/dev/gpt/usr          62G     12G     45G    21%%    /usr
+/dev/gpt/other       1.9T    1.3T    466G    74%%    /mnt/other
+/dev/gpt/projects    2.8T    878G    1.7T    34%%    /mnt/projects
+/dev/gpt/share       484G    224G    221G    50%%    /mnt/share
+/dev/md0             992M    557M    356M    61%%    /tmp
+procfs               4.0K    4.0K      0B   100%%    /proc%
+INPUT|usc430ao-intro-131|U |1549680515|usc430ao|server:clear|
+INPUT|usc430ao-intro-132|U |1549680524|usc430ao|server:python server.py|%starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2'%% 50492)
+received: ~/tmp/sdf.t
+Traceback (most recent call last):
+  File \"server.py\"%% line 43%% in <module>
+    with open('~/tmp/404.html'%% 'r') as myfile:
+IOError: [Errno 2] No such file or directory: '~/tmp/404.html'%
+INPUT|usc430ao-intro-133|U |1549680554|usc430ao|server:python server.py|%starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 11%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430ao-intro-134|U |1549680556|usc430ao|server:clear|
+INPUT|usc430ao-intro-135|U |1549680558|usc430ao|server:python server.py|%starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 11%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430ao-intro-136|U |1549680565|usc430ao|server:python server.py|%starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 11%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430ao-intro-137|U |1549680571|usc430ao|server:clear|
+INPUT|usc430ao-intro-138|U |1549680573|usc430ao|server:python server.py|%starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 11%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430ao-intro-139|U |1549680580|usc430ao|server:python server.py|%starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 11%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430ao-intro-140|U |000000000|usc430ao|server:quit|%No command 'quit' found%% did you mean:
+ Command 'quiz' from package 'bsdgames' (universe)
+ Command 'quilt' from package 'quilt' (universe)
+ Command 'quot' from package 'quota' (main)
+ Command 'qgit' from package 'qgit' (universe)
+ Command 'luit' from package 'x11-utils' (main)
+quit: command not found%
+INPUT|usc430ao-intro-141|U |1549680590|usc430ao|server:clear|
+INPUT|usc430ao-intro-142|U |1549680596|usc430ao|server:python server.py|%starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 11%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 13] Permission denied%
+INPUT|usc430ao-intro-143|U |1549680606|usc430ao|server:python server.py|%starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2'%% 50504)
+received: ~/tmp/sdf.html
+Traceback (most recent call last):
+  File \"server.py\"%% line 43%% in <module>
+    with open('~/tmp/404.html'%% 'r') as myfile:
+IOError: [Errno 2] No such file or directory: '~/tmp/404.html'%
+INPUT|usc430ao-intro-144|U |000000000|usc430ao|server:cd ~/tmp|
+INPUT|usc430ao-intro-145|U |1549680651|usc430ao|server:ls|404.html  index.html  test.txt
+INPUT|usc430ao-intro-146|U |000000000|usc430ao|server:cd ~/top_secret/|
+INPUT|usc430ao-intro-147|U |1549680680|usc430ao|server:clear|
+INPUT|usc430ao-intro-148|U |1549680703|usc430ao|server:python server.py|%starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2'%% 50506)
+received: ~/tmp/sdf.html
+file not found ('10.1.1.2'%% 50506)
+waiting for a connection
+connection from ('10.1.1.2'%% 50508)
+received: ~/tmp/index.html
+file not found ('10.1.1.2'%% 50508)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 19%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430ao-intro-149|U |1549680983|usc430ao|server:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+INPUT|usc430ao-intro-150|U |1549680986|usc430ao|server:vim answers.txt|%=<C2><BD>  ]11;?"answers.txt" 25L%% 696CTask 1:
+
+Original locations:
+    /var/log/136intro-3.jpg
+    /etc/wuer136intro-4.JPG
+    /usr/share/pixmaps/xbzf136INTRO-1.jpg
+    /.hidden/asdf136Intro-5kqlw.jpeg
+    /dev/136intro-2jjaj.JPEG
+
+Discription for each:
+    136intro-3.jpg: "Fantastic sights leaps at you"&"IT CAME FROM OUTER SPACE"
+    wuer136intro-4.JPG: "SHE HAD TO KILL THE THING..."
+    xbzf136INTRO-1.jpg: "FORBIDDEN PLANET"
+    asdf136Intro-5kqlw.jpeg: "2001 A space odyssey"
+    136intro-2jjaj.JPEG: "GODZILLA"
+
+
+Task 2:
+
+1. /var contains things that are prone to change%% such as websites%% temporary files (/var/tmp) and ddatabases.
+2. The /dev directory contains the special device files for all the devices.
+3. see "diskfree.txt"
+4. GenuineIntel
+
+Taks 3:
+~                                                                                                   ~                                                      
+INPUT|usc430ao-intro-151|U |000000000|usc430ao|server:cd ..|
+INPUT|usc430ao-intro-152|U |000000000|usc430ao|server:claer|%lsNo command 'claer' found%% did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+claer: command not found
+%
+INPUT|usc430ao-intro-153|U |1549681293|usc430ao|server:ls|%sys.stderr%%  tmp  top_secret%
+INPUT|usc430ao-intro-154|U |1549681294|usc430ao|server:clear|
+INPUT|usc430ao-intro-155|U |1549681297|usc430ao|server:vim .vimrc|%=<C2><BD>  ]11;?".vimrc" [New File]~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                               
+INPUT|usc430ao-intro-156|U |000000000|usc430ao|server:vim .vim|.viminfo  .vimrc    
+INPUT|usc430ao-intro-157|U |1549681343|usc430ao|server:vim .vimrc|%=<C2><BD>  ]11;?".vimrc" 4L%% 56Cset et
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                   ~                                                                                                 
+INPUT|usc430ao-intro-158|U |000000000|usc430ao|server:cd top_secret/|
+INPUT|usc430ao-intro-159|U |1549681347|usc430ao|server:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+INPUT|usc430ao-intro-160|U |1549681350|usc430ao|server:vim answers.txt|%=<C2><BD>  ]11;?"answers.txt" 34L%% 859CNAME: Zhuowei Zhang
+EMAIL: zhuoweiz@usc.edu
+username: usc430ao
+
+Task 1:
+
+Original locations:
+    /var/log/136intro-3.jpg
+    /etc/wuer136intro-4.JPG
+    /usr/share/pixmaps/xbzf136INTRO-1.jpg
+    /.hidden/asdf136Intro-5kqlw.jpeg
+    /dev/136intro-2jjaj.JPEG
+
+Discription for each:
+    136intro-3.jpg: "Fantastic sights leaps at you"&"IT CAME FROM OUTER SPACE"
+    wuer136intro-4.JPG: "SHE HAD TO KILL THE THING..."
+    xbzf136INTRO-1.jpg: "FORBIDDEN PLANET"
+    asdf136Intro-5kqlw.jpeg: "2001 A space odyssey"
+    136intro-2jjaj.JPEG: "GODZILLA"
+
+
+Task 2:
+
+1. /var contains things that are prone to change%% such as websites%% temporary files (/var/tmp) and ddatabases.
+2. The /dev directory contains the special device files for all the devices.
+3. see "diskfree.txt"
+4. GenuineIntel
+
+Taks 3:
+run in this folder
+server: sudo python server.py
+client: sudo python clie
+INPUT|usc430ao-intro-161|U |1549681369|usc430ao|server:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+INPUT|usc430ao-intro-162|U |1549681375|usc430ao|server:vim server.py|%=<C2><BD>  ]11;?"server.py" 55L%% 1809Cimport socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80) #server
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()try:print >>sys.stderr%% 'connection from'%% client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(32)if data:splitArr = data.split(" ")filename = '~/tmp/' + splitArr[1]print >>sys.stderr%% 'received: %%s' %% filename# if can find the file%% return index.html%% else return 404.htmlif os.path.isfile(filename):# read the filewith open(filename%% 'r') as myfile:filedata = myfile.read(
+INPUT|usc430ao-intro-163|U |1549681938|usc430ao|server:vim answers.txt|%=<C2><BD>  ]11;?"answers.txt" 32L%% 857CNAME: Zhuowei Zhang
+EMAIL: zhuoweiz@usc.edu
+username: usc430ao
+
+Task 1:
+
+Original locations:
+    /var/log/136intro-3.jpg
+    /etc/wuer136intro-4.JPG
+    /usr/share/pixmaps/xbzf136INTRO-1.jpg
+    /.hidden/asdf136Intro-5kqlw.jpeg
+    /dev/136intro-2jjaj.JPEG
+
+Discription for each:
+    136intro-3.jpg: "Fantastic sights leaps at you"&"IT CAME FROM OUTER SPACE"
+    wuer136intro-4.JPG: "SHE HAD TO KILL THE THING..."
+    xbzf136INTRO-1.jpg: "FORBIDDEN PLANET"
+    asdf136Intro-5kqlw.jpeg: "2001 A space odyssey"
+    136intro-2jjaj.JPEG: "GODZILLA"
+
+
+Task 2:
+
+1. /var contains things that are prone to change%% such as websites%% temporary files (/var/tmp) and ddatabases.
+2. The /dev directory contains the special device files for all the devices.
+3. see "diskfree.txt"
+4. GenuineIntel
+
+Taks 3:
+run in this folder
+server: sudo python server.py
+client: sudo python clie
+INPUT|usc430ao-intro-164|U |000000000|usc430ao|server:exit|exit
+INPUT|usc430ao-intro-165|U |000000000|usc430ao|server:cd top_secret/|
+INPUT|usc430ao-intro-166|U |1549682681|usc430ao|server:ls|136intro-2jjaj.JPEG  answers.txt       client.py     server.py  xbzf136INTRO-1.jpg
+136intro-3.jpg      asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG
+INPUT|usc430ao-intro-167|U |1549682689|usc430ao|server:vim server.py|%=<C2><BD>  ]11;?"server.py" 55L%% 1809Cimport socket
+import sys
+import os
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET%% socket.SOCK_STREAM)
+
+# Bind the socket to the port
+server_address = ('server'%% 80) #server
+print >>sys.stderr%% 'starting up on %%s port %%s' %% server_address
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+while True:
+    # Wait for a connection
+    print >>sys.stderr%% 'waiting for a connection'
+    connection%% client_address = sock.accept()try:print >>sys.stderr%% 'connection from'%% client_address# Receive the data in small chunks and retransmit itwhile True:data = connection.recv(32)if data:splitArr = data.split(" ")filename = '~/tmp/' + splitArr[1]print >>sys.stderr%% 'received: %%s' %% filename# if can find the file%% return index.html%% else return 404.htmlif os.path.isfile(filename):# read the filewith open(filename%% 'r') as myfile:filedata = myfile.read(
+INPUT|usc430ao-intro-168|U |1549682787|usc430ao|server:python server.py|%starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2'%% 50534)
+received: /users/usc430ao/tmp/index.html
+sending data back to the client
+
+waiting for a connection
+connection from ('10.1.1.2'%% 50536)
+received: /users/usc430ao/tmp/index.html
+sending data back to the client
+
+waiting for a connection
+connection from ('10.1.1.2'%% 50538)
+received: /users/usc430ao/tmp/inder.html
+file not found
+('10.1.1.2'%% 50538)
+waiting for a connection
+connection from ('10.1.1.2'%% 50542)
+received: /users/usc430ao/tmp/inder.html
+file not found
+('10.1.1.2'%% 50542)
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 19%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430ao-intro-169|U |1549683027|usc430ao|server:python server.py|%starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 11%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430ao-intro-170|U |1549683032|usc430ao|server:clear|
+INPUT|usc430ao-intro-171|U |1549683034|usc430ao|server:python server.py|%starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 11%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430ao-intro-172|U |1549683044|usc430ao|server:clear|
+INPUT|usc430ao-intro-173|U |1549683045|usc430ao|server:python server.py|%starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 11%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430ao-intro-174|U |1549683046|usc430ao|server:python server.py|%starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 11%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430ao-intro-175|U |1549683059|usc430ao|server:clear|
+INPUT|usc430ao-intro-176|U |1549683061|usc430ao|server:python server.py|%starting up on server port 80
+Traceback (most recent call last):
+  File \"server.py\"%% line 11%% in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\"%% line 228%% in meth
+    return getattr(self._sock%%name)(*args)
+socket.error: [Errno 98] Address already in use%
+INPUT|usc430ao-intro-177|U |000000000|usc430ao|server:socket|The program 'socket' is currently not installed. To run 'socket' please ask your administrator to install the package 'socket'
+INPUT|usc430ao-intro-178|U |1549683081|usc430ao|server:clear|
+INPUT|usc430ao-intro-179|U |1549683084|usc430ao|server:python server.py|%starting up on server port 80
+waiting for a connection
+connection from ('10.1.1.2'%% 50548)
+received: /users/usc430ao/tmp/inder.html
+file not found
+('10.1.1.2'%% 50548)
+waiting for a connection
+connection from ('10.1.1.2'%% 50550)
+received: /users/usc430ao/tmp/index.html
+sending data back to the client
+
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\"%% line 19%% in <module>
+    connection%% client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\"%% line 206%% in accept
+    sock%% addr = self._sock.accept()
+KeyboardInterrupt%
+INPUT|usc430ao-intro-180|U |000000000|usc430ao|server:exit|exit

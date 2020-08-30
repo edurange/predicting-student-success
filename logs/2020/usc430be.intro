@@ -1,0 +1,1188 @@
+User usc430be start time 1580367498 end 1580438588
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430be-intro-0|U |000000000|usc430be|:|
+INPUT|usc430be-intro-1|U |000000000|usc430be|:|
+INPUT|usc430be-intro-2|U |1580367498|usc430be|intro:ls|
+INPUT|usc430be-intro-3|U |1580367502|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-4|U |1580367506|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-5|U |1580367514|usc430be|intro:cd root/|bash: cd: root/: Permission denied
+
+INPUT|usc430be-intro-6|U |1580367515|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-7|U |1580367518|usc430be|intro:cd root/|sudo: cd: command not found
+
+INPUT|usc430be-intro-8|U |1580367527|usc430be|intro:r|root/ run/  
+
+INPUT|usc430be-intro-9|U |1580367529|usc430be|intro:root/|sudo: root/: command not found
+
+INPUT|usc430be-intro-10|U |1580367530|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-11|U |1580367535|usc430be|intro:cd root/|sudo: cd: command not found
+
+INPUT|usc430be-intro-12|U |1580367536|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-13|U |1580367542|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-14|U |1580370285|usc430be|intro:ls|
+INPUT|usc430be-intro-15|U |1580370289|usc430be|intro:cd ../|
+INPUT|usc430be-intro-16|U |1580370290|usc430be|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430be
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430be-intro-17|U |1580370301|usc430be|intro:cd usc 430be|bash: cd: too many arguments
+
+INPUT|usc430be-intro-18|U |1580370339|usc430be|intro:cd usc430be|
+INPUT|usc430be-intro-19|U |1580370340|usc430be|intro:ls|
+INPUT|usc430be-intro-20|U |1580370342|usc430be|intro:cd ../|
+INPUT|usc430be-intro-21|U |1580370346|usc430be|intro:cd giotah/|
+INPUT|usc430be-intro-22|U |1580370347|usc430be|intro:ls|
+INPUT|usc430be-intro-23|U |1580370349|usc430be|intro:ls|
+INPUT|usc430be-intro-24|U |1580370350|usc430be|intro:cd ../|
+INPUT|usc430be-intro-25|U |1580370353|usc430be|intro:cd mlocasto/|
+INPUT|usc430be-intro-26|U |1580370354|usc430be|intro:ls|
+INPUT|usc430be-intro-27|U |1580370356|usc430be|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430be
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430be-intro-28|U |1580370391|usc430be|intro:cd ../|
+INPUT|usc430be-intro-29|U |1580370392|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-30|U |1580370394|usc430be|intro:ls|deter
+
+INPUT|usc430be-intro-31|U |1580370397|usc430be|intro:ls|
+INPUT|usc430be-intro-32|U |1580370399|usc430be|intro:cd ../|
+INPUT|usc430be-intro-33|U |1580370400|usc430be|intro:cd ../|
+INPUT|usc430be-intro-34|U |1580370470|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-35|U |1580370471|usc430be|intro:cd ../|
+INPUT|usc430be-intro-36|U |1580370472|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-37|U |1580370481|usc430be|intro:cd root/|bash: cd: root/: Permission denied
+
+INPUT|usc430be-intro-38|U |1580370482|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-39|U |1580371128|usc430be|intro:ls |bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-40|U |1580371133|usc430be|intro:cd users/|
+INPUT|usc430be-intro-41|U |1580371148|usc430be|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430be
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430be-intro-42|U |1580371151|usc430be|intro:cd usc430be/|
+INPUT|usc430be-intro-43|U |1580371153|usc430be|intro:ls|
+INPUT|usc430be-intro-44|U |1580371169|usc430be|intro:mkdir top_secret|
+INPUT|usc430be-intro-45|U |1580371170|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-46|U |1580371174|usc430be|intro:cd ../|
+INPUT|usc430be-intro-47|U |1580371175|usc430be|intro:cd ../|
+INPUT|usc430be-intro-48|U |1580371176|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-49|U |1580371915|usc430be|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430be-intro-50|U |1580371920|usc430be|intro:cd users/|
+INPUT|usc430be-intro-51|U |1580371921|usc430be|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430be
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430be-intro-52|U |1580371925|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-53|U |1580371929|usc430be|intro:ls|
+INPUT|usc430be-intro-54|U |1580371943|usc430be|intro:cat answers.txt|cat: answers.txt: No such file or directory
+
+INPUT|usc430be-intro-55|U |1580372009|usc430be|intro:cat > answers.txt|;1580372012
+^Z
+[1]+  Stopped                 cat > answers.txt
+
+INPUT|usc430be-intro-56|U |1580372025|usc430be|intro:ls|answers.txt
+
+INPUT|usc430be-intro-57|U |1580372032|usc430be|intro:cat answers.txt |;1580372032
+
+INPUT|usc430be-intro-58|U |1580372320|usc430be|intro:ls|answers.txt
+
+INPUT|usc430be-intro-59|U |1580373705|usc430be|intro:ls|answers.txt
+
+INPUT|usc430be-intro-60|U |1580373707|usc430be|intro:nano answers.txt |Use "fg" to return to nano.special device files (for all devices) that control $A$ntrol access to peripheral devices.
+
+[2]+  Stopped                 nano answers.txt
+
+INPUT|usc430be-intro-61|U |1580374032|usc430be|intro:ls|answers.txt
+
+INPUT|usc430be-intro-62|U |1580374034|usc430be|intro:cat answers.txt |;1580374034
+
+INPUT|usc430be-intro-63|U |1580374038|usc430be|intro:cat answers.txt |;1580374038
+
+INPUT|usc430be-intro-64|U |1580374043|usc430be|intro:nano answers.txt |Use "fg" to return to nano. ](B(B^O(B Write Out (B^W(B Where Is  (B^K(B Cut Text  (B^J(B Justify   (B^C(B Cur Pos(BX(B Exit      (B^R(B Read File (B^\(B Replace   (B^U(B Uncut Text(B^T(B To Spell  (B^_(B Go To Line
+
+[3]+  Stopped                 nano answers.txt
+
+INPUT|usc430be-intro-65|U |1580374086|usc430be|intro:cat answers.txt |1.
+2.
+
+INPUT|usc430be-intro-66|U |1580374087|usc430be|intro:nano answers.txt |
+
+INPUT|usc430be-intro-67|U |1580374207|usc430be|intro:ls|answers.txt
+
+INPUT|usc430be-intro-68|U |1580374209|usc430be|intro:cat a`|> ^C
+
+INPUT|usc430be-intro-69|U |1580374215|usc430be|intro:ls|answers.txt
+
+INPUT|usc430be-intro-70|U |1580374221|usc430be|intro:cat answers.txt |1. /var contains files to which the system writes data during the course of its operation.
+2. /dev contains the special device files for all the devices and controls access to them.
+
+
+INPUT|usc430be-intro-71|U |1580374240|usc430be|intro:ls|answers.txt
+
+INPUT|usc430be-intro-72|U |1580374248|usc430be|intro:ls|answers.txt
+
+INPUT|usc430be-intro-73|U |1580374249|usc430be|intro:ls|answers.txt
+
+INPUT|usc430be-intro-74|U |1580374250|usc430be|intro:ls|answers.txt
+
+INPUT|usc430be-intro-75|U |1580374261|usc430be|intro:cat > diskfree.txt|^Z
+[4]+  Stopped                 cat > diskfree.txt
+
+INPUT|usc430be-intro-76|U |1580374264|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-77|U |1580374290|usc430be|intro:top|(Btop - 00:51:30 up  1:33  1 user  load average: 0.02 0.01 0.00(B(B
+Tasks:(B 141 (Btotal(B   1 (Brunning(B  83 (Bsleeping(B   4 (Bstopped(B   0 (Bzombie(B(B
+%%Cpu(s):(B  0.2 (Bus(B  0.1 (Bsy(B  0.0 (Bni(B 99.4 (Bid(B  0.2 (Bwa(B  0.0 (Bhi(B  0.0 (Bsi(B  0.0 (Bst(B(B
+KiB Mem :(B  2040332 (Btotal(B  1301276 (Bfree(B   173048 (Bused(B   566008 (Bbuff/cache(B(B
+KiB Swap:(B  4478972 (Btotal(B  4478972 (Bfree(B        0 (Bused.(B  1709996 (Bavail Mem (B(B
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %%CPU %%MEM     TIME+ COMMAND     (B
+(B 3533 usc430be  20   0   43088   3620   3024 R   5.9  0.2   0:00.02 top         (B
+(B    1 root      20   0  225740   9360   6604 S   0.0  0.5   0:04.81 systemd     (B
+(B    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B
+(B    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B
+(B    6 root       0 -20       0      0      0 I   0.0  0
+INPUT|usc430be-intro-78|M6 |1580374410|usc430be|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       6252     197784   4%% /run
+/dev/sda1                                          15681948    3252940   11629060  22%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1380356224 1356412032  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430be 2031313280 1236631168  632177152  67%% /users/usc430be
+tmpfs                                                204032          0     204032   0%% /run/user/15215
+
+INPUT|usc430be-intro-79|U |1580374448|usc430be|intro:du |8	.
+
+INPUT|usc430be-intro-80|U |1580374452|usc430be|intro:du -h|8.0K	.
+
+INPUT|usc430be-intro-81|M6 |1580374489|usc430be|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  6.2M  194M   4%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430be  1.9T  1.2T  603G  67%% /users/usc430be
+tmpfs                                             200M     0  200M   0%% /run/user/15215
+
+INPUT|usc430be-intro-82|U |1580374691|usc430be|intro:cat df -h | grep users.isi/deterlab.net:mnt/other/users/usc430be > diskfree.txt |cat: invalid option -- 'h'
+Try 'cat --help' for more information.
+
+INPUT|usc430be-intro-83|A6 |1580374706|usc430be|intro:df -h | grep users.isi/deterlab.net:mnt/other/users/usc430be > diskfree.txt |
+INPUT|usc430be-intro-84|U |1580374708|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-85|U |1580374717|usc430be|intro:nano diskfree.txt |Use "fg" to return to nano.ad File    (B^\(B Replace49G(B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line   (BM-E(B RedoB Undo
+
+[6]+  Stopped                 nano diskfree.txt
+
+INPUT|usc430be-intro-86|U |1580374747|usc430be|intro:cat df -h|cat: invalid option -- 'h'
+Try 'cat --help' for more information.
+
+INPUT|usc430be-intro-87|A6 |1580374760|usc430be|intro:df -h > diskfree.txt |
+INPUT|usc430be-intro-88|U |1580374762|usc430be|intro:nano diskfree.txt |3d(BModified(B3;21r00M   0%% /run/user/15215c430be  1.9T  1.2T  603G  67%% /users/usc430beSpell     (B^_(B Go To Line   (BM-E(B Redo(B Undo
+1;24r3;21r
+1;24r3;21r
+1;24r3;21r
+1;24r3;21r
+1;24r3;21r
+1;24r3;21r
+1;24r4dA3;21r
+Use "fg" to return to nano.](B(B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify81G(B^C(B Cur Pos      (BM-U(B Undo(BX(B Exit  17G(B^R(B Read File    (B^\(B Replace      (B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line   (BM-E(B Redo
+
+[7]+  Stopped                 nano diskfree.txt
+
+INPUT|usc430be-intro-89|U |1580374875|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-90|U |1580374880|usc430be|intro:cat diskfree.txt |users.isi.deterlab.net:/mnt/other/users/usc430be  1.9T  1.2T  603G  67%% /users/usc430be
+
+INPUT|usc430be-intro-91|U |1580374892|usc430be|intro:nano diskfree.txt |
+
+INPUT|usc430be-intro-92|A6 |1580374922|usc430be|intro:df 0h|df: 0h: No such file or directory
+
+INPUT|usc430be-intro-93|M6 |1580374925|usc430be|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  6.2M  194M   4%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+users.isi.deterlab.net:/mnt/other/users/usc430be  1.9T  1.2T  603G  67%% /users/usc430be
+tmpfs                                             200M     0  200M   0%% /run/user/15215
+
+INPUT|usc430be-intro-94|A6 |1580375011|usc430be|intro:df -h > diskfree.txt |
+INPUT|usc430be-intro-95|U |1580375013|usc430be|intro:nano diskfree.txt |3d4d(BModified(B4;21rM   0%% /run/user/15215c430be  1.9T  1.2T  603G  67%% /users/usc430be Spell     (B^_(B Go To Line   (BM-E(B RedoB Undo
+1;24r4;21r
+1;24r4;21r
+1;24r4;21r
+1;24r4;21r
+1;24r4;21r
+Use "fg" to return to nano. ](B(B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify81G(B^C(B Cur Pos      (BM-U(B Undo(BX(B Exit  17G(B^R(B Read File    (B^\(B Replace      (B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line   (BM-E(B Redo
+
+[8]+  Stopped                 nano diskfree.txt
+
+INPUT|usc430be-intro-96|U |1580375037|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-97|U |1580375040|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-98|U |1580375156|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-99|U |1580375164|usc430be|intro:less /   |bin/            home/           local/          proc/           share/          users/          
+boot/           initrd.img      lost+found/     proj/           snap/           usr/            
+dev/            initrd.img.old  media/          root/           srv/            var/            
+etc/            lib/            mnt/            run/            sys/            vmlinuz         
+.hidden/        lib64/          opt/            sbin/           tmp/            vmlinuz.old     
+
+INPUT|usc430be-intro-100|M5 |1580375170|usc430be|intro:less /proc/cpuinfo|processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping        : 3
+microcode       : 0x5
+cpu MHz         : 2992.720
+cache size      : 2048 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips        : 5985.44
+clflush size    : 64
+cache_alignment : 128
+Mvendor_id       : GenuineIntel
+Mprocessor       : 0
+clflush size    : 64
+cache_alignment : 128
+address sizes   : 36 bits physical 48 bits virtual
+power management:
+
+processor       :
+INPUT|usc430be-intro-101|U |1580375211|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-102|U |1580375214|usc430be|intro:cd ../|
+INPUT|usc430be-intro-103|U |1580375215|usc430be|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430be
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430be-intro-104|U |1580375218|usc430be|intro:cd ../|
+INPUT|usc430be-intro-105|U |1580375219|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-106|U |1580375222|usc430be|intro:cd pro|bash: cd: pro: No such file or directory
+
+INPUT|usc430be-intro-107|U |1580375226|usc430be|intro:cd proc/|
+INPUT|usc430be-intro-108|U |1580375227|usc430be|intro:ls|1     1235  1831  2127	2327  3356  37	  427  6    99		 filesystems  locks	    softirqs
+10    1248  1843  2138	2330  34    3705  43   7    991		 fs	      mdstat	    stat
+100   1261  1849  2147	2331  341   38	  432  760  acpi	 interrupts   meminfo	    swaps
+1002  13    19	  22	2367  342   388   44   766  buddyinfo	 iomem	      misc	    sys
+1007  135   192   2264	24    3437  39	  45   8    bus		 ioports      modules	    sysrq-trigger
+101   14    194   2266	25    3486  4	  46   833  cgroups	 ipmi	      mounts	    sysvipc
+102   15    195   2267	26    35    40	  47   9    cmdline	 irq	      mpt	    thread-self
+105   16    196   2297	27    3530  41	  477  916  consoles	 kallsyms     mtrr	    timer_list
+109   1608  198   2301	28    3533  413   48   922  cpuinfo	 kcore	      net	    tty
+11    1644  199   2303	282   36    414   480  931  crypto	 keys	      pagetypeinfo  uptime
+1150  1648  2	  2305	2870  3606  415   49   932  devices	 key-users    partitions    version
+1165  1657  20	  2319	2983 
+INPUT|usc430be-intro-109|A5 |1580375231|usc430be|intro:cd cpuinfo |bash: cd: cpuinfo: Not a directory
+
+INPUT|usc430be-intro-110|M5 |1580375237|usc430be|intro:cat cpuinfo |processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.720
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5985.44
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.720
+cache size	: 2048 KB
+physical id	: 3
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 6
+initial apicid	: 
+INPUT|usc430be-intro-111|U |1580375307|usc430be|intro:nano /users/usc430be/answers.txt|
+
+INPUT|usc430be-intro-112|U |1580375314|usc430be|intro:ls|1     1235  1831  2127	2327  3356  37	  427  6    99		 filesystems  locks	    softirqs
+10    1248  1843  2138	2330  34    3717  43   7    991		 fs	      mdstat	    stat
+100   1261  1849  2147	2331  341   38	  432  760  acpi	 interrupts   meminfo	    swaps
+1002  13    19	  22	2367  342   388   44   766  buddyinfo	 iomem	      misc	    sys
+1007  135   192   2264	24    3437  39	  45   8    bus		 ioports      modules	    sysrq-trigger
+101   14    194   2266	25    3486  4	  46   833  cgroups	 ipmi	      mounts	    sysvipc
+102   15    195   2267	26    35    40	  47   9    cmdline	 irq	      mpt	    thread-self
+105   16    196   2297	27    3530  41	  477  916  consoles	 kallsyms     mtrr	    timer_list
+109   1608  198   2301	28    3533  413   48   922  cpuinfo	 kcore	      net	    tty
+11    1644  199   2303	282   36    414   480  931  crypto	 keys	      pagetypeinfo  uptime
+1150  1648  2	  2305	2870  3606  415   49   932  devices	 key-users    partitions    version
+1165  1657  20	  2319	2983 
+INPUT|usc430be-intro-113|U |1580375320|usc430be|intro:cd ../|
+INPUT|usc430be-intro-114|U |1580375321|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-115|U |1580375330|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-116|U |1580375334|usc430be|intro:cd /users|
+INPUT|usc430be-intro-117|U |1580375335|usc430be|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430be
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430be-intro-118|U |1580375337|usc430be|intro:cd usc430be/|
+INPUT|usc430be-intro-119|U |1580375338|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-120|U |1580375339|usc430be|intro:cd ro|bash: cd: ro: No such file or directory
+
+INPUT|usc430be-intro-121|U |1580375341|usc430be|intro:cd top_secret/|
+INPUT|usc430be-intro-122|U |1580375342|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-123|U |1580375343|usc430be|intro:cd answers.txt |bash: cd: answers.txt: Not a directory
+
+INPUT|usc430be-intro-124|U |1580375355|usc430be|intro:nano answers.txt |
+
+INPUT|usc430be-intro-125|A5 |1580375391|usc430be|intro:cd cpuinfo |bash: cd: cpuinfo: No such file or directory
+
+INPUT|usc430be-intro-126|M5 |1580375401|usc430be|intro:less /proc/cpuinfo|processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping        : 3
+microcode       : 0x5
+cpu MHz         : 2992.720
+cache size      : 2048 KB
+physical id     : 0
+siblings        : 2
+core id         : 0
+cpu cores       : 1
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 5
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs            : cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips        : 5985.44
+clflush size    : 64
+cache_alignment : 128
+address sizes   : 36 bits physical 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : GenuineIntel
+cpu family      : 15
+model           : 4
+model name      : Intel
+INPUT|usc430be-intro-127|U |1580375413|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-128|U |1580375418|usc430be|intro:nano answers.txt |
+
+INPUT|usc430be-intro-129|U |1580375438|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-130|U |1580375439|usc430be|intro:cd ../|
+INPUT|usc430be-intro-131|U |1580375440|usc430be|intro:cd ../|
+INPUT|usc430be-intro-132|U |1580375441|usc430be|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430be
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430be-intro-133|U |1580375442|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-134|U |1580375444|usc430be|intro:cd ../|
+INPUT|usc430be-intro-135|U |1580375445|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-136|A4 A1 A2 A3 A0 |1580375495|usc430be|intro:find . -name ".jpeg" | head -n 5|find: './tmp/systemd-private-fe13c6fdc20b4009ba9973dbacd34cac-systemd-resolved.service-9ZCHrt': Permission denied
+find: './tmp/systemd-private-fe13c6fdc20b4009ba9973dbacd34cac-systemd-timesyncd.service-y1fkgm': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied;1580375521
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission de
+INPUT|usc430be-intro-137|A2 A3 A0 A1 A4 |1580375581|usc430be|intro:find . -name ".jpeg" | head -n 5 > users/|aashraya/ barada24/ garmar09/ jmache/   mlocasto/ penged/   rweiss/   tescdavy/ usc430be/ 
+albpat03/ dagny64/  giotah/   krisgado/ patrickv/ quin2/    selenaws/ tescjack/ 
+alotero/  dbosch/   jacque/   massacci/ paullepe/ regste07/ sunshine/ thang89/  
+
+INPUT|usc430be-intro-138|A0 A2 A3 A4 A1 |1580375593|usc430be|intro:find . -name ".jpeg" | head -n 5 > users/usc430be/top_secret/|answers.txt        diskfree.txt       .diskfree.txt.swp  
+
+INPUT|usc430be-intro-139|A3 A2 A0 A4 A1 |1580375594|usc430be|intro:find . -name ".jpeg" | head -n 5 > users/usc430be/top_secret/|Hint - The command appears to be missing parameters or options
+
+INPUT|usc430be-intro-140|A0 A2 A3 A1 A4 |1580375609|usc430be|intro:find . -name ".jpeg" | head -n 5 > users/usc430be/top_secret/jpeg.txt|find: './tmp/systemd-private-fe13c6fdc20b4009ba9973dbacd34cac-systemd-resolved.service-9ZCHrt': Permission denied
+find: './tmp/systemd-private-fe13c6fdc20b4009ba9973dbacd34cac-systemd-timesyncd.service-y1fkgm': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430be-intro-141|U |1580375618|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-142|U |1580375622|usc430be|intro:cd user|bash: cd: user: No such file or directory
+
+INPUT|usc430be-intro-143|U |1580375628|usc430be|intro:cd users/usc430be/|
+INPUT|usc430be-intro-144|U |1580375630|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-145|U |1580375632|usc430be|intro:ls|answers.txt  diskfree.txt  jpeg.txt
+
+INPUT|usc430be-intro-146|U |1580375636|usc430be|intro:nano jpeg.txt |
+
+INPUT|usc430be-intro-147|U |1580375662|usc430be|intro:cd |
+INPUT|usc430be-intro-148|U |1580375664|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-149|U |1580375667|usc430be|intro:cd ~ |
+INPUT|usc430be-intro-150|U |1580375668|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-151|U |1580375669|usc430be|intro:cd ../|
+INPUT|usc430be-intro-152|U |1580375671|usc430be|intro:cd ../|
+INPUT|usc430be-intro-153|U |1580375673|usc430be|intro:cd ./ |
+INPUT|usc430be-intro-154|U |1580375674|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-155|U |1580375681|usc430be|intro:updateb|sudo: updateb: command not found
+
+INPUT|usc430be-intro-156|U |1580375687|usc430be|intro:updatedb|
+INPUT|usc430be-intro-157|A2 A3 A0 A4 A1 |1580375736|usc430be|intro:locate *.jpeg > users/usc430be/top_secret/jpeg.txt |
+INPUT|usc430be-intro-158|U |1580375759|usc430be|intro:cat users/usc430be/top_secret/jpeg.txt |/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430be-intro-159|U |1580376072|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-160|U |1580376078|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-161|U |1580376079|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-162|U |1580376080|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-163|U |1580376142|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-164|U |1580376149|usc430be|intro:show|showconsolefont  showkey          showmount        
+
+INPUT|usc430be-intro-165|U |1580376156|usc430be|intro:ls               |bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-166|U |1580378695|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-167|U |1580378708|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-168|U |1580378710|usc430be|intro:ls|answers.txt  diskfree.txt  jpeg.txt
+
+INPUT|usc430be-intro-169|U |1580378715|usc430be|intro:cd ../|
+INPUT|usc430be-intro-170|U |1580378719|usc430be|intro:ls|answers.txt  diskfree.txt  jpeg.txt
+
+INPUT|usc430be-intro-171|U |1580378786|usc430be|intro:cat jpeg.txt |/usr/local/bin/djpeg
+/usr/local/bin/cjpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_blurb10.jpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_blurb11.jpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_blurb12.jpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_blurb13.jpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_blurb14.jpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_blurb15.jpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_blurb16.jpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_blurb17.jpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_blurb18.jpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_blurb19.jpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_blurb2.jpeg
+/usr/local/share/doc/boost/libs/math/doc/octonion/graphics/octonion_
+INPUT|usc430be-intro-172|U |1580378914|usc430be|intro:ls|answers.txt  diskfree.txt  jpeg.txt
+
+INPUT|usc430be-intro-173|U |1580378918|usc430be|intro:rm jpeg.txt |
+INPUT|usc430be-intro-174|U |1580378919|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-175|U |1580378927|usc430be|intro:cat > jpeg.txt|^C
+
+INPUT|usc430be-intro-176|U |1580378933|usc430be|intro:ls|answers.txt  diskfree.txt  jpeg.txt
+
+INPUT|usc430be-intro-177|U |1580378936|usc430be|intro:ls|answers.txt  diskfree.txt  jpeg.txt
+
+INPUT|usc430be-intro-178|U |1580378937|usc430be|intro:ls|answers.txt  diskfree.txt  jpeg.txt
+
+INPUT|usc430be-intro-179|U |1580378941|usc430be|intro:cd ../|
+INPUT|usc430be-intro-180|U |1580378942|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-181|U |1580378944|usc430be|intro:cd ./|
+INPUT|usc430be-intro-182|U |1580378946|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-183|U |1580378948|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-184|U |1580378950|usc430be|intro:cd ../|
+INPUT|usc430be-intro-185|U |1580378951|usc430be|intro:cd ../|
+INPUT|usc430be-intro-186|U |1580378952|usc430be|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430be-intro-187|U |1580378955|usc430be|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430be-intro-188|U |1580378968|usc430be|intro:updatedb|updatedb: can not open a temporary file for `/var/lib/mlocate/mlocate.db'
+
+INPUT|usc430be-intro-189|U |1580378973|usc430be|intro:updatedb|
+INPUT|usc430be-intro-190|A1 A4 A3 A2 A0 |1580379044|usc430be|intro:locate / *.jpg  |locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+
+INPUT|usc430be-intro-191|M2 M0 |1580379071|usc430be|intro:locate *.jpg|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430be-intro-192|U |1580379085|usc430be|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430be-intro-193|M4 |1580379100|usc430be|intro:locate *.jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430be-intro-194|A2 A3 A0 A4 A1 |1580379120|usc430be|intro:locate *.jpeg > users/usc430be/ |.bash_history  .cache/        .forward       .gnupg/        .local/        .ssh/          .ssl/          top_secret/    
+
+INPUT|usc430be-intro-195|A2 A3 A0 A4 A1 |1580379128|usc430be|intro:locate *.jpeg > users/usc430be/top_secret/jpeg.txt |
+INPUT|usc430be-intro-196|U |1580379129|usc430be|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430be-intro-197|A4 A1 A2 A3 A0 |1580379188|usc430be|intro:find . -iname "intro"|find: './tmp/systemd-private-fe13c6fdc20b4009ba9973dbacd34cac-systemd-resolved.service-9ZCHrt': Permission denied
+find: './tmp/systemd-private-fe13c6fdc20b4009ba9973dbacd34cac-systemd-timesyncd.service-y1fkgm': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied;158037
+INPUT|usc430be-intro-198|A1 A4 A2 A3 A0 |1580379217|usc430be|intro:find . -iname "intro" > users/|aashraya/ alotero/  dagny64/  garmar09/ jacque/   krisgado/ mlocasto/ paullepe/ quin2/    rweiss/   sunshine/ tescjack/ usc430be/ 
+albpat03/ barada24/ dbosch/   giotah/   jmache/   massacci/ patrickv/ penged/   regste07/ selenaws/ tescdavy/ thang89/  
+
+INPUT|usc430be-intro-199|A3 A2 A0 A4 A1 |1580379223|usc430be|intro:find . -iname "intro" > users/usc430be/|.bash_history  .cache/        .forward       .gnupg/        .local/        .ssh/          .ssl/          top_secret/    
+
+INPUT|usc430be-intro-200|A3 A2 A0 A1 A4 |1580379226|usc430be|intro:find . -iname "intro" > users/usc430be/top_secret/|answers.txt   diskfree.txt  jpeg.txt      
+
+INPUT|usc430be-intro-201|A1 A4 A2 A3 A0 |1580379230|usc430be|intro:find . -iname "intro" > users/usc430be/top_secret/jpeg.txt |find: './tmp/systemd-private-fe13c6fdc20b4009ba9973dbacd34cac-systemd-resolved.service-9ZCHrt': Permission denied
+find: './tmp/systemd-private-fe13c6fdc20b4009ba9973dbacd34cac-systemd-timesyncd.service-y1fkgm': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430be-intro-202|U |1580379241|usc430be|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430be-intro-203|U |1580379247|usc430be|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430be
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430be-intro-204|U |1580379250|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-205|U |1580379253|usc430be|intro:ls|answers.txt  diskfree.txt  jpeg.txt
+
+INPUT|usc430be-intro-206|U |1580379257|usc430be|intro:cat jpeg.txt |
+INPUT|usc430be-intro-207|U |1580379260|usc430be|intro:ls|answers.txt  diskfree.txt  jpeg.txt
+
+INPUT|usc430be-intro-208|U |1580379263|usc430be|intro:cd ../|
+INPUT|usc430be-intro-209|U |1580379265|usc430be|intro:cd ../|
+INPUT|usc430be-intro-210|U |1580379266|usc430be|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430be
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430be-intro-211|U |1580379268|usc430be|intro:cd ../|
+INPUT|usc430be-intro-212|U |1580379269|usc430be|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430be-intro-213|A4 A1 A2 A3 A0 |1580379542|usc430be|intro:find . -iname "*bat*"|./usr/share/emacs/25.2/etc/themes/wombat-theme.el
+./usr/share/emacs/25.2/lisp/battery.elc
+./usr/share/emacs/25.2/lisp/battery.el.gz
+./usr/share/emacs/25.2/lisp/progmodes/bat-mode.elc
+./usr/share/emacs/25.2/lisp/progmodes/bat-mode.el.gz
+./usr/share/doc/libatk-bridge2.0-0
+./usr/share/doc/libatomic1
+./usr/share/doc/libatk1.0-0
+./usr/share/doc/libatk1.0-data
+./usr/share/doc/libattr1
+./usr/share/doc/libatm1
+./usr/share/doc/libatspi2.0-0
+./usr/share/ghostscript/9.26/Resource/Decoding/FCO_Dingbats
+./usr/share/man/man1/batch.1.gz
+./usr/share/git-core/contrib/hooks/pre-auto-gc-battery
+./usr/share/zoneinfo/posix/Asia/Ashgabat
+./usr/share/zoneinfo/posix/Asia/Ulan_Bator
+./usr/share/zoneinfo/Asia/Ashgabat
+./usr/share/zoneinfo/Asia/Ulan_Bator
+./usr/share/zoneinfo/right/Asia/Ashgabat
+./usr/share/zoneinfo/right/Asia/Ulan_Bator
+./usr/share/perl/5.26.1/Pod/Simple/HTMLBatch.pm
+./usr/share/groff/1.22.3/font/devps/generate/dingbats.map
+./usr/share/groff/1.22.3/font/devps/generate/dingbats.rmap
+./usr/share/
+INPUT|usc430be-intro-214|A0 A2 A3 A4 A1 |1580379580|usc430be|intro:find . -iname "\introt*"|> ;1580379583
+> ;1580379583
+> ;1580379584
+> ;1580379584
+> ;1580379584
+> ;1580379584
+> ^C
+
+INPUT|usc430be-intro-215|M4 M3 M2 M1 M0 |1580379619|usc430be|intro:find . -iname"\*intro" |./.hidden/asdf136Intro-5kqlw.jpeg
+./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/doc/bash/INTRO.gz
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: './tmp/systemd-private-fe13c6fdc20b4009ba9973dbacd34cac-systemd-resolved.service-9ZCHrt': Permissi
+INPUT|usc430be-intro-216|U |1580379629|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-217|A3 A2 A0 A1 A4 |1580379636|usc430be|intro:find . -iname "*intro*" > users/|bash: users/: Is a directory
+
+INPUT|usc430be-intro-218|A3 A2 A0 A1 A4 |1580379642|usc430be|intro:find . -iname "*intro*" > users/usc430be/top_secret/jpeg.txt |find: './tmp/systemd-private-fe13c6fdc20b4009ba9973dbacd34cac-systemd-resolved.service-9ZCHrt': Permission denied
+find: './tmp/systemd-private-fe13c6fdc20b4009ba9973dbacd34cac-systemd-timesyncd.service-y1fkgm': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430be-intro-219|U |1580379649|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-220|U |1580379660|usc430be|intro:cat users/usc430be/top_secret/jpeg.txt |./.hidden/asdf136Intro-5kqlw.jpeg
+./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/doc/bash/INTRO.gz
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430be.hw1-usc430be.intro.log
+./var/log/ttylog/usc430be.hw1-
+INPUT|usc430be-intro-221|U |1580379723|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-222|U |1580379980|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-223|U |1580379983|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-224|U |1580380001|usc430be|intro:cd users/usc430be/top_secret/|answers.txt   diskfree.txt  jpeg.txt      
+
+INPUT|usc430be-intro-225|U |1580380025|usc430be|intro:cat users/usc430be/top_secret/jpeg_locations.txt|cat: users/usc430be/top_secret/jpeg_locations.txt: No such file or directory
+
+INPUT|usc430be-intro-226|U |1580380036|usc430be|intro:cat users/usc430be/top_secret/jpeglocations.txt|cat: users/usc430be/top_secret/jpeglocations.txt: No such file or directory
+
+INPUT|usc430be-intro-227|U |1580380048|usc430be|intro:cat users/usc430be/top_secret/ jpeglocations.txt|cat: users/usc430be/top_secret/: Is a directory
+cat: jpeglocations.txt: No such file or directory
+
+INPUT|usc430be-intro-228|U |1580380077|usc430be|intro:cat > users/usc430be/top_secret/jpeg_locations.txt|./.hidden/asdf136Intro-5kqlw.jpeg;1580380091
+./usr/share/pixmaps/xbzf136INTRO-1.jpg;1580380102
+./var/log/136intro-3.jpg;1580380135
+./etc/wuer136intro-4.JPG;1580380156
+./dev/136intro-2jjaj.JPEG;1580380161
+^C  ;1580380168
+
+INPUT|usc430be-intro-229|U |1580380169|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-230|U |1580380185|usc430be|intro:cat users/usc430be/top_secret/jpeg_locations.txt |./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430be-intro-231|U |1580380227|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-232|U |1580380240|usc430be|intro:cd ./ |
+INPUT|usc430be-intro-233|U |1580380242|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-234|U |1580380261|usc430be|intro:cd ./hidden/    |bash: cd: ./hidden/: No such file or directory;1580380261
+
+INPUT|usc430be-intro-235|U |1580380262|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-236|U |1580380296|usc430be|intro:ls -a|.    boot  .hidden     initrd.img.old  local	   mnt	 proj  sbin   srv  users  vmlinuz
+..   dev   home        lib	       lost+found  opt	 root  share  sys  usr	  vmlinuz.old
+bin  etc   initrd.img  lib64	       media	   proc  run   snap   tmp  var
+
+INPUT|usc430be-intro-237|U |1580380300|usc430be|intro:ls|asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430be-intro-238|U |1580380304|usc430be|intro:ls -a|.  ..  asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430be-intro-239|U |1580380311|usc430be|intro:ls|asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430be-intro-240|U |1580380317|usc430be|intro:cd ../|
+INPUT|usc430be-intro-241|U |1580380318|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-242|U |1580380344|usc430be|intro:ls =a|ls: cannot access '=a': No such file or directory
+
+INPUT|usc430be-intro-243|U |1580380346|usc430be|intro:ls -a|.    boot  .hidden     initrd.img.old  local	   mnt	 proj  sbin   srv  users  vmlinuz
+..   dev   home        lib	       lost+found  opt	 root  share  sys  usr	  vmlinuz.old
+bin  etc   initrd.img  lib64	       media	   proc  run   snap   tmp  var
+
+INPUT|usc430be-intro-244|U |1580380364|usc430be|intro:mv .hidden/asdf136Intro-5kqlw.jpeg users/usc430be/top_secret/|mv: cannot remove '.hidden/asdf136Intro-5kqlw.jpeg': Permission denied
+
+INPUT|usc430be-intro-245|U |1580380379|usc430be|intro:mv .hidden/asdf136Intro-5kqlw.jpeg users/usc430be/top_secret/|
+INPUT|usc430be-intro-246|U |1580380380|usc430be|intro:s|s: command not found
+
+INPUT|usc430be-intro-247|U |1580380381|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-248|U |1580380385|usc430be|intro:cd users/|
+INPUT|usc430be-intro-249|U |1580380386|usc430be|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430be
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430be-intro-250|U |1580380389|usc430be|intro:cd usc430be/|
+INPUT|usc430be-intro-251|U |1580380390|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-252|U |1580380392|usc430be|intro:cd top_secret/|
+INPUT|usc430be-intro-253|U |1580380393|usc430be|intro:ls|answers.txt  asdf136Intro-5kqlw.jpeg  diskfree.txt  jpeg_locations.txt	jpeg.txt
+
+INPUT|usc430be-intro-254|U |1580380395|usc430be|intro:cd .|
+INPUT|usc430be-intro-255|U |1580380398|usc430be|intro:cd ./|
+INPUT|usc430be-intro-256|U |1580380399|usc430be|intro:c d./|c: command not found
+
+INPUT|usc430be-intro-257|U |1580380400|usc430be|intro:cd ./|
+INPUT|usc430be-intro-258|U |1580380402|usc430be|intro:cd ./|
+INPUT|usc430be-intro-259|U |1580380403|usc430be|intro:c d/|c: command not found
+
+INPUT|usc430be-intro-260|U |1580380406|usc430be|intro:cd ../|
+INPUT|usc430be-intro-261|U |1580380407|usc430be|intro:cd ../|
+INPUT|usc430be-intro-262|U |1580380409|usc430be|intro:cd ../|
+INPUT|usc430be-intro-263|U |1580380410|usc430be|intro:cd ../|
+INPUT|usc430be-intro-264|U |1580380411|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-265|U |1580380456|usc430be|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg /us|users/ usr/   
+
+INPUT|usc430be-intro-266|U |1580380460|usc430be|intro:mv /usr/share/pixmaps/xbzf136INTRO-1.jpg /users/usc430be/top_secret/|A
+
+INPUT|usc430be-intro-267|U |1580380498|usc430be|intro:mv |
+INPUT|usc430be-intro-268|U |1580380552|usc430be|intro:mv 24@/etc/wuer136intro-4.JPG |
+INPUT|usc430be-intro-269|U |1580380581|usc430be|intro:mv /dev/136intro-2jjaj.JPEG /users/usc430be/top_secret/|
+INPUT|usc430be-intro-270|U |1580380582|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-271|U |1580380603|usc430be|intro:cat users/usc430be/top_secret/jpeg_locations.txt |./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430be-intro-272|U |1580380617|usc430be|intro:nano users/usc430be/top_secret/answers.txt |
+
+INPUT|usc430be-intro-273|U |1580380696|usc430be|intro:nano users/usc430be/top_secret/answers.txt |10d11d12d13d14d15d10;22rPEG36INTRO-1.jpg-5kqlw.jpeg
+1;24r10;22r
+1;24r10;22r
+1;24r10;22r
+5d5;22rM1;24rAA4;22rM1;24r6d6;22r
+7d8dA8dA8d8;21r line 5/18 (27%%) col 1/38 (2%%) char 90/491 (18%%) ](But Text   (B^J(B Justify    (B^C(B Cur Pos    (BM-U(B Undo(BX(B Exit 6b(B^R(B Read File  (B^\(B Replace    (B^U(B Uncut Text (B^T(B To Spell   (B^_(B Go To Line (BM-E(B Redo
+AAAAAA6;22r
+12d13d12;22r0d11d11;22rM1;24r/.hidden/asdf136Intro-5kqlw.jpeg
+
+
+INPUT|usc430be-intro-274|U |1580381048|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-275|U |1580381062|usc430be|intro:mv users/usc430be/top_secret/ls|mv: missing destination file operand after 'users/usc430be/top_secret/ls'
+Try 'mv --help' for more information.
+
+INPUT|usc430be-intro-276|U |1580381064|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-277|U |1580381068|usc430be|intro:29@mv users/usc430be/top_secret/  |136intro-2jjaj.JPEG      asdf136Intro-5kqlw.jpeg  jpeg.txt
+136intro-3.jpg           diskfree.txt             wuer136intro-4.JPG
+answers.txt              jpeg_locations.txt       xbzf136INTRO-1.jpg
+
+INPUT|usc430be-intro-278|U |1580381462|usc430be|intro:;s|bash: syntax error near unexpected token `;'
+
+INPUT|usc430be-intro-279|U |1580381463|usc430be|intro:;s|bash: syntax error near unexpected token `;'
+
+INPUT|usc430be-intro-280|U |1580381465|usc430be|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430be-intro-281|U |1580381468|usc430be|intro:cd users/|
+INPUT|usc430be-intro-282|U |1580381469|usc430be|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430be
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430be-intro-283|U |1580381473|usc430be|intro:ls|136intro-2jjaj.JPEG  top_secret
+
+INPUT|usc430be-intro-284|U |1580381498|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-285|U |1580381518|usc430be|intro:mv users/usc430be/top_secret/136intro-2jjaj.JPEG ~/|mv: cannot stat 'users/usc430be/top_secret/136intro-2jjaj.JPEG': No such file or directory
+
+INPUT|usc430be-intro-286|U |1580381522|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-287|U |1580381524|usc430be|intro:cd top_secret/|
+INPUT|usc430be-intro-288|U |1580381525|usc430be|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  jpeg.txt
+136intro-3.jpg	     diskfree.txt	      wuer136intro-4.JPG
+answers.txt	     jpeg_locations.txt       xbzf136INTRO-1.jpg
+
+INPUT|usc430be-intro-289|U |1580381551|usc430be|intro:mv 136intro-2jjaj.JPEG /~|mv: cannot create regular file '/~': Permission denied
+
+INPUT|usc430be-intro-290|U |1580381555|usc430be|intro:mv 136intro-2jjaj.JPEG ~/|
+INPUT|usc430be-intro-291|U |1580381557|usc430be|intro:ls|136intro-3.jpg	asdf136Intro-5kqlw.jpeg  jpeg_locations.txt  wuer136intro-4.JPG
+answers.txt	diskfree.txt		 jpeg.txt	     xbzf136INTRO-1.jpg
+
+INPUT|usc430be-intro-292|U |1580381558|usc430be|intro:cd ../|
+INPUT|usc430be-intro-293|U |1580381572|usc430be|intro:ls|136intro-2jjaj.JPEG  top_secret
+
+INPUT|usc430be-intro-294|U |1580381837|usc430be|intro:ls|136intro-2jjaj.JPEG  top_secret
+
+INPUT|usc430be-intro-295|U |1580381846|usc430be|intro:cd top_secret/|
+INPUT|usc430be-intro-296|U |1580381848|usc430be|intro:ls|136intro-3.jpg	asdf136Intro-5kqlw.jpeg  jpeg_locations.txt  wuer136intro-4.JPG
+answers.txt	diskfree.txt		 jpeg.txt	     xbzf136INTRO-1.jpg
+
+INPUT|usc430be-intro-297|U |1580381857|usc430be|intro:mv 136intro-3.jpg ./|136intro-3.jpg           diskfree.txt             wuer136intro-4.JPG
+answers.txt              jpeg_locations.txt       xbzf136INTRO-1.jpg
+asdf136Intro-5kqlw.jpeg  jpeg.txt                 
+
+INPUT|usc430be-intro-298|U |1580381863|usc430be|intro:mv 136intro-3.jpg /~|mv: cannot create regular file '/~': Permission denied
+
+INPUT|usc430be-intro-299|U |1580381868|usc430be|intro:mv 136intro-3.jpg ~/|
+INPUT|usc430be-intro-300|U |1580381872|usc430be|intro:mv |answers.txt              jpeg_locations.txt       xbzf136INTRO-1.jpg
+asdf136Intro-5kqlw.jpeg  jpeg.txt                 
+diskfree.txt             wuer136intro-4.JPG       
+
+INPUT|usc430be-intro-301|U |1580381881|usc430be|intro:mv xbzf136INTRO-1.jpg ~/|
+INPUT|usc430be-intro-302|U |1580381884|usc430be|intro:ls|answers.txt		 diskfree.txt	     jpeg.txt
+asdf136Intro-5kqlw.jpeg  jpeg_locations.txt  wuer136intro-4.JPG
+
+INPUT|usc430be-intro-303|U |1580381898|usc430be|intro:ls|answers.txt  asdf136Intro-5kqlw.jpeg  diskfree.txt  jpeg_locations.txt	jpeg.txt
+
+INPUT|usc430be-intro-304|U |1580381907|usc430be|intro:mv asdf136Intro-5kqlw.jpeg ~/|
+INPUT|usc430be-intro-305|U |1580381908|usc430be|intro:ls|answers.txt  diskfree.txt  jpeg_locations.txt  jpeg.txt
+
+INPUT|usc430be-intro-306|U |1580381915|usc430be|intro:cat jpeg_locations.txt |./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430be-intro-307|U |1580381921|usc430be|intro:rm jpeg.txt |
+INPUT|usc430be-intro-308|U |1580381922|usc430be|intro:ls|answers.txt  diskfree.txt  jpeg_locations.txt
+
+INPUT|usc430be-intro-309|U |1580381927|usc430be|intro:cat jpeg_locations.txt |./.hidden/asdf136Intro-5kqlw.jpeg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430be-intro-310|U |1580381932|usc430be|intro:cat answers.txt |Part 1: Treasure Hunt
+
+Original Filepaths of JPEG files:
+
+1. /usr/share/pixmaps/xbzf136INTRO-1.jpg
+2. /dev/136intro-2jjaj.JPEG
+3./var/log/136intro-3.jpg
+4. /etc/wuer136intro-4.JPG
+5. /.hidden/asdf136Intro-5kqlw.jpeg
+
+Description for each one.
+1. 
+
+Part 2: Information Hunt
+1. /var contains files to which the system writes data during the course of its operation.
+2. /dev contains the special device files for all the devices and controls access to them.
+3. On diskfree.txt.
+4. The Vendor ID is GenuineIntel.
+
+INPUT|usc430be-intro-311|U |1580381938|usc430be|intro:rm jpeg_locations.txt |
+INPUT|usc430be-intro-312|U |1580381939|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-313|U |1580381942|usc430be|intro:ls|answers.txt  diskfree.txt
+
+INPUT|usc430be-intro-314|U |1580381946|usc430be|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+136intro-3.jpg	     top_secret		      xbzf136INTRO-1.jpg
+
+INPUT|usc430be-intro-315|U |1580382074|usc430be|intro:mv 136intro-2jjaj.JPEG top_secret/|
+INPUT|usc430be-intro-316|U |1580382079|usc430be|intro:mv 136intro-3.jpg top_secret/|
+INPUT|usc430be-intro-317|U |1580382080|usc430be|intro:ls|asdf136Intro-5kqlw.jpeg  top_secret  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430be-intro-318|U |1580382084|usc430be|intro:mv asdf136Intro-5kqlw.jpeg top_secret/|
+INPUT|usc430be-intro-319|U |1580382089|usc430be|intro:mv wuer136intro-4.JPG top_secret/|
+INPUT|usc430be-intro-320|U |1580382094|usc430be|intro:mv xbzf136INTRO-1.jpg top_secret/|
+INPUT|usc430be-intro-321|U |1580382095|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-322|U |1580382108|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-323|U |1580382111|usc430be|intro:cd top_secret/|
+INPUT|usc430be-intro-324|U |1580382113|usc430be|intro:nano answers.txt |18dM1;24r4. Titled "The Fly". Advertising a movie. Also reads "Once it was human...even as yo$17;22r"18;21r
+$ the monsters!" is written while Godzilla spews flames at the people runnning away.8Gonsters!" i13;22r
+13dA12;21rM1;24r14d14;21rM1;24rA2. Godzilla.15drom Ou15;22r
+
+
+INPUT|usc430be-intro-325|U |1580382815|usc430be|intro:ls|136intro-2jjaj.JPEG  answers.txt	      diskfree.txt	  xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+
+INPUT|usc430be-intro-326|U |1580382955|usc430be|intro:s|;1580382955
+Command 'ls' not found did you mean:
+
+  command 'bls' from deb bacula-sd
+  command 'ils' from deb sleuthkit
+  command 'fls' from deb sleuthkit
+  command 'ls' from deb coreutils
+  command 'jls' from deb sleuthkit
+  command 'ols' from deb speech-tools
+  command 'hls' from deb hfsutils
+  command 'als' from deb atool
+
+Try: apt install <deb name>
+
+
+INPUT|usc430be-intro-327|U |1580438495|usc430be|intro:ls|top_secret
+
+INPUT|usc430be-intro-328|U |1580438496|usc430be|intro:cd top_secret/|
+INPUT|usc430be-intro-329|U |1580438497|usc430be|intro:ls|136intro-2jjaj.JPEG  answers.txt	      basic.ns	    wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  diskfree.txt  xbzf136INTRO-1.jpg
+
+INPUT|usc430be-intro-330|U |1580438506|usc430be|intro:nano answers.txt |22d4d4;22r
+
+
+INPUT|usc430be-intro-331|U |1580438576|usc430be|intro:ls|136intro-2jjaj.JPEG  answers.txt	      basic.ns	    wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  diskfree.txt  xbzf136INTRO-1.jpg
+
+INPUT|usc430be-intro-332|U |1580438579|usc430be|intro:cat answers.txt |Name: Arturo Verdin 
+Email: arturove@usc.edu
+DeterLab Username: usc430be
+
+Part 1: Treasure Hunt
+
+Original Filepaths of JPEG files:
+
+1. /usr/share/pixmaps/xbzf136INTRO-1.jpg
+2. /dev/136intro-2jjaj.JPEG
+3./var/log/136intro-3.jpg
+4. /etc/wuer136intro-4.JPG
+5. /.hidden/asdf136Intro-5kqlw.jpeg
+
+Description for each one.
+
+1. Forbidden Planet.
+2. Godzilla.
+3. It Came From Outer Space.
+4. The Fly. 
+5. 2001 a space odyssey.
+
+Part 2: Information Hunt
+1. /var contains files to which the system writes data during the course of its operation.
+2. /dev contains the special device files for all the devices and controls access to them.
+3. On diskfree.txt.
+4. The Vendor ID is GenuineIntel.
+
+INPUT|usc430be-intro-333|U |1580438584|usc430be|intro:ls|136intro-2jjaj.JPEG  answers.txt	      basic.ns	    wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  diskfree.txt  xbzf136INTRO-1.jpg
+
+INPUT|usc430be-intro-334|U |1580438588|usc430be|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     diskfree.txt
+answers.txt	     wuer136intro-4.JPG
+

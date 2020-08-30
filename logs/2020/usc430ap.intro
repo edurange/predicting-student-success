@@ -1,0 +1,247 @@
+User usc430ap start time 1581301508 end 1581340997
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ap-intro-0|U |000000000|usc430ap|:|
+INPUT|usc430ap-intro-1|U |000000000|usc430ap|:|
+INPUT|usc430ap-intro-2|U |1581301508|usc430ap|intro:ls|file.txt  thomas.png  usc430ap.txt
+
+INPUT|usc430ap-intro-3|U |1581302149|usc430ap|intro:cd ..|
+INPUT|usc430ap-intro-4|U |1581302153|usc430ap|intro:ls|aashraya  alotero   dagny64  garmar09  jacque  krisgado  mlocasto  paullepe  quin2     rweiss	 sunshine  tescjack  usc430ap
+albpat03  barada24  dbosch   giotah    jmache  massacci  patrickv  penged    regste07  selenaws  tescdavy  thang89
+
+INPUT|usc430ap-intro-5|U |1581302253|usc430ap|intro:cd ..|
+INPUT|usc430ap-intro-6|U |1581302257|usc430ap|intro:cd ..|
+INPUT|usc430ap-intro-7|U |1581302262|usc430ap|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ap-intro-8|U |1581302594|usc430ap|intro:cd ..|
+INPUT|usc430ap-intro-9|M4 |1581302759|usc430ap|intro:find . -name "*.jpeg" |./.hidden/asdf136Intro-5kqlw.jpeg
+find: './tmp/systemd-private-15e715cbedf34efb8b9cce2016118e32-systemd-resolved.service-eQPNI2': Permission denied
+find: './tmp/systemd-private-15e715cbedf34efb8b9cce2016118e32-systemd-timesyncd.service-cDRsVy': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './pr
+INPUT|usc430ap-intro-10|U |1581304734|usc430ap|intro:ls|file.txt  thomas.png  usc430ap.txt
+
+INPUT|usc430ap-intro-11|U |1581304738|usc430ap|intro:cd ...|bash: cd: ...: No such file or directory
+
+INPUT|usc430ap-intro-12|U |1581304741|usc430ap|intro:cd ..|
+INPUT|usc430ap-intro-13|U |1581304744|usc430ap|intro:cd ..|
+INPUT|usc430ap-intro-14|U |1581304745|usc430ap|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ap-intro-15|U |1581304754|usc430ap|intro:updatedb|
+INPUT|usc430ap-intro-16|A4 A1 A0 A2 A3 |1581304933|usc430ap|intro:locate *intro*|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+
+INPUT|usc430ap-intro-17|U |1581304953|usc430ap|intro:cd ./users|
+INPUT|usc430ap-intro-18|U |1581304955|usc430ap|intro:cd ./users|bash: cd: ./users: No such file or directory
+
+INPUT|usc430ap-intro-19|A3 A2 A0 A1 A4 |1581304958|usc430ap|intro:locate *intro*|locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+
+INPUT|usc430ap-intro-20|U |1581305053|usc430ap|intro:cd ..    |
+INPUT|usc430ap-intro-21|A4 A1 A0 A2 A3 |1581305067|usc430ap|intro:locate *inro*|
+INPUT|usc430ap-intro-22|M3 M2 |1581305088|usc430ap|intro:locate *intro*|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ap.hw1-usc430ap.intro.csv
+/var/log/ttylog/usc430ap.hw1-usc430ap.intro.log
+
+INPUT|usc430ap-intro-23|M0 |1581305234|usc430ap|intro:locate *INTRO*|/usr/share/doc/bash/INTRO.gz
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+
+INPUT|usc430ap-intro-24|M2 M0 |1581305251|usc430ap|intro:locate *.jpg*|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ap-intro-25|M3 |1581305274|usc430ap|intro:locate *.JPG*|/etc/wuer136intro-4.JPG
+
+INPUT|usc430ap-intro-26|U |1581305298|usc430ap|intro:cd ./users|
+INPUT|usc430ap-intro-27|M3 M2 |1581305309|usc430ap|intro:locate *intro*|/etc/wuer136intro-4.JPG
+/etc/apparmor.d/abstractions/apparmor_api/introspect
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.status.10
+/usr/lib/python3/dist-packages/automat/_introspection.py
+/usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+/usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+/usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+/usr/share/man/man1/intro.1.gz
+/usr/share/man/man2/intro.2.gz
+/usr/share/man/man3/intro.3.gz
+/usr/share/man/man4/intro.4.gz
+/usr/share/man/man5/intro.5.gz
+/usr/share/man/man6/intro.6.gz
+/usr/share/man/man7/intro.7.gz
+/usr/share/man/man8/intro.8.gz
+/usr/share/vim/vim80/doc/intro.txt
+/var/log/136intro-3.jpg
+/var/log/ttylog/usc430ap.hw1-usc430ap.intro.csv
+/var/log/ttylog/usc430ap.hw1-usc430ap.intro.log
+
+INPUT|usc430ap-intro-28|U |1581305397|usc430ap|intro:cd ..|
+INPUT|usc430ap-intro-29|U |1581305399|usc430ap|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ap-intro-30|U |1581305402|usc430ap|intro:cd ..|
+INPUT|usc430ap-intro-31|U |1581305404|usc430ap|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ap-intro-32|U |1581305419|usc430ap|intro:updatedb|
+INPUT|usc430ap-intro-33|M2 M0 |1581305466|usc430ap|intro:find . -name "*.jpg"|./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+./proj/USC430/exp/hw1-usc430bf/top_secret/xbzf136INTRO-1.jpg
+
+INPUT|usc430ap-intro-34|M3 |1581305497|usc430ap|intro:find . -name "*.JPG"|./etc/wuer136intro-4.JPG
+./proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+./proj/USC430/exp/hw1-usc430bf/wuer136intro-4.JPG
+
+INPUT|usc430ap-intro-35|U |1581305788|usc430ap|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ap-intro-36|U |1581305792|usc430ap|intro:cd home|
+INPUT|usc430ap-intro-37|U |1581305793|usc430ap|intro:ls|deter
+
+INPUT|usc430ap-intro-38|U |1581305817|usc430ap|intro:mkdir top_secret|mkdir: cannot create directory 'top_secret': Permission denied
+
+INPUT|usc430ap-intro-39|U |1581305832|usc430ap|intro:mkdir top_secret|
+INPUT|usc430ap-intro-40|U |1581305834|usc430ap|intro:ls|deter  top_secret
+
+INPUT|usc430ap-intro-41|U |1581305839|usc430ap|intro:cd top_secret|
+INPUT|usc430ap-intro-42|U |1581306038|usc430ap|intro:mv ./usr/share/pixmaps/xbzf136INTRO-1.jpg top_secret|mv: cannot stat './usr/share/pixmaps/xbzf136INTRO-1.jpg': No such file or directory
+
+INPUT|usc430ap-intro-43|U |1581306059|usc430ap|intro:mv xbzf136INTRO-1.jpg top_secret|mv: cannot stat 'xbzf136INTRO-1.jpg': No such file or directory
+
+INPUT|usc430ap-intro-44|U |1581339647|usc430ap|client:ls|file.txt  thomas.png  top_secret  usc430ap.txt
+
+INPUT|usc430ap-intro-45|U |1581339656|usc430ap|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.567 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.346 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.234 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=4 ttl=64 time=0.355 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=5 ttl=64 time=0.495 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=6 ttl=64 time=0.380 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=7 ttl=64 time=0.260 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=8 ttl=64 time=0.390 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=9 ttl=64 time=0.257 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=10 ttl=64 time=0.406 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=11 ttl=64 time=0.289 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=12 ttl=64 time=0.408 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=13 ttl=64 time=0.306 ms
+64 bytes from server-l
+INPUT|usc430ap-intro-46|U |1581339716|usc430ap|client:ls|file.txt  thomas.png  top_secret  usc430ap.txt
+
+INPUT|usc430ap-intro-47|U |1581339750|usc430ap|server:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.083 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.038 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.026 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=4 ttl=64 time=0.026 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=5 ttl=64 time=0.044 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=6 ttl=64 time=0.067 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=7 ttl=64 time=0.043 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=8 ttl=64 time=0.039 ms
+^Z
+[1]+  Stopped                 ping server
+
+INPUT|usc430ap-intro-48|U |1581339761|usc430ap|server:ping pia|ping: pia: Temporary failure in name resolution
+
+INPUT|usc430ap-intro-49|U |1581339766|usc430ap|server:ping client|PING client-link0 (10.1.1.2) 56(84) bytes of data.
+64 bytes from client-link0 (10.1.1.2): icmp_seq=1 ttl=64 time=0.484 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=2 ttl=64 time=0.487 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=3 ttl=64 time=0.185 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=4 ttl=64 time=0.370 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=5 ttl=64 time=0.314 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=6 ttl=64 time=0.503 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=7 ttl=64 time=0.454 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=8 ttl=64 time=0.154 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=9 ttl=64 time=0.342 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=10 ttl=64 time=0.293 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=11 ttl=64 time=0.483 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=12 ttl=64 time=0.425 ms
+64 bytes from client-link0 (10.1.1.2): icmp_seq=13 ttl=64 time=0.372 ms
+64 bytes from client-l
+INPUT|usc430ap-intro-50|U |1581340690|usc430ap|server:ls|file.txt  server.py  thomas.png  top_secret  usc430ap.txt
+
+INPUT|usc430ap-intro-51|U |1581340697|usc430ap|server:server|;1581340697
+Command 'server' not found but can be installed with:
+
+apt install rsplib-legacy-wrappers
+Please ask your administrator.
+
+
+INPUT|usc430ap-intro-52|U |1581340717|usc430ap|server:apt install rsplib-legacy-wrappers|Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  python3-netifaces
+Use 'sudo apt autoremove' to remove it.
+The following NEW packages will be installed:
+  rsplib-legacy-wrappers
+0 upgraded 1 newly installed 0 to remove and 312 not upgraded.
+Need to get 4672 B of archives.
+After this operation 99.3 kB of additional disk space will be used.
+Get:1 http://scratch/ubuntu bionic/universe amd64 rsplib-legacy-wrappers amd64 3.0.1-1ubuntu6 [4672 B]
+Fetched 4672 B in 0s (61.1 kB/s)                  
+0;23r1ASelecting previously unselected package rsplib-legacy-wrappers.
+(Reading database ... 154834 files and directories currently installed.)
+Preparing to unpack .../rsplib-legacy-wrappers_3.0.1-1ubuntu6_amd64.deb ...
+24;0fProgress: [  0%%] [..........................................................] 24;0fProgress: [ 17%%] [#########..........................................
+INPUT|usc430ap-intro-53|U |1581340857|usc430ap|server:server|WARNING: Usage of \"server\" is deprecated it has been renamed to \"rspserver\"!
+/usr/bin/server: 3: /usr/bin/server: rspserver: not found
+
+INPUT|usc430ap-intro-54|U |1581340865|usc430ap|server:server.py|server.py: command not found
+
+INPUT|usc430ap-intro-55|U |1581340868|usc430ap|server:ls|file.txt  server.py  thomas.png  top_secret  usc430ap.txt
+
+INPUT|usc430ap-intro-56|U |1581340873|usc430ap|server:server.py|server.py: command not found
+
+INPUT|usc430ap-intro-57|U |1581340909|usc430ap|server:server|WARNING: Usage of \"server\" is deprecated it has been renamed to \"rspserver\"!
+/usr/bin/server: 3: /usr/bin/server: rspserver: not found
+
+INPUT|usc430ap-intro-58|U |1581340912|usc430ap|server:ls|file.txt  server.py  thomas.png  top_secret  usc430ap.txt
+
+INPUT|usc430ap-intro-59|U |1581340921|usc430ap|server:server.py|server.py: command not found
+
+INPUT|usc430ap-intro-60|U |1581340961|usc430ap|server:./server.py|bash: ./server.py: Permission denied
+
+INPUT|usc430ap-intro-61|U |1581340968|usc430ap|server:./server.py|sudo: ./server.py: command not found
+
+INPUT|usc430ap-intro-62|U |1581340994|usc430ap|server:chmod a+x server.py|
+INPUT|usc430ap-intro-63|U |1581340997|usc430ap|server:./server.py|./server.py: 1: ./server.py: import: not found
+./server.py: 2: ./server.py: import: not found
+./server.py: 5: ./server.py: Syntax error: \"(\" unexpected;1581340997
+

@@ -1,0 +1,883 @@
+User usc430ar start time 1580258704 end 1580954691
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ar-intro-0|U |000000000|usc430ar|:|
+INPUT|usc430ar-intro-1|U |000000000|usc430ar|:|
+INPUT|usc430ar-intro-2|U |1580258704|usc430ar|intro:ls'|> ` ;1580258708
+> ^C
+
+INPUT|usc430ar-intro-3|U |1580258713|usc430ar|intro:ls|hi.txt	thomas.png  usc430ar.txt
+
+INPUT|usc430ar-intro-4|U |1580258728|usc430ar|intro:/|bash: /: Is a directory
+
+INPUT|usc430ar-intro-5|U |1580258734|usc430ar|intro:ls /|bin   initrd.img      lost+found  proj	 snap	usr
+boot  initrd.img.old  media	  root	 srv	var
+dev   lib	      mnt	  run	 sys	vmlinuz
+etc   lib64	      opt	  sbin	 tmp	vmlinuz.old
+home  local	      proc	  share  users
+
+INPUT|usc430ar-intro-6|U |1580258885|usc430ar|intro:cd home|bash: cd: home: No such file or directory
+
+INPUT|usc430ar-intro-7|U |1580258889|usc430ar|intro:cd/home|bash: cd/home: No such file or directory
+
+INPUT|usc430ar-intro-8|U |1580258892|usc430ar|intro:cd /home/|
+INPUT|usc430ar-intro-9|U |1580258896|usc430ar|intro:ls|deter
+
+INPUT|usc430ar-intro-10|U |1580258901|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-11|U |1580258903|usc430ar|intro:ls|bin   initrd.img      lost+found  proj	 snap	usr
+boot  initrd.img.old  media	  root	 srv	var
+dev   lib	      mnt	  run	 sys	vmlinuz
+etc   lib64	      opt	  sbin	 tmp	vmlinuz.old
+home  local	      proc	  share  users
+
+INPUT|usc430ar-intro-12|U |1580258907|usc430ar|intro:cd home|
+INPUT|usc430ar-intro-13|U |1580258915|usc430ar|intro:mkdir top_secret|mkdir: cannot create directory 'top_secret': Permission denied
+
+INPUT|usc430ar-intro-14|U |1580258927|usc430ar|intro:mkdir top_secret|
+INPUT|usc430ar-intro-15|U |1580258928|usc430ar|intro:ls|deter  top_secret
+
+INPUT|usc430ar-intro-16|U |1580258946|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-17|U |1580258948|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-18|U |1580258950|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-19|U |1580258984|usc430ar|intro:sudeo updatedb|;1580258984
+Command 'sudeo' not found did you mean:
+
+  command 'sudo' from deb sudo
+  command 'sudo' from deb sudo-ldap
+
+Try: apt install <deb name>
+
+
+INPUT|usc430ar-intro-20|U |1580258988|usc430ar|intro:updatedb|
+INPUT|usc430ar-intro-21|A0 A2 A3 A1 A4 |1580259054|usc430ar|intro:locate *'intro'.jpg|
+INPUT|usc430ar-intro-22|M2 |1580259172|usc430ar|intro:locate "*intro*.jpg"|/var/log/136intro-3.jpg
+
+INPUT|usc430ar-intro-23|A4 A1 A2 A3 A0 |1580259209|usc430ar|intro:locate "*intro*.jpeg"|
+INPUT|usc430ar-intro-24|M2 |1580259214|usc430ar|intro:locate "*intro*.jpg"|/var/log/136intro-3.jpg
+
+INPUT|usc430ar-intro-25|A0 A2 A3 A1 A4 |1580259217|usc430ar|intro:locate "intro*.jpg"|
+INPUT|usc430ar-intro-26|A4 A1 A2 A3 A0 |1580259222|usc430ar|intro:locate "*intro.jpg"|
+INPUT|usc430ar-intro-27|U |1580259291|usc430ar|intro:scp /var/log/136intro-3.jpg /home/top_secret|cp: cannot create regular file '/home/top_secret/136intro-3.jpg': Permission denied
+
+INPUT|usc430ar-intro-28|U |1580259297|usc430ar|intro:scp /var/log/136intro-3.jpg /home/top_secret Asc430ar@intro:/$ sudo |
+
+INPUT|usc430ar-intro-29|U |1580259454|usc430ar|intro:cd home/top_secret/|
+INPUT|usc430ar-intro-30|U |1580259455|usc430ar|intro:ls|136intro-3.jpg
+C430.isi.deterlab.net:/home/top_secret/136intro-3.jpg /local/logs/  A430.isi.deterlab.net:/home/top_secret/136intro-3.jpg /local/logs 
+AC430.isi.deterlab.net:/home/top_secret/136intro-3.jpg /local/logs/  A430.isi.deterlab.net:/home/top_secret/136intro-3.jpg /local/logs 
+AC430.isi.deterlab.net:/home/top_secret/136intro-3.jpg localhost/us  A430.isi.deterlab.net:/home/top_secret/136intro-3.jpg localhost/u 
+AC430.isi.deterlab.net:/home/top_secret/136intro-3.jpg ~/usc430ar. 
+AC430.isi.deterlab.net:/home/top_secret/136intro-3.jpg ~/. ;1580259937
+ssh: Could not resolve hostname intro.hw1_usc430ar.usc430.isi.deterlab.net: Name or service not known
+C430.isi.deterlab.net:/home/top_sels
+A
+A
+
+INPUT|usc430ar-intro-31|U |1580862438|usc430ar|intro:ls|136intro-2jjaj.JPEG	 hi.txt      usc430ar.txt
+136intro-3.jpg		 thomas.png  wuer136intro-4.JPG
+asdf136Intro-5kqlw.jpeg  top_secret  xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-32|U |1580862457|usc430ar|intro:updatedb|
+INPUT|usc430ar-intro-33|M2 |1580862711|usc430ar|intro:locate *intro*.jpg -i|/var/log/136intro-3.jpg
+
+INPUT|usc430ar-intro-34|M4 |1580862739|usc430ar|intro:locate *intro*.jpeg -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-35|A1 A4 A2 A3 A0 |1580862784|usc430ar|intro:locate *intro*.jpeg   |
+INPUT|usc430ar-intro-36|M4 |1580862864|usc430ar|intro:locate *intro*.jpeg -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-37|A2 A3 A0 A1 A4 |1580862974|usc430ar|intro:locate *intro*.JPEG   |
+INPUT|usc430ar-intro-38|A4 A1 A0 A2 A3 |1580862999|usc430ar|intro:locate *intro.JPEG|
+INPUT|usc430ar-intro-39|A1 A4 A2 A3 A0 |1580863002|usc430ar|intro:locate *intro.JPEG -i|
+INPUT|usc430ar-intro-40|M4 |1580863009|usc430ar|intro:locate *INTRO*.JPEG -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-41|U |1580863017|usc430ar|intro:cd .|
+INPUT|usc430ar-intro-42|U |1580863019|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-43|U |1580863022|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-44|U |1580863025|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-45|A0 A2 A3 A4 A1 |1580863029|usc430ar|intro:locate *intro.JPEG -i|
+INPUT|usc430ar-intro-46|M3 M2 M0 |1580863036|usc430ar|intro:locate *INTRO*.JPG -i|/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ar-intro-47|M4 |1580863069|usc430ar|intro:locate *INTRO*.JPeG -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-48|M3 M2 M0 |1580863105|usc430ar|intro:locate *INTRO*.JPG -i|/etc/wuer136intro-4.JPG
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+
+INPUT|usc430ar-intro-49|M4 |1580863114|usc430ar|intro:locate *INTRO*.JPeG -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-50|M4 |1580863119|usc430ar|intro:locate *INTRO*.JPEG -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-51|A4 A1 A2 A3 A0 |1580863136|usc430ar|intro:locate 136intro-2jjaj.JPEG|
+INPUT|usc430ar-intro-52|A1 A4 A2 A3 A0 |1580863142|usc430ar|intro:locate 136intro-2jjaj.JPEG -i|
+INPUT|usc430ar-intro-53|U |1580863161|usc430ar|intro:updatedb|
+INPUT|usc430ar-intro-54|M4 |1580863167|usc430ar|intro:locate *INTRO*.JPEG -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-55|U |1580863192|usc430ar|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ar-intro-56|U |1580863202|usc430ar|intro:cd home |
+INPUT|usc430ar-intro-57|U |1580863205|usc430ar|intro:ls|deter
+
+INPUT|usc430ar-intro-58|U |1580863212|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-59|U |1580863216|usc430ar|intro:cd usr|
+INPUT|usc430ar-intro-60|U |1580863218|usc430ar|intro:ls|bin  games  include  lib  local  sbin  share  src  testbed
+
+INPUT|usc430ar-intro-61|U |1580863222|usc430ar|intro:cd bin|
+INPUT|usc430ar-intro-62|U |1580863224|usc430ar|intro:cd .|
+INPUT|usc430ar-intro-63|U |1580863227|usc430ar|intro:ls   |'['				      lsattr
+ 2to3-2.7			      lsb_release
+ aa-enabled			      lscpu
+ aa-exec			      lshw
+ aclocal			      lsinitramfs
+ aclocal-1.15			      lsipc
+ acpi_listen			      lslocks
+ add-apt-repository		      lslogins
+ addpart			      lsmem
+ addr2line			      lsns
+ ansible			      lsof
+ ansible-config			      lspci
+ ansible-connection		      lspgpot
+ ansible-console		      lsusb
+ ansible-doc			      ltrace
+ ansible-galaxy			      lxc
+ ansible-inventory		      lxcfs
+ ansible-playbook		      lxd
+ ansible-pull			      lzcat
+ ansible-vault			      lzcmp
+ apport-bug			      lzdiff
+ apport-cli			      lzegrep
+ apport-collect			      lzfgrep
+ apport-unpack			      lzgrep
+ apropos			      lzless
+ apt				      lzma
+ apt-add-repository		      lzmainfo
+ apt-cache			      lzmore
+ apt-cdrom			      m17n-db
+ apt-config			      m4
+ apt-extracttemplates		      make
+ apt-ftparchive			      make-first-existing-target
+ apt-get			      man
+ apt-key			      mandb
+ apt-mark			      manifest
+ apt-sortpkgs	
+INPUT|usc430ar-intro-64|U |1580863232|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-65|U |1580863252|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-66|U |1580863254|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-67|U |1580863256|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-68|U |1580863257|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-69|U |1580863259|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-70|U |1580863261|usc430ar|intro:cd ..|sudo: cd: command not found
+
+INPUT|usc430ar-intro-71|U |1580863266|usc430ar|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ar-intro-72|U |1580863273|usc430ar|intro:cd proj|
+INPUT|usc430ar-intro-73|U |1580863274|usc430ar|intro:ls|Modeling  USC430
+
+INPUT|usc430ar-intro-74|U |1580863279|usc430ar|intro:cd Modeling/|
+INPUT|usc430ar-intro-75|U |1580863281|usc430ar|intro:ls|
+INPUT|usc430ar-intro-76|U |1580863283|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-77|U |1580863286|usc430ar|intro:/|bash: /: Is a directory
+
+INPUT|usc430ar-intro-78|U |1580863290|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-79|A1 A4 A0 A2 A3 |1580863301|usc430ar|intro:locate *intro*.jpeg|
+INPUT|usc430ar-intro-80|M4 |1580863304|usc430ar|intro:locate *intro*.jpeg -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-81|U |1580863328|usc430ar|intro:/|bash: /: Is a directory
+
+INPUT|usc430ar-intro-82|M4 |1580863349|usc430ar|intro:locate /*intro*.jpeg -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-83|U |1580863398|usc430ar|intro:cd users|
+INPUT|usc430ar-intro-84|U |1580863399|usc430ar|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430ar
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430ar-intro-85|U |1580863405|usc430ar|intro:cd usc430ar/|
+INPUT|usc430ar-intro-86|U |1580863407|usc430ar|intro:ls|136intro-2jjaj.JPEG	 hi.txt      usc430ar.txt
+136intro-3.jpg		 thomas.png  wuer136intro-4.JPG
+asdf136Intro-5kqlw.jpeg  top_secret  xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-87|U |1580863418|usc430ar|intro:cd top_secret/|
+INPUT|usc430ar-intro-88|U |1580863419|usc430ar|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ar-intro-89|U |1580863422|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-90|M4 |1580863434|usc430ar|intro:locate *intro*.jpeg -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-91|U |1580863444|usc430ar|intro:updatedb|
+INPUT|usc430ar-intro-92|M4 |1580863447|usc430ar|intro:locate *intro*.jpeg -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-93|A1 A4 A3 A2 A0 |1580863505|usc430ar|intro:locate *intro*.jpeg   |
+INPUT|usc430ar-intro-94|M3 M2 |1580863517|usc430ar|intro:locate *intro*.* -i    |/etc/wuer136intro-4.JPG
+/var/log/136intro-3.jpg
+
+INPUT|usc430ar-intro-95|M4 |1580863528|usc430ar|intro:locate *Intro*.* -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-96|U |1580863618|usc430ar|intro:/|bash: /: Is a directory
+
+INPUT|usc430ar-intro-97|U |1580863620|usc430ar|intro:ls /|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ar-intro-98|U |1580863625|usc430ar|intro:updatedb|
+INPUT|usc430ar-intro-99|M4 |1580863630|usc430ar|intro:locate *Intro*.* -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-100|M3 M2 |1580863635|usc430ar|intro:locate *intro*.* -i|/etc/wuer136intro-4.JPG
+/var/log/136intro-3.jpg
+
+INPUT|usc430ar-intro-101|A1 A4 A0 A2 A3 |1580863693|usc430ar|intro:find . -name "*.JPEG"|./top_secret/136intro-2jjaj.JPEG
+./136intro-2jjaj.JPEG
+
+INPUT|usc430ar-intro-102|U |1580863709|usc430ar|intro:updatedb|
+INPUT|usc430ar-intro-103|M3 M2 |1580863713|usc430ar|intro:locate *intro*.* -i|/etc/wuer136intro-4.JPG
+/var/log/136intro-3.jpg
+
+INPUT|usc430ar-intro-104|U |1580863724|usc430ar|intro:cd ./|
+INPUT|usc430ar-intro-105|U |1580863726|usc430ar|intro:ls|136intro-2jjaj.JPEG	 hi.txt      usc430ar.txt
+136intro-3.jpg		 thomas.png  wuer136intro-4.JPG
+asdf136Intro-5kqlw.jpeg  top_secret  xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-106|U |1580863730|usc430ar|intro:pwd|/users/usc430ar
+
+INPUT|usc430ar-intro-107|U |1580863742|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-108|U |1580863743|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-109|U |1580863745|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-110|U |1580863746|usc430ar|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ar-intro-111|U |1580863749|usc430ar|intro:ls /|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ar-intro-112|M1 |1580863758|usc430ar|intro:find . -name "*.JPEG"|./users/usc430ar/top_secret/136intro-2jjaj.JPEG
+./users/usc430ar/136intro-2jjaj.JPEG
+find: './tmp/systemd-private-89b71826878c47e88574260a71f6bf5d-systemd-resolved.service-FKw4Qx': Permission denied
+find: './tmp/systemd-private-89b71826878c47e88574260a71f6bf5d-systemd-timesyncd.service-w4ncth': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+fin
+INPUT|usc430ar-intro-113|U |1580863799|usc430ar|intro:ls|136intro-2jjaj.JPEG  loop0		 sg2	   tty30  tty60      ttyS31
+autofs		     loop1		 shm	   tty31  tty61      ttyS4
+block		     loop2		 snapshot  tty32  tty62      ttyS5
+bsg		     loop3		 snd	   tty33  tty63      ttyS6
+btrfs-control	     loop4		 sr0	   tty34  tty7	     ttyS7
+bus		     loop5		 stderr    tty35  tty8	     ttyS8
+cdrom		     loop6		 stdin	   tty36  tty9	     ttyS9
+char		     loop7		 stdout    tty37  ttyprintk  uhid
+console		     loop-control	 tty	   tty38  ttyS0      uinput
+core		     mapper		 tty0	   tty39  ttyS1      urandom
+cpu		     mcelog		 tty1	   tty4   ttyS10     userio
+cpu_dma_latency      mem		 tty10	   tty40  ttyS11     vcs
+cuse		     memory_bandwidth	 tty11	   tty41  ttyS12     vcs1
+disk		     mqueue		 tty12	   tty42  ttyS13     vcs2
+dri		     net		 tty13	   tty43  ttyS14     vcs3
+ecryptfs	     network_latency	 tty14	   tty44  ttyS15     vcs4
+fd		     network_throughput  tty15	   tty45  ttyS16     vcs5
+fd0		     null		 tty16	   tty46  ttyS17     vcs6
+full		     por
+INPUT|usc430ar-intro-114|U |1580864637|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-115|U |1580864639|usc430ar|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ar-intro-116|U |1580864641|usc430ar|intro:cd proc|
+INPUT|usc430ar-intro-117|U |1580864643|usc430ar|intro:ls|1     14    204   2286	37   47   940	       iomem	    pagetypeinfo
+10    15    205   2328	38   48   949	       ioports	    partitions
+100   1596  207   2368	39   485  97	       ipmi	    sched_debug
+1008  16    2085  24	4    49   98	       irq	    schedstat
+101   1632  2095  25	40   50   99	       kallsyms     scsi
+1016  1636  21	  2534	404  51   acpi	       kcore	    self
+102   1644  2103  26	405  52   buddyinfo    keys	    slabinfo
+1020  1701  22	  27	406  54   bus	       key-users    softirqs
+105   18    2220  28	41   55   cgroups      kmsg	    stat
+109   1812  2222  282	415  6	  cmdline      kpagecgroup  swaps
+11    1818  2223  2853	42   7	  consoles     kpagecount   sys
+1167  1820  2253  2856	426  758  cpuinfo      kpageflags   sysrq-trigger
+1176  1832  2257  288	427  767  crypto       loadavg	    sysvipc
+118   1838  2259  30	428  768  devices      locks	    thread-self
+1180  19    2261  31	43   8	  diskstats    mdstat	    timer_list
+12    197   2275  32	431  868  dma	       meminf
+INPUT|usc430ar-intro-118|M5 |1580864666|usc430ar|intro:cat cpuinfo|processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.564
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl cpuid pni dtes64 monitor ds_cpl cid cx16 xtpr pti
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf
+bogomips	: 5985.12
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Xeon(TM) CPU 3.00GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 2992.564
+cache size	: 2048 KB
+physical id	: 3
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 6
+initial apicid	: 
+INPUT|usc430ar-intro-119|A5 |1580864721|usc430ar|intro:cat /cpuinfo | grep venfor_id|cat: /cpuinfo: No such file or directory
+
+INPUT|usc430ar-intro-120|A5 |1580864726|usc430ar|intro:cat cpuinfo | grep venfor_id|
+INPUT|usc430ar-intro-121|U |1580864743|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-122|A5 |1580864745|usc430ar|intro:cat /cpuinfo | grep venfor_id|cat: /cpuinfo: No such file or directory
+
+INPUT|usc430ar-intro-123|A5 |1580864752|usc430ar|intro:cat /proc/cpuinfo | grep venfor_id|
+INPUT|usc430ar-intro-124|M5 |1580864758|usc430ar|intro:cat /proc/cpuinfo | grep vendor_id|vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+vendor_id	: GenuineIntel
+
+INPUT|usc430ar-intro-125|A6 |1580865096|usc430ar|intro:df > top_secret/diskfree.txt|bash: top_secret/diskfree.txt: No such file or directory
+
+INPUT|usc430ar-intro-126|U |1580865112|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-127|U |1580865113|usc430ar|intro:pwd|/
+
+INPUT|usc430ar-intro-128|U |1580865115|usc430ar|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ar-intro-129|U |1580865125|usc430ar|intro:updatedb               |
+INPUT|usc430ar-intro-130|M4 |1580865136|usc430ar|intro:locate *intro*.jpeg -i|/.hidden/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430ar-intro-131|U |1580865146|usc430ar|intro:cd users/|
+INPUT|usc430ar-intro-132|U |1580865148|usc430ar|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430ar
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430ar-intro-133|U |1580865155|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-134|U |1580865157|usc430ar|intro:cd proj|
+INPUT|usc430ar-intro-135|U |1580865158|usc430ar|intro:ls|Modeling  USC430
+
+INPUT|usc430ar-intro-136|U |1580865161|usc430ar|intro:cd us|bash: cd: us: No such file or directory
+
+INPUT|usc430ar-intro-137|U |1580865164|usc430ar|intro:cd ISC430|bash: cd: ISC430: No such file or directory
+
+INPUT|usc430ar-intro-138|U |1580865168|usc430ar|intro:cd USC430|
+INPUT|usc430ar-intro-139|U |1580865170|usc430ar|intro:ls| 11		 images				    rpms	  team2.hash
+ 292		 intro.ns			    score	  team2-pass
+ 65		 intro.ns~			    scoreCTF2	  team2-pass~
+ bd.cron	 intro.sh			    scorer.conf   team3.hash
+ cctf2.ns	 john-1.8.0.9-jumbo-macosx_v3.zip   server	  team3-pass
+ cctf.ns	'login?user=realuser'		    startips	  team3.stats
+ CTF2		'login?user=username'		    startnc	  team4-pass
+ CTF_Bank	 logs				    start.pl	  team5-pass
+ deltas		 milestones			    start.sh	  team6-pass
+ exp		 newdir				    tarfiles	  templates
+ fixresolve.sh	 nmap.ns			    team1.hash	  tiplogs
+ gethashes.pl	 pulllogs.pl			    team1-pass	  webserver.c
+ groups		 RED2				    team1-pass~
+ host.conf	 REDTEAM.info			    team1.stats
+
+INPUT|usc430ar-intro-140|U |1580865176|usc430ar|intro:cd images|
+INPUT|usc430ar-intro-141|U |1580865177|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-142|U |1580865179|usc430ar|intro:cd images|
+INPUT|usc430ar-intro-143|U |1580865180|usc430ar|intro:ls|intro.ndz  mjoseph-intro.ndz  sigs  Ubuntu-INT.ndz
+
+INPUT|usc430ar-intro-144|U |1580865190|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-145|U |1580865192|usc430ar|intro:cd groups|
+INPUT|usc430ar-intro-146|U |1580865193|usc430ar|intro:ls|teachers  team_74_1  team_74_2	team_74_3
+
+INPUT|usc430ar-intro-147|U |1580865200|usc430ar|intro:cd team_74_1|bash: cd: team_74_1: No such file or directory
+
+INPUT|usc430ar-intro-148|U |1580865207|usc430ar|intro:cat team_74_1|cat: team_74_1: No such file or directory
+
+INPUT|usc430ar-intro-149|U |1580865213|usc430ar|intro:cat team_74_3 |cat: team_74_3: No such file or directory
+
+INPUT|usc430ar-intro-150|U |1580865215|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-151|U |1580865216|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-152|U |1580865218|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-153|U |1580865220|usc430ar|intro:cd users/|
+INPUT|usc430ar-intro-154|U |1580865222|usc430ar|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430ar
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430ar-intro-155|U |1580865225|usc430ar|intro:cd usc430ar/|
+INPUT|usc430ar-intro-156|U |1580865227|usc430ar|intro:ls|136intro-2jjaj.JPEG	 hi.txt      usc430ar.txt
+136intro-3.jpg		 thomas.png  wuer136intro-4.JPG
+asdf136Intro-5kqlw.jpeg  top_secret  xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-157|U |1580865232|usc430ar|intro:cd top_secret|
+INPUT|usc430ar-intro-158|U |1580865234|usc430ar|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ar-intro-159|M6 |1580865571|usc430ar|intro:df   |Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       5992     198044   3%% /run
+/dev/sda1                                          15681948    3256068   11625932  22%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ar 2031313280 1099958528  768849664  59%% /users/usc430ar
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374040192 1362728192  51%% /proj/USC430
+tmpfs                                                204032          0     204032   0%% /run/user/14181
+
+INPUT|usc430ar-intro-160|A6 |1580865589|usc430ar|intro:df > top_secret/diskfree.txt|bash: top_secret/diskfree.txt: No such file or directory
+
+INPUT|usc430ar-intro-161|A6 |1580865596|usc430ar|intro:df > top_secret/            |bash: top_secret/: Is a directory
+
+INPUT|usc430ar-intro-162|U |1580865602|usc430ar|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  xbzf136INTRO-1.jpg
+136intro-3.jpg	     wuer136intro-4.JPG
+
+INPUT|usc430ar-intro-163|U |1580865607|usc430ar|intro:ls /|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430ar-intro-164|A6 |1580865646|usc430ar|intro:df / > top_secret/diskfree.txt|bash: top_secret/diskfree.txt: No such file or directory
+
+INPUT|usc430ar-intro-165|M6 |1580865925|usc430ar|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       5992     198044   3%% /run
+/dev/sda1                                          15681948    3256088   11625912  22%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ar 2031313280 1099999744  768808448  59%% /users/usc430ar
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374039424 1362728960  51%% /proj/USC430
+tmpfs                                                204032          0     204032   0%% /run/user/14181
+
+INPUT|usc430ar-intro-166|U |1580865973|usc430ar|intro:du|248	.
+
+INPUT|usc430ar-intro-167|M6 |1580866097|usc430ar|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400         48     989352   1%% /dev
+tmpfs                                                204036       5992     198044   3%% /run
+/dev/sda1                                          15681948    3256096   11625904  22%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ar 2031313280 1099979264  768829056  59%% /users/usc430ar
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1374040192 1362728192  51%% /proj/USC430
+tmpfs                                                204032          0     204032   0%% /run/user/14181
+
+INPUT|usc430ar-intro-168|U |1580866098|usc430ar|intro:du|248	.
+
+INPUT|usc430ar-intro-169|M6 |1580866156|usc430ar|intro:df --o|Filesystem                                       Type        Inodes   IUsed     IFree IUse%%  1K-blocks       Used      Avail Use%% File Mounted on
+udev                                             devtmpfs    247350     431    246919    1%%     989400         48     989352   1%% -    /dev
+tmpfs                                            tmpfs       255041    1812    253229    1%%     204036       5992     198044   3%% -    /run
+/dev/sda1                                        ext3       1001712  168431    833281   17%%   15681948    3256104   11625896  22%% -    /
+tmpfs                                            tmpfs       255041       1    255040    1%%    1020164          0    1020164   0%% -    /dev/shm
+tmpfs                                            tmpfs       255041       5    255036    1%%       5120          0       5120   0%% -    /run/lock
+tmpfs                                            tmpfs       255041      18    255023    1%%    1020164          0    1020164   0%% -   
+INPUT|usc430ar-intro-170|A6 |1580866183|usc430ar|intro:df > top_secret/diskfree.txt|bash: top_secret/diskfree.txt: No such file or directory
+
+INPUT|usc430ar-intro-171|M6 |1580866196|usc430ar|intro:df -h|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  5.9M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ar  1.9T  1.1T  734G  59%% /users/usc430ar
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             200M     0  200M   0%% /run/user/14181
+
+INPUT|usc430ar-intro-172|A6 |1580866253|usc430ar|intro:df -h > diskfree.txt|
+INPUT|usc430ar-intro-173|U |1580866255|usc430ar|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-174|U |1580866261|usc430ar|intro:cat diskfree.txt|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  5.9M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ar  1.9T  1.1T  734G  59%% /users/usc430ar
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             200M     0  200M   0%% /run/user/14181
+
+INPUT|usc430ar-intro-175|U |1580866277|usc430ar|intro:pwd|/users/usc430ar/top_secret
+
+INPUT|usc430ar-intro-176|U |1580866361|usc430ar|intro:pwd|/users/usc430ar/top_secret
+
+INPUT|usc430ar-intro-177|U |1580866721|usc430ar|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  thomas.png  usc430ar.txt	      xbzf136INTRO-1.jpg
+136intro-3.jpg	     hi.txt		      top_secret  wuer136intro-4.JPG
+
+INPUT|usc430ar-intro-178|U |1580866725|usc430ar|intro:ls /|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ar-intro-179|U |1580866729|usc430ar|intro:cd home|bash: cd: home: No such file or directory
+
+INPUT|usc430ar-intro-180|U |1580866740|usc430ar|intro:pwd  |/users/usc430ar
+
+INPUT|usc430ar-intro-181|U |1580866746|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-182|U |1580866747|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-183|U |1580866748|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-184|U |1580866749|usc430ar|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ar-intro-185|U |1580866751|usc430ar|intro:cd home|
+INPUT|usc430ar-intro-186|U |1580866753|usc430ar|intro:ls|deter
+
+INPUT|usc430ar-intro-187|U |1580866793|usc430ar|intro:cd ..           |
+INPUT|usc430ar-intro-188|U |1580866802|usc430ar|intro:cd users/usc430ar/|
+INPUT|usc430ar-intro-189|U |1580866804|usc430ar|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  thomas.png  usc430ar.txt	      xbzf136INTRO-1.jpg
+136intro-3.jpg	     hi.txt		      top_secret  wuer136intro-4.JPG
+
+INPUT|usc430ar-intro-190|U |1580866808|usc430ar|intro:cd top_secret/|
+INPUT|usc430ar-intro-191|U |1580866809|usc430ar|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-192|U |1580866813|usc430ar|intro:cat diskfree.txt|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  5.9M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ar  1.9T  1.1T  734G  59%% /users/usc430ar
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             200M     0  200M   0%% /run/user/14181
+
+INPUT|usc430ar-intro-193|A6 |1580866826|usc430ar|intro:df -h > diskfree.txt|
+INPUT|usc430ar-intro-194|U |1580866832|usc430ar|intro:cat diskfree.txt|Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  5.9M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ar  1.9T  1.1T  734G  59%% /users/usc430ar
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             200M     0  200M   0%% /run/user/14181
+
+INPUT|usc430ar-intro-195|U |1580866851|usc430ar|intro:pwd  |/users/usc430ar/top_secret
+
+INPUT|usc430ar-intro-196|U |1580866855|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-197|U |1580866856|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-198|U |1580866857|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-199|U |1580866859|usc430ar|intro:ls|bin   dev  home        initrd.img.old  lib64  lost+found  mnt  proc  root  sbin   snap	sys  users  var      vmlinuz.old
+boot  etc  initrd.img  lib	       local  media	  opt  proj  run   share  srv	tmp  usr    vmlinuz
+
+INPUT|usc430ar-intro-200|U |1580866861|usc430ar|intro:pwd|/
+
+INPUT|usc430ar-intro-201|U |1580866868|usc430ar|intro:cd home|
+INPUT|usc430ar-intro-202|U |1580866870|usc430ar|intro:ls|deter
+
+INPUT|usc430ar-intro-203|U |1580866882|usc430ar|intro:scp /users/usc430ar/top_secret/|usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430ar-intro-204|U |1580866892|usc430ar|intro:scp /users/usc430ar/top_secret/ -r|cp: -r not specified; omitting directory '/users/usc430ar/top_secret/'
+
+INPUT|usc430ar-intro-205|U |1580866906|usc430ar|intro:scp -r /users/usc430ar/top_secret/   |usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+
+INPUT|usc430ar-intro-206|U |1580866980|usc430ar|intro:cp -r /users/usc430ar/top_secret/ |cp: missing destination file operand after '/users/usc430ar/top_secret/'
+Try 'cp --help' for more information.
+
+INPUT|usc430ar-intro-207|U |1580866989|usc430ar|intro:cp -r /users/usc430ar/top_secret/ pwd|cp: cannot create directory 'pwd': Permission denied
+
+INPUT|usc430ar-intro-208|U |1580867002|usc430ar|intro:pwd |/home
+
+INPUT|usc430ar-intro-209|U |1580867012|usc430ar|intro:34@sudo cp -r /users/usc430ar/top_secret/ pwd|
+INPUT|usc430ar-intro-210|U |1580867014|usc430ar|intro:ls|deter  pwd
+
+INPUT|usc430ar-intro-211|U |1580867023|usc430ar|intro:cd pwd|
+INPUT|usc430ar-intro-212|U |1580867024|usc430ar|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-213|U |1580867028|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-214|U |1580867053|usc430ar|intro:rmdir pwd|rmdir: failed to remove 'pwd': Directory not empty
+
+INPUT|usc430ar-intro-215|U |1580867068|usc430ar|intro:rm pwd|rm: cannot remove 'pwd': Is a directory
+
+INPUT|usc430ar-intro-216|U |1580867105|usc430ar|intro:rm pwd|rm: cannot remove 'pwd': Is a directory
+
+INPUT|usc430ar-intro-217|U |1580867112|usc430ar|intro:rmdir pwd|rmdir: failed to remove 'pwd': Directory not empty
+
+INPUT|usc430ar-intro-218|U |1580867118|usc430ar|intro:cd pwd|
+INPUT|usc430ar-intro-219|U |1580867120|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-220|U |1580867123|usc430ar|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-221|U |1580867146|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-222|U |1580867158|usc430ar|intro:mv pwd/ top_secret|
+INPUT|usc430ar-intro-223|U |1580867159|usc430ar|intro:ls|deter  top_secret
+
+INPUT|usc430ar-intro-224|U |1580867163|usc430ar|intro:cd top_secret/|
+INPUT|usc430ar-intro-225|U |1580867167|usc430ar|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-226|U |1580867169|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-227|U |1580867471|usc430ar|intro:ls|deter  top_secret
+
+INPUT|usc430ar-intro-228|U |1580867480|usc430ar|intro:cd top_secret/ |
+INPUT|usc430ar-intro-229|U |1580867481|usc430ar|intro:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+136intro-3.jpg	     diskfree.txt	      xbzf136INTRO-1.jpg
+users/usc430ar/answer.txtsecret$ scp usc430ar@users.deterlab.net:/ ;1580867548
+usage: scp [-346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+users/usc430ar/answer.txt /home/top_secret/ar@users.deterlab.net:/u;1580867561
+^C
+
+INPUT|usc430ar-intro-230|U |1580867581|usc430ar|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-231|U |1580870215|usc430ar|intro:ls|136intro-2jjaj.JPEG  answer.txt		      hi.txt	  top_secret	wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  thomas.png  usc430ar.txt	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-232|U |1580870218|usc430ar|intro:pwd|/users/usc430ar
+
+INPUT|usc430ar-intro-233|U |1580870237|usc430ar|intro:/   |bash: /: Is a directory
+
+INPUT|usc430ar-intro-234|U |1580870239|usc430ar|intro:ls /|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430ar-intro-235|U |1580870243|usc430ar|intro:ls .|136intro-2jjaj.JPEG  answer.txt		      hi.txt	  top_secret	wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  thomas.png  usc430ar.txt	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-236|U |1580870249|usc430ar|intro:pwd|/users/usc430ar
+
+INPUT|usc430ar-intro-237|U |1580870263|usc430ar|intro:cat answer.txt|Question 1
+1. xbzf136INTRO-1.jpg
+Original location: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+Brief description: Image of UFO with a title "Forbidden Planet"
+
+2. 136intro-2jjaj.JPEG
+Original location: /dev/136intro-2jjaj.JPEG
+Brief description: Image of Godzilla with caption "INCREDIBLE UNSTOPPABLE TITAN OF TERROR!" at the top
+
+3. 136intro-3.jpg
+Original location: /var/log/136intrp-3.jpg
+Brief description: Title of the image is "IT CAME FROM OUTER SPACE"
+
+4. wuer136intro-4.JPG
+Original location: /etc/wuer136intro-4.JPG
+Brief description: Title of the image is "The Fly"
+
+5. asdf136Intro-5kqlw.jpeg
+Original location: /.hidden/asdf136Intro-5kqlw.jpeg
+Brief description: Title of the image is "2001 a space odyssey"
+
+Question 2
+1. Files to which the system writes data during the course of its operation.
+
+2. Location of special or device files.
+
+3. (in diskfree.txt)
+
+4. All 4 processors have the vendor_id "GenuineIntel".
+
+
+INPUT|usc430ar-intro-238|U |1580870268|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-239|U |1580870269|usc430ar|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430ar
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430ar-intro-240|U |1580870271|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-241|U |1580870272|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-242|U |1580870273|usc430ar|intro:cd /|
+INPUT|usc430ar-intro-243|U |1580870277|usc430ar|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430ar-intro-244|U |1580870290|usc430ar|intro:cd users/usc430ar/|
+INPUT|usc430ar-intro-245|U |1580870293|usc430ar|intro:ls|136intro-2jjaj.JPEG  answer.txt		      hi.txt	  top_secret	wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  thomas.png  usc430ar.txt	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-246|U |1580870298|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-247|U |1580870300|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-248|U |1580870303|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-249|U |1580870307|usc430ar|intro:cd home|
+INPUT|usc430ar-intro-250|U |1580870308|usc430ar|intro:ls|deter  top_secret
+
+INPUT|usc430ar-intro-251|U |1580870312|usc430ar|intro:cd top_secret/|
+INPUT|usc430ar-intro-252|U |1580870313|usc430ar|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-253|U |1580870348|usc430ar|intro:cp /users/usc430ar/top_secret/answer.txt ~|cp: cannot stat '/users/usc430ar/top_secret/answer.txt': No such file or directory
+
+INPUT|usc430ar-intro-254|U |1580870365|usc430ar|intro:pwd                                       |/home/top_secret
+
+INPUT|usc430ar-intro-255|U |1580870367|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-256|U |1580870369|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-257|U |1580870372|usc430ar|intro:cd users/usc430ar/|
+INPUT|usc430ar-intro-258|U |1580870374|usc430ar|intro:ls|136intro-2jjaj.JPEG  answer.txt		      hi.txt	  top_secret	wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  thomas.png  usc430ar.txt	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-259|U |1580870380|usc430ar|intro:cd top_secret/|
+INPUT|usc430ar-intro-260|U |1580870381|usc430ar|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-261|U |1580870386|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-262|U |1580870388|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-263|U |1580870407|usc430ar|intro:cp /users/usc430ar/answer.txt /home/top_secret/|cp: cannot create regular file '/home/top_secret/answer.txt': Permission denied
+
+INPUT|usc430ar-intro-264|U |1580870418|usc430ar|intro:cp /users/usc430ar/answer.txt /home/top_secret/|
+INPUT|usc430ar-intro-265|U |1580870422|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-266|U |1580870424|usc430ar|intro:cd home/|
+INPUT|usc430ar-intro-267|U |1580870426|usc430ar|intro:cd top_secret/|
+INPUT|usc430ar-intro-268|U |1580870428|usc430ar|intro:ls|136intro-2jjaj.JPEG  answer.txt		      diskfree.txt	  xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+
+INPUT|usc430ar-intro-269|U |1580870493|usc430ar|intro:tar cvzf san_yik-lew-intro.tar.gz top_secret|tar: top_secret: Cannot stat: No such file or directory
+tar (child): san_yik-lew-intro.tar.gz: Cannot open: Permission denied
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+
+INPUT|usc430ar-intro-270|U |1580870507|usc430ar|intro:tar cvzf san_yik-lew-intro.tar.gz top_secret|tar: top_secret: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+
+INPUT|usc430ar-intro-271|U |1580870515|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-272|U |1580870517|usc430ar|intro:tar cvzf san_yik-lew-intro.tar.gz top_secret|top_secret/
+top_secret/answer.txt
+top_secret/san_yik-lew-intro.tar.gz
+top_secret/136intro-2jjaj.JPEG
+top_secret/xbzf136INTRO-1.jpg
+top_secret/wuer136intro-4.JPG
+top_secret/136intro-3.jpg
+top_secret/asdf136Intro-5kqlw.jpeg
+top_secret/diskfree.txt
+
+INPUT|usc430ar-intro-273|U |1580870521|usc430ar|intro:ls|deter  san_yik-lew-intro.tar.gz  top_secret
+
+INPUT|usc430ar-intro-274|U |1580870564|usc430ar|intro:                                             |
+INPUT|usc430ar-intro-275|U |1580870789|usc430ar|intro:ls|deter  san_yik-lew-intro.tar.gz  top_secret
+
+INPUT|usc430ar-intro-276|U |1580870797|usc430ar|intro:rm san_yik-lew-intro.tar.gz |rm: remove write-protected regular file 'san_yik-lew-intro.tar.gz'? y;1580870801
+rm: cannot remove 'san_yik-lew-intro.tar.gz': Permission denied
+
+INPUT|usc430ar-intro-277|U |1580870807|usc430ar|intro:rm san_yik-lew-intro.tar.gz |
+INPUT|usc430ar-intro-278|U |1580870810|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-279|U |1580870819|usc430ar|intro:cd users/usc430ar/top_secret/|
+INPUT|usc430ar-intro-280|U |1580870820|usc430ar|intro:ls|136intro-2jjaj.JPEG  answer.txt		      diskfree.txt	  xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+
+INPUT|usc430ar-intro-281|U |1580870822|usc430ar|intro:cat answer.txt |Name: San Yik Lew
+Email: sanyikle@usc.edu
+DeterLab username: usc430ar
+Question 1
+1. xbzf136INTRO-1.jpg
+Original location: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+Brief description: Image of UFO with a title "Forbidden Planet"
+
+2. 136intro-2jjaj.JPEG
+Original location: /dev/136intro-2jjaj.JPEG
+Brief description: Image of Godzilla with caption "INCREDIBLE UNSTOPPABLE TITAN OF TERROR!" at the top
+
+3. 136intro-3.jpg
+Original location: /var/log/136intrp-3.jpg
+Brief description: Title of the image is "IT CAME FROM OUTER SPACE"
+
+4. wuer136intro-4.JPG
+Original location: /etc/wuer136intro-4.JPG
+Brief description: Title of the image is "The Fly"
+
+5. asdf136Intro-5kqlw.jpeg
+Original location: /.hidden/asdf136Intro-5kqlw.jpeg
+Brief description: Title of the image is "2001 a space odyssey"
+
+Question 2
+1. Files to which the system writes data during the course of its operation.
+
+2. Location of special or device files.
+
+3. (in diskfree.txt)
+
+4. All 4 processors have the vendor_id "GenuineIntel".
+
+
+INPUT|usc430ar-intro-282|U |1580870830|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-283|U |1580870832|usc430ar|intro:ls|136intro-2jjaj.JPEG  answer.txt		      hi.txt	  top_secret	wuer136intro-4.JPG
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  thomas.png  usc430ar.txt	xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-284|U |1580870839|usc430ar|intro:cd top_secret/|
+INPUT|usc430ar-intro-285|U |1580870843|usc430ar|intro:ls|136intro-2jjaj.JPEG  answer.txt		      diskfree.txt	  xbzf136INTRO-1.jpg
+136intro-3.jpg	     asdf136Intro-5kqlw.jpeg  wuer136intro-4.JPG
+
+INPUT|usc430ar-intro-286|U |1580870852|usc430ar|intro:cat diskfree.txt |Filesystem                                        Size  Used Avail Use%% Mounted on
+udev                                              967M   48K  967M   1%% /dev
+tmpfs                                             200M  5.9M  194M   3%% /run
+/dev/sda1                                          15G  3.2G   12G  22%% /
+tmpfs                                             997M     0  997M   0%% /dev/shm
+tmpfs                                             5.0M     0  5.0M   0%% /run/lock
+tmpfs                                             997M     0  997M   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ar  1.9T  1.1T  734G  59%% /users/usc430ar
+users.isi.deterlab.net:/mnt/projects/proj/USC430  2.8T  1.3T  1.3T  51%% /proj/USC430
+tmpfs                                             200M     0  200M   0%% /run/user/14181
+
+INPUT|usc430ar-intro-287|U |1580870857|usc430ar|intro:cd ..|
+INPUT|usc430ar-intro-288|U |1580954671|usc430ar|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answer.txt  asdf136Intro-5kqlw.jpeg  san_yik-lew-intro.tar.gz  thomas.png	top_secret  usc430ar.txt  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+
+INPUT|usc430ar-intro-289|U |1580954691|usc430ar|intro:cat answer.txt |Name: San Yik Lew
+Email: sanyikle@usc.edu
+DeterLab username: usc430ar
+Question 1
+1. xbzf136INTRO-1.jpg
+Original location: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+Brief description: Image of UFO with a title "Forbidden Planet"
+
+2. 136intro-2jjaj.JPEG
+Original location: /dev/136intro-2jjaj.JPEG
+Brief description: Image of Godzilla with caption "INCREDIBLE UNSTOPPABLE TITAN OF TERROR!" at the top
+
+3. 136intro-3.jpg
+Original location: /var/log/136intrp-3.jpg
+Brief description: Title of the image is "IT CAME FROM OUTER SPACE"
+
+4. wuer136intro-4.JPG
+Original location: /etc/wuer136intro-4.JPG
+Brief description: Title of the image is "The Fly"
+
+5. asdf136Intro-5kqlw.jpeg
+Original location: /.hidden/asdf136Intro-5kqlw.jpeg
+Brief description: Title of the image is "2001 a space odyssey"
+
+Question 2
+1. Files to which the system writes data during the course of its operation.
+
+2. Location of special or device files.
+
+3. (in diskfree.txt)
+
+4. All 4 processors have the vendor_id "GenuineIntel".
+
+

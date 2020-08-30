@@ -1,0 +1,300 @@
+User usc430an start time 1548405909 end 1548462310
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430an-intro-0|U |000000000|usc430an|:|
+INPUT|usc430an-intro-1|U |000000000|usc430an|:|
+INPUT|usc430an-intro-2|M5 |1548462157|usc430an|intro:cat /proc/cpuinfo|%processor : 0
+vendor_id : GenuineIntel
+cpu family : 15
+model  : 4
+model name : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping : 1
+microcode : 0x9
+cpu MHz  : 2992.702
+cache size : 1024 KB
+physical id : 0
+siblings : 2
+core id  : 0
+cpu cores : 1
+apicid  : 0
+initial apicid : 0
+fpu  : yes
+fpu_exception : yes
+cpuid level : 5
+wp  : yes
+flags  : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr
+bugs  :
+bogomips : 5985.40
+clflush size : 64
+cache_alignment : 128
+address sizes : 36 bits physical%% 48 bits virtual
+power management:
+
+processor : 1
+vendor_id : GenuineIntel
+cpu family : 15
+model  : 4
+model name : Intel(R) Xeon(TM) CPU 3.00GHz
+steppin
+INPUT|usc430an-intro-3|U |000000000|usc430an|intro:ssh intro.usc430an-exercise.USC430.isi.deterlab.net|
+INPUT|usc430an-intro-4|U |000000000|usc430an|intro:exit|
+INPUT|usc430an-intro-5|U |000000000|usc430an|intro:cd top_secret/|
+INPUT|usc430an-intro-6|U |1548462293|usc430an|intro:ls|136intro-2jjaj.JPEG  136intro-3.jpg  answers.txt  asdf136Intro-5kqlw.jpeg  diskfree.txt  wuer136intro-4.JPG  xbzf136INTRO-1.jpg
+INPUT|usc430an-intro-7|U |1548462310|usc430an|intro:cat answers.txt|1. Treasure Hunting
+
+a. xbzf136INTRO-1.jpg: a UFO floating on a remote alien planet
+Original address: /usr/share/pixmaps/
+
+b. 136intro-2jjaj.JPEG: A Godzilla poster
+Original address: /dev/
+
+c. 136intro-3.jpg: A poster about a movie in 3D
+Original address: /var/log/
+
+d. wuer136intro-4.JPG: A poster of the movie The Fly
+Original address: /etc/
+
+e. asdf136Intro-5kqlw.jpeg: A movie poster of 2001: A Space Odyssey (big fan)
+Original address:/.hidden/
+
+
+2. 
+
+1) /var: A machine specific directory that contains files to which the system writes data during the course of its operation.
+
+2) /dev: contain device files that communicate with drivers in the kernel.
+
+INPUT|usc430an-intro-8|U |000000000|usc430an|intro:exit|
+INPUT|usc430an-intro-9|U |000000000|usc430an|intro:ls *|results
+INPUT|usc430an-intro-10|U |000000000|usc430an|intro:pwd|/users/usc430an
+INPUT|usc430an-intro-11|U |1548405909|usc430an|intro:ls|results
+INPUT|usc430an-intro-12|U |1548406040|usc430an|intro:mkdir top_secret|
+INPUT|usc430an-intro-13|U |1548406042|usc430an|intro:ls|results  top_secret
+INPUT|usc430an-intro-14|U |1548406092|usc430an|intro:updatedb|
+INPUT|usc430an-intro-15|A1 A0 A2 A4 A3 |000000000|usc430an|intro:locate|
+INPUT|usc430an-intro-16|M2 M0 |1548406238|usc430an|intro:locate *.jpg|/usr/share/doc/libsane/umax/sane-logo.jpg
+/usr/share/doc/libsane/umax/sane-umax-advanced.jpg
+/usr/share/doc/libsane/umax/sane-umax-histogram.jpg
+/usr/share/doc/libsane/umax/sane-umax-standard.jpg
+/usr/share/doc/libsane/umax/sane-umax-text.jpg
+/usr/share/doc/libsane/umax/sane-umax-text2.jpg
+/usr/share/doc/libsane/umax/sane-umax-text4.jpg
+/usr/share/doc/libsane/umax/sane-umax.jpg
+/usr/share/pixmaps/xbzf136INTRO-1.jpg
+/var/log/136intro-3.jpg
+INPUT|usc430an-intro-17|U |000000000|usc430an|intro:cp /var/log/136intro-3.jpg ~/top_secret/|
+INPUT|usc430an-intro-18|U |1548407789|usc430an|intro:ls|results  top_secret
+INPUT|usc430an-intro-19|U |000000000|usc430an|intro:ls *|results
+
+top_secret:
+136intro-3.jpg
+INPUT|usc430an-intro-20|U |000000000|usc430an|intro:cd top_secret/|
+INPUT|usc430an-intro-21|U |1548407831|usc430an|intro:rm 136intro-3.jpg|
+INPUT|usc430an-intro-22|U |1548407834|usc430an|intro:ls|
+INPUT|usc430an-intro-23|U |000000000|usc430an|intro:cd ..|
+INPUT|usc430an-intro-24|U |000000000|usc430an|intro:mv|mv: cannot remove '/var/log/136intro-3.jpg': Permission denied
+INPUT|usc430an-intro-25|U |000000000|usc430an|intro:mv /var/log/136intro-3.jpg ~/top_secret/|
+INPUT|usc430an-intro-26|U |000000000|usc430an|intro:cp /var/log/136intro-3.jpg ~/top_secret/|
+INPUT|usc430an-intro-27|U |000000000|usc430an|intro:cp /var/log/136intro-3.jpg ~/top_secret/|
+INPUT|usc430an-intro-28|U |000000000|usc430an|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg|
+INPUT|usc430an-intro-29|U |000000000|usc430an|intro:ls *|results
+
+top_secret:
+136intro-3.jpg xbzf136INTRO-1.jpg
+INPUT|usc430an-intro-30|U |000000000|usc430an|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/top_secret/|
+INPUT|usc430an-intro-31|U |000000000|usc430an|intro:cp /var/log/136intro-3.jpg ~/top_secret/|
+INPUT|usc430an-intro-32|U |000000000|usc430an|intro:mv /var/log/136intro-3.jpg ~/top_secret/|
+INPUT|usc430an-intro-33|U |000000000|usc430an|intro:cp /var/log/136intro-3.jpg ~/top_secret/|
+INPUT|usc430an-intro-34|M4 |1548407945|usc430an|intro:locate *.jpeg|/.hidden/asdf136Intro-5kqlw.jpeg
+INPUT|usc430an-intro-35|U |000000000|usc430an|intro:cp /.hidden/asdf136Intro-5kqlw.jpeg|
+INPUT|usc430an-intro-36|U |000000000|usc430an|intro:cp /.hidden/asdf136Intro-5kqlw.jpeg ~/top_secret/|
+INPUT|usc430an-intro-37|M3 |1548408005|usc430an|intro:locate *.JPG|/etc/wuer136intro-4.JPG
+INPUT|usc430an-intro-38|U |1548408101|usc430an|intro:cat|^Z
+[1]+  Stopped                 cat
+INPUT|usc430an-intro-39|U |1548408114|usc430an|intro:cat /var|cat: /var: Is a directory
+INPUT|usc430an-intro-40|U |1548408125|usc430an|intro:cat /var/log/messages|cat: /var/log/messages: No such file or directory
+INPUT|usc430an-intro-41|U |1548408160|usc430an|intro:cat / | grep .jpg | less|cat: /: Is a directory
+=
+
+(END)
+ ESCOA
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
+ ESCOA
+...skipping...
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~<N
+INPUT|usc430an-intro-42|A1 A0 A2 A4 A3 |000000000|usc430an|intro:find .|

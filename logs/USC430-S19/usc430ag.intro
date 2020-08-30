@@ -1,0 +1,1607 @@
+User usc430ag start time 1547253696 end 1547768963
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ag-intro-0|U |000000000|usc430ag|intro:cd top_secret/|
+INPUT|usc430ag-intro-1|U |000000000|usc430ag|:|
+INPUT|usc430ag-intro-2|U |000000000|usc430ag|:|
+INPUT|usc430ag-intro-3|U |1547767795|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg  pic5.jpg
+INPUT|usc430ag-intro-4|U |1547767810|usc430ag|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B 5 lines
+(B(B  GNU nano 2.5.3             File: answers.txt                                  (Bpic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png%% three gree$pic2.jpg: /dev/136intro-2jjaj.JPEG%% godzilla poster
+pic3.jpg: /var/log/136intro-3.jpg%% it came from outer space poster
+pic4.jpg: /etc/wuer136intro-4/JPG%% the fly poster
+pic5.jpg: /usr/share/pixmaps/xbzf136INTRO-1.jpg%% forbidden planet poster
+(B^G(B Get Help  (B^O(B Write Out (B^W(B Where Is  (B^K(B Cut Text  (B^J(B Justify   (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File (B^\(B Replace   (B^U(B Uncut Text(B^T(B To Spell  (B^_(B Go To Line
+ 
+$e gree
+pic1.pName: Zach Izzard
+Email: izzard@usc.edu
+DeterLab: usc430ag
+**Treaure Hunt**
+pic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png%% three gree$pic2.jpg: /dev/136intro-2jjaj.JPEG%% godzilla poster
+pic3.jpg: /var/log/136intro-3.jpg%% it came from outer space poster
+pic4.jpg
+INPUT|usc430ag-intro-5|U |1547767889|usc430ag|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B[ Read 19 lines
+(B(B  GNU nano 2.5.3             File: answers.txt                                  (BName: Zach Izzard
+Email: izzard@usc.edu
+DeterLab: usc430ag
+**Treaure Hunt**
+pic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png%% three gree$pic2.jpg: /dev/136intro-2jjaj.JPEG%% godzilla poster
+pic3.jpg: /var/log/136intro-3.jpg%% it came from outer space poster
+pic4.jpg: /etc/wuer136intro-4/JPG%% the fly poster
+pic5.jpg: /usr/share/pixmaps/xbzf136INTRO-1.jpg%% forbidden planet poster
+**Information Hunt**
+1. /var contains information which the system writes data to during the course $2. /dev contains device files whih are used to provide the operating system and$3.
+4.
+(B^G(B Get Help  (B^O(B Write Out (B^W(B Where Is  (B^K(B Cut Text  (B^J(B Justify   (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File (B^\(B Replace   (B^U(B Uncut Text(B^T(B To Spell  (B^_(B Go To Line
+%
+INPUT|usc430ag-intro-6|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-7|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-8|U |1547767916|usc430ag|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ag-intro-9|U |000000000|usc430ag|intro:cd proj/USC430/exp/sunshine-intro/tbdata/|
+INPUT|usc430ag-intro-10|U |1547767932|usc430ag|intro:ls|activity.log  eventkey ltpmap    startexp.log        swapexp.log   topomap.gz
+assign.log    ltmap ltpmap.gz  sunshine-intro.ns   tbreport.log  webkey
+environment   ltmap.gz nsfile.ns  sunshine-intro.png  topomap
+INPUT|usc430ag-intro-11|U |1547767960|usc430ag|intro:graphics/gimageview|bash: graphics/gimageview: No such file or directory
+INPUT|usc430ag-intro-12|U |000000000|usc430ag|intro:geeqie|The program 'geeqie' is currently not installed. To run 'geeqie' please ask your administrator to install the package 'geeqie'
+INPUT|usc430ag-intro-13|U |000000000|usc430ag|intro:feh|The program 'feh' is currently not installed. To run 'feh' please ask your administrator to install the package 'feh'
+INPUT|usc430ag-intro-14|U |000000000|usc430ag|intro:gimp|The program 'gimp' is currently not installed. To run 'gimp' please ask your administrator to install the package 'gimp'
+INPUT|usc430ag-intro-15|U |000000000|usc430ag|intro:mtpaint|The program 'mtpaint' is currently not installed. To run 'mtpaint' please ask your administrator to install the package 'mtpaint'
+INPUT|usc430ag-intro-16|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-17|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-18|U |000000000|usc430ag|intro:sshpass -f \"/home/zach/password.txt\" scp -r usc430ag@users.det|erlab.net:~/proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png ~/csci430
+The program 'sshpass' is currently not installed. To run 'sshpass' please ask your administrator to install the package 'sshpass'
+INPUT|usc430ag-intro-19|U |1547768115|usc430ag|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ag-intro-20|U |000000000|usc430ag|intro:cd dev/|
+INPUT|usc430ag-intro-21|U |1547768130|usc430ag|intro:ls|136intro-2jjaj.JPEG  loop2   snd  tty34 tty7    ttyS7
+autofs       loop3   stderr  tty35 tty8    ttyS8
+block       loop4   stdin  tty36 tty9    ttyS9
+bsg       loop5   stdout  tty37 ttyprintk  uhid
+btrfs-control      loop6   tty  tty38 ttyS0    uinput
+char       loop7   tty0  tty39 ttyS1    urandom
+console       loop-control  tty1  tty4 ttyS10    userio
+core       mapper   tty10  tty40 ttyS11    vcs
+cpu       mcelog   tty11  tty41 ttyS12    vcs1
+cpu_dma_latency      mem   tty12  tty42 ttyS13    vcs2
+cuse       memory_bandwidth  tty13  tty43 ttyS14    vcs3
+disk       mqueue   tty14  tty44 ttyS15    vcs4
+dri       net   tty15  tty45 ttyS16    vcs5
+ecryptfs      network_latency  tty16  tty46 ttyS17<H
+INPUT|usc430ag-intro-22|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-23|U |000000000|usc430ag|intro:pwd|/dev
+INPUT|usc430ag-intro-24|U |000000000|usc430ag|intro:cd|
+INPUT|usc430ag-intro-25|U |1547768328|usc430ag|intro:su|%]0;root@intro: /users/usc430agroot@intro:/users/usc430ag# zacharyd17
+zacharyd17: command not found
+]0;root@intro: /users/usc430agroot@intro:/users/usc430ag# clear
+]0;root@intro: /users/usc430agroot@intro:/users/usc430ag# ssh
+usage: ssh [-1246AaCfGgKkMNnqsTtVvXxYy] [-b bind_address] [-c cipher_spec]
+           [-D [bind_address:]port] [-E log_file] [-e escape_char]
+           [-F configfile] [-I pkcs11] [-i identity_file] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] [user@]hostname [command]
+]0;root@intro: /users/usc430agroot@intro:/users/usc430ag# ^C
+]0;root@intro: /users/usc430agroot@intro:/users/usc430ag# ^C
+]0;root@intro: /users/usc430agroot@intro:/users/usc430ag# quit
+No command 'quit' found%% did you mean:
+ Command 'quot' from package 'quota' (main)
+ Command 'quilt' from package 'quil
+INPUT|usc430ag-intro-26|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-27|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-28|U |1547768403|usc430ag|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ag-intro-29|U |000000000|usc430ag|intro:sshpass -f \"/home/zach/password.txt\" scp -r usc430ag@users.det|erlab.net:/etc/wuer136intro-4/JPG ~/csci430
+The program 'sshpass' is currently not installed. To run 'sshpass' please ask your administrator to install the package 'sshpass'
+INPUT|usc430ag-intro-30|U |1547768406|usc430ag|intro:ls|bin   groups       lib   media  proj  share  tmp    vmlinuz
+boot  home       lib64   mnt  root  snap   users  vmlinuz.old
+dev   initrd.img      local   opt  run   srv    usr
+etc   initrd.img.old  lost+found  proc  sbin  sys    var
+INPUT|usc430ag-intro-31|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-32|U |000000000|usc430ag|intro:cd|.bash_history  .forward       .ssh/          top_secret/    
+.cache/        .nano/         .ssl/          
+INPUT|usc430ag-intro-33|U |000000000|usc430ag|intro:cd top_secret/|
+INPUT|usc430ag-intro-34|U |1547768490|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg  pic5.jpg
+INPUT|usc430ag-intro-35|U |1547768500|usc430ag|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B[ Read 19 lines
+(B(B  GNU nano 2.5.3             File: answers.txt                                  (BName: Zach Izzard
+Email: izzard@usc.edu
+DeterLab: usc430ag
+**Treaure Hunt**
+pic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png%% three gree$pic2.jpg: /dev/136intro-2jjaj.JPEG%% godzilla poster
+pic3.jpg: /var/log/136intro-3.jpg%% it came from outer space poster
+pic4.jpg: /etc/wuer136intro-4/JPG%% the fly poster
+pic5.jpg: /usr/share/pixmaps/xbzf136INTRO-1.jpg%% forbidden planet poster
+**Information Hunt**
+1. /var contains information which the system writes data to during the course $2. /dev contains device files whih are used to provide the operating system and$3.
+4.
+(B^G(B Get Help  (B^O(B Write Out (B^W(B Where Is  (B^K(B Cut Text  (B^J(B Justify   (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File (B^\(B Replace   (B^U(B Uncut Text(B^T(B To Spell  (B^_(B Go To Line
+pic1.png: /proj/USC430/exp/sun(BMod
+INPUT|usc430ag-intro-36|U |1547768511|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg  pic5.jpg
+INPUT|usc430ag-intro-37|U |000000000|usc430ag|intro:cd top_secret/|
+INPUT|usc430ag-intro-38|A6 |1547768690|usc430ag|intro:df > diskfree.txt|
+INPUT|usc430ag-intro-39|U |1547768704|usc430ag|intro:nano diskfree.txt|(B===(B(B[ Reading File ]
+(B(B[ Read 10 lines
+(B(B  GNU nano 2.5.3             File: diskfree.txt                                 (BFilesystem1K-blocksUsed  Availab$udev100369648    10036$tmpfs20477610904     1938$/dev/sda115616412    2904440   119120$tmpfs10238680    10238$tmpfs5120051$tmpfs10238680    10238$users.isi.deterlab.net:/mnt/other/users/usc430ag 2031313280 1472666752  3961414$users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160  922862592 18139056$tmpfs2047760     2047$(B^G(B Get Help  (B^O(B Write Out (B^W(B Where Is  (B^K(B Cut Text  (B^J(B Justify   (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File (B^\(B Replace   (B^U(B Uncut Text(B^T(B To Spell  (B^_(B Go To Line
+
+INPUT|usc430ag-intro-40|M5 |1547768775|usc430ag|intro:cat /proc/cpuinfo|%processor : 0
+vendor_id : GenuineIntel
+cpu family : 15
+model  : 4
+model name : Intel(R) Xeon(TM) CPU 3.00GHz
+stepping : 1
+microcode : 0x9
+cpu MHz  : 2992.417
+cache size : 1024 KB
+physical id : 0
+siblings : 2
+core id  : 0
+cpu cores : 1
+apicid  : 0
+initial apicid : 0
+fpu  : yes
+fpu_exception : yes
+cpuid level : 5
+wp  : yes
+flags  : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl cid cx16 xtpr
+bugs  :
+bogomips : 5984.83
+clflush size : 64
+cache_alignment : 128
+address sizes : 36 bits physical%% 48 bits virtual
+power management:
+
+processor : 1
+vendor_id : GenuineIntel
+cpu family : 15
+model  : 4
+model name : Intel(R) Xeon(TM) CPU 3.00GHz
+steppin
+INPUT|usc430ag-intro-41|U |1547768793|usc430ag|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B[ Read 19 lines
+(B(B  GNU nano 2.5.3             File: answers.txt                                  (BName: Zach Izzard
+Email: izzard@usc.edu
+DeterLab: usc430ag
+**Treaure Hunt**
+pic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png%% three gree$pic2.jpg: /dev/136intro-2jjaj.JPEG%% godzilla poster
+pic3.jpg: /var/log/136intro-3.jpg%% it came from outer space poster
+pic4.jpg: /etc/wuer136intro-4.JPG%% the fly poster
+pic5.jpg: /usr/share/pixmaps/xbzf136INTRO-1.jpg%% forbidden planet poster
+**Information Hunt**
+1. /var contains information which the system writes data to during the course $2. /dev contains device files whih are used to provide the operating system and$3.
+4.
+(B^G(B Get Help  (B^O(B Write Out (B^W(B Where Is  (B^K(B Cut Text  (B^J(B Justify   (B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File (B^\(B Replace   (B^U(B Uncut Text(B^T(B To Spell  (B^_(B Go To Line
+Name: Zach Izzard
+Email: izzard@
+INPUT|usc430ag-intro-42|U |1547768913|usc430ag|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B[ Read 19 lines
+(B(B  GNU nano 2.5.3             File: answers.txt                                  (BName: Zach Izzard
+Email: izzard@usc.edu
+DeterLab: usc430ag
+**Treaure Hunt**
+pic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png%% three gree$pic2.jpg: /dev/136intro-2jjaj.JPEG%% godzilla poster
+pic3.jpg: /var/log/136intro-3.jpg%% it came from outer space poster
+pic4.jpg: /etc/wuer136intro-4.JPG%% the fly poster
+pic5.jpg: /usr/share/pixmaps/xbzf136INTRO-1.jpg%% forbidden planet poster
+**Information Hunt**
+1. /var contains information which the system writes data to during the course $2. /dev contains device files whih are used to provide the operating system and$3. Stored in the file diskfree.txt%% created using the command df > output.txt
+4. Vendor ID: %% found inside the file /proc/cpuinfo
+(B^G(B Get Help  (B^O(B Write Out (B^W(B Where Is  (B^K(B Cut Text  (B^J(B Justify   (B^C(B Cur Pos
+(B^X(B Ex
+INPUT|usc430ag-intro-43|U |1547768950|usc430ag|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B[ Read 19 lines
+(B(B  GNU nano 2.5.3             File: answers.txt                                  (BName: Zach Izzard
+Email: izzard@usc.edu
+DeterLab: usc430ag
+**Treaure Hunt**
+pic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png%% three gree$pic2.jpg: /dev/136intro-2jjaj.JPEG%% godzilla poster
+pic3.jpg: /var/log/136intro-3.jpg%% it came from outer space poster
+pic4.jpg: /etc/wuer136intro-4.JPG%% the fly poster
+pic5.jpg: /usr/share/pixmaps/xbzf136INTRO-1.jpg%% forbidden planet poster
+**Information Hunt**
+1. /var contains information which the system writes data to during the course $2. /dev contains device files whih are used to provide the operating system and$3. Stored in the file diskfree.txt%% created using the command df > output.txt
+4. Vendor ID: GenuineIntel - found inside the file /proc/cpuinfo
+(B^G(B Get Help  (B^O(B Write Out (B^W(B Where Is  (B^K(B Cut Text  (B^J(B Justify   (B^C(B Cur Pos<
+INPUT|usc430ag-intro-44|U |000000000|usc430ag|intro:pytho3|%No command 'pytho3' found%% did you mean:
+ Command 'python' from package 'python3' (main)
+ Command 'python' from package 'python-minimal' (main)
+ Command 'python3' from package 'python3-minimal' (main)
+pytho3: command not found%
+INPUT|usc430ag-intro-45|U |000000000|usc430ag|intro:python|%Python 3.5.2 (default%% Nov 17 2016%% 17:05:23) 
+[GCC 5.4.0 20160609] on linux
+Type \"help\"%% \"copyright\"%% \"credits\" or \"license\" for more information.
+>>> 
+KeyboardInterrupt
+>>> <BEL>%
+INPUT|usc430ag-intro-46|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-47|U |1547768963|usc430ag|intro:clear|
+INPUT|usc430ag-intro-48|U |000000000|usc430ag|intro:pwd|/users/usc430ag
+INPUT|usc430ag-intro-49|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-50|U |1547253696|usc430ag|intro:ls|aashraya  bloznali  gknopf    jgli     melkins  shareaa  shareaf  shareak  shareap  shareau  shareaz  shareta sunshine
+abhi   ekline    glawler   jhickey  piobair  shareab  shareag  shareal  shareaq  shareav  shareba  sharetb usc430ag
+alefiya   faber     jaipuria  jjh      rgoodfel  shareac  shareah  shaream  sharear  shareaw  sharebb  sharetc
+alwabel   gbartlet  jboman    jross    schwab  sharead  shareai  sharean  shareas  shareax  sharebc  sharetd
+bks   gerow     jelena    kls2     scuric  shareae  shareaj  shareao  shareat  shareay  sharebd  sklower
+INPUT|usc430ag-intro-51|U |000000000|usc430ag|intro:cd usc430ag|
+INPUT|usc430ag-intro-52|U |1547253712|usc430ag|intro:ls|
+INPUT|usc430ag-intro-53|U |000000000|usc430ag|intro:pwd|/users/usc430ag
+INPUT|usc430ag-intro-54|U |000000000|usc430ag|intro:ssh  intro.usc430ag-homework1.USC430.isi.deterlab.net|Warning: Permanently added the RSA host key for IP address '192.168.1.120' to the list of known hosts.
+
+INPUT|usc430ag-intro-55|U |000000000|usc430ag|intro:mkdir top_secret|
+INPUT|usc430ag-intro-56|U |1547253721|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-57|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-58|U |000000000|usc430ag|intro:ls|aashraya  bloznali  gknopf    jgli     melkins  shareaa  shareaf  shareak  shareap  shareau  shareaz  shareta sunshine
+abhi   ekline    glawler   jhickey  piobair  shareab  shareag  shareal  shareaq  shareav  shareba  sharetb usc430ag
+alefiya   faber     jaipuria  jjh      rgoodfel  shareac  shareah  shaream  sharear  shareaw  sharebb  sharetc
+alwabel   gbartlet  jboman    jross    schwab  sharead  shareai  sharean  shareas  shareax  sharebc  sharetd
+bks   gerow     jelena    kls2     scuric  shareae  shareaj  shareao  shareat  shareay  sharebd  sklower
+INPUT|usc430ag-intro-59|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-60|A4 A3 A1 A2 A0 |000000000|usc430ag|intro:find . -name\ \"*intro*\"|
+INPUT|usc430ag-intro-61|A1 A0 A2 A4 A3 |000000000|usc430ag|intro:find . -name \"\"*intro*\"|
+INPUT|usc430ag-intro-62|U |000000000|usc430ag|intro:pwd|/users/usc430ag
+INPUT|usc430ag-intro-63|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-64|U |000000000|usc430ag|intro:ls|aashraya  bloznali  gknopf    jgli     melkins  shareaa  shareaf  shareak  shareap  shareau  shareaz  shareta sunshine
+abhi   ekline    glawler   jhickey  piobair  shareab  shareag  shareal  shareaq  shareav  shareba  sharetb usc430ag
+alefiya   faber     jaipuria  jjh      rgoodfel  shareac  shareah  shaream  sharear  shareaw  sharebb  sharetc
+alwabel   gbartlet  jboman    jross    schwab  sharead  shareai  sharean  shareas  shareax  sharebc  sharetd
+bks   gerow     jelena    kls2     scuric  shareae  shareaj  shareao  shareat  shareay  sharebd  sklower
+INPUT|usc430ag-intro-65|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-66|U |000000000|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-67|U |000000000|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-68|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-69|U |000000000|usc430ag|intro:pwd|/
+INPUT|usc430ag-intro-70|U |000000000|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-71|M2 |000000000|usc430ag|intro:find . -name\ \"*intro\*\"|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+./var/log/ttylog/ttylog.intro.0
+./var/log/ttylog/alltty.intro
+./var/log/ttylog/ttylog.intro.1
+./var/log/ttylog/cli.intro.csv
+find: './var/log/unattended-upgrades': Permission denied
+./var/log/136intro-3.jpg
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Perm
+INPUT|usc430ag-intro-72|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-73|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-74|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-75|U |000000000|usc430ag|intro:clear|
+INPUT|usc430ag-intro-76|U |000000000|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-77|U |000000000|usc430ag|intro:cd dev/136intro-2jjaj.JPEG|bash: cd: dev/136intro-2jjaj.JPEG: Not a directory
+INPUT|usc430ag-intro-78|U |000000000|usc430ag|intro:cd dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-79|U |000000000|usc430ag|intro:cd dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-80|U |000000000|usc430ag|intro:feh|The program 'feh' is currently not installed. To run 'feh' please ask your administrator to install the package 'feh'
+INPUT|usc430ag-intro-81|U |000000000|usc430ag|intro:feh dev/136intro-2jjaj.JPEG|sudo: feh: command not found
+INPUT|usc430ag-intro-82|U |000000000|usc430ag|intro:eog|The program 'eog' is currently not installed. To run 'eog' please ask your administrator to install the package 'eog'
+INPUT|usc430ag-intro-83|U |000000000|usc430ag|intro:imgcat|%No command 'imgcat' found%% did you mean:
+ Command 'imcat' from package 'im' (universe)
+ Command 'img_cat' from package 'sleuthkit' (universe)
+imgcat: command not found%
+INPUT|usc430ag-intro-84|U |000000000|usc430ag|intro:sftp|usage: sftp [-1246aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+INPUT|usc430ag-intro-85|U |000000000|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-86|U |000000000|usc430ag|intro:scp|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430ag-intro-87|U |000000000|usc430ag|intro:scp|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430ag-intro-88|U |000000000|usc430ag|intro:scp ./var/log/136intro-3.jpg|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430ag-intro-89|U |000000000|usc430ag|intro:scp usc430ag@intro:/|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430ag-intro-90|U |000000000|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-91|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-92|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-93|U |000000000|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-94|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-95|U |000000000|usc430ag|intro:ls|aashraya  faber     jelena   piobair   sharead shareak  sharear  shareay  sharetb
+abhi   gbartlet  jgli     rgoodfel  shareae shareal  shareas  shareaz  sharetc
+alefiya   gerow     jhickey  schwab    shareaf shaream  shareat  shareba  sharetd
+alwabel   gknopf    jjh      scuric    shareag sharean  shareau  sharebb  sklower
+bks   glawler   jross    shareaa   shareah shareao  shareav  sharebc  sunshine
+bloznali  jaipuria  kls2     shareab   shareai shareap  shareaw  sharebd  usc430ag
+ekline   jboman    melkins  shareac   shareaj shareaq  shareax  shareta
+INPUT|usc430ag-intro-96|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-97|U |000000000|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-98|U |000000000|usc430ag|intro:scp usc430ag@intro:/dev/136intro-2jjaj.JPEG|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430ag-intro-99|U |000000000|usc430ag|intro:scp usc430ag@intro:/dev/136intro-2jjaj.JPEG /home/zach/Pictures|ssh: Could not resolve hostname intro: Name or service not known
+
+INPUT|usc430ag-intro-100|U |000000000|usc430ag|intro:scp usc430ag@intro:/dev/136intro-2jjaj.JPEG /home/zach/Pictures|ssh: Could not resolve hostname intro: Name or service not known
+
+INPUT|usc430ag-intro-101|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430:/dev/136intro-2jjaj.JPEG /home/zach/Pictures sc430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.:/dev/136intro-2jjaj.JPEG /home/zach/Pictures|s<ESC>[Asc430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.i:/dev/136intro-2jjaj.JPEG /home/zach/Pictures<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.is:/dev/136intro-2jjaj.JPEG /home/zach/Pictures<ESC>[A430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi:/dev/136intro-2jjaj.JPEG /home/zach/Pictu<ESC>[1@r<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.:/dev/136intro-2jjaj.JPEG /home/zach/Pict<ESC>[1@u<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.d:/dev/136intro-2jjaj.JPEG /home/zach/Pic<ESC>[1@t<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.de:/dev/136intro-2jjaj.JPEG /home/zach/Pi<ESC>[1@c<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.det:/dev/136intro-2jjaj.JPEG /home/zach/P<ESC>[1@i<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.dete:/dev/136intro-2jjaj.JPEG /home/zach/<ESC>[1@P<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.deter:/dev/136intro-2jjaj.JPEG /home/z
+INPUT|usc430ag-intro-102|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /ho|ome/zach/Pictures<BS><BS>es<BEL><BS> <BS><BS> <BS>e
+/home/zach/Picture: No such file or directory
+INPUT|usc430ag-intro-103|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /ho|ome/zach/Picture<BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS>
+/home/zach: Permission denied
+INPUT|usc430ag-intro-104|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /ho|ome/zach/csci430
+/home/zach/csci430: No such file or directory
+INPUT|usc430ag-intro-105|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /ho|ome/zach/csci430<BS><BS><BS><BS><BS><BS><BS><BS><ESC>[K/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-106|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /homsc430ag@intro:/$ sscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /homc430ag@intro:/$ suscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hoc430ag@intro:/$ sudscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hc430ag@intro:/$ sudoscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /c430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG c430ag@intro:/$ sudo|%
+
+The authenticity of host 'intro.usc430ag-homework1.usc430.isi.deterlab.net (192.168.1.120)' can't be established.
+RSA key fingerprint is SHA256:t0vpeOm78PtRRaGx4qRt4PNUu2ZCRGzEBSfGP541+n0.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'intro.usc430ag-homework1.usc430.isi.deterlab.net%%192.168.1.120' (RSA) to the list of known hosts.
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied (publickey%%password).
+%
+INPUT|usc430ag-intro-107|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG|G /home/zach/csci430<ESC>[A<BS>cp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /ho<ESC>[4Pme/zach/csci430<ESC>[A$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG<ESC>[4@ /home/zach/csci430<BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS>
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+INPUT|usc430ag-intro-108|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG|G /home<BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-109|A4 A3 A1 A2 A0 |000000000|usc430ag|intro:sudoscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG sc430ag@intro:/$ sudscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /sc430ag@intro:/$ suscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hsc430ag@intro:/$ sscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hosc430ag@intro:/$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /homec430ag@intro:/$|
+
+/home/136intro-2jjaj.JPEG: Permission denied
+INPUT|usc430ag-intro-110|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hom|me<BS>
+INPUT|usc430ag-intro-111|U |000000000|usc430ag|intro:sscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home430ag@intro:/$ suscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hoc430ag@intro:/$ sudscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hc430ag@intro:/$ sudoscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /c430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG c430ag@intro:/$ sudo|%
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied (publickey%%password).
+%
+INPUT|usc430ag-intro-112|U |000000000|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-113|U |000000000|usc430ag|intro:cd users|
+INPUT|usc430ag-intro-114|U |000000000|usc430ag|intro:ls|aashraya  faber     jelena   piobair   sharead shareak  sharear  shareay  sharetb
+abhi   gbartlet  jgli     rgoodfel  shareae shareal  shareas  shareaz  sharetc
+alefiya   gerow     jhickey  schwab    shareaf shaream  shareat  shareba  sharetd
+alwabel   gknopf    jjh      scuric    shareag sharean  shareau  sharebb  sklower
+bks   glawler   jross    shareaa   shareah shareao  shareav  sharebc  sunshine
+bloznali  jaipuria  kls2     shareab   shareai shareap  shareaw  sharebd  usc430ag
+ekline   jboman    melkins  shareac   shareaj shareaq  shareax  shareta
+INPUT|usc430ag-intro-115|U |000000000|usc430ag|intro:cd usc430ag/|
+INPUT|usc430ag-intro-116|U |000000000|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-117|U |000000000|usc430ag|intro:cd top_secret/|
+INPUT|usc430ag-intro-118|U |000000000|usc430ag|intro:pwd|/users/usc430ag/top_secret
+INPUT|usc430ag-intro-119|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-120|U |000000000|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-121|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-122|U |000000000|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-123|U |000000000|usc430ag|intro:cp /dev/136intro-2jjaj.JPEG /users/usc430ag/top_secret/pic1.jpeg|
+INPUT|usc430ag-intro-124|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-125|U |000000000|usc430ag|intro:ls|pic1.jpeg
+INPUT|usc430ag-intro-126|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-127|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-128|U |000000000|usc430ag|intro:nano answers.txt|%<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20;44H<ESC>(B<ESC>[0;7m[ New File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                    File: answers.txt                                              <ESC>[21;1H^G<ESC>(B<ESC>[m Get Help     <ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out    <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is     <ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text     <ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[81G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos
+<ESC>[22d<ESC>(B<ESC>[0;7m^X<ESC>(B<ESC>[m Exit<ESC>[22;17H<ESC>(B<ESC>[0;7m^R<ESC>(B<ESC>[m Read File    <ESC>(B<ESC>[0;7m^\<ESC>(B<ESC>[m Replace<ESC>[49G<ESC>(B<ESC>[0;7m^U<ESC>(B<ESC>[m Uncut Text   <ESC>(B<ESC>[0;7m^T<ESC>(B<ESC>[m To Spell     <ESC>(B<ESC>[0;7m^_<ESC>(B<ESC>[m Go To Line
+<ESC>[3d<ESC>[1;90H<ESC>(B<ESC>[0;7mModi
+INPUT|usc430ag-intro-129|U |000000000|usc430ag|intro:nano answers.txt|%<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20d<ESC>(B<ESC>[0;7mFile answers.txt is being edited (by usc430ag with nano 2.5.3%% PID 2935); continue?                <ESC>[21;1H Y<ESC>(B<ESC>[m Yes
+<ESC>[22d<ESC>(B<ESC>[0;7m N<ESC>(B<ESC>[m No<ESC>[22;17H<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cancel<ESC>[20;84H<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                      New Buffer                                                   <ESC>[20;1H<ESC>(B<ESC>[m<ESC>[K<ESC>[21d<ESC>(B<ESC>[0;7m^G<ESC>(B<ESC>[m Get Help     <ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out    <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is     <ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text     <ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[81G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos
+<ESC>[22d<ESC>(B<ESC>[0;7m^X<ESC>(B<ESC>[m Exit<ESC>[22;18H<ESC>(B<ESC>[0;7mR<ESC>(B<ESC>[m Read F
+INPUT|usc430ag-intro-130|U |000000000|usc430ag|intro:nano answers.txt|%<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20d<ESC>(B<ESC>[0;7mFile answers.txt is being edited (by usc430ag with nano 2.5.3%% PID 2935); continue?                <ESC>[21;1H Y<ESC>(B<ESC>[m Yes
+<ESC>[22d<ESC>(B<ESC>[0;7m N<ESC>(B<ESC>[m No<ESC>[22;17H<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cancel<ESC>[20;84H<ESC>[?25l<ESC>[20;43H<ESC>[1K <ESC>(B<ESC>[0;7m[ New File ]<ESC>(B<ESC>[m<ESC>[K
+<ESC>[3d<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                    File: answers.txt                                              <ESC>[21;1H^G<ESC>(B<ESC>[m Get Help     <ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out    <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is     <ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text     <ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[81G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos
+<ESC>[22d<ESC>(B<ESC>[0;7m^X<ESC>(B<ESC>[m Exit<ESC>
+INPUT|usc430ag-intro-131|U |000000000|usc430ag|intro:nano answers.txt|%<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20d<ESC>(B<ESC>[0;7mFile answers.txt is being edited (by usc430ag with nano 2.5.3%% PID 2941); continue?                <ESC>[21;1H Y<ESC>(B<ESC>[m Yes
+<ESC>[22d<ESC>(B<ESC>[0;7m N<ESC>(B<ESC>[m No<ESC>[22;17H<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cancel<ESC>[20;84H<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                      New Buffer                                                   <ESC>[20;1H<ESC>(B<ESC>[m<ESC>[K<ESC>[21d<ESC>(B<ESC>[0;7m^G<ESC>(B<ESC>[m Get Help     <ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out    <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is     <ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text     <ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[81G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos
+<ESC>[22d<ESC>(B<ESC>[0;7m^X<ESC>(B<ESC>[m Exit<ESC>[22;18H<ESC>(B<ESC>[0;7mR<ESC>(B<ESC>[m Read F
+INPUT|usc430ag-intro-132|U |000000000|usc430ag|intro:fg 1|nano answers.txt
+<ESC>[?1049h<ESC>[1;22r<ESC>[?12l<ESC>[?25h<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[H<ESC>[2J<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                    File: answers.txt                                    Modified  <ESC>[3;1H<ESC>(B<ESC>[mpic1.jpg: /dev/136intro-2jjaj.JPEG
+<ESC>[4dpic2.png:
+<ESC>[21d<ESC>(B<ESC>[0;7m^G<ESC>(B<ESC>[m Get Help     <ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out    <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is     <ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text     <ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[81G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos
+<ESC>[22d<ESC>(B<ESC>[0;7m^X<ESC>(B<ESC>[m Exit<ESC>[22;17H<ESC>(B<ESC>[0;7m^R<ESC>(B<ESC>[m Read File    <ESC>(B<ESC>[0;7m^\<ESC>(B<ESC>[m Replace<ESC>[49G<ESC>(B<ESC>[0;7m^U<ESC>(B<ESC>[m Uncut Text   <ESC>(B<ESC>[0;7m^T<ESC>(B<ESC>[m To Spell     <ESC>(B<ESC>[0;7m^_<ESC>(B<ESC>[m Go To Line
+<ESC>[5d<ESC>[?1h<ESC>=<ESC>[20d<ESC>(B<ESC>[0;7mSave modified buffer (ANSWERING "No" WILL
+INPUT|usc430ag-intro-133|U |000000000|usc430ag|intro:fg 0|bash: fg: 0: no such job
+INPUT|usc430ag-intro-134|U |000000000|usc430ag|intro:fg 1|bash: fg: 1: no such job
+INPUT|usc430ag-intro-135|U |000000000|usc430ag|intro:fh 2|fh: command not found
+INPUT|usc430ag-intro-136|U |000000000|usc430ag|intro:fg 2|nano answers.txt
+<ESC>[?1049h<ESC>[1;22r<ESC>[?12l<ESC>[?25h<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[H<ESC>[2J<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                    File: answers.txt                                    Modified  <ESC>[3;1H<ESC>(B<ESC>[mpic1.jpg: /dev/136intro-2jjaj.JPEG
+<ESC>[4dpic2.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png
+<ESC>[5dpic3.jpg: /var/log/136intro-3.jpg
+<ESC>[21d<ESC>(B<ESC>[0;7m^G<ESC>(B<ESC>[m Get Help     <ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out    <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is     <ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text     <ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[81G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos
+<ESC>[22d<ESC>(B<ESC>[0;7m^X<ESC>(B<ESC>[m Exit<ESC>[22;17H<ESC>(B<ESC>[0;7m^R<ESC>(B<ESC>[m Read File    <ESC>(B<ESC>[0;7m^\<ESC>(B<ESC>[m Replace<ESC>[49G<ESC>(B<ESC>[0;7m^U<ESC>(B<ESC>[m Uncut Text   <ESC>(B<ESC>[0;7m^T<ESC>(B<ESC>[m To Spell     <ESC>(B<ESC>[0;7m^_<ESC>(B<ESC>[m G
+INPUT|usc430ag-intro-137|U |000000000|usc430ag|intro:nano answers.txt|<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20;42H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[20;48H<ESC>(B<ESC>[0;7m 4 lines
+<ESC>[7d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                    File: answers.txt                                              <ESC>[3;1H<ESC>(B<ESC>[mpic1.jpg: /dev/136intro-2jjaj.JPEG
+<ESC>[4dpic2.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png
+<ESC>[5dpic3.jpg: /var/log/136intro-3.jpg
+<ESC>[6dpic4.jpg: /etc/wuer136intro-4/JPG
+<ESC>[21d<ESC>(B<ESC>[0;7m^G<ESC>(B<ESC>[m Get Help     <ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out    <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is     <ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text     <ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[81G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos
+<ESC>[22d<ESC>(B<ESC>[0;7m
+INPUT|usc430ag-intro-138|U |000000000|usc430ag|intro:ls|answers.txt  pic1.jpeg
+INPUT|usc430ag-intro-139|U |000000000|usc430ag|intro:mv pic1.jpeg pic2.jpeg|
+INPUT|usc430ag-intro-140|U |000000000|usc430ag|intro:ls|answers.txt  pic2.jpeg
+INPUT|usc430ag-intro-141|U |000000000|usc430ag|intro:nano answers.txt|<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20;42H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[20;48H<ESC>(B<ESC>[0;7m 4 lines
+<ESC>[7d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                    File: answers.txt                                              <ESC>[3;1H<ESC>(B<ESC>[mpic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png
+<ESC>[4dpic2.jpg: /dev/136intro-2jjaj.JPEG
+<ESC>[5dpic3.jpg: /var/log/136intro-3.jpg
+<ESC>[6dpic4.jpg: /etc/wuer136intro-4/JPG
+<ESC>[21d<ESC>(B<ESC>[0;7m^G<ESC>(B<ESC>[m Get Help     <ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out    <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is     <ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text     <ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[81G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos
+<ESC>[22d<ESC>(B<ESC>[0;7m
+INPUT|usc430ag-intro-142|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-143|U |000000000|usc430ag|intro:cp ./proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png /users/usc430ag/top|_secret/pic1.png
+INPUT|usc430ag-intro-144|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-145|U |000000000|usc430ag|intro:cp ./var/log/136intro-3.jpg|
+INPUT|usc430ag-intro-146|U |000000000|usc430ag|intro:cp ./var/log/136intro-3.jpg /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-147|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic4|
+INPUT|usc430ag-intro-148|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-149|U |000000000|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-150|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-151|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-152|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic4.jpg|
+INPUT|usc430ag-intro-153|U |000000000|usc430ag|intro:cp ./var/log/136intro-3.jpg /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-154|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-155|U |000000000|usc430ag|intro:cp ./proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png /users/usc430ag/top_|_secret/pic1.png<ESC>[A$ cd /<ESC>[K
+
+INPUT|usc430ag-intro-156|U |000000000|usc430ag|intro:mv pic1.jpeg pic2.jpeg|
+INPUT|usc430ag-intro-157|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-158|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-159|U |000000000|usc430ag|intro:cp /dev/136intro-2jjaj.JPEG /users/usc430ag/top_secret/pic1.jpeg|
+INPUT|usc430ag-intro-160|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG|G /home<ESC>[Ag@intro:/$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home<ESC>[K<ESC>[Ac430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home<BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-161|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JP|
+G
+INPUT|usc430ag-intro-162|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JP /sc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.J /hsc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj. /hosc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj /homec430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jja /homesc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jj /home|
+INPUT|usc430ag-intro-163|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2j|
+INPUT|usc430ag-intro-164|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/t /home sc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/to /home|e<ESC>[Asc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top /home<ESC>[Ac430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_ /home<ESC>[A430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_s /h<ESC>[1@o<ESC>[Ac430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_se /<ESC>[1@h<ESC>[Ac430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_sec <ESC>[1@/
+<ESC>[1@r<ESC>[1@e<ESC>[1@t<ESC>[1@/<ESC>[1@* /home<BEL><BEL><BEL><BEL><BEL><BEL><BEL>/s<BS> <BS>csci430
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+INPUT|usc430ag-intro-165|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secr|ret/* /home/csci430<BS><ESC>[Acd /<ESC>[K
+
+INPUT|usc430ag-intro-166|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secr|ret/* /home/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-167|A1 A2 A0 A4 A3 |000000000|usc430ag|intro:sudoscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secresc430ag@intro:/$ sudscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secretsc430ag@intro:/$ suscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/sc430ag@intro:/$ sscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/*sc430ag@intro:/$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* sc430ag@intro:/$|
+
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+INPUT|usc430ag-intro-168|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/*| /home/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-169|U |000000000|usc430ag|intro:scp -intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* c430ag@intro:/$ scp -rintro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/*c430ag@intro:/$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/c430ag@intro:/$ scp -r|
+
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+INPUT|usc430ag-intro-170|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret|t/* /home/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-171|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:|
+INPUT|usc430ag-intro-172|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-173|U |000000000|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-174|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret|t/* /home/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-175|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/users/usc430ag/top_secretc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~users/usc430ag/top_secretsc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~sers/usc430ag/top_secret/sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~ers/usc430ag/top_secret/*sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~rs/usc430ag/top_secret/* sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~s/usc430ag/top_secret/* /sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/usc430ag/top_secret/* /hsc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~usc430ag/top_secret/* /hosc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~sc430ag/top_secret/* /homsc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~c430ag/top_secret/* /homesc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~430ag/top_secret/* /home/sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~30ag/top_secret/* /home/csc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~0ag/top_secret/* /home/cssc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~ag/top_secret/* /home/cscsc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~g/top_secret/* /home/cscisc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* /home/csci4sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~/home/csci4c430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~home/csci4sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~ome/csci430c430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~me/csci430sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~e/csci430|
+INPUT|usc430ag-intro-176|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~|
+INPUT|usc430ag-intro-177|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~|scp: ~/top_secret/*: No such file or directory
+INPUT|usc430ag-intro-178|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~/csci43|
+INPUT|usc430ag-intro-179|U |000000000|usc430ag|intro:cd ~/top_secret/|
+INPUT|usc430ag-intro-180|U |000000000|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-181|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/*| ~/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-182|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/|
+INPUT|usc430ag-intro-183|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/ ~sc430ag@intro:~/top_secret$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/p ~|<ESC>[1@i<ESC>[1@c<ESC>[1@1<ESC>[1@.<ESC>[1@j<BS><ESC>[1P<ESC>[1@p<ESC>[1@g<BS><ESC>[1P<ESC>[1@n<ESC>[1@g ~/csci430<BEL><BEL><BEL><BEL><BEL><BEL>/pic1.png
+scp: ~/top_secret/pic1.png: No such file or directory
+INPUT|usc430ag-intro-184|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pi|ic1.png ~/csci430/pic1.png<BS><BS><BS><BS><BS><BS><BS><BS>pic1.png<BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL>
+scp: ~/top_secret/pic1.png: No such file or directory
+INPUT|usc430ag-intro-185|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pi|ic1.png ~/csci430/pic1.png<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-186|U |000000000|usc430ag|intro:scp - intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/picsc430ag@intro:~/top_secret$ scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1sc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.sc430ag@intro:~/top_secret$ scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.c430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.sc430ag@intro:~/top_secret$ scp|
+
+scp: ~/top_secret/pic1.png: No such file or directory
+INPUT|usc430ag-intro-187|U |000000000|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-188|U |000000000|usc430ag|intro:pwd|/users/usc430ag/top_secret
+INPUT|usc430ag-intro-189|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.|.png ~/csci430/pic1.png<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-190|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/top_secret/pic1.psc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net://top_secret/pic1.pc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/u/top_secret/pic1.c430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/us/top_secret/pic1c430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/use/top_secret/picc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/user/top_secret/pic430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/top_secret/pc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users//top_secret/c430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/u/top_secretc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/us/top_secrec430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc/top_secrc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc4/top_secc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc43/top_sec430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430/top_sc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430a/top_c430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/topc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag|
+
+/users/usc430ag/csci430/pic1.png: No such file or directory
+INPUT|usc430ag-intro-191|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/to|op_secret/pic1.png ~/csci430/pic1.png<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-192|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/|
+op_secret/pic1.png ~/csci430/pic1.png<BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><ESC>[A<BS><BS><BS><BS><BS><BS><BS><BS><ESC>[K
+
+INPUT|usc430ag-intro-193|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/to|op_secret/pic1.png ~/csci430/pic1.png<BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><ESC>[Apwd<ESC>[K
+
+INPUT|usc430ag-intro-194|U |000000000|usc430ag|intro:pwd^C|
+INPUT|usc430ag-intro-195|U |000000000|usc430ag|intro:clear|
+INPUT|usc430ag-intro-196|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/to|op_secret/pic1.png ~/csci430/
+/users/usc430ag/csci430/: Is a directory
+INPUT|usc430ag-intro-197|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/to|op_secret/pic1.png ~/csci430/
+INPUT|usc430ag-intro-198|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/pic1.png|/users/usc430ag/csci430/pic1.png: No such file or directory
+INPUT|usc430ag-intro-199|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-200|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|%
+pic1.png                                                                                                   0%%    0     0.0KB/s   --:-- ETA
+pic1.png                                                                                                 100%%  353     0.3KB/s   00:00    %
+INPUT|usc430ag-intro-201|U |000000000|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-202|U |000000000|usc430ag|intro:scp user430ag@|%user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: %
+INPUT|usc430ag-intro-203|U |000000000|usc430ag|intro:clear|
+INPUT|usc430ag-intro-204|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-205|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-206|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-207|U |000000000|usc430ag|intro:clear|
+INPUT|usc430ag-intro-208|U |000000000|usc430ag|intro:clear|
+INPUT|usc430ag-intro-209|U |000000000|usc430ag|intro:clear|
+INPUT|usc430ag-intro-210|U |000000000|usc430ag|intro:clear|
+INPUT|usc430ag-intro-211|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-212|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-213|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|%user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied (publickey%%password).
+%
+INPUT|usc430ag-intro-214|U |000000000|usc430ag|intro:scp|/users/usc430ag/home/zach: No such file or directory
+INPUT|usc430ag-intro-215|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png .|./home/zach: Permission denied
+INPUT|usc430ag-intro-216|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~|scp: ~/top_secret/pic1.png: No such file or directory
+INPUT|usc430ag-intro-217|U |000000000|usc430ag|intro:ls ~/top_secret/|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-218|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|
+INPUT|usc430ag-intro-219|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|
+INPUT|usc430ag-intro-220|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-221|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-222|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-223|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-224|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-225|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~/csci430|
+INPUT|usc430ag-intro-226|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-227|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-228|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-229|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-230|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic4.jpg|
+INPUT|usc430ag-intro-231|U |000000000|usc430ag|intro:cp ./var/log/136intro-3.jpg /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-232|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-233|U |000000000|usc430ag|intro:cp ./proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png /users/usc430ag/top_secret/pic1.png|
+INPUT|usc430ag-intro-234|U |000000000|usc430ag|intro:mv pic1.jpeg pic2.jpeg|
+INPUT|usc430ag-intro-235|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-236|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-237|U |000000000|usc430ag|intro:cp /dev/136intro-2jjaj.JPEG /users/usc430ag/top_secret/pic1.jpeg|
+INPUT|usc430ag-intro-238|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-239|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-240|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home/zach/csci430|
+INPUT|usc430ag-intro-241|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home/zach/Pictures|
+INPUT|usc430ag-intro-242|U |000000000|usc430ag|intro:scp usc430ag@intro:/dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-243|U |000000000|usc430ag|intro:scp ./var/log/136intro-3.jpg|
+INPUT|usc430ag-intro-244|U |000000000|usc430ag|intro:scp dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-245|U |000000000|usc430ag|intro:feh dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-246|U |000000000|usc430ag|intro:feh dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-247|U |000000000|usc430ag|intro:cd dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-248|A2 A0 A1 A3 A4 |000000000|usc430ag|intro:find . -name "*intro*"|
+INPUT|usc430ag-intro-249|A1 A2 A0 A4 A3 |000000000|usc430ag|intro:find . -name "*intro*"|
+INPUT|usc430ag-intro-250|U |000000000|usc430ag|intro:cd ../../users/usc430ag/|
+INPUT|usc430ag-intro-251|U |000000000|usc430ag|intro:cd ../../users/usc430ag/|
+INPUT|usc430ag-intro-252|A1 A2 A0 A4 A3 |000000000|usc430ag|intro:find . -name "*intro*"|
+INPUT|usc430ag-intro-253|A2 A0 A1 A3 A4 |000000000|usc430ag|intro:find . -name "*intro*"|
+INPUT|usc430ag-intro-254|U |000000000|usc430ag|intro:cd dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-255|U |000000000|usc430ag|intro:feh dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-256|U |000000000|usc430ag|intro:feh dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-257|U |000000000|usc430ag|intro:scp ./var/log/136intro-3.jpg|
+INPUT|usc430ag-intro-258|U |000000000|usc430ag|intro:scp usc430ag@intro:/|
+INPUT|usc430ag-intro-259|U |000000000|usc430ag|intro:scp usc430ag@intro:/dev/136intro-2jjaj.JPEG /home/zach/Pictures|
+INPUT|usc430ag-intro-260|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home/zach/csci430|
+INPUT|usc430ag-intro-261|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-262|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-263|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-264|U |000000000|usc430ag|intro:cp /dev/136intro-2jjaj.JPEG /users/usc430ag/top_secret/pic1.jpeg|
+INPUT|usc430ag-intro-265|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-266|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-267|U |000000000|usc430ag|intro:mv pic1.jpeg pic2.jpeg|
+INPUT|usc430ag-intro-268|U |000000000|usc430ag|intro:cp ./proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png /users/usc430ag/top_secret/pic1.png|
+INPUT|usc430ag-intro-269|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-270|U |000000000|usc430ag|intro:cp ./var/log/136intro-3.jpg /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-271|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic4.jpg|
+INPUT|usc430ag-intro-272|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-273|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-274|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-275|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-276|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~/csci430|
+INPUT|usc430ag-intro-277|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-278|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-279|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-280|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-281|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-282|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|
+INPUT|usc430ag-intro-283|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ./home/zach|
+INPUT|usc430ag-intro-284|U |000000000|usc430ag|intro:cd ~/top_secret/|
+INPUT|usc430ag-intro-285|U |000000000|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-286|U |000000000|usc430ag|intro:nano pic1.png|%<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20;62H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[20;44H<ESC>(B<ESC>[0;7m[ Read 7 lines (Converted from DOS and Mac format) ]
+<ESC>[10d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                                  File: pic1.png                                                                           <ESC>[3;1H<ESC>(B<ESC>[m^<C3><89>PNG
+<ESC>[4d^Z
+<ESC>[5d^@^@^@
+<ESC>[6dIHDR^@^@^@<C2><A0>^@^@^@<C2><A0>^H^C^@^@^@<C2><BC>^Q^<C3><97>^_^@^@^@<PLTE<C3><BE><C3><BE><C3><BE>???^?^?^?<C2><BF><C2><BF><C2><BF><C3><92><C3><92><C3><92><C3><BF><C3><BF><C3><BF>^@<C2><BF><C2><BF><C3><BF><C3><BF>^@<C3><BF>^<C3><EURO>^@^@<C2><A0>^@`<C3><EURO>`^@<C3><EURO>^@<C3><92><C3><88><C2><ACUTE>^?^?<C3><EURO><C3><EURO><C3><EURO>^?^@^@<C3><EURO><C3><EURO>^@^@^<C3><EURO>^@^@^@^
+INPUT|usc430ag-intro-287|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430|
+INPUT|usc430ag-intro-288|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430^C|
+INPUT|usc430ag-intro-289|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-290|U |000000000|usc430ag|intro:cd|
+INPUT|usc430ag-intro-291|U |000000000|usc430ag|intro:ls|pic1.png  top_secret
+INPUT|usc430ag-intro-292|U |000000000|usc430ag|intro:cd top_secret/|
+INPUT|usc430ag-intro-293|U |000000000|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-294|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-295|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-296|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-297|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-298|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-299|U |000000000|usc430ag|intro:cd|
+INPUT|usc430ag-intro-300|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-301|U |000000000|usc430ag|intro:ls|pic1.png  top_secret
+INPUT|usc430ag-intro-302|U |000000000|usc430ag|intro:cd ./|
+INPUT|usc430ag-intro-303|U |000000000|usc430ag|intro:cd  /|
+INPUT|usc430ag-intro-304|U |000000000|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-305|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-306|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/|^[[Assh: connect to host users.deterlab.net port 22: Connection timed out
+
+INPUT|usc430ag-intro-307|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/m^C|
+INPUT|usc430ag-intro-308|U |000000000|usc430ag|intro:man scp|%<ESC>[?1049h<ESC>[?1h<ESC>=
+SCP(1)                                                BSD General Commands Manual                                                SCP(1)<ESC>[m
+<ESC>[m
+<ESC>[1mNAME<ESC>[0m<ESC>[m
+     <ESC>[1mscp<ESC>[0m -- secure copy (remote file copy program)<ESC>[m
+<ESC>[m
+<ESC>[1mSYNOPSIS<ESC>[0m<ESC>[m
+     <ESC>[1mscp<ESC>[0m [<ESC>[1m-12346BCpqrv<ESC>[0m] [<ESC>[1m-c<ESC>[0m <ESC>[4mcipher<ESC>[24m] [<ESC>[1m-F<ESC>[0m <ESC>[4mssh_config<ESC>[24m] [<ESC>[1m-i<ESC>[0m <ESC>[4midentity_file<ESC>[24m] [<ESC>[1m-l<ESC>[0m <ESC>[4mlimit<ESC>[24m] [<ESC>[1m-o<ESC>[0m <ESC>[4mssh_option<ESC>[24m] [<ESC>[1m-P<ESC>[0m <ESC>[4mport<ESC>[24m] [<ESC>[1m-S<ESC>[0m <ESC>[4mprogram<ESC>[24m]<ESC>[m
+         [[<ESC>[4muser<ESC>[24m@]<ESC>[4mhost1<ESC>[24m:]<ESC>[4mfile1<ESC>[24m <ESC>[4m...<ESC>[24m [[<ESC>[4muser<ESC>[24m@]<ESC>[4mhost2<ESC>[24m:]<ESC>[4mfile2<ESC>[24m<ESC>[m
+<ESC>[m
+<ESC>[1mDESCRIPTION<ESC>[0m<ESC>[m
+     <ESC>[1mscp<ESC>[0m copie
+INPUT|usc430ag-intro-309|U |000000000|usc430ag|intro:scp -r -v|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -r -f /top_secret/
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-310|U |000000000|usc430ag|intro:scp -r -v usc430ag@users.|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -r -f /top_secret/
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-311|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-312|U |000000000|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-313|U |000000000|usc430ag|intro:usc430ag@user.deterlab.net|usc430ag@user.deterlab.net: command not found
+INPUT|usc430ag-intro-314|U |000000000|usc430ag|intro:nano usc430ag@user.deterlab.net:/top_secret/answer.txt|<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20;36H<ESC>(B<ESC>[0;7m[ Directory 'usc430ag@user.deterlab.net:/top_secret' does not exist ]
+<ESC>[3d<ESC>(B<ESC>[m<BEL><ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                    File: usc430ag@user.deterlab.net:/top_secret/answer.txt                                                <ESC>[21;1H^G<ESC>(B<ESC>[m Get Help<ESC>[18G<ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out     <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is<ESC>[52G<ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text<ESC>[69G<ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[86G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos<ESC>[103G<ESC>(B<ESC>[0;7m^Y<ESC>(B<ESC>[m Prev Page     <ESC>(B<ESC>[0;7mM-\<ESC>(B<ESC>[m First Line
+<ESC>[22d<ESC>(B<ESC>[0;7m^X<ESC>(B<ESC>[m Exit<ESC>[22;18H<ESC>(B<ESC>[0;7m^R<ESC>(B<ESC>[m Read File     <ESC>(B<ESC>[0
+INPUT|usc430ag-intro-315|U |000000000|usc430ag|intro:nano usc430ag@user.deterlab.net:/top_secret/answer.txt|<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20;36H<ESC>(B<ESC>[0;7m[ Directory 'usc430ag@user.deterlab.net:/top_secret' does not exist ]
+<ESC>[3d<ESC>(B<ESC>[m<BEL><ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                    File: usc430ag@user.deterlab.net:/top_secret/answer.txt                                                <ESC>[21;1H^G<ESC>(B<ESC>[m Get Help<ESC>[18G<ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out     <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is<ESC>[52G<ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text<ESC>[69G<ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[86G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos<ESC>[103G<ESC>(B<ESC>[0;7m^Y<ESC>(B<ESC>[m Prev Page     <ESC>(B<ESC>[0;7mM-\<ESC>(B<ESC>[m First Line
+<ESC>[22d<ESC>(B<ESC>[0;7m^X<ESC>(B<ESC>[m Exit<ESC>[22;18H<ESC>(B<ESC>[0;7m^R<ESC>(B<ESC>[m Read File     <ESC>(B<ESC>[0
+INPUT|usc430ag-intro-316|U |000000000|usc430ag|intro:nano usc430ag@user.deterlab.net:/top_secret/answer.txt|
+INPUT|usc430ag-intro-317|U |000000000|usc430ag|intro:usc430ag@user.deterlab.net|
+INPUT|usc430ag-intro-318|U |000000000|usc430ag|intro:scp -r -v usc430ag@users.deterlab.net:/top_secret/ ~/csci430/|
+INPUT|usc430ag-intro-319|U |000000000|usc430ag|intro:usc430ag@user.deterlab.net|
+INPUT|usc430ag-intro-320|U |000000000|usc430ag|intro:scp usc430ag@user.deterlab.net:/top_secret/answer.txt ~/|ssh: Could not resolve hostname user.deterlab.net: Name or service not known
+
+INPUT|usc430ag-intro-321|U |000000000|usc430ag|intro:scp usc430ag@users|
+INPUT|usc430ag-intro-322|U |000000000|usc430ag|intro:scp -v|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-323|U |000000000|usc430ag|intro:scp -v usc430ag@user|%Executing: program /usr/bin/ssh host user.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+ssh: Could not resolve hostname user.deterlab.net: Name or service not known
+%
+INPUT|usc430ag-intro-324|U |000000000|usc430ag|intro:scp -v usc430ag@users|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-325|U |000000000|usc430ag|intro:clear|
+INPUT|usc430ag-intro-326|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-327|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-328|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-329|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-330|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-331|U |000000000|usc430ag|intro:scp usc430ag@user.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-332|U |000000000|usc430ag|intro:nano usc430ag@user.deterlab.net:/top_secret/answer.txt|
+INPUT|usc430ag-intro-333|U |000000000|usc430ag|intro:usc430ag@user.deterlab.net|
+INPUT|usc430ag-intro-334|U |000000000|usc430ag|intro:scp -r -v usc430ag@users.deterlab.net:/top_secret/ ~/csci430/|
+INPUT|usc430ag-intro-335|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-336|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-337|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430|
+INPUT|usc430ag-intro-338|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|
+INPUT|usc430ag-intro-339|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|
+INPUT|usc430ag-intro-340|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-341|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-342|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-343|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-344|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-345|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~/csci430|
+INPUT|usc430ag-intro-346|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-347|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-348|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-349|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-350|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic4.jpg|
+INPUT|usc430ag-intro-351|U |000000000|usc430ag|intro:cp ./var/log/136intro-3.jpg /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-352|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-353|U |000000000|usc430ag|intro:cp ./proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png /users/usc430ag/top_secret/pic1.png|
+INPUT|usc430ag-intro-354|U |000000000|usc430ag|intro:mv pic1.jpeg pic2.jpeg|
+INPUT|usc430ag-intro-355|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-356|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-357|U |000000000|usc430ag|intro:cp /dev/136intro-2jjaj.JPEG /users/usc430ag/top_secret/pic1.jpeg|
+INPUT|usc430ag-intro-358|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-359|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-360|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home^C|
+INPUT|usc430ag-intro-361|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-362|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-363|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-364|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-365|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-366|A2 A0 A1 A3 A4 |000000000|usc430ag|intro:find c^C|
+INPUT|usc430ag-intro-367|U |000000000|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-368|M2 |000000000|usc430ag|intro:find . -type f -iname \"*tintro|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+./var/log/ttylog/ttylog.intro.0
+./var/log/ttylog/alltty.intro
+./var/log/ttylog/ttylog.intro.1
+./var/log/ttylog/cli.intro.csv
+find: './var/log/unattended-upgrades': Permission denied
+./var/log/136intro-3.jpg
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Perm
+INPUT|usc430ag-intro-369|U |000000000|usc430ag|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/top_secret/pic5.jpg|
+INPUT|usc430ag-intro-370|U |000000000|usc430ag|intro:nano ~/top_secret/answers.txt|%<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20;62H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[20;68H<ESC>(B<ESC>[0;7m 4 lines
+<ESC>[7d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                        File: /users/usc430ag/top_secret/answers.txt                                                       <ESC>[3;1H<ESC>(B<ESC>[mpic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png
+<ESC>[4dpic2.jpg: /dev/136intro-2jjaj.JPEG
+<ESC>[5dpic3.jpg: /var/log/136intro-3.jpg
+<ESC>[6dpic4.jpg: /etc/wuer136intro-4/JPG
+<ESC>[21d<ESC>(B<ESC>[0;7m^G<ESC>(B<ESC>[m Get Help<ESC>[18G<ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out     <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is<ESC>[52G<ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text<ESC>[69G<ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[86G<ESC>(B<ESC>[0;7m
+INPUT|usc430ag-intro-371|U |000000000|usc430ag|intro:rsync|%rsync  version 3.1.1  protocol version 31
+Copyright (C) 1996-2014 by Andrew Tridgell%% Wayne Davison%% and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files%% 64-bit inums%% 64-bit timestamps%% 64-bit long ints%%
+    socketpairs%% hardlinks%% symlinks%% IPv6%% batchfiles%% inplace%%
+    append%% ACLs%% xattrs%% iconv%% symtimes%% prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software%% and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPT
+INPUT|usc430ag-intro-372|U |000000000|usc430ag|intro:clear|
+INPUT|usc430ag-intro-373|U |000000000|usc430ag|intro:rsync usc430ag@users.deterlab.net:~/top_secret/answers.txt ~/|.bash_history  .cache/        .forward       .nano/         .ssh/          .ssl/          top_secret/    
+INPUT|usc430ag-intro-374|U |000000000|usc430ag|intro:rsync usc430ag@users.deterlab.net:~/top_secret/answers.txt ~/|.bash_history  .cache/        .forward       .nano/         .ssh/          .ssl/          top_secret/    
+INPUT|usc430ag-intro-375|U |000000000|usc430ag|intro:rsync usc430ag@users.deterlab.net:~/top_secret/answers.txt ~/|%^Crsync error: received SIGINT%% SIGTERM%% or SIGHUP (code 20) at rsync.c(632) [Receiver=3.1.1]%
+INPUT|usc430ag-intro-376|U |000000000|usc430ag|intro:rsync 0-v|Unexpected remote arg: usc430ag@users.deterlab.net:~/top_secret/answers.txt
+rsync error: syntax or usage error (code 1) at main.c(1348) [sender=3.1.1]
+INPUT|usc430ag-intro-377|U |000000000|usc430ag|intro:rsync|%^[[A^[[B^[[A^[[A^Crsync error: received SIGINT%% SIGTERM%% or SIGHUP (code 20) at rsync.c(632) [Receiver=3.1.1]%
+INPUT|usc430ag-intro-378|U |000000000|usc430ag|intro:rsync -v usc430ag@users.deterlab.net:~/top_secret/answers.txt ~/csci430|%^Crsync error: received SIGINT%% SIGTERM%% or SIGHUP (code 20) at rsync.c(632) [Receiver=3.1.1]%
+INPUT|usc430ag-intro-379|U |000000000|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-380|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-381|U |000000000|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-382|U |000000000|usc430ag|intro:cd  top_secret/|
+INPUT|usc430ag-intro-383|U |000000000|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg  pic5.jpg
+INPUT|usc430ag-intro-384|U |000000000|usc430ag|intro:nano answers.txt|%<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20;62H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[20;68H<ESC>(B<ESC>[0;7m 6 lines
+<ESC>[9d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                                 File: answers.txt                                                                         <ESC>[3;1H<ESC>(B<ESC>[mpic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png
+<ESC>[4dpic2.jpg: /dev/136intro-2jjaj.JPEG
+<ESC>[5dpic3.jpg: /var/log/136intro-3.jpg
+<ESC>[6dpic4.jpg: /etc/wuer136intro-4/JPG
+<ESC>[7dpic5.jpg: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+<ESC>[21d<ESC>(B<ESC>[0;7m^G<ESC>(B<ESC>[m Get Help<ESC>[18G<ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out     <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is<ESC>[52G<ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text<ESC>[69G<ESC>(B<
+INPUT|usc430ag-intro-385|U |1547253758|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-386|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-387|U |1547253760|usc430ag|intro:ls|aashraya  bloznali  gknopf    jgli     melkins  shareaa  shareaf  shareak  shareap  shareau  shareaz  shareta sunshine
+abhi   ekline    glawler   jhickey  piobair  shareab  shareag  shareal  shareaq  shareav  shareba  sharetb usc430ag
+alefiya   faber     jaipuria  jjh      rgoodfel  shareac  shareah  shaream  sharear  shareaw  sharebb  sharetc
+alwabel   gbartlet  jboman    jross    schwab  sharead  shareai  sharean  shareas  shareax  sharebc  sharetd
+bks   gerow     jelena    kls2     scuric  shareae  shareaj  shareao  shareat  shareay  sharebd  sklower
+INPUT|usc430ag-intro-388|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-389|A4 A3 A1 A2 A0 |000000000|usc430ag|intro:find . -name\ \"*intro*\"|
+INPUT|usc430ag-intro-390|A0 A2 A1 A3 A4 |000000000|usc430ag|intro:find . -name \"\"*intro*\"|
+INPUT|usc430ag-intro-391|U |000000000|usc430ag|intro:pwd|/users/usc430ag
+INPUT|usc430ag-intro-392|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-393|U |1547253833|usc430ag|intro:ls|aashraya  bloznali  gknopf    jgli     melkins  shareaa  shareaf  shareak  shareap  shareau  shareaz  shareta sunshine
+abhi   ekline    glawler   jhickey  piobair  shareab  shareag  shareal  shareaq  shareav  shareba  sharetb usc430ag
+alefiya   faber     jaipuria  jjh      rgoodfel  shareac  shareah  shaream  sharear  shareaw  sharebb  sharetc
+alwabel   gbartlet  jboman    jross    schwab  sharead  shareai  sharean  shareas  shareax  sharebc  sharetd
+bks   gerow     jelena    kls2     scuric  shareae  shareaj  shareao  shareat  shareay  sharebd  sklower
+INPUT|usc430ag-intro-394|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-395|U |1547253835|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-396|U |1547253839|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-397|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-398|U |000000000|usc430ag|intro:pwd|/
+INPUT|usc430ag-intro-399|U |1547253843|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-400|M2 |000000000|usc430ag|intro:find . -name\ \"*intro\*\"|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+./var/log/ttylog/ttylog.intro.0
+./var/log/ttylog/alltty.intro
+./var/log/ttylog/ttylog.intro.1
+./var/log/ttylog/cli.intro.csv
+find: './var/log/unattended-upgrades': Permission denied
+./var/log/136intro-3.jpg
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Perm
+INPUT|usc430ag-intro-401|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-402|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-403|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-404|U |1547254111|usc430ag|intro:clear|
+INPUT|usc430ag-intro-405|U |1547254132|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-406|U |000000000|usc430ag|intro:cd dev/136intro-2jjaj.JPEG|bash: cd: dev/136intro-2jjaj.JPEG: Not a directory
+INPUT|usc430ag-intro-407|U |000000000|usc430ag|intro:cd dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-408|U |000000000|usc430ag|intro:cd dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-409|U |000000000|usc430ag|intro:feh|The program 'feh' is currently not installed. To run 'feh' please ask your administrator to install the package 'feh'
+INPUT|usc430ag-intro-410|U |1547254210|usc430ag|intro:feh dev/136intro-2jjaj.JPEG|sudo: feh: command not found
+INPUT|usc430ag-intro-411|U |000000000|usc430ag|intro:eog|The program 'eog' is currently not installed. To run 'eog' please ask your administrator to install the package 'eog'
+INPUT|usc430ag-intro-412|U |000000000|usc430ag|intro:imgcat|%No command 'imgcat' found%% did you mean:
+ Command 'imcat' from package 'im' (universe)
+ Command 'img_cat' from package 'sleuthkit' (universe)
+imgcat: command not found%
+INPUT|usc430ag-intro-413|U |1547254255|usc430ag|intro:sftp|usage: sftp [-1246aCfpqrv] [-B buffer_size] [-b batchfile] [-c cipher]
+          [-D sftp_server_path] [-F ssh_config] [-i identity_file] [-l limit]
+          [-o ssh_option] [-P port] [-R num_requests] [-S program]
+          [-s subsystem | sftp_server] host
+       sftp [user@]host[:file ...]
+       sftp [user@]host[:dir[/]]
+       sftp -b batchfile [user@]host
+INPUT|usc430ag-intro-414|U |1547254332|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-415|U |1547254382|usc430ag|intro:scp|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430ag-intro-416|U |000000000|usc430ag|intro:scp|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430ag-intro-417|U |1547254481|usc430ag|intro:scp ./var/log/136intro-3.jpg|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430ag-intro-418|U |1547254637|usc430ag|intro:scp usc430ag@intro:/|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430ag-intro-419|U |1547254638|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-420|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-421|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-422|U |1547254649|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-423|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-424|U |1547254650|usc430ag|intro:ls|aashraya  faber     jelena   piobair   sharead shareak  sharear  shareay  sharetb
+abhi   gbartlet  jgli     rgoodfel  shareae shareal  shareas  shareaz  sharetc
+alefiya   gerow     jhickey  schwab    shareaf shaream  shareat  shareba  sharetd
+alwabel   gknopf    jjh      scuric    shareag sharean  shareau  sharebb  sklower
+bks   glawler   jross    shareaa   shareah shareao  shareav  sharebc  sunshine
+bloznali  jaipuria  kls2     shareab   shareai shareap  shareaw  sharebd  usc430ag
+ekline   jboman    melkins  shareac   shareaj shareaq  shareax  shareta
+INPUT|usc430ag-intro-425|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-426|U |1547254653|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-427|U |1547254680|usc430ag|intro:scp usc430ag@intro:/dev/136intro-2jjaj.JPEG|usage: scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file]
+           [-l limit] [-o ssh_option] [-P port] [-S program]
+           [[user@]host1:]file1 ... [[user@]host2:]file2
+INPUT|usc430ag-intro-428|U |1547254704|usc430ag|intro:scp usc430ag@intro:/dev/136intro-2jjaj.JPEG /home/zach/Pictures|ssh: Could not resolve hostname intro: Name or service not known
+
+INPUT|usc430ag-intro-429|U |1547254718|usc430ag|intro:scp usc430ag@intro:/dev/136intro-2jjaj.JPEG /home/zach/Pictures|ssh: Could not resolve hostname intro: Name or service not known
+
+INPUT|usc430ag-intro-430|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430:/dev/136intro-2jjaj.JPEG /home/zach/Pictures sc430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.:/dev/136intro-2jjaj.JPEG /home/zach/Pictures|s<ESC>[Asc430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.i:/dev/136intro-2jjaj.JPEG /home/zach/Pictures<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.is:/dev/136intro-2jjaj.JPEG /home/zach/Pictures<ESC>[A430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi:/dev/136intro-2jjaj.JPEG /home/zach/Pictu<ESC>[1@r<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.:/dev/136intro-2jjaj.JPEG /home/zach/Pict<ESC>[1@u<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.d:/dev/136intro-2jjaj.JPEG /home/zach/Pic<ESC>[1@t<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.de:/dev/136intro-2jjaj.JPEG /home/zach/Pi<ESC>[1@c<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.det:/dev/136intro-2jjaj.JPEG /home/zach/P<ESC>[1@i<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.dete:/dev/136intro-2jjaj.JPEG /home/zach/<ESC>[1@P<ESC>[Ac430ag@intro:/$ scp  intro.usc430ag-homework1.USC430.isi.deter:/dev/136intro-2jjaj.JPEG /home/z
+INPUT|usc430ag-intro-431|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /ho|ome/zach/Pictures<BS><BS>es<BEL><BS> <BS><BS> <BS>e
+/home/zach/Picture: No such file or directory
+INPUT|usc430ag-intro-432|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /ho|ome/zach/Picture<BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS>
+/home/zach: Permission denied
+INPUT|usc430ag-intro-433|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /ho|ome/zach/csci430
+/home/zach/csci430: No such file or directory
+INPUT|usc430ag-intro-434|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /ho|ome/zach/csci430<BS><BS><BS><BS><BS><BS><BS><BS><ESC>[K/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-435|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /homsc430ag@intro:/$ sscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /homc430ag@intro:/$ suscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hoc430ag@intro:/$ sudscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hc430ag@intro:/$ sudoscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /c430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG c430ag@intro:/$ sudo|%
+
+The authenticity of host 'intro.usc430ag-homework1.usc430.isi.deterlab.net (192.168.1.120)' can't be established.
+RSA key fingerprint is SHA256:t0vpeOm78PtRRaGx4qRt4PNUu2ZCRGzEBSfGP541+n0.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'intro.usc430ag-homework1.usc430.isi.deterlab.net%%192.168.1.120' (RSA) to the list of known hosts.
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied (publickey%%password).
+%
+INPUT|usc430ag-intro-436|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG|G /home/zach/csci430<ESC>[A<BS>cp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /ho<ESC>[4Pme/zach/csci430<ESC>[A$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG<ESC>[4@ /home/zach/csci430<BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS>
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+INPUT|usc430ag-intro-437|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG|G /home<BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-438|A4 A3 A1 A0 A2 |000000000|usc430ag|intro:sudoscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG sc430ag@intro:/$ sudscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /sc430ag@intro:/$ suscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hsc430ag@intro:/$ sscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hosc430ag@intro:/$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /homec430ag@intro:/$|
+
+/home/136intro-2jjaj.JPEG: Permission denied
+INPUT|usc430ag-intro-439|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hom|me<BS>
+INPUT|usc430ag-intro-440|U |000000000|usc430ag|intro:sscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home430ag@intro:/$ suscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hoc430ag@intro:/$ sudscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /hc430ag@intro:/$ sudoscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /c430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG c430ag@intro:/$ sudo|%
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied (publickey%%password).
+%
+INPUT|usc430ag-intro-441|U |1547255107|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-442|U |000000000|usc430ag|intro:cd users|
+INPUT|usc430ag-intro-443|U |1547255111|usc430ag|intro:ls|aashraya  faber     jelena   piobair   sharead shareak  sharear  shareay  sharetb
+abhi   gbartlet  jgli     rgoodfel  shareae shareal  shareas  shareaz  sharetc
+alefiya   gerow     jhickey  schwab    shareaf shaream  shareat  shareba  sharetd
+alwabel   gknopf    jjh      scuric    shareag sharean  shareau  sharebb  sklower
+bks   glawler   jross    shareaa   shareah shareao  shareav  sharebc  sunshine
+bloznali  jaipuria  kls2     shareab   shareai shareap  shareaw  sharebd  usc430ag
+ekline   jboman    melkins  shareac   shareaj shareaq  shareax  shareta
+INPUT|usc430ag-intro-444|U |000000000|usc430ag|intro:cd usc430ag/|
+INPUT|usc430ag-intro-445|U |1547255133|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-446|U |000000000|usc430ag|intro:cd top_secret/|
+INPUT|usc430ag-intro-447|U |000000000|usc430ag|intro:pwd|/users/usc430ag/top_secret
+INPUT|usc430ag-intro-448|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-449|U |1547255173|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-450|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-451|U |1547255176|usc430ag|intro:ls|bin   etc     initrd.img      lib64   media  proc  run    snap  tmp    var
+boot  groups  initrd.img.old  local   mnt  proj  sbin   srv   users  vmlinuz
+dev   home    lib       lost+found  opt  root  share  sys   usr    vmlinuz.old
+INPUT|usc430ag-intro-452|U |1547255177|usc430ag|intro:cp /dev/136intro-2jjaj.JPEG /users/usc430ag/top_secret/pic1.jpeg|
+INPUT|usc430ag-intro-453|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-454|U |1547255187|usc430ag|intro:ls|pic1.jpeg
+INPUT|usc430ag-intro-455|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-456|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-457|U |1547255237|usc430ag|intro:nano answers.txt|%(B===(B(B[ New File ]
+(B(B  GNU nano 2.5.3                    File: answers.txt                                              ^G(B Get Help     (B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify(B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File    (B^\(B Replace(B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line
+(BModified
+(Bpic1.jpg%% originally locat
+: /dev/136intro-2jjaj.JPEG
+pic2.png: 
+
+>Use "fg" to return to nano.
+
+[1]+  Stopped                 nano answers.txt%
+INPUT|usc430ag-intro-458|U |1547255284|usc430ag|intro:nano answers.txt|%(B===(B(BFile answers.txt is being edited (by usc430ag with nano 2.5.3%% PID 2935); continue?                 Y(B Yes
+(B N(B No(B^C(B Cancel(B  GNU nano 2.5.3                      New Buffer                                                   (B(B^G(B Get Help     (B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify(B^C(B Cur Pos
+(B^X(B Exit(BR(B Read File    (B^\(B Replace(B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line
+(BModified
+(B(BSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                        Y(B Yes
+(B N(B No  (BC(B Cancel
+%
+INPUT|usc430ag-intro-459|U |1547255296|usc430ag|intro:nano answers.txt|%(B===(B(BFile answers.txt is being edited (by usc430ag with nano 2.5.3%% PID 2935); continue?                 Y(B Yes
+(B N(B No(B^C(B Cancel (B[ New File ](B
+(B  GNU nano 2.5.3                    File: answers.txt                                              ^G(B Get Help     (B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify(B^C(B Cur Pos
+(B^X(B Exit(BR(B Read File    (B^\(B Replace(B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line
+(BModified
+(B(B[ XOFF ignored%% mumble mumble ]
+(B(B[ XOFF ignored%% mumble mumble ]
+(Bpic1.jpg:
+pic2.png:
+ 
+pic3.jpg
+pic4.jpg: 
+/dev/136intro-2jjaj.JPEG/prok/USC430/exp/sunshine-intro/tbdata/sunshine-intro.pnj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png/var/log/136intro-3.jpg/etc/wuer136intro-4/JPG
+
+>Use "fg" to return to nano.
+
+[2]+  Stopped                 nano answers.txt%
+INPUT|usc430ag-intro-460|U |1547255424|usc430ag|intro:nano answers.txt|%(B===(B(BFile answers.txt is being edited (by usc430ag with nano 2.5.3%% PID 2941); continue?                 Y(B Yes
+(B N(B No(B^C(B Cancel(B  GNU nano 2.5.3                      New Buffer                                                   (B(B^G(B Get Help     (B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify(B^C(B Cur Pos
+(B^X(B Exit(BR(B Read File    (B^\(B Replace(B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line
+(B[ line 1/1 (100%%)%% col 1/1 (100%%)%% char 0/0 (0%%) ]
+(B%
+INPUT|usc430ag-intro-461|U |000000000|usc430ag|intro:fg 1|nano answers.txt
+<ESC>[?1049h<ESC>[1;22r<ESC>[?12l<ESC>[?25h<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[H<ESC>[2J<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                    File: answers.txt                                    Modified  <ESC>[3;1H<ESC>(B<ESC>[mpic1.jpg: /dev/136intro-2jjaj.JPEG
+<ESC>[4dpic2.png:
+<ESC>[21d<ESC>(B<ESC>[0;7m^G<ESC>(B<ESC>[m Get Help     <ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out    <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is     <ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text     <ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[81G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos
+<ESC>[22d<ESC>(B<ESC>[0;7m^X<ESC>(B<ESC>[m Exit<ESC>[22;17H<ESC>(B<ESC>[0;7m^R<ESC>(B<ESC>[m Read File    <ESC>(B<ESC>[0;7m^\<ESC>(B<ESC>[m Replace<ESC>[49G<ESC>(B<ESC>[0;7m^U<ESC>(B<ESC>[m Uncut Text   <ESC>(B<ESC>[0;7m^T<ESC>(B<ESC>[m To Spell     <ESC>(B<ESC>[0;7m^_<ESC>(B<ESC>[m Go To Line
+<ESC>[5d<ESC>[?1h<ESC>=<ESC>[20d<ESC>(B<ESC>[0;7mSave modified buffer (ANSWERING "No" WILL
+INPUT|usc430ag-intro-462|U |000000000|usc430ag|intro:fg 0|bash: fg: 0: no such job
+INPUT|usc430ag-intro-463|U |000000000|usc430ag|intro:fg 1|bash: fg: 1: no such job
+INPUT|usc430ag-intro-464|U |000000000|usc430ag|intro:fh 2|fh: command not found
+INPUT|usc430ag-intro-465|U |000000000|usc430ag|intro:fg 2|nano answers.txt
+<ESC>[?1049h<ESC>[1;22r<ESC>[?12l<ESC>[?25h<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[H<ESC>[2J<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                    File: answers.txt                                    Modified  <ESC>[3;1H<ESC>(B<ESC>[mpic1.jpg: /dev/136intro-2jjaj.JPEG
+<ESC>[4dpic2.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png
+<ESC>[5dpic3.jpg: /var/log/136intro-3.jpg
+<ESC>[21d<ESC>(B<ESC>[0;7m^G<ESC>(B<ESC>[m Get Help     <ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out    <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is     <ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text     <ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[81G<ESC>(B<ESC>[0;7m^C<ESC>(B<ESC>[m Cur Pos
+<ESC>[22d<ESC>(B<ESC>[0;7m^X<ESC>(B<ESC>[m Exit<ESC>[22;17H<ESC>(B<ESC>[0;7m^R<ESC>(B<ESC>[m Read File    <ESC>(B<ESC>[0;7m^\<ESC>(B<ESC>[m Replace<ESC>[49G<ESC>(B<ESC>[0;7m^U<ESC>(B<ESC>[m Uncut Text   <ESC>(B<ESC>[0;7m^T<ESC>(B<ESC>[m To Spell     <ESC>(B<ESC>[0;7m^_<ESC>(B<ESC>[m G
+INPUT|usc430ag-intro-466|U |1547255479|usc430ag|intro:nano answers.txt|(B===(B(B[ Reading File ]
+(B(B 4 lines
+(B(B  GNU nano 2.5.3                    File: answers.txt                                              (Bpic1.jpg: /dev/136intro-2jjaj.JPEG
+pic2.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png
+pic3.jpg: /var/log/136intro-3.jpg
+pic4.jpg: /etc/wuer136intro-4/JPG
+(B^G(B Get Help     (B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify(B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File    (B^\(B Replace(B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line
+
+(BModified
+(B 78
+Mpic1.jpg: /dev/136intro-2jjaj.$$2jjaj.JPEG
+pic2.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png pic1.jpg: /dev/136intro-2jjaj.$pic2.png: /pro
+/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png78
+M
+ pic1.jpg: /dev/136intro-2jjaj.JPEG
+pic2.jpg: /dev/136intro-2jjaj.JPE1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png
+
+(BSave modified buffer (ANSWERING "No" WILL DESTROY
+INPUT|usc430ag-intro-467|U |1547255525|usc430ag|intro:ls|answers.txt  pic1.jpeg
+INPUT|usc430ag-intro-468|U |1547255536|usc430ag|intro:mv pic1.jpeg pic2.jpeg|
+INPUT|usc430ag-intro-469|U |1547255537|usc430ag|intro:ls|answers.txt  pic2.jpeg
+INPUT|usc430ag-intro-470|U |1547255544|usc430ag|intro:nano answers.txt|(B===(B(B[ Reading File ]
+(B(B 4 lines
+(B(B  GNU nano 2.5.3                    File: answers.txt                                              (Bpic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png
+pic2.jpg: /dev/136intro-2jjaj.JPEG
+pic3.jpg: /var/log/136intro-3.jpg
+pic4.jpg: /etc/wuer136intro-4/JPG
+(B^G(B Get Help     (B^O(B Write Out    (B^W(B Where Is     (B^K(B Cut Text     (B^J(B Justify(B^C(B Cur Pos
+(B^X(B Exit(B^R(B Read File    (B^\(B Replace(B^U(B Uncut Text   (B^T(B To Spell     (B^_(B Go To Line
+
+INPUT|usc430ag-intro-471|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-472|U |000000000|usc430ag|intro:cp ./proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png /users/usc430ag/top|_secret/pic1.png
+INPUT|usc430ag-intro-473|U |1547255624|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-474|U |000000000|usc430ag|intro:cp ./var/log/136intro-3.jpg|
+INPUT|usc430ag-intro-475|U |1547255641|usc430ag|intro:cp ./var/log/136intro-3.jpg /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-476|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic4|
+INPUT|usc430ag-intro-477|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-478|U |1547255652|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-479|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-480|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-481|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic4.jpg|
+INPUT|usc430ag-intro-482|U |000000000|usc430ag|intro:cp ./var/log/136intro-3.jpg /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-483|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-484|U |000000000|usc430ag|intro:cp ./proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png /users/usc430ag/top_|_secret/pic1.png<ESC>[A$ cd /<ESC>[K
+
+INPUT|usc430ag-intro-485|U |000000000|usc430ag|intro:mv pic1.jpeg pic2.jpeg|
+INPUT|usc430ag-intro-486|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-487|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-488|U |000000000|usc430ag|intro:cp /dev/136intro-2jjaj.JPEG /users/usc430ag/top_secret/pic1.jpeg|
+INPUT|usc430ag-intro-489|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG|G /home<ESC>[Ag@intro:/$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home<ESC>[K<ESC>[Ac430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home<BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-490|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JP|
+G
+INPUT|usc430ag-intro-491|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JP /sc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.J /hsc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj. /hosc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj /homec430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jja /homesc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jj /home|
+INPUT|usc430ag-intro-492|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2j|
+INPUT|usc430ag-intro-493|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/t /home sc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/to /home|e<ESC>[Asc430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top /home<ESC>[Ac430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_ /home<ESC>[A430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_s /h<ESC>[1@o<ESC>[Ac430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_se /<ESC>[1@h<ESC>[Ac430ag@intro:/$ sudo scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_sec <ESC>[1@/
+<ESC>[1@r<ESC>[1@e<ESC>[1@t<ESC>[1@/<ESC>[1@* /home<BEL><BEL><BEL><BEL><BEL><BEL><BEL>/s<BS> <BS>csci430
+root@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+INPUT|usc430ag-intro-494|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secr|ret/* /home/csci430<BS><ESC>[Acd /<ESC>[K
+
+INPUT|usc430ag-intro-495|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secr|ret/* /home/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-496|A1 A2 A0 A4 A3 |000000000|usc430ag|intro:sudoscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secresc430ag@intro:/$ sudscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secretsc430ag@intro:/$ suscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/sc430ag@intro:/$ sscp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/*sc430ag@intro:/$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* sc430ag@intro:/$|
+
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+INPUT|usc430ag-intro-497|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/*| /home/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-498|U |000000000|usc430ag|intro:scp -intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* c430ag@intro:/$ scp -rintro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/*c430ag@intro:/$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/c430ag@intro:/$ scp -r|
+
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+/home/csci430: Permission denied
+INPUT|usc430ag-intro-499|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret|t/* /home/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-500|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:|
+INPUT|usc430ag-intro-501|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-502|U |1547255812|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-503|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret|t/* /home/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-504|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/users/usc430ag/top_secretc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~users/usc430ag/top_secretsc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~sers/usc430ag/top_secret/sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~ers/usc430ag/top_secret/*sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~rs/usc430ag/top_secret/* sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~s/usc430ag/top_secret/* /sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/usc430ag/top_secret/* /hsc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~usc430ag/top_secret/* /hosc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~sc430ag/top_secret/* /homsc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~c430ag/top_secret/* /homesc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~430ag/top_secret/* /home/sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~30ag/top_secret/* /home/csc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~0ag/top_secret/* /home/cssc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~ag/top_secret/* /home/cscsc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~g/top_secret/* /home/cscisc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* /home/csci4sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~/home/csci4c430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~home/csci4sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~ome/csci430c430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~me/csci430sc430ag@intro:~$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~e/csci430|
+INPUT|usc430ag-intro-505|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~|
+INPUT|usc430ag-intro-506|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~|scp: ~/top_secret/*: No such file or directory
+INPUT|usc430ag-intro-507|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~/csci43|
+INPUT|usc430ag-intro-508|U |000000000|usc430ag|intro:cd ~/top_secret/|
+INPUT|usc430ag-intro-509|U |1547255835|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-510|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/*| ~/csci430<BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-511|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/|
+INPUT|usc430ag-intro-512|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/ ~sc430ag@intro:~/top_secret$ scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/p ~|<ESC>[1@i<ESC>[1@c<ESC>[1@1<ESC>[1@.<ESC>[1@j<BS><ESC>[1P<ESC>[1@p<ESC>[1@g<BS><ESC>[1P<ESC>[1@n<ESC>[1@g ~/csci430<BEL><BEL><BEL><BEL><BEL><BEL>/pic1.png
+scp: ~/top_secret/pic1.png: No such file or directory
+INPUT|usc430ag-intro-513|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pi|ic1.png ~/csci430/pic1.png<BS><BS><BS><BS><BS><BS><BS><BS>pic1.png<BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL>
+scp: ~/top_secret/pic1.png: No such file or directory
+INPUT|usc430ag-intro-514|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pi|ic1.png ~/csci430/pic1.png<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-515|U |000000000|usc430ag|intro:scp - intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/picsc430ag@intro:~/top_secret$ scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1sc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.sc430ag@intro:~/top_secret$ scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.c430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.sc430ag@intro:~/top_secret$ scp|
+
+scp: ~/top_secret/pic1.png: No such file or directory
+INPUT|usc430ag-intro-516|U |1547255920|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-517|U |000000000|usc430ag|intro:pwd|/users/usc430ag/top_secret
+INPUT|usc430ag-intro-518|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.|.png ~/csci430/pic1.png<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-519|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/top_secret/pic1.psc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net://top_secret/pic1.pc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/u/top_secret/pic1.c430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/us/top_secret/pic1c430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/use/top_secret/picc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/user/top_secret/pic430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/top_secret/pc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users//top_secret/c430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/u/top_secretc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/us/top_secrec430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc/top_secrc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc4/top_secc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc43/top_sec430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430/top_sc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430a/top_c430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/topc430ag@intro:~/top_secret$ scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag|
+
+/users/usc430ag/csci430/pic1.png: No such file or directory
+INPUT|usc430ag-intro-520|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/to|op_secret/pic1.png ~/csci430/pic1.png<BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS><BS>
+INPUT|usc430ag-intro-521|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/|
+op_secret/pic1.png ~/csci430/pic1.png<BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><BEL><ESC>[A<BS><BS><BS><BS><BS><BS><BS><BS><ESC>[K
+
+INPUT|usc430ag-intro-522|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/to|op_secret/pic1.png ~/csci430/pic1.png<BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><BS> <BS><ESC>[Apwd<ESC>[K
+
+INPUT|usc430ag-intro-523|U |000000000|usc430ag|intro:pwd^C|
+INPUT|usc430ag-intro-524|U |1547255965|usc430ag|intro:clear|
+INPUT|usc430ag-intro-525|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/to|op_secret/pic1.png ~/csci430/
+/users/usc430ag/csci430/: Is a directory
+INPUT|usc430ag-intro-526|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/to|op_secret/pic1.png ~/csci430/
+INPUT|usc430ag-intro-527|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/pic1.png|/users/usc430ag/csci430/pic1.png: No such file or directory
+INPUT|usc430ag-intro-528|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-529|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|%
+pic1.png                                                                                                   0%%    0     0.0KB/s   --:-- ETA
+pic1.png                                                                                                 100%%  353     0.3KB/s   00:00    %
+INPUT|usc430ag-intro-530|U |1547256085|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-531|U |000000000|usc430ag|intro:scp user430ag@|%user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: %
+INPUT|usc430ag-intro-532|U |1547256129|usc430ag|intro:clear|
+INPUT|usc430ag-intro-533|U |000000000|usc430ag|intro:cd /|
+INPUT|usc430ag-intro-534|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-535|U |000000000|usc430ag|intro:cd ..|
+INPUT|usc430ag-intro-536|U |1547256135|usc430ag|intro:clear|
+INPUT|usc430ag-intro-537|U |1547256136|usc430ag|intro:clear|
+INPUT|usc430ag-intro-538|U |1547256136|usc430ag|intro:clear|
+INPUT|usc430ag-intro-539|U |1547256137|usc430ag|intro:clear|
+INPUT|usc430ag-intro-540|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-541|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-542|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|%user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied%% please try again.
+
+user430ag@intro.usc430ag-homework1.usc430.isi.deterlab.net's password: 
+Permission denied (publickey%%password).
+%
+INPUT|usc430ag-intro-543|U |000000000|usc430ag|intro:scp|/users/usc430ag/home/zach: No such file or directory
+INPUT|usc430ag-intro-544|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png .|./home/zach: Permission denied
+INPUT|usc430ag-intro-545|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~|scp: ~/top_secret/pic1.png: No such file or directory
+INPUT|usc430ag-intro-546|U |000000000|usc430ag|intro:ls ~/top_secret/|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-547|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|
+INPUT|usc430ag-intro-548|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|
+INPUT|usc430ag-intro-549|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-550|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-551|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-552|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-553|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-554|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~/csci430|
+INPUT|usc430ag-intro-555|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-556|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-557|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-558|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-559|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic4.jpg|
+INPUT|usc430ag-intro-560|U |000000000|usc430ag|intro:cp ./var/log/136intro-3.jpg /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-561|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-562|U |000000000|usc430ag|intro:cp ./proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png /users/usc430ag/top_secret/pic1.png|
+INPUT|usc430ag-intro-563|U |000000000|usc430ag|intro:mv pic1.jpeg pic2.jpeg|
+INPUT|usc430ag-intro-564|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-565|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-566|U |000000000|usc430ag|intro:cp /dev/136intro-2jjaj.JPEG /users/usc430ag/top_secret/pic1.jpeg|
+INPUT|usc430ag-intro-567|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-568|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-569|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home/zach/csci430|
+INPUT|usc430ag-intro-570|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home/zach/Pictures|
+INPUT|usc430ag-intro-571|U |000000000|usc430ag|intro:scp usc430ag@intro:/dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-572|U |000000000|usc430ag|intro:scp ./var/log/136intro-3.jpg|
+INPUT|usc430ag-intro-573|U |000000000|usc430ag|intro:scp dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-574|U |000000000|usc430ag|intro:feh dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-575|U |000000000|usc430ag|intro:feh dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-576|U |000000000|usc430ag|intro:cd dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-577|A1 A0 A2 A4 A3 |000000000|usc430ag|intro:find . -name "*intro*"|
+INPUT|usc430ag-intro-578|A4 A3 A1 A0 A2 |000000000|usc430ag|intro:find . -name "*intro*"|
+INPUT|usc430ag-intro-579|U |000000000|usc430ag|intro:cd ../../users/usc430ag/|
+INPUT|usc430ag-intro-580|U |000000000|usc430ag|intro:cd ../../users/usc430ag/|
+INPUT|usc430ag-intro-581|A3 A4 A2 A0 A1 |000000000|usc430ag|intro:find . -name "*intro*"|
+INPUT|usc430ag-intro-582|A4 A3 A1 A0 A2 |000000000|usc430ag|intro:find . -name "*intro*"|
+INPUT|usc430ag-intro-583|U |000000000|usc430ag|intro:cd dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-584|U |000000000|usc430ag|intro:feh dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-585|U |000000000|usc430ag|intro:feh dev/136intro-2jjaj.JPEG|
+INPUT|usc430ag-intro-586|U |000000000|usc430ag|intro:scp ./var/log/136intro-3.jpg|
+INPUT|usc430ag-intro-587|U |000000000|usc430ag|intro:scp usc430ag@intro:/|
+INPUT|usc430ag-intro-588|U |000000000|usc430ag|intro:scp usc430ag@intro:/dev/136intro-2jjaj.JPEG /home/zach/Pictures|
+INPUT|usc430ag-intro-589|U |000000000|usc430ag|intro:scp  intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home/zach/csci430|
+INPUT|usc430ag-intro-590|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-591|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-592|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-593|U |000000000|usc430ag|intro:cp /dev/136intro-2jjaj.JPEG /users/usc430ag/top_secret/pic1.jpeg|
+INPUT|usc430ag-intro-594|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-595|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-596|U |000000000|usc430ag|intro:mv pic1.jpeg pic2.jpeg|
+INPUT|usc430ag-intro-597|U |000000000|usc430ag|intro:cp ./proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png /users/usc430ag/top_secret/pic1.png|
+INPUT|usc430ag-intro-598|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-599|U |000000000|usc430ag|intro:cp ./var/log/136intro-3.jpg /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-600|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic4.jpg|
+INPUT|usc430ag-intro-601|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-602|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-603|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-604|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-605|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~/csci430|
+INPUT|usc430ag-intro-606|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-607|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-608|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-609|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-610|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-611|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|
+INPUT|usc430ag-intro-612|U |1547256230|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ./home/zach|
+INPUT|usc430ag-intro-613|U |000000000|usc430ag|intro:cd ~/top_secret/|
+INPUT|usc430ag-intro-614|U |1547256306|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-615|U |1547256310|usc430ag|intro:nano pic1.png|%(B===(B(B[ Reading File ]
+(B(B[ Read 7 lines (Converted from DOS and Mac format) ]
+(B(B  GNU nano 2.5.3                                  File: pic1.png                                                                           (B^<C3><89>PNG
+^Z
+^@^@^@
+IHDR^@^@^@<C2><A0>^@^@^@<C2><A0>^H^C^@^@^@<C2><BC>^Q^^_^@^@^@<PLTE<C3><BE><C3><BE><C3><BE>???^?^?^?<C3><92><C3><92><C3><92><C3><BF><C3><BF><C3><BF>^@<C3><BF><C3><BF>^@<C3><BF>^<C3><EURO>^@^@<C2><A0>^@`<C3><EURO>`^@<C3><EURO>^@<C3><92><C3><88>^?^?<C3><EURO><C3><EURO><C3><EURO>^?^@^@<C3><EURO><C3><EURO>^@^@^<C3><EURO>^@^@^@^@`^@^@^@<C3><8F>1(t^@$^<C3><81>^<C3><BULL><C3><EURO>J`%%^RX    ^DV^B<C3><BD><C3><EURO><C3><MICRO>'9^<C3><8E><C3><BB>^C><C3><90><C3><8D>^G<C3><ORDF>k<C3><96><C3><BB><C3><A6>^C<C3><MICRO>5<C3><AB>}<C3><B3>^<C3><81><C3><ORDM>^<C3><9A><C3><MICRO><C2><BE><C3><B9>@}_^<C3><99>^<C3><8E><C3><BD>o^S^X    ^DV^B+^<C3><81>^<C3><BULL><C3><EURO>J`%%^RX<C3><8D>?<C3><89>^<C3><89>{7^_<C3><DEG>^B<C3><B3>^<C3><85><C3><B3>^<C3
+INPUT|usc430ag-intro-616|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430|
+INPUT|usc430ag-intro-617|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430^C|
+INPUT|usc430ag-intro-618|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-619|U |000000000|usc430ag|intro:cd|
+INPUT|usc430ag-intro-620|U |1547256430|usc430ag|intro:ls|pic1.png  top_secret
+INPUT|usc430ag-intro-621|U |000000000|usc430ag|intro:cd top_secret/|
+INPUT|usc430ag-intro-622|U |1547256436|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg
+INPUT|usc430ag-intro-623|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-624|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-625|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-626|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-627|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-628|U |000000000|usc430ag|intro:cd|
+INPUT|usc430ag-intro-629|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-630|U |1547256466|usc430ag|intro:ls|pic1.png  top_secret
+INPUT|usc430ag-intro-631|U |000000000|usc430ag|intro:cd ./|
+INPUT|usc430ag-intro-632|U |000000000|usc430ag|intro:cd  /|
+INPUT|usc430ag-intro-633|U |1547256470|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-634|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-635|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/|^[[Assh: connect to host users.deterlab.net port 22: Connection timed out
+
+INPUT|usc430ag-intro-636|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/m^C|
+INPUT|usc430ag-intro-637|U |1547256689|usc430ag|intro:man scp|%=
+SCP(1)                                                BSD General Commands Manual                                                SCP(1)
+
+NAME
+     scp -- secure copy (remote file copy program)
+
+SYNOPSIS
+     scp [-12346BCpqrv] [-c cipher] [-F ssh_config] [-i identity_file] [-l limit] [-o ssh_option] [-P port] [-S program]
+         [[user@]host1:]file1 ... [[user@]host2:]file2
+
+DESCRIPTION
+     scp copies files between hosts on a network.  It uses ssh(1) for data transfer%% and uses the same authentication and provides the
+     same security as ssh(1).  scp will ask for passwords or passphrases if they are needed for authentication.
+
+     File names may contain a user and host specification to indicate that the file is to be copied to/from that host.  Local file
+     names can be made explicit using absolute or relative pathnames to avoid scp treating file names containing ':' as host speci-
+     fiers.  Copies between two remote hosts 
+INPUT|usc430ag-intro-638|U |000000000|usc430ag|intro:scp -r -v|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -r -f /top_secret/
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-639|U |000000000|usc430ag|intro:scp -r -v usc430ag@users.|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -r -f /top_secret/
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-640|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-641|U |1547256817|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-642|U |000000000|usc430ag|intro:usc430ag@user.deterlab.net|usc430ag@user.deterlab.net: command not found
+INPUT|usc430ag-intro-643|U |1547256867|usc430ag|intro:nano usc430ag@user.deterlab.net:/top_secret/answer.txt|(B===(B(B[ Directory 'usc430ag@user.deterlab.net:/top_secret' does not exist ]
+(B(B  GNU nano 2.5.3                    File: usc430ag@user.deterlab.net:/top_secret/answer.txt                                                ^G(B Get Help(B^O(B Write Out     (B^W(B Where Is(B^K(B Cut Text(B^J(B Justify(B^C(B Cur Pos(B^Y(B Prev Page     (BM-\(B First Line
+(B^X(B Exit(B^R(B Read File     (B^\(B Replace(B^U(B Uncut Text    (B^T(B To Spell(B^_(B Go To Line    (B^V(B Next Page     (BM-/(B Last Line
+
+INPUT|usc430ag-intro-644|U |1547256870|usc430ag|intro:nano usc430ag@user.deterlab.net:/top_secret/answer.txt|(B===(B(B[ Directory 'usc430ag@user.deterlab.net:/top_secret' does not exist ]
+(B(B  GNU nano 2.5.3                    File: usc430ag@user.deterlab.net:/top_secret/answer.txt                                                ^G(B Get Help(B^O(B Write Out     (B^W(B Where Is(B^K(B Cut Text(B^J(B Justify(B^C(B Cur Pos(B^Y(B Prev Page     (BM-\(B First Line
+(B^X(B Exit(B^R(B Read File     (B^\(B Replace(B^U(B Uncut Text    (B^T(B To Spell(B^_(B Go To Line    (B^V(B Next Page     (BM-/(B Last Line
+
+INPUT|usc430ag-intro-645|U |000000000|usc430ag|intro:nano usc430ag@user.deterlab.net:/top_secret/answer.txt|
+INPUT|usc430ag-intro-646|U |000000000|usc430ag|intro:usc430ag@user.deterlab.net|
+INPUT|usc430ag-intro-647|U |000000000|usc430ag|intro:scp -r -v usc430ag@users.deterlab.net:/top_secret/ ~/csci430/|
+INPUT|usc430ag-intro-648|U |000000000|usc430ag|intro:usc430ag@user.deterlab.net|
+INPUT|usc430ag-intro-649|U |000000000|usc430ag|intro:scp usc430ag@user.deterlab.net:/top_secret/answer.txt ~/|ssh: Could not resolve hostname user.deterlab.net: Name or service not known
+
+INPUT|usc430ag-intro-650|U |000000000|usc430ag|intro:scp usc430ag@users|
+INPUT|usc430ag-intro-651|U |000000000|usc430ag|intro:scp -v|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-652|U |000000000|usc430ag|intro:scp -v usc430ag@user|%Executing: program /usr/bin/ssh host user.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+ssh: Could not resolve hostname user.deterlab.net: Name or service not known
+%
+INPUT|usc430ag-intro-653|U |000000000|usc430ag|intro:scp -v usc430ag@users|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-654|U |1547256977|usc430ag|intro:clear|
+INPUT|usc430ag-intro-655|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-656|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-657|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-658|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-659|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-660|U |000000000|usc430ag|intro:scp usc430ag@user.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-661|U |000000000|usc430ag|intro:nano usc430ag@user.deterlab.net:/top_secret/answer.txt|
+INPUT|usc430ag-intro-662|U |000000000|usc430ag|intro:usc430ag@user.deterlab.net|
+INPUT|usc430ag-intro-663|U |000000000|usc430ag|intro:scp -r -v usc430ag@users.deterlab.net:/top_secret/ ~/csci430/|
+INPUT|usc430ag-intro-664|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-665|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-666|U |000000000|usc430ag|intro:scp usc430ag@users.deterlab.net:/top_secret/pic1.png ~/csci430|
+INPUT|usc430ag-intro-667|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|
+INPUT|usc430ag-intro-668|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/home/zach|
+INPUT|usc430ag-intro-669|U |000000000|usc430ag|intro:scp user430ag@intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/|
+INPUT|usc430ag-intro-670|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/|
+INPUT|usc430ag-intro-671|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-672|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-673|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/pic1.png ~/csci430/pic1.png|
+INPUT|usc430ag-intro-674|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:~/top_secret/* ~/csci430|
+INPUT|usc430ag-intro-675|U |000000000|usc430ag|intro:scp -r intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-676|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-677|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/users/usc430ag/top_secret/* /home/csci430|
+INPUT|usc430ag-intro-678|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-679|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic4.jpg|
+INPUT|usc430ag-intro-680|U |000000000|usc430ag|intro:cp ./var/log/136intro-3.jpg /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-681|U |000000000|usc430ag|intro:cp ./etc/wuer136intro-4.JPG /users/usc430ag/top_secret/pic3.jpg|
+INPUT|usc430ag-intro-682|U |000000000|usc430ag|intro:cp ./proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png /users/usc430ag/top_secret/pic1.png|
+INPUT|usc430ag-intro-683|U |000000000|usc430ag|intro:mv pic1.jpeg pic2.jpeg|
+INPUT|usc430ag-intro-684|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-685|U |000000000|usc430ag|intro:cd users/usc430ag/top_secret/|
+INPUT|usc430ag-intro-686|U |000000000|usc430ag|intro:cp /dev/136intro-2jjaj.JPEG /users/usc430ag/top_secret/pic1.jpeg|
+INPUT|usc430ag-intro-687|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-688|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home|
+INPUT|usc430ag-intro-689|U |000000000|usc430ag|intro:scp intro.usc430ag-homework1.USC430.isi.deterlab.net:/dev/136intro-2jjaj.JPEG /home^C|
+INPUT|usc430ag-intro-690|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-691|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|
+INPUT|usc430ag-intro-692|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt ~/|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-693|U |000000000|usc430ag|intro:scp -v usc430ag@users.deterlab.net:/top_secret/answer.txt|%Executing: program /usr/bin/ssh host users.deterlab.net%% user usc430ag%% command scp -v -f /top_secret/answer.txt
+OpenSSH_7.2p2 Ubuntu-4ubuntu2.2%% OpenSSL 1.0.2g  1 Mar 2016
+
+debug1: Reading configuration data /etc/ssh/ssh_config
+
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+
+debug1: Connecting to users.deterlab.net [206.117.25.49] port 22.
+%
+INPUT|usc430ag-intro-694|U |000000000|usc430ag|intro:^C|
+INPUT|usc430ag-intro-695|A1 A2 A0 A4 A3 |000000000|usc430ag|intro:find c^C|
+INPUT|usc430ag-intro-696|U |1547257312|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-697|M2 |000000000|usc430ag|intro:find . -type f -iname \"*tintro|!TRUNCATED TO 500L! find: './var/cache/apt/archives/partial': Permission denied
+find: './var/cache/ldconfig': Permission denied
+find: './var/spool/cron/atjobs': Permission denied
+find: './var/spool/cron/atspool': Permission denied
+find: './var/spool/cron/crontabs': Permission denied
+find: './var/spool/rsyslog': Permission denied
+./var/log/ttylog/ttylog.intro.0
+./var/log/ttylog/alltty.intro
+./var/log/ttylog/ttylog.intro.1
+./var/log/ttylog/cli.intro.csv
+find: './var/log/unattended-upgrades': Permission denied
+./var/log/136intro-3.jpg
+find: './var/lib/apt/lists/partial': Permission denied
+find: './var/lib/polkit-1': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Perm
+INPUT|usc430ag-intro-698|U |000000000|usc430ag|intro:cp /usr/share/pixmaps/xbzf136INTRO-1.jpg ~/top_secret/pic5.jpg|
+INPUT|usc430ag-intro-699|U |000000000|usc430ag|intro:nano ~/top_secret/answers.txt|%<ESC>[?1049h<ESC>[1;22r<ESC>(B<ESC>[m<ESC>[4l<ESC>[?7h<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[?1h<ESC>=<ESC>[39;49m<ESC>[?25l<ESC>[39;49m<ESC>(B<ESC>[m<ESC>[H<ESC>[2J<ESC>[20;62H<ESC>(B<ESC>[0;7m[ Reading File ]
+<ESC>[3d<ESC>(B<ESC>[m<ESC>[20;68H<ESC>(B<ESC>[0;7m 4 lines
+<ESC>[7d<ESC>(B<ESC>[m<ESC>[?12l<ESC>[?25h<ESC>[H<ESC>[39;49m<ESC>(B<ESC>[0;7m  GNU nano 2.5.3                        File: /users/usc430ag/top_secret/answers.txt                                                       <ESC>[3;1H<ESC>(B<ESC>[mpic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png
+<ESC>[4dpic2.jpg: /dev/136intro-2jjaj.JPEG
+<ESC>[5dpic3.jpg: /var/log/136intro-3.jpg
+<ESC>[6dpic4.jpg: /etc/wuer136intro-4/JPG
+<ESC>[21d<ESC>(B<ESC>[0;7m^G<ESC>(B<ESC>[m Get Help<ESC>[18G<ESC>(B<ESC>[0;7m^O<ESC>(B<ESC>[m Write Out     <ESC>(B<ESC>[0;7m^W<ESC>(B<ESC>[m Where Is<ESC>[52G<ESC>(B<ESC>[0;7m^K<ESC>(B<ESC>[m Cut Text<ESC>[69G<ESC>(B<ESC>[0;7m^J<ESC>(B<ESC>[m Justify<ESC>[86G<ESC>(B<ESC>[0;7m
+INPUT|usc430ag-intro-700|U |1547257838|usc430ag|intro:rsync|%rsync  version 3.1.1  protocol version 31
+Copyright (C) 1996-2014 by Andrew Tridgell%% Wayne Davison%% and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files%% 64-bit inums%% 64-bit timestamps%% 64-bit long ints%%
+    socketpairs%% hardlinks%% symlinks%% IPv6%% batchfiles%% inplace%%
+    append%% ACLs%% xattrs%% iconv%% symtimes%% prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software%% and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPT
+INPUT|usc430ag-intro-701|U |1547257840|usc430ag|intro:clear|
+INPUT|usc430ag-intro-702|U |000000000|usc430ag|intro:rsync usc430ag@users.deterlab.net:~/top_secret/answers.txt ~/|.bash_history  .cache/        .forward       .nano/         .ssh/          .ssl/          top_secret/    
+INPUT|usc430ag-intro-703|U |000000000|usc430ag|intro:rsync usc430ag@users.deterlab.net:~/top_secret/answers.txt ~/|.bash_history  .cache/        .forward       .nano/         .ssh/          .ssl/          top_secret/    
+INPUT|usc430ag-intro-704|U |000000000|usc430ag|intro:rsync usc430ag@users.deterlab.net:~/top_secret/answers.txt ~/|%^Crsync error: received SIGINT%% SIGTERM%% or SIGHUP (code 20) at rsync.c(632) [Receiver=3.1.1]%
+INPUT|usc430ag-intro-705|U |000000000|usc430ag|intro:rsync 0-v|Unexpected remote arg: usc430ag@users.deterlab.net:~/top_secret/answers.txt
+rsync error: syntax or usage error (code 1) at main.c(1348) [sender=3.1.1]
+INPUT|usc430ag-intro-706|U |000000000|usc430ag|intro:rsync|%^[[A^[[B^[[A^[[A^Crsync error: received SIGINT%% SIGTERM%% or SIGHUP (code 20) at rsync.c(632) [Receiver=3.1.1]%
+INPUT|usc430ag-intro-707|U |000000000|usc430ag|intro:rsync -v usc430ag@users.deterlab.net:~/top_secret/answers.txt ~/csci430|%^Crsync error: received SIGINT%% SIGTERM%% or SIGHUP (code 20) at rsync.c(632) [Receiver=3.1.1]%
+INPUT|usc430ag-intro-708|U |1547258115|usc430ag|intro:ls|bin   dev  groups  initrd.img    lib   local       media  opt   proj  run   share  srv  tmp   usr  vmlinuz
+boot  etc  home    initrd.img.old  lib64  lost+found  mnt    proc  root  sbin  snap   sys  users  var  vmlinuz.old
+INPUT|usc430ag-intro-709|U |000000000|usc430ag|intro:cd ~|
+INPUT|usc430ag-intro-710|U |1547258119|usc430ag|intro:ls|top_secret
+INPUT|usc430ag-intro-711|U |000000000|usc430ag|intro:cd  top_secret/|
+INPUT|usc430ag-intro-712|U |1547258121|usc430ag|intro:ls|answers.txt  pic1.png  pic2.jpeg  pic3.jpg  pic4.jpg  pic5.jpg
+INPUT|usc430ag-intro-713|U |1547258124|usc430ag|intro:nano answers.txt|%(B===(B(B[ Reading File ]
+(B(B 6 lines
+(B(B  GNU nano 2.5.3                                 File: answers.txt                                                                         (Bpic1.png: /proj/USC430/exp/sunshine-intro/tbdata/sunshine-intro.png
+pic2.jpg: /dev/136intro-2jjaj.JPEG
+pic3.jpg: /var/log/136intro-3.jpg
+pic4.jpg: /etc/wuer136intro-4/JPG
+pic5.jpg: /usr/share/pixmaps/xbzf136INTRO-1.jpg
+(B^G(B Get Help(B^O(B Write Out     (B^W(B Where Is(B^K(B Cut Text(B^J(B Justify(B^C(B Cur Pos(B^Y(B Prev Page     (BM-\(B First Line
+(B^X(B Exit(B^R(B Read File     (B^\(B Replace(B^U(B Uncut Text    (B^T(B To Spell(B^_(B Go To Line    (B^V(B Next Page     (BM-/(B Last Line
+(BModified(B%% three green squares%%
+godzilla poster%% it came from outer space poster%% the fly post
+%% forbidden planet poster
+
+(BSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                Y(B Yes<N

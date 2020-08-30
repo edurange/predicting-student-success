@@ -1,0 +1,457 @@
+User usc430ak start time 1580603161 end 1581353557
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430ak-intro-0|U |000000000|usc430ak|:|
+INPUT|usc430ak-intro-1|U |000000000|usc430ak|:|
+INPUT|usc430ak-intro-2|U |1580603161|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-3|U |1580603535|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-4|U |1580603548|usc430ak|intro:node_list|node_list: command not found
+
+INPUT|usc430ak-intro-5|U |1580603552|usc430ak|intro:node_summary|node_summary: command not found
+
+INPUT|usc430ak-intro-6|U |1580603725|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-7|U |1580603733|usc430ak|intro:cd thomas.png|bash: cd: thomas.png: Not a directory
+
+INPUT|usc430ak-intro-8|U |1580603734|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-9|U |1580603753|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-10|U |1580603776|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-11|U |1580603847|usc430ak|intro:ls -|ls: cannot access '-': No such file or directory
+
+INPUT|usc430ak-intro-12|U |1580603849|usc430ak|intro:ls -a|.   .bash_history  copyfile.cpp  .gnupg  .ssl	     usc430ab.txt  usc430.txt
+..  .cache	   .forward	 .ssh	 thomas.png  usc430ak.txt
+
+INPUT|usc430ak-intro-13|U |1580603926|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-14|U |1580603932|usc430ak|intro:ls -a|.   .bash_history  copyfile.cpp  .gnupg  .ssl	     usc430ab.txt  usc430.txt
+..  .cache	   .forward	 .ssh	 thomas.png  usc430ak.txt
+
+INPUT|usc430ak-intro-15|U |1580603971|usc430ak|intro:ssh pc156|The authenticity of host 'pc156 (192.168.1.156)' can't be established.
+RSA key fingerprint is SHA256:t0vpeOm78PtRRaGx4qRt4PNUu2ZCRGzEBSfGP541+n0.
+Are you sure you want to continue connecting (yes/no)? yes;1580603972
+Warning: Permanently added 'pc156192.168.1.156' (RSA) to the list of known hosts.
+
+INPUT|usc430ak-intro-16|U |1580603975|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-17|U |1580603977|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-18|U |1580603978|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-19|U |1580603979|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-20|U |1580603980|usc430ak|intro:ls -a|.   .bash_history  copyfile.cpp  .gnupg  .ssl	     usc430ab.txt  usc430.txt
+..  .cache	   .forward	 .ssh	 thomas.png  usc430ak.txt
+
+INPUT|usc430ak-intro-21|A0 A2 A3 A1 A4 |1580604079|usc430ak|intro:find . -type d -name ".*"|.
+./.ssl
+./.ssh
+./.gnupg
+./.cache
+
+INPUT|usc430ak-intro-22|U |1580604099|usc430ak|intro:cd /.cache|bash: cd: /.cache: No such file or directory
+
+INPUT|usc430ak-intro-23|U |1580604128|usc430ak|intro:ls -al | more|total 1124
+drwx------  6 usc430ak USC430     512 Jan 17 14:35 .
+drwxr-xr-x 27 root     root      4096 Feb  1 16:09 ..
+-rw-------  1 usc430ak USC430    4543 Feb  1 16:30 .bash_history
+drwx------  2 usc430ak USC430     512 Jan 17 13:49 .cache
+-rw-r--r--  1 usc430ak USC430       0 Jan 17 14:04 copyfile.cpp
+-rw-r--r--  1 usc430ak USC430      17 Jan 17 11:12 .forward
+drwx------  3 usc430ak USC430     512 Jan 17 13:49 .gnupg
+drwx------  2 usc430ak USC430     512 Jan 17 13:49 .ssh
+drwx------  2 usc430ak USC430     512 Jul 15  2019 .ssl
+-rw-r--r--  1 usc430ak USC430 1066601 Jan 17 14:35 thomas.png
+-rw-r--r--  1 usc430ak USC430       0 Jan 17 14:33 usc430ab.txt
+-rw-r--r--  1 usc430ak USC430       0 Jan 17 14:22 usc430ak.txt
+-rw-r--r--  1 usc430ak USC430       0 Jan 17 14:21 usc430.txt
+
+INPUT|usc430ak-intro-24|M4 |1580604201|usc430ak|intro:find /|/
+/.hidden
+/.hidden/asdf136Intro-5kqlw.jpeg
+/local
+/local/logs
+/local/logs/intro_startcmd.status.10
+/local/logs/intro_startcmd.err.10
+/local/logs/intro_startcmd.out.10
+/local/logs/intro_startcmd.status
+/local/logs/intro_startcmd.err
+/local/logs/intro_startcmd.out
+/vmlinuz.old
+/users
+/users/alotero
+/users/giotah
+/users/dbosch
+/users/regste07
+/users/aashraya
+/users/sunshine
+/users/selenaws
+/users/mlocasto
+/users/thang89
+/users/barada24
+/users/rweiss
+/users/dagny64
+/users/quin2
+/users/usc430ak
+/users/usc430ak/.forward
+/users/usc430ak/.ssl
+/users/usc430ak/.ssl/emulab.pem
+/users/usc430ak/.ssh
+/users/usc430ak/.ssh/id_rsa
+/users/usc430ak/.ssh/id_rsa.pub
+/users/usc430ak/.ssh/known_hosts
+/users/usc430ak/.ssh/id_emulab.pub
+/users/usc430ak/.ssh/authorized_keys
+/users/usc430ak/.ssh/external_keys
+/users/usc430ak/.gnupg
+/users/usc430ak/.gnupg/private-keys-v1.d
+/users/usc430ak/.cache
+/users/usc430ak/.cache/motd.legal-displayed
+/users/usc430ak/.bash_history
+/users/usc430ak/copyfile.cpp
+/users/usc430ak
+INPUT|usc430ak-intro-25|A3 A2 A0 A4 A1 |1580604224|usc430ak|intro:find /intro|find: '/intro': No such file or directory
+
+INPUT|usc430ak-intro-26|A1 A4 A2 A3 A0 |1580604237|usc430ak|intro:find intro/|find: 'intro/': No such file or directory
+
+INPUT|usc430ak-intro-27|A0 A2 A3 A4 A1 |1580604309|usc430ak|intro:find . -name "*.jpg"|
+INPUT|usc430ak-intro-28|A0 A2 A3 A1 A4 |1580604357|usc430ak|intro:find . -name "*.jpeg"|
+INPUT|usc430ak-intro-29|A4 A1 A0 A2 A3 |1580604402|usc430ak|intro:find . -name "*.jpeg" | head -n 5|
+INPUT|usc430ak-intro-30|U |1580604408|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-31|A2 A3 A0 A1 A4 |1580604419|usc430ak|intro:find . -name "*.jpeg" | head -n 5|
+INPUT|usc430ak-intro-32|A4 A1 A0 A2 A3 |1580604511|usc430ak|intro:find . -name "*.jpeg" | head -n 5|
+INPUT|usc430ak-intro-33|U |1580604513|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-34|U |1580604514|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-35|U |1580604608|usc430ak|intro:ls|copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-36|M2 M0 |1580609094|usc430ak|intro:find / -name "*.jpg"|/usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: '/tmp/systemd-private-f668ee73c1bf4f4c96fcccc5861b7977-systemd-resolved.service-1ZBCGx': Permission denied
+find: '/tmp/systemd-private-f668ee73c1bf4f4c96fcccc5861b7977-systemd-timesyncd.service-ZBbfFb': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permi
+INPUT|usc430ak-intro-37|M4 |1580609223|usc430ak|intro:find / -name "*.jpeg"|/.hidden/asdf136Intro-5kqlw.jpeg
+find: '/tmp/systemd-private-f668ee73c1bf4f4c96fcccc5861b7977-systemd-resolved.service-1ZBCGx': Permission denied
+find: '/tmp/systemd-private-f668ee73c1bf4f4c96fcccc5861b7977-systemd-timesyncd.service-ZBbfFb': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission
+INPUT|usc430ak-intro-38|M3 |1580609292|usc430ak|intro:find / -name "*.JPG"|find: '/tmp/systemd-private-f668ee73c1bf4f4c96fcccc5861b7977-systemd-resolved.service-1ZBCGx': Permission denied
+find: '/tmp/systemd-private-f668ee73c1bf4f4c96fcccc5861b7977-systemd-timesyncd.service-ZBbfFb': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430ak-intro-39|U |1580609320|usc430ak|intro:clear|
+
+INPUT|usc430ak-intro-40|M1 |1580609324|usc430ak|intro:find / -name "*.JPEG"|find: '/tmp/systemd-private-f668ee73c1bf4f4c96fcccc5861b7977-systemd-resolved.service-1ZBCGx': Permission denied
+find: '/tmp/systemd-private-f668ee73c1bf4f4c96fcccc5861b7977-systemd-timesyncd.service-ZBbfFb': Permission denied
+find: '/sys/kernel/debug': Permission denied
+find: '/sys/fs/fuse/connections/49': Permission denied
+find: '/proc/tty/driver': Permission denied
+find: '/proc/1/task/1/fd': Permission denied
+find: '/proc/1/task/1/fdinfo': Permission denied
+find: '/proc/1/task/1/ns': Permission denied
+find: '/proc/1/fd': Permission denied
+find: '/proc/1/map_files': Permission denied
+find: '/proc/1/fdinfo': Permission denied
+find: '/proc/1/ns': Permission denied
+find: '/proc/2/task/2/fd': Permission denied
+find: '/proc/2/task/2/fdinfo': Permission denied
+find: '/proc/2/task/2/ns': Permission denied
+find: '/proc/2/fd': Permission denied
+find: '/proc/2/map_files': Permission denied
+find: '/proc/2/fdinfo': Permission denied
+find: '/proc/2/ns': Permission denied
+find: '/proc/4/task/4/fd'
+INPUT|usc430ak-intro-41|U |1580609438|usc430ak|intro:ls        |copyfile.cpp  thomas.png  usc430ab.txt	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-42|M6 |1580647513|usc430ak|intro:df|Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                 989400          0     989400   0%% /dev
+tmpfs                                                204036       6048     197988   3%% /run
+/dev/sda1                                          15681948    3251568   11630432  22%% /
+tmpfs                                               1020164          0    1020164   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs                                               1020164          0    1020164   0%% /sys/fs/cgroup
+users.isi.deterlab.net:/mnt/other/users/usc430ak 2031313280 1178170880  690637312  64%% /users/usc430ak
+users.isi.deterlab.net:/mnt/projects/proj/USC430 2974748160 1371283200 1365485184  51%% /proj/USC430
+tmpfs                                                204032          0     204032   0%% /run/user/14174
+
+INPUT|usc430ak-intro-43|U |1580647585|usc430ak|intro:ls|136intro-2jjaj.JPEG	 copyfile.cpp  usc430ak.txt	   xbzf136INTRO-1.jpg
+136intro-3.jpg		 thomas.png    usc430.txt
+asdf136Intro-5kqlw.jpeg  usc430ab.txt  wuer136intro-4.JPG
+
+INPUT|usc430ak-intro-44|A6 |1580647618|usc430ak|intro:df > diskfree.txt|
+INPUT|usc430ak-intro-45|U |1580647620|usc430ak|intro:ls|136intro-2jjaj.JPEG	 copyfile.cpp  usc430ab.txt  wuer136intro-4.JPG
+136intro-3.jpg		 diskfree.txt  usc430ak.txt  xbzf136INTRO-1.jpg
+asdf136Intro-5kqlw.jpeg  thomas.png    usc430.txt
+
+INPUT|usc430ak-intro-46|U |1580647653|usc430ak|intro:mv diskfree.txt ~/|mv: 'diskfree.txt' and '/users/usc430ak/diskfree.txt' are the same file
+
+INPUT|usc430ak-intro-47|A5 |1580647871|usc430ak|intro:lscpu > cpu.txt|
+INPUT|usc430ak-intro-48|U |1581347318|usc430ak|server:cd top_secret|
+INPUT|usc430ak-intro-49|U |1581347319|usc430ak|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py		  xbzf136INTRO-1.jpg
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+
+INPUT|usc430ak-intro-50|U |1581347327|usc430ak|server:python server.py test|starting up on test port 10000
+Traceback (most recent call last):
+  File \"server.py\" line 11 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+INPUT|usc430ak-intro-51|U |1581347520|usc430ak|server:python server.py test|starting up on test port 80
+Traceback (most recent call last):
+  File \"server.py\" line 11 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+INPUT|usc430ak-intro-52|U |1581347545|usc430ak|server:python server.py test.net|starting up on test.net port 80
+Traceback (most recent call last):
+  File \"server.py\" line 11 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 99] Cannot assign requested address
+
+INPUT|usc430ak-intro-53|U |1581347551|usc430ak|server:clear|
+
+INPUT|usc430ak-intro-54|U |1581347553|usc430ak|server:python server.py test.net|starting up on test.net port 80
+Traceback (most recent call last):
+  File \"server.py\" line 11 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 99] Cannot assign requested address
+
+INPUT|usc430ak-intro-55|U |1581347605|usc430ak|server:server.py test.net|sudo: server.py: command not found
+
+INPUT|usc430ak-intro-56|U |1581347619|usc430ak|server:python server.py test.net|starting up on test.net port 80
+Traceback (most recent call last):
+  File \"server.py\" line 11 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 99] Cannot assign requested address
+
+INPUT|usc430ak-intro-57|U |1581347659|usc430ak|server:python server.py farnsworth.hellfly.net|starting up on farnsworth.hellfly.net port 80
+Traceback (most recent call last):
+  File \"server.py\" line 11 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.gaierror: [Errno -2] Name or service not known
+
+INPUT|usc430ak-intro-58|U |1581347748|usc430ak|server:python3 server.py test.net|Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    print >>sys.stderr 'starting up on %%s port %%s' %% server_address
+TypeError: unsupported operand type(s) for >>: 'builtin_function_or_method' and '_io.TextIOWrapper'. Did you mean \"print(<message> file=<output_stream>)\"?
+
+INPUT|usc430ak-intro-59|U |1581347755|usc430ak|server:18@sudo pytserver.py test.nethellfly.net|sudo: server.py: command not found
+
+INPUT|usc430ak-intro-60|U |1581347760|usc430ak|server:18@sudpython server.py test.nethellfly.net|starting up on test.net port 80
+Traceback (most recent call last):
+  File \"server.py\" line 11 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 99] Cannot assign requested address
+
+INPUT|usc430ak-intro-61|U |1581347930|usc430ak|server:ifconfig|eth1: flags=4163<UPBROADCASTRUNNINGMULTICAST>  mtu 1500
+        inet 10.1.1.3  netmask 255.255.255.0  broadcast 10.1.1.255
+        inet6 fe80::204:23ff:feae:cb69  prefixlen 64  scopeid 0x20<link>
+        ether 00:04:23:ae:cb:69  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 15  bytes 1924 (1.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth3: flags=4163<UPBROADCASTRUNNINGMULTICAST>  mtu 1500
+        inet 192.168.1.130  netmask 255.255.252.0  broadcast 192.168.3.255
+        inet6 fe80::211:43ff:fed6:dda6  prefixlen 64  scopeid 0x20<link>
+        ether 00:11:43:d6:dd:a6  txqueuelen 1000  (Ethernet)
+        RX packets 8148  bytes 7918491 (7.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 5764  bytes 6480280 (6.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UPLOOPBACKRUNNING>  mtu 65536
+        inet 127.0
+INPUT|usc430ak-intro-62|U |1581347938|usc430ak|server:clear|
+
+INPUT|usc430ak-intro-63|U |1581347940|usc430ak|server:ifconfig|eth1: flags=4163<UPBROADCASTRUNNINGMULTICAST>  mtu 1500
+        inet 10.1.1.3  netmask 255.255.255.0  broadcast 10.1.1.255
+        inet6 fe80::204:23ff:feae:cb69  prefixlen 64  scopeid 0x20<link>
+        ether 00:04:23:ae:cb:69  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 15  bytes 1924 (1.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth3: flags=4163<UPBROADCASTRUNNINGMULTICAST>  mtu 1500
+        inet 192.168.1.130  netmask 255.255.252.0  broadcast 192.168.3.255
+        inet6 fe80::211:43ff:fed6:dda6  prefixlen 64  scopeid 0x20<link>
+        ether 00:11:43:d6:dd:a6  txqueuelen 1000  (Ethernet)
+        RX packets 8177  bytes 7921061 (7.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 5786  bytes 6484052 (6.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UPLOOPBACKRUNNING>  mtu 65536
+        inet 127.0
+INPUT|usc430ak-intro-64|U |1581347964|usc430ak|server:python server.py 192.168.1.130|starting up on 192.168.1.130 port 80
+Traceback (most recent call last):
+  File \"server.py\" line 11 in <module>
+    sock.bind(server_address)
+  File \"/usr/lib/python2.7/socket.py\" line 228 in meth
+    return getattr(self._sockname)(*args)
+socket.error: [Errno 13] Permission denied
+
+INPUT|usc430ak-intro-65|U |1581347979|usc430ak|server:python server.py 192.168.1.130|starting up on 192.168.1.130 port 80
+waiting for a connection
+client connected: ('192.168.1.93' 52326);1581348017
+received \"This is the mess\"
+received \"age.  It will be\"
+received \" repeated.\"
+received \"\"
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 16 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ak-intro-66|U |1581351396|usc430ak|server:cd ..|
+INPUT|usc430ak-intro-67|U |1581351397|usc430ak|server:ls|copyfile.cpp  cpu.txt  diskfree.txt  thomas.png  top_secret  usc430ab.txt  usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-68|U |1581351401|usc430ak|server:cd top_secret|
+INPUT|usc430ak-intro-69|U |1581351409|usc430ak|server:python server.py 192.168.1.130|  File \"server.py\" line 32
+    filename = parseRequest[1]
+                             ^
+IndentationError: unindent does not match any outer indentation level
+
+INPUT|usc430ak-intro-70|U |1581351725|usc430ak|server:ls|copyfile.cpp  cpu.txt  diskfree.txt  server.py	thomas.png  top_secret	usc430ab.txt  usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-71|U |1581351734|usc430ak|server:mv server.py top_secret|
+INPUT|usc430ak-intro-72|U |1581351738|usc430ak|server:cd top_secret|
+INPUT|usc430ak-intro-73|U |1581351747|usc430ak|server:10@sudo python server.py 192.168.1.130|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ak-intro-74|U |1581352702|usc430ak|server:python server.py 192.168.1.130|starting up on localhost port 80
+waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 18 in <module>
+    connection client_address = sock.accept()
+  File \"/usr/lib/python2.7/socket.py\" line 206 in accept
+    sock addr = self._sock.accept()
+KeyboardInterrupt
+
+INPUT|usc430ak-intro-75|U |1581353072|usc430ak|server:cd ..|
+INPUT|usc430ak-intro-76|U |1581353079|usc430ak|server:10P10@mv server.py top_secret|
+INPUT|usc430ak-intro-77|U |1581353084|usc430ak|server:cd top_secret|
+INPUT|usc430ak-intro-78|U |1581353087|usc430ak|server:10@sudo python server.py 192.168.1.130|starting up on 192.168.1.130 port 80
+waiting for a connection
+connection from ('192.168.1.93' 52392)
+received \"GET /usc430ab.txt HTTP/1.1\"
+file to open \"GET usc430ab.txt HTTP1.1\"
+404 File not found
+Traceback (most recent call last):
+  File \"server.py\" line 44 in <module>
+    f = open(\"404.html\")
+IOError: [Errno 2] No such file or directory: '404.html'
+
+INPUT|usc430ak-intro-79|U |1581353314|usc430ak|server:cd ..|
+INPUT|usc430ak-intro-80|U |1581353317|usc430ak|server:mv server.py top_secret|mv: cannot stat 'server.py': No such file or directory
+
+INPUT|usc430ak-intro-81|U |1581353320|usc430ak|server:ls|copyfile.cpp  cpu.txt  diskfree.txt  thomas.png  top_secret  usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-82|U |1581353331|usc430ak|server:mv server.py top_secret|mv: cannot stat 'server.py': No such file or directory
+
+INPUT|usc430ak-intro-83|U |1581353332|usc430ak|server:ls|copyfile.cpp  cpu.txt  diskfree.txt  server.py	thomas.png  top_secret	usc430ak.txt  usc430.txt
+
+INPUT|usc430ak-intro-84|U |1581353336|usc430ak|server:mv server.py top_secret|
+INPUT|usc430ak-intro-85|U |1581353341|usc430ak|server:cd top_secret|
+INPUT|usc430ak-intro-86|U |1581353345|usc430ak|server:22Psudo python server.py 192.168.1.130|starting up on 192.168.1.130 port 80
+waiting for a connection
+connection from ('192.168.1.93' 52394)
+received \"GET /usc430ab.txt HTTP/1.1\"
+file to open \"GET usc430ab.txt HTTP1.1\"
+404 File not found
+Traceback (most recent call last):
+  File \"server.py\" line 44 in <module>
+    f = open(\"404.html\")
+IOError: [Errno 2] No such file or directory: '404.html'
+
+INPUT|usc430ak-intro-87|U |1581353548|usc430ak|server:cd ..|
+INPUT|usc430ak-intro-88|U |1581353550|usc430ak|server:22P10@mv server.py top_secret.1.130|
+INPUT|usc430ak-intro-89|U |1581353554|usc430ak|server:10Pcd top_secretpy top_secret.1.130|
+INPUT|usc430ak-intro-90|U |1581353557|usc430ak|server:10@sudo python server.py 192.168.1.130|starting up on 192.168.1.130 port 80
+waiting for a connection
+connection from ('192.168.1.93' 52406)
+received \"GET /usc430ab.txt HTTP/1.1 \"
+file to open \"GET usc430ab.txt HTTP1.1 \"
+GET usc430ab.txt HTTP1.1 
+404 File not found
+Traceback (most recent call last):
+  File \"server.py\" line 45 in <module>
+    f = open(\"404.html\")
+IOError: [Errno 2] No such file or directory: '404.html'
+

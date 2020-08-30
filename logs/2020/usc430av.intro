@@ -1,0 +1,2054 @@
+User usc430av start time 1580702320 end 1581109394
+#INPUT|uniqueID|class|time|uid|node:input|output (trunc)
+INPUT|usc430av-intro-0|U |000000000|usc430av|:|
+INPUT|usc430av-intro-1|U |000000000|usc430av|:|
+INPUT|usc430av-intro-2|U |1580702320|usc430av|intro:ls| file.pdf   hashes2.txt		     usc430av.pdf
+ hashes    'Multinomial Model.pdf'   usc430av.txt
+
+INPUT|usc430av-intro-3|U |1580702362|usc430av|intro:ls| file.pdf   hashes2.txt		     usc430av.pdf
+ hashes    'Multinomial Model.pdf'   usc430av.txt
+
+INPUT|usc430av-intro-4|U |1580702363|usc430av|intro:ls| file.pdf   hashes2.txt		     usc430av.pdf
+ hashes    'Multinomial Model.pdf'   usc430av.txt
+
+INPUT|usc430av-intro-5|U |1580702374|usc430av|intro:ls| file.pdf   hashes2.txt		     usc430av.pdf
+ hashes    'Multinomial Model.pdf'   usc430av.txt
+
+INPUT|usc430av-intro-6|U |1580702380|usc430av|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430av
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430av-intro-7|U |1580702391|usc430av|intro:cd usc430av|
+INPUT|usc430av-intro-8|U |1580702392|usc430av|intro:ls| file.pdf   hashes2.txt		     usc430av.pdf
+ hashes    'Multinomial Model.pdf'   usc430av.txt
+
+INPUT|usc430av-intro-9|U |1580702588|usc430av|intro:ssh intro.hw1-usc430av.USC430.isi.deterlab.net|;1580702422
+The authenticity of host 'intro.hw1-usc430av.usc430.isi.deterlab.net (192.168.1.156)' can't be established.
+RSA key fingerprint is SHA256:t0vpeOm78PtRRaGx4qRt4PNUu2ZCRGzEBSfGP541+n0.
+Are you sure you want to continue connecting (yes/no)? yes;1580702590
+Warning: Permanently added 'intro.hw1-usc430av.usc430.isi.deterlab.net192.168.1.156' (RSA) to the list of known hosts.
+
+INPUT|usc430av-intro-10|U |1580702596|usc430av|intro:ls| file.pdf   hashes2.txt		     usc430av.pdf
+ hashes    'Multinomial Model.pdf'   usc430av.txt
+
+INPUT|usc430av-intro-11|U |1580702717|usc430av|intro:ssh pc156.intro.hw1-usc430av.USC430.isi.deterlab.net|ssh: Could not resolve hostname pc156.intro.hw1-usc430av.usc430.isi.deterlab.net: Name or service not known
+
+INPUT|usc430av-intro-12|U |1580702725|usc430av|intro:ssh intro.hw1-usc430av.USC430.isi.deterlab.net|
+INPUT|usc430av-intro-13|U |1580703025|usc430av|intro:ls|;1580702679
+exit
+
+ file.pdf   hashes2.txt		     usc430av.pdf
+ hashes    'Multinomial Model.pdf'   usc430av.txt
+
+INPUT|usc430av-intro-14|U |1580703033|usc430av|intro:cd ..|
+INPUT|usc430av-intro-15|U |1580703034|usc430av|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430av
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430av-intro-16|U |1580703037|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-17|U |1580703041|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-18|U |1580703044|usc430av|intro:ls|bash		    false	nc.openbsd     ss
+btrfs		    fgconsole	netcat	       static-sh
+btrfsck		    fgrep	netstat        stty
+btrfs-debug-tree    findmnt	networkctl     su
+btrfs-find-root     fsck.btrfs	nisdomainname  sync
+btrfs-image	    fuser	ntfs-3g        systemctl
+btrfs-map-logical   fusermount	ntfs-3g.probe  systemd
+btrfs-select-super  getfacl	ntfscat        systemd-ask-password
+btrfstune	    grep	ntfscluster    systemd-escape
+btrfs-zero-log	    gunzip	ntfscmp        systemd-hwdb
+bunzip2		    gzexe	ntfsfallocate  systemd-inhibit
+busybox		    gzip	ntfsfix        systemd-machine-id-setup
+bzcat		    hostname	ntfsinfo       systemd-notify
+bzcmp		    ip		ntfsls	       systemd-sysusers
+bzdiff		    journalctl	ntfsmove       systemd-tmpfiles
+bzegrep		    kbd_mode	ntfsrecover    systemd-tty-ask-password-agent
+bzexe		    keyctl	ntfssecaudit   tar
+bzfgrep		    kill	ntfstruncate   tcsh
+bzgrep		    kmod	ntfsusermap    tempfile
+bzip2		    less	ntfswipe       touch
+bzip2recover	    lessecho	open	      
+INPUT|usc430av-intro-19|U |1580703068|usc430av|intro:ls|;1580703063
+ file.pdf   hashes2.txt		     usc430av.pdf
+ hashes    'Multinomial Model.pdf'   usc430av.txt
+
+INPUT|usc430av-intro-20|U |1580703073|usc430av|intro:cd hashes|bash: cd: hashes: Not a directory
+
+INPUT|usc430av-intro-21|U |1580703076|usc430av|intro:cd ..|
+INPUT|usc430av-intro-22|U |1580703079|usc430av|intro:ls|aashraya  dagny64   jacque    mlocasto	quin2	  sunshine  usc430av
+albpat03  dbosch    jmache    patrickv	regste07  tescdavy
+alotero   garmar09  krisgado  paullepe	rweiss	  tescjack
+barada24  giotah    massacci  penged	selenaws  thang89
+
+INPUT|usc430av-intro-23|U |1580703082|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-24|U |1580703088|usc430av|intro:ls|apparmor       init				     open-iscsi
+console-setup  klibc-wBFLvVtxy4xJqEadIBJMa78iJz8.so  recovery-mode
+cpp	       libhandle.so.1			     systemd
+crda	       libhandle.so.1.0.3		     terminfo
+cryptsetup     lsb				     udev
+ebtables       modprobe.d			     ufw
+firmware       modules				     x86_64-linux-gnu
+hdparm	       modules-load.d
+
+INPUT|usc430av-intro-25|U |1580703124|usc430av|intro:ls |apparmor       init				     open-iscsi
+console-setup  klibc-wBFLvVtxy4xJqEadIBJMa78iJz8.so  recovery-mode
+cpp	       libhandle.so.1			     systemd
+crda	       libhandle.so.1.0.3		     terminfo
+cryptsetup     lsb				     udev
+ebtables       modprobe.d			     ufw
+firmware       modules				     x86_64-linux-gnu
+hdparm	       modules-load.d
+
+INPUT|usc430av-intro-26|U |1580703129|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-27|U |1580703131|usc430av|intro:ls|backups  crash	 lib	lock  mail  run   spool
+cache	 emulab  local	log   opt   snap  tmp
+
+INPUT|usc430av-intro-28|U |1580703135|usc430av|intro:ls|AccountsService    git		    nfs        systemd
+apt		   ieee-data	    ntp        ubuntu-release-upgrader
+command-not-found  initramfs-tools  os-prober  ucf
+dbus		   landscape	    pam        update-manager
+dhcp		   logrotate	    plymouth   update-notifier
+dkms		   lxcfs	    polkit-1   ureadahead
+dpkg		   lxd		    private    usbutils
+emacsen-common	   man-db	    python     vim
+gems		   misc		    snapd
+ghostscript	   mlocate	    sudo
+
+INPUT|usc430av-intro-29|U |1580703160|usc430av|intro:cd cd ..|bash: cd: too many arguments
+
+INPUT|usc430av-intro-30|U |1580703161|usc430av|intro:ls|AccountsService    git		    nfs        systemd
+apt		   ieee-data	    ntp        ubuntu-release-upgrader
+command-not-found  initramfs-tools  os-prober  ucf
+dbus		   landscape	    pam        update-manager
+dhcp		   logrotate	    plymouth   update-notifier
+dkms		   lxcfs	    polkit-1   ureadahead
+dpkg		   lxd		    private    usbutils
+emacsen-common	   man-db	    python     vim
+gems		   misc		    snapd
+ghostscript	   mlocate	    sudo
+
+INPUT|usc430av-intro-31|U |1580703163|usc430av|intro:cd ..|
+INPUT|usc430av-intro-32|U |1580703164|usc430av|intro:ls|backups  crash	 lib	lock  mail  run   spool
+cache	 emulab  local	log   opt   snap  tmp
+
+INPUT|usc430av-intro-33|A0 A2 A3 A1 A4 |1580703179|usc430av|intro:find lib -name '*intro*'|find: 'lib/apt/lists/partial': Permission denied
+find: 'lib/snapd/cookie': Permission denied
+find: 'lib/private': Permission denied
+find: 'lib/polkit-1': Permission denied
+find: 'lib/update-notifier/package-data-downloads/partial': Permission denied
+
+INPUT|usc430av-intro-34|U |1580703193|usc430av|intro:cd lib/apt/lists/partial|bash: cd: lib/apt/lists/partial: Permission denied
+
+INPUT|usc430av-intro-35|U |1580703197|usc430av|intro:ls|auxfiles
+lock
+partial
+scratch_ubuntu_dists_bionic_InRelease
+scratch_ubuntu_dists_bionic_main_binary-amd64_Packages
+scratch_ubuntu_dists_bionic_main_binary-i386_Packages
+scratch_ubuntu_dists_bionic_main_i18n_Translation-en
+scratch_ubuntu_dists_bionic_multiverse_binary-amd64_Packages
+scratch_ubuntu_dists_bionic_multiverse_binary-i386_Packages
+scratch_ubuntu_dists_bionic_multiverse_i18n_Translation-en
+scratch_ubuntu_dists_bionic_restricted_binary-amd64_Packages
+scratch_ubuntu_dists_bionic_restricted_binary-i386_Packages
+scratch_ubuntu_dists_bionic_restricted_i18n_Translation-en
+scratch_ubuntu_dists_bionic-security_InRelease
+scratch_ubuntu_dists_bionic-security_main_binary-amd64_Packages
+scratch_ubuntu_dists_bionic-security_main_binary-i386_Packages
+scratch_ubuntu_dists_bionic-security_main_i18n_Translation-en
+scratch_ubuntu_dists_bionic-security_multiverse_binary-amd64_Packages
+scratch_ubuntu_dists_bionic-security_multiverse_binary-i386_Packages
+scratch_ubuntu_dists_bionic-security_multiv
+INPUT|usc430av-intro-36|U |1580703204|usc430av|intro:cd ..|
+INPUT|usc430av-intro-37|U |1580703205|usc430av|intro:ls|cdroms.list   daily_lock       lists	periodic
+cdroms.list~  extended_states  mirrors
+
+INPUT|usc430av-intro-38|U |1580703206|usc430av|intro:cd ..|
+INPUT|usc430av-intro-39|U |1580703207|usc430av|intro:ls|AccountsService    git		    nfs        systemd
+apt		   ieee-data	    ntp        ubuntu-release-upgrader
+command-not-found  initramfs-tools  os-prober  ucf
+dbus		   landscape	    pam        update-manager
+dhcp		   logrotate	    plymouth   update-notifier
+dkms		   lxcfs	    polkit-1   ureadahead
+dpkg		   lxd		    private    usbutils
+emacsen-common	   man-db	    python     vim
+gems		   misc		    snapd
+ghostscript	   mlocate	    sudo
+
+INPUT|usc430av-intro-40|U |1580703208|usc430av|intro:cd ..|
+INPUT|usc430av-intro-41|U |1580703209|usc430av|intro:ls|backups  crash	 lib	lock  mail  run   spool
+cache	 emulab  local	log   opt   snap  tmp
+
+INPUT|usc430av-intro-42|U |1580703210|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-43|A2 A3 A0 A1 A4 |1580703222|usc430av|intro:find varr -name '*intro*'ial|find: 'varr': No such file or directory
+
+INPUT|usc430av-intro-44|A4 A1 A2 A3 A0 |1580703225|usc430av|intro:find var -name '*intro*'|find: 'var/spool/cron/atjobs': Permission denied
+find: 'var/spool/cron/crontabs': Permission denied
+find: 'var/spool/cron/atspool': Permission denied
+find: 'var/spool/rsyslog': Permission denied
+find: 'var/tmp/systemd-private-decf811da1d64f9fad1bd70c48fe2e0d-systemd-timesyncd.service-Vzt76Z': Permission denied
+find: 'var/tmp/systemd-private-decf811da1d64f9fad1bd70c48fe2e0d-systemd-resolved.service-7LAyD1': Permission denied
+find: 'var/cache/ldconfig': Permission denied
+find: 'var/cache/apt/archives/partial': Permission denied
+find: 'var/lib/apt/lists/partial': Permission denied
+find: 'var/lib/snapd/cookie': Permission denied
+find: 'var/lib/private': Permission denied
+find: 'var/lib/polkit-1': Permission denied
+find: 'var/lib/update-notifier/package-data-downloads/partial': Permission denied
+find: 'var/log/unattended-upgrades': Permission denied
+var/log/136intro-3.jpg
+var/log/ttylog/usc430av.hw1-usc430av.intro.log
+var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+
+INPUT|usc430av-intro-45|U |1580703240|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-46|U |1580703241|usc430av|intro:cd ..|
+INPUT|usc430av-intro-47|U |1580703243|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-48|M3 M2 M1 |1580703250|usc430av|intro:find . -name '*intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+^[[A^[[A^[[B./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: './tmp/systemd-private-decf811da1d64f9fad1bd70c48fe2e0d-systemd-timesyncd.service-94ZfA1': Permission denied
+find: './tmp/systemd-private-decf811da1d64f9fad1bd70c48fe2e0d-systemd-resolved.s
+INPUT|usc430av-intro-49|A0 A2 A3 A4 A1 |1580703328|usc430av|intro:find . -name '*intro*.jpeg'|find: './tmp/systemd-private-decf811da1d64f9fad1bd70c48fe2e0d-systemd-timesyncd.service-94ZfA1': Permission denied
+find: './tmp/systemd-private-decf811da1d64f9fad1bd70c48fe2e0d-systemd-resolved.service-EhFjS0': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied;158070
+INPUT|usc430av-intro-50|M2 |1580703444|usc430av|intro:find . -name '*intro*.jpg'|find: './tmp/systemd-private-decf811da1d64f9fad1bd70c48fe2e0d-systemd-timesyncd.service-94ZfA1': Permission denied
+find: './tmp/systemd-private-decf811da1d64f9fad1bd70c48fe2e0d-systemd-resolved.service-EhFjS0': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430av-intro-51|A1 A4 A3 A2 A0 |1580703625|usc430av|intro:find . -name '*intro*.jpeg' 2>&1 | grep -v "Permission denied"|
+INPUT|usc430av-intro-52|M3 M2 M1 |1580703642|usc430av|intro:find . -name '*intro*' 2>&1 | grep -v "Permission denied"|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz;1580703643
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+./etc/wuer136intro-4.JPG
+./etc/apparmor.d/abstractions/apparmor_api/intro
+INPUT|usc430av-intro-53|M2 |1580703697|usc430av|intro:find . -name '*intro*.jpg' 2>&1 | grep -v "Permission denied"|./var/log/136intro-3.jpg
+
+INPUT|usc430av-intro-54|M3 |1580703712|usc430av|intro:find . -name '*intro*.JPG' 2>&1 | grep -v "Permission denied"|./etc/wuer136intro-4.JPG
+
+INPUT|usc430av-intro-55|M2 |1580703723|usc430av|intro:find . -name '*intro*.jpg' 2>&1 | grep -v "Permission denied"|./var/log/136intro-3.jpg
+
+INPUT|usc430av-intro-56|A3 A2 A0 A1 A4 |1580703735|usc430av|intro:find . -name '*intro*.jpeg' 2>&1 | grep -v "Permission denied"|
+INPUT|usc430av-intro-57|A1 A4 A3 A2 A0 |1580703741|usc430av|intro:find . -name '*intro*.jpeg' 2>&1 | grep -v "Permission denied"|Hint - You can use "sudo" before a command to gain superuser priviliges
+
+INPUT|usc430av-intro-58|M1 |1580703762|usc430av|intro:find . -name '*intro*.JPEG' 2>&1 | grep -v "Permission denied"|./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430av-intro-59|M3 M2 M1 |1580703778|usc430av|intro:find . -name '*intro*' 2>&1 | grep -v "Permission denied"|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+./etc/wuer136intro-4.JPG
+./etc/apparmor.d/abstractions/apparmor_api/introspect
+./dev
+INPUT|usc430av-intro-60|U |1580703847|usc430av|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430av-intro-61|M3 M2 M1 |1580703864|usc430av|intro:find . -name '*intro*' 2>&1 | grep -v "Permission denied"|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz;1580703866
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+find: './proc/3467': No such file or directory
+find: './proc/3468': No such file or directory
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw
+INPUT|usc430av-intro-62|M2 |1580703903|usc430av|intro:find . -name '*intro*jpg' 2>&1 | grep -v "Permission denied"|./var/log/136intro-3.jpg
+
+INPUT|usc430av-intro-63|A1 A4 A3 A2 A0 |1580703915|usc430av|intro:find . -name '*intro*jpeg' 2>&1 | grep -v "Permission denied"|
+INPUT|usc430av-intro-64|A1 A4 A3 A2 A0 |1580703922|usc430av|intro:find . -name '*intro*jpeg' 2>&1 | grep -v "Permission denied"|Hint - You can use "sudo" before a command to gain superuser priviliges
+
+INPUT|usc430av-intro-65|M3 |1580703936|usc430av|intro:find . -name '*intro*JPG' 2>&1 | grep -v "Permission denied"|./etc/wuer136intro-4.JPG
+
+INPUT|usc430av-intro-66|M1 |1580703954|usc430av|intro:find . -name '*intro*JPEG' 2>&1 | grep -v "Permission denied"|./dev/136intro-2jjaj.JPEG
+
+INPUT|usc430av-intro-67|M3 |1580704053|usc430av|intro:find . -name '*intro*JPG' 2>&1 | grep -v "Permission denied"|./etc/wuer136intro-4.JPG
+
+INPUT|usc430av-intro-68|A1 A4 A0 A2 A3 |1580704070|usc430av|intro:find . -name '*intro*5' 2>&1 | grep -v "Permission denied"|./proj/USC430/logs/ttylog/usc430az.hw1-usc430az.intro.log.1580661035
+./proj/USC430/logs/output_csv/usc430az.hw1-usc430az.intro.csv.1580661035
+
+INPUT|usc430av-intro-69|A0 A2 A3 A4 A1 |1580704089|usc430av|intro:find . -name '*intro*5'                                   |./proj/USC430/logs/ttylog/usc430az.hw1-usc430az.intro.log.1580661035
+./proj/USC430/logs/output_csv/usc430az.hw1-usc430az.intro.csv.1580661035
+
+INPUT|usc430av-intro-70|M3 M2 M1 |1580704182|usc430av|intro:find . -name '*intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+./etc/wuer136intro-4.JPG
+./etc/apparmor.d/abstractions/apparmor_api/introspect
+./dev
+INPUT|usc430av-intro-71|A1 A4 A3 A2 A0 |1580704300|usc430av|intro:find . -name '*intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+^C;1580704303
+
+INPUT|usc430av-intro-72|A3 A2 A0 A1 A4 |1580704322|usc430av|intro:find . -name '*intro*'|;1580704304
+
+INPUT|usc430av-intro-73|U |1580704323|usc430av|intro:cd ..|
+INPUT|usc430av-intro-74|A0 A2 A3 A1 A4 |1580704324|usc430av|intro:find . -name '*intro*'|
+INPUT|usc430av-intro-75|U |1580704334|usc430av|intro:cd ..|
+INPUT|usc430av-intro-76|U |1580704335|usc430av|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430av-intro-77|M3 M2 M1 |1580704336|usc430av|intro:find . -name '*intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+./etc/wuer136intro-4.JPG
+./etc/apparmor.d/abstractions/apparmor_api/introspect
+./dev
+INPUT|usc430av-intro-78|U |1580704523|usc430av|intro:mv ./dev/136intro-2jjaj.JPEG ~/|mv: cannot remove './dev/136intro-2jjaj.JPEG': Permission denied
+
+INPUT|usc430av-intro-79|U |1580704563|usc430av|intro:mv ./etc/wuer136intro-4.JPG ~/|mv: cannot remove './etc/wuer136intro-4.JPG': Permission denied
+
+INPUT|usc430av-intro-80|U |1580704686|usc430av|intro:mv ./etc/wuer136intro-4.JPG ~/|
+INPUT|usc430av-intro-81|U |1580704688|usc430av|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430av-intro-82|A1 A4 A3 A2 A0 |1580704887|usc430av|intro:find . -name '*intro*'|./136intro-2jjaj.JPEG
+./wuer136intro-4.JPG
+
+INPUT|usc430av-intro-83|U |1580704889|usc430av|intro:ls| 136intro-2jjaj.JPEG   hashes	    'Multinomial Model.pdf'   usc430av.txt
+ file.pdf	       hashes2.txt   usc430av.pdf	      wuer136intro-4.JPG
+
+INPUT|usc430av-intro-84|U |1580704901|usc430av|intro:ssh intro.hw1-usc430av.USC430.isi.deterlab.net|
+INPUT|usc430av-intro-85|A2 A3 A0 A1 A4 |1580704906|usc430av|intro:find . -name '*intro*'|;1580705712
+./136intro-2jjaj.JPEG
+./wuer136intro-4.JPG
+
+INPUT|usc430av-intro-86|U |1580704908|usc430av|intro:ls| 136intro-2jjaj.JPEG   hashes	    'Multinomial Model.pdf'   usc430av.txt
+ file.pdf	       hashes2.txt   usc430av.pdf	      wuer136intro-4.JPG
+
+INPUT|usc430av-intro-87|U |1580704909|usc430av|intro:ls|aashraya  barada24  garmar09  jmache	mlocasto  penged    rweiss    tescdavy	usc430av
+albpat03  dagny64   giotah    krisgado	patrickv  quin2     selenaws  tescjack
+alotero   dbosch    jacque    massacci	paullepe  regste07  sunshine  thang89
+
+INPUT|usc430av-intro-88|U |1580704911|usc430av|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430av-intro-89|M2 M1 |1580704913|usc430av|intro:find . -name '*intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./users/usc430av/136intro-2jjaj.JPEG
+./users/usc430av/wuer136intro-4.JPG
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/136intro-3.jpg
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+./etc/appar
+INPUT|usc430av-intro-90|U |1580704963|usc430av|intro:mv ./var/log/136intro-3.jpg ~/|mv: cannot remove './var/log/136intro-3.jpg': Permission denied
+
+INPUT|usc430av-intro-91|U |1580704970|usc430av|intro:mv ./var/log/136intro-3.jpg ~/|
+INPUT|usc430av-intro-92|U |1580705026|usc430av|intro:mv ./users/usc430av/136intro-2jjaj.JPEG ~|mv: './users/usc430av/136intro-2jjaj.JPEG' and '/users/usc430av/136intro-2jjaj.JPEG' are the same file
+
+INPUT|usc430av-intro-93|U |1580705029|usc430av|intro:mv ./users/usc430av/136intro-2jjaj.JPEG ~/|mv: './users/usc430av/136intro-2jjaj.JPEG' and '/users/usc430av/136intro-2jjaj.JPEG' are the same file
+
+INPUT|usc430av-intro-94|U |1580705079|usc430av|intro:mv ./dev/136intro-2jjaj.JPEG ~/|mv: cannot remove './dev/136intro-2jjaj.JPEG': Permission denied
+
+INPUT|usc430av-intro-95|U |1580705085|usc430av|intro:mv ./dev/136intro-2jjaj.JPEG ~/|
+INPUT|usc430av-intro-96|U |1580705320|usc430av|intro:mv ./dev/136intro-2jjaj.JPEG ~/|mv: cannot stat './dev/136intro-2jjaj.JPEG': No such file or directory
+
+INPUT|usc430av-intro-97|U |1580705344|usc430av|intro:mv ./dev/136intro-2jjaj.JPEG ~/|mv: cannot stat './dev/136intro-2jjaj.JPEG': No such file or directory
+
+INPUT|usc430av-intro-98|U |1580705350|usc430av|intro:mv ./dev/136intro-2jjaj.JPEG ~/|mv: cannot stat './dev/136intro-2jjaj.JPEG': No such file or directory
+
+INPUT|usc430av-intro-99|A0 A2 A3 A1 A4 |1580705397|usc430av|intro:find . -name '*intro*jpeg'|
+INPUT|usc430av-intro-100|A3 A2 A0 A4 A1 |1580705479|usc430av|intro:find . -type f -name '*intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./users/usc430av/136intro-2jjaj.JPEG
+./users/usc430av/wuer136intro-4.JPG
+./users/usc430av/136intro-3.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+./etc/apparmor.d/abstractions/apparmor_api/introspect
+./proj/USC430/logs/runlog-mjoseph-Homework1.intro
+INPUT|usc430av-intro-101|M4 M0 |1580705517|usc430av|intro:find . -type f -iname '*intro*'|./.hidden/asdf136Intro-5kqlw.jpeg
+./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./users/usc430av/136intro-2jjaj.JPEG
+./users/usc430av/wuer136intro-4.JPG
+./users/usc430av/136intro-3.jpg
+./usr/share/doc/bash/INTRO.gz
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+
+INPUT|usc430av-intro-102|A1 A4 A2 A3 A0 |1580705541|usc430av|intro:find .  -name '*intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./users/usc430av/136intro-2jjaj.JPEG
+./users/usc430av/wuer136intro-4.JPG
+./users/usc430av/136intro-3.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+./et
+INPUT|usc430av-intro-103|U |1580705625|usc430av|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430av-intro-104|A1 A4 A2 A3 A0 |1580705631|usc430av|intro:find . -name '*intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./users/usc430av/136intro-2jjaj.JPEG
+./users/usc430av/wuer136intro-4.JPG
+./users/usc430av/136intro-3.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+./et
+INPUT|usc430av-intro-105|A1 A4 A0 A2 A3 |1580705690|usc430av|intro:find . -name '*intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./users/usc430av/136intro-2jjaj.JPEG
+./users/usc430av/wuer136intro-4.JPG
+./users/usc430av/136intro-3.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+./et
+INPUT|usc430av-intro-106|A0 A2 A3 A1 A4 |1580705720|usc430av|intro:find . -name '*intro*'|./136intro-2jjaj.JPEG
+./wuer136intro-4.JPG
+./136intro-3.jpg
+
+INPUT|usc430av-intro-107|U |1580705724|usc430av|intro:cd ..|
+INPUT|usc430av-intro-108|U |1580705725|usc430av|intro:cd ..|
+INPUT|usc430av-intro-109|U |1580705726|usc430av|intro:cd ..|
+INPUT|usc430av-intro-110|U |1580705727|usc430av|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430av-intro-111|U |1580705728|usc430av|intro:cd ..|
+INPUT|usc430av-intro-112|U |1580705729|usc430av|intro:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430av-intro-113|U |1580705730|usc430av|intro:cd ..|
+INPUT|usc430av-intro-114|A0 A2 A3 A4 A1 |1580705731|usc430av|intro:find . -name '*intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./users/usc430av/136intro-2jjaj.JPEG
+./users/usc430av/wuer136intro-4.JPG
+./users/usc430av/136intro-3.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+./et
+INPUT|usc430av-intro-115|A4 A1 A2 A3 A0 |1580705829|usc430av|intro:find . type f -name '*intro*'|./local/logs/intro_startcmd.status.10
+./local/logs/intro_startcmd.err.10
+./local/logs/intro_startcmd.out.10
+./local/logs/intro_startcmd.status
+./local/logs/intro_startcmd.err
+./local/logs/intro_startcmd.out
+./users/usc430av/136intro-2jjaj.JPEG
+./users/usc430av/wuer136intro-4.JPG
+./users/usc430av/136intro-3.jpg
+./usr/share/man/man5/intro.5.gz
+./usr/share/man/man3/intro.3.gz
+./usr/share/man/man4/intro.4.gz
+./usr/share/man/man7/intro.7.gz
+./usr/share/man/man2/intro.2.gz
+./usr/share/man/man6/intro.6.gz
+./usr/share/man/man1/intro.1.gz
+./usr/share/man/man8/intro.8.gz
+./usr/share/vim/vim80/doc/intro.txt
+./usr/lib/python3/dist-packages/dbus/_expat_introspect_parser.py
+./usr/lib/python3/dist-packages/dbus/__pycache__/_expat_introspect_parser.cpython-36.pyc
+./usr/lib/python3/dist-packages/automat/_introspection.py
+./usr/lib/python3/dist-packages/automat/__pycache__/_introspection.cpython-36.pyc
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./var/log/ttylog/usc430av.hw1-usc430av.intro.csv
+./et
+INPUT|usc430av-intro-116|A1 A4 A0 A2 A3 |1580705838|usc430av|intro:find . type f -name '*intro*'|Hint - The command appears to be missing parameters or options
+
+INPUT|usc430av-intro-117|A1 A4 A3 A2 A0 |1580705849|usc430av|intro:find . type f -name '*intro*[jpg/jpeg]'|find: warning: Unix filenames usually don't contain slashes (though pathnames do).  That means that '-name '*intro*[jpg/jpeg]'' will probably evaluate to false all the time on this system.  You might find the '-wholename' test more useful or perhaps '-samefile'.  Alternatively if you are using GNU grep you could use 'find ... -print0 | grep -FzZ '*intro*[jpg/jpeg]''.
+./users/usc430av/136intro-3.jpg
+./var/log/ttylog/usc430av.hw1-usc430av.intro.log
+./proj/USC430/logs/ttylog/sunshine.sunshine-intro.intro.log
+./proj/USC430/logs/ttylog/jdbarnes.calc.intro.log
+./proj/USC430/logs/ttylog/usc430bi.hw1-usc430bi.intro.log
+./proj/USC430/logs/ttylog/usc430ab.hw1-usc430ab.intro.log
+./proj/USC430/logs/ttylog/usc430az.hw1-usc430az.intro.log
+./proj/USC430/logs/ttylog/usc430bh.hw1-usc430bh.intro.log
+./proj/USC430/logs/ttylog/usc430ba.hw1-usc430ba.intro.log
+./proj/USC430/logs/ttylog/usc430au.hw1-usc430au.intro.log
+./proj/USC430/logs/ttylog/usc430bd.hw1-usc430bd.intro.log
+./proj/USC430/logs/ttylog/usc430b
+INPUT|usc430av-intro-118|A1 A4 A2 A3 A0 |1580705939|usc430av|intro:find . type f (-name '*intro*jpg' -o name '*intro*jpeg )|bash: syntax error near unexpected token `('
+
+INPUT|usc430av-intro-119|A0 A2 A3 A1 A4 |1580705946|usc430av|intro:find . type f (-name '*intro*jpg' -o name '*intro*jpeg')|bash: syntax error near unexpected token `('
+
+INPUT|usc430av-intro-120|A1 A4 A0 A2 A3 |1580705955|usc430av|intro:find . (-name '*intro*jpg' -o name '*intro*jpeg')|bash: syntax error near unexpected token `('
+
+INPUT|usc430av-intro-121|A3 A2 A0 A4 A1 |1580705978|usc430av|intro:find . type f -name '*intro*jpg' -o -name '*intro*jpeg' |./users/usc430av/136intro-3.jpg
+find: 'type': No such file or directory
+find: 'f': No such file or directory
+
+INPUT|usc430av-intro-122|M4 M0 |1580705996|usc430av|intro:find . type f -name '*jpg' -o -name '*jpeg'|./.hidden/asdf136Intro-5kqlw.jpeg
+./users/usc430av/136intro-3.jpg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/s5p-jpeg
+find: 'type': No such file or directory
+find: 'f': No such file or directory
+
+INPUT|usc430av-intro-123|M4 M0 |1580706018|usc430av|intro:find . type f -iname '*jpg' -o -iname '*jpeg'|./.hidden/asdf136Intro-5kqlw.jpeg
+./users/usc430av/136intro-2jjaj.JPEG
+./users/usc430av/wuer136intro-4.JPG
+./users/usc430av/136intro-3.jpg
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/s5p-jpeg
+find: 'type': No such file or directory
+find: 'f': No such file or directory
+
+INPUT|usc430av-intro-124|U |1580706038|usc430av|intro:mv ./.hidden/asdf136Intro-5kqlw.jpeg ~-|mv: cannot move './.hidden/asdf136Intro-5kqlw.jpeg' to '/asdf136Intro-5kqlw.jpeg': Permission denied
+
+INPUT|usc430av-intro-125|U |1580706040|usc430av|intro:mv ./.hidden/asdf136Intro-5kqlw.jpeg ~/|mv: cannot remove './.hidden/asdf136Intro-5kqlw.jpeg': Permission denied
+
+INPUT|usc430av-intro-126|U |1580706048|usc430av|intro:mv ./.hidden/asdf136Intro-5kqlw.jpeg ~/|
+INPUT|usc430av-intro-127|U |1580706056|usc430av|intro:mv ./usr/share/pixmaps/xbzf136INTRO-1.jpg ~/|
+INPUT|usc430av-intro-128|A1 A4 A2 A3 A0 |1580706585|usc430av|intro:find . type f -iname '*jpg' -o -iname '*jpeg'|;1580702733
+./top_secret/xbzf136INTRO-1.jpg
+./top_secret/136intro-2jjaj.JPEG
+./top_secret/136intro-3.jpg
+./top_secret/wuer136intro-4.JPG
+./top_secret/asdf136Intro-5kqlw.jpeg
+find: 'type': No such file or directory
+find: 'f': No such file or directory
+
+INPUT|usc430av-intro-129|U |1580933200|usc430av|intro:ls| file.pdf   hashes2.txt		     top_secret     usc430av.txt
+ hashes    'Multinomial Model.pdf'   usc430av.pdf
+usc430av@ubuntu:~$ ^C
+usc430av@ubuntu:~$ exit
+
+INPUT|usc430av-intro-130|M6 |1580933241|usc430av|intro:df|;1580933211
+error: process ID list syntax error
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+error: process ID list syntax error
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+Filesystem                                        1K-blocks       Used  Available Use%% Mounted on
+udev                                                1988984          0    1988984   0%% /dev
+tmpfs                                                403952       5832     398120   2%% /run
+/dev/sda1                                          15681948    3253408   11628592  22%% /
+tmpfs                                               2019748          0    2019748   0%% /dev/shm
+tmpfs                                                  5120          0       5120   0%% /run/lock
+tmpfs           
+INPUT|usc430av-intro-131|U |1581099390|usc430av|client:ls| file.pdf   hashes2.txt		     top_secret     usc430av.txt
+ hashes    'Multinomial Model.pdf'   usc430av.pdf
+
+INPUT|usc430av-intro-132|U |1581099648|usc430av|client:ls| client.py   hashes	  'Multinomial Model.pdf'   top_secret	   usc430av.txt
+ file.pdf    hashes2.txt   server.py		    usc430av.pdf
+
+INPUT|usc430av-intro-133|U |1581099688|usc430av|server:ls| client.py   hashes	  'Multinomial Model.pdf'   top_secret	   usc430av.txt
+ file.pdf    hashes2.txt   server.py		    usc430av.pdf
+
+INPUT|usc430av-intro-134|U |1581099693|usc430av|server:python3 server.py|starting up on localhost port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+PermissionError: [Errno 13] Permission denied
+
+INPUT|usc430av-intro-135|U |1581099703|usc430av|server:python3 server.py|starting up on localhost port 80
+Waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 19 in <module>
+    connection client_address = sock.accept();
+  File \"/usr/lib/python3.6/socket.py\" line 205 in accept
+    fd addr = self._accept()
+KeyboardInterrupt
+
+INPUT|usc430av-intro-136|U |1581099714|usc430av|client:python3 client server |python3: can't open file 'client': [Errno 2] No such file or directory
+
+INPUT|usc430av-intro-137|U |1581099718|usc430av|client:python3 client.py server|connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-138|U |1581099723|usc430av|client:python3 client.py localhost|connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-139|U |1581099813|usc430av|client:python3 client.py localhost|connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-140|U |1581099919|usc430av|client:python3 client.py localhost|connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-141|U |1581100090|usc430av|server:ls| client.py   hashes	  'Multinomial Model.pdf'   top_secret	   usc430av.txt
+ file.pdf    hashes2.txt   server.py		    usc430av.pdf
+
+INPUT|usc430av-intro-142|U |1581100114|usc430av|server:mv server.py top_secrrert|
+INPUT|usc430av-intro-143|U |1581100118|usc430av|server:mv server.py top_secret|mv: cannot stat 'server.py': No such file or directory
+
+INPUT|usc430av-intro-144|U |1581100119|usc430av|server:ls| client.py   hashes	  'Multinomial Model.pdf'   top_secrrert   usc430av.txt
+ file.pdf    hashes2.txt   top_secret		    usc430av.pdf
+
+INPUT|usc430av-intro-145|U |1581100131|usc430av|server:cd top_secrrert|bash: cd: top_secrrert: Not a directory
+
+INPUT|usc430av-intro-146|U |1581100145|usc430av|server:rm top_secrrert|
+INPUT|usc430av-intro-147|U |1581100146|usc430av|server:ls| client.py   hashes	  'Multinomial Model.pdf'   usc430av.pdf
+ file.pdf    hashes2.txt   top_secret		    usc430av.txt
+
+INPUT|usc430av-intro-148|U |1581100168|usc430av|server:ls| client.py   hashes	  'Multinomial Model.pdf'   top_secret	   usc430av.txt
+ file.pdf    hashes2.txt   server.py		    usc430av.pdf
+
+INPUT|usc430av-intro-149|U |1581100177|usc430av|server:mv server.py top_secret|
+INPUT|usc430av-intro-150|U |1581100182|usc430av|server:mv client.py top_secret|
+INPUT|usc430av-intro-151|U |1581100183|usc430av|server:ls| file.pdf   hashes2.txt		     top_secret     usc430av.txt
+ hashes    'Multinomial Model.pdf'   usc430av.pdf
+
+INPUT|usc430av-intro-152|U |1581100190|usc430av|server:cd top_secret|
+INPUT|usc430av-intro-153|U |1581100191|usc430av|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     discfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430av-intro-154|U |1581100201|usc430av|client:cd top_secret|
+INPUT|usc430av-intro-155|U |1581100209|usc430av|server:python3 server.py|starting up on localhost port 80
+Waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 19 in <module>
+    connection client_address = sock.accept();
+  File \"/usr/lib/python3.6/socket.py\" line 205 in accept
+    fd addr = self._accept()
+KeyboardInterrupt
+
+INPUT|usc430av-intro-156|U |1581100244|usc430av|client:14@14Pcd top_secret|bash: cd: top_secret: No such file or directory
+
+INPUT|usc430av-intro-157|U |1581100245|usc430av|client:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     discfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430av-intro-158|U |1581100248|usc430av|client:vim server.py|"server.py" 57L 1585C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+#Bind socket to port
+server_address = ('localhost' 80)
+print ('starting up on %%s port %%s' %% server_address file=sys.stderr)
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+
+while True:
+    # Waiting for a connection
+    print ('Waiting for a connection' file=sys.stderr)
+    connection client_address = sock.accept();
+
+
+INPUT|usc430av-intro-159|U |1581100285|usc430av|server:python3 server.py|starting up on browser_server port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+INPUT|usc430av-intro-160|U |1581100303|usc430av|client:vim server.py|"server.py" 57L 1590C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+#Bind socket to port
+server_address = ('browser_server' 80)
+print ('starting up on %%s port %%s' %% server_address file=sys.stderr)
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+
+while True:
+    # Waiting for a connection
+    print ('Waiting for a connection' file=sys.stderr)
+    connection client_address = sock.accept();
+
+
+INPUT|usc430av-intro-161|U |1581100323|usc430av|server:python3 server.py|starting up on localhost port 80
+Waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 19 in <module>
+    connection client_address = sock.accept();
+  File \"/usr/lib/python3.6/socket.py\" line 205 in accept
+    fd addr = self._accept()
+KeyboardInterrupt
+
+INPUT|usc430av-intro-162|U |1581100330|usc430av|client:14@python3 client.py localhost|connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-163|U |1581100374|usc430av|client:python3 client.py 10.1.1.3 |connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+i.deterlab.nett:~/top_secret$ python3 client.py server.hw1-usc430av-p3.USC430.isi;1581100388
+connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+i.deterlab.netAt:~/top_secret$ python3 client.py 10.1.1.3
+A
+
+INPUT|usc430av-intro-164|U |1581100475|usc430av|client:python3 client.py server  |connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-165|U |1581100627|usc430av|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.679 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.317 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.464 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=4 ttl=64 time=0.359 ms
+^C
+--- server-link0 ping statistics ---
+4 packets transmitted 4 received 0%% packet loss time 3058ms
+rtt min/avg/max/mdev = 0.317/0.454/0.679/0.142 ms
+
+INPUT|usc430av-intro-166|U |1581100638|usc430av|client:p13@ython3 client.py server|connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-167|U |1581100644|usc430av|client:python3 client.py server|connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-168|U |1581100646|usc430av|client:python3 client.py server|connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-169|U |1581100725|usc430av|client:python3 client.py server|connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-170|U |1581100761|usc430av|client:python3|Python 3.6.7 (default Oct 22 2018 11:32:17) 
+[GCC 8.2.0] on linux
+Type \"help\" \"copyright\" \"credits\" or \"license\" for more information.
+>>> import socket;1581100765
+>>> print(socket.gethostbyname('server'));1581100784
+10.1.1.3
+>>> ;1581100787
+KeyboardInterrupt
+>>> ;1581100788
+KeyboardInterrupt
+>>> ;1581100789
+
+INPUT|usc430av-intro-171|U |1581100794|usc430av|client:python3 client.py 10.1.1.3|connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-172|U |1581100807|usc430av|client:python3|Python 3.6.7 (default Oct 22 2018 11:32:17) 
+[GCC 8.2.0] on linux
+Type \"help\" \"copyright\" \"credits\" or \"license\" for more information.
+>>> import socket;1581100810
+>>> print(socket.gethostbyname('servereafw'));1581100815
+Traceback (most recent call last):
+  File \"<stdin>\" line 1 in <module>
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+>>> print(socket.gethostbyname('server'));1581100819
+10.1.1.3
+>>> ;1581100840
+
+INPUT|usc430av-intro-173|U |1581100847|usc430av|client:python3 client.py 10.1.1.3|connecting to localhost port 80
+Traceback (most recent call last):
+  File \"client.py\" line 12 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+i.deterlab.netAt:~/top_secret$ python3 client.py 10.1.1.3
+A
+i.deterlab.netAt:~/top_secret$ python3 client.py server
+A
+
+INPUT|usc430av-intro-174|U |1581100876|usc430av|client:p13P13vim client|
+
+INPUT|usc430av-intro-175|U |1581100889|usc430av|client:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     discfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430av-intro-176|U |1581100892|usc430av|client:vim client.py|"client.py" 41L 1056C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Connect the socket to the port where the server is listening
+# server_name = sys.argv[1]
+server_name = "localhost"
+server_address = (server_name 80)
+print ('connecting to %%s port %%s' %% server_address file=sys.stderr)
+sock.connect(server_address)
+
+try:# Send data
+    message = 'GET /'
+    filename = input("Enter Input: ")
+    message += filename + " HTTP/1.1"print ('sending "%%s"' %% message file=sys.stderr)
+    sock.sendall(message.encode())1111CTop~@k   2~@k   30-1~@k   41  ~@k   5~@k   60-1~@k   71  ~@k   8~@k   2I -- INSERT --8111CTop server_name = sys.argv[1]1server_name = sys.argv[1]19234567891012345678920123456server_address = (server_name 80)
+print (26C %% server_address file=sys.stderr)
+sock.connect(server_address)
+
+try:
+    
+    # Send data
+    message = 
+    filename = input(
+    message += filename + 
+    
+    print (10C%%s
+    sock.sen
+INPUT|usc430av-intro-177|U |1581100920|usc430av|client:python3 client.py server|connecting to server port 80
+Traceback (most recent call last):
+  File \"client.py\" line 11 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-178|U |1581100924|usc430av|client:11Ppython3 client.py 10.1.1.3|connecting to 10.1.1.3 port 80
+Traceback (most recent call last):
+  File \"client.py\" line 11 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-179|U |1581100936|usc430av|client:11Ppython3 client.py server|connecting to server port 80
+Traceback (most recent call last):
+  File \"client.py\" line 11 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-180|U |1581100971|usc430av|client:ping server|PING server-link0 (10.1.1.3) 56(84) bytes of data.
+64 bytes from server-link0 (10.1.1.3): icmp_seq=1 ttl=64 time=0.307 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=2 ttl=64 time=0.363 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=3 ttl=64 time=0.519 ms
+64 bytes from server-link0 (10.1.1.3): icmp_seq=4 ttl=64 time=0.409 ms
+^C
+--- server-link0 ping statistics ---
+4 packets transmitted 4 received 0%% packet loss time 3077ms
+rtt min/avg/max/mdev = 0.307/0.399/0.519/0.080 ms
+
+INPUT|usc430av-intro-181|U |1581100981|usc430av|client:p13@ython3 client.py server-link0|connecting to server-link0 port 80
+Traceback (most recent call last):
+  File \"client.py\" line 11 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-182|U |1581100985|usc430av|client:python3 client.py server-link0 10.1.1.3|connecting to server-link0 port 80
+Traceback (most recent call last):
+  File \"client.py\" line 11 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-183|U |1581100992|usc430av|client:python3 client.py 10.1.1.3             |connecting to 10.1.1.3 port 80
+Traceback (most recent call last):
+  File \"client.py\" line 11 in <module>
+    sock.connect(server_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+INPUT|usc430av-intro-184|U |1581101112|usc430av|server:vim server.py|"server.py" 57L 1585C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+#Bind socket to port
+server_address = ('localhost' 80)
+print ('starting up on %%s port %%s' %% server_address file=sys.stderr)
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+
+while True:
+    # Waiting for a connection
+    print ('Waiting for a connection' file=sys.stderr)
+    connection client_address = sock.accept();
+
+
+INPUT|usc430av-intro-185|U |1581101127|usc430av|server:python3 server.py|starting up on  port 80
+Waiting for a connection
+connection from ('10.1.1.2' 50208)
+received \"GET /fraf HTTP/1\"
+received \".1\"
+message recieved: 
+GET /fraf HTTP/1.1
+file sent
+Closing connection...
+Waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 19 in <module>
+    connection client_address = sock.accept();
+  File \"/usr/lib/python3.6/socket.py\" line 205 in accept
+    fd addr = self._accept()
+KeyboardInterrupt
+
+INPUT|usc430av-intro-186|U |1581101132|usc430av|client:python3 client.py 10.1.1.3|connecting to 10.1.1.3 port 80
+Enter Input: fraf;1581101142
+sending \"GET /fraf HTTP/1.1\"
+HTTP/1.1 404 OK 
+ 
+closing socket
+
+INPUT|usc430av-intro-187|U |1581101158|usc430av|client:pyth19P1311Pvim client.py|"client.py" 40L 1028C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+# Connect the socket to the port where the server is listening
+server_name = sys.argv[1]
+server_address = (server_name 80)
+print ('connecting to %%s port %%s' %% server_address file=sys.stderr)
+sock.connect(server_address)
+
+try:# Send data
+    message = 'GET /'
+    filename = input("Enter Input: ")
+    message += filename + " HTTP/1.1"print ('sending "%%s"' %% message file=sys.stderr)
+    sock.sendall(message.encode())# Look for the response82510CTop~@k   [
+1;24ramount_received = 019411C5%%~@k   1;23r
+1;24ramount_expected = len(message)2025
+1;24r2125
+1;24rwhile amount_received < amount_expected:22410C23%%~@k   1;23r
+1;24rdata = sock.recv(16).decode()2325
+1;24ramount_received += len(data)2423
+1;24rsock.sendall(b"FINISH")2525
+1;24r26410C47%%~@k   1;23r
+1;24rwhile True:2725
+1;24r(
+1;24r(
+1;24rprint (data end="")3025
+1;24rif not data:31410C76%%~@k   1;23r
+
+INPUT|usc430av-intro-188|U |1581101170|usc430av|client:vim server.py|"server.py" 57L 1576C½6n  >cimport socket
+import sys
+
+# Create a TCP/IP socket
+sock = socket.socket(socket.AF_INET socket.SOCK_STREAM)
+
+#Bind socket to port
+server_address = ('' 80)
+print ('starting up on %%s port %%s' %% server_address file=sys.stderr)
+sock.bind(server_address)
+
+# Listen for incoming connections
+sock.listen(1)
+
+
+while True:
+    # Waiting for a connection
+    print ('Waiting for a connection' file=sys.stderr)
+    connection client_address = sock.accept();
+    try:print('connection from' client_address file=sys.stderr)message = ""81910CTop~@k   9~@k   1019~@k   10-1~@k   219 ~@k ( )314~@k   (
+1;24r# Receive the data in small chunks and retransmit it191910C2%%~@k   1;23r
+1;24r20811C5%%~@k   1;23r
+1;24rwhile True:211910C8%%~@k   1;23r
+1;24rdata = connection.recv(16).decode()22810C11%%~@k   1;23r
+1;24rif data == "FINISH": break2319
+1;24r2419
+1;24rprint ('received "%%s"' %% data)25810C20%%~@k   1;23r
+1;24rif not data:2619
+1;24rbreak2719
+1;24relse:2819
+1;24rmessage += data29
+INPUT|usc430av-intro-189|U |1581101222|usc430av|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     discfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430av-intro-190|U |1581101349|usc430av|server:ls| file.pdf   hashes2.txt		     top_secret     usc430av.txt
+ hashes    'Multinomial Model.pdf'   usc430av.pdf
+
+INPUT|usc430av-intro-191|U |1581101351|usc430av|server:ls|aashraya  bks	    faber     jdbarnes	kls2	  patrickv  rweiss    sunshine
+albpat03  chandler  garmar09  jelena	krisgado  paullepe  schwab    tescdavy
+alefiya   cristina  gbartlet  jgli	kryptos   penged    scuric    tescjack
+alotero   dagny64   giotah    jhickey	massacci  quin2     selenaws  thang89
+ambkrish  dbosch    glawler   jjh	melkins   regste07  sklower   usc430av
+barada24  ekline    jacque    jmache	mlocasto  rgoodfel  slohith
+
+INPUT|usc430av-intro-192|U |1581101352|usc430av|server:cd ..|
+INPUT|usc430av-intro-193|U |1581101353|usc430av|server:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-194|U |1581101354|usc430av|server:cd ..|
+INPUT|usc430av-intro-195|U |1581101355|usc430av|server:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-196|A0 A2 A3 A1 A4 |1581101399|usc430av|server:find ~ iname '*info*jpg*'|/users/usc430av
+/users/usc430av/.forward
+/users/usc430av/.ssl
+/users/usc430av/.ssl/emulab.pem
+/users/usc430av/.ssh
+/users/usc430av/.ssh/id_rsa
+/users/usc430av/.ssh/id_rsa.pub
+/users/usc430av/.ssh/known_hosts
+/users/usc430av/.ssh/id_emulab.pub
+/users/usc430av/.ssh/authorized_keys
+/users/usc430av/.ssh/external_keys
+/users/usc430av/.gnupg
+/users/usc430av/.gnupg/private-keys-v1.d
+/users/usc430av/.cache
+/users/usc430av/.cache/motd.legal-displayed
+/users/usc430av/.bash_history
+/users/usc430av/Multinomial Model.pdf
+/users/usc430av/file.pdf
+/users/usc430av/usc430av.pdf
+/users/usc430av/usc430av.txt
+/users/usc430av/hashes2.txt
+/users/usc430av/.lesshst
+/users/usc430av/hashes
+/users/usc430av/.viminfo
+/users/usc430av/.python_history
+/users/usc430av/top_secret
+/users/usc430av/top_secret/xbzf136INTRO-1.jpg
+/users/usc430av/top_secret/136intro-2jjaj.JPEG
+/users/usc430av/top_secret/136intro-3.jpg
+/users/usc430av/top_secret/wuer136intro-4.JPG
+/users/usc430av/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc4
+INPUT|usc430av-intro-197|A3 A2 A0 A4 A1 |1581101406|usc430av|server:find ~ iname '*info*jpg*'|/users/usc430av
+/users/usc430av/.forward
+/users/usc430av/.ssl
+/users/usc430av/.ssl/emulab.pem
+/users/usc430av/.ssh
+/users/usc430av/.ssh/id_rsa
+/users/usc430av/.ssh/id_rsa.pub
+/users/usc430av/.ssh/known_hosts
+/users/usc430av/.ssh/id_emulab.pub
+/users/usc430av/.ssh/authorized_keys
+/users/usc430av/.ssh/external_keys
+/users/usc430av/.gnupg
+/users/usc430av/.gnupg/private-keys-v1.d
+/users/usc430av/.cache
+/users/usc430av/.cache/motd.legal-displayed
+/users/usc430av/.bash_history
+/users/usc430av/Multinomial Model.pdf
+/users/usc430av/file.pdf
+/users/usc430av/usc430av.pdf
+/users/usc430av/usc430av.txt
+/users/usc430av/hashes2.txt
+/users/usc430av/.lesshst
+/users/usc430av/hashes
+/users/usc430av/.viminfo
+/users/usc430av/.python_history
+/users/usc430av/top_secret
+/users/usc430av/top_secret/xbzf136INTRO-1.jpg
+/users/usc430av/top_secret/136intro-2jjaj.JPEG
+/users/usc430av/top_secret/136intro-3.jpg
+/users/usc430av/top_secret/wuer136intro-4.JPG
+/users/usc430av/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc4
+INPUT|usc430av-intro-198|A4 A1 A3 A2 A0 |1581101418|usc430av|server:find ~ iname '*info*.jpg*'|/users/usc430av
+/users/usc430av/.forward
+/users/usc430av/.ssl
+/users/usc430av/.ssl/emulab.pem
+/users/usc430av/.ssh
+/users/usc430av/.ssh/id_rsa
+/users/usc430av/.ssh/id_rsa.pub
+/users/usc430av/.ssh/known_hosts
+/users/usc430av/.ssh/id_emulab.pub
+/users/usc430av/.ssh/authorized_keys
+/users/usc430av/.ssh/external_keys
+/users/usc430av/.gnupg
+/users/usc430av/.gnupg/private-keys-v1.d
+/users/usc430av/.cache
+/users/usc430av/.cache/motd.legal-displayed
+/users/usc430av/.bash_history
+/users/usc430av/Multinomial Model.pdf
+/users/usc430av/file.pdf
+/users/usc430av/usc430av.pdf
+/users/usc430av/usc430av.txt
+/users/usc430av/hashes2.txt
+/users/usc430av/.lesshst
+/users/usc430av/hashes
+/users/usc430av/.viminfo
+/users/usc430av/.python_history
+/users/usc430av/top_secret
+/users/usc430av/top_secret/xbzf136INTRO-1.jpg
+/users/usc430av/top_secret/136intro-2jjaj.JPEG
+/users/usc430av/top_secret/136intro-3.jpg
+/users/usc430av/top_secret/wuer136intro-4.JPG
+/users/usc430av/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc4
+INPUT|usc430av-intro-199|A0 A2 A3 A4 A1 |1581101437|usc430av|server:find ~ iname '*.jpg'|/users/usc430av
+/users/usc430av/.forward
+/users/usc430av/.ssl
+/users/usc430av/.ssl/emulab.pem
+/users/usc430av/.ssh
+/users/usc430av/.ssh/id_rsa
+/users/usc430av/.ssh/id_rsa.pub
+/users/usc430av/.ssh/known_hosts
+/users/usc430av/.ssh/id_emulab.pub
+/users/usc430av/.ssh/authorized_keys
+/users/usc430av/.ssh/external_keys
+/users/usc430av/.gnupg
+/users/usc430av/.gnupg/private-keys-v1.d
+/users/usc430av/.cache
+/users/usc430av/.cache/motd.legal-displayed
+/users/usc430av/.bash_history
+/users/usc430av/Multinomial Model.pdf
+/users/usc430av/file.pdf
+/users/usc430av/usc430av.pdf
+/users/usc430av/usc430av.txt
+/users/usc430av/hashes2.txt
+/users/usc430av/.lesshst
+/users/usc430av/hashes
+/users/usc430av/.viminfo
+/users/usc430av/.python_history
+/users/usc430av/top_secret
+/users/usc430av/top_secret/xbzf136INTRO-1.jpg
+/users/usc430av/top_secret/136intro-2jjaj.JPEG
+/users/usc430av/top_secret/136intro-3.jpg
+/users/usc430av/top_secret/wuer136intro-4.JPG
+/users/usc430av/top_secret/asdf136Intro-5kqlw.jpeg
+/users/usc4
+INPUT|usc430av-intro-200|A1 A4 A0 A2 A3 |1581101476|usc430av|server:find ~ (-iname '*info*.jpg*' -o -iname '*info*.jpeg')|bash: syntax error near unexpected token `('
+
+INPUT|usc430av-intro-201|A0 A2 A3 A4 A1 |1581101495|usc430av|server:find ~ \(-iname '*info*.jpg*' -o -iname '*info*.jpeg' \) Asc430av@server:/$ sudo find ~ \|
+find: invalid expression; you have used a binary operator '-o' with nothing before it.
+A
+
+INPUT|usc430av-intro-202|A0 A2 A3 A1 A4 |1581101504|usc430av|server:find ~ \(-iname '*info*.jpg|find: invalid expression; you have used a binary operator '-o' with nothing before it.
+
+INPUT|usc430av-intro-203|A1 A4 A0 A2 A3 |1581101519|usc430av|server:find ~ \(-iname '*info*.jpg' -o -iname '*info*.jpeg' \)|find: invalid expression; you have used a binary operator '-o' with nothing before it.
+
+INPUT|usc430av-intro-204|A0 A2 A3 A1 A4 |1581101530|usc430av|server:find ~inamee '*jpg'|find: '~inamee': No such file or directory
+find: '*jpg': No such file or directory
+
+INPUT|usc430av-intro-205|A0 A2 A3 A4 A1 |1581101534|usc430av|server:find ~iname '*jpg'|find: '~iname': No such file or directory
+find: '*jpg': No such file or directory
+
+INPUT|usc430av-intro-206|A2 A3 A0 A1 A4 |1581101544|usc430av|server:find ~ -iname '*jpg'|/users/usc430av/top_secret/xbzf136INTRO-1.jpg
+/users/usc430av/top_secret/136intro-3.jpg
+/users/usc430av/top_secret/wuer136intro-4.JPG
+
+INPUT|usc430av-intro-207|A0 A2 A3 A1 A4 |1581101550|usc430av|server:find ~ -iname '*jpeg'|/users/usc430av/top_secret/136intro-2jjaj.JPEG
+/users/usc430av/top_secret/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430av-intro-208|A2 A3 A0 A1 A4 |1581101571|usc430av|server:find ~ -iname '*jpeg'|/users/usc430av/top_secret/136intro-2jjaj.JPEG
+/users/usc430av/top_secret/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430av-intro-209|U |1581101572|usc430av|server:ls|bin   etc	  initrd.img.old  local       mnt   proj  sbin	 srv  users  vmlinuz
+boot  home	  lib		  lost+found  opt   root  share  sys  usr    vmlinuz.old
+dev   initrd.img  lib64		  media       proc  run   snap	 tmp  var
+
+INPUT|usc430av-intro-210|U |1581102884|usc430av|intro:ls| file.pdf   hashes2.txt		     top_secret     usc430av.txt
+ hashes    'Multinomial Model.pdf'   usc430av.pdf
+
+INPUT|usc430av-intro-211|U |1581102886|usc430av|intro:cd ..|
+INPUT|usc430av-intro-212|U |1581102887|usc430av|intro:cd ..|
+INPUT|usc430av-intro-213|U |1581102888|usc430av|intro:cd ..|
+INPUT|usc430av-intro-214|U |1581102890|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-215|A1 A4 A2 A3 A0 |1581102968|usc430av|intro:find ~ \(-iname '*info*.jpeg' -o -iname '*info*.jpg')|bash: syntax error near unexpected token `)'
+
+INPUT|usc430av-intro-216|A0 A2 A3 A4 A1 |1581102971|usc430av|intro:find ~ \(-iname '*info*.jpeg' -o -iname '*info*.jpg' )|bash: syntax error near unexpected token `)'
+
+INPUT|usc430av-intro-217|A4 A1 A3 A2 A0 |1581102976|usc430av|intro:find ~ \(-iname '*info*.jpeg' -o -iname '*info*.jpg' \)|find: invalid expression; you have used a binary operator '-o' with nothing before it.
+
+INPUT|usc430av-intro-218|A2 A3 A0 A1 A4 |1581102987|usc430av|intro:find ~ -iname '*info*.jpeg'                          |
+INPUT|usc430av-intro-219|A4 A1 A0 A2 A3 |1581102990|usc430av|intro:find ~ -iname '*info*.jpeg'|
+INPUT|usc430av-intro-220|A2 A3 A0 A1 A4 |1581102996|usc430av|intro:find ~ -iname '*jpeg'|/users/usc430av/top_secret/136intro-2jjaj.JPEG
+/users/usc430av/top_secret/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430av-intro-221|U |1581102998|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-222|A1 A4 A2 A3 A0 |1581103008|usc430av|intro:find ~ -iname '*jpgg'|
+INPUT|usc430av-intro-223|A0 A2 A3 A4 A1 |1581103011|usc430av|intro:find ~ -iname '*jpg'|/users/usc430av/top_secret/xbzf136INTRO-1.jpg
+/users/usc430av/top_secret/136intro-3.jpg
+/users/usc430av/top_secret/wuer136intro-4.JPG
+
+INPUT|usc430av-intro-224|M3 M2 M0 |1581103014|usc430av|intro:find . -iname '*jpg'|./users/usc430av/top_secret/xbzf136INTRO-1.jpg
+./users/usc430av/top_secret/136intro-3.jpg
+./users/usc430av/top_secret/wuer136intro-4.JPG
+^[[A^[[A^[[B./usr/share/pixmaps/xbzf136INTRO-1.jpg
+^[[find: './tmp/systemd-private-fa9d255b34ea4089bfa02d0072957805-systemd-timesyncd.service-NhUZHL': Permission denied
+find: './tmp/systemd-private-fa9d255b34ea4089bfa02d0072957805-systemd-resolved.service-IfihGy': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': 
+INPUT|usc430av-intro-225|M3 M2 M0 |1581103049|usc430av|intro:find . -iname '*jpg'|./users/usc430av/top_secret/xbzf136INTRO-1.jpg
+./users/usc430av/top_secret/136intro-3.jpg
+./users/usc430av/top_secret/wuer136intro-4.JPG
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+find: './tmp/systemd-private-fa9d255b34ea4089bfa02d0072957805-systemd-timesyncd.service-NhUZHL': Permission denied
+find: './tmp/systemd-private-fa9d255b34ea4089bfa02d0072957805-systemd-resolved.service-IfihGy': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission deni
+INPUT|usc430av-intro-226|M3 M2 M0 |1581103056|usc430av|intro:find . -iname '*jpg'|./users/usc430av/top_secret/xbzf136INTRO-1.jpg
+./users/usc430av/top_secret/136intro-3.jpg
+./users/usc430av/top_secret/wuer136intro-4.JPG
+./usr/share/pixmaps/xbzf136INTRO-1.jpg
+./var/log/136intro-3.jpg
+./etc/wuer136intro-4.JPG
+./proj/USC430/exp/hw1-usc430bf/top_secret/136intro-3.jpg
+./proj/USC430/exp/hw1-usc430bf/top_secret/wuer136intro-4.JPG
+./proj/USC430/exp/hw1-usc430bf/top_secret/xbzf136INTRO-1.jpg
+./proj/USC430/exp/hw1-usc430bf/wuer136intro-4.JPG
+
+INPUT|usc430av-intro-227|M4 M1 |1581103102|usc430av|intro:find . -iname '*jpeg'|./.hidden/asdf136Intro-5kqlw.jpeg
+./users/usc430av/top_secret/136intro-2jjaj.JPEG
+./users/usc430av/top_secret/asdf136Intro-5kqlw.jpeg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-20/drivers/media/platform/s5p-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/mtk-jpeg
+./usr/src/linux-headers-4.15.0-43/drivers/media/platform/s5p-jpeg
+./dev/136intro-2jjaj.JPEG
+^C;1581103111
+
+INPUT|usc430av-intro-228|U |1581104086|usc430av|server:ls| file.pdf   hashes2.txt		     top_secret     usc430av.txt
+ hashes    'Multinomial Model.pdf'   usc430av.pdf
+
+INPUT|usc430av-intro-229|U |1581104088|usc430av|server:cd top_secret|
+INPUT|usc430av-intro-230|U |1581104090|usc430av|server:ls|136intro-2jjaj.JPEG  asdf136Intro-5kqlw.jpeg  server.py
+136intro-3.jpg	     client.py		      wuer136intro-4.JPG
+answers.txt	     discfree.txt	      xbzf136INTRO-1.jpg
+
+INPUT|usc430av-intro-231|U |1581104095|usc430av|server:python3 server.py|starting up on  port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+PermissionError: [Errno 13] Permission denied
+
+INPUT|usc430av-intro-232|U |1581104101|usc430av|server:python3 server.py|starting up on  port 80
+Waiting for a connection
+connection from ('10.1.1.2' 50076)
+received \"GET /test.txt HT\"
+received \"TP/1.1\"
+message recieved: 
+GET /test.txt HTTP/1.1
+file sent
+Closing connection...
+Waiting for a connection
+connection from ('10.1.1.2' 50078)
+received \"GET /test.txt HT\"
+received \"TP/1.1\"
+message recieved: 
+GET /test.txt HTTP/1.1
+file sent
+Closing connection...
+Waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 19 in <module>
+    connection client_address = sock.accept();
+  File \"/usr/lib/python3.6/socket.py\" line 205 in accept
+    fd addr = self._accept()
+KeyboardInterrupt
+
+INPUT|usc430av-intro-233|U |1581104115|usc430av|client:python3 client.py server|python3: can't open file 'client.py': [Errno 2] No such file or directory
+
+INPUT|usc430av-intro-234|U |1581104119|usc430av|client:ls| file.pdf   hashes2.txt		     top_secret     usc430av.txt
+ hashes    'Multinomial Model.pdf'   usc430av.pdf
+
+INPUT|usc430av-intro-235|U |1581104123|usc430av|client:cd top_secret|
+INPUT|usc430av-intro-236|U |1581104125|usc430av|client:python3 client.py server|connecting to server port 80
+Enter Input: test.txt;1581104249
+sending \"GET /test.txt HTTP/1.1\"
+HTTP/1.1 404 Page Not Found 
+ 
+closing socket
+
+INPUT|usc430av-intro-237|U |1581104263|usc430av|client:python3 client.py server|connecting to server port 80
+Enter Input: test.txt;1581104267
+sending \"GET /test.txt HTTP/1.1\"
+HTTP/1.1 404 Page Not Found 
+ 
+closing socket
+
+INPUT|usc430av-intro-238|U |1581104305|usc430av|server:vim server.py|"server.py" 57L 1588C½6n  >cconnection.sendall(data.encode())print ("message recieved: ")# Parse Requestprint(message)parameters = message.split()# Send Datatry:with open("tmp" + parameters[1] "rb") as file:connection.sendall(b"HTTP/1.1 200 OK 
+ 
+" + file.read())except:connection.sendall(b"HTTP/1.1 404 Page Not Found 
+ 
+")print ("file sent")
+    except:print("Unexpected error:" sys.exc_info()[0])
+    finally:# Clean up the connectionprint ("Closing connection...")connection.close()4960
+1;24rdata = connection.recv(16).decode()22810C11%%1;23r
+1;24rif data == "FINISH": break2320
+1;24r2460
+1;24rprint ('received "%%s"' %% data)25810C20%%1;23r
+1;24rif not data:2619
+1;24r()break2747
+1;24r()else:2838
+1;24rmessage += data2912
+1;24r(22C)connection.sendall(data.encode())3042
+1;24r(22C)3124
+1;24rprint ("message recieved: ")3221
+1;24r3317
+1;24r3431
+1;24r(13C)# Parse Request3549
+1;24r(13C)print(message)3616
+1;24r(20C)parameters = message.split()3736
+1;24r(20C)38810C58%%~@k   1;23r
+1;24r# Send Data39
+INPUT|usc430av-intro-239|U |1581104429|usc430av|server:python3 server.py|  File \"server.py\" line 58
+    connection.close)
+                    ^
+SyntaxError: invalid syntax
+
+INPUT|usc430av-intro-240|U |1581104433|usc430av|server:vim server.py|"server.py" 58L 1604C½6n  >cconnection.sendall(data.encode())print ("message recieved: ")# Parse Requestprint(message)parameters = message.split()# Send Datatry:with open("/tmp" + parameters[1] "rb") as file:connection.sendall(b"HTTP/1.1 200 OK 
+ 
+" + file.read())print("File Sent")except:connection.sendall(b"HTTP/1.1 404 Page Not Found 
+ 
+")except:print("Unexpected error:" sys.exc_info()[0])
+    finally:# Clean up the connectionprint ("Closing connection...")4624
+1;24rconnection.sendall(b"HTTP/1.1 404 Page Not Found 
+ 
+")4512
+1;24r4624
+1;24r4724
+1;24rexcept:4824
+1;24rprint("Unexpected error:" sys.exc_info()[0])4915
+1;24rfinally:5024
+1;24r# Clean up the connection5124
+1;24rprint ("Closing connection...")52810C97%%~@k   1;23r
+1;24rconnection.close)5311
+1;24r# Receive the data in small chunks and retransmit it192510C2%%1;23r
+1;24r20811C5%%1;23r
+1;24rwhile True:212510C8%%1;23r
+1;24rdata = connection.recv(16).decode()22810C11%%1;23r
+1;24rif data == "FINISH": break2320
+1;24r2425
+1;24rprint (
+INPUT|usc430av-intro-241|U |1581104461|usc430av|server:python3 server.py|starting up on  port 80
+Waiting for a connection
+connection from ('10.1.1.2' 50080)
+received \"GET /test.txt HT\"
+received \"TP/1.1\"
+message recieved: 
+GET /test.txt HTTP/1.1
+Closing connection...
+Waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 19 in <module>
+    connection client_address = sock.accept();
+  File \"/usr/lib/python3.6/socket.py\" line 205 in accept
+    fd addr = self._accept()
+KeyboardInterrupt
+
+INPUT|usc430av-intro-242|U |1581104463|usc430av|client:python3 client.py server|connecting to server port 80
+Enter Input: test.txt         ;1581104474
+sending \"GET /test.txt HTTP/1.1\"
+HTTP/1.1 404 Page Not Found 
+ 
+closing socket
+
+INPUT|usc430av-intro-243|U |1581104496|usc430av|server:vim server.py|"server.py" 58L 1605C½6n  >cprint ("message recieved: ")# Parse Requestprint(message)parameters = message.split()# Send Datatry:with open("/tmp" + parameters[1] "rb") as file:connection.sendall(b"HTTP/1.1 200 OK 
+ 
+" + file.read())print("File Sent")except:connection.sendall(b"HTTP/1.1 404 Page Not Found 
+ 
+")except:print("Unexpected error:" sys.exc_info()[0])
+    finally:# Clean up the connectionprint ("Closing connection...")connection.close()5825
+            with open(
+                connection.sendall(b
+ 
+
+                print(
+        except:
+            connection.sendall(b
+ 
+
+                         
+        
+    except:
+        print(
+    finally:
+        # Clean up the connection
+        print (
+            with open(
+                connection.sendall(b
+ 
+
+                print(
+        except:
+            connection.sendall(b
+ 
+
+                         
+        
+    except:
+        print(
+    finally:
+        # Clean up the connection
+
+
+INPUT|usc430av-intro-244|U |1581104541|usc430av|server:python3 server.py|starting up on  port 80
+Waiting for a connection
+connection from ('10.1.1.2' 50082)
+received \"GET /test.txt HT\"
+received \"TP/1.1\"
+message recieved: 
+GET /test.txt HTTP/1.1
+/tmp/test.txt
+Closing connection...
+Waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 19 in <module>
+    connection client_address = sock.accept();
+  File \"/usr/lib/python3.6/socket.py\" line 205 in accept
+    fd addr = self._accept()
+KeyboardInterrupt
+
+INPUT|usc430av-intro-245|U |1581104546|usc430av|client:python3 client.py server|connecting to server port 80
+Enter Input: test.txt;1581104552
+sending \"GET /test.txt HTTP/1.1\"
+HTTP/1.1 404 Page Not Found 
+ 
+closing socket
+
+INPUT|usc430av-intro-246|U |1581104563|usc430av|server:vim server.py|"server.py" 59L 1646C½6n  >cprint ("message recieved: ")# Parse Requestprint(message)parameters = message.split()# Send Datatry:print("/tmp" + parameters[1])with open("tmp" + parameters[1] "rb") as file:connection.sendall(b"HTTP/1.1 200 OK 
+ 
+" + file.read())print("File Sent")except:connection.sendall(b"HTTP/1.1 404 Page Not Found 
+ 
+")except:print("Unexpected error:" sys.exc_info()[0])
+    finally:# Clean up the connectionprint ("Closing connection...")4723
+1;24r# Receive the data in small chunks and retransmit it192110C2%%~@k   1;23r
+1;24r20811C5%%~@k   1;23r
+1;24rwhile True:212110C8%%~@k   1;23r
+1;24rdata = connection.recv(16).decode()22810C11%%~@k   1;23r
+1;24rif data == "FINISH": break2320
+1;24r2421
+1;24rprint ('received "%%s"' %% data)25810C19%%~@k   1;23r
+1;24rif not data:2619
+1;24rbreak2721
+1;24relse:2821
+1;24rmessage += data2912
+1;24rconnection.sendall(data.encode())3021
+1;24r3121
+1;24rprint ("message recieved: ")3221
+1;24r3317
+1;24r3421
+1;24r# Parse Request3521
+1;24rprint(mes
+INPUT|usc430av-intro-247|U |1581104603|usc430av|server:python3 server.py|starting up on  port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+OSError: [Errno 98] Address already in use
+
+INPUT|usc430av-intro-248|U |1581104607|usc430av|server:python3 server.py|starting up on  port 80
+Traceback (most recent call last):
+  File \"server.py\" line 10 in <module>
+    sock.bind(server_address)
+OSError: [Errno 98] Address already in use
+
+INPUT|usc430av-intro-249|U |1581104624|usc430av|server:ls|136intro-2jjaj.JPEG	 client.py     wuer136intro-4.JPG
+136intro-3.jpg		 discfree.txt  xbzf136INTRO-1.jpg
+answers.txt		 server.py
+asdf136Intro-5kqlw.jpeg  tmp
+
+INPUT|usc430av-intro-250|U |1581104628|usc430av|server:cd tmp|
+INPUT|usc430av-intro-251|U |1581104629|usc430av|server:ls|text.txt
+
+INPUT|usc430av-intro-252|U |1581104631|usc430av|server:cd ..|
+INPUT|usc430av-intro-253|U |1581104635|usc430av|server:python3 server.py|starting up on  port 80
+Waiting for a connection
+connection from ('10.1.1.2' 50084)
+received \"GET /text.txt HT\"
+received \"TP/1.1\"
+message recieved: 
+GET /text.txt HTTP/1.1
+tmp/text.txt
+File Sent
+Closing connection...
+Waiting for a connection
+connection from ('10.1.1.2' 50086)
+received \"GET /dcav HTTP/1\"
+received \".1\"
+message recieved: 
+GET /dcav HTTP/1.1
+tmp/dcav
+Closing connection...
+Waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 19 in <module>
+    connection client_address = sock.accept();
+  File \"/usr/lib/python3.6/socket.py\" line 205 in accept
+    fd addr = self._accept()
+KeyboardInterrupt
+
+INPUT|usc430av-intro-254|U |1581104636|usc430av|client:python3 client.py server|connecting to server port 80
+Enter Input: text.txt;1581104642
+sending \"GET /text.txt HTTP/1.1\"
+HTTP/1.1 200 OK 
+ 
+This is a text file
+Line 1
+Line 2
+Line 3
+closing socket
+
+INPUT|usc430av-intro-255|U |1581104655|usc430av|client:python3 client.py server|connecting to server port 80
+Enter Input: dcav;1581104657
+sending \"GET /dcav HTTP/1.1\"
+HTTP/1.1 404 Page Not Found 
+ 
+closing socket
+
+INPUT|usc430av-intro-256|U |1581104664|usc430av|server:vim server.py|"server.py" 59L 1645C½6n  >cconnection.sendall(data.encode())print ("message recieved: ")# Parse Requestprint(message)parameters = message.split()# Send Datatry:print("tmp" + parameters[1])with open("tmp" + parameters[1] "rb") as file:connection.sendall(b"HTTP/1.1 200 OK 
+ 
+" + file.read())print("File Sent")except:connection.sendall(b"HTTP/1.1 404 Page Not Found 
+ 
+")except:print("Unexpected error:" sys.exc_info()[0])
+    finally:# Clean up the connection4627
+                connection.sendall(b
+ 
+
+                print(
+        except:
+            connection.sendall(b
+ 
+
+                         
+        
+    except:
+        print(
+    finally:
+        # Clean up the connection3210            with open(
+                connection.sendall(b
+ 
+
+                print(
+        except:
+            connection.sendall(b
+ 
+
+                         
+        
+    except:
+        print(
+    finally:
+        # Clean up the connectiprin765439 5111;23r
+1;24rtry:print ("Closing connection...")4513
+
+INPUT|usc430av-intro-257|U |1581104754|usc430av|server:python3 server.py|starting up on  port 80
+Waiting for a connection
+connection from ('10.1.1.2' 50088)
+Request recieved: GET /text.txt HTTP/1.1
+File /text.txt Successfully Sent
+Closing connection...
+Waiting for a connection
+^CTraceback (most recent call last):
+  File \"server.py\" line 19 in <module>
+    connection client_address = sock.accept();
+  File \"/usr/lib/python3.6/socket.py\" line 205 in accept
+    fd addr = self._accept()
+KeyboardInterrupt
+
+INPUT|usc430av-intro-258|U |1581104755|usc430av|client:python3 client.py server|connecting to server port 80
+Enter Input: text.txt;1581104759
+sending \"GET /text.txt HTTP/1.1\"
+HTTP/1.1 200 OK 
+ 
+This is a text file
+Line 1
+Line 2
+Line 3
+closing socket
+
+INPUT|usc430av-intro-259|A0 A2 A3 A4 A1 |1581105601|usc430av|intro:find ~ -iname '*info*.jpeg'|
+INPUT|usc430av-intro-260|U |1581105607|usc430av|intro:cd ..|
+INPUT|usc430av-intro-261|U |1581105608|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-262|U |1581105610|usc430av|intro:cd ..|
+INPUT|usc430av-intro-263|U |1581105611|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-264|A2 A3 A0 A4 A1 |1581105614|usc430av|intro:find ~ -iname '*info*.jpeg'|
+INPUT|usc430av-intro-265|A3 A2 A0 A4 A1 |1581105622|usc430av|intro:find ~ -iname '.jpeg'|
+INPUT|usc430av-intro-266|A3 A2 A0 A1 A4 |1581105630|usc430av|intro:find ~ -iname '*.jpeg'|/users/usc430av/top_secret/136intro-2jjaj.JPEG
+/users/usc430av/top_secret/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430av-intro-267|A0 A2 A3 A4 A1 |1581105633|usc430av|intro:find ~ -iname '*.jpg'|/users/usc430av/top_secret/xbzf136INTRO-1.jpg
+/users/usc430av/top_secret/136intro-3.jpg
+/users/usc430av/top_secret/wuer136intro-4.JPG
+
+INPUT|usc430av-intro-268|U |1581105637|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-269|A1 A4 A0 A2 A3 |1581105643|usc430av|intro:find ~ -iname '*.jpeg'|/users/usc430av/top_secret/136intro-2jjaj.JPEG
+/users/usc430av/top_secret/asdf136Intro-5kqlw.jpeg
+
+INPUT|usc430av-intro-270|A0 A2 A3 A4 A1 |1581105648|usc430av|intro:find ~ -iname '*.jpgg'|
+INPUT|usc430av-intro-271|A4 A1 A0 A2 A3 |1581105651|usc430av|intro:find ~ -iname '*.jpg'|/users/usc430av/top_secret/xbzf136INTRO-1.jpg
+/users/usc430av/top_secret/136intro-3.jpg
+/users/usc430av/top_secret/wuer136intro-4.JPG
+
+INPUT|usc430av-intro-272|A4 A1 A3 A2 A0 |1581105658|usc430av|intro:find ~ -iname '.jpg'|
+INPUT|usc430av-intro-273|A1 A4 A2 A3 A0 |1581105662|usc430av|intro:find ~ -iname '*.jpg'|/users/usc430av/top_secret/xbzf136INTRO-1.jpg
+/users/usc430av/top_secret/136intro-3.jpg
+/users/usc430av/top_secret/wuer136intro-4.JPG
+
+INPUT|usc430av-intro-274|A1 A4 A0 A2 A3 |1581105666|usc430av|intro:find ~ -iname '*.txt'|/users/usc430av/usc430av.txt
+/users/usc430av/hashes2.txt
+/users/usc430av/top_secret/discfree.txt
+/users/usc430av/top_secret/answers.txt
+/users/usc430av/top_secret/tmp/text.txt
+
+INPUT|usc430av-intro-275|A4 A1 A3 A2 A0 |1581105674|usc430av|intro:find ~ -iname '*.jpg'|/users/usc430av/top_secret/xbzf136INTRO-1.jpg
+/users/usc430av/top_secret/136intro-3.jpg
+/users/usc430av/top_secret/wuer136intro-4.JPG
+
+INPUT|usc430av-intro-276|A3 A2 A0 A4 A1 |1581105682|usc430av|intro:find ~ -iname '*info*.jpeg'|
+INPUT|usc430av-intro-277|A0 A2 A3 A4 A1 |1581105684|usc430av|intro:find ~ -iname '*info*.jpg'|
+INPUT|usc430av-intro-278|U |1581105686|usc430av|intro:cd ..|
+INPUT|usc430av-intro-279|U |1581105687|usc430av|intro:ls|bin   home	      lib64	  mnt	root   snap  users    vmlinuz.old
+boot  initrd.img      local	  opt	run    srv   usr
+dev   initrd.img.old  lost+found  proc	sbin   sys   var
+etc   lib	      media	  proj	share  tmp   vmlinuz
+
+INPUT|usc430av-intro-280|A1 A4 A0 A2 A3 |1581105693|usc430av|intro:find . -iname '*info*.jpg'|find: './tmp/systemd-private-7e137132a6c84f749ce4e9bcd289ef1c-systemd-timesyncd.service-trLmNn': Permission denied
+find: './tmp/systemd-private-7e137132a6c84f749ce4e9bcd289ef1c-systemd-resolved.service-YqF1H0': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430av-intro-281|A1 A4 A0 A2 A3 |1581105732|usc430av|intro:find . -iname '*info*.jpg'|^C;1581105760
+
+INPUT|usc430av-intro-282|A4 A1 A0 A2 A3 |1581105764|usc430av|intro:find . -iname '*info*.jpeg'|^C;1581105768
+
+INPUT|usc430av-intro-283|A3 A2 A0 A4 A1 |1581105773|usc430av|intro:find . -iname '*info*.jpeg'|find: './tmp/systemd-private-7e137132a6c84f749ce4e9bcd289ef1c-systemd-timesyncd.service-trLmNn': Permission denied
+find: './tmp/systemd-private-7e137132a6c84f749ce4e9bcd289ef1c-systemd-resolved.service-YqF1H0': Permission denied
+find: './sys/kernel/debug': Permission denied
+find: './sys/fs/fuse/connections/49': Permission denied
+find: './proc/tty/driver': Permission denied
+find: './proc/1/task/1/fd': Permission denied
+find: './proc/1/task/1/fdinfo': Permission denied
+find: './proc/1/task/1/ns': Permission denied
+find: './proc/1/fd': Permission denied
+find: './proc/1/map_files': Permission denied
+find: './proc/1/fdinfo': Permission denied
+find: './proc/1/ns': Permission denied
+find: './proc/2/task/2/fd': Permission denied
+find: './proc/2/task/2/fdinfo': Permission denied
+find: './proc/2/task/2/ns': Permission denied
+find: './proc/2/fd': Permission denied
+find: './proc/2/map_files': Permission denied
+find: './proc/2/fdinfo': Permission denied
+find: './proc/2/ns': Permission denied
+find: 
+INPUT|usc430av-intro-284|A2 A3 A0 A4 A1 |1581105797|usc430av|intro:find . -iname '*info*.jpeg'|
+INPUT|usc430av-intro-285|A0 A2 A3 A1 A4 |1581105825|usc430av|intro:find . -iname '*info*.jpeg'|
+INPUT|usc430av-intro-286|M4 M1 |1581105880|usc430av|intro:find . -iname '*.jpeg'|./.hidden/asdf136Intro-5kqlw.jpeg
+./users/usc430av/top_secret/136intro-2jjaj.JPEG
+./users/usc430av/top_secret/asdf136Intro-5kqlw.jpeg
+./dev/136intro-2jjaj.JPEG
+^C;1581105894
+
+INPUT|usc430av-intro-287|U |1581109323|usc430av|client:cd top_secret|
+INPUT|usc430av-intro-288|U |1581109326|usc430av|server:cd top_secret|
+INPUT|usc430av-intro-289|U |1581109327|usc430av|server:ls|136intro-2jjaj.JPEG	 client.py     wuer136intro-4.JPG
+136intro-3.jpg		 discfree.txt  xbzf136INTRO-1.jpg
+answers.txt		 server.py
+asdf136Intro-5kqlw.jpeg  tmp
+
+INPUT|usc430av-intro-290|U |1581109336|usc430av|server:python3 server.py|starting up on  port 80
+Waiting for a connection
+connection from ('10.1.1.2' 50096)
+Request recieved: GET /basic.txt HTTP/1.1
+Closing connection...
+Waiting for a connection
+connection from ('10.1.1.2' 50098)
+Request recieved: GET /text.txt HTTP/1.1
+File /text.txt Successfully Sent
+Closing connection...
+Waiting for a connection
+
+INPUT|usc430av-intro-291|U |1581109346|usc430av|client:python3 client.py server|connecting to server port 80
+Enter Input: basic.txt;1581109356
+sending \"GET /basic.txt HTTP/1.1\"
+HTTP/1.1 404 Page Not Found 
+ 
+closing socket
+
+INPUT|usc430av-intro-292|U |1581109394|usc430av|client:python3 client.py server|connecting to server port 80
+Enter Input: text.txt;1581109400
+sending \"GET /text.txt HTTP/1.1\"
+HTTP/1.1 200 OK 
+ 
+This is a text file
+Line 1
+Line 2
+Line 3
+closing socket
+
